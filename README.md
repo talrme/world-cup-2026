@@ -1,5 +1,7 @@
 # World Cup Snapshot
 
+**Live site:** [https://talrme.github.io/world-cup-2026/](https://talrme.github.io/world-cup-2026/)
+
 A local, spoiler-conscious 2026 World Cup schedule dashboard. It keeps scores in the data file so the schedule can be updated, but the UI hides them by default so you can jump straight to highlights without accidentally seeing a result.
 
 ## What It Does
