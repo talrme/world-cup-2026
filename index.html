@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>World Cup Snapshot</title>
+    <meta name="description" content="Interactive 2026 World Cup schedule with highlight links." />
+    <link rel="icon" href="./public/favicon.svg" />
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <main id="app" class="app-shell" data-view="timeline">
+      <div class="hero-texture" aria-hidden="true"></div>
+      <div class="empty-state">
+        <strong>Loading schedule</strong>
+        <span>Preparing the board.</span>
+      </div>
+    </main>
+    <script src="./schedule-data.js"></script>
+    <script src="./static-app.js"></script>
+  </body>
+</html>
