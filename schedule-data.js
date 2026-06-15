@@ -37,9 +37,9 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+Mexico+vs+South+Africa+extended+highlights+2026+FIFA+World+Cup",
-          "lastCheckedAt": "2026-06-15T18:42:50+00:00"
+          "lastCheckedAt": "2026-06-15T19:13:02+00:00"
         },
-        "lastCheckedAt": "2026-06-15T18:42:50+00:00",
+        "lastCheckedAt": "2026-06-15T19:13:02+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+Mexico+vs+South+Africa+highlights+2026+FIFA+World+Cup",
           "lastCheckedAt": "2026-06-14T06:13:33+00:00",
@@ -72,9 +72,9 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+South+Korea+vs+Czechia+extended+highlights+2026+FIFA+World+Cup",
-          "lastCheckedAt": "2026-06-15T18:43:12+00:00"
+          "lastCheckedAt": "2026-06-15T19:13:10+00:00"
         },
-        "lastCheckedAt": "2026-06-15T18:43:12+00:00",
+        "lastCheckedAt": "2026-06-15T19:13:10+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+South+Korea+vs+Czechia+highlights+2026+FIFA+World+Cup",
           "lastCheckedAt": "2026-06-14T06:13:49+00:00",
@@ -1821,7 +1821,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-15T18:42:50+00:00",
+  "scheduleUpdatedAt": "2026-06-15T19:13:02+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
