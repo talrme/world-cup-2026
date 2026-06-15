@@ -4,6 +4,7 @@ This project is a local, spoiler-safe World Cup highlight dashboard. Future AI e
 
 ## Operating Principles
 
+- Before starting work, run `git status --short --branch`. Because GitHub Actions refreshes and may commit data every 30 minutes, run `git pull` first when the tree is clean, especially before local refreshes, code edits, commits, or pushes. If the tree is not clean, inspect the local changes before pulling and do not overwrite user work.
 - Do not show scores by default in any view.
 - Keep score data in `data/world-cup-2026.json`; hiding is a UI responsibility.
 - Direct highlight links must be Fox Sports/Fox Soccer only.
@@ -49,6 +50,16 @@ python3 scripts/update_highlights.py --sync-only
 ```
 
 ## Refresh Workflow
+
+GitHub Actions also runs the refresh workflow on a cadence:
+
+```text
+.github/workflows/refresh-data.yml
+```
+
+Those automated runs can commit refreshed `data/world-cup-2026.json` and `schedule-data.js` back to `main`, so local work should start from an up-to-date branch whenever possible.
+
+No-op refreshes should not create commits. Avoid timestamp-only writes such as `lastCheckedAt` or `scheduleUpdatedAt` when no schedule result, team, kickoff, network, or direct video link changed.
 
 Use this for a normal update:
 

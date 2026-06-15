@@ -113,12 +113,12 @@ jobs:
             echo
             echo "### Changed files"
             echo '```text'
-            git status --short
+            git status --short -- data/world-cup-2026.json schedule-data.js
             echo '```'
             echo
             echo "### Diff summary"
             echo '```text'
-            git diff --stat || true
+            git diff --stat -- data/world-cup-2026.json schedule-data.js || true
             echo '```'
           } | tee refresh-output/summary.md >> "$GITHUB_STEP_SUMMARY"
 

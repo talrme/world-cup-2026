@@ -572,12 +572,19 @@ def best_video(match: dict[str, Any], kind: str) -> tuple[dict[str, str] | None,
     return None, fallback_url
 
 
+def comparable_video(value: dict[str, Any] | None) -> dict[str, Any]:
+    if not value:
+        return {}
+    return {key: item for key, item in value.items() if key != "lastCheckedAt"}
+
+
 def refresh_match(
     match: dict[str, Any], force: bool, dry_run: bool, delay: float
-) -> tuple[int, int]:
-    videos = match.setdefault("videos", {})
+) -> tuple[int, int, int]:
+    videos = match.get("videos") if isinstance(match.get("videos"), dict) else {}
     checked = utc_now().isoformat(timespec="seconds")
     found = 0
+    updated = 0
     checked_count = 0
 
     for kind in ("extended", "short"):
@@ -590,34 +597,33 @@ def refresh_match(
 
         checked_count += 1
         candidate, url = best_video(match, kind)
-        next_value: dict[str, str] = {"searchUrl": url, "lastCheckedAt": checked}
+        next_value: dict[str, Any] | None = None
 
         if candidate:
-            next_value.update(
-                {
-                    "title": candidate["title"],
-                    "url": candidate["url"],
-                    "channel": candidate["channel"],
-                    "durationText": safe_duration(kind, candidate.get("durationText") or ""),
-                    "channelVerified": True,
-                    "spoilerSafeTitle": True,
-                    "source": candidate.get("source", "youtube-search"),
-                }
-            )
+            next_value = {
+                "searchUrl": url,
+                "lastCheckedAt": checked,
+                "title": candidate["title"],
+                "url": candidate["url"],
+                "channel": candidate["channel"],
+                "durationText": safe_duration(kind, candidate.get("durationText") or ""),
+                "channelVerified": True,
+                "spoilerSafeTitle": True,
+                "source": candidate.get("source", "youtube-search"),
+            }
             found += 1
-        elif existing_video_is_safe(existing):
-            next_value = existing
-            next_value["searchUrl"] = url
-            next_value["lastCheckedAt"] = checked
 
-        if not dry_run:
-            videos[kind] = next_value
-            videos["lastCheckedAt"] = checked
+        if next_value and comparable_video(existing) != comparable_video(next_value):
+            updated += 1
+            if not dry_run:
+                stored_videos = match.setdefault("videos", {})
+                stored_videos[kind] = next_value
+                stored_videos["lastCheckedAt"] = checked
 
         if delay:
             time.sleep(delay)
 
-    return checked_count, found
+    return checked_count, found, updated
 
 
 def write_static_data(data: dict[str, Any], path: Path) -> None:
@@ -644,6 +650,7 @@ def main() -> int:
 
     checked = 0
     found = 0
+    updated = 0
     eligible = 0
 
     for match in data["matches"]:
@@ -651,22 +658,26 @@ def main() -> int:
             continue
 
         eligible += 1
-        match_checked, match_found = refresh_match(match, args.force, args.dry_run, args.sleep)
+        match_checked, match_found, match_updated = refresh_match(match, args.force, args.dry_run, args.sleep)
         checked += match_checked
         found += match_found
+        updated += match_updated
         print(
             f"{match['id']:03d} {match['home']} vs {match['away']}: "
             f"checked {match_checked}, found {match_found}"
         )
 
-    if not args.dry_run:
+    if not args.dry_run and updated:
         data["generatedAt"] = dt.date.today().isoformat()
         args.data.write_text(json.dumps(data, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
         write_static_data(data, args.static_data)
+    elif not args.dry_run:
+        print("No video data changes to write")
 
     print(f"Eligible matches: {eligible}")
     print(f"Video slots checked: {checked}")
-    print(f"Direct links added: {found}")
+    print(f"Direct links found: {found}")
+    print(f"Direct links added: {updated}")
     return 0
 
 

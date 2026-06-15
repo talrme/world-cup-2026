@@ -96,6 +96,7 @@ What it does:
 - Adds a run summary with the trigger, changed files, diff summary, and elapsed refresh runtime in seconds/minutes.
 - Uploads a `refresh-output-*` artifact for each run, retained for 30 days.
 - Commits refreshed `data/world-cup-2026.json` and `schedule-data.js` back to `main` only when those files changed.
+- No-op runs should not commit. A run with `Changed matches: 0` and `Direct links added: 0` should leave the data files untouched.
 
 To see automated runs:
 
