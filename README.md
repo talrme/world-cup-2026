@@ -2,6 +2,8 @@
 
 **Live site:** [https://talrme.github.io/world-cup-2026/](https://talrme.github.io/world-cup-2026/)
 
+**Refresh workflow:** [https://github.com/talrme/world-cup-2026/actions/workflows/refresh-data.yml](https://github.com/talrme/world-cup-2026/actions/workflows/refresh-data.yml)
+
 A local, spoiler-conscious 2026 World Cup schedule dashboard. It keeps scores in the data file so the schedule can be updated, but the UI hides them by default so you can jump straight to highlights without accidentally seeing a result.
 
 ## What It Does
@@ -84,7 +86,7 @@ npm run refresh:videos:all
 
 ## Automated Refresh
 
-The repo includes a GitHub Actions workflow at `.github/workflows/refresh-data.yml`. It has already been committed and pushed, so there is nothing else to install in GitHub as long as Actions are enabled for the repo.
+The repo includes a GitHub Actions workflow at `.github/workflows/refresh-data.yml`: [Refresh World Cup data](https://github.com/talrme/world-cup-2026/actions/workflows/refresh-data.yml). It has already been committed and pushed, so there is nothing else to install in GitHub as long as Actions are enabled for the repo.
 
 If the first run fails while pushing a refresh commit, check **Settings → Actions → General → Workflow permissions** and make sure the repository allows GitHub Actions to write repository contents. The workflow itself already requests `contents: write`.
 
