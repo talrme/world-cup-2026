@@ -206,6 +206,8 @@ def parse_fixture_line(line: str, date: str | None, stage: str) -> Fixture | Non
         line = group_match.group(2).strip()
 
     result_match = re.match(r"^(.+?)\s+(\d+),\s*(.+?)\s+(\d+)$", line)
+    if not result_match:
+        result_match = re.match(r"^(.+?)\s+(\d+)\s+(.+?)\s+(\d+)$", line)
     if result_match:
         return Fixture(
             date=date,
