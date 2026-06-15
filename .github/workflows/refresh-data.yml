@@ -2,8 +2,8 @@ name: Refresh World Cup data
 
 on:
   schedule:
-    # Every 30 minutes, offset from the top of the hour to reduce queue delays.
-    - cron: "7,37 * * * *"
+    # Every 15 minutes, offset from the top of the hour to reduce queue delays.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     inputs:
       all_videos:
