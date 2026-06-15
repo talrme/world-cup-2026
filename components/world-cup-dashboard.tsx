@@ -503,8 +503,8 @@ function isScorePending(match: Match, state: MatchState) {
 
 function videoStatus(match: Match, state: MatchState) {
   if (hasDirectVideo(match)) return "";
-  if (state === "live") return "Game in progress";
-  if (state === "completed" || state === "needs-result") return "Game completed, highlights not ready yet";
+  if (state === "live") return "Game In Progress";
+  if (state === "completed" || state === "needs-result") return "Game Completed, highlights not ready yet";
   return "";
 }
 
@@ -529,15 +529,9 @@ function canSearchVideo(state: MatchState) {
 }
 
 function matchNotice(match: Match, state: MatchState) {
-  if (state === "live") return "Game in progress";
-  if (isScorePending(match, state) && hasDirectVideo(match)) {
-    return "Highlights ready, score not in schedule yet";
-  }
-  if (isScorePending(match, state)) {
-    return "Game completed, score not ready yet";
-  }
+  if (state === "live") return "Game In Progress";
   if ((state === "completed" || state === "needs-result") && !hasDirectVideo(match)) {
-    return "Game completed, highlights not ready yet";
+    return "Game Completed, highlights not ready yet";
   }
   return "";
 }

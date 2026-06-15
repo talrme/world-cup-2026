@@ -580,21 +580,15 @@
   function videoStatus(match) {
     const current = matchState(match);
     if (hasDirectVideo(match)) return "";
-    if (current === "live") return "Game in progress";
-    if (current === "completed" || current === "needs-result") return "Game completed, highlights not ready yet";
+    if (current === "live") return "Game In Progress";
+    if (current === "completed" || current === "needs-result") return "Game Completed, highlights not ready yet";
     return "";
   }
 
   function matchNotice(match, current = matchState(match)) {
-    if (current === "live") return "Game in progress";
-    if (isScorePending(match, current) && hasDirectVideo(match)) {
-      return "Highlights ready, score not in schedule yet";
-    }
-    if (isScorePending(match, current)) {
-      return "Game completed, score not ready yet";
-    }
+    if (current === "live") return "Game In Progress";
     if ((current === "completed" || current === "needs-result") && !hasDirectVideo(match)) {
-      return "Game completed, highlights not ready yet";
+      return "Game Completed, highlights not ready yet";
     }
     return "";
   }
