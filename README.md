@@ -93,7 +93,7 @@ What it does:
 - Runs `python scripts/refresh_all.py` every 30 minutes at `:07` and `:37` UTC.
 - Lets you run the same refresh manually from GitHub.
 - Writes the full refresh log into the Actions run output.
-- Adds a run summary with the trigger, changed files, diff summary, and elapsed refresh runtime in seconds/minutes.
+- Adds a run summary with the trigger, changed files, diff summary, elapsed refresh runtime in seconds/minutes, and a final one-line commit/no-op verdict.
 - Uploads a `refresh-output-*` artifact for each run, retained for 30 days.
 - Commits refreshed `data/world-cup-2026.json` and `schedule-data.js` back to `main` only when those files changed.
 - No-op runs should not commit. A run with `Schedule updates applied: 0` and `New/updated direct video links saved: 0` should leave the data files untouched.

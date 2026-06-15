@@ -122,20 +122,15 @@ jobs:
             echo '```'
           } | tee refresh-output/summary.md >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Upload refresh output
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: refresh-output-${{ github.run_id }}
-          path: refresh-output/
-          retention-days: 30
-
       - name: Commit refreshed data
         if: ${{ success() && env.COMMIT_CHANGES == 'true' }}
         shell: bash
         run: |
+          mkdir -p refresh-output
+
           if git diff --quiet -- data/world-cup-2026.json schedule-data.js; then
             echo "No data changes to commit."
+            echo "No commit: data files did not change" > refresh-output/commit-label.txt
             exit 0
           fi
 
@@ -143,4 +138,43 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/world-cup-2026.json schedule-data.js
           git commit -m "Refresh World Cup data"
+          commit_sha=$(git rev-parse --short HEAD)
+          echo "Committed refreshed data: $commit_sha" > refresh-output/commit-label.txt
           git push
+
+      - name: Write final summary line
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p refresh-output
+
+          schedule_updates=$(grep -E "^Schedule updates applied:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
+          video_links_saved=$(grep -E "^New/updated direct video links saved:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
+          schedule_updates=${schedule_updates:-unknown}
+          video_links_saved=${video_links_saved:-unknown}
+
+          if [[ "$COMMIT_CHANGES" != "true" ]]; then
+            commit_label="No commit: commit_changes was false"
+          elif [[ -f refresh-output/commit-label.txt ]]; then
+            commit_label=$(cat refresh-output/commit-label.txt)
+          else
+            commit_label="No commit: refresh or commit step did not finish successfully"
+          fi
+
+          final_line="Summary: schedule updates applied=${schedule_updates}; new/updated video links saved=${video_links_saved}; ${commit_label}."
+          echo "$final_line"
+          echo "$final_line" > refresh-output/final-summary.txt
+
+          {
+            echo
+            echo "### Final summary"
+            echo "$final_line"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload refresh output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: refresh-output-${{ github.run_id }}
+          path: refresh-output/
+          retention-days: 30
