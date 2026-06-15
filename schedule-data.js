@@ -37,9 +37,9 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+Mexico+vs+South+Africa+extended+highlights+2026+FIFA+World+Cup",
-          "lastCheckedAt": "2026-06-15T11:27:53+00:00"
+          "lastCheckedAt": "2026-06-15T18:38:28+00:00"
         },
-        "lastCheckedAt": "2026-06-15T11:27:53+00:00",
+        "lastCheckedAt": "2026-06-15T18:38:28+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+Mexico+vs+South+Africa+highlights+2026+FIFA+World+Cup",
           "lastCheckedAt": "2026-06-14T06:13:33+00:00",
@@ -72,9 +72,9 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+South+Korea+vs+Czechia+extended+highlights+2026+FIFA+World+Cup",
-          "lastCheckedAt": "2026-06-15T11:28:16+00:00"
+          "lastCheckedAt": "2026-06-15T18:38:49+00:00"
         },
-        "lastCheckedAt": "2026-06-15T11:28:16+00:00",
+        "lastCheckedAt": "2026-06-15T18:38:49+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+South+Korea+vs+Czechia+highlights+2026+FIFA+World+Cup",
           "lastCheckedAt": "2026-06-14T06:13:49+00:00",
@@ -518,9 +518,36 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Spain",
       "away": "Cabo Verde",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "atlanta"
+      "venueId": "atlanta",
+      "homeScore": 0,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-15T18:39:07+00:00",
+          "title": "Spain vs Cape Verde Extended Highlights \ud83c\udf0e\ud83c\udfc62026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=wzKYVElYRrw",
+          "channel": "FOX Sports",
+          "durationText": "22 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-15T18:39:07+00:00",
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-15T18:39:07+00:00",
+          "title": "Spain vs Cape Verde Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=YnWF8IMcqgg",
+          "channel": "FOX Sports",
+          "durationText": "8 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        }
+      }
     },
     {
       "id": 14,
@@ -1792,7 +1819,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-15T11:27:53+00:00",
+  "scheduleUpdatedAt": "2026-06-15T18:38:28+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
