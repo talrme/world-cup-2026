@@ -6,18 +6,19 @@ A local, spoiler-conscious 2026 World Cup schedule dashboard. It keeps scores in
 
 ## What It Does
 
-- Shows the tournament schedule across five views: Timeline, Groups, Bracket, Video Desk, and Constellation.
+- Shows the tournament schedule across the Schedule, Groups, and Tiles views, with Bracket available as an optional settings toggle.
 - Keeps the top controls focused: choose a view, manage score visibility, and filter by country.
 - Saves view and country selections in the URL, while leaving spoiler reveal state local to the page.
-- Keeps Timeline uncluttered by default. Click a match to open a floating selected-match panel, then minimize or close it when needed.
+- Keeps Schedule uncluttered by default. Click a match to open a floating match-details panel, then minimize or close it when needed.
 - Hides scores by default. Click a blurred score pill to reveal one score, or use `Show all scores` when spoilers are okay.
 - Includes an optional `Show scores before` date control. It is off by default and starts five days back; when enabled, score pills through that date are revealed.
-- Shows the selected match location. Click the location to open a stadium map with all World Cup venues and the selected venue highlighted.
+- Shows the match location in Match Details. Click the location to open a stadium map with all World Cup venues and the selected venue highlighted.
+- Shows a rank-based favorite in Match Details when both teams have FIFA ranking data.
 - In Groups, selected countries filter the fixture list while the standings table keeps the full group context. Use each group's score control to reveal that group only.
 - Shows direct Fox Sports/Fox Soccer YouTube links when verified highlight videos are available.
 - Opens direct highlight links on YouTube, since many Fox Sports videos block third-party embeds from local files.
 - Scans the Fox Sports YouTube videos page first, then falls back to one `YouTube Search` link for played/live matches with no saved direct highlight link. The matcher tolerates country-name variants such as `Turkey` / `Türkiye`.
-- Lets you minimize the selected-match panel when it is covering the board, then restore it from a compact selected-match pill.
+- Lets you minimize Match Details when it is covering the board, then restore it from a compact match-details pill.
 
 ## Open Locally
 

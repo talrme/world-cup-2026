@@ -4,8 +4,25 @@ import rawData from "@/data/world-cup-2026.json";
 import type { CSSProperties, ReactNode } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-type ViewMode = "timeline" | "groups" | "bracket" | "video" | "constellation";
+type ViewMode = "timeline" | "groups" | "bracket" | "constellation";
 type MatchState = "completed" | "live" | "needs-result" | "scheduled";
+type DisplaySettings = {
+  theme: "match" | "midnight" | "daylight" | "electric";
+  density: "comfortable" | "compact";
+  videoStyle: "compact" | "full";
+  timelineStart: "yesterday" | "today" | "top";
+  scoreStartupMode: "previous" | "hidden" | "shown";
+  showBracketViewOption: boolean;
+};
+
+type SpoilerState = {
+  showAllScores: boolean;
+  scoreCutoffEnabled: boolean;
+  scoreCutoffDate: string;
+  revealedScoreIds: Set<number>;
+  revealedGroups: Set<string>;
+  hiddenGroups: Set<string>;
+};
 
 type VideoLink = {
   title?: string;
@@ -74,13 +91,141 @@ type Standing = {
 const data = rawData as unknown as Dataset;
 
 const modes: { id: ViewMode; label: string }[] = [
-  { id: "timeline", label: "Timeline" },
+  { id: "timeline", label: "Schedule" },
   { id: "groups", label: "Groups" },
   { id: "bracket", label: "Bracket" },
-  { id: "video", label: "Video Desk" },
-  { id: "constellation", label: "Constellation" },
+  { id: "constellation", label: "Tiles" },
 ];
 const modeIds = modes.map((mode) => mode.id);
+const settingsKey = "worldCup2026Settings";
+const spoilerStateKey = "worldCup2026Spoilers";
+const defaultSettings: DisplaySettings = {
+  theme: "match",
+  density: "comfortable",
+  videoStyle: "compact",
+  timelineStart: "yesterday",
+  scoreStartupMode: "previous",
+  showBracketViewOption: false,
+};
+type SegmentedSettingKey = Exclude<keyof DisplaySettings, "showBracketViewOption">;
+const settingGroups: {
+  key: SegmentedSettingKey;
+  label: string;
+  options: { value: DisplaySettings[SegmentedSettingKey]; label: string }[];
+}[] = [
+  {
+    key: "theme",
+    label: "Color theme",
+    options: [
+      { value: "match", label: "Stadium" },
+      { value: "midnight", label: "Midnight" },
+      { value: "daylight", label: "Daylight" },
+      { value: "electric", label: "Electric" },
+    ],
+  },
+  {
+    key: "density",
+    label: "Card density",
+    options: [
+      { value: "comfortable", label: "Comfortable" },
+      { value: "compact", label: "Compact" },
+    ],
+  },
+  {
+    key: "videoStyle",
+    label: "Video buttons",
+    options: [
+      { value: "compact", label: "Compact" },
+      { value: "full", label: "Full labels" },
+    ],
+  },
+  {
+    key: "timelineStart",
+    label: "Schedule opens at",
+    options: [
+      { value: "yesterday", label: "Yesterday" },
+      { value: "today", label: "Today" },
+      { value: "top", label: "Top" },
+    ],
+  },
+  {
+    key: "scoreStartupMode",
+    label: "Scores open as",
+    options: [
+      { value: "previous", label: "Show previously revealed" },
+      { value: "hidden", label: "Always hidden" },
+      { value: "shown", label: "Always showing" },
+    ],
+  },
+];
+
+function readStoredSettings(): DisplaySettings {
+  if (typeof window === "undefined") return defaultSettings;
+
+  try {
+    const stored = JSON.parse(window.localStorage.getItem(settingsKey) || "{}") as Partial<DisplaySettings>;
+    return { ...defaultSettings, ...stored };
+  } catch {
+    return defaultSettings;
+  }
+}
+
+function baseSpoilerState(scoreCutoffDate = defaultScoreCutoffDate()): SpoilerState {
+  return {
+    showAllScores: false,
+    scoreCutoffEnabled: false,
+    scoreCutoffDate,
+    revealedScoreIds: new Set(),
+    revealedGroups: new Set(),
+    hiddenGroups: new Set(),
+  };
+}
+
+function applyScoreStartupMode(spoilers: SpoilerState, startupMode: DisplaySettings["scoreStartupMode"]): SpoilerState {
+  if (startupMode === "hidden") {
+    return baseSpoilerState(spoilers.scoreCutoffDate);
+  }
+
+  if (startupMode === "shown") {
+    return { ...baseSpoilerState(spoilers.scoreCutoffDate), showAllScores: true };
+  }
+
+  return spoilers;
+}
+
+function readStoredSpoilerState(startupMode: DisplaySettings["scoreStartupMode"] = "previous"): SpoilerState {
+  if (typeof window === "undefined") {
+    return applyScoreStartupMode(baseSpoilerState(), startupMode);
+  }
+
+  try {
+    const stored = JSON.parse(window.localStorage.getItem(spoilerStateKey) || "{}") as {
+      showAllScores?: unknown;
+      scoreCutoffEnabled?: unknown;
+      scoreCutoffDate?: unknown;
+      revealedScores?: unknown;
+      revealedScoreIds?: unknown;
+      revealedGroups?: unknown;
+      hiddenGroups?: unknown;
+    };
+    const rawScores = Array.isArray(stored.revealedScoreIds)
+      ? stored.revealedScoreIds
+      : Array.isArray(stored.revealedScores)
+        ? stored.revealedScores
+        : [];
+
+    return applyScoreStartupMode({
+      showAllScores: Boolean(stored.showAllScores),
+      scoreCutoffEnabled: Boolean(stored.scoreCutoffEnabled),
+      scoreCutoffDate: typeof stored.scoreCutoffDate === "string" && stored.scoreCutoffDate ? stored.scoreCutoffDate : defaultScoreCutoffDate(),
+      revealedScoreIds: new Set(rawScores.map(Number).filter(Number.isFinite)),
+      revealedGroups: new Set(Array.isArray(stored.revealedGroups) ? stored.revealedGroups.filter((item): item is string => typeof item === "string") : []),
+      hiddenGroups: new Set(Array.isArray(stored.hiddenGroups) ? stored.hiddenGroups.filter((item): item is string => typeof item === "string") : []),
+    }, startupMode);
+  } catch {
+    return applyScoreStartupMode(baseSpoilerState(), startupMode);
+  }
+}
 
 const teamFlagCodes: Record<string, string> = {
   Algeria: "DZ",
@@ -131,6 +276,57 @@ const teamFlagCodes: Record<string, string> = {
   "United States": "US",
   Uruguay: "UY",
   Uzbekistan: "UZ",
+};
+
+const teamFifaRanks: Record<string, number> = {
+  Algeria: 35,
+  Argentina: 2,
+  Australia: 26,
+  Austria: 24,
+  Belgium: 8,
+  "Bosnia and Herzegovina": 71,
+  Brazil: 5,
+  "Cabo Verde": 68,
+  Canada: 27,
+  Colombia: 13,
+  Croatia: 10,
+  Curacao: 82,
+  Czechia: 44,
+  "DR Congo": 56,
+  Ecuador: 23,
+  Egypt: 34,
+  England: 4,
+  France: 3,
+  Germany: 9,
+  Ghana: 72,
+  Haiti: 84,
+  Iran: 20,
+  Iraq: 58,
+  "Ivory Coast": 42,
+  Japan: 18,
+  Jordan: 66,
+  Mexico: 15,
+  Morocco: 11,
+  Netherlands: 7,
+  "New Zealand": 86,
+  Norway: 29,
+  Panama: 30,
+  Paraguay: 39,
+  Portugal: 6,
+  Qatar: 51,
+  "Saudi Arabia": 60,
+  Scotland: 36,
+  Senegal: 19,
+  "South Africa": 61,
+  "South Korea": 22,
+  Spain: 1,
+  Sweden: 43,
+  Switzerland: 17,
+  Tunisia: 40,
+  Turkey: 25,
+  "United States": 14,
+  Uruguay: 16,
+  Uzbekistan: 50,
 };
 
 function kickoffDate(match: Match) {
@@ -221,6 +417,40 @@ function renderTeamName(team: string, className = "team-name") {
   );
 }
 
+function teamRank(team: string) {
+  return teamFifaRanks[team] ?? null;
+}
+
+function renderRankingRow(match: Match) {
+  const homeRank = teamRank(match.home);
+  const awayRank = teamRank(match.away);
+
+  if (!homeRank || !awayRank) {
+    return null;
+  }
+
+  const rankings = [
+    { team: match.home, rank: homeRank, order: 0 },
+    { team: match.away, rank: awayRank, order: 1 },
+  ].sort((a, b) => a.rank - b.rank || a.order - b.order);
+
+  return (
+    <div>
+      <dt>Rankings</dt>
+      <dd>
+        <span aria-label="FIFA rankings" className="detail-rankings">
+          {rankings.map((item, index) => (
+            <span className={`detail-ranking ${index === 0 ? "is-top-ranked" : ""}`} key={item.team}>
+              {renderTeamName(item.team, "detail-ranking-team")}
+              <span className="detail-ranking-number">#{item.rank}</span>
+            </span>
+          ))}
+        </span>
+      </dd>
+    </div>
+  );
+}
+
 function inputDateValue(date: Date) {
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 }
@@ -231,10 +461,10 @@ function defaultScoreCutoffDate() {
   return inputDateValue(date);
 }
 
-function timelineLandingCutoffKey(now: Date) {
+function timelineLandingCutoffKey(now: Date, timelineStart: DisplaySettings["timelineStart"]) {
   const cutoff = new Date(now);
   cutoff.setHours(0, 0, 0, 0);
-  cutoff.setDate(cutoff.getDate() - 1);
+  cutoff.setDate(cutoff.getDate() - (timelineStart === "today" ? 0 : 1));
   return inputDateValue(cutoff);
 }
 
@@ -259,20 +489,34 @@ function scoreText(match: Match) {
   return "vs";
 }
 
+function hasMatchScore(match: Match) {
+  return typeof match.homeScore === "number" && typeof match.awayScore === "number";
+}
+
 function hasDirectVideo(match: Match) {
   return Boolean(match.videos?.extended?.url || match.videos?.short?.url);
 }
 
+function isScorePending(match: Match, state: MatchState) {
+  return !hasMatchScore(match) && (state === "live" || state === "needs-result" || state === "completed" || hasDirectVideo(match));
+}
+
 function videoStatus(match: Match, state: MatchState) {
-  if (hasDirectVideo(match)) return "Highlights";
-  if (state === "completed" || state === "needs-result") return "No saved link";
-  if (state === "live") return "Match live";
-  return "Upcoming";
+  if (hasDirectVideo(match)) return "";
+  if (state === "live") return "Game in progress";
+  if (state === "completed" || state === "needs-result") return "Game completed, highlights not ready yet";
+  return "";
 }
 
 function videoDuration(kind: "extended" | "short", video?: VideoLink | null) {
-  if (video?.durationText) return video.durationText;
-  return kind === "extended" ? "~20 min" : "~4 min";
+  const duration = video?.durationText || (kind === "extended" ? "20 min" : "4 min");
+  return duration.replace(/^~\s*/, "");
+}
+
+function videoDurationChip(kind: "extended" | "short", video?: VideoLink | null) {
+  const match = videoDuration(kind, video).match(/\d+/);
+  const minutes = match?.[0] ?? (kind === "extended" ? "20" : "4");
+  return `${minutes} min`;
 }
 
 function youtubeSearchUrl(match: Match) {
@@ -284,11 +528,18 @@ function canSearchVideo(state: MatchState) {
   return state === "completed" || state === "needs-result" || state === "live";
 }
 
-function statusLabel(state: MatchState) {
-  if (state === "completed") return "Final";
-  if (state === "live") return "Live window";
-  if (state === "needs-result") return "Past kickoff";
-  return "Scheduled";
+function matchNotice(match: Match, state: MatchState) {
+  if (state === "live") return "Game in progress";
+  if (isScorePending(match, state) && hasDirectVideo(match)) {
+    return "Highlights ready, score not in schedule yet";
+  }
+  if (isScorePending(match, state)) {
+    return "Game completed, score not ready yet";
+  }
+  if ((state === "completed" || state === "needs-result") && !hasDirectVideo(match)) {
+    return "Game completed, highlights not ready yet";
+  }
+  return "";
 }
 
 function groupByDate(matches: Match[]) {
@@ -371,22 +622,28 @@ function standingsFor(matches: Match[]) {
 }
 
 export default function WorldCupDashboard() {
+  const initialSettings = useMemo(readStoredSettings, []);
+  const initialSpoilers = useMemo(() => readStoredSpoilerState(initialSettings.scoreStartupMode), [initialSettings]);
   const [mode, setMode] = useState<ViewMode>("timeline");
   const [countryMode, setCountryMode] = useState<"all" | "custom">("all");
   const [selectedCountries, setSelectedCountries] = useState<Set<string>>(() => new Set());
   const [countryPickerOpen, setCountryPickerOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const [settings, setSettings] = useState<DisplaySettings>(initialSettings);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [detailOpen, setDetailOpen] = useState(true);
-  const [showAllScores, setShowAllScores] = useState(false);
-  const [scoreCutoffEnabled, setScoreCutoffEnabled] = useState(false);
-  const [scoreCutoffDate, setScoreCutoffDate] = useState(defaultScoreCutoffDate);
-  const [revealedScoreIds, setRevealedScoreIds] = useState<Set<number>>(() => new Set());
-  const [revealedGroups, setRevealedGroups] = useState<Set<string>>(() => new Set());
-  const [hiddenGroups, setHiddenGroups] = useState<Set<string>>(() => new Set());
+  const [showAllScores, setShowAllScores] = useState(initialSpoilers.showAllScores);
+  const [scoreCutoffEnabled, setScoreCutoffEnabled] = useState(initialSpoilers.scoreCutoffEnabled);
+  const [scoreCutoffDate, setScoreCutoffDate] = useState(initialSpoilers.scoreCutoffDate);
+  const [revealedScoreIds, setRevealedScoreIds] = useState<Set<number>>(() => new Set(initialSpoilers.revealedScoreIds));
+  const [revealedGroups, setRevealedGroups] = useState<Set<string>>(() => new Set(initialSpoilers.revealedGroups));
+  const [hiddenGroups, setHiddenGroups] = useState<Set<string>>(() => new Set(initialSpoilers.hiddenGroups));
   const [mapVenueId, setMapVenueId] = useState<string | null>(null);
   const [timelineAutoScrolled, setTimelineAutoScrolled] = useState(false);
   const [now, setNow] = useState(() => new Date());
   const urlStateLoaded = useRef(false);
+  const spoilerSaveReady = useRef(false);
 
   useEffect(() => {
     const timer = window.setInterval(() => setNow(new Date()), 60_000);
@@ -394,18 +651,51 @@ export default function WorldCupDashboard() {
   }, []);
 
   useEffect(() => {
-    if (!mapVenueId && !countryPickerOpen) return undefined;
+    try {
+      window.localStorage.setItem(settingsKey, JSON.stringify(settings));
+    } catch {
+      // Settings are optional device preferences.
+    }
+  }, [settings]);
+
+  useEffect(() => {
+    if (!spoilerSaveReady.current) {
+      spoilerSaveReady.current = true;
+      return;
+    }
+
+    try {
+      window.localStorage.setItem(
+        spoilerStateKey,
+        JSON.stringify({
+          showAllScores,
+          scoreCutoffEnabled,
+          scoreCutoffDate,
+          revealedScores: [...revealedScoreIds],
+          revealedGroups: [...revealedGroups],
+          hiddenGroups: [...hiddenGroups],
+        }),
+      );
+    } catch {
+      // Spoiler reveal state is a best-effort device preference.
+    }
+  }, [showAllScores, scoreCutoffEnabled, scoreCutoffDate, revealedScoreIds, revealedGroups, hiddenGroups]);
+
+  useEffect(() => {
+    if (!mapVenueId && !countryPickerOpen && !mobileMenuOpen && !settingsOpen) return undefined;
 
     function closeOnEscape(event: KeyboardEvent) {
       if (event.key === "Escape") {
         setMapVenueId(null);
         setCountryPickerOpen(false);
+        setMobileMenuOpen(false);
+        setSettingsOpen(false);
       }
     }
 
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
-  }, [mapVenueId, countryPickerOpen]);
+  }, [mapVenueId, countryPickerOpen, mobileMenuOpen, settingsOpen]);
 
   const matches = useMemo(
     () =>
@@ -421,13 +711,21 @@ export default function WorldCupDashboard() {
     const rest = teams.filter((team) => !priority.includes(team));
     return [...priority, ...rest];
   }, [matches]);
+  const visibleModes = useMemo(
+    () => modes.filter((item) => item.id !== "bracket" || settings.showBracketViewOption),
+    [settings.showBracketViewOption],
+  );
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const view = params.get("view");
     const countrySet = new Set(countryOptions);
 
-    setMode(view && modeIds.includes(view as ViewMode) ? (view as ViewMode) : "timeline");
+    setMode(
+      view && modeIds.includes(view as ViewMode) && (view !== "bracket" || settings.showBracketViewOption)
+        ? (view as ViewMode)
+        : "timeline",
+    );
     if (params.get("countries") === "none") {
       setCountryMode("custom");
       setSelectedCountries(new Set());
@@ -442,13 +740,20 @@ export default function WorldCupDashboard() {
       }
     }
     urlStateLoaded.current = true;
-  }, [countryOptions]);
+  }, [countryOptions, settings.showBracketViewOption]);
+
+  useEffect(() => {
+    if (!settings.showBracketViewOption && mode === "bracket") {
+      setMode("timeline");
+      setTimelineAutoScrolled(false);
+    }
+  }, [mode, settings.showBracketViewOption]);
 
   useEffect(() => {
     if (!urlStateLoaded.current) return;
 
     const params = new URLSearchParams();
-    if (mode !== "timeline") params.set("view", mode);
+    if (mode !== "timeline" && (mode !== "bracket" || settings.showBracketViewOption)) params.set("view", mode);
     if (countryMode === "custom" && selectedCountries.size === 0) {
       params.set("countries", "none");
     } else if (countryMode === "custom" && !selectedAllCountries()) {
@@ -462,7 +767,7 @@ export default function WorldCupDashboard() {
     if (next !== current) {
       window.history.replaceState(null, "", next);
     }
-  }, [mode, countryMode, selectedCountries, countryOptions]);
+  }, [mode, countryMode, selectedCountries, countryOptions, settings.showBracketViewOption]);
 
   const filteredMatches = useMemo(() => {
     return matches.filter((match) => {
@@ -478,12 +783,17 @@ export default function WorldCupDashboard() {
 
   useEffect(() => {
     if (timelineAutoScrolled || mode !== "timeline") return undefined;
+    if (settings.timelineStart === "top") {
+      setTimelineAutoScrolled(true);
+      const frame = window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
+      return () => window.cancelAnimationFrame(frame);
+    }
 
     const frame = window.requestAnimationFrame(() => {
       const dayBands = [...document.querySelectorAll<HTMLElement>("[data-day-key]")];
       if (!dayBands.length) return;
 
-      const cutoffKey = timelineLandingCutoffKey(now);
+      const cutoffKey = timelineLandingCutoffKey(now, settings.timelineStart);
       const target = dayBands.find((band) => (band.dataset.dayKey ?? "") >= cutoffKey) ?? dayBands[dayBands.length - 1];
       const chrome = document.querySelector<HTMLElement>(".page-chrome");
       const offset = chrome ? Math.ceil(chrome.getBoundingClientRect().height + 14) : 0;
@@ -493,7 +803,7 @@ export default function WorldCupDashboard() {
     });
 
     return () => window.cancelAnimationFrame(frame);
-  }, [filteredMatches, mode, now, timelineAutoScrolled]);
+  }, [filteredMatches, mode, now, settings.timelineStart, timelineAutoScrolled]);
 
   const selectedMatch = selectedId === null ? null : matches.find((match) => match.id === selectedId) ?? null;
 
@@ -513,7 +823,7 @@ export default function WorldCupDashboard() {
   const knockoutMatches = filteredMatches.filter((match) => match.stage !== "Group");
 
   function hasScore(match: Match) {
-    return typeof match.homeScore === "number" && typeof match.awayScore === "number";
+    return hasMatchScore(match);
   }
 
   function scoreCutoffReveals(match: Match) {
@@ -521,7 +831,7 @@ export default function WorldCupDashboard() {
   }
 
   function isScoreVisible(match: Match, forceVisible = false, forceHidden = false) {
-    return hasScore(match) && !forceHidden && (forceVisible || showAllScores || scoreCutoffReveals(match) || revealedScoreIds.has(match.id));
+    return hasScore(match) && (revealedScoreIds.has(match.id) || (!forceHidden && (forceVisible || showAllScores || scoreCutoffReveals(match))));
   }
 
   function teamResultClass(match: Match, side: "home" | "away", forceVisible = false, forceHidden = false) {
@@ -556,7 +866,11 @@ export default function WorldCupDashboard() {
   }
 
   function renderScorePill(match: Match, forceVisible = false, forceHidden = false) {
-    if (!hasScore(match)) return <span className="score-pill score-empty">vs</span>;
+    if (!hasScore(match)) {
+      return isScorePending(match, matchState(match, now))
+        ? <span className="score-pill score-pending">Score pending</span>
+        : <span className="score-pill score-empty">vs</span>;
+    }
     const visible = isScoreVisible(match, forceVisible, forceHidden);
 
     if (visible && (forceVisible || showAllScores || scoreCutoffReveals(match))) {
@@ -567,13 +881,14 @@ export default function WorldCupDashboard() {
       <button
         aria-label={visible ? "Hide score" : "Reveal score"}
         className={`score-pill ${visible ? "score-revealed" : "score-hidden"}`}
+        data-score-tooltip={visible ? "Click to hide" : "Click to reveal"}
         onClick={(event) => {
           event.stopPropagation();
           toggleScore(match.id);
         }}
         type="button"
       >
-        {spoilerText(match, forceVisible, forceHidden)}
+        <span className="score-hidden-text">{spoilerText(match, forceVisible, forceHidden)}</span>
       </button>
     );
   }
@@ -586,12 +901,52 @@ export default function WorldCupDashboard() {
     return `${selectedCountries.size} countries`;
   }
 
+  function currentModeLabel() {
+    return modes.find((item) => item.id === mode)?.label ?? "Schedule";
+  }
+
   function selectedAllCountries() {
     return countryMode === "all" || Boolean(countryOptions.length && selectedCountries.size === countryOptions.length);
   }
 
   function countryIsSelected(country: string) {
     return countryMode === "all" || selectedCountries.has(country);
+  }
+
+  function changeMode(nextMode: ViewMode) {
+    setMode((current) => {
+      if (current !== nextMode) {
+        setTimelineAutoScrolled(false);
+        if (nextMode !== "timeline") {
+          window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
+        }
+      }
+      return nextMode;
+    });
+    setMobileMenuOpen(false);
+  }
+
+  function changeSetting(key: keyof DisplaySettings, value: DisplaySettings[keyof DisplaySettings]) {
+    setSettings((current) => ({ ...current, [key]: value }) as DisplaySettings);
+    if (key === "timelineStart") {
+      setTimelineAutoScrolled(false);
+      if (mode !== "timeline") {
+        window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
+      }
+    }
+    if (key === "showBracketViewOption" && !value && mode === "bracket") {
+      setMode("timeline");
+      setTimelineAutoScrolled(false);
+    }
+    if (key === "scoreStartupMode") {
+      const nextSpoilers = readStoredSpoilerState(value as DisplaySettings["scoreStartupMode"]);
+      setShowAllScores(nextSpoilers.showAllScores);
+      setScoreCutoffEnabled(nextSpoilers.scoreCutoffEnabled);
+      setScoreCutoffDate(nextSpoilers.scoreCutoffDate);
+      setRevealedScoreIds(new Set(nextSpoilers.revealedScoreIds));
+      setRevealedGroups(new Set(nextSpoilers.revealedGroups));
+      setHiddenGroups(new Set(nextSpoilers.hiddenGroups));
+    }
   }
 
   function toggleCountry(country: string) {
@@ -652,7 +1007,14 @@ export default function WorldCupDashboard() {
   }
 
   function isGroupRevealed(group: string) {
-    return showAllScores ? !hiddenGroups.has(group) : revealedGroups.has(group);
+    if (hiddenGroups.has(group)) return false;
+    if (showAllScores || revealedGroups.has(group)) return true;
+    return completedGroupScoresVisible(group);
+  }
+
+  function completedGroupScoresVisible(group: string) {
+    const completed = (groupMatches[group] ?? []).filter((match) => match.status === "completed" && hasScore(match));
+    return completed.length > 0 && completed.every((match) => isScoreVisible(match));
   }
 
   function hiddenStat() {
@@ -660,15 +1022,71 @@ export default function WorldCupDashboard() {
   }
 
   function renderVideoLink(kind: "extended" | "short", video: VideoLink, label: string) {
+    const visibleLabel = settings.videoStyle === "full" ? label : kind === "extended" ? "Extended" : "Highlights";
+
     return (
       <a
+        aria-label={`Open ${videoDuration(kind, video)} ${visibleLabel} on YouTube`}
+        className={`video-link video-link-${kind}`}
         href={video.url}
         key={`${label}-${video.url}`}
         onClick={(event) => event.stopPropagation()}
         rel="noreferrer"
         target="_blank"
+        title={`Open ${label} on YouTube`}
       >
-        {label} <small>{videoDuration(kind, video)}</small>
+        <span aria-hidden="true" className="yt-mark" />
+        <small>{videoDuration(kind, video)}</small>
+        <span className="video-link-label">{visibleLabel}</span>
+      </a>
+    );
+  }
+
+  function renderTileVideoLink(kind: "extended" | "short", video: VideoLink) {
+    const label = kind === "extended" ? "Extended highlights" : "Highlights";
+
+    return (
+      <a
+        aria-label={`Open ${label} on YouTube`}
+        className={`tile-video-link tile-video-link-${kind}`}
+        href={video.url}
+        key={`tile-${kind}-${video.url}`}
+        onClick={(event) => event.stopPropagation()}
+        rel="noreferrer"
+        target="_blank"
+        title={`Open ${label} on YouTube`}
+      >
+        <span aria-hidden="true" className="yt-mark" />
+        <span>{videoDurationChip(kind, video)}</span>
+      </a>
+    );
+  }
+
+  function renderTileVideoLinks(match: Match) {
+    const short = match.videos?.short ?? null;
+    const extended = match.videos?.extended ?? null;
+    const links = [
+      short?.url ? renderTileVideoLink("short", short) : null,
+      extended?.url ? renderTileVideoLink("extended", extended) : null,
+    ].filter(Boolean);
+
+    return links.length ? <div className="tile-video-links">{links}</div> : null;
+  }
+
+  function renderVideoSearchLink(match: Match) {
+    return (
+      <a
+        aria-label="Search YouTube"
+        className="video-link video-link-search"
+        href={youtubeSearchUrl(match)}
+        onClick={(event) => event.stopPropagation()}
+        rel="noreferrer"
+        target="_blank"
+        title="Search YouTube"
+      >
+        <span aria-hidden="true" className="yt-mark" />
+        <small>YouTube</small>
+        <span className="video-link-label">{settings.videoStyle === "full" ? "YouTube Search" : "Search"}</span>
       </a>
     );
   }
@@ -684,15 +1102,13 @@ export default function WorldCupDashboard() {
     if (!links.length && canSearchVideo(matchState(match, now))) {
       return (
         <span className="video-links video-search-links">
-          <a href={youtubeSearchUrl(match)} onClick={(event) => event.stopPropagation()} rel="noreferrer" target="_blank">
-            YouTube Search <small>Fox Sports</small>
-          </a>
+          {renderVideoSearchLink(match)}
         </span>
       );
     }
 
     if (!links.length) {
-      return <span className="video-status">{videoStatus(match, matchState(match, now))}</span>;
+      return null;
     }
 
     return <span className="video-links">{links}</span>;
@@ -700,6 +1116,8 @@ export default function WorldCupDashboard() {
 
   function renderMatchCard(match: Match, variant = "match-card") {
     const state = matchState(match, now);
+    const notice = matchNotice(match, state);
+    const videoLinks = renderInlineVideoLinks(match);
 
     return (
       <article className={`${variant} is-${state}`} key={match.id}>
@@ -721,10 +1139,12 @@ export default function WorldCupDashboard() {
             {renderScorePill(match)}
             {renderTeamName(match.away, `team-name team-away ${teamResultClass(match, "away")}`)}
           </span>
-          <span className="card-footer">
-            <span>{statusLabel(state)}</span>
-            <span className={hasDirectVideo(match) ? "video-ready" : ""}>{renderInlineVideoLinks(match)}</span>
-          </span>
+          {notice || videoLinks ? (
+            <span className="card-footer">
+              {notice ? <span className="match-notice">{notice}</span> : <span />}
+              {videoLinks ? <span className={hasDirectVideo(match) ? "video-ready" : ""}>{videoLinks}</span> : <span />}
+            </span>
+          ) : null}
         </div>
       </article>
     );
@@ -747,11 +1167,9 @@ export default function WorldCupDashboard() {
     return (
       <div className="video-actions">
         {actions.length ? actions : canSearchVideo(state) ? (
-          <a href={youtubeSearchUrl(match)} rel="noreferrer" target="_blank">
-            YouTube Search <small>Fox Sports</small>
-          </a>
+          renderVideoSearchLink(match)
         ) : (
-          <span>{state === "scheduled" ? "Highlights pending" : videoStatus(match, state)}</span>
+          matchNotice(match, state) ? <span>{matchNotice(match, state)}</span> : null
         )}
       </div>
     );
@@ -799,7 +1217,7 @@ export default function WorldCupDashboard() {
           const standings = standingsFor(groupMatches[group]);
           const teams = [...new Set(groupMatches[group].flatMap((match) => [match.home, match.away]))].sort();
           const revealed = isGroupRevealed(group);
-          const groupForceHidden = showAllScores && hiddenGroups.has(group);
+          const groupForceHidden = hiddenGroups.has(group);
 
           return (
             <section className="group-board" key={group}>
@@ -812,24 +1230,26 @@ export default function WorldCupDashboard() {
                   aria-pressed={revealed}
                   className="group-reveal"
                   onClick={() => {
-                    if (showAllScores) {
+                    if (revealed) {
                       setHiddenGroups((current) => {
                         const next = new Set(current);
-                        if (next.has(group)) {
-                          next.delete(group);
-                        } else {
-                          next.add(group);
-                        }
+                        next.add(group);
+                        return next;
+                      });
+                      setRevealedGroups((current) => {
+                        const next = new Set(current);
+                        next.delete(group);
                         return next;
                       });
                     } else {
+                      setHiddenGroups((current) => {
+                        const next = new Set(current);
+                        next.delete(group);
+                        return next;
+                      });
                       setRevealedGroups((current) => {
                         const next = new Set(current);
-                        if (next.has(group)) {
-                          next.delete(group);
-                        } else {
-                          next.add(group);
-                        }
+                        next.add(group);
                         return next;
                       });
                     }
@@ -906,7 +1326,7 @@ export default function WorldCupDashboard() {
       return (
         <div className="empty-state">
           <strong>No knockout matches found</strong>
-          <span>Adjust the country filter or switch to the timeline.</span>
+          <span>Adjust the country filter or switch to the schedule.</span>
         </div>
       );
     }
@@ -930,56 +1350,15 @@ export default function WorldCupDashboard() {
     );
   }
 
-  function renderVideoDesk() {
-    const videoMatches = filteredMatches.filter((match) => {
-      const state = matchState(match, now);
-      return state === "completed" || state === "needs-result" || state === "live" || hasDirectVideo(match);
-    });
-
-    return (
-      <div className="video-layout">
-        {(videoMatches.length ? videoMatches : filteredMatches.slice(0, 18)).map((match) => {
-          const state = matchState(match, now);
-          return (
-            <article className={`video-tile is-${state}`} key={match.id}>
-              <div
-                className="video-select"
-                onClick={() => {
-                  setSelectedId(match.id);
-                  setDetailOpen(true);
-                }}
-                role="button"
-                tabIndex={0}
-              >
-                <span>{match.group ? `Group ${match.group}` : match.stage}</span>
-                <strong className="video-title-teams">
-                  {renderTeamName(match.home, `video-team-name ${teamResultClass(match, "home")}`)}
-                  <span>vs</span>
-                  {renderTeamName(match.away, `video-team-name ${teamResultClass(match, "away")}`)}
-                </strong>
-                {renderScorePill(match)}
-              </div>
-              <div className="availability">
-                <span>{videoStatus(match, state)}</span>
-                {renderVideoActions(match)}
-              </div>
-            </article>
-          );
-        })}
-      </div>
-    );
-  }
-
   function renderConstellation() {
     return (
       <div className="constellation-layout">
-        {filteredMatches.map((match, index) => {
+        {filteredMatches.map((match) => {
           const state = matchState(match, now);
           return (
             <article
               className={`star-node is-${state}`}
               key={match.id}
-              style={{ "--node": index % 24 } as CSSProperties}
             >
               <div
                 className="star-select"
@@ -990,11 +1369,14 @@ export default function WorldCupDashboard() {
                 role="button"
                 tabIndex={0}
               >
-                <span>{match.id}</span>
-                <strong>{renderTeamName(match.home, `star-team-name ${teamResultClass(match, "home")}`)}</strong>
-                {renderScorePill(match)}
-                <strong>{renderTeamName(match.away, `star-team-name ${teamResultClass(match, "away")}`)}</strong>
+                <span className="tile-time">{formatCompactDateTime(match)}</span>
+                <div className="tile-teams">
+                  <strong>{renderTeamName(match.home, `star-team-name ${teamResultClass(match, "home")}`)}</strong>
+                  <span className="tile-score">{renderScorePill(match)}</span>
+                  <strong>{renderTeamName(match.away, `star-team-name ${teamResultClass(match, "away")}`)}</strong>
+                </div>
               </div>
+              {renderTileVideoLinks(match)}
             </article>
           );
         })}
@@ -1008,12 +1390,12 @@ export default function WorldCupDashboard() {
     return (
       <aside className={`detail-panel is-${state}`}>
         <div className="detail-panel-header">
-          <span className="eyebrow">Selected match</span>
+          <span className="eyebrow">Match details</span>
           <button
-            aria-label="Minimize selected match"
+            aria-label="Minimize match details"
             className="icon-button"
             onClick={() => setDetailOpen(false)}
-            title="Minimize selected match"
+            title="Minimize match details"
             type="button"
           >
             ×
@@ -1026,9 +1408,14 @@ export default function WorldCupDashboard() {
         </h2>
         <div className="detail-score">{renderScorePill(match)}</div>
         <dl>
+          {renderRankingRow(match)}
           <div>
             <dt>Stage</dt>
             <dd>{match.group ? `Group ${match.group}` : match.stage}</dd>
+          </div>
+          <div>
+            <dt>Match #</dt>
+            <dd>{match.id}</dd>
           </div>
           <div>
             <dt>Kickoff</dt>
@@ -1042,12 +1429,14 @@ export default function WorldCupDashboard() {
             <dt>Broadcast</dt>
             <dd>{match.network ?? "TBD"}</dd>
           </div>
-          <div>
-            <dt>Status</dt>
-            <dd>{statusLabel(state)}</dd>
-          </div>
+          {matchNotice(match, state) ? (
+            <div>
+              <dt>Status</dt>
+              <dd>{matchNotice(match, state)}</dd>
+            </div>
+          ) : null}
         </dl>
-        <div className="detail-video-state">{videoStatus(match, state)}</div>
+        {videoStatus(match, state) ? <div className="detail-video-state">{videoStatus(match, state)}</div> : null}
         {renderVideoActions(match)}
         {match.videos?.lastCheckedAt ? (
           <p className="last-checked">Checked {new Date(match.videos.lastCheckedAt).toLocaleString()}</p>
@@ -1059,13 +1448,13 @@ export default function WorldCupDashboard() {
   function renderDetailHandle(match: Match) {
     return (
       <button
-        aria-label="Show selected match"
+        aria-label="Show match details"
         className="detail-mini"
         onClick={() => setDetailOpen(true)}
-        title="Show selected match"
+        title="Show match details"
         type="button"
       >
-        <span>Selected</span>
+        <span>Match details</span>
         <strong>{renderTeamName(match.home, "mini-team-name")} vs {renderTeamName(match.away, "mini-team-name")}</strong>
       </button>
     );
@@ -1149,6 +1538,134 @@ export default function WorldCupDashboard() {
     );
   }
 
+  function renderSettingsModal() {
+    if (!settingsOpen) return null;
+
+    return (
+      <div
+        aria-label="Display settings"
+        aria-modal="true"
+        className="settings-modal"
+        onClick={(event) => {
+          if (event.target === event.currentTarget) {
+            setSettingsOpen(false);
+          }
+        }}
+        role="dialog"
+      >
+        <section className="settings-panel">
+          <header className="settings-header">
+            <div>
+              <span className="eyebrow">Settings</span>
+              <h2>Display</h2>
+            </div>
+            <button
+              aria-label="Close settings"
+              className="icon-button settings-close"
+              onClick={() => setSettingsOpen(false)}
+              title="Close settings"
+              type="button"
+            >
+              ×
+            </button>
+          </header>
+          {settingGroups.map((group) => (
+            <section className="settings-section" key={group.key}>
+              <span>{group.label}</span>
+              <div className="settings-options">
+                {group.options.map((option) => (
+                  <button
+                    aria-pressed={settings[group.key] === option.value}
+                    key={`${group.key}-${option.value}`}
+                    onClick={() => changeSetting(group.key, option.value)}
+                    type="button"
+                  >
+                    {option.label}
+                  </button>
+                ))}
+              </div>
+            </section>
+          ))}
+          <section className="settings-section settings-view-section">
+            <span>Views</span>
+            <label className="settings-toggle">
+              <input
+                checked={settings.showBracketViewOption}
+                onChange={(event) => changeSetting("showBracketViewOption", event.target.checked)}
+                type="checkbox"
+              />
+              <span>Show Bracket View Option</span>
+            </label>
+          </section>
+          <section className="settings-section settings-score-section">
+            <span>Score reveal</span>
+            <div
+              className="settings-score-card score-date-control"
+              onClick={(event) => {
+                const target = event.target as HTMLElement;
+                if (target.matches('input[type="checkbox"]')) return;
+
+                if (!scoreCutoffEnabled) {
+                  setScoreCutoffEnabled(true);
+                  setHiddenGroups(new Set());
+                }
+
+                const input = event.currentTarget.querySelector<HTMLInputElement>('input[type="date"]');
+                if (input) {
+                  input.focus();
+                  const pickerInput = input as HTMLInputElement & { showPicker?: () => void };
+                  try {
+                    pickerInput.showPicker?.();
+                  } catch {
+                    // Some browsers open the picker from the native input click first.
+                  }
+                }
+              }}
+            >
+              <label className="score-date-toggle">
+                <input
+                  checked={scoreCutoffEnabled}
+                  onChange={(event) => {
+                    setScoreCutoffEnabled(event.target.checked);
+                    if (event.target.checked) {
+                      setHiddenGroups(new Set());
+                    }
+                  }}
+                  type="checkbox"
+                />
+                <span>Show scores before</span>
+              </label>
+              <input
+                aria-label="Show scores before date"
+                onChange={(event) => {
+                  setScoreCutoffDate(event.target.value);
+                  setScoreCutoffEnabled(Boolean(event.target.value));
+                  if (event.target.value) {
+                    setHiddenGroups(new Set());
+                  }
+                }}
+                type="date"
+                value={scoreCutoffDate}
+              />
+            </div>
+          </section>
+          <footer className="settings-footer">
+            <button
+              onClick={() => {
+                setSettings(defaultSettings);
+                setTimelineAutoScrolled(false);
+              }}
+              type="button"
+            >
+              Reset defaults
+            </button>
+            <span>Saved on this device</span>
+          </footer>
+        </section>
+      </div>
+    );
+  }
+
   function renderStadiumMap() {
     const selectedVenue = mapVenueId ? venues.find((venue) => venue.id === mapVenueId) ?? null : null;
     if (!selectedVenue) return null;
@@ -1219,13 +1736,12 @@ export default function WorldCupDashboard() {
   function renderActiveView() {
     if (mode === "groups") return renderGroups();
     if (mode === "bracket") return renderBracket();
-    if (mode === "video") return renderVideoDesk();
     if (mode === "constellation") return renderConstellation();
     return renderTimeline();
   }
 
   return (
-    <main className="app-shell" data-view={mode}>
+    <main className="app-shell" data-density={settings.density} data-theme={settings.theme} data-video-style={settings.videoStyle} data-view={mode}>
       <div className="hero-texture" aria-hidden="true" />
       <div className="page-chrome">
         <header className="topbar">
@@ -1235,13 +1751,26 @@ export default function WorldCupDashboard() {
           </div>
         </header>
 
-        <section className="control-deck" aria-label="Schedule controls">
+        <button
+          aria-controls="schedule-controls"
+          aria-expanded={mobileMenuOpen}
+          className="mobile-menu-toggle"
+          onClick={() => setMobileMenuOpen((value) => !value)}
+          type="button"
+        >
+          <span aria-hidden="true" className="hamburger-icon"><i /><i /><i /></span>
+          <span className="sr-only">{mobileMenuOpen ? "Close menu" : "Open menu"}</span>
+          <strong>{currentModeLabel()}</strong>
+          <em>{countryFilterLabel()}</em>
+        </button>
+
+        <section className={`control-deck ${mobileMenuOpen ? "is-open" : ""}`} id="schedule-controls" aria-label="Schedule controls">
           <div className="view-toggle" aria-label="Viewing option">
-            {modes.map((item) => (
+            {visibleModes.map((item) => (
               <button
                 aria-pressed={mode === item.id}
                 key={item.id}
-                onClick={() => setMode(item.id)}
+                onClick={() => changeMode(item.id)}
                 type="button"
               >
                 {item.label}
@@ -1251,9 +1780,13 @@ export default function WorldCupDashboard() {
           <button
             className="spoiler-control"
             onClick={() => {
-              setShowAllScores((value) => !value);
-              setRevealedScoreIds(new Set());
-              setRevealedGroups(new Set());
+              const nextShowAll = !showAllScores;
+              setShowAllScores(nextShowAll);
+              if (!nextShowAll) {
+                setScoreCutoffEnabled(false);
+                setRevealedScoreIds(new Set());
+                setRevealedGroups(new Set());
+              }
               setHiddenGroups(new Set());
             }}
             type="button"
@@ -1261,56 +1794,34 @@ export default function WorldCupDashboard() {
             {showAllScores ? "Hide all scores" : "Show all scores"}
           </button>
 
-          <div
-            className="score-date-control"
-            onClick={(event) => {
-              const target = event.target as HTMLElement;
-              if (target.matches('input[type="checkbox"]')) return;
-
-              if (!scoreCutoffEnabled) {
-                setScoreCutoffEnabled(true);
-              }
-
-              const input = event.currentTarget.querySelector<HTMLInputElement>('input[type="date"]');
-              if (input) {
-                input.focus();
-                const pickerInput = input as HTMLInputElement & { showPicker?: () => void };
-                try {
-                  pickerInput.showPicker?.();
-                } catch {
-                  // Some browsers open the picker from the native input click first.
-                }
-              }
-            }}
-          >
-            <label className="score-date-toggle">
-              <input
-                checked={scoreCutoffEnabled}
-                onChange={(event) => setScoreCutoffEnabled(event.target.checked)}
-                type="checkbox"
-              />
-              <span>Show scores before</span>
-            </label>
-            <input
-              aria-label="Show scores before date"
-              onChange={(event) => {
-                setScoreCutoffDate(event.target.value);
-                setScoreCutoffEnabled(Boolean(event.target.value));
-              }}
-              type="date"
-              value={scoreCutoffDate}
-            />
-          </div>
-
           <div className="filters">
             <label>
               <span>Country</span>
-              <button className="country-filter-trigger" onClick={() => setCountryPickerOpen(true)} type="button">
+              <button
+                className="country-filter-trigger"
+                onClick={() => {
+                  setCountryPickerOpen(true);
+                  setMobileMenuOpen(false);
+                }}
+                type="button"
+              >
                 <strong>{countryFilterLabel()}</strong>
                 <em>{countryMode === "all" ? "All" : "Filtered"}</em>
               </button>
             </label>
           </div>
+          <button
+            aria-label="Settings"
+            className="settings-trigger"
+            onClick={() => {
+              setSettingsOpen(true);
+              setMobileMenuOpen(false);
+            }}
+            title="Settings"
+            type="button"
+          >
+            <span aria-hidden="true">⚙</span>
+          </button>
         </section>
       </div>
 
@@ -1324,12 +1835,20 @@ export default function WorldCupDashboard() {
       </section>
 
       {selectedMatch ? (
-        <div className={`floating-detail ${detailOpen ? "" : "is-minimized"}`}>
+        <div
+          className={`floating-detail ${detailOpen ? "" : "is-minimized"}`}
+          onClick={(event) => {
+            if (event.target === event.currentTarget) {
+              setDetailOpen(false);
+            }
+          }}
+        >
           {detailOpen ? renderDetailPanel(selectedMatch) : renderDetailHandle(selectedMatch)}
         </div>
       ) : null}
 
       {renderCountryPicker()}
+      {renderSettingsModal()}
       {renderStadiumMap()}
 
       <footer className="source-strip">

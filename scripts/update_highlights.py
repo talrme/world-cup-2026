@@ -162,7 +162,7 @@ def normalize_duration(value: str) -> str:
     else:
         minutes = max(1, round(numbers[0] / 60))
 
-    return f"~{minutes} min"
+    return f"{minutes} min"
 
 
 def looks_like_duration(value: str) -> bool:

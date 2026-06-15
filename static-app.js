@@ -7,13 +7,85 @@
   }
 
   const modes = [
-    ["timeline", "Timeline"],
+    ["timeline", "Schedule"],
     ["groups", "Groups"],
     ["bracket", "Bracket"],
-    ["video", "Video Desk"],
-    ["constellation", "Constellation"],
+    ["constellation", "Tiles"],
   ];
   const modeIds = modes.map(([id]) => id);
+  const settingsKey = "worldCup2026Settings";
+  const spoilerStateKey = "worldCup2026Spoilers";
+  const defaultSettings = {
+    theme: "match",
+    density: "comfortable",
+    videoStyle: "compact",
+    timelineStart: "yesterday",
+    scoreStartupMode: "previous",
+    showBracketViewOption: false,
+  };
+  const settingGroups = [
+    {
+      key: "theme",
+      label: "Color theme",
+      options: [
+        ["match", "Stadium"],
+        ["midnight", "Midnight"],
+        ["daylight", "Daylight"],
+        ["electric", "Electric"],
+      ],
+    },
+    {
+      key: "density",
+      label: "Card density",
+      options: [
+        ["comfortable", "Comfortable"],
+        ["compact", "Compact"],
+      ],
+    },
+    {
+      key: "videoStyle",
+      label: "Video buttons",
+      options: [
+        ["compact", "Compact"],
+        ["full", "Full labels"],
+      ],
+    },
+    {
+      key: "timelineStart",
+      label: "Schedule opens at",
+      options: [
+        ["yesterday", "Yesterday"],
+        ["today", "Today"],
+        ["top", "Top"],
+      ],
+    },
+    {
+      key: "scoreStartupMode",
+      label: "Scores open as",
+      options: [
+        ["previous", "Show previously revealed"],
+        ["hidden", "Always hidden"],
+        ["shown", "Always showing"],
+      ],
+    },
+  ];
+
+  function readSettings() {
+    try {
+      const stored = JSON.parse(window.localStorage.getItem(settingsKey) || "{}");
+      return { ...defaultSettings, ...stored };
+    } catch {
+      return { ...defaultSettings };
+    }
+  }
+
+  function saveSettings() {
+    try {
+      window.localStorage.setItem(settingsKey, JSON.stringify(state.settings));
+    } catch {
+      // Settings are optional device preferences.
+    }
+  }
 
   const teamFlagCodes = {
     Algeria: "DZ",
@@ -66,6 +138,57 @@
     Uzbekistan: "UZ",
   };
 
+  const teamFifaRanks = {
+    Algeria: 35,
+    Argentina: 2,
+    Australia: 26,
+    Austria: 24,
+    Belgium: 8,
+    "Bosnia and Herzegovina": 71,
+    Brazil: 5,
+    "Cabo Verde": 68,
+    Canada: 27,
+    Colombia: 13,
+    Croatia: 10,
+    Curacao: 82,
+    Czechia: 44,
+    "DR Congo": 56,
+    Ecuador: 23,
+    Egypt: 34,
+    England: 4,
+    France: 3,
+    Germany: 9,
+    Ghana: 72,
+    Haiti: 84,
+    Iran: 20,
+    Iraq: 58,
+    "Ivory Coast": 42,
+    Japan: 18,
+    Jordan: 66,
+    Mexico: 15,
+    Morocco: 11,
+    Netherlands: 7,
+    "New Zealand": 86,
+    Norway: 29,
+    Panama: 30,
+    Paraguay: 39,
+    Portugal: 6,
+    Qatar: 51,
+    "Saudi Arabia": 60,
+    Scotland: 36,
+    Senegal: 19,
+    "South Africa": 61,
+    "South Korea": 22,
+    Spain: 1,
+    Sweden: 43,
+    Switzerland: 17,
+    Tunisia: 40,
+    Turkey: 25,
+    "United States": 14,
+    Uruguay: 16,
+    Uzbekistan: 50,
+  };
+
   function inputDateValue(date) {
     return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
   }
@@ -76,19 +199,77 @@
     return inputDateValue(date);
   }
 
+  function baseSpoilerState(scoreCutoffDate = defaultScoreCutoffDate()) {
+    return {
+      showAllScores: false,
+      scoreCutoffEnabled: false,
+      scoreCutoffDate,
+      revealedScores: new Set(),
+      revealedGroups: new Set(),
+      hiddenGroups: new Set(),
+    };
+  }
+
+  function applyScoreStartupMode(spoilers, startupMode) {
+    if (startupMode === "hidden") {
+      return baseSpoilerState(spoilers.scoreCutoffDate);
+    }
+
+    if (startupMode === "shown") {
+      return {
+        ...baseSpoilerState(spoilers.scoreCutoffDate),
+        showAllScores: true,
+      };
+    }
+
+    return spoilers;
+  }
+
+  function readSpoilerState(startupMode = "previous") {
+    try {
+      const stored = JSON.parse(window.localStorage.getItem(spoilerStateKey) || "{}");
+      const scoreCutoffDate =
+        typeof stored.scoreCutoffDate === "string" && stored.scoreCutoffDate
+          ? stored.scoreCutoffDate
+          : defaultScoreCutoffDate();
+
+      return applyScoreStartupMode({
+        showAllScores: Boolean(stored.showAllScores),
+        scoreCutoffEnabled: Boolean(stored.scoreCutoffEnabled),
+        scoreCutoffDate,
+        revealedScores: new Set(
+          Array.isArray(stored.revealedScores)
+            ? stored.revealedScores.map(Number).filter(Number.isFinite)
+            : [],
+        ),
+        revealedGroups: new Set(Array.isArray(stored.revealedGroups) ? stored.revealedGroups.filter((item) => typeof item === "string") : []),
+        hiddenGroups: new Set(Array.isArray(stored.hiddenGroups) ? stored.hiddenGroups.filter((item) => typeof item === "string") : []),
+      }, startupMode);
+    } catch {
+      return applyScoreStartupMode(baseSpoilerState(), startupMode);
+    }
+  }
+
+  const savedSettings = readSettings();
+  const savedSpoilers = readSpoilerState(savedSettings.scoreStartupMode);
+
   const state = {
     mode: "timeline",
     countryMode: "all",
     selectedCountries: new Set(),
     countryPickerOpen: false,
+    mobileMenuOpen: false,
+    settingsOpen: false,
+    settings: savedSettings,
+    pendingViewScroll: null,
     selectedId: null,
     detailOpen: true,
-    showAllScores: false,
-    scoreCutoffEnabled: false,
-    scoreCutoffDate: defaultScoreCutoffDate(),
-    revealedScores: new Set(),
-    revealedGroups: new Set(),
-    hiddenGroups: new Set(),
+    showAllScores: savedSpoilers.showAllScores,
+    scoreCutoffEnabled: savedSpoilers.scoreCutoffEnabled,
+    scoreCutoffDate: savedSpoilers.scoreCutoffDate,
+    revealedScores: savedSpoilers.revealedScores,
+    revealedGroups: savedSpoilers.revealedGroups,
+    hiddenGroups: savedSpoilers.hiddenGroups,
     mapVenueId: null,
     timelineAutoScrolled: false,
     now: new Date(),
@@ -98,6 +279,24 @@
     return kickoffDate(a).getTime() - kickoffDate(b).getTime() || a.id - b.id;
   });
   const venues = Array.isArray(data.venues) ? data.venues : [];
+
+  function saveSpoilerState() {
+    try {
+      window.localStorage.setItem(
+        spoilerStateKey,
+        JSON.stringify({
+          showAllScores: state.showAllScores,
+          scoreCutoffEnabled: state.scoreCutoffEnabled,
+          scoreCutoffDate: state.scoreCutoffDate,
+          revealedScores: [...state.revealedScores],
+          revealedGroups: [...state.revealedGroups],
+          hiddenGroups: [...state.hiddenGroups],
+        }),
+      );
+    } catch {
+      // Spoiler reveal state is a best-effort device preference.
+    }
+  }
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -173,6 +372,18 @@
     return `${state.selectedCountries.size} countries`;
   }
 
+  function currentModeLabel() {
+    return modes.find(([id]) => id === state.mode)?.[1] || "Schedule";
+  }
+
+  function modeIsVisible(id) {
+    return id !== "bracket" || state.settings.showBracketViewOption;
+  }
+
+  function visibleModes() {
+    return modes.filter(([id]) => modeIsVisible(id));
+  }
+
   function selectedAllCountries() {
     const countries = allCountries();
     return state.countryMode === "all" || Boolean(countries.length && state.selectedCountries.size === countries.length);
@@ -192,7 +403,7 @@
     state.countryMode = "all";
     state.selectedCountries = new Set();
 
-    if (view && modeIds.includes(view)) {
+    if (view && modeIds.includes(view) && modeIsVisible(view)) {
       state.mode = view;
     }
     if (params.get("countries") === "none") {
@@ -212,7 +423,7 @@
   function syncUrlState() {
     const params = new URLSearchParams();
 
-    if (state.mode !== "timeline") params.set("view", state.mode);
+    if (state.mode !== "timeline" && modeIsVisible(state.mode)) params.set("view", state.mode);
     if (state.countryMode === "custom" && !state.selectedCountries.size) {
       params.set("countries", "none");
     } else if (state.countryMode === "custom" && !selectedAllCountries()) {
@@ -245,13 +456,6 @@
     return "scheduled";
   }
 
-  function statusLabel(value) {
-    if (value === "completed") return "Final";
-    if (value === "live") return "Live window";
-    if (value === "needs-result") return "Past kickoff";
-    return "Scheduled";
-  }
-
   function scoreText(match) {
     if (typeof match.homeScore === "number" && typeof match.awayScore === "number") {
       return `${match.homeScore} - ${match.awayScore}`;
@@ -262,6 +466,14 @@
 
   function hasScore(match) {
     return typeof match.homeScore === "number" && typeof match.awayScore === "number";
+  }
+
+  function hasDirectVideo(match) {
+    return Boolean(match.videos && (match.videos.extended?.url || match.videos.short?.url));
+  }
+
+  function isScorePending(match, current = matchState(match)) {
+    return !hasScore(match) && (current === "live" || current === "needs-result" || current === "completed" || hasDirectVideo(match));
   }
 
   function flagEmojiForCode(code) {
@@ -301,12 +513,48 @@
     return `<span class="${escapeHtml(className)}">${flagHtml}<span class="team-label">${escapeHtml(team)}</span></span>`;
   }
 
+  function teamRank(team) {
+    return teamFifaRanks[team] || null;
+  }
+
+  function renderRankingRow(match) {
+    const homeRank = teamRank(match.home);
+    const awayRank = teamRank(match.away);
+
+    if (!homeRank || !awayRank) {
+      return "";
+    }
+
+    const rankings = [
+      { team: match.home, rank: homeRank, order: 0 },
+      { team: match.away, rank: awayRank, order: 1 },
+    ].sort((a, b) => a.rank - b.rank || a.order - b.order);
+
+    return `
+      <div>
+        <dt>Rankings</dt>
+        <dd>
+          <span class="detail-rankings" aria-label="FIFA rankings">
+            ${rankings
+              .map((item, index) => `
+                <span class="detail-ranking ${index === 0 ? "is-top-ranked" : ""}">
+                  ${renderTeamName(item.team, "detail-ranking-team")}
+                  <span class="detail-ranking-number">#${item.rank}</span>
+                </span>
+              `)
+              .join("")}
+          </span>
+        </dd>
+      </div>
+    `;
+  }
+
   function scoreCutoffReveals(match) {
     return Boolean(state.scoreCutoffEnabled && state.scoreCutoffDate && localDateKey(match) <= state.scoreCutoffDate);
   }
 
   function isScoreVisible(match, forceVisible = false, forceHidden = false) {
-    return hasScore(match) && !forceHidden && (forceVisible || state.showAllScores || scoreCutoffReveals(match) || state.revealedScores.has(match.id));
+    return hasScore(match) && (state.revealedScores.has(match.id) || (!forceHidden && (forceVisible || state.showAllScores || scoreCutoffReveals(match))));
   }
 
   function spoilerText(match, forceVisible = false, forceHidden = false) {
@@ -315,30 +563,45 @@
   }
 
   function renderScorePill(match, forceVisible = false, forceHidden = false) {
-    if (!hasScore(match)) return `<span class="score-pill score-empty">vs</span>`;
+    if (!hasScore(match)) {
+      return isScorePending(match)
+        ? `<span class="score-pill score-pending">Score pending</span>`
+        : `<span class="score-pill score-empty">vs</span>`;
+    }
     const visible = isScoreVisible(match, forceVisible, forceHidden);
     if (visible && (forceVisible || state.showAllScores || scoreCutoffReveals(match))) {
       return `<span class="score-pill score-revealed">${escapeHtml(scoreText(match))}</span>`;
     }
     const label = visible ? "Hide score" : "Reveal score";
-    return `<button aria-label="${label}" class="score-pill ${visible ? "score-revealed" : "score-hidden"}" data-score-id="${match.id}" type="button">${escapeHtml(spoilerText(match, forceVisible, forceHidden))}</button>`;
-  }
-
-  function hasDirectVideo(match) {
-    return Boolean(match.videos && (match.videos.extended?.url || match.videos.short?.url));
+    const tooltip = visible ? "Click to hide" : "Click to reveal";
+    return `<button aria-label="${label}" class="score-pill ${visible ? "score-revealed" : "score-hidden"}" data-score-id="${match.id}" data-score-tooltip="${escapeHtml(tooltip)}" type="button"><span class="score-hidden-text">${escapeHtml(spoilerText(match, forceVisible, forceHidden))}</span></button>`;
   }
 
   function videoStatus(match) {
     const current = matchState(match);
-    if (hasDirectVideo(match)) return "Highlights";
-    if (current === "completed" || current === "needs-result") return "No saved link";
-    if (current === "live") return "Match live";
-    return "Upcoming";
+    if (hasDirectVideo(match)) return "";
+    if (current === "live") return "Game in progress";
+    if (current === "completed" || current === "needs-result") return "Game completed, highlights not ready yet";
+    return "";
+  }
+
+  function matchNotice(match, current = matchState(match)) {
+    if (current === "live") return "Game in progress";
+    if (isScorePending(match, current) && hasDirectVideo(match)) {
+      return "Highlights ready, score not in schedule yet";
+    }
+    if (isScorePending(match, current)) {
+      return "Game completed, score not ready yet";
+    }
+    if ((current === "completed" || current === "needs-result") && !hasDirectVideo(match)) {
+      return "Game completed, highlights not ready yet";
+    }
+    return "";
   }
 
   function videoDuration(kind, video) {
-    if (video?.durationText) return video.durationText;
-    return kind === "extended" ? "~20 min" : "~4 min";
+    const duration = video?.durationText || (kind === "extended" ? "20 min" : "4 min");
+    return duration.replace(/^~\s*/, "");
   }
 
   function youtubeSearchUrl(match) {
@@ -353,7 +616,35 @@
 
   function renderVideoLink(kind, video, label) {
     const duration = videoDuration(kind, video);
-    return `<a href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank">${escapeHtml(label)} <small>${escapeHtml(duration)}</small></a>`;
+    const compactLabel = kind === "extended" ? "Extended" : "Highlights";
+    const visibleLabel = state.settings.videoStyle === "full" ? label : compactLabel;
+    return `<a aria-label="Open ${escapeHtml(duration)} ${escapeHtml(visibleLabel)} on YouTube" class="video-link video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span><small>${escapeHtml(duration)}</small><span class="video-link-label">${escapeHtml(visibleLabel)}</span></a>`;
+  }
+
+  function videoDurationChip(kind, video) {
+    const match = videoDuration(kind, video).match(/\d+/);
+    const minutes = match ? match[0] : kind === "extended" ? "20" : "4";
+    return `${minutes} min`;
+  }
+
+  function renderTileVideoLink(kind, video) {
+    const chip = videoDurationChip(kind, video);
+    const label = kind === "extended" ? "Extended highlights" : "Highlights";
+    return `<a aria-label="Open ${escapeHtml(label)} on YouTube" class="tile-video-link tile-video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span><span>${escapeHtml(chip)}</span></a>`;
+  }
+
+  function renderTileVideoLinks(match) {
+    const links = [];
+    const short = match.videos?.short || null;
+    const extended = match.videos?.extended || null;
+    if (short?.url) links.push(renderTileVideoLink("short", short));
+    if (extended?.url) links.push(renderTileVideoLink("extended", extended));
+    return links.length ? `<div class="tile-video-links">${links.join("")}</div>` : "";
+  }
+
+  function renderVideoSearchLink(match) {
+    const visibleLabel = state.settings.videoStyle === "full" ? "YouTube Search" : "Search";
+    return `<a aria-label="Search YouTube" class="video-link video-link-search" href="${escapeHtml(youtubeSearchUrl(match))}" rel="noreferrer" target="_blank" title="Search YouTube"><span class="yt-mark" aria-hidden="true"></span><small>YouTube</small><span class="video-link-label">${escapeHtml(visibleLabel)}</span></a>`;
   }
 
   function renderInlineVideoLinks(match) {
@@ -369,11 +660,11 @@
     }
 
     if (!links.length && canSearchVideo(match)) {
-      return `<span class="video-links video-search-links"><a href="${escapeHtml(youtubeSearchUrl(match))}" rel="noreferrer" target="_blank">YouTube Search <small>Fox Sports</small></a></span>`;
+      return `<span class="video-links video-search-links">${renderVideoSearchLink(match)}</span>`;
     }
 
     if (!links.length) {
-      return `<span class="video-status">${escapeHtml(videoStatus(match))}</span>`;
+      return "";
     }
 
     return `<span class="video-links">${links.join("")}</span>`;
@@ -502,7 +793,17 @@
   }
 
   function isGroupRevealed(group) {
-    return state.showAllScores ? !state.hiddenGroups.has(group) : state.revealedGroups.has(group);
+    if (state.hiddenGroups.has(group)) return false;
+    if (state.showAllScores || state.revealedGroups.has(group)) return true;
+    return completedGroupScoresVisible(group);
+  }
+
+  function completedGroupScoresVisible(group) {
+    const completed = matches.filter((match) => {
+      return match.stage === "Group" && match.group === group && match.status === "completed" && hasScore(match);
+    });
+
+    return completed.length > 0 && completed.every((match) => isScoreVisible(match));
   }
 
   function hiddenStat() {
@@ -524,11 +825,12 @@
     }
 
     if (!actions.length && canSearchVideo(match)) {
-      actions.push(`<a href="${escapeHtml(youtubeSearchUrl(match))}" rel="noreferrer" target="_blank">YouTube Search <small>Fox Sports</small></a>`);
+      actions.push(renderVideoSearchLink(match));
     }
 
-    if (!actions.length) {
-      actions.push(`<span>${escapeHtml(current === "scheduled" ? "Highlights pending" : videoStatus(match))}</span>`);
+    const notice = matchNotice(match, current);
+    if (!actions.length && notice) {
+      actions.push(`<span>${escapeHtml(notice)}</span>`);
     }
 
     return `<div class="video-actions">${actions.join("")}</div>`;
@@ -537,6 +839,14 @@
   function renderMatchCard(match, variant = "match-card") {
     const current = matchState(match);
     const videoClass = hasDirectVideo(match) ? "video-ready" : "";
+    const notice = matchNotice(match, current);
+    const videoLinks = renderInlineVideoLinks(match);
+    const footer = notice || videoLinks
+      ? `<span class="card-footer">
+            ${notice ? `<span class="match-notice">${escapeHtml(notice)}</span>` : "<span></span>"}
+            ${videoLinks ? `<span class="${videoClass}">${videoLinks}</span>` : "<span></span>"}
+          </span>`
+      : "";
 
     return `
       <article class="${variant} is-${current}">
@@ -550,10 +860,7 @@
             ${renderScorePill(match)}
             ${renderTeamName(match.away, `team-name team-away ${teamResultClass(match, "away")}`)}
           </span>
-          <span class="card-footer">
-            <span>${escapeHtml(statusLabel(current))}</span>
-            <span class="${videoClass}">${renderInlineVideoLinks(match)}</span>
-          </span>
+          ${footer}
         </div>
       </article>
     `;
@@ -568,8 +875,8 @@
     return `
       <aside class="detail-panel is-${current}">
         <div class="detail-panel-header">
-          <span class="eyebrow">Selected match</span>
-          <button aria-label="Minimize selected match" class="icon-button" data-detail-close title="Minimize selected match" type="button">×</button>
+          <span class="eyebrow">Match details</span>
+          <button aria-label="Minimize match details" class="icon-button" data-detail-close title="Minimize match details" type="button">×</button>
         </div>
         <h2 class="detail-title-teams">
           ${renderTeamName(match.home, `detail-team-name ${teamResultClass(match, "home")}`)}
@@ -578,13 +885,15 @@
         </h2>
         <div class="detail-score">${renderScorePill(match)}</div>
         <dl>
+          ${renderRankingRow(match)}
           <div><dt>Stage</dt><dd>${escapeHtml(match.group ? `Group ${match.group}` : match.stage)}</dd></div>
+          <div><dt>Match #</dt><dd>${escapeHtml(String(match.id))}</dd></div>
           <div><dt>Kickoff</dt><dd>${escapeHtml(formatDate(match))} at ${escapeHtml(formatTime(match))}</dd></div>
           <div><dt>Location</dt><dd>${renderVenueButton(match)}</dd></div>
           <div><dt>Broadcast</dt><dd>${escapeHtml(match.network || "TBD")}</dd></div>
-          <div><dt>Status</dt><dd>${escapeHtml(statusLabel(current))}</dd></div>
+          ${matchNotice(match, current) ? `<div><dt>Status</dt><dd>${escapeHtml(matchNotice(match, current))}</dd></div>` : ""}
         </dl>
-        <div class="detail-video-state">${escapeHtml(videoStatus(match))}</div>
+        ${videoStatus(match) ? `<div class="detail-video-state">${escapeHtml(videoStatus(match))}</div>` : ""}
         ${renderVideoActions(match)}
         ${checked}
       </aside>
@@ -593,8 +902,8 @@
 
   function renderDetailHandle(match) {
     return `
-      <button aria-label="Show selected match" class="detail-mini" data-detail-open title="Show selected match" type="button">
-        <span>Selected</span>
+      <button aria-label="Show match details" class="detail-mini" data-detail-open title="Show match details" type="button">
+        <span>Match details</span>
         <strong>${renderTeamName(match.home, "mini-team-name")} vs ${renderTeamName(match.away, "mini-team-name")}</strong>
       </button>
     `;
@@ -653,7 +962,7 @@
         }
 
         const revealed = isGroupRevealed(group);
-        const groupForceHidden = state.showAllScores && state.hiddenGroups.has(group);
+        const groupForceHidden = state.hiddenGroups.has(group);
         const rows = revealed
           ? standingsFor(groups[group])
               .map((row) => {
@@ -718,7 +1027,7 @@
     const rounds = ["Round of 32", "Round of 16", "Quarterfinals", "Semifinals", "Third Place", "Final"];
 
     if (!knockout.length) {
-      return `<div class="empty-state"><strong>No knockout matches found</strong><span>Adjust the country filter or switch to the timeline.</span></div>`;
+      return `<div class="empty-state"><strong>No knockout matches found</strong><span>Adjust the country filter or switch to the schedule.</span></div>`;
     }
 
     const html = rounds
@@ -738,55 +1047,23 @@
     return `<div class="bracket-layout">${html}</div>`;
   }
 
-  function renderVideoDesk(list) {
-    const videoMatches = list.filter((match) => {
-      const current = matchState(match);
-      return current === "completed" || current === "needs-result" || current === "live" || hasDirectVideo(match);
-    });
-    const visible = videoMatches.length ? videoMatches : list.slice(0, 18);
-
-    return `
-      <div class="video-layout">
-        ${visible
-          .map((match) => {
-            const current = matchState(match);
-            return `
-              <article class="video-tile is-${current}">
-                <div class="video-select" data-match-id="${match.id}" role="button" tabindex="0">
-                  <span>${escapeHtml(match.group ? `Group ${match.group}` : match.stage)}</span>
-                  <strong class="video-title-teams">
-                    ${renderTeamName(match.home, `video-team-name ${teamResultClass(match, "home")}`)}
-                    <span>vs</span>
-                    ${renderTeamName(match.away, `video-team-name ${teamResultClass(match, "away")}`)}
-                  </strong>
-                  ${renderScorePill(match)}
-                </div>
-                <div class="availability">
-                  <span>${escapeHtml(videoStatus(match))}</span>
-                  ${renderVideoActions(match)}
-                </div>
-              </article>
-            `;
-          })
-          .join("")}
-      </div>
-    `;
-  }
-
   function renderConstellation(list) {
     return `
       <div class="constellation-layout">
         ${list
-          .map((match, index) => {
+          .map((match) => {
             const current = matchState(match);
             return `
-              <article class="star-node is-${current}" style="--node: ${index % 24}">
+              <article class="star-node is-${current}">
                 <div class="star-select" data-match-id="${match.id}" role="button" tabindex="0">
-                  <span>${match.id}</span>
-                  <strong>${renderTeamName(match.home, `star-team-name ${teamResultClass(match, "home")}`)}</strong>
-                  ${renderScorePill(match)}
-                  <strong>${renderTeamName(match.away, `star-team-name ${teamResultClass(match, "away")}`)}</strong>
+                  <span class="tile-time">${escapeHtml(formatCompactDateTime(match))}</span>
+                  <div class="tile-teams">
+                    <strong>${renderTeamName(match.home, `star-team-name ${teamResultClass(match, "home")}`)}</strong>
+                    <span class="tile-score">${renderScorePill(match)}</span>
+                    <strong>${renderTeamName(match.away, `star-team-name ${teamResultClass(match, "away")}`)}</strong>
+                  </div>
                 </div>
+                ${renderTileVideoLinks(match)}
               </article>
             `;
           })
@@ -802,13 +1079,12 @@
 
     if (state.mode === "groups") return renderGroups(list);
     if (state.mode === "bracket") return renderBracket(list);
-    if (state.mode === "video") return renderVideoDesk(list);
     if (state.mode === "constellation") return renderConstellation(list);
     return renderTimeline(list);
   }
 
   function renderControls() {
-    const modeButtons = modes
+    const modeButtons = visibleModes()
       .map(([id, label]) => {
         const pressed = state.mode === id ? "true" : "false";
         return `<button aria-pressed="${pressed}" data-mode="${id}" type="button">${escapeHtml(label)}</button>`;
@@ -816,18 +1092,17 @@
       .join("");
 
     return `
-      <section class="control-deck" aria-label="Schedule controls">
+      <button class="mobile-menu-toggle" aria-controls="schedule-controls" aria-expanded="${state.mobileMenuOpen ? "true" : "false"}" data-mobile-menu-toggle type="button">
+        <span class="hamburger-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="sr-only">${state.mobileMenuOpen ? "Close menu" : "Open menu"}</span>
+        <strong>${escapeHtml(currentModeLabel())}</strong>
+        <em>${escapeHtml(countryFilterLabel())}</em>
+      </button>
+      <section class="control-deck ${state.mobileMenuOpen ? "is-open" : ""}" id="schedule-controls" aria-label="Schedule controls">
         <div class="view-toggle" aria-label="Viewing option">${modeButtons}</div>
         <button class="spoiler-control" data-show-all-scores type="button">
           ${state.showAllScores ? "Hide all scores" : "Show all scores"}
         </button>
-        <div class="score-date-control" data-score-date-open>
-          <label class="score-date-toggle">
-            <input data-control="score-cutoff-enabled" type="checkbox" ${state.scoreCutoffEnabled ? "checked" : ""} />
-            <span>Show scores before</span>
-          </label>
-          <input aria-label="Show scores before date" data-control="score-cutoff-date" type="date" value="${escapeHtml(state.scoreCutoffDate)}" />
-        </div>
         <div class="filters">
           <label class="country-filter-wrap">
             <span>Country</span>
@@ -837,7 +1112,67 @@
             </button>
           </label>
         </div>
+        <button aria-label="Settings" class="settings-trigger" data-settings-open type="button" title="Settings">
+          <span aria-hidden="true">⚙</span>
+        </button>
       </section>
+    `;
+  }
+
+  function renderSettingsModal() {
+    if (!state.settingsOpen) return "";
+
+    const sections = settingGroups
+      .map((group) => {
+        const options = group.options
+          .map(([value, label]) => {
+            const pressed = state.settings[group.key] === value ? "true" : "false";
+            return `<button aria-pressed="${pressed}" data-setting-key="${escapeHtml(group.key)}" data-setting-value="${escapeHtml(value)}" type="button">${escapeHtml(label)}</button>`;
+          })
+          .join("");
+        return `
+          <section class="settings-section">
+            <span>${escapeHtml(group.label)}</span>
+            <div class="settings-options">${options}</div>
+          </section>
+        `;
+      })
+      .join("");
+
+    return `
+      <div class="settings-modal" data-settings-modal role="dialog" aria-modal="true" aria-label="Display settings">
+        <section class="settings-panel">
+          <header class="settings-header">
+            <div>
+              <span class="eyebrow">Settings</span>
+              <h2>Display</h2>
+            </div>
+            <button aria-label="Close settings" class="icon-button settings-close" data-settings-close title="Close settings" type="button">×</button>
+          </header>
+          ${sections}
+          <section class="settings-section settings-view-section">
+            <span>Views</span>
+            <label class="settings-toggle">
+              <input data-control="show-bracket-view" type="checkbox" ${state.settings.showBracketViewOption ? "checked" : ""} />
+              <span>Show Bracket View Option</span>
+            </label>
+          </section>
+          <section class="settings-section settings-score-section">
+            <span>Score reveal</span>
+            <div class="settings-score-card score-date-control" data-score-date-open>
+              <label class="score-date-toggle">
+                <input data-control="score-cutoff-enabled" type="checkbox" ${state.scoreCutoffEnabled ? "checked" : ""} />
+                <span>Show scores before</span>
+              </label>
+              <input aria-label="Show scores before date" data-control="score-cutoff-date" type="date" value="${escapeHtml(state.scoreCutoffDate)}" />
+            </div>
+          </section>
+          <footer class="settings-footer">
+            <button data-settings-reset type="button">Reset defaults</button>
+            <span>Saved on this device</span>
+          </footer>
+        </section>
+      </div>
     `;
   }
 
@@ -936,7 +1271,7 @@
   function timelineLandingCutoffKey() {
     const cutoff = new Date(state.now);
     cutoff.setHours(0, 0, 0, 0);
-    cutoff.setDate(cutoff.getDate() - 1);
+    cutoff.setDate(cutoff.getDate() - (state.settings.timelineStart === "today" ? 0 : 1));
     return inputDateValue(cutoff);
   }
 
@@ -947,6 +1282,11 @@
 
   function autoScrollTimelineOnce() {
     if (state.timelineAutoScrolled || state.mode !== "timeline") return;
+    if (state.settings.timelineStart === "top") {
+      state.timelineAutoScrolled = true;
+      window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
+      return;
+    }
 
     window.requestAnimationFrame(() => {
       const dayBands = [...app.querySelectorAll("[data-day-key]")];
@@ -960,12 +1300,27 @@
     });
   }
 
+  function settleViewScroll() {
+    const pending = state.pendingViewScroll;
+    state.pendingViewScroll = null;
+
+    if (pending && pending !== "timeline") {
+      window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
+      return;
+    }
+
+    autoScrollTimelineOnce();
+  }
+
   function render() {
     state.now = new Date();
     const list = filteredMatches();
     const selected = selectedMatch();
 
     app.dataset.view = state.mode;
+    app.dataset.theme = state.settings.theme;
+    app.dataset.density = state.settings.density;
+    app.dataset.videoStyle = state.settings.videoStyle;
     app.innerHTML = `
       <div class="hero-texture" aria-hidden="true"></div>
       <div class="page-chrome">
@@ -980,12 +1335,13 @@
       <section class="active-view" aria-live="polite">${renderActiveView(list)}</section>
       ${
         selected
-          ? `<div class="floating-detail ${state.detailOpen ? "" : "is-minimized"}">${
+          ? `<div class="floating-detail ${state.detailOpen ? "" : "is-minimized"}" data-detail-backdrop>${
               state.detailOpen ? renderDetailPanel(selected) : renderDetailHandle(selected)
             }</div>`
           : ""
       }
       ${renderCountryPicker()}
+      ${renderSettingsModal()}
       ${renderStadiumMap()}
       <footer class="source-strip">
         <span>Data refreshed ${escapeHtml(data.generatedAt)}</span>
@@ -996,7 +1352,7 @@
     `;
 
     syncUrlState();
-    autoScrollTimelineOnce();
+    settleViewScroll();
   }
 
   document.addEventListener("click", (event) => {
@@ -1043,9 +1399,77 @@
       return;
     }
 
+    const settingsClose = event.target.closest("[data-settings-close]");
+    if (settingsClose) {
+      state.settingsOpen = false;
+      render();
+      return;
+    }
+
+    const settingsBackdrop = event.target.closest("[data-settings-modal]");
+    if (settingsBackdrop && event.target === settingsBackdrop) {
+      state.settingsOpen = false;
+      render();
+      return;
+    }
+
+    const settingsOpen = event.target.closest("[data-settings-open]");
+    if (settingsOpen) {
+      state.settingsOpen = true;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
+    const settingsReset = event.target.closest("[data-settings-reset]");
+    if (settingsReset) {
+      state.settings = { ...defaultSettings };
+      if (!state.settings.showBracketViewOption && state.mode === "bracket") {
+        state.mode = "timeline";
+      }
+      state.timelineAutoScrolled = false;
+      state.pendingViewScroll = state.mode;
+      saveSettings();
+      render();
+      return;
+    }
+
+    const settingButton = event.target.closest("[data-setting-key]");
+    if (settingButton) {
+      const key = settingButton.dataset.settingKey;
+      const value = settingButton.dataset.settingValue;
+      if (key && value && Object.hasOwn(defaultSettings, key)) {
+        state.settings = { ...state.settings, [key]: value };
+        if (key === "timelineStart") {
+          state.timelineAutoScrolled = false;
+          state.pendingViewScroll = state.mode;
+        }
+        if (key === "scoreStartupMode") {
+          const nextSpoilers = readSpoilerState(value);
+          state.showAllScores = nextSpoilers.showAllScores;
+          state.scoreCutoffEnabled = nextSpoilers.scoreCutoffEnabled;
+          state.scoreCutoffDate = nextSpoilers.scoreCutoffDate;
+          state.revealedScores = nextSpoilers.revealedScores;
+          state.revealedGroups = nextSpoilers.revealedGroups;
+          state.hiddenGroups = nextSpoilers.hiddenGroups;
+        }
+        saveSettings();
+        render();
+      }
+      return;
+    }
+
     const countryPickerToggle = event.target.closest("[data-country-picker-toggle]");
     if (countryPickerToggle) {
       state.countryPickerOpen = true;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
+    const mobileMenuToggle = event.target.closest("[data-mobile-menu-toggle]");
+    if (mobileMenuToggle) {
+      state.mobileMenuOpen = !state.mobileMenuOpen;
       render();
       return;
     }
@@ -1062,10 +1486,12 @@
     if (scoreDateOpen && !event.target.matches('[data-control="score-cutoff-enabled"]')) {
       if (!state.scoreCutoffEnabled) {
         state.scoreCutoffEnabled = true;
+        state.hiddenGroups.clear();
         const checkbox = scoreDateOpen.querySelector('[data-control="score-cutoff-enabled"]');
         if (checkbox) {
           checkbox.checked = true;
         }
+        saveSpoilerState();
       }
 
       const input = scoreDateOpen.querySelector('[data-control="score-cutoff-date"]');
@@ -1127,9 +1553,22 @@
       return;
     }
 
+    const detailBackdrop = event.target.closest("[data-detail-backdrop]");
+    if (detailBackdrop && event.target === detailBackdrop) {
+      state.detailOpen = false;
+      render();
+      return;
+    }
+
     const modeButton = event.target.closest("[data-mode]");
     if (modeButton) {
-      state.mode = modeButton.dataset.mode;
+      const nextMode = modeButton.dataset.mode;
+      if (nextMode !== state.mode) {
+        state.timelineAutoScrolled = false;
+        state.pendingViewScroll = nextMode;
+      }
+      state.mode = nextMode;
+      state.mobileMenuOpen = false;
       render();
       return;
     }
@@ -1139,9 +1578,11 @@
       state.showAllScores = !state.showAllScores;
       state.hiddenGroups.clear();
       if (!state.showAllScores) {
+        state.scoreCutoffEnabled = false;
         state.revealedScores.clear();
         state.revealedGroups.clear();
       }
+      saveSpoilerState();
       render();
       return;
     }
@@ -1149,19 +1590,15 @@
     const groupReveal = event.target.closest("[data-group-reveal]");
     if (groupReveal) {
       const group = groupReveal.dataset.groupReveal;
-      if (state.showAllScores) {
-        if (state.hiddenGroups.has(group)) {
-          state.hiddenGroups.delete(group);
-        } else {
-          state.hiddenGroups.add(group);
-        }
+      const revealed = isGroupRevealed(group);
+      if (revealed) {
+        state.hiddenGroups.add(group);
+        state.revealedGroups.delete(group);
       } else {
-        if (state.revealedGroups.has(group)) {
-          state.revealedGroups.delete(group);
-        } else {
-          state.revealedGroups.add(group);
-        }
+        state.hiddenGroups.delete(group);
+        state.revealedGroups.add(group);
       }
+      saveSpoilerState();
       render();
       return;
     }
@@ -1174,6 +1611,7 @@
       } else {
         state.revealedScores.add(matchId);
       }
+      saveSpoilerState();
       render();
       return;
     }
@@ -1189,11 +1627,29 @@
   document.addEventListener("change", (event) => {
     if (event.target.dataset.control === "score-cutoff-enabled") {
       state.scoreCutoffEnabled = event.target.checked;
+      if (state.scoreCutoffEnabled) {
+        state.hiddenGroups.clear();
+      }
+      saveSpoilerState();
       render();
     }
     if (event.target.dataset.control === "score-cutoff-date") {
       state.scoreCutoffDate = event.target.value;
       state.scoreCutoffEnabled = Boolean(event.target.value);
+      if (state.scoreCutoffEnabled) {
+        state.hiddenGroups.clear();
+      }
+      saveSpoilerState();
+      render();
+    }
+    if (event.target.dataset.control === "show-bracket-view") {
+      state.settings = { ...state.settings, showBracketViewOption: event.target.checked };
+      if (!state.settings.showBracketViewOption && state.mode === "bracket") {
+        state.mode = "timeline";
+        state.timelineAutoScrolled = false;
+        state.pendingViewScroll = "timeline";
+      }
+      saveSettings();
       render();
     }
   });
@@ -1205,6 +1661,14 @@
     }
     if (event.key === "Escape" && state.countryPickerOpen) {
       state.countryPickerOpen = false;
+      render();
+    }
+    if (event.key === "Escape" && state.settingsOpen) {
+      state.settingsOpen = false;
+      render();
+    }
+    if (event.key === "Escape" && state.mobileMenuOpen) {
+      state.mobileMenuOpen = false;
       render();
     }
   });

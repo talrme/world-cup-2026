@@ -11,12 +11,12 @@ This project is a local, spoiler-safe World Cup highlight dashboard. Future AI e
 - Search `https://www.youtube.com/@foxsports/videos` before broader YouTube result pages. YouTube titles often use country variants such as `Türkiye`, so keep accent folding and aliases flexible.
 - If a direct highlight link is missing, show one generic `YouTube Search` fallback, not separate missing-video buttons.
 - Direct saved YouTube video links should open YouTube directly. Do not use an iframe/modal player unless the user explicitly asks to retry embedding.
-- The selected-match panel must remain dismissible/minimizable so it does not cover schedule content.
-- Timeline should not show a selected-match panel by default. It should appear as a floating panel only after the user selects a match.
+- The Match Details panel must remain dismissible/minimizable so it does not cover schedule content.
+- Schedule should not show a match-details panel by default. It should appear as a floating panel only after the user selects a match.
 - Groups should filter fixture rows by selected countries, while standings can retain full group context.
 - Group standings and fixture scores remain hidden by default and are revealed with a per-group control or the global score reveal.
 - The `Show scores before` date control is allowed to reveal match score pills through the chosen date, but it should not automatically reveal group standings points/GD/GP.
-- Selected-match location is driven by each match's `venueId` and the top-level `venues` catalog. Keep those synchronized when schedule sources change.
+- Match-details location is driven by each match's `venueId` and the top-level `venues` catalog. Keep those synchronized when schedule sources change.
 - Keep `data/world-cup-2026.json` and `schedule-data.js` synchronized after data changes.
 
 ## Current Architecture
