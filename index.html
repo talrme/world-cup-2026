@@ -12,6 +12,21 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./public/assets/apple-touch-icon.png" />
     <link rel="manifest" href="./public/site.webmanifest" />
     <link rel="stylesheet" href="./site.css" />
+    <script>
+      (() => {
+        const isHostedSite =
+          window.location.hostname === "talrme.github.io" &&
+          window.location.pathname.startsWith("/world-cup-2026");
+
+        if (!isHostedSite) return;
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = "https://gc.zgo.at/count.js";
+        script.dataset.goatcounter = "https://talrme.goatcounter.com/count";
+        document.head.appendChild(script);
+      })();
+    </script>
   </head>
   <body>
     <main id="app" class="app-shell" data-view="timeline">

@@ -38,6 +38,18 @@ python3 -m http.server 4173
 
 The static page reads `schedule-data.js`, which is generated from `data/world-cup-2026.json`.
 
+## Analytics
+
+The deployed GitHub Pages site uses GoatCounter:
+
+- Dashboard: [https://talrme.goatcounter.com](https://talrme.goatcounter.com)
+- Counter endpoint: `https://talrme.goatcounter.com/count`
+- Tracked site: [https://talrme.github.io/world-cup-2026/](https://talrme.github.io/world-cup-2026/)
+
+The tracker is loaded conditionally in `index.html` only when the page is served from `talrme.github.io` under `/world-cup-2026`. Local `file://` use and local dev servers are intentionally not counted.
+
+GoatCounter may show `No data received` until the account email is confirmed and the deployed site receives its first non-blocked page view. Browser ad blockers can block GoatCounter requests.
+
 ## Refresh Data
 
 Run both schedule/results and highlight refreshes:
