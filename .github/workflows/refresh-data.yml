@@ -53,6 +53,7 @@ jobs:
         run: |
           set -o pipefail
           mkdir -p refresh-output
+          start_epoch=$(date +%s)
 
           args=()
           if [[ "$ALL_VIDEOS" == "true" ]]; then
@@ -63,25 +64,43 @@ jobs:
           fi
 
           {
+            refresh_status=0
             echo "Started at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             echo "Trigger: $GITHUB_EVENT_NAME"
             echo "Options: all_videos=$ALL_VIDEOS force_videos=$FORCE_VIDEOS commit_changes=$COMMIT_CHANGES"
             echo
-            python scripts/refresh_all.py "${args[@]}"
+            python scripts/refresh_all.py "${args[@]}" || refresh_status=$?
             echo
+            end_epoch=$(date +%s)
+            elapsed_seconds=$((end_epoch - start_epoch))
+            elapsed_minutes=$(awk "BEGIN { printf \"%.2f\", $elapsed_seconds / 60 }")
+            {
+              echo "elapsed_seconds=$elapsed_seconds"
+              echo "elapsed_minutes=$elapsed_minutes"
+            } > refresh-output/runtime.env
             echo "Finished at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "Elapsed refresh runtime: ${elapsed_seconds}s (${elapsed_minutes} minutes)"
+            exit "$refresh_status"
           } 2>&1 | tee refresh-output/refresh.log
 
       - name: Summarize run
         if: always()
         shell: bash
         run: |
+          if [[ -f refresh-output/runtime.env ]]; then
+            source refresh-output/runtime.env
+          else
+            elapsed_seconds="unknown"
+            elapsed_minutes="unknown"
+          fi
+
           {
             echo "## World Cup data refresh"
             echo
             echo "- Trigger: \`$GITHUB_EVENT_NAME\`"
             echo "- Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
             echo "- Commit changes: \`$COMMIT_CHANGES\`"
+            echo "- Refresh runtime: \`${elapsed_seconds}s\` / \`${elapsed_minutes} minutes\`"
             echo
             echo "### Refresh output"
             echo '```text'

@@ -82,6 +82,56 @@ npm run refresh:videos
 npm run refresh:videos:all
 ```
 
+## Automated Refresh
+
+The repo includes a GitHub Actions workflow at `.github/workflows/refresh-data.yml`. It has already been committed and pushed, so there is nothing else to install in GitHub as long as Actions are enabled for the repo.
+
+If the first run fails while pushing a refresh commit, check **Settings → Actions → General → Workflow permissions** and make sure the repository allows GitHub Actions to write repository contents. The workflow itself already requests `contents: write`.
+
+What it does:
+
+- Runs `python scripts/refresh_all.py` every 30 minutes at `:07` and `:37` UTC.
+- Lets you run the same refresh manually from GitHub.
+- Writes the full refresh log into the Actions run output.
+- Adds a run summary with the trigger, changed files, diff summary, and elapsed refresh runtime in seconds/minutes.
+- Uploads a `refresh-output-*` artifact for each run, retained for 30 days.
+- Commits refreshed `data/world-cup-2026.json` and `schedule-data.js` back to `main` only when those files changed.
+
+To see automated runs:
+
+1. Open the GitHub repo.
+2. Go to **Actions**.
+3. Choose **Refresh World Cup data**.
+4. Click any run to see the summary, logs, runtime, artifacts, and any data-refresh commit.
+
+To run it manually:
+
+1. Go to **Actions**.
+2. Choose **Refresh World Cup data**.
+3. Click **Run workflow**.
+4. Usually leave `commit_changes` enabled.
+5. Use `all_videos` only when you want a slower full-video pass.
+6. Use `force_videos` only when you want existing direct video links replaced if a new match is found.
+
+To pause the automation:
+
+1. Go to **Actions**.
+2. Choose **Refresh World Cup data**.
+3. Click the `...` menu.
+4. Choose **Disable workflow**.
+
+To resume it later, return to the same workflow and choose **Enable workflow**.
+
+Usage notes:
+
+- For a public repo using standard GitHub-hosted runners, GitHub Actions usage is generally free.
+- For a private repo, scheduled runs count against the account's GitHub Actions minutes/quota.
+- This workflow is intentionally lightweight. At a 30-minute cadence it runs 48 times per day. If each run takes about 1 minute end-to-end, that is roughly 48 runner minutes per day.
+- GitHub's run page shows total job duration. The workflow summary also shows the refresh script's elapsed runtime.
+- Scheduled workflows can be delayed during busy GitHub periods. The cron is offset from the top of the hour to reduce that risk.
+
+If you use the local Desktop copy, run `git pull` to bring in the automated refresh commits. The GitHub Pages URL updates from the pushed data automatically once Pages rebuilds.
+
 ## Highlight Rules
 
 The highlight scraper checks `https://www.youtube.com/@foxsports/videos` before broader search-result pages. It only stores a direct video URL when it is confident that:
