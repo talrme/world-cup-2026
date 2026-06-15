@@ -1406,6 +1406,8 @@ h1 {
   display: grid;
   inset: 0;
   justify-items: center;
+  min-height: 100dvh;
+  overflow-y: auto;
   padding: 22px;
   position: fixed;
   z-index: 21;
@@ -1423,7 +1425,9 @@ h1 {
   max-height: min(760px, calc(100vh - 44px));
   max-width: 920px;
   overflow: auto;
+  overscroll-behavior: contain;
   padding: 18px;
+  -webkit-overflow-scrolling: touch;
   width: min(100%, 920px);
 }
 
@@ -1434,8 +1438,9 @@ h1 {
   border-color: rgba(255, 255, 255, 0.44);
   box-shadow: 0 32px 100px rgba(0, 0, 0, 0.48);
   gap: 0;
+  max-height: min(760px, calc(100dvh - 44px));
   max-width: 720px;
-  overflow: hidden;
+  overflow-y: auto;
   padding: 0;
   width: min(100%, 720px);
 }
@@ -1453,6 +1458,9 @@ h1 {
   background: var(--settings-header-bg);
   color: var(--settings-header-fg);
   padding: 20px 22px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .country-picker-header .eyebrow,
@@ -1617,11 +1625,15 @@ h1 {
 
 .settings-footer {
   align-items: center;
+  background: linear-gradient(180deg, rgba(238, 242, 234, 0.96), rgba(246, 247, 239, 0.98));
   border-top: 1px solid rgba(16, 18, 15, 0.1);
   display: flex;
   gap: 12px;
   justify-content: space-between;
   padding: 16px 22px 20px;
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
 }
 
 .settings-footer button {
