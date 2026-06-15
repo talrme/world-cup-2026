@@ -1,0 +1,127 @@
+name: Refresh World Cup data
+
+on:
+  schedule:
+    # Every 30 minutes, offset from the top of the hour to reduce queue delays.
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+    inputs:
+      all_videos:
+        description: "Search video links for every match, not just eligible recent matches"
+        required: false
+        default: false
+        type: boolean
+      force_videos:
+        description: "Replace existing direct video links if a new match is found"
+        required: false
+        default: false
+        type: boolean
+      commit_changes:
+        description: "Commit refreshed data back to main when files change"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-world-cup-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Refresh schedule and videos
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ALL_VIDEOS: ${{ github.event_name == 'workflow_dispatch' && inputs.all_videos || false }}
+      FORCE_VIDEOS: ${{ github.event_name == 'workflow_dispatch' && inputs.force_videos || false }}
+      COMMIT_CHANGES: ${{ github.event_name != 'workflow_dispatch' || inputs.commit_changes }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run refresh
+        shell: bash
+        run: |
+          set -o pipefail
+          mkdir -p refresh-output
+
+          args=()
+          if [[ "$ALL_VIDEOS" == "true" ]]; then
+            args+=(--all-videos)
+          fi
+          if [[ "$FORCE_VIDEOS" == "true" ]]; then
+            args+=(--force-videos)
+          fi
+
+          {
+            echo "Started at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "Trigger: $GITHUB_EVENT_NAME"
+            echo "Options: all_videos=$ALL_VIDEOS force_videos=$FORCE_VIDEOS commit_changes=$COMMIT_CHANGES"
+            echo
+            python scripts/refresh_all.py "${args[@]}"
+            echo
+            echo "Finished at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          } 2>&1 | tee refresh-output/refresh.log
+
+      - name: Summarize run
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "## World Cup data refresh"
+            echo
+            echo "- Trigger: \`$GITHUB_EVENT_NAME\`"
+            echo "- Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo "- Commit changes: \`$COMMIT_CHANGES\`"
+            echo
+            echo "### Refresh output"
+            echo '```text'
+            if [[ -f refresh-output/refresh.log ]]; then
+              cat refresh-output/refresh.log
+            else
+              echo "No refresh log was created."
+            fi
+            echo '```'
+            echo
+            echo "### Changed files"
+            echo '```text'
+            git status --short
+            echo '```'
+            echo
+            echo "### Diff summary"
+            echo '```text'
+            git diff --stat || true
+            echo '```'
+          } | tee refresh-output/summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload refresh output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: refresh-output-${{ github.run_id }}
+          path: refresh-output/
+          retention-days: 30
+
+      - name: Commit refreshed data
+        if: ${{ success() && env.COMMIT_CHANGES == 'true' }}
+        shell: bash
+        run: |
+          if git diff --quiet -- data/world-cup-2026.json schedule-data.js; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/world-cup-2026.json schedule-data.js
+          git commit -m "Refresh World Cup data"
+          git push
