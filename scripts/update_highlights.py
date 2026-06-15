@@ -664,7 +664,7 @@ def main() -> int:
         updated += match_updated
         print(
             f"{match['id']:03d} {match['home']} vs {match['away']}: "
-            f"checked {match_checked}, found {match_found}"
+            f"video searches attempted {match_checked}, candidate links found {match_found}"
         )
 
     if not args.dry_run and updated:
@@ -674,10 +674,10 @@ def main() -> int:
     elif not args.dry_run:
         print("No video data changes to write")
 
-    print(f"Eligible matches: {eligible}")
-    print(f"Video slots checked: {checked}")
-    print(f"Direct links found: {found}")
-    print(f"Direct links added: {updated}")
+    print(f"Matches eligible for video search: {eligible}")
+    print(f"Video searches attempted: {checked}")
+    print(f"Candidate direct video links found: {found}")
+    print(f"New/updated direct video links saved: {updated}")
     return 0
 
 

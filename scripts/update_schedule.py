@@ -413,8 +413,8 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> int:
     args = build_parser().parse_args()
     fixture_count, changed_matches, change_log = refresh_schedule(args)
-    print(f"Parsed fixtures: {fixture_count}")
-    print(f"Changed matches: {changed_matches}")
+    print(f"Schedule fixtures read from source: {fixture_count}")
+    print(f"Schedule updates applied: {changed_matches}")
     if args.verbose:
         for line in change_log:
             print(line)
