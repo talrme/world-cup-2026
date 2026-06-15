@@ -562,9 +562,36 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Belgium",
       "away": "Egypt",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "seattle"
+      "venueId": "seattle",
+      "homeScore": 1,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-15T21:48:49+00:00",
+          "title": "Belgium vs Egypt Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=gQOgcN7_IZE",
+          "channel": "FOX Sports",
+          "durationText": "23 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-15T21:48:49+00:00",
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-15T21:48:49+00:00",
+          "title": "Belgium vs Egypt Highlights \ud83c\udf0e\ud83c\udfc62026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=o_3t0d8x9JY",
+          "channel": "FOX Sports",
+          "durationText": "8 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        }
+      }
     },
     {
       "id": 15,
@@ -1821,7 +1848,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-15T19:13:02+00:00",
+  "scheduleUpdatedAt": "2026-06-15T21:48:30+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
