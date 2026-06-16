@@ -608,7 +608,21 @@ window.WORLD_CUP_DATA = {
       "network": "FS1",
       "venueId": "miami",
       "homeScore": 1,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-16T00:42:56+00:00",
+          "title": "Saudi Arabia vs Uruguay Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=Tz9R1OYdTSs",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-16T00:42:56+00:00"
+      }
     },
     {
       "id": 16,
