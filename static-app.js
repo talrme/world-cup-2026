@@ -15,6 +15,8 @@
   const modeIds = modes.map(([id]) => id);
   const settingsKey = "worldCup2026Settings";
   const spoilerStateKey = "worldCup2026Spoilers";
+  const staleDataReloadKey = "worldCup2026LastStaleReloadAt";
+  const staleDataReloadMs = 60 * 60 * 1000;
   const feedbackFormUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228";
   const feedbackEmbedUrl =
@@ -532,6 +534,43 @@
     if (next !== current) {
       window.history.replaceState(null, "", next);
     }
+  }
+
+  function generatedDataTime() {
+    const timestamp = Date.parse(data.generatedAt || "");
+    return Number.isFinite(timestamp) ? timestamp : null;
+  }
+
+  function noteRefreshAttempt() {
+    try {
+      window.localStorage.setItem(staleDataReloadKey, String(Date.now()));
+    } catch {
+      // Refresh throttling is a best-effort device preference.
+    }
+  }
+
+  function reloadPage() {
+    noteRefreshAttempt();
+    window.location.reload();
+  }
+
+  function autoReloadStaleHostedData() {
+    if (!["http:", "https:"].includes(window.location.protocol)) return false;
+
+    const generatedAt = generatedDataTime();
+    if (!generatedAt || Date.now() - generatedAt < staleDataReloadMs) return false;
+
+    try {
+      const lastReload = Number(window.localStorage.getItem(staleDataReloadKey) || 0);
+      if (Number.isFinite(lastReload) && Date.now() - lastReload < staleDataReloadMs) {
+        return false;
+      }
+    } catch {
+      // If storage is unavailable, a single reload attempt is still harmless.
+    }
+
+    reloadPage();
+    return true;
   }
 
   function cleanShareUrl() {
@@ -1650,6 +1689,9 @@
             <span class="eyebrow">2026</span>
             <h1><a aria-label="World Cup Snapshot" class="home-title" href="${escapeHtml(window.location.pathname)}">W<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>rld Cup Snapsh<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>t</a></h1>
           </div>
+          <button aria-label="Refresh schedule" class="phone-refresh" data-page-refresh title="Refresh schedule" type="button">
+            <span aria-hidden="true">↻</span>
+          </button>
         </header>
         ${renderControls()}
       </div>
@@ -1763,6 +1805,12 @@
   }
 
   document.addEventListener("click", (event) => {
+    const pageRefresh = event.target.closest("[data-page-refresh]");
+    if (pageRefresh) {
+      reloadPage();
+      return;
+    }
+
     if (isOutsideMobileMenu(event.target)) {
       event.preventDefault();
       event.stopPropagation();
@@ -2202,5 +2250,7 @@
     render();
   });
   applyUrlState();
-  render();
+  if (!autoReloadStaleHostedData()) {
+    render();
+  }
 })();
