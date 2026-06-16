@@ -389,7 +389,7 @@ def refresh_schedule(args: argparse.Namespace) -> tuple[int, int, list[str]]:
             change_log.append(f"Match {match['id']}: {', '.join(changes)}")
 
     if not args.dry_run and changed_matches:
-        data["generatedAt"] = dt.date.today().isoformat()
+        data["generatedAt"] = dt.datetime.now(dt.timezone.utc).date().isoformat()
         data["scheduleUpdatedAt"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
         data["scheduleSourceUrl"] = args.source_url
         args.data.write_text(json.dumps(data, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")

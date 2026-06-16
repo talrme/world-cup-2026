@@ -637,7 +637,21 @@
       "away": "New Zealand",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "los-angeles"
+      "venueId": "los-angeles",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-16T06:00:57+00:00",
+          "title": "Iran vs New Zealand Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=UZ_7qFbFYRY",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-16T06:00:57+00:00"
+      }
     },
     {
       "id": 17,

@@ -668,7 +668,7 @@ def main() -> int:
         )
 
     if not args.dry_run and updated:
-        data["generatedAt"] = dt.date.today().isoformat()
+        data["generatedAt"] = utc_now().date().isoformat()
         args.data.write_text(json.dumps(data, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
         write_static_data(data, args.static_data)
     elif not args.dry_run:
