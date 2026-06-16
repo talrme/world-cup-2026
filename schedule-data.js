@@ -72,9 +72,16 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+South+Korea+vs+Czechia+extended+highlights+2026+FIFA+World+Cup",
-          "lastCheckedAt": "2026-06-15T19:13:10+00:00"
+          "lastCheckedAt": "2026-06-16T12:21:23+00:00",
+          "title": "South Korea vs Czechia Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=QWoDfCkh7f8",
+          "channel": "FOX Sports",
+          "durationText": "2026 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "youtube-search"
         },
-        "lastCheckedAt": "2026-06-15T19:13:10+00:00",
+        "lastCheckedAt": "2026-06-16T12:21:23+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+South+Korea+vs+Czechia+highlights+2026+FIFA+World+Cup",
           "lastCheckedAt": "2026-06-14T06:13:49+00:00",
