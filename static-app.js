@@ -1400,7 +1400,7 @@
         <header class="topbar">
           <div>
             <span class="eyebrow">2026</span>
-            <h1><a aria-label="World Cup Snapshot" class="home-title" href="${escapeHtml(window.location.pathname)}">W<span class="title-ball" aria-hidden="true">⚽</span>rld Cup Snapsh<span class="title-ball" aria-hidden="true">⚽</span>t</a></h1>
+            <h1><a aria-label="World Cup Snapshot" class="home-title" href="${escapeHtml(window.location.pathname)}">W<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>rld Cup Snapsh<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>t</a></h1>
           </div>
         </header>
         ${renderControls()}

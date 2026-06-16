@@ -1882,7 +1882,7 @@ export default function WorldCupDashboard() {
         <header className="topbar">
           <div>
             <span className="eyebrow">2026</span>
-            <h1><a aria-label="World Cup Snapshot" className="home-title" href={typeof window === "undefined" ? "/" : window.location.pathname}>W<span aria-hidden="true" className="title-ball">⚽</span>rld Cup Snapsh<span aria-hidden="true" className="title-ball">⚽</span>t</a></h1>
+            <h1><a aria-label="World Cup Snapshot" className="home-title" href={typeof window === "undefined" ? "/" : window.location.pathname}>W<span aria-hidden="true" className="title-ball"><span className="title-ball-icon">⚽</span><span className="title-ball-letter">o</span></span>rld Cup Snapsh<span aria-hidden="true" className="title-ball"><span className="title-ball-icon">⚽</span><span className="title-ball-letter">o</span></span>t</a></h1>
           </div>
         </header>
 
