@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-06-15",
+  "generatedAt": "2026-06-16",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -604,9 +604,11 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "miami"
+      "venueId": "miami",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": 16,
@@ -1848,7 +1850,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-15T21:48:30+00:00",
+  "scheduleUpdatedAt": "2026-06-16T00:17:29+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
