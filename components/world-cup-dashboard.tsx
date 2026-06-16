@@ -99,6 +99,10 @@ const modes: { id: ViewMode; label: string }[] = [
 const modeIds = modes.map((mode) => mode.id);
 const settingsKey = "worldCup2026Settings";
 const spoilerStateKey = "worldCup2026Spoilers";
+const feedbackFormUrl =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228";
+const feedbackEmbedUrl =
+  "https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?embedded=true";
 const defaultSettings: DisplaySettings = {
   theme: "match",
   density: "comfortable",
@@ -624,6 +628,7 @@ export default function WorldCupDashboard() {
   const [countryPickerOpen, setCountryPickerOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [settings, setSettings] = useState<DisplaySettings>(initialSettings);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [detailOpen, setDetailOpen] = useState(true);
@@ -676,7 +681,7 @@ export default function WorldCupDashboard() {
   }, [showAllScores, scoreCutoffEnabled, scoreCutoffDate, revealedScoreIds, revealedGroups, hiddenGroups]);
 
   useEffect(() => {
-    if (!mapVenueId && !countryPickerOpen && !mobileMenuOpen && !settingsOpen) return undefined;
+    if (!mapVenueId && !countryPickerOpen && !mobileMenuOpen && !settingsOpen && !feedbackOpen) return undefined;
 
     function closeOnEscape(event: KeyboardEvent) {
       if (event.key === "Escape") {
@@ -684,12 +689,13 @@ export default function WorldCupDashboard() {
         setCountryPickerOpen(false);
         setMobileMenuOpen(false);
         setSettingsOpen(false);
+        setFeedbackOpen(false);
       }
     }
 
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
-  }, [mapVenueId, countryPickerOpen, mobileMenuOpen, settingsOpen]);
+  }, [mapVenueId, countryPickerOpen, mobileMenuOpen, settingsOpen, feedbackOpen]);
 
   const matches = useMemo(
     () =>
@@ -1660,6 +1666,58 @@ export default function WorldCupDashboard() {
     );
   }
 
+  function renderFeedbackModal() {
+    if (!feedbackOpen) return null;
+
+    return (
+      <div
+        aria-label="Feedback and suggestions"
+        aria-modal="true"
+        className="feedback-modal"
+        onClick={(event) => {
+          if (event.target === event.currentTarget) {
+            setFeedbackOpen(false);
+          }
+        }}
+        role="dialog"
+      >
+        <section className="feedback-panel">
+          <header className="feedback-header">
+            <div>
+              <span className="eyebrow">Feedback</span>
+              <h2>Suggestions</h2>
+              <p>Share ideas, bugs, or anything that would make this better.</p>
+            </div>
+            <button
+              aria-label="Close feedback"
+              className="icon-button feedback-close"
+              onClick={() => setFeedbackOpen(false)}
+              title="Close feedback"
+              type="button"
+            >
+              ×
+            </button>
+          </header>
+          <div className="feedback-frame-wrap">
+            <iframe
+              className="feedback-frame"
+              loading="lazy"
+              src={feedbackEmbedUrl}
+              title="World Cup Snapshot feedback form"
+            >
+              Loading feedback form
+            </iframe>
+          </div>
+          <footer className="feedback-footer">
+            <a href={feedbackFormUrl} rel="noreferrer" target="_blank">
+              Open in Google Forms
+            </a>
+          </footer>
+        </section>
+      </div>
+    );
+  }
+
   function renderStadiumMap() {
     const selectedVenue = mapVenueId ? venues.find((venue) => venue.id === mapVenueId) ?? null : null;
     if (!selectedVenue) return null;
@@ -1816,6 +1874,19 @@ export default function WorldCupDashboard() {
           >
             <span aria-hidden="true">⚙</span>
           </button>
+          <button
+            aria-label="Feedback"
+            className="feedback-trigger"
+            onClick={() => {
+              setFeedbackOpen(true);
+              setMobileMenuOpen(false);
+            }}
+            title="Feedback"
+            type="button"
+          >
+            <span aria-hidden="true">?</span>
+            <strong>Feedback</strong>
+          </button>
         </section>
       </div>
 
@@ -1843,6 +1914,7 @@ export default function WorldCupDashboard() {
 
       {renderCountryPicker()}
       {renderSettingsModal()}
+      {renderFeedbackModal()}
       {renderStadiumMap()}
 
       <footer className="source-strip">

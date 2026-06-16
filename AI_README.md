@@ -4,7 +4,7 @@ This project is a local, spoiler-safe World Cup highlight dashboard. Future AI e
 
 ## Operating Principles
 
-- Before starting work, run `git status --short --branch`. Because GitHub Actions refreshes and may commit data every 30 minutes, run `git pull` first when the tree is clean, especially before local refreshes, code edits, commits, or pushes. If the tree is not clean, inspect the local changes before pulling and do not overwrite user work.
+- Before starting work, run `git status --short --branch`. Because GitHub Actions refreshes and may commit data every 15 minutes, run `git pull` first when the tree is clean, especially before local refreshes, code edits, commits, or pushes. If the tree is not clean, inspect the local changes before pulling and do not overwrite user work.
 - Do not show scores by default in any view.
 - Keep score data in `data/world-cup-2026.json`; hiding is a UI responsibility.
 - Direct highlight links must be Fox Sports/Fox Soccer only.
@@ -118,6 +118,13 @@ For future scheduled matches, a quiet pending label is fine.
 ## Video Link Behavior
 
 Direct highlight anchors should be ordinary YouTube links with `target="_blank"`. The attempted embedded player produced YouTube Error 153 for Fox Sports videos from the local file page, so the reliable behavior is to open YouTube directly.
+
+## Feedback
+
+The site has a Feedback control that opens an embedded Google Form modal and includes a fallback `Open in Google Forms` link. Keep the responses sheet documented in `README.md` for project maintenance; it should not be surfaced as a public website link unless the user asks.
+
+- Form: `https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228`
+- Responses sheet: `https://docs.google.com/spreadsheets/d/1LvzMmvmk-Q-TDuziLJHdFeo-DewOnXNM4lVE3g8wzoE/edit?resourcekey=&gid=1959176771#gid=1959176771`
 
 ## Verification Checklist
 

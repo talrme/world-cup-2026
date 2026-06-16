@@ -17,6 +17,7 @@ A local, spoiler-conscious 2026 World Cup schedule dashboard. It keeps scores in
 - Shows the match location in Match Details. Click the location to open a stadium map with all World Cup venues and the selected venue highlighted.
 - Shows a rank-based favorite in Match Details when both teams have FIFA ranking data.
 - In Groups, selected countries filter the fixture list while the standings table keeps the full group context. Use each group's score control to reveal that group only.
+- Includes a Feedback button that opens a Google Form without leaving the dashboard.
 - Shows direct Fox Sports/Fox Soccer YouTube links when verified highlight videos are available.
 - Opens direct highlight links on YouTube, since many Fox Sports videos block third-party embeds from local files.
 - Scans the Fox Sports YouTube videos page first, then falls back to one `YouTube Search` link for played/live matches with no saved direct highlight link. The matcher tolerates country-name variants such as `Turkey` / `Türkiye`.
@@ -49,6 +50,13 @@ The deployed GitHub Pages site uses GoatCounter:
 The tracker is loaded conditionally in `index.html` only when the page is served from `talrme.github.io` under `/world-cup-2026`. Local `file://` use and local dev servers are intentionally not counted.
 
 GoatCounter may show `No data received` until the account email is confirmed and the deployed site receives its first non-blocked page view. Browser ad blockers can block GoatCounter requests.
+
+## Feedback
+
+The site has a Feedback button in the controls. It opens the Google Form in an embedded modal, with an `Open in Google Forms` fallback link if a browser blocks the iframe.
+
+- Feedback form: [https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228](https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228)
+- Responses sheet: [https://docs.google.com/spreadsheets/d/1LvzMmvmk-Q-TDuziLJHdFeo-DewOnXNM4lVE3g8wzoE/edit?resourcekey=&gid=1959176771#gid=1959176771](https://docs.google.com/spreadsheets/d/1LvzMmvmk-Q-TDuziLJHdFeo-DewOnXNM4lVE3g8wzoE/edit?resourcekey=&gid=1959176771#gid=1959176771)
 
 ## Refresh Data
 

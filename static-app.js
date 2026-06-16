@@ -15,6 +15,10 @@
   const modeIds = modes.map(([id]) => id);
   const settingsKey = "worldCup2026Settings";
   const spoilerStateKey = "worldCup2026Spoilers";
+  const feedbackFormUrl =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228";
+  const feedbackEmbedUrl =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?embedded=true";
   const defaultSettings = {
     theme: "match",
     density: "comfortable",
@@ -260,6 +264,7 @@
     countryPickerOpen: false,
     mobileMenuOpen: false,
     settingsOpen: false,
+    feedbackOpen: false,
     settings: savedSettings,
     pendingViewScroll: null,
     selectedId: null,
@@ -1109,6 +1114,10 @@
         <button aria-label="Settings" class="settings-trigger" data-settings-open type="button" title="Settings">
           <span aria-hidden="true">⚙</span>
         </button>
+        <button aria-label="Feedback" class="feedback-trigger" data-feedback-open type="button" title="Feedback">
+          <span aria-hidden="true">?</span>
+          <strong>Feedback</strong>
+        </button>
       </section>
     `;
   }
@@ -1164,6 +1173,31 @@
           <footer class="settings-footer">
             <button data-settings-reset type="button">Reset defaults</button>
             <span>Saved on this device</span>
+          </footer>
+        </section>
+      </div>
+    `;
+  }
+
+  function renderFeedbackModal() {
+    if (!state.feedbackOpen) return "";
+
+    return `
+      <div class="feedback-modal" data-feedback-modal role="dialog" aria-modal="true" aria-label="Feedback and suggestions">
+        <section class="feedback-panel">
+          <header class="feedback-header">
+            <div>
+              <span class="eyebrow">Feedback</span>
+              <h2>Suggestions</h2>
+              <p>Share ideas, bugs, or anything that would make this better.</p>
+            </div>
+            <button aria-label="Close feedback" class="icon-button feedback-close" data-feedback-close title="Close feedback" type="button">×</button>
+          </header>
+          <div class="feedback-frame-wrap">
+            <iframe class="feedback-frame" title="World Cup Snapshot feedback form" src="${escapeHtml(feedbackEmbedUrl)}" loading="lazy">Loading feedback form</iframe>
+          </div>
+          <footer class="feedback-footer">
+            <a href="${escapeHtml(feedbackFormUrl)}" rel="noreferrer" target="_blank">Open in Google Forms</a>
           </footer>
         </section>
       </div>
@@ -1336,6 +1370,7 @@
       }
       ${renderCountryPicker()}
       ${renderSettingsModal()}
+      ${renderFeedbackModal()}
       ${renderStadiumMap()}
       <footer class="source-strip">
         <span>Data refreshed ${escapeHtml(data.generatedAt)}</span>
@@ -1410,6 +1445,28 @@
     const settingsOpen = event.target.closest("[data-settings-open]");
     if (settingsOpen) {
       state.settingsOpen = true;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
+    const feedbackClose = event.target.closest("[data-feedback-close]");
+    if (feedbackClose) {
+      state.feedbackOpen = false;
+      render();
+      return;
+    }
+
+    const feedbackBackdrop = event.target.closest("[data-feedback-modal]");
+    if (feedbackBackdrop && event.target === feedbackBackdrop) {
+      state.feedbackOpen = false;
+      render();
+      return;
+    }
+
+    const feedbackOpen = event.target.closest("[data-feedback-open]");
+    if (feedbackOpen) {
+      state.feedbackOpen = true;
       state.mobileMenuOpen = false;
       render();
       return;
@@ -1659,6 +1716,10 @@
     }
     if (event.key === "Escape" && state.settingsOpen) {
       state.settingsOpen = false;
+      render();
+    }
+    if (event.key === "Escape" && state.feedbackOpen) {
+      state.feedbackOpen = false;
       render();
     }
     if (event.key === "Escape" && state.mobileMenuOpen) {
