@@ -20,8 +20,10 @@ type SpoilerState = {
   scoreCutoffEnabled: boolean;
   scoreCutoffDate: string;
   revealedScoreIds: Set<number>;
+  hiddenScoreIds: Set<number>;
   revealedGroups: Set<string>;
   hiddenGroups: Set<string>;
+  hiddenScoresStored: boolean;
 };
 
 type VideoLink = {
@@ -180,8 +182,10 @@ function baseSpoilerState(scoreCutoffDate = defaultScoreCutoffDate()): SpoilerSt
     scoreCutoffEnabled: false,
     scoreCutoffDate,
     revealedScoreIds: new Set(),
+    hiddenScoreIds: new Set(),
     revealedGroups: new Set(),
     hiddenGroups: new Set(),
+    hiddenScoresStored: true,
   };
 }
 
@@ -209,6 +213,8 @@ function readStoredSpoilerState(startupMode: DisplaySettings["scoreStartupMode"]
       scoreCutoffDate?: unknown;
       revealedScores?: unknown;
       revealedScoreIds?: unknown;
+      hiddenScores?: unknown;
+      hiddenScoreIds?: unknown;
       revealedGroups?: unknown;
       hiddenGroups?: unknown;
     };
@@ -217,14 +223,22 @@ function readStoredSpoilerState(startupMode: DisplaySettings["scoreStartupMode"]
       : Array.isArray(stored.revealedScores)
         ? stored.revealedScores
         : [];
+    const rawHiddenScores = Array.isArray(stored.hiddenScoreIds)
+      ? stored.hiddenScoreIds
+      : Array.isArray(stored.hiddenScores)
+        ? stored.hiddenScores
+        : [];
+    const hiddenScoresStored = Array.isArray(stored.hiddenScoreIds) || Array.isArray(stored.hiddenScores);
 
     return applyScoreStartupMode({
       showAllScores: Boolean(stored.showAllScores),
       scoreCutoffEnabled: Boolean(stored.scoreCutoffEnabled),
       scoreCutoffDate: typeof stored.scoreCutoffDate === "string" && stored.scoreCutoffDate ? stored.scoreCutoffDate : defaultScoreCutoffDate(),
       revealedScoreIds: new Set(rawScores.map(Number).filter(Number.isFinite)),
+      hiddenScoreIds: new Set(rawHiddenScores.map(Number).filter(Number.isFinite)),
       revealedGroups: new Set(Array.isArray(stored.revealedGroups) ? stored.revealedGroups.filter((item): item is string => typeof item === "string") : []),
       hiddenGroups: new Set(Array.isArray(stored.hiddenGroups) ? stored.hiddenGroups.filter((item): item is string => typeof item === "string") : []),
+      hiddenScoresStored,
     }, startupMode);
   } catch {
     return applyScoreStartupMode(baseSpoilerState(), startupMode);
@@ -636,6 +650,7 @@ export default function WorldCupDashboard() {
   const [scoreCutoffEnabled, setScoreCutoffEnabled] = useState(initialSpoilers.scoreCutoffEnabled);
   const [scoreCutoffDate, setScoreCutoffDate] = useState(initialSpoilers.scoreCutoffDate);
   const [revealedScoreIds, setRevealedScoreIds] = useState<Set<number>>(() => new Set(initialSpoilers.revealedScoreIds));
+  const [hiddenScoreIds, setHiddenScoreIds] = useState<Set<number>>(() => new Set(initialSpoilers.hiddenScoreIds));
   const [revealedGroups, setRevealedGroups] = useState<Set<string>>(() => new Set(initialSpoilers.revealedGroups));
   const [hiddenGroups, setHiddenGroups] = useState<Set<string>>(() => new Set(initialSpoilers.hiddenGroups));
   const [mapVenueId, setMapVenueId] = useState<string | null>(null);
@@ -671,6 +686,7 @@ export default function WorldCupDashboard() {
           scoreCutoffEnabled,
           scoreCutoffDate,
           revealedScores: [...revealedScoreIds],
+          hiddenScores: [...hiddenScoreIds],
           revealedGroups: [...revealedGroups],
           hiddenGroups: [...hiddenGroups],
         }),
@@ -678,7 +694,7 @@ export default function WorldCupDashboard() {
     } catch {
       // Spoiler reveal state is a best-effort device preference.
     }
-  }, [showAllScores, scoreCutoffEnabled, scoreCutoffDate, revealedScoreIds, revealedGroups, hiddenGroups]);
+  }, [showAllScores, scoreCutoffEnabled, scoreCutoffDate, revealedScoreIds, hiddenScoreIds, revealedGroups, hiddenGroups]);
 
   useEffect(() => {
     if (!mapVenueId && !countryPickerOpen && !mobileMenuOpen && !settingsOpen && !feedbackOpen) return undefined;
@@ -715,6 +731,28 @@ export default function WorldCupDashboard() {
     () => modes.filter((item) => item.id !== "bracket" || settings.showBracketViewOption),
     [settings.showBracketViewOption],
   );
+
+  useEffect(() => {
+    if (initialSpoilers.hiddenScoresStored || initialSpoilers.hiddenGroups.size === 0) return;
+
+    const hiddenGroupIds = new Set(
+      matches
+        .filter((match) => match.stage === "Group" && match.group && initialSpoilers.hiddenGroups.has(match.group) && hasMatchScore(match))
+        .map((match) => match.id),
+    );
+    if (hiddenGroupIds.size === 0) return;
+
+    setRevealedScoreIds((current) => {
+      const next = new Set(current);
+      hiddenGroupIds.forEach((id) => next.delete(id));
+      return next;
+    });
+    setHiddenScoreIds((current) => {
+      const next = new Set(current);
+      hiddenGroupIds.forEach((id) => next.add(id));
+      return next;
+    });
+  }, [initialSpoilers, matches]);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -830,8 +868,15 @@ export default function WorldCupDashboard() {
     return Boolean(scoreCutoffEnabled && scoreCutoffDate && localDateKey(match) <= scoreCutoffDate);
   }
 
+  function scoreHiddenByGroup(match: Match) {
+    return Boolean(match.stage === "Group" && match.group && hiddenGroups.has(match.group));
+  }
+
   function isScoreVisible(match: Match, forceVisible = false, forceHidden = false) {
-    return hasScore(match) && (revealedScoreIds.has(match.id) || (!forceHidden && (forceVisible || showAllScores || scoreCutoffReveals(match))));
+    if (!hasScore(match) || hiddenScoreIds.has(match.id)) return false;
+    if (revealedScoreIds.has(match.id)) return true;
+    if (forceHidden || scoreHiddenByGroup(match)) return false;
+    return Boolean(forceVisible || showAllScores || scoreCutoffReveals(match));
   }
 
   function teamResultClass(match: Match, side: "home" | "away", forceVisible = false, forceHidden = false) {
@@ -853,16 +898,33 @@ export default function WorldCupDashboard() {
     return isScoreVisible(match, forceVisible, forceHidden) ? scoreText(match) : "?? - ??";
   }
 
-  function toggleScore(matchId: number) {
+  function toggleScore(match: Match) {
+    const matchId = match.id;
+    const visible = isScoreVisible(match);
     setRevealedScoreIds((current) => {
       const next = new Set(current);
-      if (next.has(matchId)) {
+      if (visible) {
         next.delete(matchId);
       } else {
         next.add(matchId);
       }
       return next;
     });
+    setHiddenScoreIds((current) => {
+      const next = new Set(current);
+      if (visible) {
+        next.add(matchId);
+      } else {
+        next.delete(matchId);
+      }
+      return next;
+    });
+  }
+
+  function groupScoreIds(group: string) {
+    return matches
+      .filter((match) => match.stage === "Group" && match.group === group && hasScore(match))
+      .map((match) => match.id);
   }
 
   function renderScorePill(match: Match, forceVisible = false, forceHidden = false) {
@@ -884,7 +946,7 @@ export default function WorldCupDashboard() {
         data-score-tooltip={visible ? "Click to hide" : "Click to reveal"}
         onClick={(event) => {
           event.stopPropagation();
-          toggleScore(match.id);
+          toggleScore(match);
         }}
         type="button"
       >
@@ -944,6 +1006,7 @@ export default function WorldCupDashboard() {
       setScoreCutoffEnabled(nextSpoilers.scoreCutoffEnabled);
       setScoreCutoffDate(nextSpoilers.scoreCutoffDate);
       setRevealedScoreIds(new Set(nextSpoilers.revealedScoreIds));
+      setHiddenScoreIds(new Set(nextSpoilers.hiddenScoreIds));
       setRevealedGroups(new Set(nextSpoilers.revealedGroups));
       setHiddenGroups(new Set(nextSpoilers.hiddenGroups));
     }
@@ -1007,9 +1070,10 @@ export default function WorldCupDashboard() {
   }
 
   function isGroupRevealed(group: string) {
+    if (completedGroupScoresVisible(group)) return true;
     if (hiddenGroups.has(group)) return false;
     if (showAllScores || revealedGroups.has(group)) return true;
-    return completedGroupScoresVisible(group);
+    return false;
   }
 
   function completedGroupScoresVisible(group: string) {
@@ -1230,6 +1294,7 @@ export default function WorldCupDashboard() {
                   aria-pressed={revealed}
                   className="group-reveal"
                   onClick={() => {
+                    const ids = groupScoreIds(group);
                     if (revealed) {
                       setHiddenGroups((current) => {
                         const next = new Set(current);
@@ -1241,6 +1306,16 @@ export default function WorldCupDashboard() {
                         next.delete(group);
                         return next;
                       });
+                      setRevealedScoreIds((current) => {
+                        const next = new Set(current);
+                        ids.forEach((id) => next.delete(id));
+                        return next;
+                      });
+                      setHiddenScoreIds((current) => {
+                        const next = new Set(current);
+                        ids.forEach((id) => next.add(id));
+                        return next;
+                      });
                     } else {
                       setHiddenGroups((current) => {
                         const next = new Set(current);
@@ -1250,6 +1325,11 @@ export default function WorldCupDashboard() {
                       setRevealedGroups((current) => {
                         const next = new Set(current);
                         next.add(group);
+                        return next;
+                      });
+                      setHiddenScoreIds((current) => {
+                        const next = new Set(current);
+                        ids.forEach((id) => next.delete(id));
                         return next;
                       });
                     }
@@ -1608,6 +1688,7 @@ export default function WorldCupDashboard() {
                 if (!scoreCutoffEnabled) {
                   setScoreCutoffEnabled(true);
                   setHiddenGroups(new Set());
+                  setHiddenScoreIds(new Set());
                 }
 
                 const input = event.currentTarget.querySelector<HTMLInputElement>('input[type="date"]');
@@ -1629,6 +1710,7 @@ export default function WorldCupDashboard() {
                     setScoreCutoffEnabled(event.target.checked);
                     if (event.target.checked) {
                       setHiddenGroups(new Set());
+                      setHiddenScoreIds(new Set());
                     }
                   }}
                   type="checkbox"
@@ -1642,6 +1724,7 @@ export default function WorldCupDashboard() {
                   setScoreCutoffEnabled(Boolean(event.target.value));
                   if (event.target.value) {
                     setHiddenGroups(new Set());
+                    setHiddenScoreIds(new Set());
                   }
                 }}
                 type="date"
@@ -1834,6 +1917,7 @@ export default function WorldCupDashboard() {
             onClick={() => {
               const nextShowAll = !showAllScores;
               setShowAllScores(nextShowAll);
+              setHiddenScoreIds(new Set());
               if (!nextShowAll) {
                 setScoreCutoffEnabled(false);
                 setRevealedScoreIds(new Set());

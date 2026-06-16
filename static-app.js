@@ -209,8 +209,10 @@
       scoreCutoffEnabled: false,
       scoreCutoffDate,
       revealedScores: new Set(),
+      hiddenScores: new Set(),
       revealedGroups: new Set(),
       hiddenGroups: new Set(),
+      hiddenScoresStored: true,
     };
   }
 
@@ -236,6 +238,7 @@
         typeof stored.scoreCutoffDate === "string" && stored.scoreCutoffDate
           ? stored.scoreCutoffDate
           : defaultScoreCutoffDate();
+      const hiddenScoresStored = Array.isArray(stored.hiddenScores);
 
       return applyScoreStartupMode({
         showAllScores: Boolean(stored.showAllScores),
@@ -246,8 +249,10 @@
             ? stored.revealedScores.map(Number).filter(Number.isFinite)
             : [],
         ),
+        hiddenScores: new Set(hiddenScoresStored ? stored.hiddenScores.map(Number).filter(Number.isFinite) : []),
         revealedGroups: new Set(Array.isArray(stored.revealedGroups) ? stored.revealedGroups.filter((item) => typeof item === "string") : []),
         hiddenGroups: new Set(Array.isArray(stored.hiddenGroups) ? stored.hiddenGroups.filter((item) => typeof item === "string") : []),
+        hiddenScoresStored,
       }, startupMode);
     } catch {
       return applyScoreStartupMode(baseSpoilerState(), startupMode);
@@ -273,8 +278,10 @@
     scoreCutoffEnabled: savedSpoilers.scoreCutoffEnabled,
     scoreCutoffDate: savedSpoilers.scoreCutoffDate,
     revealedScores: savedSpoilers.revealedScores,
+    hiddenScores: savedSpoilers.hiddenScores,
     revealedGroups: savedSpoilers.revealedGroups,
     hiddenGroups: savedSpoilers.hiddenGroups,
+    hiddenScoresStored: savedSpoilers.hiddenScoresStored,
     mapVenueId: null,
     timelineAutoScrolled: false,
     now: new Date(),
@@ -294,6 +301,7 @@
           scoreCutoffEnabled: state.scoreCutoffEnabled,
           scoreCutoffDate: state.scoreCutoffDate,
           revealedScores: [...state.revealedScores],
+          hiddenScores: [...state.hiddenScores],
           revealedGroups: [...state.revealedGroups],
           hiddenGroups: [...state.hiddenGroups],
         }),
@@ -302,6 +310,35 @@
       // Spoiler reveal state is a best-effort device preference.
     }
   }
+
+  function groupScoreIds(group) {
+    return matches
+      .filter((match) => match.stage === "Group" && match.group === group && hasScore(match))
+      .map((match) => match.id);
+  }
+
+  function hideGroupScores(group) {
+    groupScoreIds(group).forEach((id) => {
+      state.revealedScores.delete(id);
+      state.hiddenScores.add(id);
+    });
+  }
+
+  function showGroupScores(group) {
+    groupScoreIds(group).forEach((id) => {
+      state.hiddenScores.delete(id);
+    });
+  }
+
+  function migrateHiddenGroupScoreState() {
+    if (state.hiddenScoresStored || !state.hiddenGroups.size) return;
+
+    state.hiddenGroups.forEach((group) => hideGroupScores(group));
+    state.hiddenScoresStored = true;
+    saveSpoilerState();
+  }
+
+  migrateHiddenGroupScoreState();
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -558,8 +595,15 @@
     return Boolean(state.scoreCutoffEnabled && state.scoreCutoffDate && localDateKey(match) <= state.scoreCutoffDate);
   }
 
+  function scoreHiddenByGroup(match) {
+    return Boolean(match.stage === "Group" && match.group && state.hiddenGroups.has(match.group));
+  }
+
   function isScoreVisible(match, forceVisible = false, forceHidden = false) {
-    return hasScore(match) && (state.revealedScores.has(match.id) || (!forceHidden && (forceVisible || state.showAllScores || scoreCutoffReveals(match))));
+    if (!hasScore(match) || state.hiddenScores.has(match.id)) return false;
+    if (state.revealedScores.has(match.id)) return true;
+    if (forceHidden || scoreHiddenByGroup(match)) return false;
+    return Boolean(forceVisible || state.showAllScores || scoreCutoffReveals(match));
   }
 
   function spoilerText(match, forceVisible = false, forceHidden = false) {
@@ -792,9 +836,10 @@
   }
 
   function isGroupRevealed(group) {
+    if (completedGroupScoresVisible(group)) return true;
     if (state.hiddenGroups.has(group)) return false;
     if (state.showAllScores || state.revealedGroups.has(group)) return true;
-    return completedGroupScoresVisible(group);
+    return false;
   }
 
   function completedGroupScoresVisible(group) {
@@ -1501,8 +1546,10 @@
           state.scoreCutoffEnabled = nextSpoilers.scoreCutoffEnabled;
           state.scoreCutoffDate = nextSpoilers.scoreCutoffDate;
           state.revealedScores = nextSpoilers.revealedScores;
+          state.hiddenScores = nextSpoilers.hiddenScores;
           state.revealedGroups = nextSpoilers.revealedGroups;
           state.hiddenGroups = nextSpoilers.hiddenGroups;
+          state.hiddenScoresStored = nextSpoilers.hiddenScoresStored;
         }
         saveSettings();
         render();
@@ -1538,6 +1585,7 @@
       if (!state.scoreCutoffEnabled) {
         state.scoreCutoffEnabled = true;
         state.hiddenGroups.clear();
+        state.hiddenScores.clear();
         const checkbox = scoreDateOpen.querySelector('[data-control="score-cutoff-enabled"]');
         if (checkbox) {
           checkbox.checked = true;
@@ -1628,6 +1676,7 @@
     if (showAllButton) {
       state.showAllScores = !state.showAllScores;
       state.hiddenGroups.clear();
+      state.hiddenScores.clear();
       if (!state.showAllScores) {
         state.scoreCutoffEnabled = false;
         state.revealedScores.clear();
@@ -1645,9 +1694,11 @@
       if (revealed) {
         state.hiddenGroups.add(group);
         state.revealedGroups.delete(group);
+        hideGroupScores(group);
       } else {
         state.hiddenGroups.delete(group);
         state.revealedGroups.add(group);
+        showGroupScores(group);
       }
       saveSpoilerState();
       render();
@@ -1657,9 +1708,13 @@
     const scoreButton = event.target.closest("[data-score-id]");
     if (scoreButton) {
       const matchId = Number(scoreButton.dataset.scoreId);
-      if (state.revealedScores.has(matchId)) {
+      const match = matches.find((item) => item.id === matchId);
+      const visible = match ? isScoreVisible(match) : state.revealedScores.has(matchId);
+      if (visible) {
         state.revealedScores.delete(matchId);
+        state.hiddenScores.add(matchId);
       } else {
+        state.hiddenScores.delete(matchId);
         state.revealedScores.add(matchId);
       }
       saveSpoilerState();
@@ -1680,6 +1735,7 @@
       state.scoreCutoffEnabled = event.target.checked;
       if (state.scoreCutoffEnabled) {
         state.hiddenGroups.clear();
+        state.hiddenScores.clear();
       }
       saveSpoilerState();
       render();
@@ -1689,6 +1745,7 @@
       state.scoreCutoffEnabled = Boolean(event.target.value);
       if (state.scoreCutoffEnabled) {
         state.hiddenGroups.clear();
+        state.hiddenScores.clear();
       }
       saveSpoilerState();
       render();
