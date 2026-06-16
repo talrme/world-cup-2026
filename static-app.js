@@ -312,33 +312,80 @@
   }
 
   function groupScoreIds(group) {
-    return matches
-      .filter((match) => match.stage === "Group" && match.group === group && hasScore(match))
-      .map((match) => match.id);
+    return scoredMatchIds((match) => match.stage === "Group" && match.group === group);
+  }
+
+  function scoredMatchIds(filter = () => true) {
+    return matches.filter((match) => hasScore(match) && filter(match)).map((match) => match.id);
+  }
+
+  function setScoreIdsVisible(ids, visible) {
+    ids.forEach((id) => {
+      if (visible) {
+        state.hiddenScores.delete(id);
+        state.revealedScores.add(id);
+      } else {
+        state.revealedScores.delete(id);
+        state.hiddenScores.add(id);
+      }
+    });
   }
 
   function hideGroupScores(group) {
-    groupScoreIds(group).forEach((id) => {
-      state.revealedScores.delete(id);
-      state.hiddenScores.add(id);
-    });
+    setScoreIdsVisible(groupScoreIds(group), false);
   }
 
   function showGroupScores(group) {
-    groupScoreIds(group).forEach((id) => {
-      state.hiddenScores.delete(id);
-    });
+    setScoreIdsVisible(groupScoreIds(group), true);
   }
 
-  function migrateHiddenGroupScoreState() {
-    if (state.hiddenScoresStored || !state.hiddenGroups.size) return;
+  function hideAllScoredMatches() {
+    setScoreIdsVisible(scoredMatchIds(), false);
+  }
 
-    state.hiddenGroups.forEach((group) => hideGroupScores(group));
+  function showAllScoredMatches() {
+    setScoreIdsVisible(scoredMatchIds(), true);
+  }
+
+  function revealScoresThroughCutoff() {
+    if (!state.scoreCutoffEnabled || !state.scoreCutoffDate) return;
+
+    state.revealedGroups.clear();
+    state.hiddenGroups.clear();
+    setScoreIdsVisible(scoredMatchIds((match) => localDateKey(match) <= state.scoreCutoffDate), true);
+  }
+
+  function migrateScoreVisibilityState() {
+    let changed = false;
+
+    if (state.showAllScores) {
+      showAllScoredMatches();
+      changed = true;
+    }
+
+    if (state.revealedGroups.size) {
+      state.revealedGroups.forEach((group) => showGroupScores(group));
+      state.revealedGroups.clear();
+      changed = true;
+    }
+
+    if (state.hiddenGroups.size) {
+      state.hiddenGroups.forEach((group) => hideGroupScores(group));
+      state.hiddenGroups.clear();
+      changed = true;
+    }
+
+    if (!state.hiddenScoresStored) {
+      changed = true;
+    }
+
     state.hiddenScoresStored = true;
-    saveSpoilerState();
+    if (changed) {
+      saveSpoilerState();
+    }
   }
 
-  migrateHiddenGroupScoreState();
+  migrateScoreVisibilityState();
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -595,14 +642,10 @@
     return Boolean(state.scoreCutoffEnabled && state.scoreCutoffDate && localDateKey(match) <= state.scoreCutoffDate);
   }
 
-  function scoreHiddenByGroup(match) {
-    return Boolean(match.stage === "Group" && match.group && state.hiddenGroups.has(match.group));
-  }
-
   function isScoreVisible(match, forceVisible = false, forceHidden = false) {
     if (!hasScore(match) || state.hiddenScores.has(match.id)) return false;
     if (state.revealedScores.has(match.id)) return true;
-    if (forceHidden || scoreHiddenByGroup(match)) return false;
+    if (forceHidden) return false;
     return Boolean(forceVisible || state.showAllScores || scoreCutoffReveals(match));
   }
 
@@ -618,9 +661,6 @@
         : `<span class="score-pill score-empty">vs</span>`;
     }
     const visible = isScoreVisible(match, forceVisible, forceHidden);
-    if (visible && (forceVisible || state.showAllScores || scoreCutoffReveals(match))) {
-      return `<span class="score-pill score-revealed">${escapeHtml(scoreText(match))}</span>`;
-    }
     const label = visible ? "Hide score" : "Reveal score";
     const tooltip = visible ? "Click to hide" : "Click to reveal";
     return `<button aria-label="${label}" class="score-pill ${visible ? "score-revealed" : "score-hidden"}" data-score-id="${match.id}" data-score-tooltip="${escapeHtml(tooltip)}" type="button"><span class="score-hidden-text">${escapeHtml(spoilerText(match, forceVisible, forceHidden))}</span></button>`;
@@ -837,8 +877,6 @@
 
   function isGroupRevealed(group) {
     if (completedGroupScoresVisible(group)) return true;
-    if (state.hiddenGroups.has(group)) return false;
-    if (state.showAllScores || state.revealedGroups.has(group)) return true;
     return false;
   }
 
@@ -1006,7 +1044,6 @@
         }
 
         const revealed = isGroupRevealed(group);
-        const groupForceHidden = state.hiddenGroups.has(group);
         const rows = revealed
           ? standingsFor(groups[group])
               .map((row) => {
@@ -1030,9 +1067,9 @@
                 <div class="fixture-select" data-match-id="${match.id}" role="button" tabindex="0">
                   <span class="fixture-time">${escapeHtml(formatCompactDateTime(match))}</span>
                   <span class="fixture-teams">
-                    ${renderTeamName(match.home, `fixture-team fixture-home ${teamResultClass(match, "home", revealed, groupForceHidden)}`)}
-                    ${renderScorePill(match, revealed, groupForceHidden)}
-                    ${renderTeamName(match.away, `fixture-team fixture-away ${teamResultClass(match, "away", revealed, groupForceHidden)}`)}
+                    ${renderTeamName(match.home, `fixture-team fixture-home ${teamResultClass(match, "home")}`)}
+                    ${renderScorePill(match)}
+                    ${renderTeamName(match.away, `fixture-team fixture-away ${teamResultClass(match, "away")}`)}
                   </span>
                 </div>
               </article>
@@ -1550,6 +1587,7 @@
           state.revealedGroups = nextSpoilers.revealedGroups;
           state.hiddenGroups = nextSpoilers.hiddenGroups;
           state.hiddenScoresStored = nextSpoilers.hiddenScoresStored;
+          migrateScoreVisibilityState();
         }
         saveSettings();
         render();
@@ -1584,8 +1622,7 @@
     if (scoreDateOpen && !event.target.matches('[data-control="score-cutoff-enabled"]')) {
       if (!state.scoreCutoffEnabled) {
         state.scoreCutoffEnabled = true;
-        state.hiddenGroups.clear();
-        state.hiddenScores.clear();
+        revealScoresThroughCutoff();
         const checkbox = scoreDateOpen.querySelector('[data-control="score-cutoff-enabled"]');
         if (checkbox) {
           checkbox.checked = true;
@@ -1675,12 +1712,13 @@
     const showAllButton = event.target.closest("[data-show-all-scores]");
     if (showAllButton) {
       state.showAllScores = !state.showAllScores;
+      state.revealedGroups.clear();
       state.hiddenGroups.clear();
-      state.hiddenScores.clear();
-      if (!state.showAllScores) {
+      if (state.showAllScores) {
+        showAllScoredMatches();
+      } else {
         state.scoreCutoffEnabled = false;
-        state.revealedScores.clear();
-        state.revealedGroups.clear();
+        hideAllScoredMatches();
       }
       saveSpoilerState();
       render();
@@ -1692,14 +1730,12 @@
       const group = groupReveal.dataset.groupReveal;
       const revealed = isGroupRevealed(group);
       if (revealed) {
-        state.hiddenGroups.add(group);
-        state.revealedGroups.delete(group);
         hideGroupScores(group);
       } else {
-        state.hiddenGroups.delete(group);
-        state.revealedGroups.add(group);
         showGroupScores(group);
       }
+      state.revealedGroups.delete(group);
+      state.hiddenGroups.delete(group);
       saveSpoilerState();
       render();
       return;
@@ -1734,8 +1770,7 @@
     if (event.target.dataset.control === "score-cutoff-enabled") {
       state.scoreCutoffEnabled = event.target.checked;
       if (state.scoreCutoffEnabled) {
-        state.hiddenGroups.clear();
-        state.hiddenScores.clear();
+        revealScoresThroughCutoff();
       }
       saveSpoilerState();
       render();
@@ -1744,8 +1779,7 @@
       state.scoreCutoffDate = event.target.value;
       state.scoreCutoffEnabled = Boolean(event.target.value);
       if (state.scoreCutoffEnabled) {
-        state.hiddenGroups.clear();
-        state.hiddenScores.clear();
+        revealScoresThroughCutoff();
       }
       saveSpoilerState();
       render();
