@@ -6,6 +6,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 type ViewMode = "timeline" | "groups" | "bracket" | "constellation";
 type MatchState = "completed" | "live" | "needs-result" | "scheduled";
+type TodayJumpDirection = "up" | "down" | null;
 type DisplaySettings = {
   theme: "match" | "midnight" | "daylight" | "electric";
   density: "comfortable" | "compact";
@@ -655,9 +656,12 @@ export default function WorldCupDashboard() {
   const [hiddenGroups, setHiddenGroups] = useState<Set<string>>(() => new Set(initialSpoilers.hiddenGroups));
   const [mapVenueId, setMapVenueId] = useState<string | null>(null);
   const [timelineAutoScrolled, setTimelineAutoScrolled] = useState(false);
+  const [todayJumpDirection, setTodayJumpDirection] = useState<TodayJumpDirection>(null);
+  const [todayJumpTop, setTodayJumpTop] = useState(132);
   const [now, setNow] = useState(() => new Date());
   const urlStateLoaded = useRef(false);
   const spoilerSaveReady = useRef(false);
+  const todayPulseTimer = useRef<number | null>(null);
 
   useEffect(() => {
     const timer = window.setInterval(() => setNow(new Date()), 60_000);
@@ -858,6 +862,53 @@ export default function WorldCupDashboard() {
 
     return () => window.cancelAnimationFrame(frame);
   }, [filteredMatches, mode, now, settings.timelineStart, timelineAutoScrolled]);
+
+  useEffect(() => {
+    let frame = 0;
+
+    function stickyOffset() {
+      const chrome = document.querySelector<HTMLElement>(".page-chrome");
+      return chrome ? Math.ceil(chrome.getBoundingClientRect().height + 14) : 0;
+    }
+
+    function updateTodayJump() {
+      frame = 0;
+      if (mode !== "timeline") {
+        setTodayJumpDirection(null);
+        return;
+      }
+
+      const target = document.querySelector<HTMLElement>(`[data-day-key="${inputDateValue(now)}"]`);
+      if (!target) {
+        setTodayJumpDirection(null);
+        return;
+      }
+
+      const offset = stickyOffset();
+      const rect = target.getBoundingClientRect();
+      const viewportBottom = window.innerHeight - 96;
+      const visible = rect.bottom > offset + 12 && rect.top < viewportBottom;
+      const nextDirection: TodayJumpDirection = visible ? null : rect.top < offset ? "up" : "down";
+
+      setTodayJumpTop(Math.max(12, offset + 8));
+      setTodayJumpDirection((current) => current === nextDirection ? current : nextDirection);
+    }
+
+    function requestUpdate() {
+      if (frame) return;
+      frame = window.requestAnimationFrame(updateTodayJump);
+    }
+
+    requestUpdate();
+    window.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate);
+
+    return () => {
+      if (frame) window.cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", requestUpdate);
+      window.removeEventListener("resize", requestUpdate);
+    };
+  }, [filteredMatches, mode, now]);
 
   const selectedMatch = selectedId === null ? null : matches.find((match) => match.id === selectedId) ?? null;
 
@@ -1897,6 +1948,24 @@ export default function WorldCupDashboard() {
     return renderTimeline();
   }
 
+  function scrollToToday() {
+    const target = document.querySelector<HTMLElement>(`[data-day-key="${inputDateValue(now)}"]`);
+    if (!target) return;
+
+    const chrome = document.querySelector<HTMLElement>(".page-chrome");
+    const offset = chrome ? Math.ceil(chrome.getBoundingClientRect().height + 14) : 0;
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+
+    if (todayPulseTimer.current) {
+      window.clearTimeout(todayPulseTimer.current);
+    }
+    target.classList.remove("is-jump-target");
+    void target.offsetWidth;
+    target.classList.add("is-jump-target");
+    todayPulseTimer.current = window.setTimeout(() => target.classList.remove("is-jump-target"), 1200);
+  }
+
   return (
     <main className="app-shell" data-density={settings.density} data-theme={settings.theme} data-video-style={settings.videoStyle} data-view={mode}>
       <div className="hero-texture" aria-hidden="true" />
@@ -2023,6 +2092,20 @@ export default function WorldCupDashboard() {
       {renderSettingsModal()}
       {renderFeedbackModal()}
       {renderStadiumMap()}
+      {mode === "timeline" ? (
+        <button
+          aria-hidden={todayJumpDirection ? "false" : "true"}
+          aria-label={`Go to today. Today is ${todayJumpDirection === "up" ? "above" : "below"}.`}
+          className={`today-jump ${todayJumpDirection ? "is-visible" : ""}`}
+          data-direction={todayJumpDirection ?? "down"}
+          onClick={scrollToToday}
+          style={{ "--today-jump-top": `${todayJumpTop}px` } as CSSProperties}
+          type="button"
+        >
+          <span aria-hidden="true" className="today-jump-arrow">{todayJumpDirection === "up" ? "↑" : "↓"}</span>
+          <span className="today-jump-text">Today</span>
+        </button>
+      ) : null}
 
       <footer className="source-strip">
         <span>Data refreshed {data.generatedAt}</span>

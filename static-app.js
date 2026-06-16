@@ -291,6 +291,8 @@
     return kickoffDate(a).getTime() - kickoffDate(b).getTime() || a.id - b.id;
   });
   const venues = Array.isArray(data.venues) ? data.venues : [];
+  let todayJumpFrame = null;
+  let todayJumpPulseTimer = null;
 
   function saveSpoilerState() {
     try {
@@ -1390,6 +1392,74 @@
     return chrome ? Math.ceil(chrome.getBoundingClientRect().height + 14) : 0;
   }
 
+  function todayKey() {
+    return inputDateValue(state.now);
+  }
+
+  function todayBand() {
+    return app.querySelector(`[data-day-key="${todayKey()}"]`);
+  }
+
+  function updateTodayJumpButton() {
+    const button = app.querySelector("[data-today-jump]");
+    if (!button) return;
+
+    const target = todayBand();
+    if (state.mode !== "timeline" || !target) {
+      button.classList.remove("is-visible");
+      button.setAttribute("aria-hidden", "true");
+      return;
+    }
+
+    const offset = stickyChromeOffset();
+    const rect = target.getBoundingClientRect();
+    const viewportBottom = window.innerHeight - 96;
+    const visible = rect.bottom > offset + 12 && rect.top < viewportBottom;
+
+    if (visible) {
+      button.classList.remove("is-visible");
+      button.setAttribute("aria-hidden", "true");
+      return;
+    }
+
+    const direction = rect.top < offset ? "up" : "down";
+    button.dataset.direction = direction;
+    button.style.setProperty("--today-jump-top", `${Math.max(12, offset + 8)}px`);
+    button.querySelector("[data-today-jump-arrow]").textContent = direction === "up" ? "↑" : "↓";
+    button.setAttribute("aria-label", `Go to today. Today is ${direction === "up" ? "above" : "below"}.`);
+    button.setAttribute("aria-hidden", "false");
+    button.classList.add("is-visible");
+  }
+
+  function requestTodayJumpUpdate() {
+    if (todayJumpFrame) return;
+    todayJumpFrame = window.requestAnimationFrame(() => {
+      todayJumpFrame = null;
+      updateTodayJumpButton();
+    });
+  }
+
+  function pulseTodayBand(target) {
+    window.clearTimeout(todayJumpPulseTimer);
+    target.classList.remove("is-jump-target");
+    // Restart the animation even when the user taps the button repeatedly.
+    void target.offsetWidth;
+    target.classList.add("is-jump-target");
+    todayJumpPulseTimer = window.setTimeout(() => {
+      target.classList.remove("is-jump-target");
+    }, 1200);
+  }
+
+  function scrollToToday() {
+    const target = todayBand();
+    if (!target) return;
+
+    const top = target.getBoundingClientRect().top + window.scrollY - stickyChromeOffset();
+    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+    pulseTodayBand(target);
+    window.setTimeout(requestTodayJumpUpdate, 420);
+  }
+
   function autoScrollTimelineOnce() {
     if (state.timelineAutoScrolled || state.mode !== "timeline") return;
     if (state.settings.timelineStart === "top") {
@@ -1407,6 +1477,7 @@
       state.timelineAutoScrolled = true;
       const top = target.getBoundingClientRect().top + window.scrollY - stickyChromeOffset();
       window.scrollTo({ top: Math.max(0, top), behavior: "auto" });
+      requestTodayJumpUpdate();
     });
   }
 
@@ -1420,6 +1491,18 @@
     }
 
     autoScrollTimelineOnce();
+    requestTodayJumpUpdate();
+  }
+
+  function renderTodayJumpButton() {
+    if (state.mode !== "timeline") return "";
+
+    return `
+      <button aria-hidden="true" aria-label="Go to today" class="today-jump" data-today-jump data-direction="down" type="button">
+        <span class="today-jump-arrow" data-today-jump-arrow aria-hidden="true">↓</span>
+        <span class="today-jump-text">Today</span>
+      </button>
+    `;
   }
 
   function render() {
@@ -1454,6 +1537,7 @@
       ${renderSettingsModal()}
       ${renderFeedbackModal()}
       ${renderStadiumMap()}
+      ${renderTodayJumpButton()}
       <footer class="source-strip">
         <span>Data refreshed ${escapeHtml(data.generatedAt)}</span>
         ${data.sources
@@ -1464,6 +1548,7 @@
 
     syncUrlState();
     settleViewScroll();
+    requestTodayJumpUpdate();
   }
 
   document.addEventListener("click", (event) => {
@@ -1709,6 +1794,12 @@
       return;
     }
 
+    const todayJump = event.target.closest("[data-today-jump]");
+    if (todayJump) {
+      scrollToToday();
+      return;
+    }
+
     const showAllButton = event.target.closest("[data-show-all-scores]");
     if (showAllButton) {
       state.showAllScores = !state.showAllScores;
@@ -1820,6 +1911,8 @@
   });
 
   window.setInterval(render, 60_000);
+  window.addEventListener("scroll", requestTodayJumpUpdate, { passive: true });
+  window.addEventListener("resize", requestTodayJumpUpdate);
   window.addEventListener("popstate", () => {
     applyUrlState();
     render();
