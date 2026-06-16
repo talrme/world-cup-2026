@@ -685,7 +685,7 @@
   }
 
   function videoDuration(kind, video) {
-    const duration = video?.durationText || (kind === "extended" ? "20 min" : "4 min");
+    const duration = video?.durationText || "";
     return duration.replace(/^~\s*/, "");
   }
 
@@ -703,19 +703,21 @@
     const duration = videoDuration(kind, video);
     const compactLabel = kind === "extended" ? "Extended" : "Highlights";
     const visibleLabel = state.settings.videoStyle === "full" ? label : compactLabel;
-    return `<a aria-label="Open ${escapeHtml(duration)} ${escapeHtml(visibleLabel)} on YouTube" class="video-link video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span><small>${escapeHtml(duration)}</small><span class="video-link-label">${escapeHtml(visibleLabel)}</span></a>`;
+    const durationLabel = duration ? `${duration} ` : "";
+    const durationMarkup = duration ? `<small>${escapeHtml(duration)}</small>` : "";
+    return `<a aria-label="Open ${escapeHtml(durationLabel)}${escapeHtml(visibleLabel)} on YouTube" class="video-link video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span>${durationMarkup}<span class="video-link-label">${escapeHtml(visibleLabel)}</span></a>`;
   }
 
   function videoDurationChip(kind, video) {
     const match = videoDuration(kind, video).match(/\d+/);
-    const minutes = match ? match[0] : kind === "extended" ? "20" : "4";
-    return `${minutes} min`;
+    return match ? `${match[0]} min` : "";
   }
 
   function renderTileVideoLink(kind, video) {
     const chip = videoDurationChip(kind, video);
     const label = kind === "extended" ? "Extended highlights" : "Highlights";
-    return `<a aria-label="Open ${escapeHtml(label)} on YouTube" class="tile-video-link tile-video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span><span>${escapeHtml(chip)}</span></a>`;
+    const chipMarkup = chip ? `<span>${escapeHtml(chip)}</span>` : "";
+    return `<a aria-label="Open ${escapeHtml(label)} on YouTube" class="tile-video-link tile-video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span>${chipMarkup}</a>`;
   }
 
   function renderTileVideoLinks(match) {

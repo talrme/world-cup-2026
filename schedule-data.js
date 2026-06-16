@@ -46,7 +46,7 @@ window.WORLD_CUP_DATA = {
           "title": "Mexico vs South Africa Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
           "url": "https://www.youtube.com/watch?v=r1Afsds3ZD0",
           "channel": "FOX Sports",
-          "durationText": "4 min",
+          "durationText": "23 min",
           "channelVerified": true,
           "spoilerSafeTitle": true,
           "source": "youtube-search"
@@ -81,7 +81,7 @@ window.WORLD_CUP_DATA = {
           "title": "South Korea vs Czechia Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
           "url": "https://www.youtube.com/watch?v=QWoDfCkh7f8",
           "channel": "FOX Sports",
-          "durationText": "",
+          "durationText": "22 min",
           "channelVerified": true,
           "spoilerSafeTitle": true,
           "source": "youtube-search"
@@ -635,7 +635,9 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Iran",
       "away": "New Zealand",
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "completed",
       "network": "FS1",
       "venueId": "los-angeles",
       "videos": {

@@ -95,6 +95,17 @@ def video_url(video_id: str) -> str:
     return f"https://www.youtube.com/watch?v={video_id}"
 
 
+def video_id_from_url(url: str) -> str:
+    parsed = urllib.parse.urlparse(url)
+    if parsed.hostname in {"youtu.be", "www.youtu.be"}:
+        video_id = parsed.path.strip("/").split("/")[0]
+        return video_id if re.fullmatch(r"[\w-]{11}", video_id) else ""
+
+    params = urllib.parse.parse_qs(parsed.query)
+    video_id = params.get("v", [""])[0]
+    return video_id if re.fullmatch(r"[\w-]{11}", video_id) else ""
+
+
 def fetch(url: str) -> str:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=25) as response:
@@ -165,6 +176,16 @@ def normalize_duration(value: str) -> str:
     return f"{minutes} min"
 
 
+def duration_from_seconds(value: Any) -> str:
+    try:
+        seconds = int(value)
+    except (TypeError, ValueError):
+        return ""
+    if seconds <= 0:
+        return ""
+    return f"{max(1, round(seconds / 60))} min"
+
+
 def looks_like_duration(value: str) -> bool:
     text = value.lower()
     if "ago" in text or "view" in text:
@@ -205,10 +226,6 @@ def safe_duration(kind: str, value: str) -> str:
     minutes = duration_minutes(value)
     if minutes is None:
         return ""
-    if kind == "short" and not (2 <= minutes <= 15):
-        return ""
-    if kind == "extended" and not (8 <= minutes <= 35):
-        return ""
     return value
 
 
@@ -231,6 +248,29 @@ def existing_video_is_safe(video: dict[str, str] | None) -> bool:
     return is_fox_channel(video.get("channel", "")) and not title_has_spoiler(
         video.get("title", "")
     )
+
+
+def verified_existing_video(video: dict[str, Any], checked: str) -> dict[str, Any] | None:
+    video_id = video_id_from_url(str(video.get("url", "")))
+    if not video_id:
+        return None
+
+    metadata = fetch_video_metadata(video_id)
+    title = metadata.get("title") or video.get("title", "")
+    channel = metadata.get("channel") or video.get("channel", "")
+    duration = metadata.get("durationText") or video.get("durationText", "")
+    verified = dict(video)
+    verified.update(
+        {
+            "lastCheckedAt": checked,
+            "title": title,
+            "channel": channel,
+            "durationText": duration,
+            "channelVerified": is_fox_channel(channel),
+            "spoilerSafeTitle": not title_has_spoiler(title),
+        }
+    )
+    return verified
 
 
 def title_has_spoiler(title: str) -> bool:
@@ -268,6 +308,21 @@ def title_has_spoiler(title: str) -> bool:
 
 
 def fetch_video_metadata(video_id: str) -> dict[str, str]:
+    try:
+        page = fetch(video_url(video_id))
+        match = re.search(r"ytInitialPlayerResponse\s*=\s*", page)
+        if match:
+            data, _ = json.JSONDecoder().raw_decode(page[match.end() :])
+            details = data.get("videoDetails", {})
+            metadata = {
+                "title": clean_text(details.get("title", "")),
+                "channel": clean_text(details.get("author", "")),
+                "durationText": duration_from_seconds(details.get("lengthSeconds")),
+            }
+            return {key: value for key, value in metadata.items() if value}
+    except Exception:
+        pass
+
     query = urllib.parse.urlencode({"url": video_url(video_id), "format": "json"})
     data = fetch_json(YOUTUBE_OEMBED.format(query=query))
     return {
@@ -425,6 +480,8 @@ def score_candidate(
     searchable_title = searchable_text(candidate["title"])
     channel = candidate["channel"].lower()
     combined = f"{title} {channel}"
+    minutes = duration_minutes(candidate.get("durationText", ""))
+    is_long_highlight = minutes is not None and minutes >= 16 and "highlights" in title
     score = 0
 
     if not is_fox_channel(candidate["channel"]):
@@ -447,13 +504,19 @@ def score_candidate(
     if "world cup" not in title:
         return -999
 
-    if kind == "extended" and "extended highlights" not in title:
+    if kind == "extended" and "extended highlights" not in title and not is_long_highlight:
         return -999
 
     if kind == "short" and "highlights" not in title:
         return -999
 
     if kind == "short" and "extended highlights" in title:
+        return -999
+
+    if kind == "short" and minutes is not None and minutes > 15:
+        return -999
+
+    if kind == "extended" and minutes is not None and minutes < 8:
         return -999
 
     if home_hits:
@@ -465,6 +528,8 @@ def score_candidate(
         score += 25
     if "extended highlights" in title:
         score += 55 if kind == "extended" else -25
+    elif is_long_highlight and kind == "extended":
+        score += 45
     elif kind == "short":
         score += 15
 
@@ -589,10 +654,22 @@ def refresh_match(
 
     for kind in ("extended", "short"):
         existing = videos.get(kind)
-        if (
-            existing_video_is_safe(existing)
-            and not force
-        ):
+        if existing and existing.get("url") and not force:
+            try:
+                verified = verified_existing_video(existing, checked)
+            except Exception as exc:
+                print(f"  Existing video metadata failed for match {match['id']} {kind}: {exc}")
+            else:
+                if verified:
+                    existing = verified
+                    if comparable_video(videos.get(kind)) != comparable_video(verified):
+                        updated += 1
+                        if not dry_run:
+                            stored_videos = match.setdefault("videos", {})
+                            stored_videos[kind] = verified
+                            stored_videos["lastCheckedAt"] = checked
+
+        if existing_video_is_safe(existing) and not force:
             continue
 
         checked_count += 1
