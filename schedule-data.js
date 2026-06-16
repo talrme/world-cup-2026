@@ -681,7 +681,7 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/@foxsports/videos",
-          "lastCheckedAt": "2026-06-16T21:48:13+00:00",
+          "lastCheckedAt": "2026-06-16T21:56:52+00:00",
           "title": "France vs Senegal Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
           "url": "https://www.youtube.com/watch?v=SlmYDbzHqjg",
           "channel": "FOX Sports",
@@ -690,7 +690,7 @@ window.WORLD_CUP_DATA = {
           "spoilerSafeTitle": true,
           "source": "foxsports-channel"
         },
-        "lastCheckedAt": "2026-06-16T21:48:13+00:00"
+        "lastCheckedAt": "2026-06-16T21:56:52+00:00"
       }
     },
     {
@@ -1903,7 +1903,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-16T21:46:11+00:00",
+  "scheduleUpdatedAt": "2026-06-16T21:47:29+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {

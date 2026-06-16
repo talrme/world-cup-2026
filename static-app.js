@@ -270,6 +270,8 @@
     mobileMenuOpen: false,
     settingsOpen: false,
     feedbackOpen: false,
+    shareOpen: false,
+    shareCopied: false,
     settings: savedSettings,
     pendingViewScroll: null,
     selectedId: null,
@@ -293,6 +295,7 @@
   const venues = Array.isArray(data.venues) ? data.venues : [];
   let todayJumpFrame = null;
   let todayJumpPulseTimer = null;
+  let shareCopyTimer = null;
 
   function saveSpoilerState() {
     try {
@@ -528,6 +531,13 @@
     if (next !== current) {
       window.history.replaceState(null, "", next);
     }
+  }
+
+  function cleanShareUrl() {
+    const url = new URL(window.location.href);
+    url.search = "";
+    url.hash = "";
+    return url.href;
   }
 
   function localDateKey(match) {
@@ -1177,18 +1187,32 @@
       .join("");
 
     return `
-      <button class="mobile-menu-toggle" aria-controls="schedule-controls" aria-expanded="${state.mobileMenuOpen ? "true" : "false"}" data-mobile-menu-toggle type="button">
-        <span class="hamburger-icon" aria-hidden="true"><i></i><i></i><i></i></span>
-        <span class="sr-only">${state.mobileMenuOpen ? "Close menu" : "Open menu"}</span>
-        <strong>${escapeHtml(currentModeLabel())}</strong>
-        <em>${escapeHtml(countryFilterLabel())}</em>
-      </button>
-      <section class="control-deck ${state.mobileMenuOpen ? "is-open" : ""}" id="schedule-controls" aria-label="Schedule controls">
-        <div class="view-toggle" aria-label="Viewing option">${modeButtons}</div>
-        <button class="spoiler-control" data-show-all-scores type="button">
-          ${state.showAllScores ? "Hide all scores" : "Show all scores"}
+      <div class="mobile-menu-bar">
+        <button class="mobile-menu-toggle" aria-controls="schedule-controls" aria-expanded="${state.mobileMenuOpen ? "true" : "false"}" data-mobile-menu-toggle type="button">
+          <span class="hamburger-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="sr-only">${state.mobileMenuOpen ? "Close menu" : "Open menu"}</span>
+          <strong>${escapeHtml(currentModeLabel())}</strong>
         </button>
-        <div class="filters">
+        <button class="mobile-country-shortcut" data-country-picker-toggle type="button">
+          <strong>${escapeHtml(countryFilterLabel())}</strong>
+        </button>
+      </div>
+      <section class="control-deck ${state.mobileMenuOpen ? "is-open" : ""}" id="schedule-controls" aria-label="Schedule controls">
+        <div class="mobile-drawer-head">
+          <span>Menu</span>
+          <strong>${escapeHtml(currentModeLabel())}</strong>
+        </div>
+        <div class="control-section control-section-view">
+          <span class="control-section-title">View</span>
+          <div class="view-toggle" aria-label="Viewing option">${modeButtons}</div>
+        </div>
+        <div class="control-section control-section-scores">
+          <span class="control-section-title">Scores</span>
+          <button class="spoiler-control" data-show-all-scores type="button">
+            ${state.showAllScores ? "Hide all scores" : "Show all scores"}
+          </button>
+        </div>
+        <div class="control-section filters">
           <label class="country-filter-wrap">
             <span>Country</span>
             <button class="country-filter-trigger" data-country-picker-toggle type="button">
@@ -1197,13 +1221,20 @@
             </button>
           </label>
         </div>
-        <button aria-label="Settings" class="settings-trigger" data-settings-open type="button" title="Settings">
-          <span aria-hidden="true">⚙</span>
-        </button>
-        <button aria-label="Feedback" class="feedback-trigger" data-feedback-open type="button" title="Feedback">
-          <span aria-hidden="true">?</span>
-          <strong>Feedback</strong>
-        </button>
+        <div class="mobile-action-row">
+          <button aria-label="Settings" class="settings-trigger" data-settings-open type="button" title="Settings">
+            <span class="action-icon action-icon-settings" aria-hidden="true"></span>
+            <strong>Settings</strong>
+          </button>
+          <button aria-label="Feedback" class="feedback-trigger" data-feedback-open type="button" title="Feedback">
+            <span class="action-icon action-icon-feedback" aria-hidden="true"></span>
+            <strong>Feedback</strong>
+          </button>
+          <button aria-label="Share" class="share-trigger" data-share-open type="button" title="Share">
+            <span class="action-icon action-icon-share" aria-hidden="true"></span>
+            <strong>Share</strong>
+          </button>
+        </div>
       </section>
     `;
   }
@@ -1285,6 +1316,55 @@
           <footer class="feedback-footer">
             <a href="${escapeHtml(feedbackFormUrl)}" rel="noreferrer" target="_blank">Open in Google Forms</a>
           </footer>
+        </section>
+      </div>
+    `;
+  }
+
+  function renderShareModal() {
+    if (!state.shareOpen) return "";
+
+    const url = cleanShareUrl();
+
+    return `
+      <div class="share-modal" data-share-modal role="dialog" aria-modal="true" aria-label="Share World Cup Snapshot">
+        <section class="share-panel">
+          <header class="share-header">
+            <div>
+              <span class="eyebrow">Share</span>
+              <h2>World Cup Snapshot</h2>
+              <p>Copy the clean homepage link, without your current filters or view.</p>
+            </div>
+            <button aria-label="Close share" class="icon-button share-close" data-share-close title="Close share" type="button">×</button>
+          </header>
+          <div class="share-body">
+            <div class="share-copy-card">
+              <label>
+                <span>Website link</span>
+                <input aria-label="Clean website link" readonly value="${escapeHtml(url)}" />
+              </label>
+              <button data-share-copy type="button">${state.shareCopied ? "Copied" : "Copy"}</button>
+            </div>
+            <section class="share-phone-card">
+              <span class="share-app-icon" aria-hidden="true">
+                <img src="./public/assets/soccer-ball-192.png" alt="" />
+              </span>
+              <div>
+                <span>Save to your phone</span>
+                <p>Add World Cup Snapshot to your home screen so it opens like an app with this soccer ball icon.</p>
+              </div>
+            </section>
+            <div class="share-install-grid">
+              <section>
+                <span>iPhone / iPad home screen</span>
+                <p>Open the site in Safari, tap Share, then choose Add to Home Screen.</p>
+              </section>
+              <section>
+                <span>Android home screen</span>
+                <p>Open the site in Chrome, tap the menu, then choose Add to Home screen or Install app.</p>
+              </section>
+            </div>
+          </div>
         </section>
       </div>
     `;
@@ -1516,6 +1596,7 @@
     app.dataset.theme = state.settings.theme;
     app.dataset.density = state.settings.density;
     app.dataset.videoStyle = state.settings.videoStyle;
+    app.dataset.mobileMenu = state.mobileMenuOpen ? "open" : "closed";
     app.innerHTML = `
       <div class="hero-texture" aria-hidden="true"></div>
       <div class="page-chrome">
@@ -1538,6 +1619,7 @@
       ${renderCountryPicker()}
       ${renderSettingsModal()}
       ${renderFeedbackModal()}
+      ${renderShareModal()}
       ${renderStadiumMap()}
       ${renderTodayJumpButton()}
       <footer class="source-strip">
@@ -1549,11 +1631,99 @@
     `;
 
     syncUrlState();
+    syncMobileMenuDom();
     settleViewScroll();
     requestTodayJumpUpdate();
   }
 
+  function syncMobileMenuDom() {
+    app.dataset.mobileMenu = state.mobileMenuOpen ? "open" : "closed";
+
+    const toggle = app.querySelector("[data-mobile-menu-toggle]");
+    const deck = app.querySelector("#schedule-controls");
+    if (toggle) {
+      toggle.setAttribute("aria-expanded", state.mobileMenuOpen ? "true" : "false");
+      const label = toggle.querySelector(".sr-only");
+      if (label) {
+        label.textContent = state.mobileMenuOpen ? "Close menu" : "Open menu";
+      }
+    }
+    if (deck) {
+      deck.classList.toggle("is-open", state.mobileMenuOpen);
+    }
+  }
+
+  function setMobileMenuOpen(open) {
+    if (state.mobileMenuOpen === open) return false;
+    state.mobileMenuOpen = open;
+    syncMobileMenuDom();
+    requestTodayJumpUpdate();
+    return true;
+  }
+
+  function closeMobileMenu() {
+    return setMobileMenuOpen(false);
+  }
+
+  function markShareCopied() {
+    if (!state.shareOpen) return;
+    window.clearTimeout(shareCopyTimer);
+    state.shareCopied = true;
+    render();
+    shareCopyTimer = window.setTimeout(() => {
+      if (!state.shareOpen) return;
+      state.shareCopied = false;
+      render();
+    }, 1800);
+  }
+
+  function fallbackCopy(text) {
+    const input = document.createElement("textarea");
+    input.value = text;
+    input.setAttribute("readonly", "");
+    input.style.position = "fixed";
+    input.style.top = "-9999px";
+    document.body.appendChild(input);
+    input.select();
+    try {
+      document.execCommand("copy");
+      markShareCopied();
+    } finally {
+      input.remove();
+    }
+  }
+
+  function copyShareUrl() {
+    const url = cleanShareUrl();
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+      navigator.clipboard.writeText(url).then(markShareCopied).catch(() => fallbackCopy(url));
+      return;
+    }
+    fallbackCopy(url);
+  }
+
+  function isOutsideMobileMenu(target) {
+    return (
+      state.mobileMenuOpen &&
+      target instanceof Element &&
+      !target.closest("[data-mobile-menu-toggle], [data-country-picker-toggle], #schedule-controls")
+    );
+  }
+
+  function closeMobileMenuFromOutsideScroll(event) {
+    if (isOutsideMobileMenu(event.target)) {
+      closeMobileMenu();
+    }
+  }
+
   document.addEventListener("click", (event) => {
+    if (isOutsideMobileMenu(event.target)) {
+      event.preventDefault();
+      event.stopPropagation();
+      closeMobileMenu();
+      return;
+    }
+
     const stadiumClose = event.target.closest("[data-stadium-close]");
     if (stadiumClose) {
       state.mapVenueId = null;
@@ -1641,6 +1811,37 @@
       return;
     }
 
+    const shareClose = event.target.closest("[data-share-close]");
+    if (shareClose) {
+      state.shareOpen = false;
+      state.shareCopied = false;
+      render();
+      return;
+    }
+
+    const shareBackdrop = event.target.closest("[data-share-modal]");
+    if (shareBackdrop && event.target === shareBackdrop) {
+      state.shareOpen = false;
+      state.shareCopied = false;
+      render();
+      return;
+    }
+
+    const shareOpen = event.target.closest("[data-share-open]");
+    if (shareOpen) {
+      state.shareOpen = true;
+      state.shareCopied = false;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
+    const shareCopy = event.target.closest("[data-share-copy]");
+    if (shareCopy) {
+      copyShareUrl();
+      return;
+    }
+
     const settingsReset = event.target.closest("[data-settings-reset]");
     if (settingsReset) {
       state.settings = { ...defaultSettings };
@@ -1692,8 +1893,7 @@
 
     const mobileMenuToggle = event.target.closest("[data-mobile-menu-toggle]");
     if (mobileMenuToggle) {
-      state.mobileMenuOpen = !state.mobileMenuOpen;
-      render();
+      setMobileMenuOpen(!state.mobileMenuOpen);
       return;
     }
 
@@ -1906,14 +2106,24 @@
       state.feedbackOpen = false;
       render();
     }
-    if (event.key === "Escape" && state.mobileMenuOpen) {
-      state.mobileMenuOpen = false;
+    if (event.key === "Escape" && state.shareOpen) {
+      state.shareOpen = false;
+      state.shareCopied = false;
       render();
+    }
+    if (event.key === "Escape" && state.mobileMenuOpen) {
+      closeMobileMenu();
     }
   });
 
+  function handleWindowScroll() {
+    requestTodayJumpUpdate();
+  }
+
   window.setInterval(render, 60_000);
-  window.addEventListener("scroll", requestTodayJumpUpdate, { passive: true });
+  document.addEventListener("wheel", closeMobileMenuFromOutsideScroll, { passive: true });
+  document.addEventListener("touchmove", closeMobileMenuFromOutsideScroll, { passive: true });
+  window.addEventListener("scroll", handleWindowScroll, { passive: true });
   window.addEventListener("resize", requestTodayJumpUpdate);
   window.addEventListener("popstate", () => {
     applyUrlState();
