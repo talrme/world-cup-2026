@@ -4,7 +4,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "World Cup Snapshot",
   description: "Interactive 2026 World Cup schedule with highlight links.",
+  applicationName: "World Cup Snapshot",
   manifest: "/site.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: "World Cup",
+    statusBarStyle: "black-translucent",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -13,6 +19,9 @@ export const metadata: Metadata = {
     ],
     shortcut: "/favicon.ico",
     apple: [{ url: "/assets/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+  },
+  other: {
+    "mobile-web-app-capable": "yes",
   },
 };
 
