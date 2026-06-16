@@ -231,7 +231,8 @@ h1 {
 
 .settings-trigger,
 .feedback-trigger,
-.share-trigger {
+.share-trigger,
+.install-trigger {
   align-items: center;
   background: rgba(247, 245, 238, 0.1);
   border: 1px solid var(--line);
@@ -252,9 +253,14 @@ h1 {
   display: block;
 }
 
+.install-trigger {
+  display: none;
+}
+
 .settings-trigger:hover,
 .feedback-trigger:hover,
-.share-trigger:hover {
+.share-trigger:hover,
+.install-trigger:hover {
   background: rgba(247, 245, 238, 0.18);
   border-color: var(--accent);
   transform: translateY(-1px);
@@ -297,6 +303,10 @@ h1 {
   --action-icon-url: url("./public/assets/action-share.png");
 }
 
+.action-icon-app {
+  --action-icon-url: url("./public/assets/action-app.png");
+}
+
 .settings-trigger:hover .action-icon::before {
   transform: rotate(38deg);
 }
@@ -307,7 +317,8 @@ h1 {
 
 .settings-trigger strong,
 .feedback-trigger strong,
-.share-trigger strong {
+.share-trigger strong,
+.install-trigger strong {
   font-size: 0.82rem;
   font-weight: 950;
   letter-spacing: 0;
@@ -1562,7 +1573,8 @@ h1 {
 .country-picker-modal,
 .settings-modal,
 .feedback-modal,
-.share-modal {
+.share-modal,
+.install-modal {
   align-items: center;
   background:
     radial-gradient(circle at 30% 20%, rgba(66, 211, 146, 0.2), transparent 28%),
@@ -1582,7 +1594,8 @@ h1 {
 .country-picker-panel,
 .settings-panel,
 .feedback-panel,
-.share-panel {
+.share-panel,
+.install-panel {
   background: rgba(247, 245, 238, 0.97);
   border: 1px solid rgba(247, 245, 238, 0.28);
   border-radius: 8px;
@@ -1614,7 +1627,8 @@ h1 {
 }
 
 .feedback-panel,
-.share-panel {
+.share-panel,
+.install-panel {
   background:
     linear-gradient(180deg, rgba(255, 255, 251, 0.98), rgba(241, 245, 237, 0.98)),
     radial-gradient(circle at 88% 0%, rgba(66, 211, 146, 0.16), transparent 36%);
@@ -1629,7 +1643,8 @@ h1 {
 .country-picker-header,
 .settings-header,
 .feedback-header,
-.share-header {
+.share-header,
+.install-header {
   align-items: start;
   display: flex;
   gap: 16px;
@@ -1638,7 +1653,8 @@ h1 {
 
 .settings-header,
 .feedback-header,
-.share-header {
+.share-header,
+.install-header {
   align-items: center;
   background: var(--settings-header-bg);
   color: var(--settings-header-fg);
@@ -1651,32 +1667,37 @@ h1 {
 .country-picker-header .eyebrow,
 .settings-header .eyebrow,
 .feedback-header .eyebrow,
-.share-header .eyebrow {
+.share-header .eyebrow,
+.install-header .eyebrow {
   color: #138250;
 }
 
 .settings-header .eyebrow,
 .feedback-header .eyebrow,
-.share-header .eyebrow {
+.share-header .eyebrow,
+.install-header .eyebrow {
   color: var(--settings-kicker);
 }
 
 .country-picker-header h2,
 .settings-header h2,
 .feedback-header h2,
-.share-header h2 {
+.share-header h2,
+.install-header h2 {
   font-size: clamp(1.25rem, 3vw, 1.9rem);
   margin-top: 4px;
 }
 
 .settings-header h2,
 .feedback-header h2,
-.share-header h2 {
+.share-header h2,
+.install-header h2 {
   font-size: clamp(1.9rem, 4vw, 2.6rem);
 }
 
 .feedback-header p,
-.share-header p {
+.share-header p,
+.install-header p {
   color: rgba(247, 245, 238, 0.72);
   font-size: 0.92rem;
   font-weight: 750;
@@ -1685,7 +1706,8 @@ h1 {
 
 .settings-close,
 .feedback-close,
-.share-close {
+.share-close,
+.install-close {
   background: rgba(247, 245, 238, 0.1);
   border-color: rgba(247, 245, 238, 0.24);
   color: #f7f5ee;
@@ -1694,7 +1716,8 @@ h1 {
 
 .settings-close:hover,
 .feedback-close:hover,
-.share-close:hover {
+.share-close:hover,
+.install-close:hover {
   background: #f7f5ee;
   color: var(--settings-selected-bg);
   transform: rotate(90deg) scale(1.05);
@@ -1738,6 +1761,12 @@ h1 {
 }
 
 .share-body {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+}
+
+.install-body {
   display: grid;
   gap: 16px;
   padding: 18px;
@@ -1801,6 +1830,60 @@ h1 {
 .share-phone-card p {
   color: #59635e;
   font-size: 0.9rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.install-hero-card {
+  align-items: center;
+  background:
+    linear-gradient(135deg, rgba(16, 32, 22, 0.08), rgba(66, 211, 146, 0.1));
+  border: 1px solid rgba(16, 18, 15, 0.1);
+  border-radius: 8px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: auto minmax(0, 1fr);
+  padding: 16px;
+}
+
+.install-phone-icon {
+  align-items: center;
+  background: var(--accent);
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(16, 18, 15, 0.16);
+  color: #07120c;
+  display: inline-flex;
+  height: 64px;
+  justify-content: center;
+  width: 64px;
+}
+
+.install-phone-icon .action-icon {
+  background: transparent;
+  height: 42px;
+  width: 42px;
+}
+
+.install-phone-icon .action-icon::before {
+  height: 36px;
+  width: 36px;
+}
+
+.install-hero-card div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+
+.install-hero-card div > span {
+  color: #102016;
+  font-size: 1.1rem;
+  font-weight: 950;
+}
+
+.install-hero-card p {
+  color: #59635e;
+  font-size: 0.94rem;
   font-weight: 750;
   line-height: 1.35;
 }
@@ -2737,7 +2820,7 @@ h1 {
   .mobile-action-row {
     display: grid;
     gap: 8px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .spoiler-control {
@@ -2817,14 +2900,16 @@ h1 {
 
   .control-deck .settings-trigger .action-icon,
   .control-deck .feedback-trigger .action-icon,
-  .control-deck .share-trigger .action-icon {
+  .control-deck .share-trigger .action-icon,
+  .control-deck .install-trigger .action-icon {
     height: 28px;
     width: 28px;
   }
 
   .control-deck .settings-trigger .action-icon::before,
   .control-deck .feedback-trigger .action-icon::before,
-  .control-deck .share-trigger .action-icon::before {
+  .control-deck .share-trigger .action-icon::before,
+  .control-deck .install-trigger .action-icon::before {
     height: 21px;
     width: 21px;
   }
@@ -2836,9 +2921,11 @@ h1 {
   }
 
   .control-deck .feedback-trigger,
-  .control-deck .share-trigger {
+  .control-deck .share-trigger,
+  .control-deck .install-trigger {
     align-self: stretch;
     border-radius: 8px;
+    display: inline-flex;
     flex-direction: column;
     gap: 4px;
     grid-column: auto;
@@ -2851,7 +2938,8 @@ h1 {
   }
 
   .control-deck .feedback-trigger strong,
-  .control-deck .share-trigger strong {
+  .control-deck .share-trigger strong,
+  .control-deck .install-trigger strong {
     font-size: 0.68rem;
   }
 
@@ -2913,36 +3001,42 @@ h1 {
   .country-picker-modal,
   .settings-modal,
   .feedback-modal,
-  .share-modal {
+  .share-modal,
+  .install-modal {
     padding: 12px;
   }
 
   .country-picker-panel,
   .settings-panel,
   .feedback-panel,
-  .share-panel {
+  .share-panel,
+  .install-panel {
     padding: 14px;
   }
 
   .settings-panel,
   .feedback-panel,
-  .share-panel {
+  .share-panel,
+  .install-panel {
     padding: 0;
   }
 
   .settings-header,
   .feedback-header,
-  .share-header {
+  .share-header,
+  .install-header {
     padding: 18px;
   }
 
   .feedback-panel,
-  .share-panel {
+  .share-panel,
+  .install-panel {
     max-height: calc(100dvh - 24px);
   }
 
   .share-copy-card,
-  .share-install-grid {
+  .share-install-grid,
+  .install-hero-card {
     grid-template-columns: 1fr;
   }
 

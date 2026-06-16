@@ -271,6 +271,7 @@
     settingsOpen: false,
     feedbackOpen: false,
     shareOpen: false,
+    installOpen: false,
     shareCopied: false,
     settings: savedSettings,
     pendingViewScroll: null,
@@ -1234,6 +1235,10 @@
             <span class="action-icon action-icon-share" aria-hidden="true"></span>
             <strong>Share</strong>
           </button>
+          <button aria-label="Save as app" class="install-trigger" data-install-open type="button" title="Save as app">
+            <span class="action-icon action-icon-app" aria-hidden="true"></span>
+            <strong>App</strong>
+          </button>
         </div>
       </section>
     `;
@@ -1352,6 +1357,46 @@
               <div>
                 <span>Save to your phone</span>
                 <p>Add World Cup Snapshot to your home screen so it opens like an app with this soccer ball icon.</p>
+              </div>
+            </section>
+            <div class="share-install-grid">
+              <section>
+                <span>iPhone / iPad home screen</span>
+                <p>Open the site in Safari, tap Share, then choose Add to Home Screen.</p>
+              </section>
+              <section>
+                <span>Android home screen</span>
+                <p>Open the site in Chrome, tap the menu, then choose Add to Home screen or Install app.</p>
+              </section>
+            </div>
+          </div>
+        </section>
+      </div>
+    `;
+  }
+
+  function renderInstallModal() {
+    if (!state.installOpen) return "";
+
+    return `
+      <div class="install-modal" data-install-modal role="dialog" aria-modal="true" aria-label="Save World Cup Snapshot to your phone">
+        <section class="install-panel">
+          <header class="install-header">
+            <div>
+              <span class="eyebrow">App</span>
+              <h2>Save to Your Phone</h2>
+              <p>Add World Cup Snapshot to your home screen so it opens like an app.</p>
+            </div>
+            <button aria-label="Close app install help" class="icon-button install-close" data-install-close title="Close app install help" type="button">×</button>
+          </header>
+          <div class="install-body">
+            <section class="install-hero-card">
+              <span class="install-phone-icon" aria-hidden="true">
+                <span class="action-icon action-icon-app"></span>
+              </span>
+              <div>
+                <span>Home screen shortcut</span>
+                <p>The saved shortcut uses the soccer ball icon and opens directly to the clean homepage.</p>
               </div>
             </section>
             <div class="share-install-grid">
@@ -1620,6 +1665,7 @@
       ${renderSettingsModal()}
       ${renderFeedbackModal()}
       ${renderShareModal()}
+      ${renderInstallModal()}
       ${renderStadiumMap()}
       ${renderTodayJumpButton()}
       <footer class="source-strip">
@@ -1839,6 +1885,28 @@
     const shareCopy = event.target.closest("[data-share-copy]");
     if (shareCopy) {
       copyShareUrl();
+      return;
+    }
+
+    const installClose = event.target.closest("[data-install-close]");
+    if (installClose) {
+      state.installOpen = false;
+      render();
+      return;
+    }
+
+    const installBackdrop = event.target.closest("[data-install-modal]");
+    if (installBackdrop && event.target === installBackdrop) {
+      state.installOpen = false;
+      render();
+      return;
+    }
+
+    const installOpen = event.target.closest("[data-install-open]");
+    if (installOpen) {
+      state.installOpen = true;
+      state.mobileMenuOpen = false;
+      render();
       return;
     }
 
@@ -2109,6 +2177,10 @@
     if (event.key === "Escape" && state.shareOpen) {
       state.shareOpen = false;
       state.shareCopied = false;
+      render();
+    }
+    if (event.key === "Escape" && state.installOpen) {
+      state.installOpen = false;
       render();
     }
     if (event.key === "Escape" && state.mobileMenuOpen) {
