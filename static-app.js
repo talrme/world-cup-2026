@@ -327,6 +327,11 @@
     return matches.filter((match) => hasScore(match) && filter(match)).map((match) => match.id);
   }
 
+  function allScoredMatchesVisible() {
+    const scoredMatches = matches.filter(hasScore);
+    return Boolean(scoredMatches.length && scoredMatches.every((match) => isScoreVisible(match)));
+  }
+
   function setScoreIdsVisible(ids, visible) {
     ids.forEach((id) => {
       if (visible) {
@@ -366,7 +371,7 @@
   function migrateScoreVisibilityState() {
     let changed = false;
 
-    if (state.showAllScores) {
+    if (state.showAllScores && (state.settings.scoreStartupMode === "shown" || !state.hiddenScoresStored)) {
       showAllScoredMatches();
       changed = true;
     }
@@ -698,7 +703,7 @@
     if (!hasScore(match) || state.hiddenScores.has(match.id)) return false;
     if (state.revealedScores.has(match.id)) return true;
     if (forceHidden) return false;
-    return Boolean(forceVisible || state.showAllScores || scoreCutoffReveals(match));
+    return Boolean(forceVisible || scoreCutoffReveals(match));
   }
 
   function spoilerText(match, forceVisible = false, forceHidden = false) {
@@ -1249,7 +1254,7 @@
         <div class="control-section control-section-scores">
           <span class="control-section-title">Scores</span>
           <button class="spoiler-control" data-show-all-scores type="button">
-            ${state.showAllScores ? "Hide all scores" : "Show all scores"}
+            ${allScoredMatchesVisible() ? "Hide all scores" : "Show all scores"}
           </button>
         </div>
         <div class="control-section filters">
@@ -2120,14 +2125,15 @@
 
     const showAllButton = event.target.closest("[data-show-all-scores]");
     if (showAllButton) {
-      state.showAllScores = !state.showAllScores;
+      const allVisible = allScoredMatchesVisible();
+      state.showAllScores = !allVisible;
       state.revealedGroups.clear();
       state.hiddenGroups.clear();
-      if (state.showAllScores) {
-        showAllScoredMatches();
-      } else {
+      if (allVisible) {
         state.scoreCutoffEnabled = false;
         hideAllScoredMatches();
+      } else {
+        showAllScoredMatches();
       }
       saveSpoilerState();
       render();
