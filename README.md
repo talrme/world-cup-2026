@@ -112,7 +112,7 @@ If the first run fails while pushing a refresh commit, check **Settings → Acti
 
 What it does:
 
-- Runs `python scripts/refresh_all.py` once per hour at `:07` UTC.
+- Runs `python scripts/refresh_all.py` every 15 minutes at `:07`, `:22`, `:37`, and `:52` UTC.
 - Lets you run the same refresh manually from GitHub.
 - Writes the full refresh log into the Actions run output.
 - Adds a run summary with the trigger, changed files, diff summary, elapsed refresh runtime in seconds/minutes, and a final one-line commit/no-op verdict.
@@ -149,9 +149,9 @@ Usage notes:
 
 - For a public repo using standard GitHub-hosted runners, GitHub Actions usage is generally free.
 - For a private repo, scheduled runs count against the account's GitHub Actions minutes/quota.
-- This workflow is intentionally lightweight. At an hourly cadence it runs 24 times per day. If each run takes about 1 minute end-to-end, that is roughly 24 runner minutes per day.
+- This workflow is intentionally lightweight. At a 15-minute cadence it runs 96 times per day. If each run takes about 1 minute end-to-end, that is roughly 96 runner minutes per day.
 - GitHub's run page shows total job duration. The workflow summary also shows the refresh script's elapsed runtime.
-- Scheduled workflows can be delayed during busy GitHub periods. The cron is offset from the top of the hour to reduce that risk.
+- Scheduled workflows can be delayed during busy GitHub periods. The cron is offset from common quarter-hour boundaries to reduce that risk.
 
 If you use the local Desktop copy, run `git pull` to bring in the automated refresh commits. The GitHub Pages URL updates from the pushed data automatically once Pages rebuilds.
 
