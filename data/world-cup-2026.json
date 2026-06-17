@@ -797,9 +797,25 @@
       "timezoneLabel": "ET",
       "home": "Portugal",
       "away": "DR Congo",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "houston"
+      "venueId": "houston",
+      "homeScore": 1,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-17T19:37:14+00:00",
+          "title": "Portugal vs DR Congo Extended Highlights \ud83c\udf0e\ud83c\udfc62026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=SjumRdNESKg",
+          "channel": "FOX Sports",
+          "durationText": "18 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-17T19:37:14+00:00"
+      }
     },
     {
       "id": 22,
@@ -1951,7 +1967,7 @@
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-17T14:05:35+00:00",
+  "scheduleUpdatedAt": "2026-06-17T19:33:22+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
