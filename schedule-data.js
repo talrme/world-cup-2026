@@ -768,7 +768,21 @@ window.WORLD_CUP_DATA = {
       "away": "Jordan",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "sf-bay"
+      "venueId": "sf-bay",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-17T10:20:37+00:00",
+          "title": "Austria vs Jordan Extended Highlights \ud83c\udf0e\ud83c\udfc62026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=yOPRItttrPU",
+          "channel": "FOX Sports",
+          "durationText": "18 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-17T10:20:37+00:00"
+      }
     },
     {
       "id": 21,
