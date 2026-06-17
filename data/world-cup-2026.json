@@ -828,9 +828,25 @@
       "timezoneLabel": "ET",
       "home": "England",
       "away": "Croatia",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "dallas"
+      "venueId": "dallas",
+      "homeScore": 4,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-17T23:09:56+00:00",
+          "title": "England vs Croatia Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=lGoe9nxRfyU",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-17T23:09:56+00:00"
+      }
     },
     {
       "id": 23,
@@ -1967,7 +1983,7 @@
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-17T19:33:22+00:00",
+  "scheduleUpdatedAt": "2026-06-17T23:05:45+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
