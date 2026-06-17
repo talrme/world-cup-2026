@@ -1801,7 +1801,7 @@ h1 {
 
 .share-app-icon {
   align-items: center;
-  background: #082215;
+  background: var(--accent);
   border: 1px solid rgba(16, 18, 15, 0.1);
   border-radius: 14px;
   box-shadow: 0 10px 24px rgba(16, 18, 15, 0.12);
@@ -1814,9 +1814,9 @@ h1 {
 
 .share-app-icon img {
   display: block;
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
+  height: 38px;
+  object-fit: contain;
+  width: 38px;
 }
 
 .share-phone-card div {
@@ -1838,60 +1838,6 @@ h1 {
   line-height: 1.35;
 }
 
-.install-hero-card {
-  align-items: center;
-  background:
-    linear-gradient(135deg, rgba(16, 32, 22, 0.08), rgba(66, 211, 146, 0.1));
-  border: 1px solid rgba(16, 18, 15, 0.1);
-  border-radius: 8px;
-  display: grid;
-  gap: 14px;
-  grid-template-columns: auto minmax(0, 1fr);
-  padding: 16px;
-}
-
-.install-phone-icon {
-  align-items: center;
-  background: var(--accent);
-  border-radius: 18px;
-  box-shadow: 0 12px 28px rgba(16, 18, 15, 0.16);
-  color: #07120c;
-  display: inline-flex;
-  height: 64px;
-  justify-content: center;
-  width: 64px;
-}
-
-.install-phone-icon .action-icon {
-  background: transparent;
-  height: 42px;
-  width: 42px;
-}
-
-.install-phone-icon .action-icon::before {
-  height: 36px;
-  width: 36px;
-}
-
-.install-hero-card div {
-  display: grid;
-  gap: 5px;
-  min-width: 0;
-}
-
-.install-hero-card div > span {
-  color: #102016;
-  font-size: 1.1rem;
-  font-weight: 950;
-}
-
-.install-hero-card p {
-  color: #59635e;
-  font-size: 0.94rem;
-  font-weight: 750;
-  line-height: 1.35;
-}
-
 .share-copy-card label {
   display: grid;
   gap: 6px;
@@ -1899,7 +1845,7 @@ h1 {
 }
 
 .share-copy-card label span,
-.share-install-grid span {
+.share-install-grid div > span {
   color: #59635e;
   font-size: 0.76rem;
   font-weight: 950;
@@ -1944,13 +1890,41 @@ h1 {
 }
 
 .share-install-grid section {
+  align-items: start;
   background:
     linear-gradient(180deg, rgba(255, 254, 250, 0.96), rgba(235, 240, 230, 0.96));
   border: 1px solid rgba(16, 18, 15, 0.1);
   border-radius: 8px;
   display: grid;
-  gap: 7px;
+  gap: 10px;
+  grid-template-columns: auto minmax(0, 1fr);
   padding: 14px;
+}
+
+.install-method-icon {
+  align-items: center;
+  background: #082215;
+  border: 1px solid rgba(16, 18, 15, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(16, 18, 15, 0.12);
+  display: inline-flex;
+  height: 44px;
+  justify-content: center;
+  overflow: hidden;
+  width: 44px;
+}
+
+.install-method-icon img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.share-install-grid section > div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
 }
 
 .share-install-grid p {
@@ -3082,8 +3056,7 @@ h1 {
   }
 
   .share-copy-card,
-  .share-install-grid,
-  .install-hero-card {
+  .share-install-grid {
     grid-template-columns: 1fr;
   }
 

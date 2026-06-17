@@ -1396,21 +1396,31 @@
             </div>
             <section class="share-phone-card">
               <span class="share-app-icon" aria-hidden="true">
-                <img src="./public/assets/soccer-ball-192.png" alt="" />
+                <img src="./public/assets/action-app.png" alt="" />
               </span>
               <div>
                 <span>Save to your phone</span>
-                <p>Add World Cup Highlights to your home screen so it opens like an app with this soccer ball icon.</p>
+                <p>Add World Cup Highlights to your home screen so it opens like an app with the soccer ball icon.</p>
               </div>
             </section>
             <div class="share-install-grid">
               <section>
-                <span>iPhone / iPad home screen</span>
-                <p>Open the site in Safari, tap Share, then choose Add to Home Screen.</p>
+                <span class="install-method-icon" aria-hidden="true">
+                  <img src="./public/assets/soccer-ball-192.png" alt="" />
+                </span>
+                <div>
+                  <span>iPhone / iPad home screen</span>
+                  <p>Open the site in Safari, tap Share, then choose Add to Home Screen.</p>
+                </div>
               </section>
               <section>
-                <span>Android home screen</span>
-                <p>Open the site in Chrome, tap the menu, then choose Add to Home screen or Install app.</p>
+                <span class="install-method-icon" aria-hidden="true">
+                  <img src="./public/assets/soccer-ball-192.png" alt="" />
+                </span>
+                <div>
+                  <span>Android home screen</span>
+                  <p>Open the site in Chrome, tap the menu, then choose Add to Home screen or Install app.</p>
+                </div>
               </section>
             </div>
           </div>
@@ -1434,23 +1444,24 @@
             <button aria-label="Close app install help" class="icon-button install-close" data-install-close title="Close app install help" type="button">×</button>
           </header>
           <div class="install-body">
-            <section class="install-hero-card">
-              <span class="install-phone-icon" aria-hidden="true">
-                <span class="action-icon action-icon-app"></span>
-              </span>
-              <div>
-                <span>Home screen shortcut</span>
-                <p>The saved shortcut uses the soccer ball icon and opens directly to the clean homepage.</p>
-              </div>
-            </section>
             <div class="share-install-grid">
               <section>
-                <span>iPhone / iPad home screen</span>
-                <p>Open the site in Safari, tap Share, then choose Add to Home Screen.</p>
+                <span class="install-method-icon" aria-hidden="true">
+                  <img src="./public/assets/soccer-ball-192.png" alt="" />
+                </span>
+                <div>
+                  <span>iPhone / iPad home screen</span>
+                  <p>Open the site in Safari, tap Share, then choose Add to Home Screen.</p>
+                </div>
               </section>
               <section>
-                <span>Android home screen</span>
-                <p>Open the site in Chrome, tap the menu, then choose Add to Home screen or Install app.</p>
+                <span class="install-method-icon" aria-hidden="true">
+                  <img src="./public/assets/soccer-ball-192.png" alt="" />
+                </span>
+                <div>
+                  <span>Android home screen</span>
+                  <p>Open the site in Chrome, tap the menu, then choose Add to Home screen or Install app.</p>
+                </div>
               </section>
             </div>
           </div>
