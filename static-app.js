@@ -1360,7 +1360,7 @@
             <button aria-label="Close feedback" class="icon-button feedback-close" data-feedback-close title="Close feedback" type="button">×</button>
           </header>
           <div class="feedback-frame-wrap">
-            <iframe class="feedback-frame" title="World Cup Snapshot feedback form" src="${escapeHtml(feedbackEmbedUrl)}" loading="lazy">Loading feedback form</iframe>
+            <iframe class="feedback-frame" title="World Cup Highlights feedback form" src="${escapeHtml(feedbackEmbedUrl)}" loading="lazy">Loading feedback form</iframe>
           </div>
           <footer class="feedback-footer">
             <a href="${escapeHtml(feedbackFormUrl)}" rel="noreferrer" target="_blank">Open in Google Forms</a>
@@ -1376,12 +1376,12 @@
     const url = cleanShareUrl();
 
     return `
-      <div class="share-modal" data-share-modal role="dialog" aria-modal="true" aria-label="Share World Cup Snapshot">
+      <div class="share-modal" data-share-modal role="dialog" aria-modal="true" aria-label="Share World Cup Highlights">
         <section class="share-panel">
           <header class="share-header">
             <div>
               <span class="eyebrow">Share</span>
-              <h2>World Cup Snapshot</h2>
+              <h2>World Cup Highlights</h2>
               <p>Copy the clean homepage link, without your current filters or view.</p>
             </div>
             <button aria-label="Close share" class="icon-button share-close" data-share-close title="Close share" type="button">×</button>
@@ -1400,7 +1400,7 @@
               </span>
               <div>
                 <span>Save to your phone</span>
-                <p>Add World Cup Snapshot to your home screen so it opens like an app with this soccer ball icon.</p>
+                <p>Add World Cup Highlights to your home screen so it opens like an app with this soccer ball icon.</p>
               </div>
             </section>
             <div class="share-install-grid">
@@ -1423,13 +1423,13 @@
     if (!state.installOpen) return "";
 
     return `
-      <div class="install-modal" data-install-modal role="dialog" aria-modal="true" aria-label="Save World Cup Snapshot to your phone">
+      <div class="install-modal" data-install-modal role="dialog" aria-modal="true" aria-label="Save World Cup Highlights to your phone">
         <section class="install-panel">
           <header class="install-header">
             <div>
               <span class="eyebrow">App</span>
               <h2>Save to Your Phone</h2>
-              <p>Add World Cup Snapshot to your home screen so it opens like an app.</p>
+              <p>Add World Cup Highlights to your home screen so it opens like an app.</p>
             </div>
             <button aria-label="Close app install help" class="icon-button install-close" data-install-close title="Close app install help" type="button">×</button>
           </header>
@@ -1692,7 +1692,7 @@
         <header class="topbar">
           <div>
             <span class="eyebrow">2026</span>
-            <h1><a aria-label="World Cup Snapshot" class="home-title" href="${escapeHtml(window.location.pathname)}">W<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>rld Cup Snapsh<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>t</a></h1>
+            <h1><a aria-label="World Cup Highlights" class="home-title" href="${escapeHtml(window.location.pathname)}">W<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>rld Cup Highlights</a></h1>
           </div>
           <button aria-label="Refresh schedule" class="phone-refresh" data-page-refresh title="Refresh schedule" type="button">
             <span aria-hidden="true">↻</span>

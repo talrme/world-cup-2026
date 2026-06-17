@@ -1,4 +1,4 @@
-# World Cup Snapshot
+# World Cup Highlights
 
 **Live site:** [https://talrme.github.io/world-cup-2026/](https://talrme.github.io/world-cup-2026/)
 

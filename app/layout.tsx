@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "World Cup Snapshot",
+  title: "World Cup Highlights",
   description: "Interactive 2026 World Cup schedule with highlight links.",
-  applicationName: "World Cup Snapshot",
+  applicationName: "World Cup Highlights",
   manifest: "/site.webmanifest",
   appleWebApp: {
     capable: true,
-    title: "World Cup",
+    title: "Highlights",
     statusBarStyle: "black-translucent",
   },
   icons: {

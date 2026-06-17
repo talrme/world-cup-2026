@@ -1,6 +1,6 @@
 {
-  "name": "World Cup Snapshot",
-  "short_name": "World Cup",
+  "name": "World Cup Highlights",
+  "short_name": "Highlights",
   "description": "Spoiler-safe 2026 World Cup schedule with Fox Sports highlight links.",
   "id": "../",
   "start_url": "../index.html",
