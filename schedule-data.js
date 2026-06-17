@@ -766,7 +766,7 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Austria",
       "away": "Jordan",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "sf-bay",
       "videos": {
@@ -782,7 +782,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-17T10:20:37+00:00"
-      }
+      },
+      "homeScore": 3,
+      "awayScore": 1
     },
     {
       "id": 21,
@@ -1949,7 +1951,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-17T04:27:21+00:00",
+  "scheduleUpdatedAt": "2026-06-17T14:05:35+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
