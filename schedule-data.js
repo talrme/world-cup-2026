@@ -952,9 +952,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Switzerland",
       "away": "Bosnia and Herzegovina",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "los-angeles"
+      "venueId": "los-angeles",
+      "homeScore": 4,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-18T22:30:02+00:00",
+          "title": "Switzerland vs Bosnia and Herzegovina Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=v08lQx6pThk",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-18T22:30:02+00:00"
+      }
     },
     {
       "id": 27,
@@ -2031,7 +2047,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-18T20:01:10+00:00",
+  "scheduleUpdatedAt": "2026-06-18T22:23:14+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
