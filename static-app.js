@@ -16,16 +16,21 @@
   const settingsKey = "worldCup2026Settings";
   const spoilerStateKey = "worldCup2026Spoilers";
   const staleDataReloadKey = "worldCup2026LastStaleReloadAt";
+  const refreshToTodayKey = "worldCup2026RefreshToToday";
   const staleDataReloadMs = 60 * 60 * 1000;
   const feedbackFormUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228";
   const feedbackEmbedUrl =
     "https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?embedded=true";
+
+  if ("scrollRestoration" in window.history) {
+    window.history.scrollRestoration = "manual";
+  }
   const defaultSettings = {
     theme: "match",
     density: "comfortable",
     videoStyle: "compact",
-    timelineStart: "yesterday",
+    timelineStart: "today",
     scoreStartupMode: "previous",
     showBracketViewOption: false,
   };
@@ -54,15 +59,6 @@
       options: [
         ["compact", "Compact"],
         ["full", "Full labels"],
-      ],
-    },
-    {
-      key: "timelineStart",
-      label: "Schedule opens at",
-      options: [
-        ["yesterday", "Yesterday"],
-        ["today", "Today"],
-        ["top", "Top"],
       ],
     },
     {
@@ -554,8 +550,31 @@
     }
   }
 
-  function reloadPage() {
+  function requestTodayAfterReload() {
+    try {
+      window.sessionStorage.setItem(refreshToTodayKey, "true");
+    } catch {
+      // Session storage is optional; normal Today startup still applies.
+    }
+  }
+
+  function takeTodayAfterReloadRequest() {
+    try {
+      const requested = window.sessionStorage.getItem(refreshToTodayKey) === "true";
+      if (requested) {
+        window.sessionStorage.removeItem(refreshToTodayKey);
+      }
+      return requested;
+    } catch {
+      return false;
+    }
+  }
+
+  function reloadPage(options = {}) {
     noteRefreshAttempt();
+    if (options.today) {
+      requestTodayAfterReload();
+    }
     window.location.reload();
   }
 
@@ -1565,7 +1584,6 @@
   function timelineLandingCutoffKey() {
     const cutoff = new Date(state.now);
     cutoff.setHours(0, 0, 0, 0);
-    cutoff.setDate(cutoff.getDate() - (state.settings.timelineStart === "today" ? 0 : 1));
     return inputDateValue(cutoff);
   }
 
@@ -1595,10 +1613,9 @@
 
     const offset = stickyChromeOffset();
     const rect = target.getBoundingClientRect();
-    const viewportBottom = window.innerHeight - 96;
-    const visible = rect.bottom > offset + 12 && rect.top < viewportBottom;
+    const anchoredAtTop = Math.abs(rect.top - offset) <= 18;
 
-    if (visible) {
+    if (anchoredAtTop) {
       button.classList.remove("is-visible");
       button.setAttribute("aria-hidden", "true");
       return;
@@ -1644,11 +1661,6 @@
 
   function autoScrollTimelineOnce() {
     if (state.timelineAutoScrolled || state.mode !== "timeline") return;
-    if (state.settings.timelineStart === "top") {
-      state.timelineAutoScrolled = true;
-      window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
-      return;
-    }
 
     window.requestAnimationFrame(() => {
       const dayBands = [...app.querySelectorAll("[data-day-key]")];
@@ -1823,7 +1835,7 @@
   document.addEventListener("click", (event) => {
     const pageRefresh = event.target.closest("[data-page-refresh]");
     if (pageRefresh) {
-      reloadPage();
+      reloadPage({ today: true });
       return;
     }
 
@@ -2267,6 +2279,11 @@
     render();
   });
   applyUrlState();
+  if (takeTodayAfterReloadRequest()) {
+    state.mode = "timeline";
+    state.timelineAutoScrolled = false;
+    state.pendingViewScroll = "timeline";
+  }
   if (!autoReloadStaleHostedData()) {
     render();
   }

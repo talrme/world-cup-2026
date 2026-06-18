@@ -110,7 +110,7 @@ const defaultSettings: DisplaySettings = {
   theme: "match",
   density: "comfortable",
   videoStyle: "compact",
-  timelineStart: "yesterday",
+  timelineStart: "today",
   scoreStartupMode: "previous",
   showBracketViewOption: false,
 };
@@ -144,15 +144,6 @@ const settingGroups: {
     options: [
       { value: "compact", label: "Compact" },
       { value: "full", label: "Full labels" },
-    ],
-  },
-  {
-    key: "timelineStart",
-    label: "Schedule opens at",
-    options: [
-      { value: "yesterday", label: "Yesterday" },
-      { value: "today", label: "Today" },
-      { value: "top", label: "Top" },
     ],
   },
   {
@@ -480,10 +471,9 @@ function defaultScoreCutoffDate() {
   return inputDateValue(date);
 }
 
-function timelineLandingCutoffKey(now: Date, timelineStart: DisplaySettings["timelineStart"]) {
+function timelineLandingCutoffKey(now: Date) {
   const cutoff = new Date(now);
   cutoff.setHours(0, 0, 0, 0);
-  cutoff.setDate(cutoff.getDate() - (timelineStart === "today" ? 0 : 1));
   return inputDateValue(cutoff);
 }
 
@@ -841,17 +831,12 @@ export default function WorldCupDashboard() {
 
   useEffect(() => {
     if (timelineAutoScrolled || mode !== "timeline") return undefined;
-    if (settings.timelineStart === "top") {
-      setTimelineAutoScrolled(true);
-      const frame = window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
-      return () => window.cancelAnimationFrame(frame);
-    }
 
     const frame = window.requestAnimationFrame(() => {
       const dayBands = [...document.querySelectorAll<HTMLElement>("[data-day-key]")];
       if (!dayBands.length) return;
 
-      const cutoffKey = timelineLandingCutoffKey(now, settings.timelineStart);
+      const cutoffKey = timelineLandingCutoffKey(now);
       const target = dayBands.find((band) => (band.dataset.dayKey ?? "") >= cutoffKey) ?? dayBands[dayBands.length - 1];
       const chrome = document.querySelector<HTMLElement>(".page-chrome");
       const offset = chrome ? Math.ceil(chrome.getBoundingClientRect().height + 14) : 0;
@@ -861,7 +846,7 @@ export default function WorldCupDashboard() {
     });
 
     return () => window.cancelAnimationFrame(frame);
-  }, [filteredMatches, mode, now, settings.timelineStart, timelineAutoScrolled]);
+  }, [filteredMatches, mode, now, timelineAutoScrolled]);
 
   useEffect(() => {
     let frame = 0;
@@ -886,9 +871,8 @@ export default function WorldCupDashboard() {
 
       const offset = stickyOffset();
       const rect = target.getBoundingClientRect();
-      const viewportBottom = window.innerHeight - 96;
-      const visible = rect.bottom > offset + 12 && rect.top < viewportBottom;
-      const nextDirection: TodayJumpDirection = visible ? null : rect.top < offset ? "up" : "down";
+      const anchoredAtTop = Math.abs(rect.top - offset) <= 18;
+      const nextDirection: TodayJumpDirection = anchoredAtTop ? null : rect.top < offset ? "up" : "down";
 
       setTodayJumpTop(Math.max(12, offset + 8));
       setTodayJumpDirection((current) => current === nextDirection ? current : nextDirection);
