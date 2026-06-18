@@ -1041,6 +1041,58 @@ export default function WorldCupDashboard() {
     return `${selectedCountries.size} countries`;
   }
 
+  function selectedCountryList() {
+    if (selectedAllCountries()) return [];
+    return countryOptions.filter((country) => selectedCountries.has(country));
+  }
+
+  function countryFilterTitle(countries = selectedCountryList()) {
+    if (countryMode === "all" || selectedAllCountries()) return "All countries";
+    if (countries.length === 0) return "No countries selected";
+    return countries.join(", ");
+  }
+
+  function renderCountryFlagStrip(countries = selectedCountryList(), limit = 5) {
+    if (!countries.length) return null;
+
+    const visible = countries.slice(0, limit);
+    const overflow = countries.length - visible.length;
+
+    return (
+      <>
+        <span className="country-filter-flags" aria-hidden="true">
+          {visible.map((country) => {
+            const flag = flagForTeam(country);
+            if (!flag) return null;
+            return (
+              <span className="country-filter-flag" key={country} title={country}>
+                {flag}
+              </span>
+            );
+          })}
+          {overflow > 0 ? (
+            <span className="country-filter-more" title={countryFilterTitle(countries)}>
+              +{overflow}
+            </span>
+          ) : null}
+        </span>
+        {overflow > 0 ? (
+          <span className="sr-only">{overflow} more {overflow === 1 ? "country" : "countries"}</span>
+        ) : null}
+      </>
+    );
+  }
+
+  function renderCountryFilterContent({ compact = false } = {}) {
+    const countries = selectedCountryList();
+    return (
+      <span className="country-filter-main">
+        <strong className="country-filter-text">{countryFilterLabel()}</strong>
+        {renderCountryFlagStrip(countries, compact ? 3 : 5)}
+      </span>
+    );
+  }
+
   function currentModeLabel() {
     return modes.find((item) => item.id === mode)?.label ?? "Schedule";
   }
@@ -1971,7 +2023,6 @@ export default function WorldCupDashboard() {
           <span aria-hidden="true" className="hamburger-icon"><i /><i /><i /></span>
           <span className="sr-only">{mobileMenuOpen ? "Close menu" : "Open menu"}</span>
           <strong>{currentModeLabel()}</strong>
-          <em>{countryFilterLabel()}</em>
         </button>
 
         <section className={`control-deck ${mobileMenuOpen ? "is-open" : ""}`} id="schedule-controls" aria-label="Schedule controls">
@@ -2007,20 +2058,19 @@ export default function WorldCupDashboard() {
           </button>
 
           <div className="filters">
-            <label>
-              <span>Country</span>
-              <button
-                className="country-filter-trigger"
-                onClick={() => {
-                  setCountryPickerOpen(true);
-                  setMobileMenuOpen(false);
-                }}
-                type="button"
-              >
-                <strong>{countryFilterLabel()}</strong>
-                <em>{countryMode === "all" ? "All" : "Filtered"}</em>
-              </button>
-            </label>
+            <button
+              aria-label={`Country filter: ${countryFilterTitle()}`}
+              className="country-filter-trigger"
+              onClick={() => {
+                setCountryPickerOpen(true);
+                setMobileMenuOpen(false);
+              }}
+              title={countryFilterTitle()}
+              type="button"
+            >
+              <span className="country-filter-desktop-content">{renderCountryFilterContent()}</span>
+              <span className="country-filter-mobile-content">{renderCountryFilterContent({ compact: true })}</span>
+            </button>
           </div>
           <button
             aria-label="Settings"

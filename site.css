@@ -428,18 +428,16 @@ h1 {
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr;
-}
-
-.filters label {
-  display: grid;
-  gap: 6px;
+  min-width: 0;
 }
 
 .country-filter-trigger {
   background: rgba(247, 245, 238, 0.94);
   color: var(--ink);
+  min-width: 0;
   outline: 2px solid transparent;
-  padding: 0 12px;
+  overflow: hidden;
+  padding: 0 12px 0 14px;
   width: 100%;
 }
 
@@ -455,22 +453,86 @@ h1 {
   text-align: left;
 }
 
-.country-filter-trigger strong {
+.country-filter-trigger::after {
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  content: "";
+  display: block;
+  flex: 0 0 auto;
+  height: 7px;
+  opacity: 0.44;
+  transform: rotate(45deg) translateY(-2px);
+  width: 7px;
+}
+
+.country-filter-main {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  gap: 10px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.country-filter-desktop-content,
+.country-filter-mobile-content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.country-filter-desktop-content {
+  display: flex;
+}
+
+.country-filter-mobile-content {
+  display: none;
+}
+
+.country-filter-text {
+  flex: 0 1 auto;
   font-size: 0.9rem;
+  font-weight: 950;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.country-filter-trigger em {
+.country-filter-flags {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+}
+
+.country-filter-flag {
+  align-items: center;
+  background: rgba(16, 18, 15, 0.08);
+  border: 1px solid rgba(16, 18, 15, 0.08);
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.96rem;
+  height: 26px;
+  justify-content: center;
+  line-height: 1;
+  width: 26px;
+}
+
+.country-filter-more {
   background: rgba(16, 18, 15, 0.08);
   border-radius: 999px;
   color: #59635e;
   flex: 0 0 auto;
   font-size: 0.72rem;
-  font-style: normal;
   font-weight: 900;
-  padding: 4px 7px;
+  line-height: 1;
+  padding: 7px 8px;
+}
+
+@media (min-width: 1201px) {
+  .country-filter-trigger:has(.country-filter-flags) .country-filter-text {
+    display: none;
+  }
 }
 
 .active-view {
@@ -2646,11 +2708,35 @@ h1 {
     padding-inline: 10px;
   }
 
-  .mobile-country-shortcut strong {
+  .mobile-country-shortcut .country-filter-main {
+    gap: 6px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .mobile-country-shortcut .country-filter-text {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 100%;
+  }
+
+  .mobile-country-shortcut:has(.country-filter-flags) .country-filter-text {
+    display: none;
+  }
+
+  .mobile-country-shortcut .country-filter-flags {
+    gap: 2px;
+  }
+
+  .mobile-country-shortcut .country-filter-flag {
+    font-size: 0.78rem;
+    height: 20px;
+    width: 20px;
+  }
+
+  .mobile-country-shortcut .country-filter-more {
+    font-size: 0.62rem;
+    padding: 5px 6px;
   }
 
   .mobile-menu-toggle .hamburger-icon {
@@ -2879,29 +2965,50 @@ h1 {
     grid-template-columns: 1fr;
   }
 
-  .filters label {
-    gap: 5px;
-  }
-
-  .filters label span {
-    font-size: 0.7rem;
-  }
-
   .country-filter-trigger {
     background: var(--active-bg);
     color: var(--active-fg);
     padding-inline: 12px;
   }
 
-  .country-filter-trigger strong {
+  .country-filter-trigger .country-filter-text {
     font-size: 0.84rem;
   }
 
-  .country-filter-trigger em {
+  .country-filter-trigger .country-filter-main {
+    gap: 8px;
+    width: 100%;
+  }
+
+  .country-filter-trigger .country-filter-desktop-content {
+    display: none;
+  }
+
+  .country-filter-trigger .country-filter-mobile-content {
+    display: flex;
+  }
+
+  .country-filter-trigger .country-filter-flags {
+    gap: 3px;
+    margin-left: auto;
+  }
+
+  .country-filter-trigger .country-filter-flag,
+  .country-filter-trigger .country-filter-more {
     background: rgba(16, 18, 15, 0.12);
     color: inherit;
-    font-size: 0.68rem;
     opacity: 0.72;
+  }
+
+  .country-filter-trigger .country-filter-flag {
+    font-size: 0.78rem;
+    height: 22px;
+    width: 22px;
+  }
+
+  .country-filter-trigger .country-filter-more {
+    font-size: 0.64rem;
+    padding: 6px 7px;
   }
 
   .control-deck .settings-trigger {

@@ -470,6 +470,51 @@
     return `${state.selectedCountries.size} countries`;
   }
 
+  function selectedCountryList() {
+    if (selectedAllCountries()) return [];
+    return allCountries().filter((country) => state.selectedCountries.has(country));
+  }
+
+  function countryFilterTitle(countries = selectedCountryList()) {
+    if (state.countryMode === "all" || selectedAllCountries()) return "All countries";
+    if (!countries.length) return "No countries selected";
+    return countries.join(", ");
+  }
+
+  function renderCountryFlagStrip(countries = selectedCountryList(), limit = 5) {
+    if (!countries.length) return "";
+
+    const visible = countries.slice(0, limit);
+    const flags = visible
+      .map((country) => {
+        const flag = flagForTeam(country);
+        if (!flag) return "";
+        return `<span class="country-filter-flag" title="${escapeHtml(country)}">${flag}</span>`;
+      })
+      .join("");
+    const overflow = countries.length - visible.length;
+    const overflowLabel = `${overflow} more ${overflow === 1 ? "country" : "countries"}`;
+
+    return `
+      <span class="country-filter-flags" aria-hidden="true">
+        ${flags}
+        ${overflow > 0 ? `<span class="country-filter-more" title="${escapeHtml(countryFilterTitle(countries))}">+${overflow}</span>` : ""}
+      </span>
+      ${overflow > 0 ? `<span class="sr-only">${escapeHtml(overflowLabel)}</span>` : ""}
+    `;
+  }
+
+  function renderCountryFilterContent(options = {}) {
+    const countries = selectedCountryList();
+    const limit = options.compact ? 3 : 5;
+    return `
+      <span class="country-filter-main">
+        <strong class="country-filter-text">${escapeHtml(countryFilterLabel())}</strong>
+        ${renderCountryFlagStrip(countries, limit)}
+      </span>
+    `;
+  }
+
   function currentModeLabel() {
     return modes.find(([id]) => id === state.mode)?.[1] || "Schedule";
   }
@@ -1257,8 +1302,8 @@
           <span class="sr-only">${state.mobileMenuOpen ? "Close menu" : "Open menu"}</span>
           <strong>${escapeHtml(currentModeLabel())}</strong>
         </button>
-        <button class="mobile-country-shortcut" data-country-picker-toggle type="button">
-          <strong>${escapeHtml(countryFilterLabel())}</strong>
+        <button class="mobile-country-shortcut" data-country-picker-toggle type="button" title="${escapeHtml(countryFilterTitle())}" aria-label="Country filter: ${escapeHtml(countryFilterTitle())}">
+          ${renderCountryFilterContent({ compact: true })}
         </button>
       </div>
       <section class="control-deck ${state.mobileMenuOpen ? "is-open" : ""}" id="schedule-controls" aria-label="Schedule controls">
@@ -1277,13 +1322,10 @@
           </button>
         </div>
         <div class="control-section filters">
-          <label class="country-filter-wrap">
-            <span>Country</span>
-            <button class="country-filter-trigger" data-country-picker-toggle type="button">
-              <strong>${escapeHtml(countryFilterLabel())}</strong>
-              <em>${state.countryMode === "all" ? "All" : "Filtered"}</em>
-            </button>
-          </label>
+          <button class="country-filter-trigger" data-country-picker-toggle type="button" title="${escapeHtml(countryFilterTitle())}" aria-label="Country filter: ${escapeHtml(countryFilterTitle())}">
+            <span class="country-filter-desktop-content">${renderCountryFilterContent()}</span>
+            <span class="country-filter-mobile-content">${renderCountryFilterContent({ compact: true })}</span>
+          </button>
         </div>
         <div class="mobile-action-row">
           <button aria-label="Settings" class="settings-trigger" data-settings-open type="button" title="Settings">
