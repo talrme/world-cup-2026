@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17",
+  "generatedAt": "2026-06-18",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -859,9 +859,25 @@
       "timezoneLabel": "ET",
       "home": "Ghana",
       "away": "Panama",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "toronto"
+      "venueId": "toronto",
+      "homeScore": 1,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-18T01:43:16+00:00",
+          "title": "Ghana vs Panama Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=hFO9DhasJ2A",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-18T01:43:16+00:00"
+      }
     },
     {
       "id": 24,
@@ -1983,7 +1999,7 @@
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-17T23:05:45+00:00",
+  "scheduleUpdatedAt": "2026-06-18T01:38:19+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
