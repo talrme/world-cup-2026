@@ -890,7 +890,7 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Uzbekistan",
       "away": "Colombia",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "mexico-city",
       "videos": {
@@ -906,7 +906,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-18T06:36:48+00:00"
-      }
+      },
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "id": 25,
@@ -2013,7 +2015,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-18T01:38:19+00:00",
+  "scheduleUpdatedAt": "2026-06-18T10:59:16+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
