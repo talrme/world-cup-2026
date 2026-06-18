@@ -892,7 +892,21 @@ window.WORLD_CUP_DATA = {
       "away": "Colombia",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "mexico-city"
+      "venueId": "mexico-city",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-18T06:36:48+00:00",
+          "title": "Uzbekistan vs Colombia Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=Qb3ipZFspnc",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-18T06:36:48+00:00"
+      }
     },
     {
       "id": 25,
