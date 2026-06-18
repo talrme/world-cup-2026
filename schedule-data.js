@@ -921,9 +921,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Czechia",
       "away": "South Africa",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "atlanta"
+      "venueId": "atlanta",
+      "homeScore": 1,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-18T20:08:14+00:00",
+          "title": "Czechia vs South Africa Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=jijCaWH_IxM",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-18T20:08:14+00:00"
+      }
     },
     {
       "id": 26,
@@ -2015,7 +2031,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-18T10:59:16+00:00",
+  "scheduleUpdatedAt": "2026-06-18T20:01:10+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
