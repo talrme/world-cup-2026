@@ -37,9 +37,16 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+Mexico+vs+South+Africa+extended+highlights+2026+FIFA+World+Cup",
-          "lastCheckedAt": "2026-06-15T19:13:02+00:00"
+          "lastCheckedAt": "2026-06-19T21:38:29+00:00",
+          "title": "Mexico vs South Africa Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=r1Afsds3ZD0",
+          "channel": "FOX Sports",
+          "durationText": "23 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "youtube-search"
         },
-        "lastCheckedAt": "2026-06-15T19:13:02+00:00",
+        "lastCheckedAt": "2026-06-19T21:38:29+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+Mexico+vs+South+Africa+highlights+2026+FIFA+World+Cup",
           "lastCheckedAt": "2026-06-14T06:13:33+00:00",
@@ -451,8 +458,8 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/@foxsports/videos",
-          "lastCheckedAt": "2026-06-15T09:24:29+00:00",
-          "title": "Ivory Coast vs Ecuador Extended Highlights \ud83c\udf0e\ud83c\udfc62026 FIFA World Cup\u2122",
+          "lastCheckedAt": "2026-06-19T21:38:39+00:00",
+          "title": "Ivory Coast vs Ecuador Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
           "url": "https://www.youtube.com/watch?v=j6uB9LcLMms",
           "channel": "FOX Sports",
           "durationText": "21 min",
@@ -460,7 +467,7 @@ window.WORLD_CUP_DATA = {
           "spoilerSafeTitle": true,
           "source": "foxsports-channel"
         },
-        "lastCheckedAt": "2026-06-15T09:24:29+00:00",
+        "lastCheckedAt": "2026-06-19T21:38:39+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/@foxsports/videos",
           "lastCheckedAt": "2026-06-15T09:24:29+00:00",
@@ -535,8 +542,8 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/@foxsports/videos",
-          "lastCheckedAt": "2026-06-15T18:39:07+00:00",
-          "title": "Spain vs Cape Verde Extended Highlights \ud83c\udf0e\ud83c\udfc62026 FIFA World Cup\u2122",
+          "lastCheckedAt": "2026-06-19T21:38:41+00:00",
+          "title": "Spain vs Cape Verde Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
           "url": "https://www.youtube.com/watch?v=wzKYVElYRrw",
           "channel": "FOX Sports",
           "durationText": "22 min",
@@ -544,7 +551,7 @@ window.WORLD_CUP_DATA = {
           "spoilerSafeTitle": true,
           "source": "foxsports-channel"
         },
-        "lastCheckedAt": "2026-06-15T18:39:07+00:00",
+        "lastCheckedAt": "2026-06-19T21:38:41+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/@foxsports/videos",
           "lastCheckedAt": "2026-06-15T18:39:07+00:00",
@@ -1049,7 +1056,21 @@ window.WORLD_CUP_DATA = {
       "network": "FOX",
       "venueId": "seattle",
       "homeScore": 2,
-      "awayScore": 0
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-19T21:43:52+00:00",
+          "title": "United States vs Australia Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=1gMiT5r-K7Q",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-19T21:43:52+00:00"
+      }
     },
     {
       "id": 30,
