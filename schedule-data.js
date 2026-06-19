@@ -1045,9 +1045,11 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "United States",
       "away": "Australia",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "seattle"
+      "venueId": "seattle",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "id": 30,
@@ -2079,7 +2081,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-19T05:29:14+00:00",
+  "scheduleUpdatedAt": "2026-06-19T21:25:21+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
