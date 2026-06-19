@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18",
+  "generatedAt": "2026-06-19",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -983,9 +983,11 @@
       "timezoneLabel": "ET",
       "home": "Canada",
       "away": "Qatar",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "vancouver"
+      "venueId": "vancouver",
+      "homeScore": 6,
+      "awayScore": 0
     },
     {
       "id": 28,
@@ -2047,7 +2049,7 @@
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-18T22:23:14+00:00",
+  "scheduleUpdatedAt": "2026-06-19T00:13:20+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
