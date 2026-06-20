@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-06-19",
+  "generatedAt": "2026-06-20",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -1083,9 +1083,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Scotland",
       "away": "Morocco",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "boston"
+      "venueId": "boston",
+      "homeScore": 0,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-20T00:51:27+00:00",
+          "title": "Scotland vs Morocco Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=wff2tvitS-s",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-20T00:51:27+00:00"
+      }
     },
     {
       "id": 31,
@@ -2102,7 +2118,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-19T21:25:21+00:00",
+  "scheduleUpdatedAt": "2026-06-20T00:42:53+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
