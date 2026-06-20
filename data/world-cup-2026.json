@@ -1147,7 +1147,21 @@
       "away": "Paraguay",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "sf-bay"
+      "venueId": "sf-bay",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-20T07:49:33+00:00",
+          "title": "T\u00fcrkiye vs Paraguay Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=HrbIda-C9SE",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-20T07:49:33+00:00"
+      }
     },
     {
       "id": 33,
