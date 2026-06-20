@@ -1207,9 +1207,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Germany",
       "away": "Ivory Coast",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "toronto"
+      "venueId": "toronto",
+      "homeScore": 2,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-20T23:31:25+00:00",
+          "title": "Germany vs Ivory Coast Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=EL9nHScp4bk",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-20T23:31:25+00:00"
+      }
     },
     {
       "id": 35,
@@ -2166,7 +2182,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-20T19:07:43+00:00",
+  "scheduleUpdatedAt": "2026-06-20T23:21:24+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
