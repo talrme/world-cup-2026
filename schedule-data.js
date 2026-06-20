@@ -1180,7 +1180,21 @@ window.WORLD_CUP_DATA = {
       "network": "FOX",
       "venueId": "houston",
       "homeScore": 5,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-20T20:52:02+00:00",
+          "title": "Netherlands vs Sweden Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=IRllRLrG7Sg",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-20T20:52:02+00:00"
+      }
     },
     {
       "id": 34,
