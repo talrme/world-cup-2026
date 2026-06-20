@@ -131,6 +131,114 @@ The site has a Feedback control that opens an embedded Google Form modal and inc
 - Form: `https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228`
 - Responses sheet: `https://docs.google.com/spreadsheets/d/1LvzMmvmk-Q-TDuziLJHdFeo-DewOnXNM4lVE3g8wzoE/edit?resourcekey=&gid=1959176771#gid=1959176771`
 
+## Future AI Insights Plan
+
+The user wants optional AI-written blurbs that are generated during refreshes and then served as static data. This should not call an LLM from the browser. Keep API keys in GitHub Actions or local environment variables only.
+
+Preferred provider:
+
+- Start with the cheapest Gemini API model that supports the needed structured JSON output, likely the Flash-Lite class. Do not hard-code forever; use `GEMINI_MODEL` with a low-cost default.
+- Store the key as `GEMINI_API_KEY` locally and as a GitHub Actions repository secret.
+- Never commit API keys and never put keys in `index.html`, `static-app.js`, or any browser-loaded file.
+
+Local and GitHub key setup should use the same variable names so no code changes are needed between environments:
+
+- Commit a safe `.env.example` template that lists required variables with placeholder values.
+- Keep the real project-local `.env` file at the repo root, for example `/Users/talg/Desktop/Websites For Fun/world-cup-2026/.env`.
+- Add `.env` to `.gitignore`; it lives on the user's computer and must not be pushed.
+- Local scripts should load `.env` when present, then read `GEMINI_API_KEY` and `GEMINI_MODEL` from environment variables.
+- GitHub Actions should read the same `GEMINI_API_KEY` name from repository secrets and pass it into the refresh step with `env:`.
+- If no key is present locally or in GitHub Actions, `scripts/update_ai_insights.py` should print a clear skip message and exit successfully so normal schedule/video/player refreshes still work.
+
+Example `.env.example`:
+
+```text
+GEMINI_API_KEY=put-your-gemini-key-here
+GEMINI_MODEL=gemini-cheap-model-name
+```
+
+Likely files:
+
+```text
+data/ai-insights.json
+ai-insights.js
+scripts/update_ai_insights.py
+prompts/match.md
+prompts/group.md
+prompts/player.md
+```
+
+Potential insight surfaces:
+
+- Match Details: `More info` for each match.
+- Groups: `Group info` for each group.
+- Players: `More info` for the top 30 players in the Players view.
+
+Spoiler posture:
+
+- It is acceptable for these blurbs to contain spoilers because users must click into the extra info.
+- Still avoid showing AI-generated spoiler text directly on schedule/group/player cards before the user clicks.
+
+Data shape should be structured and cacheable:
+
+```json
+{
+  "matches": {
+    "12": {
+      "headline": "A tight group-stage pressure point",
+      "summary": "Short generated paragraph.",
+      "bullets": ["Why it matters", "Player to watch", "What changed"],
+      "updatedAt": "2026-06-20",
+      "sourceHash": "hash-of-input-data",
+      "promptHash": "hash-of-prompt",
+      "model": "gemini-flash-lite-or-current-cheap-equivalent"
+    }
+  },
+  "groups": {},
+  "players": {}
+}
+```
+
+Cost-control rules:
+
+- Do not regenerate every object every 15 minutes.
+- Add `--dry-run` and `--estimate-cost` modes before making paid calls.
+- Log calls attempted, calls skipped by cache, estimated input/output tokens, and estimated cost.
+- Add script-level hard caps such as `--max-calls`, `--max-estimated-cost`, `--max-matches`, `--max-groups`, and `--max-players`.
+- Cache by `sourceHash` plus `promptHash`. If neither the data nor the prompt changed, skip the API call.
+- Only commit when `data/ai-insights.json` or `ai-insights.js` actually changes.
+
+Suggested generation cadence:
+
+- Matches more than 48 hours away: skip or refresh rarely.
+- Matches within 48 hours: generate once, then refresh only if relevant source data changes.
+- Match day: allow one pre-match refresh.
+- Completed matches: refresh after the score appears, after highlights appear, and then once per day for two days. After that, freeze unless the prompt changes.
+- Groups: refresh when a group result/standings context changes, otherwise at most once daily during group play.
+- Players: refresh top 30 player blurbs once daily, or when that player's goals/assists/minutes/rank changes.
+
+Billing and safety:
+
+- Use a separate Google Cloud project/API key for this site if possible.
+- Set Google Cloud budget alerts for the project. Budget alerts notify; do not assume they are a perfect hard stop.
+- Restrict the API key as much as practical in Google Cloud.
+- Keep GitHub Actions secrets limited to the repository and do not echo secrets in logs.
+- Prefer a low `--max-estimated-cost` default in CI so a bad prompt loop fails closed.
+
+GitHub Actions setup:
+
+- Add `GEMINI_API_KEY` as a repository secret in GitHub.
+- The refresh workflow can call `scripts/update_ai_insights.py` after schedule/player/video data refreshes.
+- The script should exit successfully with a clear log if the secret is missing, unless an explicit `--require-api-key` flag is passed.
+- The GitHub log should show a concise summary line, for example: `AI insights: generated 8, skipped 138, estimated cost $0.01`.
+
+User follow-up question idea:
+
+- Add an optional `Ask Gemini` or `Ask follow-up` button inside Match Details, Group Info, and Player Info.
+- Reliable version: build a compact prompt from the current match/group/player data, put it in a modal textarea, provide `Copy prompt`, and open `https://gemini.google.com/app` in a new tab. The user pastes into their own Gemini account.
+- Do not rely on a Gemini URL that pre-fills a prompt unless Google documents or verifies that URL behavior. If a supported prompt/deep-link URL exists later, it can encode a compact prompt and the user's question, but keep payloads short to avoid URL length/browser issues.
+- This user-owned Gemini flow should not use the site's API key and should not add project billing.
+
 ## Verification Checklist
 
 After UI changes:
