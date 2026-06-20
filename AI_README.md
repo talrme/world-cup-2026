@@ -71,12 +71,17 @@ That runs:
 
 ```bash
 python3 scripts/update_schedule.py
+python3 scripts/update_player_stats.py
 python3 scripts/update_highlights.py
 ```
 
 `update_schedule.py` refreshes scores, completed statuses, kickoff/network metadata, and later tournament teams when the source has real teams.
 
+`update_player_stats.py` refreshes `data/player-stats.json` and `player-stats.js` from the Guardian Golden Boot feed. It preserves the existing generated timestamp when player rows are unchanged to avoid no-op commits.
+
 `update_highlights.py` searches YouTube and stores direct video links only when metadata and title checks pass.
+
+`api_football_poc.py` is a non-invasive API-Football adapter/comparison script. It requires `API_FOOTBALL_KEY` for real API calls, or `--mock-from-current` to test the mapping/report/dummy-site pipeline without a key. Generated PoC output goes under `poc/api-football/` and is ignored by git.
 
 Network access may require sandbox escalation in Codex.
 
@@ -138,12 +143,13 @@ After UI changes:
 After Python changes:
 
 ```bash
-PYTHONPYCACHEPREFIX=/private/tmp/codex-pycache python3 -m py_compile scripts/update_schedule.py scripts/update_highlights.py scripts/refresh_all.py
+PYTHONPYCACHEPREFIX=/private/tmp/codex-pycache python3 -m py_compile scripts/update_schedule.py scripts/update_player_stats.py scripts/update_highlights.py scripts/refresh_all.py
 ```
 
 After data refresh:
 
 - Confirm `schedule-data.js` was regenerated.
+- Confirm `player-stats.js` was regenerated after player stat changes.
 - Spot-check a completed match with direct links.
 - Spot-check a completed match with no direct links to verify the single `YouTube Search` fallback.
 - Spot-check a future match to verify scores and videos remain quiet.

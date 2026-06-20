@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run schedule refresh, then highlight refresh."""
+"""Run schedule refresh, player stat refresh, then highlight refresh."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ def run(command: list[str]) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Refresh schedule/results and then YouTube highlights.")
+    parser = argparse.ArgumentParser(description="Refresh schedule/results, player stats, and then YouTube highlights.")
     parser.add_argument("--all-videos", action="store_true", help="Search videos for every match")
     parser.add_argument("--force-videos", action="store_true", help="Replace existing direct video links")
     parser.add_argument("--dry-run-schedule", action="store_true", help="Dry-run the schedule refresh only")
@@ -33,6 +33,10 @@ def main() -> int:
 
     if args.dry_run_schedule:
         return 0
+
+    player_stats_status = run([sys.executable, "scripts/update_player_stats.py"])
+    if player_stats_status != 0:
+        return player_stats_status
 
     video_command = [sys.executable, "scripts/update_highlights.py"]
     if args.all_videos:

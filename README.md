@@ -8,8 +8,9 @@ A local, spoiler-conscious 2026 World Cup schedule dashboard. It keeps scores in
 
 ## What It Does
 
-- Shows the tournament schedule across the Schedule, Groups, and Tiles views, with Bracket available as an optional settings toggle.
+- Shows the tournament across Schedule, Groups, and Players by default. Optional Tiles and Bracket views can be enabled in Settings.
 - Keeps the top controls focused: choose a view, manage score visibility, and filter by country.
+- Shows a Players view with Golden Boot stats: points, goals, assists, games played, minutes, goals per 90, and points per 90.
 - Saves view and country selections in the URL, while leaving spoiler reveal state local to the page.
 - Keeps Schedule uncluttered by default. Click a match to open a floating match-details panel, then minimize or close it when needed.
 - Hides scores by default. Click a blurred score pill to reveal one score, or use `Show all scores` when spoilers are okay.
@@ -37,7 +38,7 @@ If your browser blocks local scripts, serve the folder and open the printed loca
 python3 -m http.server 4173
 ```
 
-The static page reads `schedule-data.js`, which is generated from `data/world-cup-2026.json`.
+The static page reads `schedule-data.js`, generated from `data/world-cup-2026.json`, and `player-stats.js`, generated from `data/player-stats.json`.
 
 ## Analytics
 
@@ -60,7 +61,7 @@ The site has a Feedback button in the controls. It opens the Google Form in an e
 
 ## Refresh Data
 
-Run both schedule/results and highlight refreshes:
+Run schedule/results, player stats, and highlight refreshes:
 
 ```bash
 python3 scripts/refresh_all.py
@@ -77,6 +78,14 @@ Refresh only direct YouTube highlight links:
 ```bash
 python3 scripts/update_highlights.py
 ```
+
+Refresh only player stats:
+
+```bash
+python3 scripts/update_player_stats.py
+```
+
+The player stats refresh preserves the existing generated timestamp when player rows are unchanged, so stable runs should not create timestamp-only commits.
 
 Useful highlight options:
 
@@ -100,9 +109,28 @@ If npm is available, the same refresh commands are also available as:
 ```bash
 npm run refresh:all
 npm run refresh:schedule
+npm run refresh:players
 npm run refresh:videos
 npm run refresh:videos:all
 ```
+
+## API-Football Proof Of Concept
+
+There is a non-invasive API-Football comparison script at `scripts/api_football_poc.py`. It does not modify the live site data. It can fetch one World Cup fixtures response, map it into this project's match shape, compare it against `data/world-cup-2026.json`, and optionally write a throwaway static copy under `poc/api-football/site`.
+
+Run it against the real API after creating a free API-Football/API-Sports key:
+
+```bash
+API_FOOTBALL_KEY=your_key_here python3 scripts/api_football_poc.py --write-site
+```
+
+Run it without a key to test only the mapper/report/dummy-site pipeline:
+
+```bash
+python3 scripts/api_football_poc.py --mock-from-current --write-site
+```
+
+The PoC writes disposable reports under `poc/api-football/`. The generated output files are ignored by git; the instructions live in `poc/api-football/README.md`.
 
 ## Automated Refresh
 
@@ -172,10 +200,13 @@ When a direct link cannot be verified, the site does not invent one. It shows a 
 - `static-app.js`: browser app used by `index.html`.
 - `site.css`: all static UI styling.
 - `schedule-data.js`: generated browser data. Do not hand-edit unless necessary.
+- `player-stats.js`: generated browser player stats. Do not hand-edit unless necessary.
 - `data/world-cup-2026.json`: source schedule/results/video data.
+- `data/player-stats.json`: source player scoring stats from the Guardian Golden Boot feed.
 - `scripts/update_schedule.py`: schedule/results updater.
+- `scripts/update_player_stats.py`: player stats updater.
 - `scripts/update_highlights.py`: Fox Sports YouTube highlights updater.
-- `scripts/refresh_all.py`: runs schedule refresh, then highlight refresh.
+- `scripts/refresh_all.py`: runs schedule refresh, player stats refresh, then highlight refresh.
 - `components/world-cup-dashboard.tsx`: React/Vinext mirror of the static app.
 
 ## Data Notes
@@ -185,3 +216,4 @@ When a direct link cannot be verified, the site does not invent one. It shows a 
 - Times are stored with an Eastern Time offset and displayed in the browser's local timezone.
 - Scores are intentionally stored in JSON but visually hidden until revealed.
 - Venue IDs are stored per match and rendered from the top-level `venues` catalog.
+- Player stats come from the Guardian Golden Boot feed. The browser also tries to fetch the live feed directly, with the generated snapshot as the fallback.

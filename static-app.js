@@ -1,5 +1,6 @@
 (() => {
   const data = window.WORLD_CUP_DATA;
+  const playerStatsData = window.WORLD_CUP_PLAYER_STATS || null;
   const app = document.getElementById("app");
 
   if (!data || !app) {
@@ -9,10 +10,12 @@
   const modes = [
     ["timeline", "Schedule"],
     ["groups", "Groups"],
+    ["players", "Players"],
     ["bracket", "Bracket"],
     ["constellation", "Tiles"],
   ];
   const modeIds = modes.map(([id]) => id);
+  const defaultVisibleViewIds = ["timeline", "groups", "players"];
   const settingsKey = "worldCup2026Settings";
   const spoilerStateKey = "worldCup2026Spoilers";
   const staleDataReloadKey = "worldCup2026LastStaleReloadAt";
@@ -32,7 +35,7 @@
     videoStyle: "compact",
     timelineStart: "today",
     scoreStartupMode: "previous",
-    showBracketViewOption: false,
+    visibleViews: [...defaultVisibleViewIds],
   };
   const settingGroups = [
     {
@@ -75,7 +78,16 @@
   function readSettings() {
     try {
       const stored = JSON.parse(window.localStorage.getItem(settingsKey) || "{}");
-      return { ...defaultSettings, ...stored };
+      const visibleViews = Array.isArray(stored.visibleViews)
+        ? stored.visibleViews.map(normalizeViewId).filter((id) => modeIds.includes(id))
+        : [];
+
+      if (!visibleViews.length) {
+        visibleViews.push(...defaultVisibleViewIds);
+        if (stored.showBracketViewOption) visibleViews.push("bracket");
+      }
+
+      return { ...defaultSettings, ...stored, visibleViews: [...new Set(visibleViews)] };
     } catch {
       return { ...defaultSettings };
     }
@@ -191,6 +203,41 @@
     Uzbekistan: 50,
   };
 
+  const leaderboardFields = [
+    { id: "points", label: "Points", short: "Pts", priority: "critical" },
+    { id: "goals", label: "Goals", short: "G", priority: "critical" },
+    { id: "assists", label: "Assists", short: "A", priority: "critical" },
+    { id: "matches", label: "Games played", short: "GP", priority: "critical" },
+    { id: "minutes", label: "Minutes", short: "Min", priority: "critical" },
+    { id: "goalsPer90", label: "Goals per 90", short: "G/90", priority: "subtle" },
+    { id: "pointsPer90", label: "Points per 90", short: "Pts/90", priority: "subtle" },
+  ];
+  const guardianGoldenBootUrl = "https://mobile.guardianapis.com/sport/football/competitions/700/golden-boot";
+  const leaderboardFallbackPlayers = [
+    { rank: 1, player: "Lionel Messi", team: "Argentina", position: "FW", goals: 3, assists: 0, matches: 1, minutes: 83 },
+    { rank: 2, player: "Jonathan David", team: "Canada", position: "FW", goals: 3, assists: 0, matches: 2, minutes: 170 },
+    { rank: 3, player: "Johan Manzambi", team: "Switzerland", position: "MID", goals: 2, assists: 0, matches: 2, minutes: 59 },
+    { rank: 4, player: "Folarin Balogun", team: "United States", position: "FW", goals: 2, assists: 0, matches: 1, minutes: 77 },
+    { rank: 5, player: "Kai Havertz", team: "Germany", position: "FW", goals: 2, assists: 0, matches: 1, minutes: 100 },
+    { rank: 6, player: "Yasin Ayari", team: "Sweden", position: "MID", goals: 2, assists: 0, matches: 1, minutes: 101 },
+    { rank: 6, player: "Elijah Just", team: "New Zealand", position: "MID", goals: 2, assists: 0, matches: 1, minutes: 101 },
+    { rank: 7, player: "Harry Kane", team: "England", position: "FW", goals: 2, assists: 0, matches: 1, minutes: 102 },
+    { rank: 8, player: "Erling Braut Haaland", team: "Norway", position: "FW", goals: 2, assists: 0, matches: 1, minutes: 103 },
+    { rank: 9, player: "Kylian Mbappe", team: "France", position: "FW", goals: 2, assists: 0, matches: 1, minutes: 106 },
+    { rank: 10, player: "Cyle Larin", team: "Canada", position: "FW", goals: 2, assists: 0, matches: 2, minutes: 126 },
+    { rank: 11, player: "Deniz Undav", team: "Germany", position: "FW", goals: 1, assists: 2, matches: 1, minutes: 31 },
+    { rank: 12, player: "Nathan-Dylan Saliba", team: "Canada", position: "MID", goals: 1, assists: 1, matches: 2, minutes: 43 },
+    { rank: 13, player: "Nathaniel Brown", team: "Germany", position: "DEF", goals: 1, assists: 1, matches: 1, minutes: 78 },
+    { rank: 14, player: "Alexander Isak", team: "Sweden", position: "FW", goals: 1, assists: 1, matches: 1, minutes: 94 },
+    { rank: 15, player: "Luis Diaz", team: "Colombia", position: "FW", goals: 1, assists: 1, matches: 1, minutes: 98 },
+    { rank: 16, player: "Viktor Gyokeres", team: "Sweden", position: "FW", goals: 1, assists: 1, matches: 1, minutes: 101 },
+    { rank: 16, player: "Ramin Rezaeian", team: "Iran", position: "DEF", goals: 1, assists: 1, matches: 1, minutes: 101 },
+    { rank: 17, player: "Ruben Vargas", team: "Switzerland", position: "MID", goals: 1, assists: 1, matches: 2, minutes: 111 },
+    { rank: 18, player: "In-Beom Hwang", team: "South Korea", position: "MID", goals: 1, assists: 1, matches: 2, minutes: 187 },
+  ];
+  const leaderboardSnapshotPlayers = normalizeLeaderboardSnapshot(playerStatsData?.players || leaderboardFallbackPlayers);
+  let leaderboardPlayers = [...leaderboardSnapshotPlayers];
+
   function inputDateValue(date) {
     return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
   }
@@ -270,6 +317,7 @@
     feedbackOpen: false,
     shareOpen: false,
     installOpen: false,
+    statsInfoOpen: false,
     shareCopied: false,
     settings: savedSettings,
     pendingViewScroll: null,
@@ -283,6 +331,9 @@
     revealedGroups: savedSpoilers.revealedGroups,
     hiddenGroups: savedSpoilers.hiddenGroups,
     hiddenScoresStored: savedSpoilers.hiddenScoresStored,
+    leaderboardSort: "points",
+    leaderboardStatus: "snapshot",
+    leaderboardLoadedAt: null,
     mapVenueId: null,
     timelineAutoScrolled: false,
     now: new Date(),
@@ -451,6 +502,50 @@
     return `${dateText} @ ${timeText}`;
   }
 
+  function formatDataTimestamp(value) {
+    if (!value) return "unknown";
+
+    if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+      const [year, month, day] = value.split("-").map(Number);
+      return new Date(Date.UTC(year, month - 1, day)).toLocaleDateString(undefined, {
+        month: "short",
+        day: "numeric",
+        timeZone: "UTC",
+        year: "numeric",
+      });
+    }
+
+    const parsed = Date.parse(value);
+    if (!Number.isFinite(parsed)) return value;
+
+    return new Date(parsed).toLocaleDateString(undefined, {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+    });
+  }
+
+  function dataTimestampMs(value) {
+    if (!value) return null;
+
+    if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+      const [year, month, day] = value.split("-").map(Number);
+      return Date.UTC(year, month - 1, day);
+    }
+
+    const parsed = Date.parse(value);
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+
+  function latestDataTimestamp() {
+    const candidates = [data.generatedAt, data.scheduleUpdatedAt, data.videosUpdatedAt, playerStatsData?.generatedAt]
+      .map((value) => ({ value, timestamp: dataTimestampMs(value) }))
+      .filter((candidate) => candidate.value && candidate.timestamp !== null)
+      .sort((a, b) => b.timestamp - a.timestamp);
+
+    return candidates[0]?.value || data.generatedAt;
+  }
+
   function isRealTeam(team) {
     return !/^(Winner|Runner-up|Best|Loser|3rd)\b/.test(team);
   }
@@ -519,12 +614,30 @@
     return modes.find(([id]) => id === state.mode)?.[1] || "Schedule";
   }
 
+  function normalizeViewId(id) {
+    return id === "leaderboard" ? "players" : id;
+  }
+
   function modeIsVisible(id) {
-    return id !== "bracket" || state.settings.showBracketViewOption;
+    const visibleViews = Array.isArray(state.settings.visibleViews)
+      ? state.settings.visibleViews.map(normalizeViewId)
+      : defaultVisibleViewIds;
+    return visibleViews.includes(id);
   }
 
   function visibleModes() {
     return modes.filter(([id]) => modeIsVisible(id));
+  }
+
+  function firstVisibleMode() {
+    return visibleModes()[0]?.[0] || "timeline";
+  }
+
+  function normalizedVisibleViews() {
+    const views = Array.isArray(state.settings.visibleViews)
+      ? state.settings.visibleViews.map(normalizeViewId).filter((id) => modeIds.includes(id))
+      : [...defaultVisibleViewIds];
+    return [...new Set(views.length ? views : defaultVisibleViewIds)];
   }
 
   function selectedAllCountries() {
@@ -538,7 +651,7 @@
 
   function applyUrlState() {
     const params = new URLSearchParams(window.location.search);
-    const view = params.get("view");
+    const view = normalizeViewId(params.get("view"));
     const countries = params.getAll("country");
     const countrySet = new Set(allCountries());
 
@@ -1276,7 +1389,249 @@
     `;
   }
 
+  function normalizeLeaderboardCountry(country) {
+    const countryMap = {
+      "Bosnia-Herzegovina": "Bosnia and Herzegovina",
+      "Congo DR": "DR Congo",
+      "Czech Republic": "Czechia",
+      USA: "United States",
+    };
+    return countryMap[country] || country;
+  }
+
+  function normalizeLeaderboardPosition(position) {
+    const positionMap = {
+      Defender: "DEF",
+      Goalkeeper: "GK",
+      Midfielder: "MID",
+      Striker: "FW",
+    };
+    return positionMap[position] || position || "";
+  }
+
+  function enrichLeaderboardPlayer(player) {
+    const goals = Number(player.goals || 0);
+    const assists = Number(player.assists || 0);
+    const minutes = Number(player.minutes || 0);
+    const points = goals + assists;
+    return {
+      ...player,
+      goals,
+      assists,
+      matches: Number(player.matches || 0),
+      minutes,
+      points,
+      goalContributions: points,
+      goalsPer90: Number(((goals * 90) / Math.max(1, minutes)).toFixed(1)),
+      pointsPer90: Number(((points * 90) / Math.max(1, minutes)).toFixed(1)),
+      per90: Number(((points * 90) / Math.max(1, minutes)).toFixed(1)),
+    };
+  }
+
+  function normalizeLeaderboardSnapshot(players) {
+    return (Array.isArray(players) ? players : [])
+      .map((player) =>
+        enrichLeaderboardPlayer({
+          ...player,
+          team: normalizeLeaderboardCountry(player.team || player.country || ""),
+          position: normalizeLeaderboardPosition(player.position),
+        }),
+      )
+      .filter((player) => player.player && player.team);
+  }
+
+  function mapGuardianLeaderboardPlayer(player) {
+    return enrichLeaderboardPlayer({
+      rank: Number(player.rank || 0),
+      player: player.name || "Unknown player",
+      team: normalizeLeaderboardCountry(player.country || ""),
+      position: normalizeLeaderboardPosition(player.position),
+      goals: player.goals,
+      assists: player.assists,
+      matches: Array.isArray(player.games) ? player.games.length : 0,
+      minutes: player.minutesPlayed,
+    });
+  }
+
+  async function loadLiveLeaderboard() {
+    if (!window.fetch) return;
+
+    try {
+      const response = await fetch(guardianGoldenBootUrl, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Leaderboard request failed: ${response.status}`);
+      const players = await response.json();
+      if (!Array.isArray(players) || !players.length) throw new Error("Leaderboard response was empty");
+      leaderboardPlayers = players.map(mapGuardianLeaderboardPlayer);
+      state.leaderboardStatus = "live";
+      state.leaderboardLoadedAt = new Date();
+    } catch {
+      leaderboardPlayers = [...leaderboardSnapshotPlayers];
+      state.leaderboardStatus = "snapshot";
+      state.leaderboardLoadedAt = null;
+    }
+
+    if (state.mode === "players") render();
+  }
+
+  function leaderboardField(id) {
+    return leaderboardFields.find((field) => field.id === id) || leaderboardFields[0];
+  }
+
+  function visibleLeaderboardFields() {
+    return leaderboardFields;
+  }
+
+  function leaderboardValue(player, fieldId) {
+    if (fieldId === "points") return Number(player.points || player.goalContributions || 0);
+    if (fieldId === "goalsPer90") return Number(player.goalsPer90 || 0);
+    if (fieldId === "pointsPer90" || fieldId === "per90") return Number(player.pointsPer90 || player.per90 || 0);
+    return Number(player[fieldId] || 0);
+  }
+
+  function filteredLeaderboardPlayers() {
+    const selected =
+      state.countryMode === "all"
+        ? leaderboardPlayers
+        : leaderboardPlayers.filter((player) => state.selectedCountries.has(player.team));
+    const sortField = leaderboardField(state.leaderboardSort);
+
+    return [...selected].sort((a, b) => {
+      const first = leaderboardValue(a, sortField.id);
+      const second = leaderboardValue(b, sortField.id);
+      if (second !== first) return second - first;
+      if (b.goals !== a.goals) return b.goals - a.goals;
+      if (b.assists !== a.assists) return b.assists - a.assists;
+      if (a.minutes !== b.minutes) return a.minutes - b.minutes;
+      return a.player.localeCompare(b.player);
+    });
+  }
+
+  function renderLeaderboardStat(player, field) {
+    const value = leaderboardValue(player, field.id);
+    if (field.id === "goalsPer90" || field.id === "pointsPer90") return value.toFixed(1);
+    return String(value);
+  }
+
+  function renderStatsInfoModal() {
+    if (!state.statsInfoOpen) return "";
+
+    const definitions = leaderboardFields
+      .map((field) => {
+        const descriptions = {
+          points: "Goals plus assists. This is the default sort.",
+          goals: "Total goals scored.",
+          assists: "Total assists credited by the source.",
+          matches: "Games in the source feed for that player.",
+          minutes: "Minutes played.",
+          goalsPer90: "Goals scaled to a 90-minute rate.",
+          pointsPer90: "Points scaled to a 90-minute rate.",
+        };
+        return `
+          <article class="stats-definition-card ${field.priority === "subtle" ? "is-subtle" : ""}">
+            <strong>${escapeHtml(field.label)}</strong>
+            <span>${escapeHtml(descriptions[field.id] || "")}</span>
+          </article>
+        `;
+      })
+      .join("");
+
+    return `
+      <div class="stats-info-modal" data-stats-info-modal role="dialog" aria-modal="true" aria-label="Player stat definitions">
+        <section class="stats-info-panel">
+          <header class="stats-info-header">
+            <div class="stats-info-ball" aria-hidden="true">
+              <img alt="" src="./public/assets/soccer-ball-192.png" />
+            </div>
+            <div>
+              <span class="eyebrow">Player data</span>
+              <h2>Stat Definitions</h2>
+            </div>
+            <button aria-label="Close stats guide" class="icon-button stats-info-close" data-stats-info-close title="Close stats guide" type="button">×</button>
+          </header>
+          <div class="stats-info-body">
+            <section>
+              <span class="stats-info-section-title">Available now</span>
+              <div class="stats-definition-grid">${definitions}</div>
+            </section>
+          </div>
+        </section>
+      </div>
+    `;
+  }
+
+  function renderLeaderboard() {
+    const players = filteredLeaderboardPlayers();
+    const fields = visibleLeaderboardFields();
+
+    if (!players.length) {
+      return `<div class="empty-state"><strong>No players found</strong><span>Adjust the country filter or switch views.</span></div>`;
+    }
+
+    const headerCells = fields
+      .map((field) => {
+        const active = state.leaderboardSort === field.id ? " is-active" : "";
+        return `
+          <th class="${field.priority === "subtle" ? "is-subtle-stat" : "is-critical-stat"}">
+            <button class="leader-sort${active}" data-leader-sort="${escapeHtml(field.id)}" title="Sort by ${escapeHtml(field.label)}" type="button">
+              <span>${escapeHtml(field.short)}</span>
+              ${active ? `<em>↓</em>` : ""}
+            </button>
+          </th>
+        `;
+      })
+      .join("");
+
+    const rows = players
+      .map((player) => {
+        const cells = fields
+          .map(
+            (field) =>
+              `<td class="${field.priority === "subtle" ? "is-subtle-stat" : "is-critical-stat"}" data-label="${escapeHtml(field.label)}">${escapeHtml(renderLeaderboardStat(player, field))}</td>`,
+          )
+          .join("");
+        return `
+          <tr>
+            <td class="leader-player-cell" data-label="Player">
+              ${renderTeamName(player.team, "leader-team-flag")}
+              <span>
+                <strong>${escapeHtml(player.player)}</strong>
+                <em>${escapeHtml(player.position)} · ${escapeHtml(player.team)}</em>
+              </span>
+            </td>
+            ${cells}
+          </tr>
+        `;
+      })
+      .join("");
+
+    return `
+      <section class="leaderboard-view">
+        <div class="leaderboard-table-wrap">
+          <table class="leaderboard-table">
+            <thead>
+              <tr>
+                <th>
+                  <span class="player-header-cell">
+                    <span>Player</span>
+                    <button class="stats-info-trigger" data-stats-info-open title="Stat definitions" type="button" aria-label="Open player stat definitions">
+                      <span class="stats-info-full">Stat definitions</span>
+                      <span class="stats-info-short" aria-hidden="true">i</span>
+                    </button>
+                  </span>
+                </th>
+                ${headerCells}
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+      </section>
+    `;
+  }
+
   function renderActiveView(list) {
+    if (state.mode === "players") return renderLeaderboard();
+
     if (!list.length) {
       return `<div class="empty-state"><strong>No matches found</strong><span>Adjust the country filter or switch views.</span></div>`;
     }
@@ -1352,6 +1707,24 @@
   function renderSettingsModal() {
     if (!state.settingsOpen) return "";
 
+    const visibleViewSet = new Set(normalizedVisibleViews());
+    const viewOptions = modes
+      .map(([id, label]) => {
+        const checked = visibleViewSet.has(id);
+        const isDefault = defaultVisibleViewIds.includes(id);
+        const isLastVisible = checked && visibleViewSet.size === 1;
+        return `
+          <label class="settings-view-toggle ${checked ? "is-checked" : ""}">
+            <input data-view-visibility="${escapeHtml(id)}" type="checkbox" ${checked ? "checked" : ""} ${isLastVisible ? "disabled" : ""} />
+            <span>
+              <strong>${escapeHtml(label)}</strong>
+              <em>${isDefault ? "Default" : "Optional"}</em>
+            </span>
+          </label>
+        `;
+      })
+      .join("");
+
     const sections = settingGroups
       .map((group) => {
         const options = group.options
@@ -1381,11 +1754,8 @@
           </header>
           ${sections}
           <section class="settings-section settings-view-section">
-            <span>Views</span>
-            <label class="settings-toggle">
-              <input data-control="show-bracket-view" type="checkbox" ${state.settings.showBracketViewOption ? "checked" : ""} />
-              <span>Show Bracket View Option</span>
-            </label>
+            <span>Views Available in Menu</span>
+            <div class="settings-view-grid">${viewOptions}</div>
           </section>
           <section class="settings-section settings-score-section">
             <span>Score reveal</span>
@@ -1778,10 +2148,11 @@
       ${renderFeedbackModal()}
       ${renderShareModal()}
       ${renderInstallModal()}
+      ${renderStatsInfoModal()}
       ${renderStadiumMap()}
       ${renderTodayJumpButton()}
       <footer class="source-strip">
-        <span>Data refreshed ${escapeHtml(data.generatedAt)}</span>
+        <span>Data updated ${escapeHtml(formatDataTimestamp(latestDataTimestamp()))}</span>
         ${data.sources
           .map((source) => `<a href="${escapeHtml(source.url)}" rel="noreferrer" target="_blank">${escapeHtml(source.label)}</a>`)
           .join("")}
@@ -2020,6 +2391,20 @@
       return;
     }
 
+    const statsInfoClose = event.target.closest("[data-stats-info-close]");
+    if (statsInfoClose) {
+      state.statsInfoOpen = false;
+      render();
+      return;
+    }
+
+    const statsInfoBackdrop = event.target.closest("[data-stats-info-modal]");
+    if (statsInfoBackdrop && event.target === statsInfoBackdrop) {
+      state.statsInfoOpen = false;
+      render();
+      return;
+    }
+
     const installOpen = event.target.closest("[data-install-open]");
     if (installOpen) {
       state.installOpen = true;
@@ -2028,14 +2413,46 @@
       return;
     }
 
+    const statsInfoOpen = event.target.closest("[data-stats-info-open]");
+    if (statsInfoOpen) {
+      state.statsInfoOpen = true;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
     const settingsReset = event.target.closest("[data-settings-reset]");
     if (settingsReset) {
       state.settings = { ...defaultSettings };
-      if (!state.settings.showBracketViewOption && state.mode === "bracket") {
-        state.mode = "timeline";
-      }
+      if (!modeIsVisible(state.mode)) state.mode = firstVisibleMode();
       state.timelineAutoScrolled = false;
       state.pendingViewScroll = state.mode;
+      saveSettings();
+      render();
+      return;
+    }
+
+    const viewVisibility = event.target.closest("[data-view-visibility]");
+    if (viewVisibility) {
+      const viewId = viewVisibility.dataset.viewVisibility;
+      const nextViews = new Set(normalizedVisibleViews());
+      if (viewVisibility.checked) {
+        nextViews.add(viewId);
+      } else if (nextViews.size > 1) {
+        nextViews.delete(viewId);
+      } else {
+        viewVisibility.checked = true;
+      }
+
+      state.settings = {
+        ...state.settings,
+        visibleViews: modes.map(([id]) => id).filter((id) => nextViews.has(id)),
+      };
+      if (!modeIsVisible(state.mode)) {
+        state.mode = firstVisibleMode();
+        state.timelineAutoScrolled = false;
+        state.pendingViewScroll = state.mode;
+      }
       saveSettings();
       render();
       return;
@@ -2188,6 +2605,13 @@
       return;
     }
 
+    const leaderSort = event.target.closest("[data-leader-sort]");
+    if (leaderSort) {
+      state.leaderboardSort = leaderSort.dataset.leaderSort;
+      render();
+      return;
+    }
+
     const showAllButton = event.target.closest("[data-show-all-scores]");
     if (showAllButton) {
       const allVisible = allScoredMatchesVisible();
@@ -2264,16 +2688,6 @@
       saveSpoilerState();
       render();
     }
-    if (event.target.dataset.control === "show-bracket-view") {
-      state.settings = { ...state.settings, showBracketViewOption: event.target.checked };
-      if (!state.settings.showBracketViewOption && state.mode === "bracket") {
-        state.mode = "timeline";
-        state.timelineAutoScrolled = false;
-        state.pendingViewScroll = "timeline";
-      }
-      saveSettings();
-      render();
-    }
   });
 
   document.addEventListener("keydown", (event) => {
@@ -2302,6 +2716,10 @@
       state.installOpen = false;
       render();
     }
+    if (event.key === "Escape" && state.statsInfoOpen) {
+      state.statsInfoOpen = false;
+      render();
+    }
     if (event.key === "Escape" && state.mobileMenuOpen) {
       closeMobileMenu();
     }
@@ -2328,5 +2746,6 @@
   }
   if (!autoReloadStaleHostedData()) {
     render();
+    loadLiveLeaderboard();
   }
 })();

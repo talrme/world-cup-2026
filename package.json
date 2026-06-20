@@ -11,6 +11,7 @@
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "refresh:schedule": "python3 scripts/update_schedule.py",
+    "refresh:players": "python3 scripts/update_player_stats.py",
     "refresh:videos": "python3 scripts/update_highlights.py",
     "refresh:videos:all": "python3 scripts/update_highlights.py --all",
     "refresh:all": "python3 scripts/refresh_all.py",
