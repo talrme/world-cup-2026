@@ -1114,9 +1114,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Brazil",
       "away": "Haiti",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "philadelphia"
+      "venueId": "philadelphia",
+      "homeScore": 3,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-20T04:45:25+00:00",
+          "title": "Brazil vs Haiti Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=BphiVajPsFc",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-20T04:45:25+00:00"
+      }
     },
     {
       "id": 32,
@@ -2118,7 +2134,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-20T00:42:53+00:00",
+  "scheduleUpdatedAt": "2026-06-20T04:37:02+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
