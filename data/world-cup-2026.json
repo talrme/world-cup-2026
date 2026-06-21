@@ -1269,7 +1269,7 @@
       "timezoneLabel": "ET",
       "home": "Tunisia",
       "away": "Japan",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "monterrey",
       "videos": {
@@ -1285,7 +1285,9 @@
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-21T06:47:10+00:00"
-      }
+      },
+      "homeScore": 0,
+      "awayScore": 4
     },
     {
       "id": 37,
@@ -2212,7 +2214,7 @@
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-21T06:39:05+00:00",
+  "scheduleUpdatedAt": "2026-06-21T14:59:28+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
