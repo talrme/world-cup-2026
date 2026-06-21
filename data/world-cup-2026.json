@@ -1302,7 +1302,21 @@
       "away": "Saudi Arabia",
       "status": "scheduled",
       "network": "FOX",
-      "venueId": "atlanta"
+      "venueId": "atlanta",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-21T18:58:21+00:00",
+          "title": "Spain vs Saudi Arabia Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=w453UjgtQw4",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-21T18:58:21+00:00"
+      }
     },
     {
       "id": 38,
