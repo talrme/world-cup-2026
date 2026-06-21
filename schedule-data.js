@@ -1300,7 +1300,7 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Spain",
       "away": "Saudi Arabia",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
       "venueId": "atlanta",
       "videos": {
@@ -1316,7 +1316,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-21T18:58:21+00:00"
-      }
+      },
+      "homeScore": 4,
+      "awayScore": 0
     },
     {
       "id": 38,
@@ -2228,7 +2230,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-21T14:59:28+00:00",
+  "scheduleUpdatedAt": "2026-06-21T20:18:08+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
