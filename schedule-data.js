@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-06-20",
+  "generatedAt": "2026-06-21",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -1238,9 +1238,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Ecuador",
       "away": "Curacao",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "kansas-city"
+      "venueId": "kansas-city",
+      "homeScore": 0,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-21T06:46:48+00:00",
+          "title": "Ecuador vs Cura\u00e7ao Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=_JQLeADlzXM",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-21T06:46:48+00:00"
+      }
     },
     {
       "id": 36,
@@ -1255,7 +1271,21 @@ window.WORLD_CUP_DATA = {
       "away": "Japan",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "monterrey"
+      "venueId": "monterrey",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-21T06:47:10+00:00",
+          "title": "Tunisia vs Japan Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=ATmlGGfCyBA",
+          "channel": "FOX Sports",
+          "durationText": "12 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-21T06:47:10+00:00"
+      }
     },
     {
       "id": 37,
@@ -2182,7 +2212,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-20T23:21:24+00:00",
+  "scheduleUpdatedAt": "2026-06-21T06:39:05+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
