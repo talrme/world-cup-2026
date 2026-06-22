@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21",
+  "generatedAt": "2026-06-22",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -1362,9 +1362,11 @@
       "timezoneLabel": "ET",
       "home": "Uruguay",
       "away": "Cabo Verde",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "miami"
+      "venueId": "miami",
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "id": 40,
@@ -2246,7 +2248,7 @@
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-21T21:47:09+00:00",
+  "scheduleUpdatedAt": "2026-06-22T00:19:51+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
