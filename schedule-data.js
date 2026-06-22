@@ -1424,9 +1424,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Argentina",
       "away": "Austria",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "dallas"
+      "venueId": "dallas",
+      "homeScore": 2,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-22T20:05:38+00:00",
+          "title": "Argentina vs Austria Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=JakdhltyECE",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-22T20:05:38+00:00"
+      }
     },
     {
       "id": 42,
@@ -2278,7 +2294,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-22T05:36:36+00:00",
+  "scheduleUpdatedAt": "2026-06-22T19:50:37+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
