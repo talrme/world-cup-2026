@@ -1366,7 +1366,21 @@ window.WORLD_CUP_DATA = {
       "network": "FS1",
       "venueId": "miami",
       "homeScore": 2,
-      "awayScore": 2
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-22T05:49:39+00:00",
+          "title": "Uruguay vs Cape Verde Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=ZXvFKZM1nL4",
+          "channel": "FOX Sports",
+          "durationText": "19 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-22T05:49:39+00:00"
+      }
     },
     {
       "id": 40,
@@ -1379,9 +1393,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "New Zealand",
       "away": "Egypt",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "vancouver"
+      "venueId": "vancouver",
+      "homeScore": 1,
+      "awayScore": 3,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-22T05:50:11+00:00",
+          "title": "New Zealand vs Egypt Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=Ihp4QH9YkBc",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-22T05:50:11+00:00"
+      }
     },
     {
       "id": 41,
@@ -2248,7 +2278,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-22T00:19:51+00:00",
+  "scheduleUpdatedAt": "2026-06-22T05:36:36+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
