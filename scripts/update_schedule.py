@@ -328,6 +328,174 @@ def changed(match: dict[str, Any], key: str, value: Any) -> bool:
     return match.get(key) != value
 
 
+def is_knockout_placeholder(value: Any) -> bool:
+    normalized = normalize_text(str(value or ""))
+    return normalized.startswith(("winner ", "runner up ", "loser ", "best 3rd"))
+
+
+def has_score(match: dict[str, Any]) -> bool:
+    return isinstance(match.get("homeScore"), int) and isinstance(match.get("awayScore"), int)
+
+
+def group_standings(group_matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    rows: dict[str, dict[str, Any]] = {}
+
+    def ensure(team: str) -> dict[str, Any]:
+        if team not in rows:
+            rows[team] = {"team": team, "played": 0, "points": 0, "gf": 0, "ga": 0, "gd": 0}
+        return rows[team]
+
+    for match in group_matches:
+        ensure(match["home"])
+        ensure(match["away"])
+        if not has_score(match):
+            continue
+
+        home = ensure(match["home"])
+        away = ensure(match["away"])
+        home_score = match["homeScore"]
+        away_score = match["awayScore"]
+        home["played"] += 1
+        away["played"] += 1
+        home["gf"] += home_score
+        home["ga"] += away_score
+        away["gf"] += away_score
+        away["ga"] += home_score
+        if home_score > away_score:
+            home["points"] += 3
+        elif home_score < away_score:
+            away["points"] += 3
+        else:
+            home["points"] += 1
+            away["points"] += 1
+        home["gd"] = home["gf"] - home["ga"]
+        away["gd"] = away["gf"] - away["ga"]
+
+    return sorted(rows.values(), key=lambda row: (-row["points"], -row["gd"], -row["gf"], row["team"]))
+
+
+def group_scheduled_counts(group_matches: list[dict[str, Any]]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for match in group_matches:
+        counts[match["home"]] = counts.get(match["home"], 0) + 1
+        counts[match["away"]] = counts.get(match["away"], 0) + 1
+    return counts
+
+
+def max_possible_points(row: dict[str, Any], scheduled_counts: dict[str, int]) -> int:
+    remaining = max(0, scheduled_counts.get(row["team"], 3) - row["played"])
+    return row["points"] + remaining * 3
+
+
+def resolved_group_seeds(data: dict[str, Any]) -> dict[str, dict[str, str]]:
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for match in data["matches"]:
+        if match.get("stage") == "Group" and match.get("group"):
+            groups.setdefault(match["group"], []).append(match)
+
+    resolved: dict[str, dict[str, str]] = {}
+    for group, group_matches in groups.items():
+        if len(group_matches) != 6:
+            continue
+
+        standings = group_standings(group_matches)
+        if len(standings) < 3:
+            continue
+
+        group_resolved: dict[str, str] = {}
+
+        if all(has_score(match) for match in group_matches):
+            # At full time in the group, resolve when the displayed ranking is
+            # not still tied on the simple FIFA table breakers we track locally:
+            # points, goal difference, then goals for. Deeper fair-play/drawing
+            # lots ties stay as labels.
+            keys = [(row["points"], row["gd"], row["gf"]) for row in standings]
+            if keys[0] != keys[1]:
+                group_resolved["winner"] = standings[0]["team"]
+            if keys[1] != keys[2]:
+                group_resolved["runner-up"] = standings[1]["team"]
+        else:
+            # Before the group is complete, resolve only when points make a slot
+            # mathematically locked. This avoids guessing on tie-breakers.
+            scheduled_counts = group_scheduled_counts(group_matches)
+            winner = standings[0]
+            other_max = [max_possible_points(row, scheduled_counts) for row in standings[1:]]
+            if other_max and winner["points"] > max(other_max):
+                group_resolved["winner"] = winner["team"]
+
+                runner_up = standings[1]
+                chaser_max = [
+                    max_possible_points(row, scheduled_counts)
+                    for row in standings[2:]
+                ]
+                if chaser_max and runner_up["points"] > max(chaser_max):
+                    group_resolved["runner-up"] = runner_up["team"]
+
+        if group_resolved:
+            resolved[group] = group_resolved
+
+    return resolved
+
+
+def match_winner_or_loser(match: dict[str, Any], want_winner: bool) -> str | None:
+    if not has_score(match) or match["homeScore"] == match["awayScore"]:
+        return None
+    home_won = match["homeScore"] > match["awayScore"]
+    if want_winner:
+        return match["home"] if home_won else match["away"]
+    return match["away"] if home_won else match["home"]
+
+
+def resolve_knockout_label(
+    label: str,
+    group_seeds: dict[str, dict[str, str]],
+    by_id: dict[int, dict[str, Any]],
+) -> str | None:
+    winner_group = re.fullmatch(r"Winner Group ([A-L])", label, flags=re.IGNORECASE)
+    if winner_group:
+        return group_seeds.get(winner_group.group(1).upper(), {}).get("winner")
+
+    runner_group = re.fullmatch(r"Runner-up Group ([A-L])", label, flags=re.IGNORECASE)
+    if runner_group:
+        return group_seeds.get(runner_group.group(1).upper(), {}).get("runner-up")
+
+    winner_match = re.fullmatch(r"Winner Match (\d+)", label, flags=re.IGNORECASE)
+    if winner_match:
+        source = by_id.get(int(winner_match.group(1)))
+        return match_winner_or_loser(source, True) if source else None
+
+    loser_match = re.fullmatch(r"Loser Match (\d+)", label, flags=re.IGNORECASE)
+    if loser_match:
+        source = by_id.get(int(loser_match.group(1)))
+        return match_winner_or_loser(source, False) if source else None
+
+    return None
+
+
+def resolve_knockout_slots(data: dict[str, Any], by_id: dict[int, dict[str, Any]]) -> list[str]:
+    group_seeds = resolved_group_seeds(data)
+    changes: list[str] = []
+
+    for match in data["matches"]:
+        if match.get("stage") == "Group":
+            continue
+
+        changed_sides: list[str] = []
+        for side in ("home", "away"):
+            current = match.get(side, "")
+            resolved = resolve_knockout_label(current, group_seeds, by_id)
+            if resolved and changed(match, side, resolved):
+                if is_knockout_placeholder(current) and not match.get(f"{side}Source"):
+                    match[f"{side}Source"] = current
+                match[side] = resolved
+                changed_sides.append(f"{side} team")
+
+        if changed_sides:
+            changes.append(f"Match {match['id']}: {', '.join(changed_sides)}")
+
+    return changes
+
+
 def apply_fixture(match: dict[str, Any], fixture: Fixture) -> list[str]:
     changes: list[str] = []
 
@@ -335,6 +503,8 @@ def apply_fixture(match: dict[str, Any], fixture: Fixture) -> list[str]:
         for side, value in (("home", fixture.home), ("away", fixture.away)):
             if value and not normalize_text(value).startswith(("winner ", "runner up ", "loser ", "best 3rd")):
                 if changed(match, side, value):
+                    if is_knockout_placeholder(match.get(side)) and not match.get(f"{side}Source"):
+                        match[f"{side}Source"] = match.get(side)
                     match[side] = value
                     changes.append(f"{side} team")
 
@@ -387,6 +557,11 @@ def refresh_schedule(args: argparse.Namespace) -> tuple[int, int, list[str]]:
         if changes:
             changed_matches += 1
             change_log.append(f"Match {match['id']}: {', '.join(changes)}")
+
+    resolved_changes = resolve_knockout_slots(data, by_id)
+    if resolved_changes:
+        changed_matches += len(resolved_changes)
+        change_log.extend(resolved_changes)
 
     if not args.dry_run and changed_matches:
         data["generatedAt"] = dt.datetime.now(dt.timezone.utc).date().isoformat()

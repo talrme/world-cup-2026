@@ -10,13 +10,14 @@
 
   const modes = [
     ["timeline", "Schedule"],
-    ["groups", "Groups"],
-    ["players", "Players"],
     ["bracket", "Bracket"],
+    ["players", "Players"],
+    ["groups", "Groups"],
     ["constellation", "Tiles"],
   ];
   const modeIds = modes.map(([id]) => id);
-  const defaultVisibleViewIds = ["timeline", "groups", "players"];
+  const legacyDefaultVisibleViewIds = ["timeline", "groups", "players"];
+  const defaultVisibleViewIds = ["timeline", "bracket", "players", "groups"];
   const settingsKey = "worldCup2026Settings";
   const spoilerStateKey = "worldCup2026Spoilers";
   const staleDataReloadKey = "worldCup2026LastStaleReloadAt";
@@ -86,6 +87,11 @@
       if (!visibleViews.length) {
         visibleViews.push(...defaultVisibleViewIds);
         if (stored.showBracketViewOption) visibleViews.push("bracket");
+      } else if (
+        legacyDefaultVisibleViewIds.every((id) => visibleViews.includes(id)) &&
+        visibleViews.every((id) => legacyDefaultVisibleViewIds.includes(id))
+      ) {
+        visibleViews.push("bracket");
       }
 
       return { ...defaultSettings, ...stored, visibleViews: [...new Set(visibleViews)] };
@@ -320,6 +326,8 @@
     installOpen: false,
     statsInfoOpen: false,
     playerDetailsKey: null,
+    bracketStep: 0,
+    bracketDirection: "forward",
     shareCopied: false,
     settings: savedSettings,
     pendingViewScroll: null,
@@ -349,6 +357,43 @@
   let todayJumpPulseTimer = null;
   let shareCopyTimer = null;
   let activeInsightKey = null;
+  const bracketSteps = [
+    {
+      label: "Opening",
+      hint: "Round of 32, Round of 16, and Quarterfinals",
+      stages: [
+        ["Round of 32", "Round of 32", "r32"],
+        ["Round of 16", "Round of 16", "r16"],
+        ["Quarterfinals", "Quarterfinals", "qf"],
+      ],
+    },
+    {
+      label: "Middle",
+      hint: "Round of 16, Quarterfinals, and Semifinals",
+      stages: [
+        ["Round of 16", "Round of 16", "r16"],
+        ["Quarterfinals", "Quarterfinals", "qf"],
+        ["Semifinals", "Semifinals", "sf"],
+      ],
+    },
+    {
+      label: "Final Stretch",
+      hint: "Quarterfinals, Semifinals, and Finals",
+      stages: [
+        ["Quarterfinals", "Quarterfinals", "qf"],
+        ["Semifinals", "Semifinals", "sf"],
+        ["Finals", "Finals", "finals"],
+      ],
+    },
+    {
+      label: "Finals",
+      hint: "Semifinals, Third Place, and Final",
+      stages: [
+        ["Semifinals", "Semifinals", "sf"],
+        ["Finals", "Finals", "finals"],
+      ],
+    },
+  ];
 
   function saveSpoilerState() {
     try {
@@ -581,16 +626,25 @@
     return buckets[kind]?.[String(id)] || null;
   }
 
-  function renderAiInsight(kind, id, label = "Insights") {
+  function renderAiInsight(kind, id, label = "Insights", options = {}) {
     const insight = insightFor(kind, id);
     if (!insight?.headline || !insight?.summary) return "";
-    const open = activeInsightKey === `${kind}:${String(id)}` ? " open" : "";
+    const key = `${kind}:${String(id)}`;
+    const allowActiveOpen = options.allowActiveOpen !== false;
+    const open = options.open || (allowActiveOpen && activeInsightKey === key) ? " open" : "";
 
     const bullets = Array.isArray(insight.bullets)
       ? insight.bullets
           .filter(Boolean)
           .slice(0, 6)
           .map((bullet) => `<li>${escapeHtml(bullet)}</li>`)
+          .join("")
+      : "";
+    const story = Array.isArray(insight.story)
+      ? insight.story
+          .filter(Boolean)
+          .slice(0, 8)
+          .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
           .join("")
       : "";
     const sections = Array.isArray(insight.sections)
@@ -612,14 +666,19 @@
     return `
       <details class="ai-insight ai-insight-${escapeHtml(kind)}"${open}>
         <summary>
-          <span>${escapeHtml(label)}</span>
-          ${updated ? `<em>${escapeHtml(updated)}</em>` : ""}
+          <span class="ai-insight-label">${escapeHtml(label)}</span>
+          <span class="ai-insight-summary-meta">
+            <b class="ai-insight-action"><span class="ai-insight-action-closed">Read insight</span><span class="ai-insight-action-open">Hide insight</span></b>
+            <i class="ai-insight-chevron" aria-hidden="true"></i>
+          </span>
         </summary>
         <div>
           <strong>${escapeHtml(insight.headline)}</strong>
           <p>${escapeHtml(insight.summary)}</p>
-          ${bullets ? `<ul>${bullets}</ul>` : ""}
-          ${sections ? `<div class="ai-insight-sections">${sections}</div>` : ""}
+          ${story ? `<div class="ai-insight-story">${story}</div>` : ""}
+          ${bullets && !story ? `<ul>${bullets}</ul>` : ""}
+          ${sections && !story ? `<div class="ai-insight-sections">${sections}</div>` : ""}
+          ${updated ? `<footer class="ai-insight-updated">Updated ${escapeHtml(updated)}</footer>` : ""}
         </div>
       </details>
     `;
@@ -920,9 +979,10 @@
   }
 
   function renderTeamName(team, className = "team-name") {
+    const placeholderClass = isRealTeam(team) ? "" : " is-team-placeholder";
     const flag = flagForTeam(team);
     const flagHtml = flag ? `<span class="team-flag" aria-hidden="true">${escapeHtml(flag)}</span>` : "";
-    return `<span class="${escapeHtml(className)}">${flagHtml}<span class="team-label">${escapeHtml(team)}</span></span>`;
+    return `<span class="${escapeHtml(`${className}${placeholderClass}`)}">${flagHtml}<span class="team-label">${escapeHtml(team)}</span></span>`;
   }
 
   function teamRank(team) {
@@ -1020,13 +1080,12 @@
     return current === "completed" || current === "needs-result" || current === "live";
   }
 
-  function renderVideoLink(kind, video, label) {
+  function renderVideoLink(kind, video) {
     const duration = videoDuration(kind, video);
-    const compactLabel = kind === "extended" ? "Extended" : "Highlights";
-    const visibleLabel = state.settings.videoStyle === "full" ? label : compactLabel;
+    const visibleLabel = "Highlights";
     const durationLabel = duration ? `${duration} ` : "";
     const durationMarkup = duration ? `<small>${escapeHtml(duration)}</small>` : "";
-    return `<a aria-label="Open ${escapeHtml(durationLabel)}${escapeHtml(visibleLabel)} on YouTube" class="video-link video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span>${durationMarkup}<span class="video-link-label">${escapeHtml(visibleLabel)}</span></a>`;
+    return `<a aria-label="Open ${escapeHtml(durationLabel)}${escapeHtml(visibleLabel)} on YouTube" class="video-link video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open Highlights on YouTube"><span class="yt-mark" aria-hidden="true"></span>${durationMarkup}<span class="video-link-label">${escapeHtml(visibleLabel)}</span></a>`;
   }
 
   function videoDurationChip(kind, video) {
@@ -1036,7 +1095,7 @@
 
   function renderTileVideoLink(kind, video) {
     const chip = videoDurationChip(kind, video);
-    const label = kind === "extended" ? "Extended highlights" : "Highlights";
+    const label = "Highlights";
     const chipMarkup = chip ? `<span>${escapeHtml(chip)}</span>` : "";
     return `<a aria-label="Open ${escapeHtml(label)} on YouTube" class="tile-video-link tile-video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span>${chipMarkup}</a>`;
   }
@@ -1063,10 +1122,10 @@
     const short = match.videos?.short || null;
 
     if (short?.url) {
-      links.push(renderVideoLink("short", short, "Highlights"));
+      links.push(renderVideoLink("short", short));
     }
     if (extended?.url) {
-      links.push(renderVideoLink("extended", extended, "Extended"));
+      links.push(renderVideoLink("extended", extended));
     }
 
     if (!links.length && canSearchVideo(match)) {
@@ -1229,11 +1288,11 @@
     const actions = [];
 
     if (short?.url) {
-      actions.push(renderVideoLink("short", short, "Highlights"));
+      actions.push(renderVideoLink("short", short));
     }
 
     if (extended?.url) {
-      actions.push(renderVideoLink("extended", extended, "Extended highlights"));
+      actions.push(renderVideoLink("extended", extended));
     }
 
     if (!actions.length && canSearchVideo(match)) {
@@ -1283,6 +1342,8 @@
     const checked = match.videos?.lastCheckedAt
       ? `<p class="last-checked">Checked ${escapeHtml(new Date(match.videos.lastCheckedAt).toLocaleString())}</p>`
       : "";
+    const insightHiddenByScore = hasScore(match) && !isScoreVisible(match);
+    const insightOpen = hasScore(match) && isScoreVisible(match);
 
     return `
       <aside class="detail-panel is-${current}">
@@ -1307,7 +1368,7 @@
           <div><dt>Broadcast</dt><dd>${escapeHtml(match.network || "TBD")}</dd></div>
           ${matchNotice(match, current) ? `<div><dt>Status</dt><dd>${escapeHtml(matchNotice(match, current))}</dd></div>` : ""}
         </dl>
-        ${renderAiInsight("match", match.id, "Insights")}
+        ${renderAiInsight("match", match.id, "Insights", { open: insightOpen, allowActiveOpen: !insightHiddenByScore })}
         ${checked}
       </aside>
     `;
@@ -1435,31 +1496,287 @@
       : `<div class="empty-state"><strong>No group matches found</strong><span>Adjust the country filter or switch views.</span></div>`;
   }
 
-  function renderBracket(list) {
-    const knockout = list.filter((match) => match.stage !== "Group");
-    const rounds = ["Round of 32", "Round of 16", "Quarterfinals", "Semifinals", "Third Place", "Final"];
-
-    if (!knockout.length) {
-      return `<div class="empty-state"><strong>No knockout matches found</strong><span>Adjust the country filter or switch to the schedule.</span></div>`;
-    }
-
-    const html = rounds
-      .map((round) => {
-        const roundMatches = knockout.filter((match) => match.stage === round);
-        if (!roundMatches.length) return "";
-
-        return `
-          <section class="bracket-round">
-            <header>${escapeHtml(round)}</header>
-            <div class="bracket-stack">${roundMatches.map((match) => renderMatchCard(match, "bracket-slot")).join("")}</div>
-          </section>
-        `;
-      })
-      .join("");
-
-    return `<div class="bracket-layout">${html}</div>`;
+  function referencedMatchIds(match) {
+    return ["home", "away"]
+      .flatMap((side) => [...String(match[side] || "").matchAll(/Match\s+(\d+)/gi)].map((item) => Number(item[1])))
+      .filter(Boolean);
   }
 
+  function groupMatchesFor(group) {
+    return matches.filter((match) => match.stage === "Group" && match.group === group);
+  }
+
+  function groupScoresVisible(groupMatches) {
+    const scored = groupMatches.filter(hasScore);
+    return Boolean(scored.length && scored.every((match) => isScoreVisible(match)));
+  }
+
+  function groupScheduledCounts(groupMatches) {
+    return groupMatches.reduce((counts, match) => {
+      counts[match.home] = (counts[match.home] || 0) + 1;
+      counts[match.away] = (counts[match.away] || 0) + 1;
+      return counts;
+    }, {});
+  }
+
+  function clinchedAdvancementTeams(group) {
+    const groupMatches = groupMatchesFor(group);
+    if (groupMatches.length !== 6 || !groupScoresVisible(groupMatches)) return [];
+
+    const standings = standingsFor(groupMatches);
+    const teams = standings.map((row) => row.team);
+    const remaining = groupMatches.filter((match) => !hasScore(match));
+    const basePoints = Object.fromEntries(standings.map((row) => [row.team, row.points]));
+    const scheduledCounts = groupScheduledCounts(groupMatches);
+
+    const scenarioPoints = [];
+    function walk(index, points) {
+      if (index >= remaining.length) {
+        scenarioPoints.push(points);
+        return;
+      }
+
+      const match = remaining[index];
+      [
+        [3, 0],
+        [1, 1],
+        [0, 3],
+      ].forEach(([homePoints, awayPoints]) => {
+        walk(index + 1, {
+          ...points,
+          [match.home]: (points[match.home] || 0) + homePoints,
+          [match.away]: (points[match.away] || 0) + awayPoints,
+        });
+      });
+    }
+
+    walk(0, basePoints);
+
+    return teams.filter((team) => {
+      const played = standings.find((row) => row.team === team)?.played || 0;
+      if (played < 1 || scheduledCounts[team] < 3) return false;
+
+      return scenarioPoints.every((points) => {
+        const teamPoints = points[team] || 0;
+        const teamsThatCanFinishAtLeastLevel = teams.filter((other) => other !== team && (points[other] || 0) >= teamPoints);
+        return teamsThatCanFinishAtLeastLevel.length <= 1;
+      });
+    });
+  }
+
+  function bracketSourceVisible(sourceLabel) {
+    const source = String(sourceLabel || "");
+    const matchSource = source.match(/^(Winner|Loser) Match (\d+)$/i);
+    if (matchSource) {
+      const sourceMatch = matches.find((match) => match.id === Number(matchSource[2]));
+      return Boolean(sourceMatch && isScoreVisible(sourceMatch));
+    }
+
+    const groupSource = source.match(/^(Winner|Runner-up) Group ([A-L])$/i);
+    if (groupSource) {
+      return groupScoresVisible(groupMatchesFor(groupSource[2].toUpperCase()));
+    }
+
+    return true;
+  }
+
+  function bracketDisplayTeam(match, side) {
+    const source = match[`${side}Source`];
+    if (source && !bracketSourceVisible(source)) return source;
+    return match[side];
+  }
+
+  function renderBracketClinchedHints(label) {
+    const source = String(label || "");
+    const groupSource = source.match(/^(Winner|Runner-up) Group ([A-L])$/i);
+    if (!groupSource) return "";
+
+    const teams = clinchedAdvancementTeams(groupSource[2].toUpperCase());
+    if (!teams.length) return "";
+
+    return `
+      <div class="bracket-clinched-list" aria-label="Clinched advancement">
+        ${teams
+          .map(
+            (team) => `
+              <span class="bracket-clinched-chip" title="${escapeHtml(`${team} has clinched advancement`)}">
+                ${renderTeamName(team, "bracket-clinched-team")}
+                <em>clinched</em>
+              </span>
+            `,
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
+  function collectBracketTree(match, knockoutById, seen = new Set()) {
+    if (!match || seen.has(match.id)) return [];
+    seen.add(match.id);
+    const children = referencedMatchIds(match)
+      .map((id) => knockoutById.get(id))
+      .filter(Boolean)
+      .flatMap((child) => collectBracketTree(child, knockoutById, seen));
+    return [...children, match];
+  }
+
+  function bracketScoreCell(match, side) {
+    if (!hasScore(match)) return `<span class="bracket-score-cell">${isScorePending(match) ? "--" : ""}</span>`;
+    const visible = isScoreVisible(match);
+    const value = visible ? String(side === "home" ? match.homeScore : match.awayScore) : "??";
+    const label = visible ? "Hide score" : "Reveal score";
+    return `<button aria-label="${label}" class="bracket-score-cell ${visible ? "is-revealed" : "is-hidden"}" data-score-id="${match.id}" type="button"><span class="${visible ? "" : "score-hidden-text"}">${escapeHtml(value)}</span></button>`;
+  }
+
+  function renderBracketTeam(match, side) {
+    const team = bracketDisplayTeam(match, side);
+    return `
+      <div class="bracket-team-row ${teamResultClass(match, side)}">
+        ${renderTeamName(team, "bracket-team-name")}
+        ${bracketScoreCell(match, side)}
+        ${renderBracketClinchedHints(team)}
+      </div>
+    `;
+  }
+
+  function renderBracketMatch(match, tone = "") {
+    const current = matchState(match);
+    const roundTone = match.stage === "Final" ? "is-final" : match.stage === "Third Place" ? "is-third" : "";
+    return `
+      <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(match.home)} vs ${escapeHtml(match.away)}">
+        <div class="bracket-match-meta">
+          <span>${escapeHtml(match.stage === "Final" ? "Final" : match.stage === "Third Place" ? "Third Place" : `Match ${match.id}`)}</span>
+          <em>${escapeHtml(formatCompactDateTime(match))}</em>
+        </div>
+        <div class="bracket-team-list">
+          ${renderBracketTeam(match, "home")}
+          ${renderBracketTeam(match, "away")}
+        </div>
+      </article>
+    `;
+  }
+
+  function renderBracketRound(label, roundMatches, stageClass) {
+    if (stageClass === "finals") {
+      const finalMatch = roundMatches.find((match) => match.stage === "Final");
+      const thirdPlaceMatch = roundMatches.find((match) => match.stage === "Third Place");
+      return `
+        <section class="bracket-round-column bracket-round-finals" style="--bracket-count: ${roundMatches.length || 1}">
+          <header>${escapeHtml(label)}</header>
+          <div class="bracket-column-stack bracket-finals-stack">
+            ${finalMatch ? `<div class="bracket-final-main">${renderBracketMatch(finalMatch, "is-finals")}</div>` : ""}
+            ${
+              thirdPlaceMatch
+                ? `<div class="bracket-third-place-block">
+                    <span>Third place</span>
+                    ${renderBracketMatch(thirdPlaceMatch, "is-finals")}
+                  </div>`
+                : ""
+            }
+          </div>
+        </section>
+      `;
+    }
+
+    return `
+      <section class="bracket-round-column bracket-round-${stageClass}" style="--bracket-count: ${roundMatches.length || 1}">
+        <header>${escapeHtml(label)}</header>
+        <div class="bracket-column-stack">
+          ${
+            roundMatches.length
+              ? roundMatches.map((match) => renderBracketMatch(match, `is-${stageClass}`)).join("")
+              : `<div class="bracket-empty-round">Not announced yet</div>`
+          }
+        </div>
+      </section>
+    `;
+  }
+
+  function bracketStageMatches(stage, knockout) {
+    if (stage === "Finals") {
+      return knockout
+        .filter((match) => match.stage === "Final" || match.stage === "Third Place")
+        .sort((a, b) => {
+          const stageRank = (match) => (match.stage === "Final" ? 0 : 1);
+          return stageRank(a) - stageRank(b) || a.id - b.id;
+        });
+    }
+
+    return knockout.filter((match) => match.stage === stage).sort((a, b) => a.id - b.id);
+  }
+
+  function renderBracketControls() {
+    const current = Math.min(Math.max(state.bracketStep, 0), bracketSteps.length - 1);
+    const tabs = bracketSteps
+      .map((step, index) => `
+        <button aria-pressed="${index === current ? "true" : "false"}" data-bracket-step="${index}" type="button">
+          <span>${escapeHtml(step.label)}</span>
+          <em>${index + 1}/${bracketSteps.length}</em>
+        </button>
+      `)
+      .join("");
+
+    return `
+      <div class="bracket-nav" aria-label="Bracket section controls">
+        <button aria-label="Previous bracket section" class="bracket-arrow" data-bracket-prev ${current === 0 ? "disabled" : ""} type="button">‹</button>
+        <div class="bracket-step-tabs">${tabs}</div>
+        <button aria-label="Next bracket section" class="bracket-arrow" data-bracket-next ${current === bracketSteps.length - 1 ? "disabled" : ""} type="button">›</button>
+      </div>
+    `;
+  }
+
+  function setBracketStep(nextStep) {
+    const next = Math.min(Math.max(nextStep, 0), bracketSteps.length - 1);
+    if (next === state.bracketStep) return;
+    state.bracketDirection = next > state.bracketStep ? "forward" : "back";
+    state.bracketStep = next;
+    render();
+    window.requestAnimationFrame(() => {
+      document.querySelector(".bracket-scroll")?.scrollTo({ left: 0, behavior: "smooth" });
+    });
+  }
+
+  function renderBracket() {
+    const knockout = matches.filter((match) => match.stage !== "Group").sort((a, b) => a.id - b.id);
+
+    if (!knockout.length) {
+      return `<div class="empty-state"><strong>No knockout matches found</strong><span>Switch back once the bracket is published.</span></div>`;
+    }
+
+    const current = Math.min(Math.max(state.bracketStep, 0), bracketSteps.length - 1);
+    state.bracketStep = current;
+    const step = bracketSteps[current];
+    const direction = state.bracketDirection === "back" ? "back" : "forward";
+    const bracketMinWidth = step.stages.length * 290 + Math.max(0, step.stages.length - 1) * 18;
+    const columns = step.stages
+      .map(([stage, label, stageClass]) => renderBracketRound(label, bracketStageMatches(stage, knockout), stageClass))
+      .join("");
+
+    return `
+      <section class="bracket-view">
+        <div class="bracket-view-header">
+          <div>
+            <span class="eyebrow">Knockout Stage</span>
+            <h2>World Cup Bracket</h2>
+          </div>
+          <p>${escapeHtml(step.hint)}. Clinched teams appear in possible slots once the relevant scores are revealed.</p>
+        </div>
+        ${renderBracketControls()}
+        <div class="bracket-scroll" aria-label="World Cup knockout bracket">
+          <div class="bracket-board bracket-board-linear is-step-${current} is-${direction}" style="--bracket-rounds: ${step.stages.length || 1}; --bracket-min-width: ${bracketMinWidth}px" data-bracket-window="${current}">
+            ${columns}
+          </div>
+        </div>
+        <div class="bracket-mobile-hint" aria-hidden="true">
+          <span>Use arrows or swipe the bracket sideways</span>
+          <div>
+            <button class="bracket-arrow mini" data-bracket-prev ${current === 0 ? "disabled" : ""} type="button">‹</button>
+            <button class="bracket-arrow mini" data-bracket-next ${current === bracketSteps.length - 1 ? "disabled" : ""} type="button">›</button>
+          </div>
+        </div>
+      </section>
+    `;
+  }
   function renderConstellation(list) {
     return `
       <div class="constellation-layout">
@@ -1736,14 +2053,15 @@
               `<td class="${field.priority === "subtle" ? "is-subtle-stat" : "is-critical-stat"}" data-label="${escapeHtml(field.label)}">${escapeHtml(renderLeaderboardStat(player, field))}</td>`,
           )
           .join("");
+        const detailKey = playerInsightKey(player);
         return `
-          <tr>
+          <tr class="player-detail-trigger" data-player-detail="${escapeHtml(detailKey)}" tabindex="0" role="button" aria-label="Open insights for ${escapeHtml(player.player)}">
             <td class="leader-player-cell" data-label="Player">
               ${renderTeamName(player.team, "leader-team-flag")}
-              <button class="leader-player-meta player-detail-trigger" data-player-detail="${escapeHtml(playerInsightKey(player))}" type="button">
+              <span class="leader-player-meta">
                 <strong>${escapeHtml(player.player)}</strong>
                 <em>${escapeHtml(player.position)} · ${escapeHtml(player.team)}</em>
-              </button>
+              </span>
             </td>
             ${cells}
           </tr>
@@ -1779,12 +2097,13 @@
   function renderActiveView(list) {
     if (state.mode === "players") return renderLeaderboard();
 
+    if (state.mode === "groups") return renderGroups(list);
+    if (state.mode === "bracket") return renderBracket();
+
     if (!list.length) {
       return `<div class="empty-state"><strong>No matches found</strong><span>Adjust the country filter or switch views.</span></div>`;
     }
 
-    if (state.mode === "groups") return renderGroups(list);
-    if (state.mode === "bracket") return renderBracket(list);
     if (state.mode === "constellation") return renderConstellation(list);
     return renderTimeline(list);
   }
@@ -1796,6 +2115,13 @@
         return `<button aria-pressed="${pressed}" data-mode="${id}" type="button">${escapeHtml(label)}</button>`;
       })
       .join("");
+    const topTodayButton =
+      state.mode === "timeline"
+        ? `<button class="top-today-control" data-today-jump type="button" aria-label="Go to today">
+            <span class="top-today-mark" aria-hidden="true">↓</span>
+            <strong>Today</strong>
+          </button>`
+        : "";
 
     return `
       <div class="mobile-menu-bar">
@@ -1817,6 +2143,7 @@
           <span class="control-section-title">View</span>
           <div class="view-toggle" aria-label="Viewing option">${modeButtons}</div>
         </div>
+        ${topTodayButton}
         <div class="control-section control-section-scores">
           <span class="control-section-title">Scores</span>
           <button class="spoiler-control" data-show-all-scores type="button">
@@ -1960,7 +2287,6 @@
             <div>
               <span class="eyebrow">Share</span>
               <h2>World Cup Highlights</h2>
-              <p>Copy the clean homepage link, without your current filters or view.</p>
             </div>
             <button aria-label="Close share" class="icon-button share-close" data-share-close title="Close share" type="button">×</button>
           </header>
@@ -1972,35 +2298,21 @@
               </label>
               <button data-share-copy type="button">${state.shareCopied ? "Copied" : "Copy"}</button>
             </div>
+            <section class="share-qr-card">
+              <img src="./public/assets/share-qr.png" alt="QR code for the World Cup Highlights website" />
+              <div>
+                <span>Scan QR</span>
+              </div>
+            </section>
             <section class="share-phone-card">
               <span class="share-app-icon" aria-hidden="true">
                 <img src="./public/assets/action-app.png" alt="" />
               </span>
               <div>
-                <span>Save to your phone</span>
-                <p>Add World Cup Highlights to your home screen so it opens like an app with the soccer ball icon.</p>
+                <span>Save as app</span>
+                <button data-share-install-open type="button">How</button>
               </div>
             </section>
-            <div class="share-install-grid">
-              <section>
-                <span class="install-method-icon" aria-hidden="true">
-                  <img src="./public/assets/soccer-ball-192.png" alt="" />
-                </span>
-                <div>
-                  <span>iPhone / iPad home screen</span>
-                  <p>Open the site in Safari, tap Share, then choose Add to Home Screen.</p>
-                </div>
-              </section>
-              <section>
-                <span class="install-method-icon" aria-hidden="true">
-                  <img src="./public/assets/soccer-ball-192.png" alt="" />
-                </span>
-                <div>
-                  <span>Android home screen</span>
-                  <p>Open the site in Chrome, tap the menu, then choose Add to Home screen or Install app.</p>
-                </div>
-              </section>
-            </div>
           </div>
         </section>
       </div>
@@ -2160,7 +2472,7 @@
   }
 
   function updateTodayJumpButton() {
-    const button = app.querySelector("[data-today-jump]");
+    const button = app.querySelector(".today-jump[data-today-jump]");
     if (!button) return;
 
     const target = todayBand();
@@ -2525,6 +2837,15 @@
       return;
     }
 
+    const shareInstallOpen = event.target.closest("[data-share-install-open]");
+    if (shareInstallOpen) {
+      state.shareOpen = false;
+      state.installOpen = true;
+      state.shareCopied = false;
+      render();
+      return;
+    }
+
     const installClose = event.target.closest("[data-install-close]");
     if (installClose) {
       state.installOpen = false;
@@ -2776,11 +3097,30 @@
       return;
     }
 
+    const bracketStep = event.target.closest("[data-bracket-step]");
+    if (bracketStep) {
+      setBracketStep(Number(bracketStep.dataset.bracketStep));
+      return;
+    }
+
+    const bracketPrev = event.target.closest("[data-bracket-prev]");
+    if (bracketPrev) {
+      setBracketStep(state.bracketStep - 1);
+      return;
+    }
+
+    const bracketNext = event.target.closest("[data-bracket-next]");
+    if (bracketNext) {
+      setBracketStep(state.bracketStep + 1);
+      return;
+    }
+
     const matchInsights = event.target.closest("[data-match-insights]");
     if (matchInsights) {
       state.selectedId = Number(matchInsights.dataset.matchInsights);
       state.detailOpen = true;
-      activeInsightKey = `match:${state.selectedId}`;
+      const match = matches.find((item) => item.id === state.selectedId);
+      activeInsightKey = match && hasScore(match) && !isScoreVisible(match) ? null : `match:${state.selectedId}`;
       render();
       return;
     }
@@ -2872,6 +3212,26 @@
   });
 
   document.addEventListener("keydown", (event) => {
+    if (
+      state.mode === "bracket" &&
+      !event.target.closest?.("input, textarea, select") &&
+      (event.key === "ArrowRight" || event.key === "ArrowLeft")
+    ) {
+      event.preventDefault();
+      setBracketStep(state.bracketStep + (event.key === "ArrowRight" ? 1 : -1));
+      return;
+    }
+
+    const playerDetail = event.target.closest?.("[data-player-detail]");
+    if (playerDetail && (event.key === "Enter" || event.key === " ")) {
+      event.preventDefault();
+      state.playerDetailsKey = playerDetail.dataset.playerDetail;
+      activeInsightKey = `player:${state.playerDetailsKey}`;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
     if (event.key === "Escape" && state.mapVenueId) {
       state.mapVenueId = null;
       render();

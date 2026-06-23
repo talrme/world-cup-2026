@@ -95,8 +95,8 @@ const data = rawData as unknown as Dataset;
 
 const modes: { id: ViewMode; label: string }[] = [
   { id: "timeline", label: "Schedule" },
-  { id: "groups", label: "Groups" },
   { id: "bracket", label: "Bracket" },
+  { id: "groups", label: "Groups" },
   { id: "constellation", label: "Tiles" },
 ];
 const modeIds = modes.map((mode) => mode.id);
@@ -112,7 +112,7 @@ const defaultSettings: DisplaySettings = {
   videoStyle: "compact",
   timelineStart: "today",
   scoreStartupMode: "previous",
-  showBracketViewOption: false,
+  showBracketViewOption: true,
 };
 type SegmentedSettingKey = Exclude<keyof DisplaySettings, "showBracketViewOption">;
 const settingGroups: {
@@ -418,9 +418,10 @@ function isRealTeam(team: string) {
 
 function renderTeamName(team: string, className = "team-name") {
   const flag = flagForTeam(team);
+  const classes = `${className}${isRealTeam(team) ? "" : " is-team-placeholder"}`;
 
   return (
-    <span className={className}>
+    <span className={classes}>
       {flag ? <span aria-hidden="true" className="team-flag">{flag}</span> : null}
       <span className="team-label">{team}</span>
     </span>
@@ -1220,19 +1221,19 @@ export default function WorldCupDashboard() {
     return <span aria-label="Hidden until revealed" className="hidden-stat">??</span>;
   }
 
-  function renderVideoLink(kind: "extended" | "short", video: VideoLink, label: string) {
-    const visibleLabel = settings.videoStyle === "full" ? label : kind === "extended" ? "Extended" : "Highlights";
+  function renderVideoLink(kind: "extended" | "short", video: VideoLink) {
+    const visibleLabel = "Highlights";
 
     return (
       <a
         aria-label={`Open ${videoDuration(kind, video)} ${visibleLabel} on YouTube`}
         className={`video-link video-link-${kind}`}
         href={video.url}
-        key={`${label}-${video.url}`}
+        key={`${kind}-${video.url}`}
         onClick={(event) => event.stopPropagation()}
         rel="noreferrer"
         target="_blank"
-        title={`Open ${label} on YouTube`}
+        title="Open Highlights on YouTube"
       >
         <span aria-hidden="true" className="yt-mark" />
         <small>{videoDuration(kind, video)}</small>
@@ -1242,7 +1243,7 @@ export default function WorldCupDashboard() {
   }
 
   function renderTileVideoLink(kind: "extended" | "short", video: VideoLink) {
-    const label = kind === "extended" ? "Extended highlights" : "Highlights";
+    const label = "Highlights";
 
     return (
       <a
@@ -1294,8 +1295,8 @@ export default function WorldCupDashboard() {
     const short = match.videos?.short ?? null;
     const extended = match.videos?.extended ?? null;
     const links = [
-      short?.url ? renderVideoLink("short", short, "Highlights") : null,
-      extended?.url ? renderVideoLink("extended", extended, "Extended") : null,
+      short?.url ? renderVideoLink("short", short) : null,
+      extended?.url ? renderVideoLink("extended", extended) : null,
     ].filter(Boolean);
 
     if (!links.length && canSearchVideo(matchState(match, now))) {
@@ -1356,11 +1357,11 @@ export default function WorldCupDashboard() {
     const actions: ReactNode[] = [];
 
     if (short?.url) {
-      actions.push(renderVideoLink("short", short, "Highlights"));
+      actions.push(renderVideoLink("short", short));
     }
 
     if (extended?.url) {
-      actions.push(renderVideoLink("extended", extended, "Extended highlights"));
+      actions.push(renderVideoLink("extended", extended));
     }
 
     return (
@@ -2038,6 +2039,12 @@ export default function WorldCupDashboard() {
               </button>
             ))}
           </div>
+          {mode === "timeline" ? (
+            <button aria-label="Go to today" className="top-today-control" onClick={scrollToToday} type="button">
+              <span aria-hidden="true" className="top-today-mark">↓</span>
+              <strong>Today</strong>
+            </button>
+          ) : null}
           <button
             className="spoiler-control"
             onClick={() => {

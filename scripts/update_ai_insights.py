@@ -56,6 +56,7 @@ JSON_SCHEMA = {
     "properties": {
         "headline": {"type": "string"},
         "summary": {"type": "string"},
+        "story": {"type": "array", "items": {"type": "string"}},
         "bullets": {"type": "array", "items": {"type": "string"}},
         "sections": {
             "type": "array",
@@ -617,6 +618,18 @@ GENERIC_HIGHLIGHT_PHRASES = (
     "video links",
 )
 
+COMPLETED_MATCH_PREVIEW_PHRASES = (
+    "meet in",
+    "meets in",
+    "face off",
+    "enter this match",
+    "enters this match",
+    "set to play",
+    "scheduled to play",
+    "upcoming clash",
+    "what to watch",
+)
+
 
 def is_generic_highlight_text(text: str) -> bool:
     lowered = text.lower()
@@ -635,6 +648,13 @@ def clean_generated(value: Any, kind: str) -> dict[str, Any]:
     if kind == "match":
         bullets = [item for item in bullets if not is_generic_highlight_text(item)]
     bullets = bullets[:6]
+    story = value.get("story", [])
+    if not isinstance(story, list):
+        story = []
+    story = [str(item).strip() for item in story if str(item).strip()]
+    if kind == "match":
+        story = [item for item in story if not is_generic_highlight_text(item)]
+    story = story[:8]
     sections = value.get("sections", [])
     if not isinstance(sections, list):
         sections = []
@@ -652,7 +672,40 @@ def clean_generated(value: Any, kind: str) -> dict[str, Any]:
             break
     if not headline or not summary:
         raise ValueError("Gemini response missing headline or summary")
-    return {"headline": headline[:140], "summary": summary[:2200], "bullets": bullets, "sections": cleaned_sections}
+    return {
+        "headline": headline[:140],
+        "summary": summary[:2200],
+        "story": [paragraph[:1800] for paragraph in story],
+        "bullets": bullets,
+        "sections": cleaned_sections,
+    }
+
+
+def completed_match_validation_error(target: Target, generated: dict[str, Any]) -> str | None:
+    if target.kind != "match":
+        return None
+
+    match = target.context.get("match", {})
+    if str(match.get("status", "")).lower() != "completed" and not match.get("result"):
+        return None
+
+    summary = str(generated.get("summary", "")).strip()
+    first_sentence = summary.split(".", 1)[0]
+    home_score = match.get("homeScore")
+    away_score = match.get("awayScore")
+    score_patterns = [
+        f"{home_score}-{away_score}",
+        f"{home_score} - {away_score}",
+        f"{home_score}, {away_score}",
+    ]
+    if home_score is not None and away_score is not None and not any(pattern in first_sentence for pattern in score_patterns):
+        return "completed match summary did not open with the final score"
+
+    recap_text = f"{generated.get('headline', '')} {summary}".lower()
+    if any(phrase in recap_text for phrase in COMPLETED_MATCH_PREVIEW_PHRASES):
+        return "completed match headline/summary used preview framing"
+
+    return None
 
 
 def call_gemini(target: Target, api_key: str, model: str, timeout: int) -> dict[str, Any]:
@@ -688,7 +741,11 @@ def call_gemini(target: Target, api_key: str, model: str, timeout: int) -> dict[
     text = "".join(part.get("text", "") for part in parts)
     if not text:
         raise ValueError("Gemini response did not contain text")
-    return clean_generated(json.loads(text), target.kind)
+    generated = clean_generated(json.loads(text), target.kind)
+    validation_error = completed_match_validation_error(target, generated)
+    if validation_error:
+        raise ValueError(validation_error)
+    return generated
 
 
 def build_entry(target: Target, generated: dict[str, Any], model: str) -> dict[str, Any]:
