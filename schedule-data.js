@@ -1517,7 +1517,7 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Jordan",
       "away": "Algeria",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "sf-bay",
       "videos": {
@@ -1533,7 +1533,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-23T05:56:44+00:00"
-      }
+      },
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "id": 45,
@@ -2340,7 +2342,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-23T07:10:46+00:00",
+  "scheduleUpdatedAt": "2026-06-23T12:44:08+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
