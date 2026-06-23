@@ -1548,9 +1548,25 @@
       "timezoneLabel": "ET",
       "home": "Portugal",
       "away": "Uzbekistan",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "houston"
+      "venueId": "houston",
+      "homeScore": 5,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-23T19:48:07+00:00",
+          "title": "Portugal vs Uzbekistan Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=jqgn-kY0rFA",
+          "channel": "FOX Sports",
+          "durationText": "19 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-23T19:48:07+00:00"
+      }
     },
     {
       "id": 46,
@@ -2342,7 +2358,7 @@
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-23T12:44:08+00:00",
+  "scheduleUpdatedAt": "2026-06-23T19:30:18+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
