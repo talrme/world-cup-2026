@@ -1486,9 +1486,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Norway",
       "away": "Senegal",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "ny-nj"
+      "venueId": "ny-nj",
+      "homeScore": 3,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-23T05:56:09+00:00",
+          "title": "Norway vs Senegal Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=vcgzGgM4uJg",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-23T05:56:09+00:00"
+      }
     },
     {
       "id": 44,
@@ -1503,7 +1519,21 @@ window.WORLD_CUP_DATA = {
       "away": "Algeria",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "sf-bay"
+      "venueId": "sf-bay",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-23T05:56:44+00:00",
+          "title": "Jordan vs Algeria Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=qq3eMBEUbzY",
+          "channel": "FOX Sports",
+          "durationText": "11 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-23T05:56:44+00:00"
+      }
     },
     {
       "id": 45,
@@ -2310,7 +2340,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-23T01:50:24+00:00",
+  "scheduleUpdatedAt": "2026-06-23T05:40:48+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
