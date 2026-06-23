@@ -16,6 +16,26 @@ on:
         required: false
         default: false
         type: boolean
+      ai_mode:
+        description: "AI insight refresh breadth"
+        required: false
+        default: standard
+        type: choice
+        options:
+          - minimal
+          - standard
+          - seed
+          - all
+      force_all_ai:
+        description: "Regenerate all AI insights, subject to script cost/call caps"
+        required: false
+        default: false
+        type: boolean
+      skip_ai:
+        description: "Skip AI insights even if GEMINI_API_KEY is configured"
+        required: false
+        default: false
+        type: boolean
       commit_changes:
         description: "Commit refreshed data back to main when files change"
         required: false
@@ -33,11 +53,17 @@ jobs:
   refresh:
     name: Refresh schedule and videos
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     env:
       ALL_VIDEOS: ${{ github.event_name == 'workflow_dispatch' && inputs.all_videos || false }}
       FORCE_VIDEOS: ${{ github.event_name == 'workflow_dispatch' && inputs.force_videos || false }}
+      AI_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.ai_mode || 'standard' }}
+      FORCE_ALL_AI: ${{ github.event_name == 'workflow_dispatch' && inputs.force_all_ai || false }}
+      SKIP_AI: ${{ github.event_name == 'workflow_dispatch' && inputs.skip_ai || false }}
       COMMIT_CHANGES: ${{ github.event_name != 'workflow_dispatch' || inputs.commit_changes }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.1-flash-lite
+      GEMINI_SLEEP_SECONDS: "10"
 
     steps:
       - name: Check out repository
@@ -62,12 +88,20 @@ jobs:
           if [[ "$FORCE_VIDEOS" == "true" ]]; then
             args+=(--force-videos)
           fi
+          if [[ "$SKIP_AI" == "true" ]]; then
+            args+=(--skip-ai)
+          else
+            args+=(--ai-mode "$AI_MODE")
+          fi
+          if [[ "$FORCE_ALL_AI" == "true" ]]; then
+            args+=(--force-all-ai)
+          fi
 
           {
             refresh_status=0
             echo "Started at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             echo "Trigger: $GITHUB_EVENT_NAME"
-            echo "Options: all_videos=$ALL_VIDEOS force_videos=$FORCE_VIDEOS commit_changes=$COMMIT_CHANGES"
+            echo "Options: all_videos=$ALL_VIDEOS force_videos=$FORCE_VIDEOS ai_mode=$AI_MODE force_all_ai=$FORCE_ALL_AI skip_ai=$SKIP_AI commit_changes=$COMMIT_CHANGES"
             echo
             python scripts/refresh_all.py "${args[@]}" || refresh_status=$?
             echo
@@ -113,12 +147,12 @@ jobs:
             echo
             echo "### Changed files"
             echo '```text'
-            git status --short -- data/world-cup-2026.json schedule-data.js
+            git status --short -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js
             echo '```'
             echo
             echo "### Diff summary"
             echo '```text'
-            git diff --stat -- data/world-cup-2026.json schedule-data.js || true
+            git diff --stat -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js || true
             echo '```'
           } | tee refresh-output/summary.md >> "$GITHUB_STEP_SUMMARY"
 
@@ -128,7 +162,7 @@ jobs:
         run: |
           mkdir -p refresh-output
 
-          if git diff --quiet -- data/world-cup-2026.json schedule-data.js; then
+          if git diff --quiet -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js; then
             echo "No data changes to commit."
             echo "No commit: data files did not change" > refresh-output/commit-label.txt
             exit 0
@@ -136,7 +170,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/world-cup-2026.json schedule-data.js
+          git add data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js
           git commit -m "Refresh World Cup data"
           commit_sha=$(git rev-parse --short HEAD)
           echo "Committed refreshed data: $commit_sha" > refresh-output/commit-label.txt
@@ -150,8 +184,10 @@ jobs:
 
           schedule_updates=$(grep -E "^Schedule updates applied:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
           video_links_saved=$(grep -E "^New/updated direct video links saved:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
+          ai_summary=$(grep -E "^AI insights summary:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/^AI insights summary: //")
           schedule_updates=${schedule_updates:-unknown}
           video_links_saved=${video_links_saved:-unknown}
+          ai_summary=${ai_summary:-"not run or no key"}
 
           if [[ "$COMMIT_CHANGES" != "true" ]]; then
             commit_label="No commit: commit_changes was false"
@@ -161,7 +197,7 @@ jobs:
             commit_label="No commit: refresh or commit step did not finish successfully"
           fi
 
-          final_line="Summary: schedule updates applied=${schedule_updates}; new/updated video links saved=${video_links_saved}; ${commit_label}."
+          final_line="Summary: schedule updates applied=${schedule_updates}; new/updated video links saved=${video_links_saved}; AI insights ${ai_summary}; ${commit_label}."
           echo "$final_line"
           echo "$final_line" > refresh-output/final-summary.txt
 

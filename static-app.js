@@ -1,6 +1,7 @@
 (() => {
   const data = window.WORLD_CUP_DATA;
   const playerStatsData = window.WORLD_CUP_PLAYER_STATS || null;
+  const aiInsightsData = window.WORLD_CUP_AI_INSIGHTS || { matches: {}, groups: {}, players: {} };
   const app = document.getElementById("app");
 
   if (!data || !app) {
@@ -318,6 +319,7 @@
     shareOpen: false,
     installOpen: false,
     statsInfoOpen: false,
+    playerDetailsKey: null,
     shareCopied: false,
     settings: savedSettings,
     pendingViewScroll: null,
@@ -346,6 +348,7 @@
   let todayJumpFrame = null;
   let todayJumpPulseTimer = null;
   let shareCopyTimer = null;
+  let activeInsightKey = null;
 
   function saveSpoilerState() {
     try {
@@ -518,9 +521,21 @@
     const parsed = Date.parse(value);
     if (!Number.isFinite(parsed)) return value;
 
-    return new Date(parsed).toLocaleDateString(undefined, {
+    const date = new Date(parsed);
+    const hasTime = /T\d{2}:\d{2}/.test(value);
+    if (!hasTime) {
+      return date.toLocaleDateString(undefined, {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      });
+    }
+
+    return date.toLocaleString(undefined, {
       month: "short",
       day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
       year: "numeric",
     });
   }
@@ -538,12 +553,86 @@
   }
 
   function latestDataTimestamp() {
-    const candidates = [data.generatedAt, data.scheduleUpdatedAt, data.videosUpdatedAt, playerStatsData?.generatedAt]
+    const candidates = [data.generatedAt, data.scheduleUpdatedAt, data.videosUpdatedAt, playerStatsData?.generatedAt, aiInsightsData?.generatedAt]
       .map((value) => ({ value, timestamp: dataTimestampMs(value) }))
       .filter((candidate) => candidate.value && candidate.timestamp !== null)
       .sort((a, b) => b.timestamp - a.timestamp);
 
     return candidates[0]?.value || data.generatedAt;
+  }
+
+  function aiInsightKey(value) {
+    return String(value ?? "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  function playerInsightKey(player) {
+    return aiInsightKey(`${player.player}|${player.team}`);
+  }
+
+  function insightFor(kind, id) {
+    const buckets = {
+      match: aiInsightsData?.matches || {},
+      group: aiInsightsData?.groups || {},
+      player: aiInsightsData?.players || {},
+    };
+    return buckets[kind]?.[String(id)] || null;
+  }
+
+  function renderAiInsight(kind, id, label = "Insights") {
+    const insight = insightFor(kind, id);
+    if (!insight?.headline || !insight?.summary) return "";
+    const open = activeInsightKey === `${kind}:${String(id)}` ? " open" : "";
+
+    const bullets = Array.isArray(insight.bullets)
+      ? insight.bullets
+          .filter(Boolean)
+          .slice(0, 6)
+          .map((bullet) => `<li>${escapeHtml(bullet)}</li>`)
+          .join("")
+      : "";
+    const sections = Array.isArray(insight.sections)
+      ? insight.sections
+          .filter((section) => section && section.title && section.body)
+          .slice(0, 5)
+          .map(
+            (section) => `
+              <article class="ai-insight-section">
+                <h3>${escapeHtml(section.title)}</h3>
+                <p>${escapeHtml(section.body)}</p>
+              </article>
+            `,
+          )
+          .join("")
+      : "";
+    const updated = insight.updatedAt ? formatDataTimestamp(insight.updatedAt) : "";
+
+    return `
+      <details class="ai-insight ai-insight-${escapeHtml(kind)}"${open}>
+        <summary>
+          <span>${escapeHtml(label)}</span>
+          ${updated ? `<em>${escapeHtml(updated)}</em>` : ""}
+        </summary>
+        <div>
+          <strong>${escapeHtml(insight.headline)}</strong>
+          <p>${escapeHtml(insight.summary)}</p>
+          ${bullets ? `<ul>${bullets}</ul>` : ""}
+          ${sections ? `<div class="ai-insight-sections">${sections}</div>` : ""}
+        </div>
+      </details>
+    `;
+  }
+
+  function renderInsightsButton(match, compact = false) {
+    if (!insightFor("match", match.id)) return "";
+    return `
+      <button class="${compact ? "tile-insights-button" : "insights-button"}" data-match-insights="${match.id}" type="button" title="Open match insights">
+        <span class="insights-mark" aria-hidden="true"></span>
+        <em>Insights</em>
+      </button>
+    `;
   }
 
   function isRealTeam(team) {
@@ -958,6 +1047,8 @@
     const extended = match.videos?.extended || null;
     if (short?.url) links.push(renderTileVideoLink("short", short));
     if (extended?.url) links.push(renderTileVideoLink("extended", extended));
+    const insights = renderInsightsButton(match, true);
+    if (insights) links.push(insights);
     return links.length ? `<div class="tile-video-links">${links.join("")}</div>` : "";
   }
 
@@ -979,8 +1070,11 @@
     }
 
     if (!links.length && canSearchVideo(match)) {
-      return `<span class="video-links video-search-links">${renderVideoSearchLink(match)}</span>`;
+      links.push(renderVideoSearchLink(match));
     }
+
+    const insights = renderInsightsButton(match);
+    if (insights) links.push(insights);
 
     if (!links.length) {
       return "";
@@ -1202,6 +1296,8 @@
           ${renderTeamName(match.away, `detail-team-name ${teamResultClass(match, "away")}`)}
         </h2>
         <div class="detail-score">${renderScorePill(match)}</div>
+        ${videoStatus(match) ? `<div class="detail-video-state">${escapeHtml(videoStatus(match))}</div>` : ""}
+        ${renderVideoActions(match)}
         <dl>
           ${renderRankingRow(match)}
           <div><dt>Stage</dt><dd>${escapeHtml(match.group ? `Group ${match.group}` : match.stage)}</dd></div>
@@ -1211,8 +1307,7 @@
           <div><dt>Broadcast</dt><dd>${escapeHtml(match.network || "TBD")}</dd></div>
           ${matchNotice(match, current) ? `<div><dt>Status</dt><dd>${escapeHtml(matchNotice(match, current))}</dd></div>` : ""}
         </dl>
-        ${videoStatus(match) ? `<div class="detail-video-state">${escapeHtml(videoStatus(match))}</div>` : ""}
-        ${renderVideoActions(match)}
+        ${renderAiInsight("match", match.id, "Insights")}
         ${checked}
       </aside>
     `;
@@ -1328,6 +1423,7 @@
               <thead><tr><th>Team</th><th>Pts</th><th><span class="stat-help" title="Goal difference: goals scored minus goals conceded">GD</span></th><th><span class="stat-help" title="Games played">GP</span></th></tr></thead>
               <tbody>${rows}</tbody>
             </table>
+            ${renderAiInsight("group", group, "Insights")}
             <div class="group-fixtures">${fixtureRows}</div>
           </section>
         `;
@@ -1512,6 +1608,57 @@
     return String(value);
   }
 
+  function selectedPlayerDetails() {
+    if (!state.playerDetailsKey) return null;
+    return leaderboardPlayers.find((player) => playerInsightKey(player) === state.playerDetailsKey) || null;
+  }
+
+  function playerInitials(player) {
+    return String(player.player || "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((part) => part[0])
+      .join("")
+      .toUpperCase();
+  }
+
+  function renderPlayerPortrait(player) {
+    const flag = flagForTeam(player.team);
+    return `
+      <div class="player-portrait" aria-hidden="true">
+        <span>${escapeHtml(flag)}</span>
+        <strong>${escapeHtml(playerInitials(player))}</strong>
+      </div>
+    `;
+  }
+
+  function renderPlayerDetailsModal() {
+    const player = selectedPlayerDetails();
+    if (!player) return "";
+    const key = playerInsightKey(player);
+    const insight = renderAiInsight("player", key, "Insights");
+
+    return `
+      <div class="player-details-modal" data-player-details-modal role="dialog" aria-modal="true" aria-label="Player details">
+        <section class="player-details-panel">
+          <header class="player-details-header">
+            ${renderPlayerPortrait(player)}
+            <div>
+              <span class="eyebrow">Player details</span>
+              <h2>${escapeHtml(player.player)}</h2>
+              <p>${escapeHtml(player.team)} · ${escapeHtml(player.position || "Player")}</p>
+            </div>
+            <button aria-label="Close player details" class="icon-button player-details-close" data-player-details-close title="Close player details" type="button">×</button>
+          </header>
+          <div class="player-details-body">
+            ${insight || `<div class="ai-insight-empty">Insights will appear here after the next AI refresh.</div>`}
+          </div>
+        </section>
+      </div>
+    `;
+  }
+
   function renderStatsInfoModal() {
     if (!state.statsInfoOpen) return "";
 
@@ -1593,10 +1740,10 @@
           <tr>
             <td class="leader-player-cell" data-label="Player">
               ${renderTeamName(player.team, "leader-team-flag")}
-              <span>
+              <button class="leader-player-meta player-detail-trigger" data-player-detail="${escapeHtml(playerInsightKey(player))}" type="button">
                 <strong>${escapeHtml(player.player)}</strong>
                 <em>${escapeHtml(player.position)} · ${escapeHtml(player.team)}</em>
-              </span>
+              </button>
             </td>
             ${cells}
           </tr>
@@ -2148,11 +2295,12 @@
       ${renderFeedbackModal()}
       ${renderShareModal()}
       ${renderInstallModal()}
+      ${renderPlayerDetailsModal()}
       ${renderStatsInfoModal()}
       ${renderStadiumMap()}
       ${renderTodayJumpButton()}
       <footer class="source-strip">
-        <span>Data updated ${escapeHtml(formatDataTimestamp(latestDataTimestamp()))}</span>
+        <span>Last updated ${escapeHtml(formatDataTimestamp(latestDataTimestamp()))}</span>
         ${data.sources
           .map((source) => `<a href="${escapeHtml(source.url)}" rel="noreferrer" target="_blank">${escapeHtml(source.label)}</a>`)
           .join("")}
@@ -2405,6 +2553,20 @@
       return;
     }
 
+    const playerDetailsClose = event.target.closest("[data-player-details-close]");
+    if (playerDetailsClose) {
+      state.playerDetailsKey = null;
+      render();
+      return;
+    }
+
+    const playerDetailsBackdrop = event.target.closest("[data-player-details-modal]");
+    if (playerDetailsBackdrop && event.target === playerDetailsBackdrop) {
+      state.playerDetailsKey = null;
+      render();
+      return;
+    }
+
     const installOpen = event.target.closest("[data-install-open]");
     if (installOpen) {
       state.installOpen = true;
@@ -2416,6 +2578,15 @@
     const statsInfoOpen = event.target.closest("[data-stats-info-open]");
     if (statsInfoOpen) {
       state.statsInfoOpen = true;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
+    const playerDetail = event.target.closest("[data-player-detail]");
+    if (playerDetail) {
+      state.playerDetailsKey = playerDetail.dataset.playerDetail;
+      activeInsightKey = `player:${state.playerDetailsKey}`;
       state.mobileMenuOpen = false;
       render();
       return;
@@ -2605,6 +2776,15 @@
       return;
     }
 
+    const matchInsights = event.target.closest("[data-match-insights]");
+    if (matchInsights) {
+      state.selectedId = Number(matchInsights.dataset.matchInsights);
+      state.detailOpen = true;
+      activeInsightKey = `match:${state.selectedId}`;
+      render();
+      return;
+    }
+
     const leaderSort = event.target.closest("[data-leader-sort]");
     if (leaderSort) {
       state.leaderboardSort = leaderSort.dataset.leaderSort;
@@ -2666,6 +2846,7 @@
     if (matchButton) {
       state.selectedId = Number(matchButton.dataset.matchId);
       state.detailOpen = true;
+      activeInsightKey = null;
       render();
     }
   });
@@ -2720,6 +2901,10 @@
       state.statsInfoOpen = false;
       render();
     }
+    if (event.key === "Escape" && state.playerDetailsKey) {
+      state.playerDetailsKey = null;
+      render();
+    }
     if (event.key === "Escape" && state.mobileMenuOpen) {
       closeMobileMenu();
     }
@@ -2746,6 +2931,5 @@
   }
   if (!autoReloadStaleHostedData()) {
     render();
-    loadLiveLeaderboard();
   }
 })();

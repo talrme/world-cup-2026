@@ -73,6 +73,7 @@ That runs:
 python3 scripts/update_schedule.py
 python3 scripts/update_player_stats.py
 python3 scripts/update_highlights.py
+python3 scripts/update_ai_insights.py
 ```
 
 `update_schedule.py` refreshes scores, completed statuses, kickoff/network metadata, and later tournament teams when the source has real teams.
@@ -80,6 +81,8 @@ python3 scripts/update_highlights.py
 `update_player_stats.py` refreshes `data/player-stats.json` and `player-stats.js` from the Guardian Golden Boot feed. It preserves the existing generated timestamp when player rows are unchanged to avoid no-op commits.
 
 `update_highlights.py` searches YouTube and stores direct video links only when metadata and title checks pass.
+
+`update_ai_insights.py` optionally generates Gemini blurbs for match details, groups, and top players. It loads `.env` locally, reads `GEMINI_API_KEY` / `GEMINI_MODEL` from the environment, and skips safely when no key is present. Use `--dry-run` before paid calls. Default scheduled mode is `standard`; use `--mode minimal` for small tests, `--mode seed` for a one-time backfill, `--mode all`, or `--force-all` for broader forced runs. For testing, use restrictive targets such as `--force --match-id 12 --max-calls 1`, `--force --player "Lionel Messi|Argentina" --max-calls 1`, or `--force --group B --max-calls 1`. Keep `--max-calls`, `--max-estimated-cost`, and `--sleep` guardrails in place.
 
 `api_football_poc.py` is a non-invasive API-Football adapter/comparison script. It requires `API_FOOTBALL_KEY` for real API calls, or `--mock-from-current` to test the mapping/report/dummy-site pipeline without a key. Generated PoC output goes under `poc/api-football/` and is ignored by git.
 
@@ -131,9 +134,9 @@ The site has a Feedback control that opens an embedded Google Form modal and inc
 - Form: `https://docs.google.com/forms/d/e/1FAIpQLSdpDQ8Dyp-vIZziQwJT4PmU4F6UI1_olhzUMCXzPFRnYzS-QQ/viewform?usp=sharing&ouid=104982845318929976228`
 - Responses sheet: `https://docs.google.com/spreadsheets/d/1LvzMmvmk-Q-TDuziLJHdFeo-DewOnXNM4lVE3g8wzoE/edit?resourcekey=&gid=1959176771#gid=1959176771`
 
-## Future AI Insights Plan
+## AI Insights Plan And Implementation
 
-The user wants optional AI-written blurbs that are generated during refreshes and then served as static data. This should not call an LLM from the browser. Keep API keys in GitHub Actions or local environment variables only.
+The user wants optional AI-written blurbs that are generated during refreshes and then served as static data. This must not call an LLM from the browser. Keep API keys in GitHub Actions or local environment variables only.
 
 Preferred provider:
 
@@ -154,10 +157,11 @@ Example `.env.example`:
 
 ```text
 GEMINI_API_KEY=put-your-gemini-key-here
-GEMINI_MODEL=gemini-cheap-model-name
+GEMINI_MODEL=gemini-3.1-flash-lite
+GEMINI_SLEEP_SECONDS=10
 ```
 
-Likely files:
+Implemented files:
 
 ```text
 data/ai-insights.json
@@ -170,9 +174,9 @@ prompts/player.md
 
 Potential insight surfaces:
 
-- Match Details: `More info` for each match.
-- Groups: `Group info` for each group.
-- Players: `More info` for the top 30 players in the Players view.
+- Match Details: `Insights` for each match.
+- Groups: `Insights` for each group.
+- Players: `Insights` for the top 30 players in the Players view.
 
 Spoiler posture:
 
@@ -205,17 +209,19 @@ Cost-control rules:
 - Add `--dry-run` and `--estimate-cost` modes before making paid calls.
 - Log calls attempted, calls skipped by cache, estimated input/output tokens, and estimated cost.
 - Add script-level hard caps such as `--max-calls`, `--max-estimated-cost`, `--max-matches`, `--max-groups`, and `--max-players`.
+- Support targeted test runs with `--match-id`, `--group`, and `--player`; these should restrict the run to exactly those requested objects.
 - Cache by `sourceHash` plus `promptHash`. If neither the data nor the prompt changed, skip the API call.
 - Only commit when `data/ai-insights.json` or `ai-insights.js` actually changes.
 
-Suggested generation cadence:
+Implemented generation cadence:
 
-- Matches more than 48 hours away: skip or refresh rarely.
-- Matches within 48 hours: generate once, then refresh only if relevant source data changes.
-- Match day: allow one pre-match refresh.
-- Completed matches: refresh after the score appears, after highlights appear, and then once per day for two days. After that, freeze unless the prompt changes.
-- Groups: refresh when a group result/standings context changes, otherwise at most once daily during group play.
-- Players: refresh top 30 player blurbs once daily, or when that player's goals/assists/minutes/rank changes.
+- Scheduled GitHub runs use `--mode standard`, spaced by `GEMINI_SLEEP_SECONDS=10`, with a 40-call cap.
+- Future matches with real team names are always considered for population. They refresh immediately if source data or prompts change, otherwise only when weekly stale. Placeholder knockout matches such as `Winner Group A` or `Best 3rd Group...` are skipped until real teams are known.
+- Matches from the past five days are eligible once daily. Any meaningful source change, including status/result/video changes, jumps the match to the front of the next run.
+- `seed` mode is for manual backfill before deployment or after large prompt changes. It considers every planned-team match, every group, and the top 30 players, then still respects `--max-calls` and `--max-estimated-cost`. At `GEMINI_SLEEP_SECONDS=10`, a full 120-call seed can take about 20 minutes, so the workflow timeout is intentionally longer than normal scheduled work needs.
+- Groups refresh immediately when standings or group match context changes, otherwise at most daily during active/recent/upcoming group windows.
+- Players refresh for the top 30 when stats/source context changes, otherwise at most daily.
+- `sourceHash` intentionally excludes volatile generated timestamps so no-op refreshes do not regenerate Insights just because a script ran.
 
 Billing and safety:
 
@@ -230,7 +236,7 @@ GitHub Actions setup:
 - Add `GEMINI_API_KEY` as a repository secret in GitHub.
 - The refresh workflow can call `scripts/update_ai_insights.py` after schedule/player/video data refreshes.
 - The script should exit successfully with a clear log if the secret is missing, unless an explicit `--require-api-key` flag is passed.
-- The GitHub log should show a concise summary line, for example: `AI insights: generated 8, skipped 138, estimated cost $0.01`.
+- The GitHub log should show a concise summary line, for example: `AI insights summary: updated=8; failed=0; queued_for_refresh=12; selected_this_run=8; queued_not_updated=4; skipped_by_cache_or_cadence=90; estimated_cost=$0.01`.
 
 User follow-up question idea:
 
@@ -246,18 +252,21 @@ After UI changes:
 ```bash
 /Users/talg/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check static-app.js
 /Users/talg/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check schedule-data.js
+/Users/talg/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check player-stats.js
+/Users/talg/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check ai-insights.js
 ```
 
 After Python changes:
 
 ```bash
-PYTHONPYCACHEPREFIX=/private/tmp/codex-pycache python3 -m py_compile scripts/update_schedule.py scripts/update_player_stats.py scripts/update_highlights.py scripts/refresh_all.py
+PYTHONPYCACHEPREFIX=/private/tmp/codex-pycache python3 -m py_compile scripts/update_schedule.py scripts/update_player_stats.py scripts/update_highlights.py scripts/update_ai_insights.py scripts/refresh_all.py
 ```
 
 After data refresh:
 
 - Confirm `schedule-data.js` was regenerated.
 - Confirm `player-stats.js` was regenerated after player stat changes.
+- Confirm `ai-insights.js` was regenerated after AI insight changes.
 - Spot-check a completed match with direct links.
 - Spot-check a completed match with no direct links to verify the single `YouTube Search` fallback.
 - Spot-check a future match to verify scores and videos remain quiet.
