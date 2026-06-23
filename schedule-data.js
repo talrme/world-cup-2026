@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-06-22",
+  "generatedAt": "2026-06-23",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -1455,9 +1455,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "France",
       "away": "Iraq",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "philadelphia"
+      "venueId": "philadelphia",
+      "homeScore": 3,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-23T02:05:33+00:00",
+          "title": "France vs Iraq Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=Mo7aY61WF9I",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-23T02:05:33+00:00"
+      }
     },
     {
       "id": 43,
@@ -2294,7 +2310,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-22T19:50:37+00:00",
+  "scheduleUpdatedAt": "2026-06-23T01:50:24+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
