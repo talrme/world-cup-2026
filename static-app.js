@@ -326,6 +326,7 @@
     installOpen: false,
     statsInfoOpen: false,
     playerDetailsKey: null,
+    groupDetailsKey: null,
     bracketStep: 0,
     bracketDirection: "forward",
     shareCopied: false,
@@ -688,6 +689,16 @@
     if (!insightFor("match", match.id)) return "";
     return `
       <button class="${compact ? "tile-insights-button" : "insights-button"}" data-match-insights="${match.id}" type="button" title="Open match insights">
+        <span class="insights-mark" aria-hidden="true"></span>
+        <em>Insights</em>
+      </button>
+    `;
+  }
+
+  function renderGroupInsightsButton(group) {
+    if (!insightFor("group", group)) return "";
+    return `
+      <button class="group-insights-button insights-button" data-group-insights="${escapeHtml(group)}" type="button" title="Open group insights">
         <span class="insights-mark" aria-hidden="true"></span>
         <em>Insights</em>
       </button>
@@ -1476,15 +1487,17 @@
                 <span>Group ${escapeHtml(group)}</span>
                 <strong>${visibleGroupMatches.length} ${visibleGroupMatches.length === 1 ? "match" : "matches"}</strong>
               </div>
-              <button aria-pressed="${revealed ? "true" : "false"}" class="group-reveal" data-group-reveal="${escapeHtml(group)}" type="button">
-                ${revealed ? "Hide scores" : "Show scores"}
-              </button>
+              <div class="group-actions">
+                ${renderGroupInsightsButton(group)}
+                <button aria-pressed="${revealed ? "true" : "false"}" class="group-reveal" data-group-reveal="${escapeHtml(group)}" type="button">
+                  ${revealed ? "Hide scores" : "Show scores"}
+                </button>
+              </div>
             </header>
             <table>
               <thead><tr><th>Team</th><th>Pts</th><th><span class="stat-help" title="Goal difference: goals scored minus goals conceded">GD</span></th><th><span class="stat-help" title="Games played">GP</span></th></tr></thead>
               <tbody>${rows}</tbody>
             </table>
-            ${renderAiInsight("group", group, "Insights")}
             <div class="group-fixtures">${fixtureRows}</div>
           </section>
         `;
@@ -1969,6 +1982,32 @@
             <button aria-label="Close player details" class="icon-button player-details-close" data-player-details-close title="Close player details" type="button">×</button>
           </header>
           <div class="player-details-body">
+            ${insight || `<div class="ai-insight-empty">Insights will appear here after the next AI refresh.</div>`}
+          </div>
+        </section>
+      </div>
+    `;
+  }
+
+  function renderGroupDetailsModal() {
+    const group = state.groupDetailsKey;
+    if (!group) return "";
+
+    const groupMatches = groupMatchesFor(group);
+    const insight = renderAiInsight("group", group, "Insights", { open: true });
+
+    return `
+      <div class="group-details-modal" data-group-details-modal role="dialog" aria-modal="true" aria-label="Group insights">
+        <section class="group-details-panel">
+          <header class="group-details-header">
+            <div>
+              <span class="eyebrow">Group insights</span>
+              <h2>Group ${escapeHtml(group)}</h2>
+              <p>${groupMatches.length} ${groupMatches.length === 1 ? "match" : "matches"}</p>
+            </div>
+            <button aria-label="Close group insights" class="icon-button group-details-close" data-group-details-close title="Close group insights" type="button">×</button>
+          </header>
+          <div class="group-details-body">
             ${insight || `<div class="ai-insight-empty">Insights will appear here after the next AI refresh.</div>`}
           </div>
         </section>
@@ -2607,6 +2646,7 @@
       ${renderFeedbackModal()}
       ${renderShareModal()}
       ${renderInstallModal()}
+      ${renderGroupDetailsModal()}
       ${renderPlayerDetailsModal()}
       ${renderStatsInfoModal()}
       ${renderStadiumMap()}
@@ -2888,6 +2928,20 @@
       return;
     }
 
+    const groupDetailsClose = event.target.closest("[data-group-details-close]");
+    if (groupDetailsClose) {
+      state.groupDetailsKey = null;
+      render();
+      return;
+    }
+
+    const groupDetailsBackdrop = event.target.closest("[data-group-details-modal]");
+    if (groupDetailsBackdrop && event.target === groupDetailsBackdrop) {
+      state.groupDetailsKey = null;
+      render();
+      return;
+    }
+
     const installOpen = event.target.closest("[data-install-open]");
     if (installOpen) {
       state.installOpen = true;
@@ -3125,6 +3179,15 @@
       return;
     }
 
+    const groupInsights = event.target.closest("[data-group-insights]");
+    if (groupInsights) {
+      state.groupDetailsKey = groupInsights.dataset.groupInsights;
+      activeInsightKey = `group:${state.groupDetailsKey}`;
+      state.mobileMenuOpen = false;
+      render();
+      return;
+    }
+
     const leaderSort = event.target.closest("[data-leader-sort]");
     if (leaderSort) {
       state.leaderboardSort = leaderSort.dataset.leaderSort;
@@ -3263,6 +3326,10 @@
     }
     if (event.key === "Escape" && state.playerDetailsKey) {
       state.playerDetailsKey = null;
+      render();
+    }
+    if (event.key === "Escape" && state.groupDetailsKey) {
+      state.groupDetailsKey = null;
       render();
     }
     if (event.key === "Escape" && state.mobileMenuOpen) {

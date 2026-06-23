@@ -1311,6 +1311,14 @@ h1 {
   gap: 4px;
 }
 
+.group-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
 .group-board header span {
   font-size: 1.25rem;
   font-weight: 900;
@@ -1340,6 +1348,12 @@ h1 {
   font-weight: 800;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.group-insights-button {
+  min-height: 34px;
+  padding-bottom: 6px;
+  padding-top: 6px;
 }
 
 .group-board table {
@@ -2940,6 +2954,7 @@ button.bracket-score-cell {
 .feedback-modal,
 .share-modal,
 .install-modal,
+.group-details-modal,
 .player-details-modal,
 .stats-info-modal {
   align-items: center;
@@ -2963,6 +2978,7 @@ button.bracket-score-cell {
 .feedback-panel,
 .share-panel,
 .install-panel,
+.group-details-panel,
 .player-details-panel,
 .stats-info-panel {
   background: rgba(247, 245, 238, 0.97);
@@ -2998,6 +3014,7 @@ button.bracket-score-cell {
 .feedback-panel,
 .share-panel,
 .install-panel,
+.group-details-panel,
 .player-details-panel,
 .stats-info-panel {
   background:
@@ -3022,6 +3039,7 @@ button.bracket-score-cell {
 .feedback-header,
 .share-header,
 .install-header,
+.group-details-header,
 .player-details-header,
 .stats-info-header {
   align-items: start;
@@ -3034,6 +3052,7 @@ button.bracket-score-cell {
 .feedback-header,
 .share-header,
 .install-header,
+.group-details-header,
 .player-details-header,
 .stats-info-header {
   align-items: center;
@@ -3050,6 +3069,7 @@ button.bracket-score-cell {
 .feedback-header .eyebrow,
 .share-header .eyebrow,
 .install-header .eyebrow,
+.group-details-header .eyebrow,
 .player-details-header .eyebrow,
 .stats-info-header .eyebrow {
   color: #138250;
@@ -3069,6 +3089,7 @@ button.bracket-score-cell {
 .feedback-header h2,
 .share-header h2,
 .install-header h2,
+.group-details-header h2,
 .player-details-header h2,
 .stats-info-header h2 {
   font-size: clamp(1.25rem, 3vw, 1.9rem);
@@ -3079,6 +3100,7 @@ button.bracket-score-cell {
 .feedback-header h2,
 .share-header h2,
 .install-header h2,
+.group-details-header h2,
 .player-details-header h2,
 .stats-info-header h2 {
   font-size: clamp(1.9rem, 4vw, 2.6rem);
@@ -3087,6 +3109,7 @@ button.bracket-score-cell {
 .feedback-header p,
 .share-header p,
 .install-header p,
+.group-details-header p,
 .player-details-header p,
 .stats-info-header p {
   color: rgba(247, 245, 238, 0.72);
@@ -3099,6 +3122,7 @@ button.bracket-score-cell {
 .feedback-close,
 .share-close,
 .install-close,
+.group-details-close,
 .player-details-close,
 .stats-info-close {
   background: rgba(247, 245, 238, 0.1);
@@ -3111,6 +3135,7 @@ button.bracket-score-cell {
 .feedback-close:hover,
 .share-close:hover,
 .install-close:hover,
+.group-details-close:hover,
 .player-details-close:hover,
 .stats-info-close:hover {
   background: #f7f5ee;
@@ -3287,6 +3312,15 @@ button.bracket-score-cell {
   -webkit-overflow-scrolling: touch;
 }
 
+.group-details-body {
+  display: block;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 18px;
+  -webkit-overflow-scrolling: touch;
+}
+
 .player-detail-stat-grid {
   display: grid;
   gap: 10px;
@@ -3325,7 +3359,13 @@ button.bracket-score-cell {
   border-color: rgba(66, 211, 146, 0.34);
 }
 
-.player-details-body .ai-insight-empty {
+.group-details-body .ai-insight {
+  background: linear-gradient(180deg, rgba(8, 34, 21, 0.96), rgba(12, 44, 30, 0.94));
+  border-color: rgba(66, 211, 146, 0.34);
+}
+
+.player-details-body .ai-insight-empty,
+.group-details-body .ai-insight-empty {
   background: rgba(16, 18, 15, 0.06);
   border: 1px dashed rgba(16, 18, 15, 0.14);
   border-radius: 8px;
