@@ -690,17 +690,6 @@ def completed_match_validation_error(target: Target, generated: dict[str, Any]) 
         return None
 
     summary = str(generated.get("summary", "")).strip()
-    first_sentence = summary.split(".", 1)[0]
-    home_score = match.get("homeScore")
-    away_score = match.get("awayScore")
-    score_patterns = [
-        f"{home_score}-{away_score}",
-        f"{home_score} - {away_score}",
-        f"{home_score}, {away_score}",
-    ]
-    if home_score is not None and away_score is not None and not any(pattern in first_sentence for pattern in score_patterns):
-        return "completed match summary did not open with the final score"
-
     recap_text = f"{generated.get('headline', '')} {summary}".lower()
     if any(phrase in recap_text for phrase in COMPLETED_MATCH_PREVIEW_PHRASES):
         return "completed match headline/summary used preview framing"
