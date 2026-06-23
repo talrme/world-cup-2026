@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:17:44+00:00",
+  "generatedAt": "2026-06-23T22:46:02+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -208,19 +208,6 @@
     },
     {
       "rank": 15,
-      "player": "Harry Kane",
-      "team": "England",
-      "position": "FW",
-      "goals": 2,
-      "assists": 0,
-      "points": 2,
-      "matches": 2,
-      "minutes": 161,
-      "goalsPer90": 1.1,
-      "pointsPer90": 1.1
-    },
-    {
-      "rank": 16,
       "player": "Daichi Kamada",
       "team": "Japan",
       "position": "FW",
@@ -233,7 +220,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 17,
+      "rank": 16,
       "player": "Folarin Balogun",
       "team": "United States",
       "position": "FW",
@@ -246,7 +233,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 18,
+      "rank": 17,
       "player": "Ismael Saibari",
       "team": "Morocco",
       "position": "FW",
@@ -259,7 +246,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 19,
+      "rank": 18,
       "player": "Yasin Ayari",
       "team": "Sweden",
       "position": "MID",
@@ -272,7 +259,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 20,
+      "rank": 19,
       "player": "Ismaila Sarr",
       "team": "Senegal",
       "position": "MID",
@@ -285,7 +272,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 21,
+      "rank": 20,
       "player": "Elijah Just",
       "team": "New Zealand",
       "position": "MID",
@@ -298,7 +285,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 22,
+      "rank": 21,
       "player": "Kai Havertz",
       "team": "Germany",
       "position": "FW",
@@ -311,7 +298,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 23,
+      "rank": 22,
       "player": "Cristiano Ronaldo",
       "team": "Portugal",
       "position": "FW",
@@ -320,6 +307,19 @@
       "points": 2,
       "matches": 2,
       "minutes": 202,
+      "goalsPer90": 0.9,
+      "pointsPer90": 0.9
+    },
+    {
+      "rank": 23,
+      "player": "Harry Kane",
+      "team": "England",
+      "position": "FW",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "matches": 2,
+      "minutes": 204,
       "goalsPer90": 0.9,
       "pointsPer90": 0.9
     },
@@ -559,19 +559,6 @@
     },
     {
       "rank": 41,
-      "player": "Marcus Rashford",
-      "team": "England",
-      "position": "FW",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 2,
-      "minutes": 24,
-      "goalsPer90": 3.8,
-      "pointsPer90": 3.8
-    },
-    {
-      "rank": 42,
       "player": "Mahmoud Trezeguet",
       "team": "Egypt",
       "position": "FW",
@@ -584,7 +571,7 @@
       "pointsPer90": 3.6
     },
     {
-      "rank": 43,
+      "rank": 42,
       "player": "Jaminton Campaz",
       "team": "Colombia",
       "position": "MID",
@@ -597,7 +584,7 @@
       "pointsPer90": 3.1
     },
     {
-      "rank": 44,
+      "rank": 43,
       "player": "Rafael Leao",
       "team": "Portugal",
       "position": "FW",
@@ -606,6 +593,19 @@
       "points": 1,
       "matches": 2,
       "minutes": 37,
+      "goalsPer90": 2.4,
+      "pointsPer90": 2.4
+    },
+    {
+      "rank": 44,
+      "player": "Marcus Rashford",
+      "team": "England",
+      "position": "FW",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 2,
+      "minutes": 38,
       "goalsPer90": 2.4,
       "pointsPer90": 2.4
     },
@@ -721,7 +721,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 1,
+      "matches": 2,
       "minutes": 71,
       "goalsPer90": 1.3,
       "pointsPer90": 1.3
@@ -760,7 +760,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 1,
+      "matches": 2,
       "minutes": 84,
       "goalsPer90": 1.1,
       "pointsPer90": 1.1
@@ -923,19 +923,6 @@
     },
     {
       "rank": 67,
-      "player": "Jude Bellingham",
-      "team": "England",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 2,
-      "minutes": 145,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
-    },
-    {
-      "rank": 67,
       "player": "Nico Schlotterbeck",
       "team": "Germany",
       "position": "DEF",
@@ -1026,20 +1013,20 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 74,
-      "player": "Caleb Yirenkyi",
-      "team": "Ghana",
+      "rank": 73,
+      "player": "Jude Bellingham",
+      "team": "England",
       "position": "MID",
       "goals": 1,
       "assists": 0,
       "points": 1,
       "matches": 2,
-      "minutes": 166,
+      "minutes": 164,
       "goalsPer90": 0.5,
       "pointsPer90": 0.5
     },
     {
-      "rank": 75,
+      "rank": 74,
       "player": "Abdulelah Al Amri",
       "team": "Saudi Arabia",
       "position": "DEF",
@@ -1052,7 +1039,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 76,
+      "rank": 75,
       "player": "Julian Quinones",
       "team": "Mexico",
       "position": "FW",
@@ -1065,7 +1052,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 77,
+      "rank": 76,
       "player": "Romano Schmid",
       "team": "Austria",
       "position": "MID",
@@ -1078,7 +1065,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 78,
+      "rank": 77,
       "player": "Mohammed Mohebi",
       "team": "Iran",
       "position": "MID",
@@ -1091,7 +1078,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 79,
+      "rank": 78,
       "player": "Kevin Lenini",
       "team": "Cape Verde",
       "position": "MID",
@@ -1104,7 +1091,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 80,
+      "rank": 79,
       "player": "Alexandre Nuno Mendes",
       "team": "Portugal",
       "position": "DEF",
@@ -1117,7 +1104,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 81,
+      "rank": 80,
       "player": "John McGinn",
       "team": "Scotland",
       "position": "MID",
@@ -1130,7 +1117,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 82,
+      "rank": 81,
       "player": "Joao Neves",
       "team": "Portugal",
       "position": "MID",
@@ -1143,7 +1130,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 83,
+      "rank": 82,
       "player": "Livano Comenencia",
       "team": "Curacao",
       "position": "MID",
@@ -1156,7 +1143,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 84,
+      "rank": 83,
       "player": "Virgil van Dijk",
       "team": "Netherlands",
       "position": "DEF",
@@ -1169,7 +1156,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 85,
+      "rank": 84,
       "player": "Omar Rekik",
       "team": "Tunisia",
       "position": "DEF",
@@ -1182,7 +1169,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 85,
+      "rank": 84,
       "player": "Ladislav Krejci",
       "team": "Czechia",
       "position": "DEF",
@@ -1195,7 +1182,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 86,
+      "rank": 85,
       "player": "Teboho Mokoena",
       "team": "South Africa",
       "position": "MID",
@@ -1208,7 +1195,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 87,
+      "rank": 86,
       "player": "Ali Olwan",
       "team": "Jordan",
       "position": "FW",
@@ -1221,7 +1208,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 88,
+      "rank": 87,
       "player": "Granit Xhaka",
       "team": "Switzerland",
       "position": "MID",
@@ -1234,7 +1221,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 89,
+      "rank": 88,
       "player": "Finn Surman",
       "team": "New Zealand",
       "position": "DEF",
@@ -1247,7 +1234,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 90,
+      "rank": 89,
       "player": "Franck Kessie",
       "team": "Ivory Coast",
       "position": "MID",
@@ -1260,7 +1247,20 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 91,
+      "rank": 90,
+      "player": "Caleb Yirenkyi",
+      "team": "Ghana",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 2,
+      "minutes": 209,
+      "goalsPer90": 0.4,
+      "pointsPer90": 0.4
+    },
+    {
+      "rank": 90,
       "player": "Nizar Al Rashdan",
       "team": "Jordan",
       "position": "MID",
