@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-06-23",
+  "generatedAt": "2026-06-24",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -1610,9 +1610,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Panama",
       "away": "Croatia",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "toronto"
+      "venueId": "toronto",
+      "homeScore": 0,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-24T02:06:48+00:00",
+          "title": "Panama vs Croatia Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=EBWpoly7qiE",
+          "channel": "FOX Sports",
+          "durationText": "13 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-24T02:06:48+00:00"
+      }
     },
     {
       "id": 48,
@@ -2374,7 +2390,7 @@ window.WORLD_CUP_DATA = {
       "venueId": "ny-nj"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-23T22:46:02+00:00",
+  "scheduleUpdatedAt": "2026-06-24T01:48:44+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
