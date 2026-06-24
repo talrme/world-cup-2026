@@ -1781,13 +1781,21 @@
     const visibleIds = new Set(
       [...board.querySelectorAll(".bracket-match[data-match-id]")].map((element) => Number(element.dataset.matchId))
     );
-    const paths = [];
+    const connectorsByTarget = new Map();
 
     matches
       .filter((match) => match.stage !== "Group")
       .forEach((target) => {
         const targetElement = board.querySelector(`.bracket-match[data-match-id="${target.id}"]`);
         if (!targetElement) return;
+        const targetRect = targetElement.getBoundingClientRect();
+        const targetConnector = {
+          endX: targetRect.left - boardRect.left,
+          targetY: targetRect.top + targetRect.height / 2 - boardRect.top,
+          sourceIds: [],
+          sources: [],
+          targetId: target.id,
+        };
 
         referencedMatchIds(target).forEach((sourceId) => {
           if (!visibleIds.has(sourceId)) return;
@@ -1795,19 +1803,36 @@
           if (!sourceElement) return;
 
           const sourceRect = sourceElement.getBoundingClientRect();
-          const targetRect = targetElement.getBoundingClientRect();
-          const startX = sourceRect.right - boardRect.left;
-          const startY = sourceRect.top + sourceRect.height / 2 - boardRect.top;
-          const endX = targetRect.left - boardRect.left;
-          const endY = targetRect.top + targetRect.height / 2 - boardRect.top;
-          const midX = startX + Math.max(16, (endX - startX) / 2);
-          paths.push({
-            d: `M ${startX.toFixed(1)} ${startY.toFixed(1)} H ${midX.toFixed(1)} V ${endY.toFixed(1)} H ${endX.toFixed(1)}`,
-            sourceId,
-            targetId: target.id,
+          targetConnector.sourceIds.push(sourceId);
+          targetConnector.sources.push({
+            startX: sourceRect.right - boardRect.left,
+            startY: sourceRect.top + sourceRect.height / 2 - boardRect.top,
           });
         });
+
+        if (targetConnector.sources.length) {
+          connectorsByTarget.set(target.id, targetConnector);
+        }
       });
+
+    const paths = [...connectorsByTarget.values()].map((connector) => {
+      const maxStartX = Math.max(...connector.sources.map((source) => source.startX));
+      const columnGap = connector.endX - maxStartX;
+      const trunkX = maxStartX + (columnGap > 0 ? Math.max(4, columnGap / 2) : columnGap / 2);
+      const ys = [...connector.sources.map((source) => source.startY), connector.targetY];
+      const minY = Math.min(...ys);
+      const maxY = Math.max(...ys);
+      const d = [
+        ...connector.sources.map((source) => `M ${source.startX.toFixed(1)} ${source.startY.toFixed(1)} H ${trunkX.toFixed(1)}`),
+        `M ${trunkX.toFixed(1)} ${minY.toFixed(1)} V ${maxY.toFixed(1)}`,
+        `M ${trunkX.toFixed(1)} ${connector.targetY.toFixed(1)} H ${connector.endX.toFixed(1)}`,
+      ].join(" ");
+      return {
+        d,
+        sourceIds: connector.sourceIds,
+        targetId: connector.targetId,
+      };
+    });
 
     layer.setAttribute("viewBox", `0 0 ${boardRect.width.toFixed(1)} ${boardRect.height.toFixed(1)}`);
     layer.setAttribute("width", boardRect.width.toFixed(1));
@@ -1816,7 +1841,7 @@
       ...paths.map((pathData) => {
         const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
         path.setAttribute("d", pathData.d);
-        path.dataset.sourceId = String(pathData.sourceId);
+        path.dataset.sourceIds = pathData.sourceIds.join(",");
         path.dataset.targetId = String(pathData.targetId);
         return path;
       })
@@ -2563,6 +2588,12 @@
     return chrome ? Math.ceil(chrome.getBoundingClientRect().height + 14) : 0;
   }
 
+  function syncStickyChromeHeight() {
+    const chrome = app.querySelector(".page-chrome");
+    const height = chrome ? Math.ceil(chrome.getBoundingClientRect().height) : 0;
+    app.style.setProperty("--sticky-chrome-height", `${height}px`);
+  }
+
   function todayKey() {
     return inputDateValue(state.now);
   }
@@ -2721,6 +2752,7 @@
     `;
 
     syncUrlState();
+    syncStickyChromeHeight();
     syncMobileMenuDom();
     settleViewScroll();
     requestTodayJumpUpdate();
@@ -2742,6 +2774,7 @@
     if (deck) {
       deck.classList.toggle("is-open", state.mobileMenuOpen);
     }
+    syncStickyChromeHeight();
   }
 
   function setMobileMenuOpen(open) {
@@ -3399,6 +3432,7 @@
   document.addEventListener("touchmove", closeMobileMenuFromOutsideScroll, { passive: true });
   window.addEventListener("scroll", handleWindowScroll, { passive: true });
   window.addEventListener("resize", () => {
+    syncStickyChromeHeight();
     requestTodayJumpUpdate();
     requestBracketLineUpdate();
   });

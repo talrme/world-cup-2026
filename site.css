@@ -1860,6 +1860,7 @@ h1 {
 }
 
 .bracket-view {
+  align-items: start;
   display: grid;
   gap: 12px;
   min-width: 0;
@@ -1871,10 +1872,15 @@ h1 {
     linear-gradient(180deg, color-mix(in srgb, var(--surface) 92%, transparent), color-mix(in srgb, var(--surface-strong) 74%, transparent));
   border: 1px solid var(--line);
   border-radius: 999px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(14px);
   display: grid;
   gap: 4px;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   padding: 5px;
+  position: sticky;
+  top: calc(var(--sticky-chrome-height, 0px) + 10px);
+  z-index: 11;
 }
 
 .bracket-round-picker button {
@@ -2468,6 +2474,7 @@ button.bracket-score-cell {
 .bracket-line-layer path {
   fill: none;
   filter: drop-shadow(0 0 7px color-mix(in srgb, var(--accent) 36%, transparent));
+  opacity: 0.95;
   stroke: color-mix(in srgb, var(--accent) 78%, var(--accent-3));
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -2613,6 +2620,13 @@ button.bracket-score-cell {
     --bracket-connector-half-gap: 6px;
     grid-template-columns: repeat(var(--bracket-rounds, 3), minmax(226px, 1fr));
     min-width: max(100%, calc(var(--bracket-min-width, 870px) - 120px));
+  }
+
+  .bracket-line-layer path {
+    filter: drop-shadow(0 0 3px color-mix(in srgb, var(--accent) 18%, transparent));
+    opacity: 0.72;
+    stroke: color-mix(in srgb, var(--accent) 68%, var(--line));
+    stroke-width: 2;
   }
 
   .bracket-board-linear.is-step-0 {
