@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T09:48:41+00:00",
+  "generatedAt": "2026-06-24T19:15:56+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -71,10 +71,10 @@
       "goals": 3,
       "assists": 0,
       "points": 3,
-      "matches": 2,
-      "minutes": 170,
-      "goalsPer90": 1.6,
-      "pointsPer90": 1.6
+      "matches": 3,
+      "minutes": 184,
+      "goalsPer90": 1.5,
+      "pointsPer90": 1.5
     },
     {
       "rank": 6,
@@ -162,10 +162,10 @@
       "goals": 2,
       "assists": 0,
       "points": 2,
-      "matches": 2,
-      "minutes": 59,
-      "goalsPer90": 3.1,
-      "pointsPer90": 3.1
+      "matches": 3,
+      "minutes": 72,
+      "goalsPer90": 2.5,
+      "pointsPer90": 2.5
     },
     {
       "rank": 12,
@@ -201,10 +201,10 @@
       "goals": 2,
       "assists": 0,
       "points": 2,
-      "matches": 2,
-      "minutes": 126,
-      "goalsPer90": 1.4,
-      "pointsPer90": 1.4
+      "matches": 3,
+      "minutes": 139,
+      "goalsPer90": 1.3,
+      "pointsPer90": 1.3
     },
     {
       "rank": 15,
@@ -370,10 +370,10 @@
       "goals": 1,
       "assists": 1,
       "points": 2,
-      "matches": 2,
-      "minutes": 43,
-      "goalsPer90": 2.1,
-      "pointsPer90": 4.2
+      "matches": 3,
+      "minutes": 56,
+      "goalsPer90": 1.6,
+      "pointsPer90": 3.2
     },
     {
       "rank": 28,
@@ -383,10 +383,10 @@
       "goals": 1,
       "assists": 1,
       "points": 2,
-      "matches": 2,
-      "minutes": 111,
-      "goalsPer90": 0.8,
-      "pointsPer90": 1.6
+      "matches": 3,
+      "minutes": 125,
+      "goalsPer90": 0.7,
+      "pointsPer90": 1.4
     },
     {
       "rank": 29,
@@ -468,19 +468,6 @@
     },
     {
       "rank": 34,
-      "player": "Breel Embolo",
-      "team": "Switzerland",
-      "position": "FW",
-      "goals": 1,
-      "assists": 1,
-      "points": 2,
-      "matches": 2,
-      "minutes": 195,
-      "goalsPer90": 0.5,
-      "pointsPer90": 0.9
-    },
-    {
-      "rank": 35,
       "player": "Luis Diaz",
       "team": "Colombia",
       "position": "FW",
@@ -493,7 +480,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 36,
+      "rank": 35,
       "player": "Viktor Gyokeres",
       "team": "Sweden",
       "position": "FW",
@@ -506,7 +493,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 37,
+      "rank": 36,
       "player": "Ramin Rezaeian",
       "team": "Iran",
       "position": "MID",
@@ -515,6 +502,19 @@
       "points": 2,
       "matches": 2,
       "minutes": 205,
+      "goalsPer90": 0.4,
+      "pointsPer90": 0.9
+    },
+    {
+      "rank": 37,
+      "player": "Breel Embolo",
+      "team": "Switzerland",
+      "position": "FW",
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "matches": 3,
+      "minutes": 208,
       "goalsPer90": 0.4,
       "pointsPer90": 0.9
     },
@@ -539,7 +539,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 2,
+      "matches": 3,
       "minutes": 7,
       "goalsPer90": 12.9,
       "pointsPer90": 12.9
@@ -760,7 +760,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 2,
+      "matches": 3,
       "minutes": 77,
       "goalsPer90": 1.2,
       "pointsPer90": 1.2
@@ -1222,19 +1222,6 @@
     },
     {
       "rank": 88,
-      "player": "Granit Xhaka",
-      "team": "Switzerland",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 2,
-      "minutes": 204,
-      "goalsPer90": 0.4,
-      "pointsPer90": 0.4
-    },
-    {
-      "rank": 89,
       "player": "Finn Surman",
       "team": "New Zealand",
       "position": "DEF",
@@ -1247,7 +1234,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 90,
+      "rank": 89,
       "player": "Franck Kessie",
       "team": "Ivory Coast",
       "position": "MID",
@@ -1260,7 +1247,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 91,
+      "rank": 90,
       "player": "Caleb Yirenkyi",
       "team": "Ghana",
       "position": "MID",
@@ -1273,7 +1260,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 91,
+      "rank": 90,
       "player": "Nizar Al Rashdan",
       "team": "Jordan",
       "position": "MID",
@@ -1282,6 +1269,19 @@
       "points": 1,
       "matches": 2,
       "minutes": 209,
+      "goalsPer90": 0.4,
+      "pointsPer90": 0.4
+    },
+    {
+      "rank": 91,
+      "player": "Granit Xhaka",
+      "team": "Switzerland",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 3,
+      "minutes": 217,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
     }
