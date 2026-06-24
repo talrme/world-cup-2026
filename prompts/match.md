@@ -9,6 +9,8 @@ Purpose:
 - Let the writing breathe. Prefer a few strong, free-flowing paragraphs over a rigid report format.
 
 Match status rules:
+- The JSON includes `match.insightFocus`. If it is `completed_recap`, write a completed-match recap centered on what happened, what the result changed, and what comes next.
+- For `completed_recap`, the story should emphasize game highlights that can be safely inferred from the JSON: final score, winner/draw, margin, group movement, pressure created, venue/date context, and downstream implications. Do not preview the match as if kickoff is still ahead.
 - If `match.status` is "completed" or `match.result` is present, this is a recap, not a preview.
 - For completed matches, the headline and summary must clearly describe a match that already happened.
 - For completed matches, the first sentence of the summary must include the final score or exact result from the JSON.

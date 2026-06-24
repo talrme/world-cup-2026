@@ -9,6 +9,7 @@ import hashlib
 import json
 import math
 import os
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -189,6 +190,15 @@ def match_result_text(match: dict[str, Any]) -> str | None:
     return f"{match['home']} {match['homeScore']}, {match['away']} {match['awayScore']}"
 
 
+def match_insight_focus(match: dict[str, Any]) -> str:
+    status = str(match.get("status", "")).strip().lower()
+    if has_score(match) or status in {"completed", "final"}:
+        return "completed_recap"
+    if status in LIVE_STATUS_VALUES:
+        return "in_progress"
+    return "preview"
+
+
 def standings_for(group_matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
     table: dict[str, dict[str, Any]] = {}
     for match in group_matches:
@@ -243,6 +253,7 @@ def compact_match(match: dict[str, Any]) -> dict[str, Any]:
         "home": match.get("home"),
         "away": match.get("away"),
         "status": match.get("status"),
+        "insightFocus": match_insight_focus(match),
         "result": match_result_text(match),
         "homeScore": match.get("homeScore"),
         "awayScore": match.get("awayScore"),
@@ -434,6 +445,9 @@ def match_target_reason_and_priority(
     source_changed = cached_source_or_prompt_changed(target, existing)
     if source_changed:
         return True, "source or prompt changed", (0, abs(delta_hours), sort_id)
+    cache_issue = completed_match_cache_issue(target, existing)
+    if cache_issue:
+        return True, cache_issue, (0, abs(delta_hours), sort_id)
     if is_live_match(match, now):
         return True, "live or in-progress match", (1, abs(delta_hours), sort_id)
     if is_recent_past_match(match, now):
@@ -618,6 +632,8 @@ def should_refresh(target: Target, existing: dict[str, Any] | None, force: bool)
         return True
     if existing.get("sourceHash") != target.source_hash or existing.get("promptHash") != target.prompt_hash:
         return True
+    if completed_match_cache_issue(target, existing):
+        return True
 
     updated = parse_time(existing.get("updatedAt"))
     if not updated:
@@ -654,22 +670,75 @@ GENERIC_HIGHLIGHT_PHRASES = (
     "video links",
 )
 
-COMPLETED_MATCH_PREVIEW_PHRASES = (
-    "meet in",
-    "meets in",
-    "face off",
-    "enter this match",
-    "enters this match",
-    "set to play",
-    "scheduled to play",
-    "upcoming clash",
-    "what to watch",
+COMPLETED_MATCH_PREVIEW_PATTERNS = (
+    r"\bfaces?\b",
+    r"\bmeets?\b",
+    r"\bsquare(?:s|d)? off\b",
+    r"\blook(?:s|ing)? to\b",
+    r"\bseek(?:s|ing)?\b",
+    r"\bneed(?:s|ed|ing)?\s+(?:a\s+|the\s+)?(?:win|victory|result|points?)\b",
+    r"\bdesperate for\b",
+    r"\bprepare(?:s|d|ing)? to\b",
+    r"\bhead(?:s|ed|ing)? into (?:this|the) (?:match|fixture|clash|game)\b",
+    r"\benter(?:s|ed|ing)? (?:this|the) (?:match|fixture|clash|game)\b",
+    r"\bset to\b",
+    r"\bscheduled to\b",
+    r"\bupcoming\b",
+    r"\bwhat to watch\b",
 )
 
 
 def is_generic_highlight_text(text: str) -> bool:
     lowered = text.lower()
     return any(phrase in lowered for phrase in GENERIC_HIGHLIGHT_PHRASES)
+
+
+def completed_match_score_present(target: Target, text: str) -> bool:
+    match = target.context.get("match", {})
+    if match.get("homeScore") is None or match.get("awayScore") is None:
+        return True
+
+    home_score = str(match.get("homeScore"))
+    away_score = str(match.get("awayScore"))
+    lowered = text.lower()
+    patterns = (
+        rf"\b{re.escape(home_score)}\s*[-\u2013\u2014]\s*{re.escape(away_score)}\b",
+        rf"\b{re.escape(home_score)}\s+to\s+{re.escape(away_score)}\b",
+        rf"\b{re.escape(str(match.get('home', '')).lower())}\s+{re.escape(home_score)}\s*,\s*"
+        rf"{re.escape(str(match.get('away', '')).lower())}\s+{re.escape(away_score)}\b",
+    )
+    return any(re.search(pattern, lowered) for pattern in patterns)
+
+
+def completed_match_final_sentence(target: Target) -> str | None:
+    match = target.context.get("match", {})
+    if match.get("homeScore") is None or match.get("awayScore") is None:
+        return None
+    return f"Final: {match.get('home')} {match.get('homeScore')}, {match.get('away')} {match.get('awayScore')}."
+
+
+def completed_match_preview_framing(text: str) -> bool:
+    lowered = f" {text.lower()} "
+    return any(re.search(pattern, lowered) for pattern in COMPLETED_MATCH_PREVIEW_PATTERNS)
+
+
+def completed_match_cache_issue(target: Target, existing: dict[str, Any] | None) -> str | None:
+    if target.kind != "match" or not existing:
+        return None
+
+    match = target.context.get("match", {})
+    if match.get("insightFocus") != "completed_recap" and not match.get("result"):
+        return None
+
+    headline = str(existing.get("headline", ""))
+    summary = str(existing.get("summary", ""))
+    key_text = f"{headline} {summary}"
+
+    if completed_match_preview_framing(key_text):
+        return "completed match insight still reads like a preview"
+    if not completed_match_score_present(target, f"{headline} {summary}"):
+        return "completed match insight does not clearly include the final score"
+    return None
 
 
 def clean_generated(value: Any, kind: str) -> dict[str, Any]:
@@ -722,15 +791,39 @@ def completed_match_validation_error(target: Target, generated: dict[str, Any]) 
         return None
 
     match = target.context.get("match", {})
-    if str(match.get("status", "")).lower() != "completed" and not match.get("result"):
+    if match.get("insightFocus") != "completed_recap" and not match.get("result"):
         return None
 
     summary = str(generated.get("summary", "")).strip()
-    recap_text = f"{generated.get('headline', '')} {summary}".lower()
-    if any(phrase in recap_text for phrase in COMPLETED_MATCH_PREVIEW_PHRASES):
+    recap_text = f"{generated.get('headline', '')} {summary}"
+    if completed_match_preview_framing(recap_text):
         return "completed match headline/summary used preview framing"
+    if not completed_match_score_present(target, recap_text):
+        return "completed match summary did not clearly include the final score"
 
     return None
+
+
+def normalize_completed_match_generated(target: Target, generated: dict[str, Any]) -> dict[str, Any]:
+    if target.kind != "match":
+        return generated
+
+    match = target.context.get("match", {})
+    if match.get("insightFocus") != "completed_recap" and not match.get("result"):
+        return generated
+
+    headline = str(generated.get("headline", "")).strip()
+    summary = str(generated.get("summary", "")).strip()
+    if completed_match_score_present(target, f"{headline} {summary}"):
+        return generated
+
+    final_sentence = completed_match_final_sentence(target)
+    if not final_sentence:
+        return generated
+
+    generated = generated.copy()
+    generated["summary"] = f"{final_sentence} {summary}".strip()
+    return generated
 
 
 def call_gemini(target: Target, api_key: str, model: str, timeout: int) -> dict[str, Any]:
@@ -766,7 +859,7 @@ def call_gemini(target: Target, api_key: str, model: str, timeout: int) -> dict[
     text = "".join(part.get("text", "") for part in parts)
     if not text:
         raise ValueError("Gemini response did not contain text")
-    generated = clean_generated(json.loads(text), target.kind)
+    generated = normalize_completed_match_generated(target, clean_generated(json.loads(text), target.kind))
     validation_error = completed_match_validation_error(target, generated)
     if validation_error:
         raise ValueError(validation_error)
@@ -780,6 +873,7 @@ def build_entry(target: Target, generated: dict[str, Any], model: str) -> dict[s
         "sourceHash": target.source_hash,
         "promptHash": target.prompt_hash,
         "model": model,
+        "refreshReason": target.reason,
     }
 
 
