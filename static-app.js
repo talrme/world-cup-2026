@@ -1619,6 +1619,44 @@
     return [...children, match];
   }
 
+  function bracketOrderMap(knockout) {
+    const byId = new Map(knockout.map((match) => [match.id, match]));
+    const seen = new Set();
+    const ordered = [];
+
+    function visit(match) {
+      if (!match || seen.has(match.id)) return;
+      seen.add(match.id);
+      referencedMatchIds(match).forEach((id) => visit(byId.get(id)));
+      ordered.push(match);
+    }
+
+    knockout
+      .filter((match) => match.stage === "Final")
+      .sort((a, b) => a.id - b.id)
+      .forEach(visit);
+
+    knockout
+      .filter((match) => match.stage === "Third Place")
+      .sort((a, b) => a.id - b.id)
+      .forEach(visit);
+
+    knockout
+      .filter((match) => !seen.has(match.id))
+      .sort((a, b) => a.id - b.id)
+      .forEach(visit);
+
+    return new Map(ordered.map((match, index) => [match.id, index]));
+  }
+
+  function compareBracketOrder(orderMap) {
+    return (a, b) => {
+      const aOrder = orderMap.get(a.id);
+      const bOrder = orderMap.get(b.id);
+      return (aOrder ?? Number.MAX_SAFE_INTEGER) - (bOrder ?? Number.MAX_SAFE_INTEGER) || a.id - b.id;
+    };
+  }
+
   function bracketScoreCell(match, side) {
     if (!hasScore(match)) return `<span class="bracket-score-cell">${isScorePending(match) ? "--" : ""}</span>`;
     const visible = isScoreVisible(match);
@@ -1723,7 +1761,7 @@
     `;
   }
 
-  function bracketStageMatches(stage, knockout) {
+  function bracketStageMatches(stage, knockout, orderMap) {
     if (stage === "Finals") {
       return knockout
         .filter((match) => match.stage === "Final" || match.stage === "Third Place")
@@ -1733,7 +1771,7 @@
         });
     }
 
-    return knockout.filter((match) => match.stage === stage).sort((a, b) => a.id - b.id);
+    return knockout.filter((match) => match.stage === stage).sort(compareBracketOrder(orderMap));
   }
 
   function scrollBracket(direction) {
@@ -1753,8 +1791,9 @@
     const visibleStages = bracketStages.slice(bracketStartIndex());
     const bracketMinWidth = visibleStages.length * 290 + Math.max(0, visibleStages.length - 1) * 18;
     const firstStage = visibleStages[0] || bracketStages[0];
+    const orderMap = bracketOrderMap(knockout);
     const columns = visibleStages
-      .map((stage) => renderBracketRound(stage.label, bracketStageMatches(stage.stage, knockout), stage.className))
+      .map((stage) => renderBracketRound(stage.label, bracketStageMatches(stage.stage, knockout, orderMap), stage.className))
       .join("");
 
     return `
@@ -1786,6 +1825,7 @@
     matches
       .filter((match) => match.stage !== "Group")
       .forEach((target) => {
+        if (target.stage === "Third Place") return;
         const targetElement = board.querySelector(`.bracket-match[data-match-id="${target.id}"]`);
         if (!targetElement) return;
         const targetRect = targetElement.getBoundingClientRect();

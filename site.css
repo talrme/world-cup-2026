@@ -2459,6 +2459,10 @@ button.bracket-score-cell {
   overflow: visible;
 }
 
+.bracket-board-linear .bracket-round-sf .bracket-column-stack {
+  align-content: space-around;
+}
+
 .bracket-board-linear .bracket-match {
   z-index: 2;
 }
