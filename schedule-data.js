@@ -1676,9 +1676,11 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Switzerland",
       "away": "Canada",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "vancouver"
+      "venueId": "vancouver",
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "id": 50,
@@ -2032,13 +2034,14 @@ window.WORLD_CUP_DATA = {
       "date": "2026-06-28",
       "time": "15:00",
       "home": "Runner-up Group A",
-      "away": "Runner-up Group B",
+      "away": "Canada",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "los-angeles",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760486"
+      "espnEventId": "760486",
+      "awaySource": "Runner-up Group B"
     },
     {
       "id": 74,
@@ -2214,14 +2217,15 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-07-02",
       "time": "23:00",
-      "home": "Winner Group B",
+      "home": "Switzerland",
       "away": "Best 3rd Group E/F/G/I/J",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "vancouver",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760498"
+      "espnEventId": "760498",
+      "homeSource": "Winner Group B"
     },
     {
       "id": 86,
@@ -2510,7 +2514,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-24T12:11:28+00:00",
+  "scheduleUpdatedAt": "2026-06-24T21:00:24+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2674,6 +2678,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-24T05:03:18+00:00",
+  "bracketUpdatedAt": "2026-06-24T21:00:25+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
