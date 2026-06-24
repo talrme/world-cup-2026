@@ -1645,7 +1645,7 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Colombia",
       "away": "DR Congo",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "guadalajara",
       "videos": {
@@ -1661,7 +1661,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-24T10:04:39+00:00"
-      }
+      },
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "id": 49,
@@ -2508,7 +2510,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-24T01:48:44+00:00",
+  "scheduleUpdatedAt": "2026-06-24T12:11:28+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
