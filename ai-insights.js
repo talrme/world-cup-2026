@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-23T08:40:13+00:00",
+  "generatedAt": "2026-06-24T04:57:27+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Five-Goal Outing",
@@ -1466,6 +1466,88 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "updatedAt": "2026-06-23T08:34:13+00:00",
       "sourceHash": "b5729f309a9a6d82",
       "promptHash": "57646bcc10d22905",
+      "model": "gemini-3.1-flash-lite"
+    },
+    "74": {
+      "headline": "Germany Awaits Round of 32 Opponent in Boston",
+      "summary": "Germany has officially secured their place in the Round of 32 as the winner of Group E. They are now set to play at Boston Stadium on June 29, awaiting the final determination of their opponent from the third-place qualification matrix.",
+      "story": [
+        "Germany enters the knockout phase with momentum after a strong performance in Group E, including a dominant 7-1 victory over Curacao and a hard-fought 2-1 win against Ivory Coast. Having secured the top spot in their group, they have earned a favorable position in the bracket as they head to Foxborough, Massachusetts.",
+        "The opponent for this match remains one of the most intriguing variables of the tournament. The slot is currently designated for the 'Best 3rd Group A/B/C/D/F', meaning Germany will face a team that successfully navigated the complex third-place qualification criteria from across those five groups. This structure ensures that Germany will face a side that fought through high-stakes scenarios to keep their tournament dreams alive.",
+        "The match is scheduled for June 29 at 16:30 ET at Gillette Stadium. Because the opponent is tied to the performance of multiple groups, the identity of the challenger will only be confirmed once the final group stage matches conclude. Germany will need to remain disciplined, as they will be preparing for a team that has already demonstrated resilience under pressure to qualify.",
+        "This Round of 32 encounter represents a significant test for Germany, as knockout football demands a different level of tactical awareness compared to group play. While Germany has shown offensive firepower, the uncertainty of their opponent means they must be prepared for a variety of playing styles and tactical setups that could emerge from the diverse pool of eligible third-place finishers."
+      ],
+      "bullets": [
+        "Germany confirmed as Winner of Group E.",
+        "Opponent will be the Best 3rd-placed team from Group A, B, C, D, or F.",
+        "Match takes place at Boston Stadium (Gillette Stadium) on June 29 at 16:30 ET.",
+        "Germany enters the knockout stage following group wins against Curacao and Ivory Coast."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-24T04:56:25+00:00",
+      "sourceHash": "4ae8b722541e951b",
+      "promptHash": "9a88f27249ffb299",
+      "model": "gemini-3.1-flash-lite"
+    },
+    "79": {
+      "headline": "Mexico Prepares for Round of 32 Showdown at Estadio Azteca",
+      "summary": "Mexico has secured their spot in the Round of 32 as the Winner of Group A, setting up a high-stakes knockout match at the iconic Estadio Azteca. They currently await the final determination of their opponent, who will emerge from the complex third-place qualification matrix.",
+      "story": [
+        "Mexico enters the knockout stage with momentum after a strong showing in Group A. Having already defeated South Africa 2-0 and South Korea 1-0, the team has proven their defensive resilience and ability to secure results under pressure. Their final group stage match against Czechia on June 24 serves as the final tune-up before they transition into the high-stakes environment of the Round of 32.",
+        "The identity of Mexico's opponent remains one of the most intriguing variables of the tournament. The slot is reserved for the 'Best 3rd Group C/E/F/H/I,' meaning the matchup will be dictated by the final point totals and goal differentials across five different groups. This uncertainty prevents early tactical preparation, as Mexico could face a variety of playing styles depending on which nation manages to scrape through as one of the top-performing third-place finishers.",
+        "Hosting this match at Estadio Azteca in Mexico City provides a massive advantage for the home side. The atmosphere in such a legendary venue will undoubtedly be electric, providing a significant boost as they look to navigate the path toward the later stages of the tournament. With the kickoff scheduled for June 30 at 21:00 ET, the home crowd will be expecting a deep run.",
+        "For fans and analysts, the key to this match lies in the qualification matrix. Because the opponent is not fixed, observers should keep a close eye on the final standings of Groups C, E, F, H, and I. Once the group stage concludes, the specific team emerging from this pool will bring their own unique challenges, making this one of the most unpredictable pairings in the bracket."
+      ],
+      "bullets": [
+        "Mexico is confirmed as the Winner of Group A, earning them the right to host this Round of 32 match.",
+        "The opponent is currently unresolved and will be determined by the performance of third-place teams from Groups C, E, F, H, and I.",
+        "The match is set for June 30 at 21:00 ET at the historic Estadio Azteca in Mexico City.",
+        "Mexico enters the knockout phase with two consecutive clean sheet victories in group play."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-24T04:56:42+00:00",
+      "sourceHash": "09abf50033ab14f1",
+      "promptHash": "9a88f27249ffb299",
+      "model": "gemini-3.1-flash-lite"
+    },
+    "81": {
+      "headline": "United States Secures Path to Round of 32 at Levi's Stadium",
+      "summary": "The United States has officially punched its ticket to the Round of 32 as the winner of Group D. They are now set to host a high-stakes knockout match in Santa Clara on July 1, 2026, awaiting the final outcome of the third-place qualification matrix.",
+      "story": [
+        "The United States enters this knockout stage with significant momentum, having dominated Group D with decisive victories over Paraguay and Australia. By securing the top spot in their group, the U.S. has earned a favorable position in the bracket, culminating in this Round of 32 clash at Levi's Stadium in the San Francisco Bay Area.",
+        "The identity of the opponent remains one of the most intriguing variables of the tournament. The slot is reserved for the 'Best 3rd Group B/E/F/I/J,' meaning the U.S. will face a team that navigated a complex path through the group stage. Because this opponent is determined by the third-place qualification matrix, the final matchup will only be confirmed once all group stage matches for those specific groups conclude.",
+        "Playing at home in California provides a massive atmospheric advantage for the U.S. squad. The team has shown tactical efficiency throughout their group campaign, and this match represents the first step in their quest to progress deeper into the tournament bracket. The uncertainty regarding the opponent adds a layer of preparation complexity, as the coaching staff must analyze potential tactical profiles from five different groups.",
+        "As the tournament moves into the knockout phase, the stakes shift dramatically. With no second chances, the U.S. will rely on the form that saw them score six goals across their first two matches. Fans should keep a close eye on the final standings of Groups B, E, F, I, and J, as the specific opponent will emerge from the pool of teams that finished third but performed well enough to advance."
+      ],
+      "bullets": [
+        "Confirmed Venue: Levi's Stadium, Santa Clara, California.",
+        "Kickoff is set for July 1, 2026, at 20:00 ET.",
+        "The opponent will be the highest-ranked third-place finisher from Groups B, E, F, I, or J.",
+        "The U.S. enters this match as the winner of Group D following a strong start against Paraguay and Australia."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-24T04:56:55+00:00",
+      "sourceHash": "4182705bdc24e829",
+      "promptHash": "9a88f27249ffb299",
+      "model": "gemini-3.1-flash-lite"
+    },
+    "86": {
+      "headline": "Argentina Eyes Round of 32 at Hard Rock Stadium",
+      "summary": "Argentina has secured their place in the Round of 32 as the Winner of Group J. They now await the runner-up of Group H to determine their first opponent in the knockout stage. This match is scheduled for July 3, 2026, at Hard Rock Stadium in Miami Gardens.",
+      "story": [
+        "The identity of their opponent remains the primary variable in this bracket. The slot is reserved for the Runner-up of Group H, meaning Argentina will face a team that successfully navigated the group stage but finished behind the group leader. Because the final standings in Group H are still being determined, the specific tactical profile of the opponent is currently unknown.",
+        "Playing at Hard Rock Stadium adds a significant layer to this fixture. As the tournament progresses, the intensity of the knockout rounds often shifts the focus toward managing fatigue and adapting to different styles of play. Argentina will need to maintain the defensive rigor they displayed in their opening group matches to ensure they advance to the next round.",
+        "For fans and analysts, the build-up to this match centers on how the Runner-up from Group H will attempt to disrupt Argentina's rhythm. While Argentina enters as the clear favorite based on their group-stage form, the single-elimination nature of the Round of 32 ensures that any opponent emerging from Group H will be playing with high stakes and the potential to cause an upset."
+      ],
+      "bullets": [
+        "Argentina qualified for this spot by winning Group J, following strong performances against Algeria and Austria.",
+        "The opponent is confirmed only as the Runner-up of Group H, with the final matchup determined by the conclusion of group play.",
+        "The match is set for July 3, 2026, at 18:00 ET, hosted at Hard Rock Stadium in Miami Gardens."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-24T04:57:27+00:00",
+      "sourceHash": "ad06a83cf1f4b233",
+      "promptHash": "9a88f27249ffb299",
       "model": "gemini-3.1-flash-lite"
     }
   },

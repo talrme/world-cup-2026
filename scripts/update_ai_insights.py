@@ -27,6 +27,7 @@ DEFAULT_MODEL = "gemini-3.1-flash-lite"
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 PROMPTS = {
     "match": ROOT / "prompts" / "match.md",
+    "match_partial": ROOT / "prompts" / "match_partial.md",
     "group": ROOT / "prompts" / "group.md",
     "player": ROOT / "prompts" / "player.md",
 }
@@ -248,16 +249,33 @@ def compact_match(match: dict[str, Any]) -> dict[str, Any]:
         "network": match.get("network"),
         "hasHighlights": bool(match.get("videos", {}).get("short", {}).get("url")),
         "hasExtendedHighlights": bool(match.get("videos", {}).get("extended", {}).get("url")),
+        "homeSource": match.get("homeSource"),
+        "awaySource": match.get("awaySource"),
+        "espnEventId": match.get("espnEventId"),
     }
 
 
 def match_context(match: dict[str, Any], schedule: dict[str, Any], groups: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
     venues = {venue.get("id"): venue for venue in schedule.get("venues", [])}
     venue = venues.get(match.get("venueId"))
+    known_teams = [team for team in (match.get("home"), match.get("away")) if planned_team_name(team)]
+    unknown_slots = [team for team in (match.get("home"), match.get("away")) if not planned_team_name(team)]
+    team_matches = {
+        team: [
+            compact_match(item)
+            for item in schedule.get("matches", [])
+            if item.get("id") != match.get("id") and (item.get("home") == team or item.get("away") == team)
+        ][:8]
+        for team in known_teams
+    }
     context: dict[str, Any] = {
         "kind": "match",
         "match": compact_match(match),
         "venue": venue,
+        "knownTeamCount": len(known_teams),
+        "knownTeams": known_teams,
+        "unknownSlots": unknown_slots,
+        "teamMatches": team_matches,
     }
     group = match.get("group")
     if group and group in groups:
@@ -291,8 +309,14 @@ def player_context(player: dict[str, Any], schedule: dict[str, Any]) -> dict[str
     }
 
 
-def read_prompt(kind: str) -> str:
-    return PROMPTS[kind].read_text(encoding="utf-8").strip()
+def prompt_key(kind: str, context: dict[str, Any]) -> str:
+    if kind == "match" and context.get("knownTeamCount") == 1:
+        return "match_partial"
+    return kind
+
+
+def read_prompt(kind: str, context: dict[str, Any]) -> str:
+    return PROMPTS[prompt_key(kind, context)].read_text(encoding="utf-8").strip()
 
 
 def build_target(
@@ -304,7 +328,7 @@ def build_target(
     reason: str,
     priority: tuple[int, float, int],
 ) -> Target:
-    prompt = read_prompt(kind)
+    prompt = read_prompt(kind, context)
     return Target(
         kind=kind,
         target_id=str(target_id),
@@ -343,6 +367,14 @@ def planned_team_name(name: Any) -> bool:
 
 def has_planned_teams(match: dict[str, Any]) -> bool:
     return planned_team_name(match.get("home")) and planned_team_name(match.get("away"))
+
+
+def planned_team_count(match: dict[str, Any]) -> int:
+    return sum(1 for side in ("home", "away") if planned_team_name(match.get(side)))
+
+
+def has_insight_eligible_team(match: dict[str, Any]) -> bool:
+    return planned_team_count(match) >= 1
 
 
 def kickoff_utc(match: dict[str, Any]) -> dt.datetime:
@@ -407,6 +439,8 @@ def match_target_reason_and_priority(
     if is_recent_past_match(match, now):
         return True, f"past {RECENT_MATCH_REFRESH_DAYS} days", (2, abs(delta_hours), sort_id)
     if is_future_match(match, now):
+        if planned_team_count(match) == 1:
+            return True, "future match with one confirmed team", (4, max(delta_hours, 0), sort_id)
         return True, "future planned match", (4, max(delta_hours, 0), sort_id)
     if mode in {"seed", "all"}:
         return True, "seed planned match", (7, abs(delta_hours), sort_id)
@@ -465,6 +499,8 @@ def build_targets(
     if specific_match_ids:
         match_candidates = [match for match in matches if str(match.get("id")) in specific_match_ids]
         for match in match_candidates:
+            if not has_insight_eligible_team(match):
+                continue
             label = f"{match.get('home')} vs {match.get('away')}"
             target = build_target(
                 "match",
@@ -478,7 +514,7 @@ def build_targets(
             match_targets.append(target)
     elif not has_specific_targets:
         for match in matches:
-            if not has_planned_teams(match):
+            if not has_insight_eligible_team(match):
                 continue
             label = f"{match.get('home')} vs {match.get('away')}"
             placeholder = build_target(

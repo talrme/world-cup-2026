@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run schedule refresh, player stat refresh, highlight refresh, then AI insights."""
+"""Run schedule, bracket, player stat, highlight, then AI insight refreshes."""
 
 from __future__ import annotations
 
@@ -18,10 +18,11 @@ def run(command: list[str]) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Refresh schedule/results, player stats, YouTube highlights, and AI insights.")
+    parser = argparse.ArgumentParser(description="Refresh schedule/results, bracket, player stats, YouTube highlights, and AI insights.")
     parser.add_argument("--all-videos", action="store_true", help="Search videos for every match")
     parser.add_argument("--force-videos", action="store_true", help="Replace existing direct video links")
     parser.add_argument("--dry-run-schedule", action="store_true", help="Dry-run the schedule refresh only")
+    parser.add_argument("--dry-run-bracket", action="store_true", help="Dry-run the ESPN bracket refresh only")
     parser.add_argument("--skip-ai", action="store_true", help="Skip AI insight generation")
     parser.add_argument("--ai-mode", choices=["minimal", "standard", "seed", "all"], default="standard", help="AI insight target breadth")
     parser.add_argument("--force-ai", action="store_true", help="Regenerate selected AI insight targets")
@@ -33,6 +34,9 @@ def main() -> int:
     parser.add_argument("--ai-player", action="append", default=[], help="Refresh one AI player insight by name or 'Name|Team'. Repeatable.")
     args = parser.parse_args()
 
+    if args.dry_run_bracket:
+        return run([sys.executable, "scripts/update_bracket.py", "--dry-run"])
+
     schedule_command = [sys.executable, "scripts/update_schedule.py"]
     if args.dry_run_schedule:
         schedule_command.append("--dry-run")
@@ -42,6 +46,10 @@ def main() -> int:
 
     if args.dry_run_schedule:
         return 0
+
+    bracket_status = run([sys.executable, "scripts/update_bracket.py"])
+    if bracket_status != 0:
+        return bracket_status
 
     player_stats_status = run([sys.executable, "scripts/update_player_stats.py"])
     if player_stats_status != 0:

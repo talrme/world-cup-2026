@@ -4,7 +4,8 @@
 This updater intentionally keeps scores in the data file while the UI keeps
 them hidden by default. It updates group-stage results, status, kickoff/network
 metadata, and can replace knockout placeholders when the source later lists real
-teams by match number or round/date order.
+teams by match number or round/date order. Knockout bracket slots should normally
+come from scripts/update_bracket.py instead of local standings math.
 """
 
 from __future__ import annotations
@@ -558,10 +559,11 @@ def refresh_schedule(args: argparse.Namespace) -> tuple[int, int, list[str]]:
             changed_matches += 1
             change_log.append(f"Match {match['id']}: {', '.join(changes)}")
 
-    resolved_changes = resolve_knockout_slots(data, by_id)
-    if resolved_changes:
-        changed_matches += len(resolved_changes)
-        change_log.extend(resolved_changes)
+    if args.resolve_knockout_from_standings:
+        resolved_changes = resolve_knockout_slots(data, by_id)
+        if resolved_changes:
+            changed_matches += len(resolved_changes)
+            change_log.extend(resolved_changes)
 
     if not args.dry_run and changed_matches:
         data["generatedAt"] = dt.datetime.now(dt.timezone.utc).date().isoformat()
@@ -582,6 +584,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--year", type=int, default=2026, help="Tournament year for date headings")
     parser.add_argument("--dry-run", action="store_true", help="Parse and report without writing changes")
     parser.add_argument("--verbose", action="store_true", help="Print changed match ids and changed fields")
+    parser.add_argument(
+        "--resolve-knockout-from-standings",
+        action="store_true",
+        help="Fallback only: resolve knockout placeholders from local group standings math",
+    )
     return parser
 
 

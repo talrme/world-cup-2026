@@ -18,6 +18,7 @@ This project is a local, spoiler-safe World Cup highlight dashboard. Future AI e
 - Group standings and fixture scores remain hidden by default and are revealed with a per-group control or the global score reveal.
 - The `Show scores before` date control is allowed to reveal match score pills through the chosen date, but it should not automatically reveal group standings points/GD/GP.
 - Match-details location is driven by each match's `venueId` and the top-level `venues` catalog. Keep those synchronized when schedule sources change.
+- Knockout bracket participants should come from ESPN's bracket/scoreboard data, not from local clinching or tiebreaker guesses.
 - Keep `data/world-cup-2026.json` and `schedule-data.js` synchronized after data changes.
 
 ## Current Architecture
@@ -71,18 +72,23 @@ That runs:
 
 ```bash
 python3 scripts/update_schedule.py
+python3 scripts/update_bracket.py
 python3 scripts/update_player_stats.py
 python3 scripts/update_highlights.py
 python3 scripts/update_ai_insights.py
 ```
 
-`update_schedule.py` refreshes scores, completed statuses, kickoff/network metadata, and later tournament teams when the source has real teams.
+`update_schedule.py` refreshes group-stage scores, completed statuses, kickoff/network metadata, and later tournament teams when the schedule source has real teams. Do not use local standings math as the normal source for bracket slots.
+
+`update_bracket.py` refreshes knockout teams, placeholders, dates, kickoff times, venues, statuses, and later knockout scores from ESPN's World Cup scoreboard JSON. Treat ESPN as the bracket source of truth before adding fallback logic.
 
 `update_player_stats.py` refreshes `data/player-stats.json` and `player-stats.js` from the Guardian Golden Boot feed. It preserves the existing generated timestamp when player rows are unchanged to avoid no-op commits.
 
 `update_highlights.py` searches YouTube and stores direct video links only when metadata and title checks pass.
 
 `update_ai_insights.py` optionally generates Gemini blurbs for match details, groups, and top players. It loads `.env` locally, reads `GEMINI_API_KEY` / `GEMINI_MODEL` from the environment, and skips safely when no key is present. Use `--dry-run` before paid calls. Default scheduled mode is `standard`; use `--mode minimal` for small tests, `--mode seed` for a one-time backfill, `--mode all`, or `--force-all` for broader forced runs. For testing, use restrictive targets such as `--force --match-id 12 --max-calls 1`, `--force --player "Lionel Messi|Argentina" --max-calls 1`, or `--force --group B --max-calls 1`. Keep `--max-calls`, `--max-estimated-cost`, and `--sleep` guardrails in place.
+
+For bracket matches, match Insights are generated when at least one real team is known. Matches with exactly one confirmed team use `prompts/match_partial.md`, which should discuss the confirmed team, unresolved slot, likely/eligible opponent path, venue, kickoff, and bracket stakes without inventing the opponent. Matches with zero real teams should not get match Insights.
 
 `api_football_poc.py` is a non-invasive API-Football adapter/comparison script. It requires `API_FOOTBALL_KEY` for real API calls, or `--mock-from-current` to test the mapping/report/dummy-site pipeline without a key. Generated PoC output goes under `poc/api-football/` and is ignored by git.
 
@@ -216,7 +222,7 @@ Cost-control rules:
 Implemented generation cadence:
 
 - Scheduled GitHub runs use `--mode standard`, spaced by `GEMINI_SLEEP_SECONDS=10`, with a 40-call cap.
-- Future matches with real team names are always considered for population. They refresh immediately if source data or prompts change, otherwise only when weekly stale. Placeholder knockout matches such as `Winner Group A` or `Best 3rd Group...` are skipped until real teams are known.
+- Future matches with at least one real team are always considered for population. Bracket matches with exactly one known team use `prompts/match_partial.md`. They refresh immediately if source data or prompts change, otherwise only when weekly stale. Knockout matches with zero real teams are skipped until a team appears.
 - Matches from the past five days are eligible once daily. Any meaningful source change, including status/result/video changes, jumps the match to the front of the next run.
 - `seed` mode is for manual backfill before deployment or after large prompt changes. It considers every planned-team match, every group, and the top 30 players, then still respects `--max-calls` and `--max-estimated-cost`. At `GEMINI_SLEEP_SECONDS=10`, a full 120-call seed can take about 20 minutes, so the workflow timeout is intentionally longer than normal scheduled work needs.
 - Groups refresh immediately when standings or group match context changes, otherwise at most daily during active/recent/upcoming group windows.

@@ -183,9 +183,11 @@ jobs:
           mkdir -p refresh-output
 
           schedule_updates=$(grep -E "^Schedule updates applied:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
+          bracket_updates=$(grep -E "^Bracket matches changed:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
           video_links_saved=$(grep -E "^New/updated direct video links saved:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
           ai_summary=$(grep -E "^AI insights summary:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/^AI insights summary: //")
           schedule_updates=${schedule_updates:-unknown}
+          bracket_updates=${bracket_updates:-unknown}
           video_links_saved=${video_links_saved:-unknown}
           ai_summary=${ai_summary:-"not run or no key"}
 
@@ -197,7 +199,7 @@ jobs:
             commit_label="No commit: refresh or commit step did not finish successfully"
           fi
 
-          final_line="Summary: schedule updates applied=${schedule_updates}; new/updated video links saved=${video_links_saved}; AI insights ${ai_summary}; ${commit_label}."
+          final_line="Summary: schedule updates applied=${schedule_updates}; bracket matches changed=${bracket_updates}; new/updated video links saved=${video_links_saved}; AI insights ${ai_summary}; ${commit_label}."
           echo "$final_line"
           echo "$final_line" > refresh-output/final-summary.txt
 

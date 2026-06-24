@@ -327,8 +327,6 @@
     statsInfoOpen: false,
     playerDetailsKey: null,
     groupDetailsKey: null,
-    bracketStep: 0,
-    bracketDirection: "forward",
     shareCopied: false,
     settings: savedSettings,
     pendingViewScroll: null,
@@ -358,42 +356,12 @@
   let todayJumpPulseTimer = null;
   let shareCopyTimer = null;
   let activeInsightKey = null;
-  const bracketSteps = [
-    {
-      label: "Opening",
-      hint: "Round of 32, Round of 16, and Quarterfinals",
-      stages: [
-        ["Round of 32", "Round of 32", "r32"],
-        ["Round of 16", "Round of 16", "r16"],
-        ["Quarterfinals", "Quarterfinals", "qf"],
-      ],
-    },
-    {
-      label: "Middle",
-      hint: "Round of 16, Quarterfinals, and Semifinals",
-      stages: [
-        ["Round of 16", "Round of 16", "r16"],
-        ["Quarterfinals", "Quarterfinals", "qf"],
-        ["Semifinals", "Semifinals", "sf"],
-      ],
-    },
-    {
-      label: "Final Stretch",
-      hint: "Quarterfinals, Semifinals, and Finals",
-      stages: [
-        ["Quarterfinals", "Quarterfinals", "qf"],
-        ["Semifinals", "Semifinals", "sf"],
-        ["Finals", "Finals", "finals"],
-      ],
-    },
-    {
-      label: "Finals",
-      hint: "Semifinals, Third Place, and Final",
-      stages: [
-        ["Semifinals", "Semifinals", "sf"],
-        ["Finals", "Finals", "finals"],
-      ],
-    },
+  const bracketStages = [
+    ["Round of 32", "Round of 32", "r32"],
+    ["Round of 16", "Round of 16", "r16"],
+    ["Quarterfinals", "Quarterfinals", "qf"],
+    ["Semifinals", "Semifinals", "sf"],
+    ["Finals", "Finals", "finals"],
   ];
 
   function saveSpoilerState() {
@@ -1587,7 +1555,7 @@
 
     const groupSource = source.match(/^(Winner|Runner-up) Group ([A-L])$/i);
     if (groupSource) {
-      return groupScoresVisible(groupMatchesFor(groupSource[2].toUpperCase()));
+      return true;
     }
 
     return true;
@@ -1655,18 +1623,33 @@
   function renderBracketMatch(match, tone = "") {
     const current = matchState(match);
     const roundTone = match.stage === "Final" ? "is-final" : match.stage === "Third Place" ? "is-third" : "";
+    const matchLabel = match.stage === "Final" || match.stage === "Third Place" ? match.stage : formatCompactDateTime(match);
+    const matchTime = match.stage === "Final" || match.stage === "Third Place" ? formatCompactDateTime(match) : "";
+    const actions = renderTileVideoLinks(match);
     return `
       <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(match.home)} vs ${escapeHtml(match.away)}">
         <div class="bracket-match-meta">
-          <span>${escapeHtml(match.stage === "Final" ? "Final" : match.stage === "Third Place" ? "Third Place" : `Match ${match.id}`)}</span>
-          <em>${escapeHtml(formatCompactDateTime(match))}</em>
+          <span>${escapeHtml(matchLabel)}</span>
+          ${matchTime ? `<em>${escapeHtml(matchTime)}</em>` : ""}
         </div>
         <div class="bracket-team-list">
           ${renderBracketTeam(match, "home")}
           ${renderBracketTeam(match, "away")}
         </div>
+        ${actions ? `<div class="bracket-match-actions">${actions}</div>` : ""}
       </article>
     `;
+  }
+
+  function renderBracketConnectors(matchCount) {
+    if (matchCount < 2) return "";
+    const connectorCount = Math.floor(matchCount / 2);
+    const connectors = Array.from({ length: connectorCount }, (_, pairIndex) => {
+      const top = ((4 * pairIndex + 1) / (2 * matchCount)) * 100;
+      const bottom = ((4 * pairIndex + 3) / (2 * matchCount)) * 100;
+      return `<span style="--connector-top: ${top.toFixed(4)}%; --connector-bottom: ${bottom.toFixed(4)}%;"></span>`;
+    }).join("");
+    return `<div class="bracket-connectors" aria-hidden="true">${connectors}</div>`;
   }
 
   function renderBracketRound(label, roundMatches, stageClass) {
@@ -1691,6 +1674,8 @@
       `;
     }
 
+    const connectors = stageClass !== "finals" && roundMatches.length > 1 ? renderBracketConnectors(roundMatches.length) : "";
+
     return `
       <section class="bracket-round-column bracket-round-${stageClass}" style="--bracket-count: ${roundMatches.length || 1}">
         <header>${escapeHtml(label)}</header>
@@ -1700,6 +1685,7 @@
               ? roundMatches.map((match) => renderBracketMatch(match, `is-${stageClass}`)).join("")
               : `<div class="bracket-empty-round">Not announced yet</div>`
           }
+          ${connectors}
         </div>
       </section>
     `;
@@ -1718,35 +1704,11 @@
     return knockout.filter((match) => match.stage === stage).sort((a, b) => a.id - b.id);
   }
 
-  function renderBracketControls() {
-    const current = Math.min(Math.max(state.bracketStep, 0), bracketSteps.length - 1);
-    const tabs = bracketSteps
-      .map((step, index) => `
-        <button aria-pressed="${index === current ? "true" : "false"}" data-bracket-step="${index}" type="button">
-          <span>${escapeHtml(step.label)}</span>
-          <em>${index + 1}/${bracketSteps.length}</em>
-        </button>
-      `)
-      .join("");
-
-    return `
-      <div class="bracket-nav" aria-label="Bracket section controls">
-        <button aria-label="Previous bracket section" class="bracket-arrow" data-bracket-prev ${current === 0 ? "disabled" : ""} type="button">‹</button>
-        <div class="bracket-step-tabs">${tabs}</div>
-        <button aria-label="Next bracket section" class="bracket-arrow" data-bracket-next ${current === bracketSteps.length - 1 ? "disabled" : ""} type="button">›</button>
-      </div>
-    `;
-  }
-
-  function setBracketStep(nextStep) {
-    const next = Math.min(Math.max(nextStep, 0), bracketSteps.length - 1);
-    if (next === state.bracketStep) return;
-    state.bracketDirection = next > state.bracketStep ? "forward" : "back";
-    state.bracketStep = next;
-    render();
-    window.requestAnimationFrame(() => {
-      document.querySelector(".bracket-scroll")?.scrollTo({ left: 0, behavior: "smooth" });
-    });
+  function scrollBracket(direction) {
+    const scroller = document.querySelector(".bracket-scroll");
+    if (!scroller) return;
+    const amount = Math.max(scroller.clientWidth * 0.82, 320);
+    scroller.scrollBy({ left: direction * amount });
   }
 
   function renderBracket() {
@@ -1756,36 +1718,21 @@
       return `<div class="empty-state"><strong>No knockout matches found</strong><span>Switch back once the bracket is published.</span></div>`;
     }
 
-    const current = Math.min(Math.max(state.bracketStep, 0), bracketSteps.length - 1);
-    state.bracketStep = current;
-    const step = bracketSteps[current];
-    const direction = state.bracketDirection === "back" ? "back" : "forward";
-    const bracketMinWidth = step.stages.length * 290 + Math.max(0, step.stages.length - 1) * 18;
-    const columns = step.stages
+    const bracketMinWidth = bracketStages.length * 290 + Math.max(0, bracketStages.length - 1) * 18;
+    const columns = bracketStages
       .map(([stage, label, stageClass]) => renderBracketRound(label, bracketStageMatches(stage, knockout), stageClass))
       .join("");
 
     return `
-      <section class="bracket-view">
-        <div class="bracket-view-header">
-          <div>
-            <span class="eyebrow">Knockout Stage</span>
-            <h2>World Cup Bracket</h2>
+      <section class="bracket-view bracket-view-clean">
+        <div class="bracket-frame">
+          <button aria-label="Scroll bracket left" class="bracket-arrow bracket-scroll-arrow is-left" data-bracket-prev type="button">‹</button>
+          <div class="bracket-scroll" aria-label="World Cup knockout bracket">
+            <div class="bracket-board bracket-board-linear is-full" style="--bracket-rounds: ${bracketStages.length}; --bracket-min-width: ${bracketMinWidth}px" data-bracket-window="full">
+              ${columns}
+            </div>
           </div>
-          <p>${escapeHtml(step.hint)}. Clinched teams appear in possible slots once the relevant scores are revealed.</p>
-        </div>
-        ${renderBracketControls()}
-        <div class="bracket-scroll" aria-label="World Cup knockout bracket">
-          <div class="bracket-board bracket-board-linear is-step-${current} is-${direction}" style="--bracket-rounds: ${step.stages.length || 1}; --bracket-min-width: ${bracketMinWidth}px" data-bracket-window="${current}">
-            ${columns}
-          </div>
-        </div>
-        <div class="bracket-mobile-hint" aria-hidden="true">
-          <span>Use arrows or swipe the bracket sideways</span>
-          <div>
-            <button class="bracket-arrow mini" data-bracket-prev ${current === 0 ? "disabled" : ""} type="button">‹</button>
-            <button class="bracket-arrow mini" data-bracket-next ${current === bracketSteps.length - 1 ? "disabled" : ""} type="button">›</button>
-          </div>
+          <button aria-label="Scroll bracket right" class="bracket-arrow bracket-scroll-arrow is-right" data-bracket-next type="button">›</button>
         </div>
       </section>
     `;
@@ -3151,21 +3098,15 @@
       return;
     }
 
-    const bracketStep = event.target.closest("[data-bracket-step]");
-    if (bracketStep) {
-      setBracketStep(Number(bracketStep.dataset.bracketStep));
-      return;
-    }
-
     const bracketPrev = event.target.closest("[data-bracket-prev]");
     if (bracketPrev) {
-      setBracketStep(state.bracketStep - 1);
+      scrollBracket(-1);
       return;
     }
 
     const bracketNext = event.target.closest("[data-bracket-next]");
     if (bracketNext) {
-      setBracketStep(state.bracketStep + 1);
+      scrollBracket(1);
       return;
     }
 
@@ -3247,6 +3188,7 @@
 
     const matchButton = event.target.closest("[data-match-id]");
     if (matchButton) {
+      if (event.target.closest("a, button, input, select, textarea, summary")) return;
       state.selectedId = Number(matchButton.dataset.matchId);
       state.detailOpen = true;
       activeInsightKey = null;
@@ -3281,7 +3223,7 @@
       (event.key === "ArrowRight" || event.key === "ArrowLeft")
     ) {
       event.preventDefault();
-      setBracketStep(state.bracketStep + (event.key === "ArrowRight" ? 1 : -1));
+      scrollBracket(event.key === "ArrowRight" ? 1 : -1);
       return;
     }
 
