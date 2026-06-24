@@ -2124,6 +2124,24 @@
         return `<button aria-pressed="${pressed}" data-mode="${id}" type="button">${escapeHtml(label)}</button>`;
       })
       .join("");
+    const primaryMobileModeIds = ["timeline", "bracket", "players"];
+    const mobileModes = visibleModes().filter(([id]) => primaryMobileModeIds.includes(id));
+    if (!primaryMobileModeIds.includes(state.mode) && modeIsVisible(state.mode)) {
+      const currentMode = modes.find(([id]) => id === state.mode);
+      if (currentMode) mobileModes.push(currentMode);
+    }
+    const mobileActiveIndex = Math.max(0, mobileModes.findIndex(([id]) => id === state.mode));
+    const mobileViewSwitcher =
+      mobileModes.length > 1
+        ? `<nav class="mobile-view-switcher" aria-label="Primary views" style="--mobile-view-count: ${mobileModes.length}; --mobile-view-index: ${mobileActiveIndex}">
+            ${mobileModes
+              .map(([id, label]) => {
+                const pressed = state.mode === id ? "true" : "false";
+                return `<button aria-pressed="${pressed}" data-mode="${id}" type="button">${escapeHtml(label)}</button>`;
+              })
+              .join("")}
+          </nav>`
+        : "";
     const topTodayButton =
       state.mode === "timeline"
         ? `<button class="top-today-control" data-today-jump type="button" aria-label="Go to today">
@@ -2133,15 +2151,12 @@
         : "";
 
     return `
-      <div class="mobile-menu-bar">
+      <div class="mobile-nav-row">
         <button class="mobile-menu-toggle" aria-controls="schedule-controls" aria-expanded="${state.mobileMenuOpen ? "true" : "false"}" data-mobile-menu-toggle type="button">
           <span class="hamburger-icon" aria-hidden="true"><i></i><i></i><i></i></span>
           <span class="sr-only">${state.mobileMenuOpen ? "Close menu" : "Open menu"}</span>
-          <strong>${escapeHtml(currentModeLabel())}</strong>
         </button>
-        <button class="mobile-country-shortcut" data-country-picker-toggle type="button" title="${escapeHtml(countryFilterTitle())}" aria-label="Country filter: ${escapeHtml(countryFilterTitle())}">
-          ${renderCountryFilterContent({ compact: true })}
-        </button>
+        ${mobileViewSwitcher}
       </div>
       <section class="control-deck ${state.mobileMenuOpen ? "is-open" : ""}" id="schedule-controls" aria-label="Schedule controls">
         <div class="mobile-drawer-head">
