@@ -340,6 +340,7 @@
     revealedGroups: savedSpoilers.revealedGroups,
     hiddenGroups: savedSpoilers.hiddenGroups,
     hiddenScoresStored: savedSpoilers.hiddenScoresStored,
+    bracketStartStage: "Round of 32",
     leaderboardSort: "points",
     leaderboardStatus: "snapshot",
     leaderboardLoadedAt: null,
@@ -353,15 +354,16 @@
   });
   const venues = Array.isArray(data.venues) ? data.venues : [];
   let todayJumpFrame = null;
+  let bracketLineFrame = null;
   let todayJumpPulseTimer = null;
   let shareCopyTimer = null;
   let activeInsightKey = null;
   const bracketStages = [
-    ["Round of 32", "Round of 32", "r32"],
-    ["Round of 16", "Round of 16", "r16"],
-    ["Quarterfinals", "Quarterfinals", "qf"],
-    ["Semifinals", "Semifinals", "sf"],
-    ["Finals", "Finals", "finals"],
+    { stage: "Round of 32", label: "Round of 32", shortLabel: "R32", className: "r32" },
+    { stage: "Round of 16", label: "Round of 16", shortLabel: "R16", className: "r16" },
+    { stage: "Quarterfinals", label: "Quarterfinals", shortLabel: "Quarters", className: "qf" },
+    { stage: "Semifinals", label: "Semifinals", shortLabel: "Semis", className: "sf" },
+    { stage: "Finals", label: "Finals", shortLabel: "Finals", className: "finals" },
   ];
 
   function saveSpoilerState() {
@@ -1657,15 +1659,27 @@
     `;
   }
 
-  function renderBracketConnectors(matchCount) {
-    if (matchCount < 2) return "";
-    const connectorCount = Math.floor(matchCount / 2);
-    const connectors = Array.from({ length: connectorCount }, (_, pairIndex) => {
-      const top = ((4 * pairIndex + 1) / (2 * matchCount)) * 100;
-      const bottom = ((4 * pairIndex + 3) / (2 * matchCount)) * 100;
-      return `<span style="--connector-top: ${top.toFixed(4)}%; --connector-bottom: ${bottom.toFixed(4)}%;"></span>`;
-    }).join("");
-    return `<div class="bracket-connectors" aria-hidden="true">${connectors}</div>`;
+  function bracketStartIndex() {
+    const index = bracketStages.findIndex((stage) => stage.stage === state.bracketStartStage);
+    return index >= 0 ? index : 0;
+  }
+
+  function renderBracketRoundPicker() {
+    return `
+      <div class="bracket-round-picker" aria-label="Bracket rounds">
+        ${bracketStages
+          .map((stage) => {
+            const active = state.bracketStartStage === stage.stage;
+            return `
+              <button aria-pressed="${active ? "true" : "false"}" data-bracket-stage="${escapeHtml(stage.stage)}" type="button">
+                <span class="bracket-round-label-long">${escapeHtml(stage.label)}</span>
+                <span class="bracket-round-label-short">${escapeHtml(stage.shortLabel)}</span>
+              </button>
+            `;
+          })
+          .join("")}
+      </div>
+    `;
   }
 
   function renderBracketRound(label, roundMatches, stageClass) {
@@ -1674,7 +1688,6 @@
       const thirdPlaceMatch = roundMatches.find((match) => match.stage === "Third Place");
       return `
         <section class="bracket-round-column bracket-round-finals" style="--bracket-count: ${roundMatches.length || 1}">
-          <header>${escapeHtml(label)}</header>
           <div class="bracket-column-stack bracket-finals-stack">
             ${
               finalMatch
@@ -1697,18 +1710,14 @@
       `;
     }
 
-    const connectors = stageClass !== "finals" && roundMatches.length > 1 ? renderBracketConnectors(roundMatches.length) : "";
-
     return `
       <section class="bracket-round-column bracket-round-${stageClass}" style="--bracket-count: ${roundMatches.length || 1}">
-        <header>${escapeHtml(label)}</header>
         <div class="bracket-column-stack">
           ${
             roundMatches.length
               ? roundMatches.map((match) => renderBracketMatch(match, `is-${stageClass}`)).join("")
               : `<div class="bracket-empty-round">Not announced yet</div>`
           }
-          ${connectors}
         </div>
       </section>
     `;
@@ -1741,24 +1750,91 @@
       return `<div class="empty-state"><strong>No knockout matches found</strong><span>Switch back once the bracket is published.</span></div>`;
     }
 
-    const bracketMinWidth = bracketStages.length * 290 + Math.max(0, bracketStages.length - 1) * 18;
-    const columns = bracketStages
-      .map(([stage, label, stageClass]) => renderBracketRound(label, bracketStageMatches(stage, knockout), stageClass))
+    const visibleStages = bracketStages.slice(bracketStartIndex());
+    const bracketMinWidth = visibleStages.length * 290 + Math.max(0, visibleStages.length - 1) * 18;
+    const firstStage = visibleStages[0] || bracketStages[0];
+    const columns = visibleStages
+      .map((stage) => renderBracketRound(stage.label, bracketStageMatches(stage.stage, knockout), stage.className))
       .join("");
 
     return `
       <section class="bracket-view bracket-view-clean">
+        ${renderBracketRoundPicker()}
         <div class="bracket-frame">
-          <button aria-label="Scroll bracket left" class="bracket-arrow bracket-scroll-arrow is-left" data-bracket-prev type="button">‹</button>
           <div class="bracket-scroll" aria-label="World Cup knockout bracket">
-            <div class="bracket-board bracket-board-linear is-full" style="--bracket-rounds: ${bracketStages.length}; --bracket-min-width: ${bracketMinWidth}px" data-bracket-window="full">
+            <div class="bracket-board bracket-board-linear is-full is-start-${escapeHtml(firstStage.className)} ${visibleStages.length === 1 ? "is-single-round" : ""}" style="--bracket-rounds: ${visibleStages.length}; --bracket-min-width: ${bracketMinWidth}px" data-bracket-window="full">
+              <svg class="bracket-line-layer" data-bracket-line-layer aria-hidden="true"></svg>
               ${columns}
             </div>
           </div>
-          <button aria-label="Scroll bracket right" class="bracket-arrow bracket-scroll-arrow is-right" data-bracket-next type="button">›</button>
         </div>
       </section>
     `;
+  }
+
+  function updateBracketLineLayer() {
+    const board = app.querySelector(".bracket-board-linear");
+    const layer = board?.querySelector("[data-bracket-line-layer]");
+    if (!board || !layer) return;
+
+    const boardRect = board.getBoundingClientRect();
+    const visibleIds = new Set(
+      [...board.querySelectorAll(".bracket-match[data-match-id]")].map((element) => Number(element.dataset.matchId))
+    );
+    const paths = [];
+
+    matches
+      .filter((match) => match.stage !== "Group")
+      .forEach((target) => {
+        const targetElement = board.querySelector(`.bracket-match[data-match-id="${target.id}"]`);
+        if (!targetElement) return;
+
+        referencedMatchIds(target).forEach((sourceId) => {
+          if (!visibleIds.has(sourceId)) return;
+          const sourceElement = board.querySelector(`.bracket-match[data-match-id="${sourceId}"]`);
+          if (!sourceElement) return;
+
+          const sourceRect = sourceElement.getBoundingClientRect();
+          const targetRect = targetElement.getBoundingClientRect();
+          const startX = sourceRect.right - boardRect.left;
+          const startY = sourceRect.top + sourceRect.height / 2 - boardRect.top;
+          const endX = targetRect.left - boardRect.left;
+          const endY = targetRect.top + targetRect.height / 2 - boardRect.top;
+          const midX = startX + Math.max(16, (endX - startX) / 2);
+          paths.push({
+            d: `M ${startX.toFixed(1)} ${startY.toFixed(1)} H ${midX.toFixed(1)} V ${endY.toFixed(1)} H ${endX.toFixed(1)}`,
+            sourceId,
+            targetId: target.id,
+          });
+        });
+      });
+
+    layer.setAttribute("viewBox", `0 0 ${boardRect.width.toFixed(1)} ${boardRect.height.toFixed(1)}`);
+    layer.setAttribute("width", boardRect.width.toFixed(1));
+    layer.setAttribute("height", boardRect.height.toFixed(1));
+    layer.replaceChildren(
+      ...paths.map((pathData) => {
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        path.setAttribute("d", pathData.d);
+        path.dataset.sourceId = String(pathData.sourceId);
+        path.dataset.targetId = String(pathData.targetId);
+        return path;
+      })
+    );
+  }
+
+  function requestBracketLineUpdate() {
+    if (state.mode !== "bracket") return;
+    if (bracketLineFrame) {
+      window.cancelAnimationFrame(bracketLineFrame);
+    }
+    bracketLineFrame = window.requestAnimationFrame(() => {
+      updateBracketLineLayer();
+      bracketLineFrame = window.requestAnimationFrame(() => {
+        bracketLineFrame = null;
+        updateBracketLineLayer();
+      });
+    });
   }
   function renderConstellation(list) {
     return `
@@ -2648,6 +2724,7 @@
     syncMobileMenuDom();
     settleViewScroll();
     requestTodayJumpUpdate();
+    requestBracketLineUpdate();
   }
 
   function syncMobileMenuDom() {
@@ -3117,6 +3194,14 @@
       return;
     }
 
+    const bracketStageButton = event.target.closest("[data-bracket-stage]");
+    if (bracketStageButton) {
+      state.bracketStartStage = bracketStageButton.dataset.bracketStage;
+      state.pendingViewScroll = "bracket";
+      render();
+      return;
+    }
+
     const modeButton = event.target.closest("[data-mode]");
     if (modeButton) {
       const nextMode = modeButton.dataset.mode;
@@ -3133,18 +3218,6 @@
     const todayJump = event.target.closest("[data-today-jump]");
     if (todayJump) {
       scrollToToday();
-      return;
-    }
-
-    const bracketPrev = event.target.closest("[data-bracket-prev]");
-    if (bracketPrev) {
-      scrollBracket(-1);
-      return;
-    }
-
-    const bracketNext = event.target.closest("[data-bracket-next]");
-    if (bracketNext) {
-      scrollBracket(1);
       return;
     }
 
@@ -3325,7 +3398,11 @@
   document.addEventListener("wheel", closeMobileMenuFromOutsideScroll, { passive: true });
   document.addEventListener("touchmove", closeMobileMenuFromOutsideScroll, { passive: true });
   window.addEventListener("scroll", handleWindowScroll, { passive: true });
-  window.addEventListener("resize", requestTodayJumpUpdate);
+  window.addEventListener("resize", () => {
+    requestTodayJumpUpdate();
+    requestBracketLineUpdate();
+  });
+  document.fonts?.ready?.then(requestBracketLineUpdate).catch(() => {});
   window.addEventListener("popstate", () => {
     applyUrlState();
     render();

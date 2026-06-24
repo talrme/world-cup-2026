@@ -1861,41 +1861,51 @@ h1 {
 
 .bracket-view {
   display: grid;
-  gap: 16px;
+  gap: 12px;
   min-width: 0;
 }
 
-.bracket-arrow {
+.bracket-round-picker {
   align-items: center;
   background:
-    linear-gradient(180deg, color-mix(in srgb, var(--surface-strong) 88%, transparent), color-mix(in srgb, var(--surface) 96%, transparent));
+    linear-gradient(180deg, color-mix(in srgb, var(--surface) 92%, transparent), color-mix(in srgb, var(--surface-strong) 74%, transparent));
   border: 1px solid var(--line);
   border-radius: 999px;
-  color: var(--fg);
-  cursor: pointer;
-  display: inline-grid;
-  font-size: 2rem;
-  font-weight: 950;
-  height: 48px;
-  justify-content: center;
-  line-height: 1;
-  padding: 0 0 4px;
-  transition: background 180ms ease, border-color 180ms ease, opacity 180ms ease, transform 180ms ease;
-  width: 48px;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  padding: 5px;
 }
 
-.bracket-arrow:hover,
-.bracket-arrow:focus-visible {
-  background: color-mix(in srgb, var(--accent) 20%, var(--surface-strong));
-  border-color: color-mix(in srgb, var(--accent) 70%, var(--line));
+.bracket-round-picker button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  color: color-mix(in srgb, var(--fg) 82%, var(--muted));
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 950;
+  min-height: 38px;
+  min-width: 0;
+  padding: 7px 10px;
+  transition: background 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.bracket-round-picker button[aria-pressed="true"] {
+  background: linear-gradient(135deg, #f7f5ee, color-mix(in srgb, #f7f5ee 86%, var(--accent)));
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  color: #07120c;
+}
+
+.bracket-round-picker button:hover,
+.bracket-round-picker button:focus-visible {
   outline: 0;
   transform: translateY(-1px);
 }
 
-.bracket-arrow:disabled {
-  cursor: default;
-  opacity: 0.36;
-  transform: none;
+.bracket-round-label-short {
+  display: none;
 }
 
 .bracket-scroll {
@@ -1915,22 +1925,6 @@ h1 {
   min-width: 0;
   position: relative;
   width: 100%;
-}
-
-.bracket-scroll-arrow {
-  backdrop-filter: blur(10px);
-  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.28);
-  position: absolute;
-  top: 14px;
-  z-index: 4;
-}
-
-.bracket-scroll-arrow.is-left {
-  left: 10px;
-}
-
-.bracket-scroll-arrow.is-right {
-  right: 10px;
 }
 
 .bracket-board {
@@ -1971,19 +1965,7 @@ h1 {
 .bracket-round-column {
   display: grid;
   gap: 10px;
-  grid-template-rows: auto minmax(0, 1fr);
-}
-
-.bracket-round-column header {
-  background: color-mix(in srgb, var(--accent) 86%, #f7f5ee);
-  border: 1px solid color-mix(in srgb, var(--accent) 55%, rgba(255, 255, 255, 0.22));
-  border-radius: 999px;
-  color: #082315;
-  font-size: 0.76rem;
-  font-weight: 950;
-  padding: 8px 10px;
-  text-align: center;
-  text-transform: uppercase;
+  grid-template-rows: minmax(0, 1fr);
 }
 
 .bracket-column-stack {
@@ -2284,13 +2266,27 @@ button.bracket-score-cell {
 }
 
 @media (max-width: 900px) {
-  .bracket-arrow {
-    height: 42px;
-    width: 42px;
-  }
-
   .bracket-scroll {
     padding: 10px;
+  }
+
+  .bracket-round-picker {
+    gap: 3px;
+    padding: 4px;
+  }
+
+  .bracket-round-picker button {
+    font-size: 0.68rem;
+    min-height: 34px;
+    padding: 6px 5px;
+  }
+
+  .bracket-round-label-long {
+    display: none;
+  }
+
+  .bracket-round-label-short {
+    display: inline;
   }
 
   .bracket-board {
@@ -2322,11 +2318,6 @@ button.bracket-score-cell {
 
   .bracket-side {
     gap: 10px;
-  }
-
-  .bracket-round-column header {
-    font-size: 0.66rem;
-    padding: 7px;
   }
 
   .bracket-match {
@@ -2369,6 +2360,17 @@ button.bracket-score-cell {
 @media (max-width: 430px) {
   .bracket-view {
     gap: 0;
+  }
+
+  .bracket-round-picker {
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+
+  .bracket-round-picker button {
+    font-size: 0.56rem;
+    min-height: 30px;
+    padding: 5px 2px;
   }
 
   .bracket-board {
@@ -2426,27 +2428,51 @@ button.bracket-score-cell {
 }
 
 .bracket-board-linear {
-  --bracket-gap: 18px;
-  --bracket-connector-half-gap: 9px;
+  --bracket-gap: 24px;
+  --bracket-connector-half-gap: 12px;
   align-items: stretch;
   display: grid;
   gap: var(--bracket-gap);
   grid-template-columns: repeat(var(--bracket-rounds, 3), minmax(250px, 1fr));
   min-width: max(100%, var(--bracket-min-width, 870px));
+  overflow: visible;
+  position: relative;
 }
 
 .bracket-board-linear .bracket-round-column {
   min-width: 0;
+  overflow: visible;
+  position: relative;
   scroll-snap-align: start;
+  z-index: 2;
 }
 
 .bracket-board-linear .bracket-column-stack {
   gap: clamp(8px, calc(84px / var(--bracket-count)), 18px);
   isolation: isolate;
+  overflow: visible;
 }
 
 .bracket-board-linear .bracket-match {
   z-index: 2;
+}
+
+.bracket-line-layer {
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.bracket-line-layer path {
+  fill: none;
+  filter: drop-shadow(0 0 7px color-mix(in srgb, var(--accent) 36%, transparent));
+  stroke: color-mix(in srgb, var(--accent) 78%, var(--accent-3));
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
 }
 
 .bracket-board-linear.is-step-0 {
@@ -2469,52 +2495,30 @@ button.bracket-score-cell {
   --bracket-stack-height: 1180px;
 }
 
-.bracket-board-linear .bracket-round-column:not(:last-child) .bracket-match::after {
-  background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 38%, transparent), color-mix(in srgb, var(--accent) 88%, transparent));
-  content: "";
-  height: 2px;
-  position: absolute;
-  right: calc(var(--bracket-connector-half-gap) * -1);
-  top: 50%;
-  width: var(--bracket-connector-half-gap);
+.bracket-board-linear.is-start-r32 {
+  --bracket-stack-height: 1180px;
 }
 
-.bracket-connectors {
-  inset: 0;
-  pointer-events: none;
-  position: absolute;
-  z-index: 1;
+.bracket-board-linear.is-start-r16 {
+  --bracket-stack-height: 700px;
 }
 
-.bracket-connectors span {
-  height: calc(var(--connector-bottom) - var(--connector-top));
-  position: absolute;
-  right: calc(var(--bracket-connector-half-gap) * -1);
-  top: var(--connector-top);
-  width: 0;
+.bracket-board-linear.is-start-qf {
+  --bracket-stack-height: 430px;
 }
 
-.bracket-connectors span::before,
-.bracket-connectors span::after {
-  background: color-mix(in srgb, var(--accent) 78%, var(--gold));
-  content: "";
-  position: absolute;
+.bracket-board-linear.is-start-sf {
+  --bracket-stack-height: 280px;
 }
 
-.bracket-connectors span::before {
-  bottom: 0;
-  right: 0;
-  top: 0;
-  opacity: 0.72;
-  width: 2px;
+.bracket-board-linear.is-start-finals {
+  --bracket-stack-height: 340px;
 }
 
-.bracket-connectors span::after {
-  height: 2px;
-  left: 0;
-  top: 50%;
-  opacity: 0.72;
-  width: var(--bracket-connector-half-gap);
+.bracket-board-linear.is-single-round {
+  grid-template-columns: minmax(260px, min(100%, 460px));
+  justify-content: center;
+  min-width: 100%;
 }
 
 .bracket-board-linear .bracket-round-finals .bracket-column-stack {
@@ -2531,16 +2535,27 @@ button.bracket-score-cell {
   display: grid;
   gap: 8px;
   grid-row: 2;
+  justify-self: center;
   justify-items: center;
-  padding-top: 12px;
+  padding-top: 0;
+  position: relative;
+  width: 100%;
+}
+
+.bracket-final-main .bracket-match {
+  width: 100%;
 }
 
 .bracket-trophy {
   display: block;
   filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.28));
   height: auto;
+  left: 50%;
   max-height: 92px;
   object-fit: contain;
+  position: absolute;
+  bottom: calc(100% + 10px);
+  transform: translateX(-50%);
   width: clamp(42px, 6vw, 66px);
 }
 
@@ -2562,7 +2577,8 @@ button.bracket-score-cell {
 }
 
 .bracket-match.is-final {
-  border-left-color: var(--accent-2);
+  border-color: color-mix(in srgb, var(--accent-3) 42%, var(--line));
+  border-left-color: var(--accent-3);
   min-height: 128px;
 }
 
@@ -2619,12 +2635,38 @@ button.bracket-score-cell {
     --bracket-stack-height: 1030px;
   }
 
+  .bracket-board-linear.is-start-r32 {
+    --bracket-stack-height: 1030px;
+  }
+
+  .bracket-board-linear.is-start-r16 {
+    --bracket-stack-height: 610px;
+  }
+
+  .bracket-board-linear.is-start-qf {
+    --bracket-stack-height: 360px;
+  }
+
+  .bracket-board-linear.is-start-sf {
+    --bracket-stack-height: 240px;
+  }
+
+  .bracket-board-linear.is-start-finals {
+    --bracket-stack-height: 320px;
+  }
+
 }
 
 @media (max-width: 430px) {
   .bracket-board-linear {
     grid-template-columns: repeat(var(--bracket-rounds, 3), minmax(210px, 1fr));
     min-width: max(100%, calc(var(--bracket-min-width, 870px) - 190px));
+  }
+
+  .bracket-board-linear.is-start-finals,
+  .bracket-board-linear.is-single-round {
+    grid-template-columns: minmax(0, 1fr);
+    min-width: 100%;
   }
 
   .bracket-board-linear.is-step-3 {
