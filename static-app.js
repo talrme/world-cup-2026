@@ -674,7 +674,7 @@
   }
 
   function isRealTeam(team) {
-    return !/^(Winner|Runner-up|Best|Loser|3rd)\b/.test(team);
+    return !/^(Winner|Runner-up|Best|Loser|3rd|TBD)\b/i.test(team);
   }
 
   function allCountries() {
@@ -1079,15 +1079,27 @@
     return `<a aria-label="Open ${escapeHtml(label)} on YouTube" class="tile-video-link tile-video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span>${chipMarkup}</a>`;
   }
 
-  function renderTileVideoLinks(match) {
+  function compactVideoLinksFor(match) {
     const links = [];
     const short = match.videos?.short || null;
     const extended = match.videos?.extended || null;
     if (short?.url) links.push(renderTileVideoLink("short", short));
     if (extended?.url) links.push(renderTileVideoLink("extended", extended));
+    return links;
+  }
+
+  function renderTileVideoLinks(match) {
+    const links = compactVideoLinksFor(match);
     const insights = renderInsightsButton(match, true);
     if (insights) links.push(insights);
     return links.length ? `<div class="tile-video-links">${links.join("")}</div>` : "";
+  }
+
+  function renderBracketVideoLinks(match) {
+    const links = compactVideoLinksFor(match);
+    const insights = renderInsightsButton(match, true);
+    if (insights) links.push(insights);
+    return links.length ? `<div class="tile-video-links bracket-video-links">${links.join("")}</div>` : "";
   }
 
   function renderVideoSearchLink(match) {
@@ -1265,6 +1277,10 @@
     const extended = match.videos?.extended || null;
     const short = match.videos?.short || null;
     const actions = [];
+
+    if (state.mode === "bracket" && (short?.url || extended?.url)) {
+      return `<div class="video-actions video-actions-compact">${compactVideoLinksFor(match).join("")}</div>`;
+    }
 
     if (short?.url) {
       actions.push(renderVideoLink("short", short));
@@ -1492,23 +1508,18 @@
     return Boolean(scored.length && scored.every((match) => isScoreVisible(match)));
   }
 
-  function groupScheduledCounts(groupMatches) {
-    return groupMatches.reduce((counts, match) => {
-      counts[match.home] = (counts[match.home] || 0) + 1;
-      counts[match.away] = (counts[match.away] || 0) + 1;
-      return counts;
-    }, {});
-  }
-
-  function clinchedAdvancementTeams(group) {
+  function groupSlotClinchedTeam(slot, group) {
     const groupMatches = groupMatchesFor(group);
-    if (groupMatches.length !== 6 || !groupScoresVisible(groupMatches)) return [];
+    if (groupMatches.length !== 6 || !groupScoresVisible(groupMatches)) return null;
 
     const standings = standingsFor(groupMatches);
     const teams = standings.map((row) => row.team);
     const remaining = groupMatches.filter((match) => !hasScore(match));
     const basePoints = Object.fromEntries(standings.map((row) => [row.team, row.points]));
-    const scheduledCounts = groupScheduledCounts(groupMatches);
+
+    if (!remaining.length) {
+      return slot === "Winner" ? standings[0]?.team || null : standings[1]?.team || null;
+    }
 
     const scenarioPoints = [];
     function walk(index, points) {
@@ -1533,16 +1544,16 @@
 
     walk(0, basePoints);
 
-    return teams.filter((team) => {
-      const played = standings.find((row) => row.team === team)?.played || 0;
-      if (played < 1 || scheduledCounts[team] < 3) return false;
-
-      return scenarioPoints.every((points) => {
-        const teamPoints = points[team] || 0;
-        const teamsThatCanFinishAtLeastLevel = teams.filter((other) => other !== team && (points[other] || 0) >= teamPoints);
-        return teamsThatCanFinishAtLeastLevel.length <= 1;
-      });
-    });
+    return (
+      teams.find((team) =>
+        scenarioPoints.every((points) => {
+          const teamPoints = points[team] || 0;
+          const higher = teams.filter((other) => other !== team && (points[other] || 0) > teamPoints).length;
+          const tiedOrHigher = teams.filter((other) => other !== team && (points[other] || 0) >= teamPoints).length;
+          return slot === "Winner" ? tiedOrHigher === 0 : higher === 1 && tiedOrHigher === 1;
+        }),
+      ) || null
+    );
   }
 
   function bracketSourceVisible(sourceLabel) {
@@ -1561,10 +1572,19 @@
     return true;
   }
 
+  function shouldUseBracketTbd(match, label) {
+    const tbdStages = new Set(["Round of 16", "Quarterfinals", "Semifinals", "Third Place", "Final"]);
+    return tbdStages.has(match.stage) && !isRealTeam(label);
+  }
+
   function bracketDisplayTeam(match, side) {
     const source = match[`${side}Source`];
-    if (source && !bracketSourceVisible(source)) return source;
-    return match[side];
+    if (source && !bracketSourceVisible(source)) {
+      return shouldUseBracketTbd(match, source) ? "TBD" : source;
+    }
+
+    const team = match[side];
+    return shouldUseBracketTbd(match, team) ? "TBD" : team;
   }
 
   function renderBracketClinchedHints(label) {
@@ -1572,21 +1592,17 @@
     const groupSource = source.match(/^(Winner|Runner-up) Group ([A-L])$/i);
     if (!groupSource) return "";
 
-    const teams = clinchedAdvancementTeams(groupSource[2].toUpperCase());
-    if (!teams.length) return "";
+    const slot = groupSource[1];
+    const group = groupSource[2].toUpperCase();
+    const team = groupSlotClinchedTeam(slot, group);
+    if (!team) return "";
 
     return `
-      <div class="bracket-clinched-list" aria-label="Clinched advancement">
-        ${teams
-          .map(
-            (team) => `
-              <span class="bracket-clinched-chip" title="${escapeHtml(`${team} has clinched advancement`)}">
-                ${renderTeamName(team, "bracket-clinched-team")}
-                <em>clinched</em>
-              </span>
-            `,
-          )
-          .join("")}
+      <div class="bracket-clinched-list" aria-label="Clinched bracket slot">
+        <span class="bracket-clinched-chip" title="${escapeHtml(`${team} has clinched ${slot.toLowerCase()} Group ${group}`)}">
+          ${renderTeamName(team, "bracket-clinched-team")}
+          <em>clinched</em>
+        </span>
       </div>
     `;
   }
@@ -1625,7 +1641,7 @@
     const roundTone = match.stage === "Final" ? "is-final" : match.stage === "Third Place" ? "is-third" : "";
     const matchLabel = match.stage === "Final" || match.stage === "Third Place" ? match.stage : formatCompactDateTime(match);
     const matchTime = match.stage === "Final" || match.stage === "Third Place" ? formatCompactDateTime(match) : "";
-    const actions = renderTileVideoLinks(match);
+    const actions = renderBracketVideoLinks(match);
     return `
       <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(match.home)} vs ${escapeHtml(match.away)}">
         <div class="bracket-match-meta">
@@ -1660,7 +1676,14 @@
         <section class="bracket-round-column bracket-round-finals" style="--bracket-count: ${roundMatches.length || 1}">
           <header>${escapeHtml(label)}</header>
           <div class="bracket-column-stack bracket-finals-stack">
-            ${finalMatch ? `<div class="bracket-final-main">${renderBracketMatch(finalMatch, "is-finals")}</div>` : ""}
+            ${
+              finalMatch
+                ? `<div class="bracket-final-main">
+                    <img alt="World Cup trophy" class="bracket-trophy" src="./public/assets/world-cup-trophy.png" />
+                    ${renderBracketMatch(finalMatch, "is-finals")}
+                  </div>`
+                : ""
+            }
             ${
               thirdPlaceMatch
                 ? `<div class="bracket-third-place-block">
@@ -2572,7 +2595,7 @@
         <header class="topbar">
           <div>
             <span class="eyebrow">2026</span>
-            <h1><a aria-label="World Cup Highlights" class="home-title" href="${escapeHtml(window.location.pathname)}">W<span class="title-ball" aria-hidden="true"><span class="title-ball-icon">⚽</span><span class="title-ball-letter">o</span></span>rld Cup Highlights</a></h1>
+            <h1><a aria-label="World Cup Highlights" class="home-title" href="${escapeHtml(window.location.pathname)}">W<span class="title-ball" aria-hidden="true"><img class="title-ball-icon" src="./public/assets/soccer-ball-source.png" alt="" /><span class="title-ball-letter">o</span></span>rld Cup H<span class="title-trophy" aria-hidden="true"><img class="title-trophy-icon" src="./public/assets/world-cup-trophy.png" alt="" /><span class="title-trophy-letter">i</span></span>ghl<span class="title-trophy" aria-hidden="true"><img class="title-trophy-icon" src="./public/assets/world-cup-trophy.png" alt="" /><span class="title-trophy-letter">i</span></span>ghts</a></h1>
           </div>
           <button aria-label="Refresh schedule" class="phone-refresh" data-page-refresh title="Refresh schedule" type="button">
             <span aria-hidden="true">↻</span>

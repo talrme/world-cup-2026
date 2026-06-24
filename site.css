@@ -155,7 +155,7 @@ h1 {
 }
 
 .home-title {
-  align-items: center;
+  align-items: baseline;
   color: inherit;
   display: inline-flex;
   text-decoration: none;
@@ -168,21 +168,47 @@ h1 {
 .title-ball {
   display: inline-grid;
   filter: drop-shadow(0 0.04em 0 rgba(0, 0, 0, 0.34));
-  font-size: 0.7em;
+  font-size: 0.68em;
   height: 1em;
   line-height: 1;
-  margin-inline: 0.06em 0.09em;
+  margin-inline: -0.04em -0.02em;
+  overflow: visible;
   place-items: center;
-  transform: translateY(0.16em);
-  width: 1.02em;
+  transform: translateY(0.2em);
+  width: 1em;
 }
 
 .title-ball-icon {
   display: block;
+  height: 100%;
   line-height: 1;
+  object-fit: contain;
+  width: 108%;
 }
 
 .title-ball-letter {
+  display: none;
+}
+
+.title-trophy {
+  display: inline-grid;
+  filter: drop-shadow(0 0.035em 0 rgba(0, 0, 0, 0.32));
+  height: 0.7em;
+  line-height: 1;
+  margin-inline: 0.006em 0.018em;
+  place-items: center;
+  transform: translateY(0.05em);
+  width: 0.26em;
+}
+
+.title-trophy-icon {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.title-trophy-letter {
   display: none;
 }
 
@@ -2095,6 +2121,11 @@ h1 {
   gap: 5px;
 }
 
+.bracket-video-links .video-link-label,
+.video-actions-compact .video-link-label {
+  display: none;
+}
+
 .bracket-match-actions .tile-video-link,
 .bracket-match-actions .tile-insights-button {
   min-height: 24px;
@@ -2496,7 +2527,20 @@ button.bracket-score-cell {
 }
 
 .bracket-final-main {
+  display: grid;
+  gap: 8px;
   grid-row: 2;
+  justify-items: center;
+  padding-top: 12px;
+}
+
+.bracket-trophy {
+  display: block;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.28));
+  height: auto;
+  max-height: 92px;
+  object-fit: contain;
+  width: clamp(42px, 6vw, 66px);
 }
 
 .bracket-third-place-block {
@@ -2697,6 +2741,14 @@ button.bracket-score-cell {
   color: var(--muted);
   font-size: 0.66rem;
   font-weight: 800;
+}
+
+.video-actions-compact {
+  gap: 6px;
+}
+
+.video-actions-compact .tile-video-link {
+  min-height: 28px;
 }
 
 .constellation-layout {
@@ -4203,22 +4255,43 @@ button.bracket-score-cell {
   }
 
   .title-ball {
-    display: inline;
-    filter: none;
-    font-size: 1em;
-    height: auto;
-    line-height: inherit;
-    margin-inline: 0;
-    transform: none;
-    width: auto;
+    display: inline-grid;
+    filter: drop-shadow(0 0.04em 0 rgba(0, 0, 0, 0.34));
+    font-size: 0.76em;
+    height: 1em;
+    line-height: 1;
+    margin-inline: -0.035em -0.015em;
+    overflow: visible;
+    place-items: center;
+    transform: translateY(0.18em);
+    width: 1em;
   }
 
   .title-ball-icon {
-    display: none;
+    display: block;
   }
 
   .title-ball-letter {
-    display: inline;
+    display: none;
+  }
+
+  .title-trophy {
+    display: inline-grid;
+    filter: drop-shadow(0 0.035em 0 rgba(0, 0, 0, 0.32));
+    height: 0.68em;
+    line-height: 1;
+    margin-inline: 0.004em 0.014em;
+    place-items: center;
+    transform: translateY(0.06em);
+    width: 0.25em;
+  }
+
+  .title-trophy-icon {
+    display: block;
+  }
+
+  .title-trophy-letter {
+    display: none;
   }
 
   .mobile-menu-bar {
