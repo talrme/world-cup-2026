@@ -1647,7 +1647,21 @@ window.WORLD_CUP_DATA = {
       "away": "DR Congo",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "guadalajara"
+      "venueId": "guadalajara",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-24T10:04:39+00:00",
+          "title": "Colombia vs DR Congo Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=C-bTb3K_suE",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-24T10:04:39+00:00"
+      }
     },
     {
       "id": 49,
