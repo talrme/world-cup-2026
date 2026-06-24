@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:46:02+00:00",
+  "generatedAt": "2026-06-23T23:43:41+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -714,19 +714,6 @@
       "pointsPer90": 1.3
     },
     {
-      "rank": 52,
-      "player": "Petar Musa",
-      "team": "Croatia",
-      "position": "FW",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 2,
-      "minutes": 71,
-      "goalsPer90": 1.3,
-      "pointsPer90": 1.3
-    },
-    {
       "rank": 53,
       "player": "Luis Romo",
       "team": "Mexico",
@@ -754,19 +741,6 @@
     },
     {
       "rank": 55,
-      "player": "Martin Baturina",
-      "team": "Croatia",
-      "position": "FW",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 2,
-      "minutes": 84,
-      "goalsPer90": 1.1,
-      "pointsPer90": 1.1
-    },
-    {
-      "rank": 56,
       "player": "Marko Arnautovic",
       "team": "Austria",
       "position": "FW",
@@ -779,7 +753,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 57,
+      "rank": 56,
       "player": "Marcus Pedersen",
       "team": "Norway",
       "position": "DEF",
@@ -792,7 +766,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 58,
+      "rank": 57,
       "player": "Yoane Wissa",
       "team": "DR Congo",
       "position": "FW",
@@ -805,7 +779,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 59,
+      "rank": 58,
       "player": "Matias Galarza",
       "team": "Paraguay",
       "position": "MID",
@@ -818,7 +792,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 60,
+      "rank": 59,
       "player": "Michal Sadilek",
       "team": "Czechia",
       "position": "MID",
@@ -831,7 +805,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 61,
+      "rank": 60,
       "player": "Bradley Barcola",
       "team": "France",
       "position": "MID",
@@ -844,7 +818,7 @@
       "pointsPer90": 0.8
     },
     {
-      "rank": 61,
+      "rank": 60,
       "player": "Daniel Munoz",
       "team": "Colombia",
       "position": "DEF",
@@ -853,6 +827,19 @@
       "points": 1,
       "matches": 1,
       "minutes": 106,
+      "goalsPer90": 0.8,
+      "pointsPer90": 0.8
+    },
+    {
+      "rank": 61,
+      "player": "Petar Musa",
+      "team": "Croatia",
+      "position": "FW",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 2,
+      "minutes": 111,
       "goalsPer90": 0.8,
       "pointsPer90": 0.8
     },
@@ -871,6 +858,19 @@
     },
     {
       "rank": 63,
+      "player": "Martin Baturina",
+      "team": "Croatia",
+      "position": "FW",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 2,
+      "minutes": 123,
+      "goalsPer90": 0.7,
+      "pointsPer90": 0.7
+    },
+    {
+      "rank": 64,
       "player": "Amad Diallo",
       "team": "Ivory Coast",
       "position": "MID",
@@ -883,7 +883,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 64,
+      "rank": 65,
       "player": "Aymen Hussein",
       "team": "Iraq",
       "position": "FW",
@@ -896,7 +896,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 65,
+      "rank": 66,
       "player": "Junya Ito",
       "team": "Japan",
       "position": "FW",
@@ -909,7 +909,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 66,
+      "rank": 67,
       "player": "Jamal Musiala",
       "team": "Germany",
       "position": "MID",
@@ -922,7 +922,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 67,
+      "rank": 68,
       "player": "Nico Schlotterbeck",
       "team": "Germany",
       "position": "DEF",
@@ -935,7 +935,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 68,
+      "rank": 69,
       "player": "Connor Metcalfe",
       "team": "Australia",
       "position": "MID",
@@ -948,7 +948,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 69,
+      "rank": 70,
       "player": "Amine Gouiri",
       "team": "Algeria",
       "position": "FW",
@@ -961,7 +961,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 70,
+      "rank": 71,
       "player": "Agustin Canobbio",
       "team": "Uruguay",
       "position": "MID",
@@ -974,7 +974,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 71,
+      "rank": 72,
       "player": "Abbosbek Fayzullaev",
       "team": "Uzbekistan",
       "position": "FW",
@@ -987,7 +987,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 72,
+      "rank": 73,
       "player": "Emam Ashour",
       "team": "Egypt",
       "position": "MID",
@@ -1000,7 +1000,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 73,
+      "rank": 74,
       "player": "Raul Jimenez",
       "team": "Mexico",
       "position": "FW",
@@ -1013,7 +1013,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 73,
+      "rank": 74,
       "player": "Jude Bellingham",
       "team": "England",
       "position": "MID",
@@ -1026,7 +1026,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 74,
+      "rank": 75,
       "player": "Abdulelah Al Amri",
       "team": "Saudi Arabia",
       "position": "DEF",
@@ -1039,7 +1039,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 75,
+      "rank": 76,
       "player": "Julian Quinones",
       "team": "Mexico",
       "position": "FW",
@@ -1052,7 +1052,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 76,
+      "rank": 77,
       "player": "Romano Schmid",
       "team": "Austria",
       "position": "MID",
@@ -1065,7 +1065,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 77,
+      "rank": 78,
       "player": "Mohammed Mohebi",
       "team": "Iran",
       "position": "MID",
@@ -1078,7 +1078,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 78,
+      "rank": 79,
       "player": "Kevin Lenini",
       "team": "Cape Verde",
       "position": "MID",
@@ -1091,7 +1091,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 79,
+      "rank": 80,
       "player": "Alexandre Nuno Mendes",
       "team": "Portugal",
       "position": "DEF",
@@ -1104,7 +1104,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 80,
+      "rank": 81,
       "player": "John McGinn",
       "team": "Scotland",
       "position": "MID",
@@ -1117,7 +1117,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 81,
+      "rank": 82,
       "player": "Joao Neves",
       "team": "Portugal",
       "position": "MID",
@@ -1130,7 +1130,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 82,
+      "rank": 83,
       "player": "Livano Comenencia",
       "team": "Curacao",
       "position": "MID",
@@ -1143,7 +1143,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 83,
+      "rank": 84,
       "player": "Virgil van Dijk",
       "team": "Netherlands",
       "position": "DEF",
@@ -1156,7 +1156,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 84,
+      "rank": 85,
       "player": "Omar Rekik",
       "team": "Tunisia",
       "position": "DEF",
@@ -1169,7 +1169,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 84,
+      "rank": 85,
       "player": "Ladislav Krejci",
       "team": "Czechia",
       "position": "DEF",
@@ -1182,7 +1182,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 85,
+      "rank": 86,
       "player": "Teboho Mokoena",
       "team": "South Africa",
       "position": "MID",
@@ -1195,7 +1195,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 86,
+      "rank": 87,
       "player": "Ali Olwan",
       "team": "Jordan",
       "position": "FW",
@@ -1208,7 +1208,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 87,
+      "rank": 88,
       "player": "Granit Xhaka",
       "team": "Switzerland",
       "position": "MID",
@@ -1221,7 +1221,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 88,
+      "rank": 89,
       "player": "Finn Surman",
       "team": "New Zealand",
       "position": "DEF",
@@ -1234,7 +1234,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 89,
+      "rank": 90,
       "player": "Franck Kessie",
       "team": "Ivory Coast",
       "position": "MID",
@@ -1247,7 +1247,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 90,
+      "rank": 91,
       "player": "Caleb Yirenkyi",
       "team": "Ghana",
       "position": "MID",
@@ -1260,7 +1260,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 90,
+      "rank": 91,
       "player": "Nizar Al Rashdan",
       "team": "Jordan",
       "position": "MID",
