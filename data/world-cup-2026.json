@@ -1680,7 +1680,21 @@
       "network": "FOX",
       "venueId": "vancouver",
       "homeScore": 2,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-24T22:55:01+00:00",
+          "title": "Switzerland vs Canada Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=pObYkmGnk24",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-24T22:55:01+00:00"
+      }
     },
     {
       "id": 50,
@@ -1693,9 +1707,25 @@
       "timezoneLabel": "ET",
       "home": "Bosnia and Herzegovina",
       "away": "Qatar",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "seattle"
+      "venueId": "seattle",
+      "homeScore": 3,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-24T22:55:43+00:00",
+          "title": "Bosnia and Herzegovina vs Qatar Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=mk6m1LJdkrI",
+          "channel": "FOX Sports",
+          "durationText": "13 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-24T22:55:43+00:00"
+      }
     },
     {
       "id": 51,
@@ -2514,7 +2544,7 @@
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-24T21:00:24+00:00",
+  "scheduleUpdatedAt": "2026-06-24T22:36:19+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
