@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T19:28:57+00:00",
+  "generatedAt": "2026-06-25T21:39:14+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -44,25 +44,25 @@
       "refreshReason": "past 5 days"
     },
     "37": {
-      "headline": "Spain Dominates Saudi Arabia in Four-Goal Statement",
-      "summary": "Spain secured a commanding 4-0 victory over Saudi Arabia at Mercedes-Benz Stadium in Atlanta. This emphatic result propels Spain to the top of Group H with four points after two matches. Meanwhile, Saudi Arabia remains at the bottom of the table with one point, facing significant pressure ahead of their final group fixture.",
+      "headline": "Spain Dominates Saudi Arabia in 4-0 Victory",
+      "summary": "Spain secured a decisive 4-0 win over Saudi Arabia at Mercedes-Benz Stadium, vaulting themselves to the top of Group H. The result leaves Spain with four points from two matches, while Saudi Arabia remains at the bottom of the table with one point.",
       "story": [
-        "Following a frustrating scoreless draw in their opening match against Cabo Verde, Spain delivered a clinical performance to dismantle Saudi Arabia. The 4-0 scoreline reflects a complete turnaround in offensive efficiency, as the Spanish side dominated proceedings from the start to secure their first win of the tournament.",
-        "The result at Mercedes-Benz Stadium significantly alters the landscape of Group H. With four points and a goal difference of plus-four, Spain now sits firmly in the driver's seat. Their ability to capitalize on opportunities against Saudi Arabia has provided them with a crucial cushion as they head into the final matchday.",
-        "For Saudi Arabia, the defeat is a difficult setback. After earning a hard-fought point against Uruguay in their opener, they were unable to replicate that defensive resilience against a relentless Spanish attack. With only one point from two games and a negative goal difference, their path to the knockout stages has narrowed considerably.",
-        "The focus now shifts to the final round of group fixtures on June 26. Spain will face Uruguay in a high-stakes encounter to determine the final group standings, while Saudi Arabia must secure a victory against Cabo Verde to keep any hopes of advancing alive."
+        "Spain delivered a clinical performance in Atlanta, dismantling Saudi Arabia to claim their first win of the tournament. After a scoreless draw in their opening match against Cabo Verde, the Spanish side found their rhythm and efficiency, putting four goals past the Saudi defense without conceding.",
+        "The victory is a significant turning point for Spain, who now sit comfortably at the top of Group H with four points and a +4 goal difference. This emphatic result provides them with a vital cushion as they prepare for their final group stage fixture against Uruguay.",
+        "For Saudi Arabia, the loss is a difficult setback following their hard-fought 1-1 draw against Uruguay in the opening matchday. With only one point from two games and a -4 goal difference, they now face immense pressure to secure a result in their final match against Cabo Verde to keep their tournament hopes alive.",
+        "The Group H landscape remains tight, with Uruguay and Cabo Verde both sitting on two points. Spain\u2019s dominance in this match has effectively set the stage for a high-stakes final round of fixtures where every goal and point will be critical for determining which teams advance to the next stage."
       ],
       "bullets": [
-        "Spain moves to the top of Group H with 4 points and a +4 goal difference.",
-        "Saudi Arabia sits at the bottom of the group with 1 point and faces a must-win scenario in their final match.",
-        "The 4-0 victory marks a major offensive rebound for Spain after their opening-match stalemate."
+        "Spain moved to the top of Group H with 4 points and a +4 goal difference.",
+        "Saudi Arabia sits in last place with 1 point, needing a win in their final match to remain competitive.",
+        "The 4-0 victory marks Spain's first win of the 2026 World Cup group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:45:23+00:00",
+      "updatedAt": "2026-06-25T21:39:14+00:00",
       "sourceHash": "cdb0a7785da2cb58",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "38": {
       "headline": "Belgium and Iran finish scoreless in Group G stalemate",
@@ -2132,36 +2132,36 @@
       "refreshReason": "player stats or prompt changed"
     },
     "kai-havertz-germany": {
-      "headline": "Kai Havertz: Germany's Efficient Attacking Threat",
-      "summary": "Kai Havertz has established himself as a clinical presence for Germany in the current tournament. Through 192 minutes of play, he has demonstrated high efficiency in front of the goal. His ability to convert opportunities has been a key factor in Germany's offensive output across their group stage matches. As the team moves toward the knockout rounds, Havertz remains a focal point for their attacking strategy.",
+      "headline": "Kai Havertz: Leading the German Attack",
+      "summary": "Kai Havertz has established himself as a key offensive threat for Germany throughout the group stage. With 2 goals in 3 matches, he has demonstrated clinical finishing in his 250 minutes of play. His efficiency in front of goal remains a vital component of Germany's tactical setup as they progress through the tournament. Havertz currently holds a goals per 90 rate of 0.7, highlighting his impact when on the pitch.",
       "story": [],
       "bullets": [
-        "Recorded 2 goals in 3 matches played.",
-        "Maintains an impressive goals per 90 rate of 0.9.",
-        "Contributed 2 total points during the group stage.",
-        "Logged 192 minutes of action for Germany.",
-        "Delivering a points per 90 rate of 0.9."
+        "Contributed 2 goals across 3 tournament matches.",
+        "Maintains a strong 0.7 goals per 90 rate.",
+        "Logged 250 total minutes of action for Germany.",
+        "Currently holds 2 total points in the competition.",
+        "Key figure in Germany's Group E campaign."
       ],
       "sections": [
         {
+          "title": "Clinical Efficiency",
+          "body": "Havertz has been highly effective in his role as a forward, converting his opportunities into 2 goals. His points per 90 rate of 0.7 reflects a consistent ability to influence the scoreboard during his 250 minutes of play."
+        },
+        {
           "title": "Tournament Impact",
-          "body": "Havertz has been highly productive during his 192 minutes on the pitch. With 2 goals to his name, he is proving to be an efficient finisher for the German side. His per-90 metrics highlight his consistent threat level whenever he is involved in the attack."
-        },
-        {
-          "title": "Efficiency and Output",
-          "body": "The forward currently holds a goals per 90 rate of 0.9, underlining his clinical nature in the final third. This efficiency is mirrored by his points per 90 rate of 0.9, showing that he is maximizing his time on the field. He has been a reliable source of production for his team throughout the group stage."
-        },
-        {
-          "title": "Team Context",
-          "body": "Germany's offensive momentum has been bolstered by Havertz's contributions in matches against Curacao and Ivory Coast. The team has secured strong results, positioning themselves well for the upcoming fixture against Ecuador. His role as a forward is central to how the team breaks down opposing defenses."
+          "body": "Having played in 3 matches so far, Havertz is a central figure in Germany's offensive strategy. His presence has helped the team navigate their group stage fixtures successfully."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluding against Ecuador, Havertz will look to maintain his scoring form. Germany has already secured a path forward, with a Round of 32 match scheduled for June 29. Continuing his current output will be vital as the competition intensifies in the knockout stages."
+          "body": "Germany is set to face Ecuador in their final group match on June 25th. Following that, the team moves into the Round of 32 on June 29th, where Havertz will look to continue his scoring form."
+        },
+        {
+          "title": "Team Context",
+          "body": "Germany has shown strong form in Group E, securing victories against Curacao and Ivory Coast. Havertz's contributions have been instrumental in these results, providing the necessary edge in competitive matches."
         }
       ],
-      "updatedAt": "2026-06-25T19:22:59+00:00",
-      "sourceHash": "48e9cb0b73d44db5",
+      "updatedAt": "2026-06-25T21:39:02+00:00",
+      "sourceHash": "dbbada167362148d",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2234,35 +2234,31 @@
     },
     "harry-kane-england": {
       "headline": "Harry Kane: England's Focal Point in Group L",
-      "summary": "Harry Kane has served as a central figure for England throughout their opening matches in the group stage. With 2 goals across 2 matches, he remains a consistent threat in front of the net. His efficiency is highlighted by a strong goals per 90 rate of 0.9. As England prepares for their next challenge, Kane's ability to convert opportunities will be vital for the team's progression.",
+      "summary": "Harry Kane remains a central figure for England, contributing directly to the team's offensive output through the first two group matches. With 2 goals across 204 minutes of play, he has demonstrated his clinical nature in front of the net. While the team experienced a scoreless draw in their second outing, Kane's presence continues to be a primary tactical consideration for England. He enters the final group stage fixture against Panama looking to build on his current tournament tally.",
       "story": [],
       "bullets": [
-        "Totaled 2 goals in 2 appearances for England.",
-        "Maintains an impressive 0.9 goals per 90 minutes.",
-        "Logged 204 minutes of total playing time so far.",
-        "Accumulated 2 points throughout the tournament.",
-        "Preparing for the upcoming Matchday 3 fixture against Panama."
+        "Registered 2 goals in 2 matches played.",
+        "Maintained a strong scoring efficiency with 0.9 goals per 90 minutes.",
+        "Accumulated 204 minutes of total playing time for England.",
+        "Currently holds 2 points in the tournament standings.",
+        "Averaging 0.9 points per 90 minutes of action."
       ],
       "sections": [
         {
-          "title": "Tournament Production",
-          "body": "Harry Kane has been an active presence in England's attack, finding the back of the net twice in his first two appearances. His total of 2 points reflects his direct contribution to the team's offensive output. Having played 204 minutes, he continues to be the primary target for England's forward play."
+          "title": "Tournament Scoring Efficiency",
+          "body": "Harry Kane has been highly efficient during his time on the pitch, netting 2 goals in just 204 minutes. His rate of 0.9 goals per 90 minutes highlights his ability to capitalize on opportunities when they arise. This level of production makes him a vital asset for England as they navigate the group stage."
         },
         {
-          "title": "Efficiency Metrics",
-          "body": "The striker is currently operating at a high level of efficiency with a goals per 90 rate of 0.9. This rate underscores his clinical nature when presented with scoring chances. His points per 90 rate also sits at 0.9, mirroring his goal-scoring consistency."
+          "title": "Recent Team Performance",
+          "body": "England opened their campaign with a high-scoring 4-2 victory over Croatia, showcasing their attacking potential. However, the subsequent match against Ghana ended in a 0-0 stalemate, reflecting a tighter defensive battle. Kane remains at the heart of the team's tactical setup regardless of the fluctuating scorelines."
         },
         {
-          "title": "Team Context",
-          "body": "England's group stage journey has seen a mix of high-scoring action and defensive stalemates, including a 4-2 victory over Croatia and a 0-0 draw against Ghana. Kane remains the focal point of the squad's tactical setup. His performance will be key as the team looks to build on their current standing."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "England is set to face Panama on June 27 for their final group stage match. This fixture will be critical for determining the final group standings. Fans will be watching to see if Kane can add to his goal tally in this upcoming encounter."
+          "title": "Looking Ahead to Panama",
+          "body": "The upcoming match against Panama on June 27th represents a crucial opportunity for England to secure their standing in Group L. Kane will likely serve as the primary target man as the team seeks a return to their scoring form from the opening match. Fans can catch the action on FOX as the group stage concludes."
         }
       ],
-      "updatedAt": "2026-06-25T19:23:25+00:00",
-      "sourceHash": "c4f3e384e7367e78",
+      "updatedAt": "2026-06-25T21:38:33+00:00",
+      "sourceHash": "93fe37fb4a527ad4",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3510,74 +3506,74 @@
       "model": "gemini-3.1-flash-lite"
     },
     "cristiano-ronaldo-portugal": {
-      "headline": "Cristiano Ronaldo: Leading the Line for Portugal",
-      "summary": "Cristiano Ronaldo continues to be a central figure in Portugal's attack during the 2026 World Cup group stage. Through two matches, he has demonstrated his clinical edge by finding the back of the net twice. His consistent presence on the field has been a staple for the squad as they navigate Group K. With a strong start to the tournament, Ronaldo remains a focal point for Portugal's offensive ambitions.",
+      "headline": "Cristiano Ronaldo: Leading the Portuguese Attack",
+      "summary": "Cristiano Ronaldo has been a focal point for Portugal throughout the early stages of the tournament. With 2 goals across 2 matches, he continues to demonstrate his clinical nature in front of the net. His contributions have been vital in securing points for his side as they navigate Group K. Ronaldo remains a constant threat, maintaining a high level of efficiency during his 202 minutes of play.",
       "story": [],
       "bullets": [
-        "Scored 2 goals across 2 matches played.",
-        "Maintained a high efficiency with 0.9 goals per 90 minutes.",
-        "Logged 202 minutes of total playing time.",
-        "Contributed 2 total points to his tournament tally.",
-        "Remains a key leader in Portugal's forward line."
+        "Registered 2 goals in 2 matches played.",
+        "Maintains a strong scoring rate of 0.9 goals per 90 minutes.",
+        "Logged 202 minutes of total action on the pitch.",
+        "Accumulated 2 total points to lead the offensive effort.",
+        "Maintains a consistent points-per-90 rate of 0.9."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Ronaldo has proven his value in front of goal by netting 2 times in just 2 matches. His ability to capitalize on opportunities is reflected in his impressive rate of 0.9 goals per 90 minutes. This efficiency ensures that he remains one of the most dangerous threats for any opposing defense."
+          "title": "Tournament Impact",
+          "body": "Ronaldo has been instrumental in Portugal's campaign, contributing directly to the team's offensive output. His ability to find the back of the net has been a key factor in Portugal's group stage performances."
         },
         {
-          "title": "Tournament Workload",
-          "body": "Having played 202 minutes so far, Ronaldo has been heavily involved in Portugal's tactical setup. His durability and commitment to the full duration of matches highlight his importance to the team's structure. He currently sits with 2 total points as he continues to drive the attack forward."
+          "title": "Statistical Efficiency",
+          "body": "With a goals-per-90 rate of 0.9, Ronaldo is proving to be highly efficient with the time he is given. This high rate of production highlights his continued importance to the team's tactical setup."
         },
         {
-          "title": "Team Context and Form",
-          "body": "Portugal has enjoyed a productive group stage, including a dominant 5-0 victory over Uzbekistan following a 1-1 draw against DR Congo. Ronaldo's contributions have been instrumental in these results, helping the team secure a strong position in Group K. The squad's offensive output has been bolstered significantly by his presence on the pitch."
+          "title": "Recent Team Context",
+          "body": "Portugal comes off a dominant 5-0 victory against Uzbekistan, building on their earlier 1-1 draw with DR Congo. This momentum sets the stage for their upcoming final group match."
         },
         {
           "title": "Looking Ahead",
-          "body": "As Portugal prepares for their final group stage match against Colombia on June 27th, all eyes will be on Ronaldo to see if he can extend his scoring streak. This upcoming fixture will be crucial for Portugal's momentum heading into the next stage of the tournament. Fans can expect him to lead the charge once again as the team seeks another positive result."
+          "body": "Portugal is scheduled to face Colombia on June 27th at 19:30 ET. Ronaldo will look to continue his scoring form as the team aims to secure their standing in the group."
         }
       ],
-      "updatedAt": "2026-06-25T19:23:12+00:00",
-      "sourceHash": "cf09411f5644bc0f",
+      "updatedAt": "2026-06-25T21:38:19+00:00",
+      "sourceHash": "8b4b505e6a2a83d2",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "daniel-munoz-colombia": {
-      "headline": "Daniel Munoz: The Defensive Powerhouse Driving Colombia",
-      "summary": "Daniel Munoz has emerged as a standout performer for Colombia, showcasing impressive efficiency in his two tournament appearances. Playing 207 minutes, he has already made a significant impact on the scoreboard from his defensive position. His ability to contribute offensively while maintaining his defensive duties makes him a vital asset for the team. With a strong start to the group stage, Munoz is proving to be one of the most productive defenders in the competition.",
+      "headline": "Daniel Munoz: The Unexpected Scoring Threat from Defense",
+      "summary": "Daniel Munoz has emerged as a surprising offensive catalyst for Colombia during the group stage. Despite playing as a defender, he has already contributed 2 goals across his 207 minutes of play. His efficiency in front of the net has been a standout feature of Colombia's campaign thus far. Munoz currently ranks 25th in player performance metrics, highlighting his impact on the team's success.",
       "story": [],
       "bullets": [
         "Registered 2 goals in just 2 matches played.",
-        "Maintained a high efficiency rate with 0.9 goals per 90 minutes.",
-        "Logged 207 total minutes on the pitch for Colombia.",
-        "Accumulated 2 total points throughout the tournament so far.",
-        "Delivered a 0.9 points per 90 minute average."
+        "Maintains an impressive 0.9 goals per 90 minutes rate.",
+        "Logged a total of 207 minutes on the pitch.",
+        "Accumulated 2 total points during the group stage.",
+        "Maintains a points per 90 rate of 0.9."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Munoz has displayed remarkable composure in front of the net, finding the back of the goal twice during his 207 minutes of play. His goals per 90 rate of 0.9 highlights just how dangerous he has been when joining the attack. Such production from a defender is rare and provides Colombia with a unique tactical advantage."
+          "title": "A Rare Scoring Defender",
+          "body": "It is uncommon for a defender to carry such a significant scoring burden, yet Munoz has thrived in this role. With 2 goals in only 2 matches, he has proven to be a vital asset for Colombia's attack. His ability to convert opportunities has been a key factor in his high ranking."
         },
         {
-          "title": "Tournament Impact",
-          "body": "Across the first two matchdays, Munoz has been central to Colombia's success in Group K. His contributions have directly translated into 2 points, reflecting his importance in both the 3-1 victory over Uzbekistan and the 1-0 win against DR Congo. He continues to be a reliable presence for his squad."
+          "title": "Efficiency Under Pressure",
+          "body": "Munoz is currently operating at a high level of efficiency, evidenced by his 0.9 goals per 90 minutes. Over the course of 207 minutes, he has consistently found ways to influence the scoreline. This level of production is rare for a player in his position."
+        },
+        {
+          "title": "Tournament Context",
+          "body": "Colombia has enjoyed a strong start to the tournament, securing victories against Uzbekistan and DR Congo. Munoz has been a central figure in these matches, helping his team navigate Group K successfully. His contributions have been essential to the team's current standings."
         },
         {
           "title": "Looking Ahead",
-          "body": "As Colombia prepares for their upcoming Matchday 3 clash against Portugal, all eyes will be on Munoz to see if he can maintain his scoring form. This scheduled matchup on June 27th will be a critical test for the team as they look to solidify their standing in the group. His ability to balance defensive responsibilities with offensive surges will be key to their performance."
-        },
-        {
-          "title": "Role and Positioning",
-          "body": "Operating as a defender, Munoz has managed to maximize his time on the field to influence the game's outcome. His points per 90 rate of 0.9 underscores his consistency and high-level engagement in every match he has played. He remains a cornerstone of the Colombian defensive setup."
+          "body": "As Colombia prepares for their next fixture against Portugal on June 27, all eyes will be on Munoz to see if he can maintain his scoring form. The match is scheduled for 19:30 ET and will be broadcast on FOX. Maintaining his current per-90 rates will be crucial for Colombia as they face tougher competition."
         }
       ],
-      "updatedAt": "2026-06-25T19:28:45+00:00",
-      "sourceHash": "8f839bcc70de6b01",
+      "updatedAt": "2026-06-25T21:38:46+00:00",
+      "sourceHash": "cfb9f5f975ffa47b",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "top player"
+      "refreshReason": "player stats or prompt changed"
     },
     "julian-quinones-mexico": {
       "headline": "Julian Quinones: Mexico's Efficient Attacking Force",
