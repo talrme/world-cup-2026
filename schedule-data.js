@@ -1800,9 +1800,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "South Africa",
       "away": "South Korea",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "monterrey"
+      "venueId": "monterrey",
+      "homeScore": 1,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-25T06:36:38+00:00",
+          "title": "South Africa vs South Korea Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=A7PTebEdius",
+          "channel": "FOX Sports",
+          "durationText": "12 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-25T06:36:38+00:00"
+      }
     },
     {
       "id": 54,
@@ -1815,9 +1831,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Czechia",
       "away": "Mexico",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "mexico-city"
+      "venueId": "mexico-city",
+      "homeScore": 0,
+      "awayScore": 3,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-25T06:37:12+00:00",
+          "title": "Czechia vs Mexico Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=IR891e2-JBc",
+          "channel": "FOX Sports",
+          "durationText": "12 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-25T06:37:12+00:00"
+      }
     },
     {
       "id": 55,
@@ -2095,7 +2127,7 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-06-28",
       "time": "15:00",
-      "home": "Runner-up Group A",
+      "home": "South Africa",
       "away": "Canada",
       "status": "scheduled",
       "network": "TBD",
@@ -2103,7 +2135,8 @@ window.WORLD_CUP_DATA = {
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760486",
-      "awaySource": "Runner-up Group B"
+      "awaySource": "Runner-up Group B",
+      "homeSource": "Runner-up Group A"
     },
     {
       "id": 74,
@@ -2578,7 +2611,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-25T01:52:39+00:00",
+  "scheduleUpdatedAt": "2026-06-25T06:16:41+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2742,6 +2775,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-25T01:52:41+00:00",
+  "bracketUpdatedAt": "2026-06-25T06:16:43+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
