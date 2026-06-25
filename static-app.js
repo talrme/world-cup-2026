@@ -635,10 +635,21 @@
   function insightFor(kind, id) {
     const buckets = {
       match: aiInsightsData?.matches || {},
+      matchPreview: aiInsightsData?.matchPreviews || {},
       group: aiInsightsData?.groups || {},
       player: aiInsightsData?.players || {},
     };
     return buckets[kind]?.[String(id)] || null;
+  }
+
+  function matchPreviewFor(match) {
+    return insightFor("matchPreview", match.id);
+  }
+
+  function matchRecapFor(match) {
+    const status = String(match.status || "").toLowerCase();
+    if (!hasScore(match) && !["completed", "final", "live", "in_progress", "in-progress"].includes(status)) return null;
+    return insightFor("match", match.id);
   }
 
   function renderAiInsight(kind, id, label = "Insights", options = {}) {
@@ -647,6 +658,8 @@
     const key = `${kind}:${String(id)}`;
     const allowActiveOpen = options.allowActiveOpen !== false;
     const open = options.open || (allowActiveOpen && activeInsightKey === key) ? " open" : "";
+    const actionClosed = options.actionClosed || "Read insight";
+    const actionOpen = options.actionOpen || "Hide insight";
 
     const bullets = Array.isArray(insight.bullets)
       ? insight.bullets
@@ -683,7 +696,7 @@
         <summary>
           <span class="ai-insight-label">${escapeHtml(label)}</span>
           <span class="ai-insight-summary-meta">
-            <b class="ai-insight-action"><span class="ai-insight-action-closed">Read insight</span><span class="ai-insight-action-open">Hide insight</span></b>
+            <b class="ai-insight-action"><span class="ai-insight-action-closed">${escapeHtml(actionClosed)}</span><span class="ai-insight-action-open">${escapeHtml(actionOpen)}</span></b>
             <i class="ai-insight-chevron" aria-hidden="true"></i>
           </span>
         </summary>
@@ -699,8 +712,20 @@
     `;
   }
 
+  function renderRecapPendingNote() {
+    return `
+      <div class="ai-insight ai-insight-note">
+        <div class="ai-insight-note-header">
+          <span class="ai-insight-label">Match Recap</span>
+          <span class="ai-insight-note-pill">Not ready yet</span>
+        </div>
+        <p>The spoiler recap should appear after the next insights refresh.</p>
+      </div>
+    `;
+  }
+
   function renderInsightsButton(match, compact = false) {
-    if (!insightFor("match", match.id)) return "";
+    if (!matchPreviewFor(match) && !matchRecapFor(match)) return "";
     return `
       <button class="${compact ? "tile-insights-button" : "insights-button"}" data-match-insights="${match.id}" type="button" title="Open match insights">
         <span class="insights-mark" aria-hidden="true"></span>
@@ -1388,8 +1413,14 @@
     const checked = match.videos?.lastCheckedAt
       ? `<p class="last-checked">Checked ${escapeHtml(new Date(match.videos.lastCheckedAt).toLocaleString())}</p>`
       : "";
-    const insightHiddenByScore = hasScore(match) && !isScoreVisible(match);
-    const insightOpen = hasScore(match) && isScoreVisible(match);
+    const recapEligible = Boolean(
+      hasScore(match) || ["completed", "final", "live", "in_progress", "in-progress"].includes(String(match.status || "").toLowerCase())
+    );
+    const scoreRevealed = hasScore(match) && isScoreVisible(match);
+    const preview = matchPreviewFor(match);
+    const recap = matchRecapFor(match);
+    const previewOpen = Boolean(preview && (!recap || !scoreRevealed));
+    const recapOpen = Boolean(recap && scoreRevealed);
 
     return `
       <aside class="detail-panel is-${current}">
@@ -1414,7 +1445,20 @@
           <div><dt>Broadcast</dt><dd>${escapeHtml(match.network || "TBD")}</dd></div>
           ${matchNotice(match, current) ? `<div><dt>Status</dt><dd>${escapeHtml(matchNotice(match, current))}</dd></div>` : ""}
         </dl>
-        ${renderAiInsight("match", match.id, "Insights", { open: insightOpen, allowActiveOpen: !insightHiddenByScore })}
+        ${renderAiInsight("matchPreview", match.id, "Pregame Preview", {
+          open: previewOpen,
+          actionClosed: "Read preview",
+          actionOpen: "Hide preview",
+        })}
+        ${recap
+          ? renderAiInsight("match", match.id, "Match Recap", {
+              open: recapOpen,
+              actionClosed: "Read recap",
+              actionOpen: "Hide recap",
+            })
+          : recapEligible
+            ? renderRecapPendingNote()
+            : ""}
         ${checked}
       </aside>
     `;
@@ -3348,7 +3392,15 @@
       state.selectedId = Number(matchInsights.dataset.matchInsights);
       state.detailOpen = true;
       const match = matches.find((item) => item.id === state.selectedId);
-      activeInsightKey = match && hasScore(match) && !isScoreVisible(match) ? null : `match:${state.selectedId}`;
+      if (match && matchRecapFor(match) && hasScore(match) && isScoreVisible(match)) {
+        activeInsightKey = `match:${state.selectedId}`;
+      } else if (match && matchPreviewFor(match)) {
+        activeInsightKey = `matchPreview:${state.selectedId}`;
+      } else if (match && matchRecapFor(match)) {
+        activeInsightKey = `match:${state.selectedId}`;
+      } else {
+        activeInsightKey = null;
+      }
       render();
       return;
     }
@@ -3410,9 +3462,11 @@
       if (visible) {
         state.revealedScores.delete(matchId);
         state.hiddenScores.add(matchId);
+        activeInsightKey = match && matchPreviewFor(match) ? `matchPreview:${matchId}` : null;
       } else {
         state.hiddenScores.delete(matchId);
         state.revealedScores.add(matchId);
+        activeInsightKey = match && matchRecapFor(match) ? `match:${matchId}` : null;
       }
       saveSpoilerState();
       render();

@@ -86,9 +86,16 @@ python3 scripts/update_ai_insights.py
 
 `update_highlights.py` searches YouTube and stores direct video links only when metadata and title checks pass.
 
-`update_ai_insights.py` optionally generates Gemini blurbs for match details, groups, and top players. It loads `.env` locally, reads `GEMINI_API_KEY` / `GEMINI_MODEL` from the environment, and skips safely when no key is present. Use `--dry-run` before paid calls. Default scheduled mode is `standard`; use `--mode minimal` for small tests, `--mode seed` for a one-time backfill, `--mode all`, or `--force-all` for broader forced runs. For testing, use restrictive targets such as `--force --match-id 12 --max-calls 1`, `--force --player "Lionel Messi|Argentina" --max-calls 1`, or `--force --group B --max-calls 1`. Keep `--max-calls`, `--max-estimated-cost`, and `--sleep` guardrails in place.
+`update_ai_insights.py` optionally generates Gemini blurbs for match details, groups, and top players. It loads `.env` locally, reads `GEMINI_API_KEY` / `GEMINI_MODEL` from the environment, and skips safely when no key is present. Use `--dry-run` before paid calls. Default scheduled mode is `standard`; use `--mode minimal` for small tests, `--mode seed` for a one-time backfill, `--mode all`, or `--force-all` for broader forced runs. For testing, use restrictive targets such as `--force --match-id 12 --max-calls 1`, `--force --match-id 12 --match-content previews --max-calls 1`, `--force --player "Lionel Messi|Argentina" --max-calls 1`, or `--force --group B --max-calls 1`. Keep `--max-calls`, `--max-estimated-cost`, and `--sleep` guardrails in place.
 
 For bracket matches, match Insights are generated when at least one real team is known. Matches with exactly one confirmed team use `prompts/match_partial.md`, which should discuss the confirmed team, unresolved slot, likely/eligible opponent path, venue, kickoff, and bracket stakes without inventing the opponent. Matches with zero real teams should not get match Insights.
+
+Match AI content is split into two buckets:
+
+- `matchPreviews`: spoiler-free pregame previews. These use `prompts/match_preview.md` and a scrubbed context that omits the current match result/status/video fields. They can show in Match Details even when a score is hidden.
+- `matches`: spoiler-capable match recaps. These use `prompts/match.md` and normal match context. If the score is hidden, the recap should render collapsed by default but remain available if the user opens it. If the score is revealed, the recap opens by default and the pregame preview collapses.
+
+Use `--match-content previews`, `--match-content recaps`, or `--match-content all` to control which match bucket is refreshed. `scripts/refresh_all.py` exposes this as `--ai-match-content`. For a preview-only backfill, also pass `--max-groups 0 --max-players 0`.
 
 `api_football_poc.py` is a non-invasive API-Football adapter/comparison script. It requires `API_FOOTBALL_KEY` for real API calls, or `--mock-from-current` to test the mapping/report/dummy-site pipeline without a key. Generated PoC output goes under `poc/api-football/` and is ignored by git.
 

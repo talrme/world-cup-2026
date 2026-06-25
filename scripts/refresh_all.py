@@ -29,6 +29,12 @@ def main() -> int:
     parser.add_argument("--force-all-ai", action="store_true", help="Regenerate all AI insight targets subject to cost/call caps")
     parser.add_argument("--ai-max-calls", type=int, default=None, help="Maximum Gemini calls this run")
     parser.add_argument("--ai-max-cost", type=float, default=None, help="Maximum estimated paid-tier Gemini cost this run")
+    parser.add_argument(
+        "--ai-match-content",
+        choices=["all", "previews", "recaps"],
+        default="all",
+        help="Which match AI content to refresh",
+    )
     parser.add_argument("--ai-match-id", action="append", default=[], help="Refresh one AI match insight by id. Repeatable.")
     parser.add_argument("--ai-group", action="append", default=[], help="Refresh one AI group insight by letter. Repeatable.")
     parser.add_argument("--ai-player", action="append", default=[], help="Refresh one AI player insight by name or 'Name|Team'. Repeatable.")
@@ -69,6 +75,7 @@ def main() -> int:
         return 0
 
     ai_command = [sys.executable, "scripts/update_ai_insights.py", "--mode", args.ai_mode]
+    ai_command.extend(["--match-content", args.ai_match_content])
     if args.force_ai:
         ai_command.append("--force")
     if args.force_all_ai:

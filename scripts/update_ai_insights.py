@@ -28,6 +28,7 @@ DEFAULT_MODEL = "gemini-3.1-flash-lite"
 GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 PROMPTS = {
     "match": ROOT / "prompts" / "match.md",
+    "match_preview": ROOT / "prompts" / "match_preview.md",
     "match_partial": ROOT / "prompts" / "match_partial.md",
     "group": ROOT / "prompts" / "group.md",
     "player": ROOT / "prompts" / "player.md",
@@ -266,6 +267,59 @@ def compact_match(match: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def spoiler_free_compact_match(match: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "id": match.get("id"),
+        "stage": match.get("stage"),
+        "round": match.get("round"),
+        "group": match.get("group"),
+        "date": match.get("date"),
+        "time": match.get("time"),
+        "timezone": match.get("timezoneLabel"),
+        "home": match.get("home"),
+        "away": match.get("away"),
+        "network": match.get("network"),
+        "homeSource": match.get("homeSource"),
+        "awaySource": match.get("awaySource"),
+        "espnEventId": match.get("espnEventId"),
+    }
+
+
+def standings_before_match(group_matches: list[dict[str, Any]], match: dict[str, Any]) -> list[dict[str, Any]]:
+    cutoff = kickoff_utc(match)
+    table: dict[str, dict[str, Any]] = {}
+    for item in group_matches:
+        for side in ("home", "away"):
+            team = item[side]
+            table.setdefault(team, {"team": team, "points": 0, "played": 0, "gf": 0, "ga": 0, "gd": 0})
+
+        if item.get("id") == match.get("id") or not has_score(item) or kickoff_utc(item) >= cutoff:
+            continue
+
+        home = table[item["home"]]
+        away = table[item["away"]]
+        hs = int(item["homeScore"])
+        away_score = int(item["awayScore"])
+        home["played"] += 1
+        away["played"] += 1
+        home["gf"] += hs
+        home["ga"] += away_score
+        away["gf"] += away_score
+        away["ga"] += hs
+        if hs > away_score:
+            home["points"] += 3
+        elif hs < away_score:
+            away["points"] += 3
+        else:
+            home["points"] += 1
+            away["points"] += 1
+
+    for row in table.values():
+        row["gd"] = row["gf"] - row["ga"]
+
+    return sorted(table.values(), key=lambda row: (-row["points"], -row["gd"], -row["gf"], row["team"]))
+
+
 def match_context(match: dict[str, Any], schedule: dict[str, Any], groups: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
     venues = {venue.get("id"): venue for venue in schedule.get("venues", [])}
     venue = venues.get(match.get("venueId"))
@@ -296,6 +350,45 @@ def match_context(match: dict[str, Any], schedule: dict[str, Any], groups: dict[
     return context
 
 
+def match_preview_context(match: dict[str, Any], schedule: dict[str, Any], groups: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
+    venues = {venue.get("id"): venue for venue in schedule.get("venues", [])}
+    venue = venues.get(match.get("venueId"))
+    known_teams = [team for team in (match.get("home"), match.get("away")) if planned_team_name(team)]
+    unknown_slots = [team for team in (match.get("home"), match.get("away")) if not planned_team_name(team)]
+    current_kickoff = kickoff_utc(match)
+    team_matches = {
+        team: [
+            compact_match(item)
+            for item in schedule.get("matches", [])
+            if (
+                item.get("id") != match.get("id")
+                and (item.get("home") == team or item.get("away") == team)
+                and kickoff_utc(item) < current_kickoff
+            )
+        ][:8]
+        for team in known_teams
+    }
+    context: dict[str, Any] = {
+        "kind": "match_preview",
+        "spoilerFree": True,
+        "match": spoiler_free_compact_match(match),
+        "venue": venue,
+        "knownTeamCount": len(known_teams),
+        "knownTeams": known_teams,
+        "unknownSlots": unknown_slots,
+        "teamPreviousMatches": team_matches,
+    }
+    group = match.get("group")
+    if group and group in groups:
+        group_matches = groups[group]
+        previous_group_matches = [
+            item for item in group_matches if item.get("id") != match.get("id") and kickoff_utc(item) < current_kickoff
+        ]
+        context["groupStandingsBeforeMatch"] = standings_before_match(group_matches, match)
+        context["previousGroupMatches"] = [compact_match(item) for item in previous_group_matches]
+    return context
+
+
 def group_context(group: str, group_matches: list[dict[str, Any]], schedule: dict[str, Any]) -> dict[str, Any]:
     ordered = sorted(group_matches, key=lambda item: (item.get("date", ""), item.get("time", ""), item.get("id", 0)))
     return {
@@ -321,6 +414,8 @@ def player_context(player: dict[str, Any], schedule: dict[str, Any]) -> dict[str
 
 
 def prompt_key(kind: str, context: dict[str, Any]) -> str:
+    if kind == "match_preview":
+        return "match_preview"
     if kind == "match" and context.get("knownTeamCount") == 1:
         return "match_partial"
     return kind
@@ -461,6 +556,30 @@ def match_target_reason_and_priority(
     return False, "outside refresh window", (99, abs(delta_hours), sort_id)
 
 
+def preview_stale_hours(match: dict[str, Any], now: dt.datetime) -> int:
+    if is_future_match(match, now):
+        return FUTURE_MATCH_STALE_HOURS
+    return ARCHIVE_MATCH_STALE_HOURS
+
+
+def match_preview_reason_and_priority(
+    match: dict[str, Any],
+    target: Target,
+    existing: dict[str, Any] | None,
+    now: dt.datetime,
+    mode: str,
+) -> tuple[bool, str, tuple[int, float, int]]:
+    delta_hours = match_delta_hours(match, now)
+    sort_id = match_sort_id(match)
+    if cached_source_or_prompt_changed(target, existing):
+        return True, "preview source or prompt changed", (2, abs(delta_hours), sort_id)
+    if is_future_match(match, now):
+        return True, "future spoiler-free preview", (5, max(delta_hours, 0), sort_id)
+    if mode in {"seed", "all"} or not existing:
+        return True, "seed spoiler-free preview", (7, abs(delta_hours), sort_id)
+    return False, "preview cache current", (99, abs(delta_hours), sort_id)
+
+
 def group_stale_hours(group_matches: list[dict[str, Any]], now: dt.datetime) -> int:
     if any(is_live_match(match, now) or is_recent_past_match(match, now) for match in group_matches):
         return GROUP_ACTIVE_STALE_HOURS
@@ -516,21 +635,66 @@ def build_targets(
             if not has_insight_eligible_team(match):
                 continue
             label = f"{match.get('home')} vs {match.get('away')}"
-            target = build_target(
-                "match",
-                str(match.get("id")),
-                label,
-                match_context(match, schedule, groups),
-                0,
-                "manual match target",
-                (0, abs(match_delta_hours(match, now)), match_sort_id(match)),
-            )
-            match_targets.append(target)
+            if args.match_content in {"all", "previews"}:
+                match_targets.append(
+                    build_target(
+                        "match_preview",
+                        str(match.get("id")),
+                        label,
+                        match_preview_context(match, schedule, groups),
+                        0,
+                        "manual spoiler-free preview target",
+                        (0, abs(match_delta_hours(match, now)), match_sort_id(match)),
+                    )
+                )
+            if args.match_content in {"all", "recaps"} and match_insight_focus(match) != "preview":
+                match_targets.append(
+                    build_target(
+                        "match",
+                        str(match.get("id")),
+                        label,
+                        match_context(match, schedule, groups),
+                        0,
+                        "manual match recap target",
+                        (1, abs(match_delta_hours(match, now)), match_sort_id(match)),
+                    )
+                )
     elif not has_specific_targets:
         for match in matches:
             if not has_insight_eligible_team(match):
                 continue
             label = f"{match.get('home')} vs {match.get('away')}"
+
+            if args.match_content in {"all", "previews"}:
+                preview_placeholder = build_target(
+                    "match_preview",
+                    str(match.get("id")),
+                    label,
+                    match_preview_context(match, schedule, groups),
+                    preview_stale_hours(match, now),
+                    "pending",
+                    (99, abs(match_delta_hours(match, now)), match_sort_id(match)),
+                )
+                existing_preview = insight_bucket(ai_data, "match_preview").get(preview_placeholder.target_id)
+                include, reason, priority = match_preview_reason_and_priority(
+                    match, preview_placeholder, existing_preview, now, args.mode
+                )
+                if include:
+                    match_targets.append(
+                        build_target(
+                            "match_preview",
+                            str(match.get("id")),
+                            label,
+                            preview_placeholder.context,
+                            preview_placeholder.stale_hours,
+                            reason,
+                            priority,
+                        )
+                    )
+
+            if args.match_content not in {"all", "recaps"} or match_insight_focus(match) == "preview":
+                continue
+
             placeholder = build_target(
                 "match",
                 str(match.get("id")),
@@ -615,7 +779,10 @@ def build_targets(
 
 
 def insight_bucket(data: dict[str, Any], kind: str) -> dict[str, Any]:
-    return data.setdefault({"match": "matches", "group": "groups", "player": "players"}[kind], {})
+    return data.setdefault(
+        {"match": "matches", "match_preview": "matchPreviews", "group": "groups", "player": "players"}[kind],
+        {},
+    )
 
 
 def parse_time(value: str | None) -> dt.datetime | None:
@@ -693,6 +860,12 @@ def is_generic_highlight_text(text: str) -> bool:
     return any(phrase in lowered for phrase in GENERIC_HIGHLIGHT_PHRASES)
 
 
+def remove_generic_highlight_sentences(text: str) -> str:
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    kept = [sentence for sentence in sentences if sentence and not is_generic_highlight_text(sentence)]
+    return " ".join(kept).strip() or text.strip()
+
+
 def completed_match_score_present(target: Target, text: str) -> bool:
     match = target.context.get("match", {})
     if match.get("homeScore") is None or match.get("awayScore") is None:
@@ -750,14 +923,14 @@ def clean_generated(value: Any, kind: str) -> dict[str, Any]:
     if not isinstance(bullets, list):
         bullets = []
     bullets = [str(item).strip() for item in bullets if str(item).strip()]
-    if kind == "match":
+    if kind in {"match", "match_preview"}:
         bullets = [item for item in bullets if not is_generic_highlight_text(item)]
     bullets = bullets[:6]
     story = value.get("story", [])
     if not isinstance(story, list):
         story = []
     story = [str(item).strip() for item in story if str(item).strip()]
-    if kind == "match":
+    if kind in {"match", "match_preview"}:
         story = [item for item in story if not is_generic_highlight_text(item)]
     story = story[:8]
     sections = value.get("sections", [])
@@ -769,7 +942,7 @@ def clean_generated(value: Any, kind: str) -> dict[str, Any]:
             continue
         title = str(section.get("title", "")).strip()
         body = str(section.get("body", "")).strip()
-        if kind == "match" and is_generic_highlight_text(f"{title} {body}"):
+        if kind in {"match", "match_preview"} and is_generic_highlight_text(f"{title} {body}"):
             continue
         if title and body:
             cleaned_sections.append({"title": title[:100], "body": body[:1800]})
@@ -777,6 +950,8 @@ def clean_generated(value: Any, kind: str) -> dict[str, Any]:
             break
     if not headline or not summary:
         raise ValueError("Gemini response missing headline or summary")
+    if kind in {"match", "match_preview"}:
+        summary = remove_generic_highlight_sentences(summary)
     return {
         "headline": headline[:140],
         "summary": summary[:2200],
@@ -801,6 +976,28 @@ def completed_match_validation_error(target: Target, generated: dict[str, Any]) 
     if not completed_match_score_present(target, recap_text):
         return "completed match summary did not clearly include the final score"
 
+    return None
+
+
+def match_preview_validation_error(target: Target, generated: dict[str, Any]) -> str | None:
+    if target.kind != "match_preview":
+        return None
+
+    text = " ".join(
+        [
+            str(generated.get("headline", "")),
+            str(generated.get("summary", "")),
+            *[str(item) for item in generated.get("story", [])],
+            *[str(item) for item in generated.get("bullets", [])],
+            *[
+                f"{section.get('title', '')} {section.get('body', '')}"
+                for section in generated.get("sections", [])
+                if isinstance(section, dict)
+            ],
+        ]
+    )
+    if is_generic_highlight_text(text):
+        return "spoiler-free preview referenced highlights or video availability"
     return None
 
 
@@ -861,6 +1058,7 @@ def call_gemini(target: Target, api_key: str, model: str, timeout: int) -> dict[
         raise ValueError("Gemini response did not contain text")
     generated = normalize_completed_match_generated(target, clean_generated(json.loads(text), target.kind))
     validation_error = completed_match_validation_error(target, generated)
+    validation_error = validation_error or match_preview_validation_error(target, generated)
     if validation_error:
         raise ValueError(validation_error)
     return generated
@@ -900,6 +1098,12 @@ def main() -> int:
     parser.add_argument("--max-matches", type=int, default=None)
     parser.add_argument("--max-groups", type=int, default=None)
     parser.add_argument("--max-players", type=int, default=None)
+    parser.add_argument(
+        "--match-content",
+        choices=["all", "previews", "recaps"],
+        default="all",
+        help="Which match insight content to refresh.",
+    )
     parser.add_argument("--match-id", action="append", default=[], help="Only refresh this match id. Repeatable.")
     parser.add_argument("--group", action="append", default=[], help="Only refresh this group letter. Repeatable.")
     parser.add_argument(
@@ -929,8 +1133,9 @@ def main() -> int:
 
     schedule = read_json(args.schedule_data, {})
     player_stats = read_json(args.player_data, {"players": []})
-    ai_data = read_json(args.data, {"generatedAt": None, "matches": {}, "groups": {}, "players": {}})
+    ai_data = read_json(args.data, {"generatedAt": None, "matches": {}, "matchPreviews": {}, "groups": {}, "players": {}})
     ai_data.setdefault("matches", {})
+    ai_data.setdefault("matchPreviews", {})
     ai_data.setdefault("groups", {})
     ai_data.setdefault("players", {})
 
