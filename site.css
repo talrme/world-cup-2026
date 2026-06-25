@@ -2434,12 +2434,12 @@ button.bracket-score-cell {
 }
 
 .bracket-board-linear {
-  --bracket-gap: 24px;
-  --bracket-connector-half-gap: 12px;
+  --bracket-gap: 18px;
+  --bracket-connector-half-gap: 9px;
   align-items: stretch;
   display: grid;
   gap: var(--bracket-gap);
-  grid-template-columns: repeat(var(--bracket-rounds, 3), minmax(250px, 1fr));
+  grid-template-columns: repeat(var(--bracket-rounds, 3), minmax(230px, 1fr));
   min-width: max(100%, var(--bracket-min-width, 870px));
   overflow: visible;
   position: relative;

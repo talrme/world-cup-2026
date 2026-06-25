@@ -366,6 +366,50 @@
     { stage: "Finals", label: "Finals", shortLabel: "Finals", className: "finals" },
   ];
 
+  function normalizeBracketStageValue(value) {
+    return String(value || "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, "-");
+  }
+
+  function bracketStageParam(stageName) {
+    return bracketStages.find((stage) => stage.stage === stageName)?.className || "r32";
+  }
+
+  function bracketStageFromParam(value) {
+    const normalized = normalizeBracketStageValue(value);
+    if (!normalized) return null;
+    const stage = bracketStages.find((item) => {
+      return [item.stage, item.label, item.shortLabel, item.className].some(
+        (candidate) => normalizeBracketStageValue(candidate) === normalized,
+      );
+    });
+    return stage?.stage || null;
+  }
+
+  function stageMatchNames(stage) {
+    return stage === "Finals" ? ["Third Place", "Final"] : [stage];
+  }
+
+  function defaultBracketStartStage(now = state.now) {
+    const nowTime = now instanceof Date ? now.getTime() : Date.parse(now);
+    const validNow = Number.isFinite(nowTime) ? nowTime : Date.now();
+    const startedStages = bracketStages
+      .map((stage) => {
+        const firstKickoff = matches
+          .filter((match) => stageMatchNames(stage.stage).includes(match.stage))
+          .map((match) => kickoffDate(match).getTime())
+          .filter(Number.isFinite)
+          .sort((a, b) => a - b)[0];
+        return { stage: stage.stage, firstKickoff };
+      })
+      .filter((item) => Number.isFinite(item.firstKickoff) && item.firstKickoff <= validNow)
+      .sort((a, b) => a.firstKickoff - b.firstKickoff);
+
+    return startedStages[startedStages.length - 1]?.stage || bracketStages[0].stage;
+  }
+
   function saveSpoilerState() {
     try {
       window.localStorage.setItem(
@@ -781,12 +825,14 @@
   function applyUrlState() {
     const params = new URLSearchParams(window.location.search);
     const view = normalizeViewId(params.get("view"));
+    const bracketStage = bracketStageFromParam(params.get("round"));
     const countries = params.getAll("country");
     const countrySet = new Set(allCountries());
 
     state.mode = "timeline";
     state.countryMode = "all";
     state.selectedCountries = new Set();
+    state.bracketStartStage = bracketStage || defaultBracketStartStage();
 
     if (view && modeIds.includes(view) && modeIsVisible(view)) {
       state.mode = view;
@@ -809,6 +855,9 @@
     const params = new URLSearchParams();
 
     if (state.mode !== "timeline" && modeIsVisible(state.mode)) params.set("view", state.mode);
+    if (state.mode === "bracket" && state.bracketStartStage !== defaultBracketStartStage()) {
+      params.set("round", bracketStageParam(state.bracketStartStage));
+    }
     if (state.countryMode === "custom" && !state.selectedCountries.size) {
       params.set("countries", "none");
     } else if (state.countryMode === "custom" && !selectedAllCountries()) {
@@ -1789,7 +1838,7 @@
     }
 
     const visibleStages = bracketStages.slice(bracketStartIndex());
-    const bracketMinWidth = visibleStages.length * 290 + Math.max(0, visibleStages.length - 1) * 18;
+    const bracketMinWidth = visibleStages.length * 230 + Math.max(0, visibleStages.length - 1) * 18;
     const firstStage = visibleStages[0] || bracketStages[0];
     const orderMap = bracketOrderMap(knockout);
     const columns = visibleStages
