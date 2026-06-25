@@ -1862,9 +1862,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Curacao",
       "away": "Ivory Coast",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "philadelphia"
+      "venueId": "philadelphia",
+      "homeScore": 0,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-25T23:15:18+00:00",
+          "title": "Cura\u00e7ao vs Ivory Coast Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=Vl8LESKw8_Y",
+          "channel": "FOX Sports",
+          "durationText": "13 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-25T23:15:18+00:00"
+      }
     },
     {
       "id": 56,
@@ -1877,9 +1893,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Ecuador",
       "away": "Germany",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "ny-nj"
+      "venueId": "ny-nj",
+      "homeScore": 2,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-25T23:15:58+00:00",
+          "title": "Ecuador vs Germany Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=L4AmC_L4Cdw",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-25T23:15:58+00:00"
+      }
     },
     {
       "id": 57,
@@ -2207,14 +2239,15 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-06-30",
       "time": "13:00",
-      "home": "Runner-up Group E",
+      "home": "Ivory Coast",
       "away": "Runner-up Group I",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760490"
+      "espnEventId": "760490",
+      "homeSource": "Runner-up Group E"
     },
     {
       "id": 79,
@@ -2611,7 +2644,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-25T06:16:41+00:00",
+  "scheduleUpdatedAt": "2026-06-25T22:51:48+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2775,6 +2808,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-25T06:16:43+00:00",
+  "bracketUpdatedAt": "2026-06-25T22:51:50+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

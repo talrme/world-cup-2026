@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:39:14+00:00",
+  "generatedAt": "2026-06-25T23:22:49+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -211,46 +211,44 @@
       "refreshReason": "past 5 days"
     },
     "35": {
-      "headline": "Ecuador and Curacao Play to Scoreless Draw in Kansas City",
-      "summary": "Ecuador and Curacao finished their Matchday 2 encounter in a 0-0 stalemate at Arrowhead Stadium. The result leaves both teams with one point apiece in Group E, making their final group stage matches critical for any hopes of advancing.",
+      "headline": "Ecuador and Curacao Play to Goalless Draw in Kansas City",
+      "summary": "Ecuador and Curacao finished in a 0-0 stalemate at Arrowhead Stadium during their Matchday 2 encounter. The result left both sides searching for momentum in a tightly contested Group E.",
       "story": [
-        "The atmosphere at Arrowhead Stadium in Kansas City was tense as Ecuador and Curacao faced off in a pivotal Group E clash. Both sides entered the match looking to secure their first points of the tournament, but neither team could find the breakthrough, resulting in a 0-0 draw.",
-        "For Ecuador, the result was particularly frustrating as they were unable to capitalize on their opportunities to climb the table. Having suffered a narrow 1-0 defeat to Ivory Coast in their opening match, they now sit on just one point, leaving them with a difficult path forward.",
-        "Curacao, meanwhile, showed resilience in this outing. After a difficult 7-1 loss to Germany in their tournament opener, the defensive effort required to keep a clean sheet against Ecuador provides a foundation to build upon, even as they remain at the bottom of the group on goal difference.",
-        "The group standings now show Germany leading with six points, followed by Ivory Coast with three. With Ecuador and Curacao both locked on one point, the final round of fixtures on June 25th will be decisive. Ecuador faces a daunting task against Germany, while Curacao will look to challenge Ivory Coast for a chance to stay in the competition."
+        "The atmosphere at Arrowhead Stadium in Kansas City was tense as Ecuador and Curacao faced off in a critical Group E matchup. Despite both teams pushing for a breakthrough, neither side could find the back of the net, resulting in a 0-0 draw that kept the group standings wide open.",
+        "For Ecuador, the draw represented a frustrating missed opportunity to climb the table following their narrow opening-match loss to Ivory Coast. The team struggled to convert their possession into meaningful chances against a resilient Curacao defense that held firm throughout the 90 minutes.",
+        "Curacao, meanwhile, showed significant defensive improvement compared to their heavy defeat against Germany in the opening round. Securing a point against Ecuador provided a morale boost, though the team remained under pressure to find offensive production in their final group fixture.",
+        "The stalemate had immediate consequences for the group dynamic, forcing both nations into must-win scenarios for their final matches. With Germany and Ivory Coast setting the pace at the top of the table, this draw ultimately left Ecuador and Curacao with limited margin for error as the group stage concluded."
       ],
       "bullets": [
-        "Both teams earned their first point of the tournament with the 0-0 draw.",
-        "Ecuador remains in third place in Group E, while Curacao sits in fourth due to goal difference.",
-        "The result leaves both teams needing a win in their final group match to keep their knockout stage hopes alive."
+        "The 0-0 draw at Arrowhead Stadium marked a defensive stalemate where neither side could capitalize on their opportunities.",
+        "This result proved pivotal in Group E, complicating the path forward for both teams as they looked toward their final group stage fixtures."
       ],
       "sections": [],
-      "updatedAt": "2026-06-25T19:26:22+00:00",
-      "sourceHash": "71ee222269d683ee",
+      "updatedAt": "2026-06-25T23:16:57+00:00",
+      "sourceHash": "e55c70b33991c150",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "34": {
-      "headline": "Germany Secures Knockout Berth with Win Over Ivory Coast",
-      "summary": "Germany defeated Ivory Coast 2-1 at BMO Field in Toronto to maintain their perfect start in Group E. This result moves Germany to six points, effectively securing their path to the Round of 32.",
+      "headline": "Germany Edges Ivory Coast in Group E Thriller",
+      "summary": "Germany secured a narrow 2-1 victory over Ivory Coast at BMO Field in Toronto. This Matchday 2 result proved pivotal in shaping the Group E standings, ultimately helping Germany maintain a competitive edge through the group stage.",
       "story": [
-        "Germany continued their dominant form in the group stage by edging out Ivory Coast in a tight 2-1 victory. Following their commanding 7-1 opening win against Curacao, this result confirms Germany as the team to beat in Group E, moving them to the top of the standings with six points from two matches.",
-        "The match, held at BMO Field in Toronto, proved to be a much stiffer test for the Germans than their tournament opener. Despite the pressure from Ivory Coast, who entered the match off the back of a 1-0 victory over Ecuador, Germany managed to navigate the contest and secure the three points necessary to cement their position at the top of the table.",
-        "For Ivory Coast, the defeat leaves them on three points, keeping the race for the second qualification spot wide open. With Ecuador and Curacao drawing their own matchday two fixture, Ivory Coast remains in a strong position to fight for advancement in their final group stage game against Curacao.",
-        "Looking ahead, Germany will close out their group campaign against Ecuador on June 25. Having already secured their place in the Round of 32, they will look to maintain their momentum as they prepare for the knockout stages, while Ivory Coast will focus their efforts on securing a result against Curacao to ensure their tournament journey continues."
+        "The clash at Toronto Stadium saw Germany and Ivory Coast battle for supremacy in Group E. With both teams showing high intensity, Germany managed to find the breakthrough needed to secure all three points, finishing the match with a 2-1 scoreline.",
+        "This victory was a critical component of Germany's group campaign. Having opened their tournament with a dominant 7-1 win against Curacao, the narrow win over Ivory Coast ensured they remained at the top of the table for much of the opening phase.",
+        "The result had significant downstream implications for the group. By the conclusion of the group stage, Germany finished with 6 points and a +6 goal difference, while Ivory Coast also finished with 6 points, securing their spot in the Round of 32."
       ],
       "bullets": [
-        "Germany leads Group E with 6 points and a +7 goal difference, guaranteeing their progression to the Round of 32.",
-        "Ivory Coast remains in second place with 3 points, setting up a crucial final group match against Curacao.",
-        "The match at BMO Field marked Germany's second consecutive win, following their high-scoring performance on Matchday 1."
+        "Germany's 2-1 victory helped them secure the top spot in Group E with 6 points.",
+        "The match was hosted at BMO Field in Toronto, serving as a key fixture in the Group E schedule.",
+        "Both Germany and Ivory Coast successfully advanced to the Round of 32 following their group stage performances."
       ],
       "sections": [],
-      "updatedAt": "2026-06-25T19:26:35+00:00",
-      "sourceHash": "9ef5cc9dc60788a4",
+      "updatedAt": "2026-06-25T23:17:10+00:00",
+      "sourceHash": "6c61b77a623860da",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "33": {
       "headline": "Netherlands Dominates Sweden in Five-Goal Houston Showcase",
@@ -658,48 +656,43 @@
       "refreshReason": "source or prompt changed"
     },
     "55": {
-      "headline": "Group E Qualification on the Line for Ivory Coast and Curacao",
-      "summary": "Ivory Coast and Curacao meet in Philadelphia for a high-stakes Matchday 3 showdown that will determine their tournament survival. With Germany leading the group, both teams need a decisive performance to secure their path to the knockout stages.",
+      "headline": "Ivory Coast Secures Knockout Spot with Win Over Curacao",
+      "summary": "Final: Curacao 0, Ivory Coast 2. Ivory Coast defeated Curacao 2-0 in their final Group E match to confirm their progression to the Round of 32. The victory at Lincoln Financial Field in Philadelphia ensured that Ivory Coast finished the group stage with six points.",
       "story": [
-        "As Group E reaches its conclusion at Lincoln Financial Field, the pressure is mounting for both Ivory Coast and Curacao. Ivory Coast currently sits in second place with three points, having secured a narrow victory over Ecuador before a hard-fought loss to Germany. A win here would put them in a strong position to advance, while even a draw could prove pivotal depending on the outcome of the concurrent match between Ecuador and Germany.",
-        "Curacao enters the match with one point, earned through a resilient defensive display in a scoreless draw against Ecuador. Despite a difficult start against Germany in their opener, that second-match result proved they can hold their own against competitive opposition. To keep their tournament hopes alive, they must find a way to break through an Ivorian defense that has conceded only two goals across their first two matches.",
-        "The tactical landscape is set for a tense encounter. Ivory Coast will look to leverage their experience and attacking urgency to avoid an early exit, while Curacao will likely aim to frustrate their opponents and capitalize on any transition opportunities. With only one point separating the bottom three teams in the group, every goal and point gained in Philadelphia will carry significant weight in the final standings.",
-        "The match is scheduled for 16:00 ET and will be broadcast on FS1. Fans will be watching closely to see if Ivory Coast can solidify their standing or if Curacao can pull off a result that would shake up the final Group E table."
+        "Ivory Coast delivered a professional performance at Lincoln Financial Field, overcoming Curacao with a 2-0 scoreline to cement their position in the knockout stages. By controlling the tempo and securing the necessary three points, they successfully navigated the pressure of the final matchday.",
+        "For Curacao, the result marked the end of a challenging group campaign. Despite holding Ecuador to a scoreless draw earlier in the tournament, they were unable to find a breakthrough against a disciplined Ivory Coast defense, finishing the group with one point from their three fixtures.",
+        "The victory was crucial for Ivory Coast, who entered the match looking to bounce back from their narrow loss to Germany. With this result, they finished second in Group E, level on points with Germany but behind on goal difference, successfully holding off a late charge from Ecuador.",
+        "With the group stage now concluded, Ivory Coast turns its attention to the Round of 32. They are scheduled to play on June 30, where they will face the runner-up from Group I as they look to continue their journey in the tournament."
       ],
       "bullets": [
-        "Ivory Coast enters the final matchday in second place with three points, while Curacao sits at one point.",
-        "A win for Ivory Coast would significantly bolster their chances of advancing to the knockout rounds.",
-        "Curacao must secure a positive result to remain in contention after holding Ecuador to a 0-0 draw in their previous outing."
+        "Ivory Coast finished second in Group E with six points, trailing Germany only on goal difference.",
+        "The 2-0 victory confirmed Ivory Coast's place in the Round of 32, where they will face the runner-up of Group I on June 30.",
+        "Curacao concluded their tournament run with one point, having earned their sole result in a 0-0 draw against Ecuador."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:44:20+00:00",
-      "sourceHash": "4740e423df02b8f9",
+      "updatedAt": "2026-06-25T23:16:31+00:00",
+      "sourceHash": "ee9cc2ecb194ea76",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "56": {
-      "headline": "Germany Looks to Secure Top Spot Against Ecuador",
-      "summary": "Germany heads into the final group stage match at MetLife Stadium with a perfect record, while Ecuador fights to keep their tournament hopes alive. A victory or draw for Germany will cement their position at the top of Group E, while Ecuador desperately needs points to challenge for a spot in the knockout rounds.",
+      "headline": "Ecuador Stuns Germany in Group E Finale",
+      "summary": "Ecuador secured a hard-fought 2-1 victory over Germany at MetLife Stadium to conclude their group stage campaign. Despite the loss, Germany finished at the top of Group E, while Ecuador finished third with four points.",
       "story": [
-        "Germany has been the dominant force in Group E, securing six points from their opening two matches. After a commanding 7-1 victory over Curacao and a hard-fought 2-1 win against Ivory Coast, they have already guaranteed their progression to the Round of 32. Their high-scoring offense has been a standout feature of the tournament so far, netting nine goals in just two appearances.",
-        "Ecuador finds themselves in a precarious position with only one point from their first two fixtures. A narrow 1-0 loss to Ivory Coast followed by a scoreless draw against Curacao leaves them sitting third in the group standings. They face an uphill battle against a German side that has looked nearly unstoppable, but they know that a positive result is essential to avoid an early exit.",
-        "The stakes for this encounter at MetLife Stadium in East Rutherford are clear. Germany is playing for the top seed, which would provide a more favorable path in the knockout stages, while Ecuador must play with desperation to maximize their goal difference and point total. With Ivory Coast also competing for points simultaneously against Curacao, the final group table remains fluid.",
-        "Germany has already confirmed their next fixture, as they are set to play in the Round of 32 on June 29th as the winner of Group E. For Ecuador, this match represents their final chance to prove they belong in the next stage of the competition. Fans can catch the broadcast on FOX as these two teams conclude their group stage campaigns."
+        "In a dramatic conclusion to Group E at MetLife Stadium, Ecuador claimed a 2-1 win over Germany. The result provided a spirited finish for Ecuador, who had previously struggled to find the back of the net in their opening two matches against Ivory Coast and Curacao.",
+        "For Germany, the defeat did not derail their standing in the tournament. Having entered the match with two prior wins, they maintained their position at the top of the group table with six points and a strong goal difference of plus-six.",
+        "The match in East Rutherford saw Ecuador capitalize on their opportunities to edge out the group leaders. This victory brings Ecuador's total to four points, though they ultimately finished behind Germany and Ivory Coast in the final group standings.",
+        "Looking ahead, Germany now shifts its focus to the Round of 32. As winners of Group E, they are scheduled to return to the pitch on June 29 to face the best third-place finisher from Group A, B, C, D, or F."
       ],
       "bullets": [
-        "Germany leads Group E with 6 points and a +7 goal difference, having already secured their place in the Round of 32.",
-        "Ecuador enters the final matchday with 1 point and 0 goals scored, needing a result to keep their tournament hopes alive.",
-        "The match takes place at MetLife Stadium in East Rutherford, New Jersey, with kickoff scheduled for 16:00 ET."
+        "Germany finished first in Group E with 6 points, despite the 2-1 loss to Ecuador.",
+        "Ecuador concluded their group stage with 4 points after a win, a draw, and a loss.",
+        "Germany advances to the Round of 32, with their next match set for June 29."
       ],
-      "sections": [
-        {
-          "title": "Group E Context",
-          "body": "Germany currently sits at the top of the table with a perfect record. Ivory Coast holds second place with 3 points, while Ecuador and Curacao are tied at the bottom with 1 point each. The outcome of this match, combined with the simultaneous Curacao vs. Ivory Coast game, will determine the final standings for the group."
-        }
-      ],
-      "updatedAt": "2026-06-24T16:44:24+00:00",
-      "sourceHash": "e71e383f72177099",
+      "sections": [],
+      "updatedAt": "2026-06-25T23:16:43+00:00",
+      "sourceHash": "fc185cf15fe45a09",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1318,22 +1311,21 @@
       "refreshReason": "source or prompt changed"
     },
     "11": {
-      "headline": "Ivory Coast Edges Ecuador in Tense Group E Opener",
-      "summary": "Ivory Coast secured a vital 1-0 victory over Ecuador in their opening match of the tournament. The result at Lincoln Financial Field in Philadelphia provided a crucial three points that set the tone for their campaign in Group E.",
+      "headline": "Ivory Coast Secures Crucial Opening Win Over Ecuador",
+      "summary": "Ivory Coast defeated Ecuador 1-0 in their Group E opener at Lincoln Financial Field. This narrow victory proved vital for the Ivorians, setting the tone for a competitive group stage campaign.",
       "story": [
-        "The match, held at Lincoln Financial Field on June 14, 2026, was a tightly contested affair that ultimately swung in favor of Ivory Coast. By clinching the narrow 1-0 win, they immediately established themselves as a competitive force in a group that also features Germany and Curacao.",
-        "For Ecuador, the loss represented a difficult start to their tournament journey. Despite a defensive effort that kept the scoreline close, they were unable to find an equalizer, leaving them with zero points from their first outing and immediate pressure to perform in subsequent matches.",
-        "This opening result proved to be a defining moment for the group standings. As the tournament progressed, the points secured in this fixture became increasingly significant, especially as Germany asserted dominance at the top of the table.",
-        "Looking at the broader context of Group E, the victory placed Ivory Coast in a strong position heading into their second match against Germany. Conversely, the result forced Ecuador to chase points in their later fixtures, including a challenging encounter with Curacao and a final group stage test against Germany."
+        "The match in Philadelphia served as a tense introduction to Group E, with Ivory Coast managing to edge out Ecuador in a tightly contested affair. By securing all three points, the Ivorians established a strong foundation early in the tournament, forcing the rest of the group to chase them from the start.",
+        "Following this opening victory, Ivory Coast went on to face Germany and Curacao, ultimately finishing their group campaign with 6 points. This initial win against Ecuador was instrumental in ensuring their progression to the knockout stages, where they are now scheduled to compete in the Round of 32.",
+        "Ecuador, meanwhile, navigated a difficult path after this opening setback. Despite a resilient performance throughout the group stage\u2014including a 0-0 draw with Curacao and a notable 2-1 victory over Germany\u2014the early loss to Ivory Coast ultimately left them with 4 points, falling just short of the top two spots in the final standings."
       ],
       "bullets": [
-        "Ivory Coast claimed all three points with a 1-0 victory, marking a successful start to their Group E campaign.",
-        "The match was held at Lincoln Financial Field in Philadelphia, serving as a pivotal opening fixture for both nations.",
-        "The result left Ecuador facing early tournament pressure, requiring them to secure points in their remaining group stage matches."
+        "Ivory Coast's victory provided the momentum needed to secure a spot in the Round of 32.",
+        "The result placed immediate pressure on Ecuador, who finished group play with 4 points.",
+        "Lincoln Financial Field in Philadelphia hosted this pivotal Matchday 1 encounter."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:48:09+00:00",
-      "sourceHash": "d3c09e4769d55226",
+      "updatedAt": "2026-06-25T23:17:24+00:00",
+      "sourceHash": "529a285478d82c73",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1359,23 +1351,22 @@
       "refreshReason": "source or prompt changed"
     },
     "9": {
-      "headline": "Germany Dominates Curacao in Opening Group E Rout",
-      "summary": "Germany secured a commanding 7-1 victory over Curacao at NRG Stadium in their opening Group E fixture. This emphatic result immediately established Germany as the team to beat in the group, setting a high bar for goal difference early in the tournament.",
+      "headline": "Germany Dominates Curacao in Group E Opener",
+      "summary": "Germany defeated Curacao 7-1 in their opening Group E match at NRG Stadium in Houston. This decisive victory set the tone for Germany's campaign, establishing them as a dominant force in the group early on.",
       "story": [
-        "The match at Houston Stadium saw Germany display clinical efficiency, dismantling the Curacao defense to put seven goals past them. The result was a statement of intent, signaling that Germany arrived in the United States with serious ambitions for the tournament.",
-        "For Curacao, the match proved to be a difficult introduction to the group stage. Despite the lopsided scoreline, the experience provided a stark look at the level of competition required at this stage of the World Cup.",
-        "Following this opening win, Germany continued their momentum by defeating Ivory Coast 2-1 in their second match. With two wins from two, they currently sit at the top of Group E with six points and a significant goal difference of plus-seven.",
-        "Curacao, meanwhile, bounced back from the opening loss to earn a hard-fought 0-0 draw against Ecuador. With one point from two matches, they now look toward their final group fixture against Ivory Coast with the hope of keeping their tournament journey alive.",
-        "As the group stage concludes, the table remains tight for the remaining spots. Germany has already positioned themselves well for the knockout rounds, while the final round of matches will be decisive for the other three teams in the group."
+        "Germany opened their 2026 World Cup journey with a statement performance, overwhelming Curacao in a 7-1 rout at Houston Stadium. The match, held on June 14, showcased Germany's offensive depth and established a significant goal difference advantage that would prove vital throughout the group stage.",
+        "For Curacao, the match served as a difficult introduction to the tournament, as they struggled to contain the German attack. While the result was lopsided, the fixture provided an early look at the gulf in experience between the two sides on the world stage.",
+        "The win proved foundational for Germany, who went on to finish at the top of Group E with 6 points from their three matches. Despite a later loss to Ecuador, Germany's early offensive explosion against Curacao helped secure their progression to the Round of 32.",
+        "Following the conclusion of the group stage, Germany finished with a +6 goal difference, largely buoyed by this massive opening result. They now look ahead to their upcoming knockout round match, where they will face the best third-place finisher from Groups A, B, C, D, or F."
       ],
       "bullets": [
-        "Germany's 7-1 win provided a massive boost to their goal difference, which remains a key advantage in the Group E standings.",
-        "The victory at NRG Stadium served as the foundation for Germany's current position at the top of the group with six points.",
-        "Curacao's resilience was on display in their subsequent match, where they held Ecuador to a scoreless draw to secure their first point of the tournament."
+        "Germany's 7-1 win provided a massive boost to their goal difference, which helped them secure the top spot in Group E.",
+        "The match was held at NRG Stadium in Houston, marking a high-scoring start to the group's schedule.",
+        "Germany successfully navigated the group stage to advance to the Round of 32, while Curacao finished with 1 point from their three fixtures."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:48:17+00:00",
-      "sourceHash": "1b135a2ca432e009",
+      "updatedAt": "2026-06-25T23:17:38+00:00",
+      "sourceHash": "b1563caa6540928c",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1874,34 +1865,34 @@
       "refreshReason": "group standings or prompt changed"
     },
     "E": {
-      "headline": "Germany Dominates Group E as Qualification Battle Heats Up",
-      "summary": "Germany has firmly established control of Group E with two victories, securing 6 points and a commanding +7 goal difference. While Germany leads the pack, the race for the second spot remains wide open between Ivory Coast, Ecuador, and Curacao heading into the final matchday.",
+      "headline": "Germany and Ivory Coast Advance from Group E",
+      "summary": "Group E has concluded with Germany and Ivory Coast securing their spots at the top of the table. Despite a final matchday loss, Germany finished first on goal difference, while Ivory Coast matched their six-point total.",
       "story": [],
       "bullets": [
-        "Germany maintains a perfect record with 6 points from two matches.",
-        "Ivory Coast holds second place with 3 points after a win and a loss.",
-        "Ecuador and Curacao are currently tied with 1 point each.",
-        "Germany's 9 goals scored highlights their offensive efficiency so far."
+        "Germany leads the group with 6 points and a superior goal difference of +6.",
+        "Ivory Coast also finishes with 6 points, securing second place after a 2-0 win against Curacao.",
+        "Ecuador ends their campaign with 4 points after a hard-fought 2-1 victory over Germany in their final match.",
+        "Curacao concludes the group stage at the bottom of the table with 1 point and a -8 goal difference."
       ],
       "sections": [
         {
-          "title": "Germany in Command",
-          "body": "Germany has been the class of the group, opening with a dominant 7-1 win over Curacao followed by a hard-fought 2-1 victory against Ivory Coast. With 6 points and a significant goal difference of +7, they have effectively dictated the pace of the group. They head into their final match against Ecuador in a very comfortable position."
+          "title": "The Battle for the Top",
+          "body": "Germany dominated the group early with a commanding 7-1 victory over Curacao and a narrow 2-1 win against Ivory Coast. Although they stumbled in their final match against Ecuador with a 1-2 loss, their strong goal difference of +6 kept them firmly in the top position."
         },
         {
-          "title": "The Race for Second",
-          "body": "Ivory Coast sits in second place with 3 points, having secured a 1-0 win against Ecuador before falling to Germany. They control their own destiny in the final match against Curacao, where a win would solidify their standing. Any slip-up could open the door for the teams trailing them."
+          "title": "Ivory Coast's Consistency",
+          "body": "Ivory Coast maintained a steady performance throughout the group stage, starting with a 1-0 win over Ecuador. After falling to Germany, they bounced back effectively to defeat Curacao 2-0, finishing with 6 points and a +2 goal difference."
         },
         {
-          "title": "Pressure on Ecuador and Curacao",
-          "body": "Both Ecuador and Curacao find themselves in a difficult spot, each sitting on only 1 point after two rounds of play. Ecuador's 0-0 draw with Curacao in their second match leaves them needing a result against Germany to have any hope of advancing. Curacao faces a similar challenge, needing a win against Ivory Coast to stay in contention."
+          "title": "Ecuador and Curacao's Exit",
+          "body": "Ecuador pushed hard until the end, finishing with 4 points after their final 2-1 win against Germany. Curacao struggled to find their footing in the group, managing only a 0-0 draw against Ecuador as their sole point of the tournament."
         }
       ],
-      "updatedAt": "2026-06-25T19:26:47+00:00",
-      "sourceHash": "cbdf751892e06443",
+      "updatedAt": "2026-06-25T23:17:51+00:00",
+      "sourceHash": "6447bb74f3e62315",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "active or recent group"
+      "refreshReason": "group standings or prompt changed"
     },
     "D": {
       "headline": "United States Dominates Group D as Race for Second Heats Up",
@@ -2027,36 +2018,36 @@
       "refreshReason": "top player"
     },
     "deniz-undav-germany": {
-      "headline": "Deniz Undav's Explosive Efficiency for Germany",
-      "summary": "Deniz Undav has emerged as one of the most clinical forwards in the tournament, making a massive impact in limited time. Despite playing only 69 minutes across three matches, he has been directly involved in five goals for Germany. His ability to produce at such a high volume off the bench makes him a key weapon for the German attack. Undav currently sits at rank 5 among tournament players, proving that quality of minutes matters more than quantity.",
+      "headline": "Deniz Undav: Germany's High-Efficiency Super Sub",
+      "summary": "Deniz Undav has emerged as a lethal attacking force for Germany, making the most of his limited time on the pitch. With 3 goals and 2 assists in just 107 minutes, he has proven to be an incredibly efficient contributor. His ability to impact the game in such short bursts makes him a vital asset for the German squad as they advance to the knockout stages.",
       "story": [],
       "bullets": [
-        "Recorded 3 goals and 2 assists in just 69 minutes of play.",
-        "Maintains an incredible 3.9 goals per 90 rate.",
-        "Boasts a points per 90 rate of 6.5, highlighting his extreme efficiency.",
-        "Has contributed to 5 total points for Germany so far.",
-        "Ranked 5th overall in tournament player performance metrics."
+        "Ranked 5th in overall player performance stats.",
+        "Maintains a remarkable 2.5 goals per 90 minutes.",
+        "Delivered 5 total points across 3 tournament matches.",
+        "Boasts a high-impact 4.2 points per 90 minutes rate.",
+        "Contributed directly to 5 goals in only 107 minutes of play."
       ],
       "sections": [
         {
-          "title": "Clinical Finishing",
-          "body": "Undav has been remarkably efficient, finding the back of the net 3 times in his limited appearances. His goals per 90 rate of 3.9 illustrates just how dangerous he is whenever he steps onto the pitch. He has proven to be a vital asset for Germany's offensive depth."
+          "title": "Clinical Efficiency",
+          "body": "Deniz Undav is currently operating at an elite level of efficiency for Germany. By recording 3 goals and 2 assists in only 107 minutes, he demonstrates a rare ability to influence the scoreline almost immediately upon entering the match. His 2.5 goals per 90 rate highlights just how dangerous he is when given even a brief window of opportunity."
         },
         {
-          "title": "Playmaking Contribution",
-          "body": "Beyond his scoring, Undav has also provided 2 assists, bringing his total points tally to 5. This dual-threat capability forces opposing defenses to account for him as both a finisher and a creator. His involvement in 5 total points underscores his high-impact role."
+          "title": "Tournament Impact",
+          "body": "Across his 3 matches played, Undav has been a primary engine for Germany's offense. His 5 total points are a testament to his versatility, as he is equally capable of finding the back of the net or setting up his teammates. This production level is reflected in his 4.2 points per 90 rate, which marks him as one of the most productive forwards in the tournament."
         },
         {
-          "title": "Efficiency Under Pressure",
-          "body": "With a points per 90 rate of 6.5, Undav is performing at a level that is statistically elite. Even with only 69 minutes played, his contributions have been pivotal in Germany's group stage success. He remains a highly efficient option for the team as they advance."
+          "title": "Team Context",
+          "body": "Germany's group stage campaign saw a variety of results, including a dominant 7-1 victory over Curacao and a tight 2-1 win against Ivory Coast. Despite a narrow 2-1 loss to Ecuador in the final group match, the team successfully navigated their path forward. Undav's contributions have been a consistent bright spot throughout these varied tactical challenges."
         },
         {
           "title": "Looking Ahead",
-          "body": "Germany prepares for their final group stage match against Ecuador on June 25th. Following that, the team is already set for a Round of 32 knockout fixture on June 29th. Undav will look to maintain his high-scoring form as the tournament intensity increases."
+          "body": "As Germany prepares for their upcoming Round of 32 match on June 29th, the role of high-impact players like Undav will be critical. Facing the winner of a third-place group slot, Germany will look to leverage his scoring prowess to secure a spot in the next round. His ability to maintain such high per-90 rates will be a key storyline to watch as the knockout intensity ramps up."
         }
       ],
-      "updatedAt": "2026-06-25T19:20:52+00:00",
-      "sourceHash": "0229766e3bed581a",
+      "updatedAt": "2026-06-25T23:18:15+00:00",
+      "sourceHash": "f12febcb551b16d5",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2133,132 +2124,136 @@
     },
     "kai-havertz-germany": {
       "headline": "Kai Havertz: Leading the German Attack",
-      "summary": "Kai Havertz has established himself as a key offensive threat for Germany throughout the group stage. With 2 goals in 3 matches, he has demonstrated clinical finishing in his 250 minutes of play. His efficiency in front of goal remains a vital component of Germany's tactical setup as they progress through the tournament. Havertz currently holds a goals per 90 rate of 0.7, highlighting his impact when on the pitch.",
+      "summary": "Kai Havertz has been a focal point for Germany, demonstrating clinical finishing throughout the group stage. With 2 goals in 3 matches, he has proven to be a reliable source of offense for his team. His efficiency is reflected in his strong per-90 metrics as he prepares for the upcoming knockout stage. Havertz remains a critical piece of the German tactical setup.",
       "story": [],
       "bullets": [
-        "Contributed 2 goals across 3 tournament matches.",
-        "Maintains a strong 0.7 goals per 90 rate.",
-        "Logged 250 total minutes of action for Germany.",
-        "Currently holds 2 total points in the competition.",
-        "Key figure in Germany's Group E campaign."
+        "Registered 2 goals across 3 matches played.",
+        "Maintains an impressive 0.7 goals per 90 minutes.",
+        "Logged a total of 256 minutes on the pitch.",
+        "Total contribution of 2 points in the tournament so far.",
+        "Key offensive threat heading into the Round of 32."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Havertz has been highly effective in his role as a forward, converting his opportunities into 2 goals. His points per 90 rate of 0.7 reflects a consistent ability to influence the scoreboard during his 250 minutes of play."
+          "title": "Tournament Production",
+          "body": "Kai Havertz has been highly active in Germany's offensive efforts, tallying 2 goals over his 256 minutes of play. His ability to find the back of the net has been a consistent theme, resulting in 2 total points for the tournament. He continues to be a primary target for the German attack."
         },
         {
-          "title": "Tournament Impact",
-          "body": "Having played in 3 matches so far, Havertz is a central figure in Germany's offensive strategy. His presence has helped the team navigate their group stage fixtures successfully."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "Germany is set to face Ecuador in their final group match on June 25th. Following that, the team moves into the Round of 32 on June 29th, where Havertz will look to continue his scoring form."
+          "title": "Efficiency and Impact",
+          "body": "Operating at a rate of 0.7 goals per 90 minutes, Havertz has showcased high efficiency in his role as a forward. This 0.7 points per 90 rate highlights his effectiveness in creating scoring opportunities. His presence on the field has been vital for Germany's group stage campaign."
         },
         {
           "title": "Team Context",
-          "body": "Germany has shown strong form in Group E, securing victories against Curacao and Ivory Coast. Havertz's contributions have been instrumental in these results, providing the necessary edge in competitive matches."
+          "body": "Germany navigated a competitive group stage, including matches against Curacao, Ivory Coast, and Ecuador. Havertz played a significant role in these fixtures, helping the team secure their path forward. The squad now looks ahead to the Round of 32."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "With the group stage concluded, Germany is set to compete in the Round of 32 on June 29. Havertz will be expected to maintain his scoring form as the stakes rise in the knockout phase. The team awaits their opponent for this crucial upcoming fixture."
         }
       ],
-      "updatedAt": "2026-06-25T21:39:02+00:00",
-      "sourceHash": "dbbada167362148d",
+      "updatedAt": "2026-06-25T23:21:38+00:00",
+      "sourceHash": "ff1601ae3ad9410f",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "yasin-ayari-sweden": {
-      "headline": "Yasin Ayari: Sweden's Efficient Midfield Threat",
-      "summary": "Yasin Ayari has emerged as a standout performer for Sweden, demonstrating clinical efficiency in the midfield. Across his 184 minutes of play, he has managed to find the back of the net twice. His ability to impact the scoreboard has been a bright spot for his side during the group stage. As Sweden looks ahead to their next fixture, Ayari remains a key figure to watch.",
+      "headline": "Yasin Ayari: The Midfield Threat for Sweden",
+      "summary": "Yasin Ayari has emerged as a clinical presence in Sweden's midfield during the group stage of the tournament. With 2 goals in 184 minutes of play, he has demonstrated an impressive ability to find the back of the net. His efficiency is highlighted by a notable goals-per-90 rate as he continues to be a focal point for his side. Ayari's performance remains a key storyline as Sweden prepares for their upcoming match against Japan.",
       "story": [],
       "bullets": [
-        "Recorded 2 goals in 2 matches played.",
-        "Maintains an impressive 1.0 goals per 90 minutes.",
-        "Logged 184 total minutes on the pitch.",
-        "Accumulated 2 total points during the tournament.",
-        "Maintains a consistent 1.0 points per 90 minutes."
+        "Scored 2 goals across 3 matches played in the tournament.",
+        "Maintains a highly efficient 1.0 goals-per-90 rate.",
+        "Has logged 184 total minutes of action on the pitch.",
+        "Contributed 2 total points to his team's campaign.",
+        "Currently ranks 20th among players for his tournament impact."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Ayari has been remarkably efficient with his opportunities on the field. With 2 goals from just 184 minutes of action, he is currently averaging 1.0 goals per 90 minutes. This high rate of production highlights his importance to the Swedish attacking structure."
+          "body": "Ayari has proven to be an incredibly efficient asset for Sweden, boasting a 1.0 goals-per-90 rate. Despite limited minutes, his ability to convert opportunities has been a standout feature of his performance. This scoring rate underscores his importance in the attacking transition."
         },
         {
           "title": "Tournament Context",
-          "body": "Sweden's group stage campaign has been a rollercoaster, featuring a dominant 5-1 win over Tunisia followed by a challenging 5-1 loss to the Netherlands. Ayari has been a constant presence in the midfield throughout these two matches. His ability to contribute points in varying game states shows his versatility."
+          "body": "Across his 3 matches, Ayari has been a consistent presence in the midfield rotation. Having played 184 minutes, he has maximized his time on the field to secure 2 goals for his team. His contributions have been vital in Sweden's Group F campaign thus far."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluding, Sweden prepares for a crucial match against Japan on June 25. Ayari will be expected to maintain his scoring form as the team looks to secure a positive result. All eyes will be on whether he can extend his goal-scoring streak in this final group fixture."
+          "body": "Following the team's recent results against Tunisia and the Netherlands, Sweden is now focused on their upcoming match against Japan. Ayari will look to build upon his current form in this crucial Group F fixture. Fans can catch the action on FS1 as Sweden aims to improve their standing."
         }
       ],
-      "updatedAt": "2026-06-25T19:22:07+00:00",
-      "sourceHash": "fb07058a1e661ffb",
+      "updatedAt": "2026-06-25T23:19:53+00:00",
+      "sourceHash": "e0c19495622eecb6",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "elijah-just-new-zealand": {
       "headline": "Elijah Just: A Clinical Presence for New Zealand",
-      "summary": "Elijah Just has emerged as a key offensive threat for New Zealand during the group stage. Through 190 minutes of play, he has demonstrated impressive efficiency in front of the net. His ability to find scoring opportunities has been a vital component of the team's tactical approach.",
+      "summary": "Elijah Just has emerged as a key offensive contributor for New Zealand during the group stage. With two goals in his first two matches, he has proven to be a highly efficient threat in the final third. His ability to capitalize on limited opportunities has made him a vital part of the team's tactical setup. As New Zealand prepares for their final group stage fixture, Just remains a player to watch for his scoring consistency.",
       "story": [],
       "bullets": [
         "Recorded 2 goals across 2 matches played.",
-        "Maintains a high efficiency rate with 0.9 goals per 90 minutes.",
-        "Totaled 190 minutes of action on the pitch.",
-        "Currently holds a points total of 2 for the tournament.",
-        "Delivering a consistent 0.9 points per 90 minutes."
+        "Maintains an impressive 0.9 goals per 90 minutes.",
+        "Logged a total of 190 minutes on the pitch.",
+        "Currently holds a total of 2 points in the tournament.",
+        "Delivering a points-per-90 rate of 0.9."
       ],
       "sections": [
         {
           "title": "Efficiency in the Final Third",
-          "body": "Elijah Just has proven to be a highly effective finisher for his side. With 2 goals in just 190 minutes, he is maximizing his time on the field. His 0.9 goals per 90 rate highlights his ability to capitalize on limited opportunities."
+          "body": "Elijah Just has demonstrated remarkable clinical efficiency, netting 2 goals in his 190 minutes of tournament play. His scoring rate of 0.9 goals per 90 minutes highlights his ability to find the back of the net when given the opportunity. This level of production is essential for New Zealand as they navigate a challenging group stage."
         },
         {
           "title": "Tournament Impact",
-          "body": "As a midfielder, Just has taken on a significant scoring role for New Zealand. His 2 points reflect his direct contribution to the team's offensive output during the group stage. He remains a focal point for the squad as they navigate their tournament schedule."
+          "body": "Across his 2 appearances, Just has been a central figure in New Zealand's offensive efforts. By accumulating 2 total points, he has directly influenced the team's scoring output in both completed matches. His consistent involvement suggests he is a primary target for the team's attacking transitions."
         },
         {
-          "title": "Looking Ahead",
-          "body": "New Zealand's group stage campaign concludes with a high-stakes match against Belgium on June 26. Given his current form and production, Just will likely be central to the team's strategy. Fans will be watching to see if he can maintain his scoring momentum against a tough opponent."
+          "title": "Looking Ahead to Belgium",
+          "body": "Following the recent result against Egypt, New Zealand is now looking toward their upcoming Matchday 3 fixture against Belgium. This scheduled match on June 26th will be a critical test for the squad. Just will likely be expected to maintain his high-efficiency play to help New Zealand compete against a formidable opponent."
         },
         {
-          "title": "Team Context",
-          "body": "The team has navigated a challenging path, including a 2-2 draw against Iran and a 1-3 result against Egypt. Just has been a constant presence throughout these fixtures, logging significant minutes in both matches. His performance remains a bright spot as the team prepares for their final group stage fixture."
+          "title": "Team Context and Role",
+          "body": "As a midfielder, Just has balanced his defensive responsibilities with a significant attacking role. The team has relied on his presence to stretch defenses and capitalize on scoring chances, as evidenced by his 190 minutes of action. His performance remains a bright spot in New Zealand's campaign as they look to conclude the group stage on a high note."
         }
       ],
-      "updatedAt": "2026-06-25T19:22:47+00:00",
-      "sourceHash": "d553cee6fb2b0eb0",
+      "updatedAt": "2026-06-25T23:20:36+00:00",
+      "sourceHash": "1c79857938eac08f",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "harry-kane-england": {
-      "headline": "Harry Kane: England's Focal Point in Group L",
-      "summary": "Harry Kane remains a central figure for England, contributing directly to the team's offensive output through the first two group matches. With 2 goals across 204 minutes of play, he has demonstrated his clinical nature in front of the net. While the team experienced a scoreless draw in their second outing, Kane's presence continues to be a primary tactical consideration for England. He enters the final group stage fixture against Panama looking to build on his current tournament tally.",
+      "headline": "Harry Kane: England's Focal Point in Attack",
+      "summary": "Harry Kane continues to be the primary offensive engine for England, currently ranking 25th in overall tournament performance. Through two matches, he has demonstrated clinical finishing by scoring 2 goals. His presence on the pitch is constant, having logged 204 minutes of play. As England approaches their next group stage fixture, Kane remains the key figure for their attacking output.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in 2 matches played.",
-        "Maintained a strong scoring efficiency with 0.9 goals per 90 minutes.",
-        "Accumulated 204 minutes of total playing time for England.",
-        "Currently holds 2 points in the tournament standings.",
-        "Averaging 0.9 points per 90 minutes of action."
+        "Registered 2 goals across 2 matches played.",
+        "Maintains a high efficiency rate with 0.9 goals per 90 minutes.",
+        "Totaled 2 points during his 204 minutes on the field.",
+        "Maintains a points per 90 rate of 0.9.",
+        "Leading the line for England in Group L."
       ],
       "sections": [
         {
-          "title": "Tournament Scoring Efficiency",
-          "body": "Harry Kane has been highly efficient during his time on the pitch, netting 2 goals in just 204 minutes. His rate of 0.9 goals per 90 minutes highlights his ability to capitalize on opportunities when they arise. This level of production makes him a vital asset for England as they navigate the group stage."
+          "title": "Tournament Efficiency",
+          "body": "Harry Kane has proven to be a highly efficient striker during his time on the pitch. With a goals per 90 rate of 0.9, he is consistently converting his opportunities into meaningful contributions for England. This level of production highlights his importance as the central forward in the team's tactical setup."
         },
         {
-          "title": "Recent Team Performance",
-          "body": "England opened their campaign with a high-scoring 4-2 victory over Croatia, showcasing their attacking potential. However, the subsequent match against Ghana ended in a 0-0 stalemate, reflecting a tighter defensive battle. Kane remains at the heart of the team's tactical setup regardless of the fluctuating scorelines."
+          "title": "Workload and Impact",
+          "body": "Having played 204 minutes over the first two matchdays, Kane has been a workhorse for the England squad. His 2 points reflect his direct involvement in the team's scoring efforts during the group stage. He remains a focal point for the offense, regardless of the match result."
         },
         {
-          "title": "Looking Ahead to Panama",
-          "body": "The upcoming match against Panama on June 27th represents a crucial opportunity for England to secure their standing in Group L. Kane will likely serve as the primary target man as the team seeks a return to their scoring form from the opening match. Fans can catch the action on FOX as the group stage concludes."
+          "title": "Recent Team Context",
+          "body": "England's journey in Group L has seen a mix of results, including a 4-2 victory over Croatia and a 0-0 draw against Ghana. Kane has been at the center of these performances, helping the team navigate the early stages of the tournament. His ability to lead the line has been crucial in these high-stakes group matches."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "England is set to face Panama on June 27th in their final group stage match. With the tournament progression still in focus, Kane's performance will be vital for England's success. Fans will be watching to see if he can add to his current tally of 2 goals in this upcoming fixture."
         }
       ],
-      "updatedAt": "2026-06-25T21:38:33+00:00",
-      "sourceHash": "93fe37fb4a527ad4",
+      "updatedAt": "2026-06-25T23:21:06+00:00",
+      "sourceHash": "c4f3e384e7367e78",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2334,106 +2329,106 @@
       "refreshReason": "player stats or prompt changed"
     },
     "folarin-balogun-united-states": {
-      "headline": "Folarin Balogun: A Clinical Presence for the United States",
-      "summary": "Folarin Balogun has established himself as a focal point in the United States attack during the group stage. With two goals in his first two matches, he has demonstrated impressive efficiency in front of the net. His ability to convert opportunities has been a key factor in the team's successful start to the tournament.",
+      "headline": "Folarin Balogun Leading the US Attack",
+      "summary": "Folarin Balogun has established himself as a focal point for the United States in the early stages of the tournament. Through two matches, he has demonstrated clinical efficiency by finding the back of the net twice. His consistent presence on the pitch highlights his importance to the team's offensive strategy as they move through the group stage.",
       "story": [],
       "bullets": [
-        "Registered 2 goals across 2 matches played.",
-        "Maintains a prolific 1.0 goals per 90 minutes rate.",
-        "Totaled 180 minutes of action on the pitch.",
-        "Holds a points per 90 rate of 1.0.",
-        "Key contributor to the United States' undefeated group stage record."
+        "Scored 2 goals in 2 matches played",
+        "Maintained a sharp 1.0 goals per 90 minutes rate",
+        "Logged a total of 180 minutes on the field",
+        "Contributed 2 total points to the team effort",
+        "Remains a key starter for the United States squad"
       ],
       "sections": [
         {
-          "title": "Tournament Impact",
-          "body": "Balogun has been a consistent threat for the United States, logging a full 180 minutes over two appearances. His clinical finishing has resulted in 2 goals, directly contributing to the team's offensive output. He currently ranks 18th among players, reflecting his significant influence on the pitch."
+          "title": "Clinical Efficiency",
+          "body": "Balogun has been highly effective in his role as a forward, recording 2 goals across his 180 minutes of play. His ability to convert opportunities is reflected in his 1.0 goals per 90 rate. This efficiency makes him one of the most reliable attacking threats for the United States so far."
         },
         {
-          "title": "Efficiency and Production",
-          "body": "The efficiency of his play is highlighted by his 1.0 goals per 90 minutes rate. By maintaining a 1.0 points per 90 rate, he has proven to be a reliable asset for his team. His ability to maximize his time on the field makes him a vital component of the United States' tactical setup."
+          "title": "Tournament Impact",
+          "body": "With 2 points accumulated through his scoring, Balogun has been instrumental in the team's successful start to the group stage. He has played every minute of the matches against Paraguay and Australia. His consistent involvement suggests he will continue to be a primary target for the United States moving forward."
         },
         {
           "title": "Team Context",
-          "body": "The United States has enjoyed a strong start, securing victories against Paraguay and Australia. Balogun's presence at the front of the formation has helped the team navigate these group stage fixtures effectively. As the team looks toward their upcoming match against Turkey, his form will remain a critical narrative."
+          "body": "The United States has seen strong performances from their forward line, securing victories against Paraguay and Australia. Balogun's presence has helped the team navigate their group matches with confidence. The squad now looks ahead to their final group stage fixture against Turkey."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluding against Turkey, the United States has already secured a path forward. The team is set to compete in the Round of 32 on July 1st, where Balogun will look to continue his scoring momentum. His performance in these upcoming high-stakes matches will be essential for the team's tournament aspirations."
+          "body": "Following their strong start, the United States is scheduled to face Turkey on June 25th. Beyond that, the team has already secured a spot in the Round of 32 on July 1st. Balogun's continued form will be vital as the competition intensifies in the knockout stages."
         }
       ],
-      "updatedAt": "2026-06-25T19:21:45+00:00",
-      "sourceHash": "47b97021dba0af0a",
+      "updatedAt": "2026-06-25T23:19:41+00:00",
+      "sourceHash": "e2ca3ae751d68bbc",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "cyle-larin-canada": {
-      "headline": "Cyle Larin: Canada's Efficient Attacking Threat",
-      "summary": "Cyle Larin has established himself as a clinical presence for Canada throughout the group stage of the tournament. With 2 goals across 3 matches, he has proven to be a reliable source of offense for his side. His ability to convert opportunities efficiently has been a highlight of his performance in the 187 minutes he has logged on the pitch. As Canada moves into the knockout rounds, Larin remains a key figure in their attacking rotation.",
+      "headline": "Cyle Larin: Clinical Efficiency in Canada's Attack",
+      "summary": "Cyle Larin has served as a key offensive outlet for Canada throughout the group stage of the tournament. With 2 goals across his 187 minutes of play, he has demonstrated a sharp ability to capitalize on his opportunities. His performance has been a significant factor in Canada's advancement to the knockout rounds.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in 3 matches played.",
-        "Maintained a strong scoring rate of 1.0 goals per 90 minutes.",
-        "Accumulated 2 points throughout the group stage.",
-        "Logged a total of 187 minutes of action.",
-        "Delivered a points per 90 rate of 1.0."
+        "Recorded 2 goals in 3 matches played.",
+        "Maintains an impressive 1.0 goals per 90 minutes rate.",
+        "Accumulated 2 total points during the group stage.",
+        "Logged 187 minutes of action for the Canadian side.",
+        "Delivered a 1.0 points per 90 minutes efficiency rating."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Larin has been highly effective when called upon, demonstrating a high level of composure in front of the net. His goals per 90 rate of 1.0 highlights his ability to maximize his time on the field. This efficiency has been vital for Canada as they navigated a challenging group stage."
+          "title": "Tournament Production",
+          "body": "Larin has been highly effective when on the pitch, finding the back of the net twice in his 3 appearances. His scoring output is bolstered by an efficient 1.0 goals per 90 rate, highlighting his role as a primary threat in the final third. This clinical finishing has been essential for Canada's offensive rhythm."
         },
         {
-          "title": "Group Stage Impact",
-          "body": "Across his 3 appearances, Larin has been a consistent focal point for the Canadian attack. His 2 goals contributed significantly to the team's offensive output, including the notable 6-0 victory over Qatar. He has successfully translated his playing time into meaningful production for his country."
+          "title": "Efficiency and Impact",
+          "body": "Playing 187 minutes, Larin has maximized his time on the field to contribute directly to Canada's point tally. With 2 total points and a corresponding 1.0 points per 90 rate, he has proven to be a reliable performer. His ability to maintain this level of production makes him a focal point of the team's attack."
         },
         {
-          "title": "Tournament Context",
-          "body": "Canada's journey through Group B saw them face Bosnia and Herzegovina, Qatar, and Switzerland. Larin's contributions were instrumental in helping the team secure their spot in the next phase of the tournament. His role as a forward has been central to the team's tactical approach."
+          "title": "Team Context",
+          "body": "Canada's group stage journey saw them navigate matches against Bosnia and Herzegovina, Qatar, and Switzerland. Larin was a consistent presence as the team secured their place in the tournament's next phase. The squad is now looking ahead to a challenging Round of 32 matchup against South Africa."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluded, Canada now prepares for a Round of 32 matchup against South Africa. Larin will look to carry his scoring form into this high-stakes knockout fixture. His ability to find the back of the net will be crucial as Canada aims to advance further in the competition."
+          "body": "The focus now shifts to the knockout round, where Canada will face South Africa on June 28. Larin will aim to carry his group stage form into this critical fixture. His continued presence and scoring threat will be vital as Canada attempts to progress further in the competition."
         }
       ],
-      "updatedAt": "2026-06-25T19:22:34+00:00",
-      "sourceHash": "dbe480c0b89dfccc",
+      "updatedAt": "2026-06-25T23:20:21+00:00",
+      "sourceHash": "7dfca11ab9fb5642",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "nathan-dylan-saliba-canada": {
-      "headline": "Nathan-Dylan Saliba: The Engine of Canada's Midfield",
-      "summary": "Nathan-Dylan Saliba has emerged as a highly efficient playmaker for Canada during the group stage. With limited minutes on the pitch, he has managed to contribute directly to three goals. His ability to impact the game in short bursts makes him a vital asset for the Canadian squad as they head into the knockout rounds.",
+      "headline": "Nathan-Dylan Saliba: The Efficient Engine of Canada's Midfield",
+      "summary": "Nathan-Dylan Saliba has emerged as a highly productive asset for Canada during the group stage. In just 143 minutes of play, he has directly contributed to three goals, showcasing remarkable efficiency in the middle of the park. His ability to impact the scoreboard in limited time makes him a standout performer for his side.",
       "story": [],
       "bullets": [
-        "Contributed 1 goal and 2 assists in 3 matches.",
-        "Maintained an impressive 1.9 points per 90 minutes.",
-        "Logged 143 total minutes of tournament action.",
-        "Recorded a goals per 90 rate of 0.6.",
-        "Key contributor to Canada's offensive production in Group B."
+        "Registered 1 goal and 2 assists across 3 matches.",
+        "Maintains an impressive 1.9 points per 90 minutes.",
+        "Logged 143 minutes of action in the group stage.",
+        "Delivered a strong 0.6 goals per 90 minutes rate.",
+        "Key contributor to Canada's progression to the Round of 32."
       ],
       "sections": [
         {
-          "title": "Efficiency in Limited Minutes",
-          "body": "Saliba has maximized his opportunities, totaling 143 minutes across three matches. His efficiency is highlighted by a points per 90 rate of 1.9, proving he is a constant threat when on the field. He has successfully translated his playing time into 3 total points for his team."
+          "title": "Impact and Efficiency",
+          "body": "Saliba has maximized his time on the pitch, recording 3 total points through a mix of scoring and playmaking. His per-90 metrics, specifically 0.6 goals and 1.9 points, highlight a player who is consistently involved in dangerous attacking sequences. He has proven to be an essential creative outlet for the Canadian team."
         },
         {
-          "title": "Direct Goal Involvement",
-          "body": "With 1 goal and 2 assists, Saliba has been involved in a significant portion of Canada's attacking output. His goals per 90 rate of 0.6 demonstrates that he is not just a facilitator but also a capable finisher. This dual-threat capability adds a layer of unpredictability to the Canadian midfield."
+          "title": "Group Stage Performance",
+          "body": "Throughout the three group matches, Saliba demonstrated his versatility as a midfielder. Whether helping secure a draw against Bosnia and Herzegovina or contributing to the dominant 6-0 victory over Qatar, his presence was felt. Despite the narrow loss to Switzerland, his overall tournament output remains highly commendable."
         },
         {
-          "title": "Tournament Context",
-          "body": "Canada navigated a challenging Group B, featuring matches against Bosnia and Herzegovina, Qatar, and Switzerland. Saliba was a fixture in these group stage encounters, helping the team secure their spot in the next phase. The squad now looks ahead to a crucial Round of 32 matchup against South Africa."
+          "title": "Team Context",
+          "body": "Canada's tactical setup has clearly benefited from Saliba's ability to transition the ball and contribute to the final third. With his 143 minutes of action, he has become a reliable engine for the squad. His production has been a significant factor in Canada's ability to navigate a challenging group."
         },
         {
-          "title": "Looking Ahead to the Knockout Stage",
-          "body": "As Canada transitions to the Round of 32, Saliba's role will be pivotal in maintaining their offensive momentum. The upcoming match against South Africa on June 28th represents a new challenge in the knockout format. Fans will be watching to see if he can carry his group stage efficiency into this high-stakes fixture."
+          "title": "Looking Ahead",
+          "body": "As Canada prepares for the Round of 32, Saliba will look to carry his group stage momentum into the knockout phase. The upcoming match against South Africa presents a new challenge for the midfielder. Fans will be watching to see if he can maintain his high per-90 efficiency on the biggest stage."
         }
       ],
-      "updatedAt": "2026-06-25T19:23:40+00:00",
-      "sourceHash": "d345f4166431acba",
+      "updatedAt": "2026-06-25T23:22:05+00:00",
+      "sourceHash": "0fcda2e249878279",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3001,36 +2996,36 @@
       "model": "gemini-3.1-flash-lite"
     },
     "crysencio-summerville-netherlands": {
-      "headline": "Crysencio Summerville: The Netherlands' Efficiency Machine",
-      "summary": "Crysencio Summerville has emerged as a key attacking threat for the Netherlands during the group stage. With 2 goals and 1 assist in just 123 minutes of play, he is demonstrating remarkable efficiency in front of the net. His ability to contribute directly to scoring makes him a vital component of the Dutch offensive strategy. As the team heads into their final group match, Summerville remains a player to watch for his high-impact performances.",
+      "headline": "Crysencio Summerville: Efficiency in the Dutch Attack",
+      "summary": "Crysencio Summerville has emerged as a highly efficient attacking option for the Netherlands during the group stage. Despite limited minutes, he has managed to contribute directly to three goals in just three appearances. His ability to produce at a high rate makes him a standout performer in the current tournament landscape. Summerville continues to prove his value as a clinical forward for his national side.",
       "story": [],
       "bullets": [
-        "Registered 2 goals and 1 assist across 2 tournament appearances.",
+        "Contributed 2 goals and 1 assist across 3 matches played.",
         "Maintains an impressive 1.5 goals per 90 minutes rate.",
-        "Totaled 3 points in just 123 minutes of action.",
-        "Delivering a high-efficiency 2.2 points per 90 minutes.",
-        "Key contributor in a Netherlands side that has scored 7 goals in two matches."
+        "Registered 3 total points in his tournament campaign so far.",
+        "Demonstrates high efficiency with a 2.2 points per 90 minutes rate.",
+        "Logged 123 total minutes of action for the Netherlands."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Summerville has maximized his time on the pitch, recording 2 goals and 1 assist in only 123 minutes. His goals per 90 rate of 1.5 highlights his ability to find the back of the net whenever he is involved. This level of production is a significant factor in his current rank of 10 among players."
+          "body": "Summerville has maximized his time on the pitch, recording 2 goals and 1 assist in only 123 minutes. His goals per 90 rate of 1.5 highlights his ability to find the back of the net whenever he is involved in the play. This level of production is a significant factor in his current ranking."
         },
         {
-          "title": "Tournament Impact",
-          "body": "In his 2 matches played, Summerville has been directly involved in 3 points for the Netherlands. His points per 90 rate of 2.2 underscores his role as a primary playmaker and finisher. He has proven to be a reliable option for the Dutch attack during their high-scoring group stage run."
+          "title": "Impact on the Scoreboard",
+          "body": "With 3 total points, Summerville has been a vital component of the Dutch offensive output. His points per 90 rate of 2.2 showcases his consistent threat to opposing defenses. He has proven to be an effective playmaker and finisher in limited opportunities."
         },
         {
-          "title": "Team Context",
-          "body": "The Netherlands have enjoyed a productive group stage, including a 2-2 draw with Japan and a dominant 5-1 victory over Sweden. Summerville's contributions have been central to this offensive output. His ability to perform under pressure has helped the team maintain a strong position in Group F."
+          "title": "Tournament Context",
+          "body": "The Netherlands have enjoyed a strong start, including a 2-2 draw with Japan and a dominant 5-1 victory over Sweden. Summerville has been part of these high-scoring affairs, contributing to the team's momentum. His role remains crucial as the team prepares for their upcoming match against Tunisia."
         },
         {
           "title": "Looking Ahead",
-          "body": "The Netherlands are set to face Tunisia on June 25th in their final group stage match. Given his current form and per-90 efficiency, Summerville will likely be a focal point for the Dutch attack. Fans will be looking to see if he can carry his momentum into this upcoming fixture."
+          "body": "Following the group stage matches against Japan and Sweden, the Netherlands are set to face Tunisia next. Summerville will look to carry his efficient form into this final group fixture. His performance in these matches will be key to the team's progression in the tournament."
         }
       ],
-      "updatedAt": "2026-06-25T17:54:31+00:00",
-      "sourceHash": "169e9c81896395c9",
+      "updatedAt": "2026-06-25T23:18:30+00:00",
+      "sourceHash": "c46e374f3d7e1e29",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3102,76 +3097,71 @@
       "refreshReason": "player stats or prompt changed"
     },
     "ayase-ueda-japan": {
-      "headline": "Ayase Ueda: The Spearhead of Japan's Attack",
-      "summary": "Ayase Ueda has emerged as a clinical force for Japan in the group stage, directly contributing to three goals across his two appearances. With 174 minutes played, he has proven to be an incredibly efficient outlet for his team. His ability to find the net and create opportunities has been central to Japan's offensive success so far.",
-      "story": [
-        "Ayase Ueda has been a standout performer for Japan, demonstrating high-level efficiency in front of goal.",
-        "Across 174 minutes, he has recorded 2 goals and 1 assist, totaling 3 points.",
-        "His per-90 metrics highlight his impact, with a goals-per-90 rate of 1.0 and a points-per-90 rate of 1.6.",
-        "As Japan prepares for their final group stage match against Sweden, Ueda remains a focal point of their attacking strategy."
-      ],
+      "headline": "Ayase Ueda: Japan's Clinical Forward",
+      "summary": "Ayase Ueda has emerged as a key offensive contributor for Japan in the group stage. Through 174 minutes of action, he has demonstrated remarkable efficiency in front of the goal. His ability to impact the scoreline has been central to Japan's attacking success thus far. With solid production numbers, he remains a focal point for the team moving forward.",
+      "story": [],
       "bullets": [
-        "Contributed to 3 total points in just 2 matches.",
-        "Maintains a clinical 1.0 goals-per-90 rate.",
-        "Logged 174 minutes of action during the group stage.",
-        "Registered 2 goals and 1 assist to lead the offensive charge.",
-        "Achieved a points-per-90 rate of 1.6."
+        "Recorded 2 goals and 1 assist in 3 matches played.",
+        "Maintains an impressive 1.0 goals per 90 minutes rate.",
+        "Contributed a total of 3 points during the tournament.",
+        "Averaging 1.6 points per 90 minutes of play.",
+        "Has been a consistent presence across 174 total minutes."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Ueda has been remarkably sharp, converting his opportunities with a goals-per-90 rate of 1.0. His efficiency ensures that Japan maximizes their time in the final third, turning possession into tangible results."
+          "title": "Efficiency in the Final Third",
+          "body": "Ueda has been highly effective during his time on the pitch, boasting a goals per 90 rate of 1.0. This clinical nature has allowed him to accumulate 2 goals and 1 assist despite playing 174 minutes. His efficiency makes him one of the most dangerous forwards in the current tournament standings."
         },
         {
           "title": "Tournament Impact",
-          "body": "Through 174 minutes of play, Ueda has been involved in 3 points, showcasing his dual threat as both a scorer and a playmaker. His performance has been a key driver in Japan's ability to navigate their group stage fixtures effectively."
+          "body": "With 3 points total, Ueda has been instrumental in Japan's group stage campaign. His points per 90 rate of 1.6 highlights his reliability whenever he is called upon to lead the line. He continues to be a primary threat for opposing defenses."
         },
         {
-          "title": "Team Context",
-          "body": "Japan's attack has flourished with Ueda at the helm, coming off a dominant 4-0 victory against Tunisia. Having already secured a draw against the Netherlands, the team looks to maintain this momentum in their upcoming match against Sweden."
+          "title": "Recent Team Context",
+          "body": "Japan's attack has been in strong form, highlighted by a dominant 4-0 victory over Tunisia in Matchday 2. Following a hard-fought 2-2 draw with the Netherlands, the team has shown great versatility. These results set the stage for their upcoming Matchday 3 clash against Sweden."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluding, all eyes are on the upcoming match against Sweden on June 25. Ueda's current form will be vital as Japan looks to solidify their standing in Group F."
+          "body": "As Japan prepares for their final group stage match against Sweden, all eyes will be on Ueda's continued involvement. His performance in the upcoming fixture will be crucial for Japan's progression. Fans can catch the action on FS1 as the team looks to build on their recent momentum."
         }
       ],
-      "updatedAt": "2026-06-25T17:55:12+00:00",
-      "sourceHash": "6d988ec6d160e037",
+      "updatedAt": "2026-06-25T23:18:43+00:00",
+      "sourceHash": "ac56e8b17b34bfba",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "cody-gakpo-netherlands": {
-      "headline": "Cody Gakpo: The Netherlands' Dynamic Offensive Catalyst",
-      "summary": "Cody Gakpo has emerged as a central figure for the Netherlands, demonstrating clinical efficiency in the opening stages of the tournament. Through his first 182 minutes of play, he has been directly involved in three goals. His ability to contribute both as a scorer and a creator makes him a vital asset for the Dutch attack. As the group stage concludes, Gakpo remains a player to watch for his high-impact production.",
+      "headline": "Cody Gakpo: The Netherlands' Dynamic Scoring Threat",
+      "summary": "Cody Gakpo has emerged as a pivotal attacking force for the Netherlands, demonstrating remarkable efficiency in limited action. Through three matches, he has been directly involved in three goals, proving his value as a primary creative and finishing outlet. His ability to produce at a high rate per 90 minutes positions him as a standout performer in the group stage. As the Netherlands look toward their upcoming match against Tunisia, Gakpo remains a central figure in their offensive strategy.",
       "story": [],
       "bullets": [
-        "Contributed 2 goals and 1 assist across 2 matches played.",
-        "Maintains an impressive scoring rate of 1.0 goals per 90 minutes.",
-        "Averaging 1.5 points per 90 minutes of action.",
-        "Totaled 182 minutes on the pitch during the group stage.",
-        "Key contributor to the Netherlands' high-scoring performance against Sweden."
+        "Contributed 2 goals and 1 assist across 3 matches played.",
+        "Maintains an impressive 1.0 goals per 90 minutes.",
+        "Accumulated 3 total points during his 182 minutes on the pitch.",
+        "Delivering a highly efficient 1.5 points per 90 minutes.",
+        "Key contributor to the Netherlands' high-scoring group stage campaign."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Gakpo has been remarkably efficient in his limited time on the field. With 2 goals in just 182 minutes, he is currently operating at a rate of 1.0 goals per 90 minutes. This level of output highlights his importance as a primary threat in the final third."
+          "body": "Gakpo has maximized his time on the field, recording 2 goals and 1 assist in just 182 minutes of play. His scoring rate of 1.0 goals per 90 minutes highlights his clinical nature in front of the net. This level of production makes him one of the most dangerous forwards in the current tournament field."
         },
         {
-          "title": "Dual-Threat Production",
-          "body": "Beyond his goal-scoring, Gakpo has proven to be a versatile playmaker. By adding an assist to his tally, he has accumulated 3 total points so far. His points per 90 rate of 1.5 underlines his consistent influence on the team's offensive output."
+          "title": "Impact on the Attack",
+          "body": "With 3 total points, Gakpo has been directly involved in a significant portion of the Dutch offensive output. His points per 90 rate of 1.5 underscores his consistency whenever he is involved in the team's buildup. He has become the focal point for generating scoring opportunities for his side."
         },
         {
-          "title": "Team Context and Impact",
-          "body": "The Netherlands' attack has looked potent, particularly in their recent 5-1 victory over Sweden. Gakpo has been at the heart of this success, helping the team navigate through a challenging group. His presence on the field has been a constant factor in the team's ability to find the back of the net."
+          "title": "Tournament Context",
+          "body": "The Netherlands have enjoyed a productive group stage, including a dominant 5-1 victory over Sweden. Gakpo's contributions have been instrumental in these results, helping the team navigate their group matches effectively. His performance levels have remained high despite the rotation of opponents."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluding, the Netherlands prepare for their upcoming fixture against Tunisia on June 25. Gakpo will look to build upon his current form to help secure a strong finish for his side. His performance in this final group match will be crucial for the team's momentum heading into the next stage."
+          "body": "Following a hard-fought draw against Japan and a commanding win against Sweden, the Netherlands prepare for their final group stage fixture against Tunisia. Gakpo will look to continue his scoring form as the team aims to solidify their standing. All eyes will be on him to see if he can maintain his high per-90 efficiency in the upcoming match."
         }
       ],
-      "updatedAt": "2026-06-25T17:55:25+00:00",
-      "sourceHash": "f3e993441e7e7938",
+      "updatedAt": "2026-06-25T23:18:56+00:00",
+      "sourceHash": "03729e2908d6ecf6",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3212,41 +3202,32 @@
       "refreshReason": "player stats or prompt changed"
     },
     "brian-brobbey-netherlands": {
-      "headline": "Brian Brobbey: A Clinical Force for the Netherlands",
-      "summary": "Brian Brobbey has made a significant impact for the Netherlands in his limited time on the pitch during the group stage. Through just two matches, he has demonstrated remarkable efficiency in front of the goal. His ability to capitalize on opportunities has been a key factor in his team's offensive output. Brobbey currently stands as a highly productive option for the Dutch attack.",
-      "story": [
-        "Brian Brobbey has been a standout performer for the Netherlands, showcasing incredible efficiency in his limited appearances.",
-        "With 2 goals in just 88 minutes of play, he has proven to be a lethal presence in the final third.",
-        "His current form is highlighted by a stellar 2.0 goals per 90 minutes rate, reflecting his clinical nature.",
-        "As the Netherlands prepare for their next challenge against Tunisia, Brobbey's role will be one to watch closely."
-      ],
+      "headline": "Brian Brobbey: The Netherlands' High-Efficiency Impact Forward",
+      "summary": "Brian Brobbey has emerged as a highly clinical option for the Netherlands, demonstrating remarkable efficiency in limited action. Through three matches, he has maximized his time on the pitch to deliver significant scoring output. His ability to find the back of the net quickly has made him a standout performer in the group stage. As the Netherlands looks ahead to their next fixture, Brobbey remains a key player to watch for his goal-scoring potential.",
+      "story": [],
       "bullets": [
-        "Recorded 2 goals in 2 matches played.",
-        "Maintains an impressive 2.0 goals per 90 minutes.",
-        "Accumulated 2 total points during the tournament.",
-        "Logged 88 minutes of total playing time.",
-        "Maintains a 2.0 points per 90 minutes rate."
+        "Recorded 2 goals in just 88 minutes of play.",
+        "Maintains an impressive 2.0 goals per 90 minutes rate.",
+        "Totaled 2 points across 3 tournament appearances.",
+        "Showcased clinical finishing despite limited total match time.",
+        "Key contributor to the Netherlands' attacking depth in Group F."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Brian Brobbey has maximized his time on the field, scoring 2 goals across only 88 minutes of action. This high level of productivity results in a remarkable 2.0 goals per 90 minutes rate. He has proven to be an incredibly efficient asset for the Netherlands when called upon."
+          "body": "Brian Brobbey has been the definition of efficiency for the Netherlands during this tournament. By scoring 2 goals in only 88 minutes, he has proven that he does not need a full match to influence the scoreboard. His 2.0 goals per 90 rate highlights his ability to capitalize on every opportunity he receives."
         },
         {
           "title": "Tournament Impact",
-          "body": "Across his 2 matches played, Brobbey has been a focal point of efficiency, contributing 2 points to his tournament tally. His ability to find the back of the net has helped the Netherlands navigate a competitive group stage. He currently holds a 2.0 points per 90 minutes rate, underscoring his influence."
-        },
-        {
-          "title": "Team Context",
-          "body": "The Netherlands have shown strong attacking form, including a 5-1 victory over Sweden and a 2-2 draw with Japan. Brobbey has integrated well into this high-scoring environment, providing a reliable scoring threat. His contributions are vital as the team looks ahead to their upcoming fixture."
+          "body": "Appearing in 3 matches, Brobbey has been a vital part of the Dutch rotation. His contribution of 2 points has been instrumental in the team's group stage campaign, which included a high-scoring 5-1 victory over Sweden. He continues to provide a reliable scoring threat whenever he is called upon by the manager."
         },
         {
           "title": "Looking Ahead",
-          "body": "Following their recent success, the Netherlands are scheduled to face Tunisia on June 25th. Brobbey will aim to carry his momentum from the first two matches into this final group stage encounter. Fans will be watching to see if he can continue his clinical run in the next round."
+          "body": "The Netherlands' next challenge is a Group F showdown against Tunisia on June 25th. Given his current form and per-90 efficiency, Brobbey will likely be a focal point for the coaching staff as they look to secure their standing in the group. Fans should watch to see if he can maintain his high scoring rate in this upcoming fixture."
         }
       ],
-      "updatedAt": "2026-06-25T19:21:18+00:00",
-      "sourceHash": "0695444a04de26a7",
+      "updatedAt": "2026-06-25T23:19:09+00:00",
+      "sourceHash": "11115f6dbfb002cd",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3362,36 +3343,32 @@
       "refreshReason": "player stats or prompt changed"
     },
     "ismaila-sarr-senegal": {
-      "headline": "Ismaila Sarr: The Clinical Edge in Senegal's Attack",
-      "summary": "Ismaila Sarr has emerged as a vital offensive force for Senegal, demonstrating impressive efficiency in front of goal. Across his 2 matches and 186 minutes of play, he has been directly involved in scoring, proving his value as a midfielder who can convert opportunities. His performance has been a bright spot for his side despite the challenging results in Group I. Sarr currently stands as a key player to watch as Senegal prepares for their final group stage match.",
+      "headline": "Ismaila Sarr: Senegal's Dynamic Attacking Force",
+      "summary": "Ismaila Sarr has emerged as a key offensive threat for Senegal, demonstrating clinical finishing in his appearances so far. Through 186 minutes of play, he has been directly involved in scoring, proving his value in the final third. His performance highlights his role as a primary outlet for his team's attacking transitions.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in his first 2 matches of the tournament.",
-        "Maintains a clinical 1.0 goals per 90 minutes rate.",
-        "Logged 186 total minutes on the pitch for Senegal.",
-        "Demonstrating high efficiency with 1.0 points per 90 minutes.",
-        "Key offensive contributor in Senegal's Group I campaign."
+        "Recorded 2 goals across 2 tournament matches.",
+        "Maintains an impressive scoring rate of 1.0 goals per 90 minutes.",
+        "Logged 186 total minutes of action on the pitch.",
+        "Currently holds a points-per-90 rate of 1.0.",
+        "Serving as a critical component of Senegal's Group I campaign."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Ismaila Sarr has maximized his time on the pitch, finding the back of the net twice in just 186 minutes. His goals per 90 rate of 1.0 highlights his ability to capitalize on limited opportunities. This level of production is essential for Senegal as they look to maintain offensive pressure."
+          "body": "Sarr has been remarkably efficient during his time on the field, finding the back of the net twice in just two matches. His goals-per-90 rate of 1.0 underscores his ability to capitalize on limited opportunities. This level of production makes him one of the most dangerous midfielders in his group."
         },
         {
-          "title": "Tournament Impact",
-          "body": "With 2 goals and 2 points total, Sarr has been a primary driver of Senegal's attacking output. While the team has faced difficult results against France and Norway, Sarr's individual contributions have kept them competitive. His presence in the midfield provides both structure and a direct goal-scoring threat."
+          "title": "Impact in Group I",
+          "body": "Senegal has faced stiff competition in Group I, including matches against France and Norway. Despite the challenging results, Sarr has consistently provided an offensive spark for his side. His ability to contribute directly to the scoresheet has kept Senegal competitive in every fixture."
         },
         {
           "title": "Looking Ahead",
-          "body": "Senegal is set to face Iraq on June 26 in their final group match. Following two high-scoring encounters, Sarr will be expected to lead the attack once more. Fans can catch this pivotal matchup on FS1 as Senegal aims to secure a positive result."
-        },
-        {
-          "title": "Contextual Performance",
-          "body": "Sarr's role as a midfielder has been redefined by his goal-scoring form in this tournament. By maintaining a points per 90 rate of 1.0, he has proven to be one of the most efficient players in his position group. His consistency across 2 matches suggests he remains a focal point for the team's tactical setup."
+          "body": "With the group stage concluding, Senegal prepares for a crucial upcoming match against Iraq. Sarr will look to build upon his current form and continue his high-output performance. Fans can catch the action on FS1 as Senegal aims to secure a positive result."
         }
       ],
-      "updatedAt": "2026-06-25T19:22:20+00:00",
-      "sourceHash": "0894731e8409e096",
+      "updatedAt": "2026-06-25T23:20:08+00:00",
+      "sourceHash": "eefe2d509917044b",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3506,106 +3483,137 @@
       "model": "gemini-3.1-flash-lite"
     },
     "cristiano-ronaldo-portugal": {
-      "headline": "Cristiano Ronaldo: Leading the Portuguese Attack",
-      "summary": "Cristiano Ronaldo has been a focal point for Portugal throughout the early stages of the tournament. With 2 goals across 2 matches, he continues to demonstrate his clinical nature in front of the net. His contributions have been vital in securing points for his side as they navigate Group K. Ronaldo remains a constant threat, maintaining a high level of efficiency during his 202 minutes of play.",
+      "headline": "Cristiano Ronaldo: Leading the Line for Portugal",
+      "summary": "Cristiano Ronaldo has been a focal point for Portugal throughout the group stage, demonstrating his enduring ability to impact the scoreboard. With 2 goals across 2 matches, he remains a primary offensive threat for his side. His efficiency is highlighted by a strong goals-per-90 rate as he continues to spearhead the attack.",
       "story": [],
       "bullets": [
         "Registered 2 goals in 2 matches played.",
-        "Maintains a strong scoring rate of 0.9 goals per 90 minutes.",
-        "Logged 202 minutes of total action on the pitch.",
-        "Accumulated 2 total points to lead the offensive effort.",
-        "Maintains a consistent points-per-90 rate of 0.9."
+        "Maintains a productive 0.9 goals per 90 minutes.",
+        "Totaled 202 minutes of action on the pitch.",
+        "Accumulated 2 points so far in the tournament.",
+        "Key figure in Portugal's recent 5-0 victory over Uzbekistan."
       ],
       "sections": [
         {
-          "title": "Tournament Impact",
-          "body": "Ronaldo has been instrumental in Portugal's campaign, contributing directly to the team's offensive output. His ability to find the back of the net has been a key factor in Portugal's group stage performances."
+          "title": "Tournament Production",
+          "body": "Ronaldo has been clinical in his appearances, finding the back of the net twice in his 202 minutes of play. His consistency is reflected in his 0.9 goals-per-90 rate, proving he is still highly effective at converting opportunities. These contributions have been vital to Portugal's standing in Group K."
         },
         {
-          "title": "Statistical Efficiency",
-          "body": "With a goals-per-90 rate of 0.9, Ronaldo is proving to be highly efficient with the time he is given. This high rate of production highlights his continued importance to the team's tactical setup."
-        },
-        {
-          "title": "Recent Team Context",
-          "body": "Portugal comes off a dominant 5-0 victory against Uzbekistan, building on their earlier 1-1 draw with DR Congo. This momentum sets the stage for their upcoming final group match."
+          "title": "Team Context",
+          "body": "Portugal's group stage campaign has been dynamic, starting with a 1-1 draw against DR Congo before a dominant 5-0 win against Uzbekistan. Ronaldo's presence at forward has been central to these results, providing the necessary leadership and finishing ability. The team has shown significant offensive firepower in their most recent outing."
         },
         {
           "title": "Looking Ahead",
-          "body": "Portugal is scheduled to face Colombia on June 27th at 19:30 ET. Ronaldo will look to continue his scoring form as the team aims to secure their standing in the group."
+          "body": "The next challenge for Portugal is a matchup against Colombia on June 27. As the group stage concludes, Ronaldo will look to build on his current tally of 2 goals. Maintaining his current per-90 efficiency will be crucial for Portugal as they aim to secure their position."
         }
       ],
-      "updatedAt": "2026-06-25T21:38:19+00:00",
-      "sourceHash": "8b4b505e6a2a83d2",
+      "updatedAt": "2026-06-25T23:20:53+00:00",
+      "sourceHash": "cf09411f5644bc0f",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "daniel-munoz-colombia": {
-      "headline": "Daniel Munoz: The Unexpected Scoring Threat from Defense",
-      "summary": "Daniel Munoz has emerged as a surprising offensive catalyst for Colombia during the group stage. Despite playing as a defender, he has already contributed 2 goals across his 207 minutes of play. His efficiency in front of the net has been a standout feature of Colombia's campaign thus far. Munoz currently ranks 25th in player performance metrics, highlighting his impact on the team's success.",
+      "headline": "Daniel Munoz: The Unexpected Scoring Threat from Colombia's Backline",
+      "summary": "Daniel Munoz has emerged as a surprising offensive force for Colombia, contributing significantly to their Group K campaign. Through his first 2 matches and 207 minutes of play, he has already found the back of the net twice. His efficiency from the defensive position has made him a standout performer in the tournament so far. As Colombia prepares for their next fixture, Munoz remains a key player to watch for his attacking contributions.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in just 2 matches played.",
-        "Maintains an impressive 0.9 goals per 90 minutes rate.",
-        "Logged a total of 207 minutes on the pitch.",
-        "Accumulated 2 total points during the group stage.",
-        "Maintains a points per 90 rate of 0.9."
+        "Registered 2 goals in his first 2 matches of the tournament.",
+        "Maintains an impressive goals per 90 rate of 0.9.",
+        "Logged 207 minutes of total playing time across group stage fixtures.",
+        "Currently holds 2 total points based on his offensive production.",
+        "Key defensive contributor in Colombia's unbeaten start to Group K."
       ],
       "sections": [
         {
-          "title": "A Rare Scoring Defender",
-          "body": "It is uncommon for a defender to carry such a significant scoring burden, yet Munoz has thrived in this role. With 2 goals in only 2 matches, he has proven to be a vital asset for Colombia's attack. His ability to convert opportunities has been a key factor in his high ranking."
+          "title": "A Rare Defensive Scoring Output",
+          "body": "It is uncommon to see a defender impact the scoresheet with such frequency early in a tournament. With 2 goals in just 2 matches, Munoz has provided Colombia with an unexpected tactical advantage. His ability to find space and convert opportunities has been a highlight of their group stage performance."
         },
         {
-          "title": "Efficiency Under Pressure",
-          "body": "Munoz is currently operating at a high level of efficiency, evidenced by his 0.9 goals per 90 minutes. Over the course of 207 minutes, he has consistently found ways to influence the scoreline. This level of production is rare for a player in his position."
+          "title": "Efficiency on the Pitch",
+          "body": "Munoz is currently operating at a goals per 90 rate of 0.9, illustrating his clinical nature when moving forward. Having played 207 minutes, he has maximized his time on the field by consistently threatening the opposition's goal. This level of production is rare for a player in his position and adds a new dimension to the Colombian attack."
         },
         {
           "title": "Tournament Context",
-          "body": "Colombia has enjoyed a strong start to the tournament, securing victories against Uzbekistan and DR Congo. Munoz has been a central figure in these matches, helping his team navigate Group K successfully. His contributions have been essential to the team's current standings."
+          "body": "Colombia has enjoyed a strong start in Group K, supported by Munoz's contributions in victories against Uzbekistan and DR Congo. The team has looked cohesive, and Munoz's involvement in the final third has been a vital component of their success. His presence has helped secure important results as the team navigates the group stage."
         },
         {
           "title": "Looking Ahead",
-          "body": "As Colombia prepares for their next fixture against Portugal on June 27, all eyes will be on Munoz to see if he can maintain his scoring form. The match is scheduled for 19:30 ET and will be broadcast on FOX. Maintaining his current per-90 rates will be crucial for Colombia as they face tougher competition."
+          "body": "With the group stage concluding, Colombia is set to face Portugal on June 27. Fans will be watching to see if Munoz can maintain his scoring form against a tough opponent. His performance in this upcoming match will be crucial for Colombia as they aim to solidify their standing in the group."
         }
       ],
-      "updatedAt": "2026-06-25T21:38:46+00:00",
-      "sourceHash": "cfb9f5f975ffa47b",
+      "updatedAt": "2026-06-25T23:21:25+00:00",
+      "sourceHash": "8f839bcc70de6b01",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "julian-quinones-mexico": {
-      "headline": "Julian Quinones: Mexico's Efficient Attacking Force",
-      "summary": "Julian Quinones has been a vital component of Mexico's group stage success, providing a consistent threat in the final third. Through 270 minutes of action, he has demonstrated clinical finishing to help lead his side through the opening matches. As Mexico advances to the Round of 32, Quinones remains a focal point for their attacking ambitions.",
+      "headline": "Julian Quinones: A Clinical Force for Mexico",
+      "summary": "Julian Quinones has been a standout performer for Mexico throughout the group stage, anchoring the attack with consistent efficiency. Playing every minute of the team's three matches, he has proven to be a vital component of their offensive success. His ability to find the back of the net has directly contributed to Mexico's strong standing in the tournament. As Mexico advances to the Round of 32, Quinones remains a key player to watch.",
       "story": [],
       "bullets": [
-        "Recorded 2 goals across 3 tournament matches",
-        "Maintains a sharp 0.7 goals per 90 minutes rate",
-        "Logged a total of 270 minutes on the pitch",
-        "Contributed 2 total points to Mexico's campaign",
-        "Key contributor to Mexico's undefeated group stage performance"
+        "Totaled 2 goals across 3 matches played.",
+        "Maintained a solid efficiency rate of 0.7 goals per 90 minutes.",
+        "Logged a full 270 minutes on the pitch during the group stage.",
+        "Accumulated 2 total points with a points-per-90 rate of 0.7.",
+        "Remains a central figure in Mexico's undefeated group stage campaign."
+      ],
+      "sections": [
+        {
+          "title": "Efficiency in the Final Third",
+          "body": "Quinones has demonstrated remarkable composure in front of the goal throughout the tournament. By recording 2 goals in 270 minutes, he has maintained a consistent goals-per-90 rate of 0.7. This efficiency highlights his role as a primary scoring threat for the Mexican side."
+        },
+        {
+          "title": "Consistent Presence",
+          "body": "Playing in all 3 matches for Mexico, Quinones has been a constant presence in the starting lineup. His ability to stay on the field for the full 270 minutes shows his physical endurance and importance to the team's tactical setup. This reliability has provided stability to the attack as Mexico navigated their group."
+        },
+        {
+          "title": "Team Context and Impact",
+          "body": "Mexico's offensive production has been bolstered by the contributions of Quinones, who accounts for 2 of the team's total points. His performance has been instrumental in securing positive results against South Africa, South Korea, and Czechia. As the team moves into the knockout phase, his form will be critical for their continued success."
+        },
+        {
+          "title": "Looking Ahead to the Knockout Stage",
+          "body": "With the group stage concluded, Mexico now prepares for their Round of 32 matchup scheduled for June 30. Following a successful group run, the team will look to Quinones to maintain his high level of play. The upcoming match against the best third-place finisher from other groups will be a significant test for the squad."
+        }
+      ],
+      "updatedAt": "2026-06-25T23:21:52+00:00",
+      "sourceHash": "176318ab782e0640",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "player stats or prompt changed"
+    },
+    "nicolas-pepe-ivory-coast": {
+      "headline": "Nicolas Pepe: Efficiency in the Ivory Coast Attack",
+      "summary": "Nicolas Pepe has emerged as a clinical threat for Ivory Coast during the group stage. Despite playing a limited total of 164 minutes, he has managed to find the back of the net twice. His ability to produce goals in short bursts makes him a vital asset as the team moves into the knockout rounds.",
+      "story": [],
+      "bullets": [
+        "Recorded 2 goals across 3 tournament matches.",
+        "Maintains an impressive 1.1 goals per 90 minutes.",
+        "Accumulated 2 total points during the group stage.",
+        "Logged 164 minutes of total playing time.",
+        "Delivers a consistent 1.1 points per 90 minutes."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Quinones has proven to be an incredibly efficient outlet for Mexico, boasting a goals per 90 rate of 0.7. His ability to capitalize on limited opportunities has been a major factor in his team's ability to secure results during the group stage."
+          "body": "Pepe has demonstrated remarkable efficiency when on the pitch, boasting a goals per 90 rate of 1.1. By converting his limited opportunities into 2 goals, he has proven to be one of the most dangerous options for Ivory Coast."
         },
         {
-          "title": "Tournament Workload",
-          "body": "Playing in all 3 matches for a total of 270 minutes, Quinones has been a consistent presence in the starting lineup. His endurance and reliability have allowed the coaching staff to lean on him as a primary attacking option throughout the group phase."
+          "title": "Tournament Impact",
+          "body": "Across his 3 matches played, Pepe has been directly involved in the team's offensive output. His 2 points reflect his contribution to the side's success in navigating the group stage."
         },
         {
-          "title": "Team Impact",
-          "body": "With 2 goals and 2 total points, Quinones has directly influenced the scoreboard in a competitive Group A. His contributions were essential in helping Mexico navigate matches against South Africa, South Korea, and Czechia."
+          "title": "Team Context",
+          "body": "Ivory Coast has relied on a balanced attack to secure their place in the tournament. With Pepe providing a scoring spark, the team has successfully navigated matches against Ecuador, Germany, and Curacao."
         },
         {
           "title": "Looking Ahead",
-          "body": "Following a successful group stage, Mexico is now preparing for their Round of 32 knockout fixture. Quinones will look to carry his current form into this high-stakes match as the team awaits their opponent."
+          "body": "Following the conclusion of group play, Ivory Coast is set to compete in the Round of 32 on June 30. Pepe will aim to carry his scoring form into this high-stakes knockout fixture."
         }
       ],
-      "updatedAt": "2026-06-25T19:28:57+00:00",
-      "sourceHash": "eaf143a59f6372a5",
+      "updatedAt": "2026-06-25T23:22:49+00:00",
+      "sourceHash": "0171bb31368212c8",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "top player"
@@ -4168,35 +4176,34 @@
       "refreshReason": "manual spoiler-free preview target"
     },
     "74": {
-      "headline": "Germany Prepares for Round of 32 Showdown in Foxborough",
-      "summary": "Germany heads to Gillette Stadium for a high-stakes Round of 32 knockout match on June 29. They await the determination of their opponent, who will emerge as one of the best third-place finishers from Groups A, B, C, D, or F. This clash promises to be a pivotal moment in the tournament as the knockout phase intensifies.",
+      "headline": "Germany Prepares for Knockout Stage Opener in Foxborough",
+      "summary": "Germany enters the Round of 32 as the winner of Group E, setting the stage for a high-stakes knockout match at Gillette Stadium. They await the determination of their opponent, who will emerge as one of the best third-place finishers from Groups A, B, C, D, or F.",
       "story": [
-        "As the 2026 World Cup moves into the decisive Round of 32, Germany finds itself firmly in the spotlight after a strong performance in Group E. Having secured their spot as the winner of their group, the team now shifts its focus to the knockout stage, where every match carries the weight of potential elimination.",
-        "The atmosphere at Gillette Stadium in Foxborough, Massachusetts, is expected to be electric as fans gather to witness this critical fixture. Being a venue with a rich sporting history, the stadium provides a grand stage for what promises to be a tactical battle under the lights on June 29.",
-        "Germany's path to this stage has been marked by significant offensive output, having navigated their group stage fixtures with determination. Their preparation for this match involves adjusting to the unique challenge of facing an opponent whose identity is only finalized once the group stage concludes across multiple other pools.",
-        "The unknown nature of the opponent adds a layer of complexity to Germany's preparation. Whether they face a side from Group A, B, C, D, or F, the coaching staff must remain versatile, preparing for a team that has proven its resilience by qualifying as one of the best third-place finishers in the tournament.",
-        "For the spectators, the intrigue lies in how Germany will adapt their established tactical rhythm against a desperate and hungry opponent. The knockout format demands precision and composure, and this match will serve as a true test of whether Germany can maintain their momentum in the pursuit of the trophy."
+        "The 2026 World Cup knockout phase begins in earnest as Germany arrives in Foxborough, Massachusetts, to stake their claim in the Round of 32. Having secured their position by winning Group E, the team now faces the unique pressure of a single-elimination format at Boston Stadium.",
+        "Germany's path to this stage was defined by a series of intense group-stage battles. Their campaign began with a dominant performance against Curacao, followed by a narrow victory over Ivory Coast. Despite a challenging final group match against Ecuador, their earlier successes ensured they would enter the knockout bracket with momentum.",
+        "The identity of Germany's opponent remains a compelling mystery, as the slot is reserved for one of the best third-place teams across a wide range of groups. This uncertainty adds a layer of tactical intrigue, as Germany must prepare for a variety of potential playing styles and defensive structures that could emerge from the diverse pool of candidates.",
+        "Gillette Stadium provides the backdrop for this encounter, a venue known for its energetic atmosphere. As the tournament shifts into the knockout round, every decision on the pitch carries increased weight, and both teams will be looking to establish control early in this pivotal matchup."
       ],
       "bullets": [
-        "Watch how Germany manages the tactical uncertainty of facing an opponent determined by the best third-place rankings.",
-        "Observe the atmosphere at Gillette Stadium as the tournament transitions into the high-pressure knockout rounds.",
-        "Look for how Germany's group stage experience influences their approach to this single-elimination fixture."
+        "Germany enters as the winner of Group E, looking to leverage their tactical experience from the group stage.",
+        "The opponent is a wildcard, determined by the final rankings of the best third-place finishers from Groups A, B, C, D, and F.",
+        "The match takes place at Gillette Stadium in Foxborough, marking a critical transition into the tournament's knockout phase."
       ],
       "sections": [
         {
-          "title": "The Road to Foxborough",
-          "body": "Germany enters this knockout match following a successful group stage campaign where they finished at the top of Group E. Their previous performances have established them as a formidable force, setting the tone for their entry into the Round of 32. All eyes will be on how they handle the transition to the high-stakes environment of the knockout bracket."
+          "title": "Tournament Context",
+          "body": "This Round of 32 match represents the start of the knockout phase for Germany. With no room for error, the team must adapt to the high-pressure environment of a tournament bracket."
         },
         {
-          "title": "The Opponent Mystery",
-          "body": "The identity of the team facing Germany remains fluid, as the spot is reserved for the best third-place finisher from a wide range of groups. This requires Germany to be prepared for a variety of playing styles and tactical setups. The eventual opponent will undoubtedly be looking to capitalize on this opportunity to pull off a significant result."
+          "title": "Tactical Outlook",
+          "body": "Germany must remain flexible as they await their opponent from the pool of third-place finishers. Their ability to adjust to different tactical approaches will be the key factor in navigating this unpredictable matchup."
         }
       ],
-      "updatedAt": "2026-06-25T07:25:52+00:00",
-      "sourceHash": "ee3c67d005a47232",
+      "updatedAt": "2026-06-25T23:22:19+00:00",
+      "sourceHash": "019bb350de2bcffe",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "79": {
       "headline": "Mexico Prepares for Knockout Stage at Estadio Azteca",
@@ -5987,6 +5994,36 @@
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "manual spoiler-free preview target"
+    },
+    "78": {
+      "headline": "Ivory Coast Prepares for Knockout Stage Clash in Arlington",
+      "summary": "Ivory Coast enters the Round of 32 at AT&T Stadium to face the runner-up from Group I. This high-stakes knockout match marks a pivotal moment in the tournament as both sides look to secure their path forward.",
+      "story": [
+        "The knockout stage arrives in Arlington as Ivory Coast prepares to take the pitch at AT&T Stadium. Having navigated a competitive Group E, the Ivorian squad is now set for a high-pressure encounter against the runner-up from Group I.",
+        "Ivory Coast's journey to this stage has been defined by a series of tactical tests. Their group stage campaign included a narrow victory over Ecuador, a hard-fought battle against Germany, and a decisive performance against Curacao. These experiences have provided the team with a diverse set of challenges that will be vital as they transition into the single-elimination format.",
+        "The atmosphere in Texas will be electric as the Round of 32 begins. With the opponent finalized as the second-place finisher from Group I, Ivory Coast must remain adaptable. The uncertainty surrounding their specific matchup opponent adds an extra layer of intrigue, requiring the squad to rely on their established chemistry and tactical discipline.",
+        "As both teams step onto the grass at Dallas Stadium, the stakes could not be higher. Every possession and tactical decision carries the weight of tournament survival. Fans can expect a focused effort from Ivory Coast as they aim to leverage their group stage momentum to overcome the challenge posed by their Group I counterpart."
+      ],
+      "bullets": [
+        "Watch how Ivory Coast adjusts their defensive structure against an opponent emerging from the Group I bracket.",
+        "Observe the tactical approach of the Ivorian midfield in controlling the tempo within the expansive environment of AT&T Stadium.",
+        "Monitor the transition play as Ivory Coast looks to capitalize on the unique challenges presented by a knockout-stage opponent."
+      ],
+      "sections": [
+        {
+          "title": "The Road to the Round of 32",
+          "body": "Ivory Coast successfully navigated a challenging Group E, showing resilience against diverse styles of play. Their ability to secure points in varied conditions suggests they are well-prepared for the intensity of the knockout rounds. This upcoming match at AT&T Stadium serves as their first major test in the single-elimination bracket."
+        },
+        {
+          "title": "Venue Context",
+          "body": "The match is hosted at AT&T Stadium in Arlington, Texas, a premier venue known for its massive scale and atmosphere. Players will need to adapt to the specific conditions of this stadium as they compete for a spot in the next round. The setting provides a grand stage for what promises to be a compelling tactical battle."
+        }
+      ],
+      "updatedAt": "2026-06-25T23:22:37+00:00",
+      "sourceHash": "c9baf19590c85262",
+      "promptHash": "58c0eceedbff748a",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "future spoiler-free preview"
     }
   }
 }
