@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T07:50:02+00:00",
+  "generatedAt": "2026-06-25T17:55:38+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -298,51 +298,47 @@
       "refreshReason": "manual match target"
     },
     "31": {
-      "headline": "Brazil Dominates Haiti to Take Control of Group C",
-      "summary": "Brazil secured a decisive 3-0 victory over Haiti at Lincoln Financial Field, vaulting them to the top of the Group C standings. This comprehensive win provides Brazil with 4 points after two matches, while Haiti remains searching for their first point of the tournament.",
+      "headline": "Brazil Cruises Past Haiti in Philadelphia",
+      "summary": "Brazil secured a dominant 3-0 victory over Haiti at Lincoln Financial Field, asserting their authority in Group C. The result provided Brazil with critical momentum as they navigated their second matchday of the tournament.",
       "story": [
-        "The match in Philadelphia saw Brazil assert their authority early and maintain control throughout the 90 minutes. By putting three goals past the Haitian defense without conceding, Brazil significantly bolstered their goal difference, which now sits at +3, placing them ahead of Morocco in the group rankings.",
-        "For Brazil, the result was a necessary response following their opening match draw against Morocco. The victory moves them to 4 points, level with Morocco but currently holding the tie-breaker advantage. This performance provides a much-needed boost in confidence as they look toward their final group stage fixture.",
-        "Haiti, meanwhile, faced a difficult night at Lincoln Financial Field. Having also lost their opening match against Scotland, they remain at the bottom of the group with zero points and a goal difference of -4. Despite the loss, the team will look to regroup for their final match against Morocco.",
-        "The landscape of Group C is now tightly contested heading into the final matchday. Brazil sits atop the table with 4 points, followed closely by Morocco with 4 points, and Scotland with 3 points. With all four teams still mathematically alive or fighting for position, the final round of fixtures will be critical in determining who advances to the next stage."
+        "Brazil delivered a clinical performance in Philadelphia, shutting down Haiti with a 3-0 scoreline that reflected their control throughout the match. By finding the back of the net three times while keeping a clean sheet, they effectively capitalized on the opportunity to bolster their goal difference and standing within the group.",
+        "For Haiti, the match represented a difficult challenge against a powerhouse side. Despite their efforts, they were unable to break through the Brazilian defense, ultimately falling to a result that left them searching for their first points of the tournament as the group stage progressed.",
+        "Following this victory, Brazil continued their strong form through the remainder of the group stage, eventually finishing at the top of Group C with 7 points and a +6 goal difference. Their success in this match was a cornerstone of their path to the Round of 32.",
+        "Haiti concluded their tournament journey after three matches, having faced tough competition in a group that included Brazil, Morocco, and Scotland. This encounter served as a testament to the high stakes and competitive nature of the 2026 tournament."
       ],
       "bullets": [
-        "Brazil moves to the top of Group C with 4 points and a +3 goal difference.",
-        "Haiti remains in fourth place with zero points after two matches.",
-        "The victory sets up a high-stakes final matchday where Brazil will face Scotland."
+        "Brazil secured a comprehensive 3-0 win to keep their unbeaten group stage run intact.",
+        "The victory at Lincoln Financial Field was instrumental in Brazil eventually clinching the top spot in Group C.",
+        "Haiti remained winless in the group, concluding their campaign after three hard-fought matches."
       ],
-      "sections": [
-        {
-          "title": "Group C Outlook",
-          "body": "The group is wide open as we head into the third and final matchday. Brazil and Morocco are currently tied on points, but Brazil's superior goal difference gives them the edge at the top of the table. Scotland remains firmly in the mix with 3 points, ensuring that the final day of group play will be decisive."
-        }
-      ],
-      "updatedAt": "2026-06-24T16:46:03+00:00",
-      "sourceHash": "6505884b700f7d90",
+      "sections": [],
+      "updatedAt": "2026-06-25T17:48:36+00:00",
+      "sourceHash": "fc90dd9c03fa926c",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "30": {
-      "headline": "Morocco Secures Vital Victory Over Scotland",
-      "summary": "Final: Scotland 0, Morocco 1. Morocco defeated Scotland 1-0 in a tightly contested Group C match at Gillette Stadium. The result moves Morocco to four points, level with Brazil at the top of the group standings.",
+      "headline": "Morocco Secures Crucial Victory Over Scotland",
+      "summary": "Final: Scotland 0, Morocco 1. Morocco defeated Scotland 1-0 in a pivotal Group C encounter at Gillette Stadium. This result proved essential in shaping the final group standings, as Morocco ultimately advanced to the knockout stages.",
       "story": [
-        "Morocco claimed a crucial three points in Foxborough, Massachusetts, overcoming Scotland in a defensive battle that significantly tightened the Group C race. The 1-0 victory was a major statement for the Moroccan side, who successfully neutralized the Scottish attack to keep their tournament momentum alive.",
-        "For Scotland, the result was a setback after their opening win against Haiti. Failing to find the back of the net, they now sit on three points, leaving them in a precarious position as they look ahead to their final group stage fixture.",
-        "The win places Morocco in a strong position with four points from two matches, identical to Brazil's record. With both teams now separated only by goal difference, the final matchday in Group C promises to be a high-stakes affair for all involved.",
-        "As the group enters its final round of fixtures, the pressure has shifted to the upcoming decisive matches. Scotland must now prepare for a challenging encounter against Brazil, while Morocco will look to build on this success when they face Haiti."
+        "The match held at Gillette Stadium in Foxborough was a tightly contested affair that saw Morocco edge out Scotland by a single goal. Both teams entered the contest knowing that points in the second matchday were vital for their progression hopes within a competitive Group C.",
+        "For Morocco, the win was a cornerstone of their tournament performance. Following a draw against Brazil in their opening match and a high-scoring victory over Haiti in their final group game, this win against Scotland helped them finish level on points with Brazil at the top of the group table.",
+        "Scotland faced a difficult path after this result. Despite an opening win against Haiti, the loss to Morocco left them vulnerable, and they were unable to recover in their final group fixture against Brazil. Consequently, Scotland finished third in the group with three points.",
+        "The atmosphere in Massachusetts reflected the high stakes of the group stage, with both sides fighting for every possession. Morocco's ability to keep a clean sheet and find the back of the net proved to be the decisive factor in a match that remained balanced until the final whistle.",
+        "Looking forward, this result set the stage for Morocco to continue their campaign into the Round of 32. By finishing as the runner-up in Group C, they earned a spot in the knockout bracket, while the group stage concluded with Brazil and Morocco separating themselves from the rest of the pack."
       ],
       "bullets": [
-        "Morocco moves to four points, tied with Brazil at the top of Group C.",
-        "Scotland remains on three points following their first defeat of the tournament.",
-        "The result leaves the group wide open heading into the final round of matches."
+        "Morocco's 1-0 win was a defining moment that helped propel them to a second-place finish in Group C.",
+        "The result left Scotland with three points, ultimately resulting in their group stage exit.",
+        "The match was held at Gillette Stadium, serving as a key fixture in the Group C schedule."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T07:21:26+00:00",
-      "sourceHash": "05df9a825e20ef39",
+      "updatedAt": "2026-06-25T17:48:49+00:00",
+      "sourceHash": "ccb4f5952d4de01e",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match target"
+      "refreshReason": "source or prompt changed"
     },
     "29": {
       "headline": "United States Secures Top Spot in Group D with Victory Over Australia",
@@ -366,121 +362,107 @@
       "refreshReason": "source or prompt changed"
     },
     "28": {
-      "headline": "Mexico Secures Knockout Spot with Victory Over South Korea",
-      "summary": "Mexico defeated South Korea 1-0 at Estadio Akron to maintain their perfect start in Group A. The result moves Mexico to six points and guarantees their progression to the Round of 32.",
+      "headline": "Mexico Secures Narrow Victory Over South Korea",
+      "summary": "Mexico defeated South Korea 1-0 in a tightly contested Group A matchup at Estadio Akron. This result proved pivotal for Mexico's path through the group stage, ultimately helping them secure the top spot in the standings.",
       "story": [
-        "In a tightly contested Matchday 2 encounter held at Estadio Guadalajara, Mexico edged out South Korea with a narrow 1-0 victory. The win, broadcast on FOX, solidified Mexico's position at the top of Group A and ensured their advancement to the knockout stages with a game to spare.",
-        "The match was defined by defensive resilience as Mexico kept their second clean sheet of the tournament. Having previously defeated South Africa 2-0 in their opener, the Mexican side has now scored three goals while conceding none, showcasing a balanced and disciplined approach to their group campaign.",
-        "For South Korea, the loss leaves them on three points following their opening win against Czechia. Despite the defeat, they remain in contention for the second qualifying spot in the group, with their final match against South Africa set to be a decisive factor in their tournament journey.",
-        "The group standings now paint a clear picture: Mexico leads with six points, followed by South Korea with three. Czechia and South Africa, who drew 1-1 earlier in the day, sit on one point each. The final round of fixtures on June 24 will determine the final group rankings and the remaining path to the Round of 32."
+        "The atmosphere at Estadio Akron in Zapopan was electric as Mexico hosted South Korea for their second match of the group stage. In a defensive battle that remained tense until the final whistle, Mexico managed to break the deadlock and secure a vital 1-0 win.",
+        "The victory was a significant milestone for the Mexican side, building on their momentum from their opening match win against South Africa. By taking all three points against South Korea, they solidified their control over Group A early in the tournament.",
+        "For South Korea, the narrow defeat meant they had to look toward their final group match against South Africa with increased pressure to secure their spot in the knockout rounds. The loss left them fighting for every point in a competitive group.",
+        "Following the conclusion of all group matches, Mexico finished at the top of the table with a perfect record of 9 points, having scored 6 goals and conceded none. Their dominant performance throughout the group phase earned them a place in the Round of 32.",
+        "South Korea ultimately concluded their group campaign with 3 points, finishing third in the standings behind Mexico and South Africa. The group stage concluded with Mexico advancing as the clear leaders, setting the stage for their upcoming knockout round fixture."
       ],
       "bullets": [
-        "Mexico remains undefeated and has secured a spot in the Round of 32 with six points from two matches.",
-        "South Korea sits in second place with three points, needing a result in their final group match to guarantee advancement.",
-        "The 1-0 scoreline marked Mexico's second consecutive clean sheet of the tournament."
-      ],
-      "sections": [
-        {
-          "title": "Group A Outlook",
-          "body": "Mexico has effectively locked up their progression, but the battle for the second spot remains wide open. South Korea will look to rebound against South Africa, while Czechia faces the difficult task of challenging the group leaders in their final match."
-        }
-      ],
-      "updatedAt": "2026-06-24T07:21:30+00:00",
-      "sourceHash": "91ad74bcb0a4ae50",
-      "promptHash": "9d871a4069b0c8c7",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match target"
-    },
-    "27": {
-      "headline": "Canada Dominates Qatar in 6-0 Rout",
-      "summary": "Canada secured a commanding 6-0 victory over Qatar at BC Place in Vancouver, vaulting to the top of Group B. This emphatic result significantly boosts Canada's goal difference and puts them in a strong position heading into the final matchday.",
-      "story": [
-        "Canada delivered a statement performance in front of a home crowd at BC Place, dismantling Qatar with a clinical 6-0 scoreline. The match, which took place on June 18, saw Canada control proceedings from start to finish, effectively neutralizing any threat from the opposition.",
-        "The result represents a massive shift in Group B dynamics. After opening their tournament with a 1-1 draw against Bosnia and Herzegovina, Canada now sits at the top of the table with 4 points. Their goal difference has surged to +6, providing a crucial cushion as they look toward the knockout stages.",
-        "For Qatar, the defeat marks a difficult turning point in their campaign. Having drawn their opening match against Switzerland, they now find themselves at the bottom of the group with only 1 point and a goal difference of -6, leaving them with a steep hill to climb in their final group fixture.",
-        "The implications for the final matchday are clear. Canada is now tied on 4 points with Switzerland, setting up a high-stakes showdown on June 24 to determine the group winner. Meanwhile, Qatar must look to salvage their tournament against Bosnia and Herzegovina, knowing they need a significant result to keep any hopes of advancement alive."
-      ],
-      "bullets": [
-        "Canada moved to the top of Group B with 4 points and a tournament-leading +6 goal difference.",
-        "The 6-0 victory is the largest margin of the group stage so far, providing Canada with a massive tie-breaker advantage.",
-        "Switzerland and Canada are currently level on points, making their upcoming Matchday 3 encounter the decisive battle for the top spot."
+        "Mexico finished the group stage with a perfect 9 points and a goal difference of +6.",
+        "The 1-0 result at Estadio Akron was the deciding factor in Mexico maintaining their defensive dominance throughout the group.",
+        "South Korea finished third in Group A, concluding their tournament run after three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:46:14+00:00",
-      "sourceHash": "c97539d15b72e304",
+      "updatedAt": "2026-06-25T17:49:05+00:00",
+      "sourceHash": "f3ec175f197d74e4",
+      "promptHash": "9d871a4069b0c8c7",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "source or prompt changed"
+    },
+    "27": {
+      "headline": "Canada Dominates Qatar in 6-0 Group B Victory",
+      "summary": "Canada secured a commanding 6-0 win over Qatar at BC Place, marking a high point in their Group B campaign. This decisive result provided a massive boost to Canada's goal difference and solidified their position in the group standings.",
+      "story": [
+        "In a match that showcased clinical offensive efficiency, Canada overwhelmed Qatar with a 6-0 victory in Vancouver. Playing at BC Place, the home side controlled the tempo from the start, leaving Qatar with no defensive answers throughout the 90 minutes.",
+        "The result was a crucial turning point for Canada in Group B. After opening their tournament with a 1-1 draw against Bosnia and Herzegovina, this emphatic win provided the necessary momentum to keep them in contention for the knockout stages.",
+        "For Qatar, the defeat proved difficult to overcome as they struggled to find their footing in the tournament. The lopsided scoreline reflected the disparity in pressure applied by the Canadian attack, which ultimately helped define the group's hierarchy.",
+        "Following this match, Canada went on to conclude their group stage with a 2-1 loss to Switzerland, finishing with 4 points. Despite that final group result, their performance against Qatar ensured they maintained a strong enough goal difference to progress.",
+        "Canada now looks ahead to the Round of 32, where they are scheduled to face South Africa. The team will aim to carry the attacking confidence displayed in this 6-0 victory into the high-stakes environment of the knockout rounds."
+      ],
+      "bullets": [
+        "Canada's 6-0 win significantly bolstered their goal difference, which proved vital for their advancement.",
+        "The match was held at BC Place in Vancouver, providing a strong home-field advantage for Canada.",
+        "This victory served as the centerpiece of Canada's group stage, helping them secure a spot in the Round of 32."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-25T17:49:19+00:00",
+      "sourceHash": "031f1e4b0e685f85",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "26": {
-      "headline": "Switzerland Dominates Bosnia and Herzegovina in Four-Goal Display",
-      "summary": "Switzerland secured a convincing 4-1 victory over Bosnia and Herzegovina at SoFi Stadium, propelling them to the top half of Group B. The result leaves Switzerland level on points with Canada while pushing Bosnia and Herzegovina into a must-win scenario for their final group match.",
+      "headline": "Switzerland Dominates Bosnia and Herzegovina in 4-1 Victory",
+      "summary": "Switzerland secured a decisive 4-1 victory over Bosnia and Herzegovina at SoFi Stadium, marking a pivotal moment in Group B. This result propelled Switzerland toward the top of the group standings, ultimately setting the stage for their successful qualification for the Round of 32.",
       "story": [
-        "Switzerland delivered a clinical performance in Inglewood, California, dismantling Bosnia and Herzegovina 4-1 to claim their first win of the tournament. After opening their campaign with a draw against Qatar, the Swiss side showcased a much sharper attacking edge, effectively controlling the tempo at SoFi Stadium throughout the match.",
-        "For Bosnia and Herzegovina, the loss is a significant setback. Having also drawn their opening match against Canada, they now find themselves with only a single point from two games. The defensive lapses exposed in this fixture leave them with a difficult road ahead as they look to salvage their tournament hopes.",
-        "The victory moves Switzerland to four points, placing them in a strong position alongside Canada at the top of Group B. With a goal difference of +3, Switzerland has solidified their standing, setting the stage for a high-stakes showdown against Canada in the final round of group play.",
-        "As the group stage reaches its conclusion, the pressure is now squarely on Bosnia and Herzegovina. They will need a decisive result against Qatar in their final fixture to have any chance of advancing, while Switzerland prepares to fight for the top spot in the group rankings."
+        "The match held at SoFi Stadium in Inglewood, California, proved to be a turning point for Switzerland in Group B. Entering the fixture after a draw in their opening match, the Swiss side delivered a commanding offensive performance to dismantle Bosnia and Herzegovina with a final score of 4-1.",
+        "This result was instrumental in shaping the group dynamics. By securing three points, Switzerland shifted the pressure onto their opponents and established the momentum needed to navigate the remainder of the group stage. Their clinical finishing and control of the match demonstrated their intent to advance deep into the tournament.",
+        "For Bosnia and Herzegovina, the loss created a difficult path forward, forcing them to rely on their final group match against Qatar to salvage their tournament standing. The defensive lapses exposed during this match proved costly, as Switzerland capitalized on their opportunities throughout the 90 minutes.",
+        "Following this victory, Switzerland went on to finish at the top of Group B with 7 points after a subsequent win against Canada. This strong group performance earned them a spot in the Round of 32, where they are now scheduled to face the best third-place finisher from Groups E, F, G, I, or J."
       ],
       "bullets": [
-        "Switzerland moves to four points, joining Canada at the top of Group B.",
-        "Bosnia and Herzegovina remains on one point, facing a must-win situation in their final group match against Qatar.",
-        "The 4-1 result significantly bolsters Switzerland's goal difference, providing a cushion as they head into the final matchday."
+        "Switzerland\u2019s 4-1 win served as the catalyst for their eventual first-place finish in Group B."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:46:17+00:00",
-      "sourceHash": "cec5ef24562c6f28",
+      "updatedAt": "2026-06-25T17:49:31+00:00",
+      "sourceHash": "9d38f1b8376d9299",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "25": {
-      "headline": "Czechia and South Africa deadlock in Atlanta",
-      "summary": "Czechia and South Africa played to a 1-1 draw at Mercedes-Benz Stadium in their second Group A match. The result leaves both teams with only one point from two matches, significantly increasing the pressure heading into the final round of group play.",
+      "headline": "Czechia and South Africa Battle to Stalemate in Atlanta",
+      "summary": "Czechia and South Africa played to a 1-1 draw in their Group A clash at Mercedes-Benz Stadium. The result left both teams searching for momentum in a tightly contested group stage.",
       "story": [
-        "The match at Mercedes-Benz Stadium in Atlanta ended in a 1-1 stalemate, a result that leaves both Czechia and South Africa in a precarious position within Group A. Neither side could find the decisive goal needed to secure their first victory of the tournament, forcing them to share the points in a tightly contested affair.",
-        "For both squads, the draw represents a missed opportunity to climb the table. Having both lost their opening matches, Czechia and South Africa entered this fixture desperate for a win to keep their knockout stage ambitions firmly in their own hands. Instead, they remain deadlocked at the bottom of the group with one point apiece.",
-        "The current group standings reflect the difficulty of their situation. Mexico currently leads the group with six points, followed by South Korea with three. With only one match remaining for each team, both Czechia and South Africa now face a steep climb to overtake the current leaders.",
-        "Looking ahead to the final matchday, the stakes could not be higher. Czechia is set to face Mexico, while South Africa will square off against South Korea. Both teams will need to secure a win in their final group fixture to have any hope of progressing, while simultaneously relying on other results to fall in their favor."
+        "For South Africa, the point proved to be a vital stepping stone in their tournament journey. Following their initial defeat to Mexico, this result helped stabilize their campaign and kept their hopes of progression alive as they headed into their final group stage fixture.",
+        "Czechia, meanwhile, found themselves in a difficult position after the draw. Despite a spirited effort to secure a point, the result left them with significant work to do in their final match against Mexico to avoid an early exit from the tournament.",
+        "The draw ultimately contributed to a congested table in Group A, where every point became increasingly valuable. As the group stage concluded, South Africa managed to secure second place with four points, while Czechia finished at the bottom of the group with one point.",
+        "This match underscored the fine margins present in the group stage, where a single draw can drastically alter the trajectory of a team's tournament. South Africa's ability to grind out results eventually paved their way to the knockout stages, while Czechia's campaign came to a close following their final group match."
       ],
       "bullets": [
-        "Both Czechia and South Africa remain winless after two matches, each holding a single point.",
-        "The draw leaves both teams trailing Mexico and South Korea in the Group A standings.",
-        "The final group matches on June 24th will be decisive for both nations' survival in the tournament."
+        "The 1-1 draw in Atlanta was a critical turning point for South Africa, providing the foundation for their eventual second-place finish in Group A.",
+        "For Czechia, the single point earned in this match was not enough to overcome the challenges faced in their other group fixtures, resulting in a fourth-place finish.",
+        "The result kept the group standings tight heading into the final matchday, emphasizing the high stakes of every fixture in the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:46:21+00:00",
-      "sourceHash": "3f8e53886af026e8",
+      "updatedAt": "2026-06-25T17:49:45+00:00",
+      "sourceHash": "576c5c2f2286ea57",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "45": {
-      "headline": "Portugal Dominates Uzbekistan in Houston Rout",
-      "summary": "Portugal secured a commanding 5-0 victory over Uzbekistan at NRG Stadium, significantly boosting their goal difference in Group K. This result places Portugal at the top of the group standings with four points after two matches.",
+      "headline": "Portugal Dominates Uzbekistan in Five-Goal Houston Showcase",
+      "summary": "Portugal secured a commanding 5-0 victory over Uzbekistan at NRG Stadium, significantly boosting their goal difference in Group K. This emphatic result puts Portugal on four points after two matches, keeping them firmly in the hunt for a top spot. Uzbekistan remains without a point as they head into their final group fixture.",
       "story": [
-        "Portugal delivered a clinical performance in Houston, dismantling Uzbekistan to claim their first win of the tournament. After a frustrating draw in their opening match against DR Congo, the Portuguese side showed no mercy, finding the back of the net five times to secure a vital three points.",
-        "The 5-0 scoreline reflects a lopsided affair that leaves Uzbekistan struggling at the bottom of the group. With two losses in as many games and a goal difference of -7, Uzbekistan faces an uphill battle to remain in contention as the group stage enters its final round.",
-        "For Portugal, the win is a massive statement of intent. By accumulating four points and a +5 goal difference, they have put themselves in a strong position to advance. Their focus now shifts to the final group stage match against Colombia, a fixture that will likely determine the top spot in Group K.",
-        "The match at NRG Stadium underscored the gap in quality between the two sides on the day. Portugal controlled the tempo and capitalized on their opportunities, ensuring that their path to the knockout rounds remains firmly in their own hands.",
-        "As the group stage draws to a close, the pressure mounts for all teams involved. While Portugal looks ahead to their high-stakes encounter with Colombia, Uzbekistan will hope to find a consolation result in their final match against DR Congo."
+        "Portugal delivered a clinical performance in Houston, dismantling Uzbekistan 5-0 to assert their authority in Group K. After a frustrating draw against DR Congo in their opening match, Portugal responded with a relentless attacking display that left little room for their opponents to maneuver.",
+        "The result serves as a massive statement for Portugal, moving them to four points and a +5 goal difference. This efficiency in front of goal could prove vital as the group stage reaches its conclusion, providing them with a strong cushion heading into their final match.",
+        "For Uzbekistan, the match was a difficult challenge that leaves them at the bottom of the group with zero points. Having conceded eight goals across their first two fixtures, they face a steep climb to regain momentum in their final match against DR Congo.",
+        "With Colombia currently leading the group on six points, the landscape for the final matchday is clear. Portugal will look to carry the confidence from this 5-0 win into their decisive clash against Colombia, where the top spot in Group K will likely be determined.",
+        "The atmosphere at NRG Stadium provided the perfect backdrop for Portugal's resurgence. By securing such a comprehensive margin of victory, they have successfully shifted the pressure onto their group rivals and solidified their position as a serious contender for the knockout stages."
       ],
       "bullets": [
-        "Portugal moved to the top of Group K with 4 points and a +5 goal difference.",
-        "Uzbekistan remains winless after two matches, conceding 8 goals total.",
-        "The decisive victory provides Portugal with a significant cushion heading into their final group match against Colombia."
+        "Portugal's 5-0 win significantly improved their goal difference to +5, a key metric for potential tie-breakers.",
+        "Uzbekistan remains at the bottom of Group K with zero points and a -7 goal difference after two matches.",
+        "Portugal now sits on four points, setting up a high-stakes showdown against group leaders Colombia on June 27."
       ],
-      "sections": [
-        {
-          "title": "Group K Context",
-          "body": "Portugal now leads the group with 4 points, followed by Colombia with 3 points and DR Congo with 1 point. Uzbekistan sits at the bottom with 0 points, having played two games."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "Portugal will face Colombia on June 27 in a match that will be critical for final group positioning. Simultaneously, Uzbekistan will look to finish their campaign on a positive note against DR Congo."
-        }
-      ],
-      "updatedAt": "2026-06-24T07:16:15+00:00",
-      "sourceHash": "264489bc0265fbc0",
+      "sections": [],
+      "updatedAt": "2026-06-25T17:48:23+00:00",
+      "sourceHash": "d7ce75fc01a82b1d",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -528,153 +510,152 @@
       "refreshReason": "manual match target"
     },
     "48": {
-      "headline": "Colombia and DR Congo Clash in Group K Pivotal Matchup",
-      "summary": "Colombia faces DR Congo at Estadio Akron in a critical Group K fixture. Following a strong opening win, Colombia aims to solidify its position, while DR Congo seeks its first victory after a draw in their tournament opener.",
+      "headline": "Colombia Secures Knockout Spot with Narrow Win Over DR Congo",
+      "summary": "Colombia defeated DR Congo 1-0 at Estadio Akron to maintain their perfect record in Group K. With this result, Colombia sits atop the group standings with six points, while DR Congo remains in a difficult position with only one point from two matches.",
       "story": [
-        "Colombia enters this match with momentum after securing a convincing 3-1 victory over Uzbekistan in their opening fixture. That result placed them in a strong position within Group K, and they will look to build on that attacking performance to potentially move to the top of the standings.",
-        "DR Congo arrives at Estadio Guadalajara looking to improve upon their initial 1-1 draw against Portugal. While they proved they could hold their own against a top contender, they now face the challenge of breaking down a confident Colombian side in what promises to be a high-stakes encounter.",
-        "The group dynamics have shifted following Portugal's recent 5-0 win over Uzbekistan, which has put pressure on both Colombia and DR Congo to secure points. With the group stage reaching its midway point, every result becomes increasingly vital for qualification prospects.",
-        "The match is scheduled for 22:00 ET and will be broadcast on FS1. Both teams understand that a win here would significantly bolster their chances of advancing to the next round, setting the stage for a competitive battle in Zapopan."
+        "In a tightly contested Matchday 2 fixture held at Estadio Guadalajara, Colombia managed to edge past DR Congo with a solitary goal. The 1-0 victory was vital for the South American side, as it ensured they reached the six-point mark and solidified their status as the current leaders of Group K.",
+        "For DR Congo, the result was a significant setback following their opening draw against Portugal. Despite a resilient defensive effort, they were unable to find an equalizer, leaving them with just one point and a negative goal difference heading into the final round of group stage fixtures.",
+        "The group dynamics have become increasingly clear following this match. Colombia now heads into their final group game against Portugal with the confidence of a team that has already navigated two difficult tests, having previously defeated Uzbekistan 3-1 in their tournament opener.",
+        "The pressure now shifts entirely to the final matchday. While Colombia looks to finish the group phase on a high note, DR Congo faces a must-win scenario against Uzbekistan to keep their tournament hopes alive, with their fate now partially dependent on the outcome of the other group fixture."
       ],
       "bullets": [
-        "Colombia currently holds 3 points from one match, while DR Congo has 1 point from their opening draw.",
-        "The match takes place at Estadio Akron, providing a neutral but energetic venue for this Group K showdown.",
-        "With Portugal currently leading the group, the outcome of this match is essential for determining the hierarchy heading into the final round of fixtures."
+        "Colombia leads Group K with 6 points and a +3 goal difference after two matches.",
+        "DR Congo sits in third place with 1 point, trailing Portugal by 3 points.",
+        "The 1-0 victory at Estadio Akron marks Colombia's second consecutive win of the tournament."
       ],
-      "sections": [
-        {
-          "title": "Group K Context",
-          "body": "Group K is currently led by Portugal, who have played two matches. Colombia and DR Congo are looking to keep pace, with both teams aiming to secure a result that puts them in a favorable position before the final group stage games on June 27."
-        }
-      ],
-      "updatedAt": "2026-06-24T07:15:53+00:00",
-      "sourceHash": "43158f038d8d6904",
+      "sections": [],
+      "updatedAt": "2026-06-25T17:48:07+00:00",
+      "sourceHash": "4abccfb5c6047092",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "49": {
-      "headline": "Group B Showdown: Switzerland and Canada Clash for Top Spot",
-      "summary": "Switzerland and Canada square off in a high-stakes Matchday 3 encounter at BC Place, with both teams currently tied on four points at the top of Group B. The winner of this match will secure the top spot in the group, while a draw could leave the door open for goal difference to determine the final standings.",
+      "headline": "Switzerland Secures Top Spot in Group B",
+      "summary": "Switzerland defeated Canada 2-1 at BC Place, clinching first place in Group B with seven points. The result leaves Canada in second place, as both teams advance to the knockout stages.",
       "story": [
-        "The stage is set in Vancouver as Switzerland and Canada meet in a pivotal final group match. Both sides have navigated their first two fixtures with identical records of one win and one draw, positioning this game as the definitive battle for supremacy in Group B.",
-        "Canada arrives at this match with significant momentum after a dominant 6-0 victory over Qatar in their second outing. That emphatic result, combined with their opening draw against Bosnia and Herzegovina, has given them a superior goal difference of +6, placing them narrowly ahead of Switzerland in the current standings.",
-        "Switzerland has been equally resilient, recovering from an opening 1-1 draw against Qatar to secure a convincing 4-1 win over Bosnia and Herzegovina. With four points and a goal difference of +3, the Swiss know that only a victory will allow them to overtake Canada and claim the top position in the group.",
-        "The atmosphere at BC Place promises to be electric as these two teams fight for a favorable path into the knockout stages. With both squads showing offensive potency in their previous matches, this encounter is expected to be a tactical chess match where every goal could prove decisive for the final group hierarchy."
+        "In a decisive Matchday 3 encounter at BC Place in Vancouver, Switzerland edged out Canada 2-1 to solidify their standing at the top of Group B. The victory allowed the Swiss to finish their group campaign undefeated, accumulating seven points from their three matches.",
+        "For Canada, the loss marked their first defeat of the tournament, following a draw against Bosnia and Herzegovina and a commanding 6-0 win over Qatar. Despite the setback, Canada finished the group stage with four points, securing their path to the Round of 32.",
+        "The final group standings reflect a tight battle for positions. Switzerland finished at the summit with a +4 goal difference, while Canada held onto second place despite the loss, thanks to a superior goal difference compared to Bosnia and Herzegovina, who also finished on four points.",
+        "Looking ahead, Switzerland now advances to the Round of 32, where they are scheduled to play on July 2 at 23:00 ET against the best third-place finisher from Groups E, F, G, I, or J. Canada will move on to face the runner-up of Group A on June 28 at 15:00 ET."
       ],
       "bullets": [
-        "Both teams enter the match tied on 4 points, making this a direct battle for the top spot in Group B.",
-        "Canada holds the current advantage in the group standings due to a superior goal difference of +6 compared to Switzerland's +3.",
-        "The match will take place at BC Place in Vancouver, with kickoff scheduled for 15:00 ET on June 24."
+        "Switzerland finishes Group B in first place with 7 points.",
+        "Canada secures second place in the group with 4 points.",
+        "Both teams advance to the knockout stages of the 2026 tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:48:48+00:00",
-      "sourceHash": "36761b4a2dfca6fe",
+      "updatedAt": "2026-06-25T17:47:42+00:00",
+      "sourceHash": "1eff7f305e86c072",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "live or in-progress match"
+      "refreshReason": "source or prompt changed"
     },
     "50": {
-      "headline": "Group B Finale: Bosnia and Herzegovina vs. Qatar",
-      "summary": "Bosnia and Herzegovina and Qatar meet at Lumen Field in Seattle for their final Group B fixture. Both teams enter the match with one point, needing a victory to keep their tournament hopes alive while simultaneously relying on the result between Switzerland and Canada.",
+      "headline": "Bosnia and Herzegovina Concludes Group Stage with 3-1 Victory Over Qatar",
+      "summary": "Bosnia and Herzegovina secured a 3-1 win against Qatar in their final Group B match at Lumen Field in Seattle. This result brought Bosnia and Herzegovina to four points in the group standings, though they ultimately finished behind Canada on goal difference.",
       "story": [
-        "As the group stage reaches its conclusion, the stakes could not be higher for Bosnia and Herzegovina and Qatar. Currently sitting at one point apiece, both nations find themselves at the bottom of Group B, trailing leaders Canada and second-placed Switzerland, who both hold four points.",
-        "Bosnia and Herzegovina opened their campaign with a hard-fought 1-1 draw against Canada, but they struggled in their second outing, falling 4-1 to Switzerland. They will look to regain their defensive composure and find the offensive spark that was largely absent in their previous match.",
-        "Qatar faces a challenging path forward after a difficult 6-0 defeat to Canada in their second match, following an encouraging 1-1 draw against Switzerland to open the tournament. They will be eager to bounce back and prove their resilience on the world stage in this final group appearance.",
-        "The match at Seattle Stadium serves as a critical opportunity for both sides to finish their group campaign on a high note. With the group still mathematically open, a win is the only path forward to potentially challenge for a spot in the knockout stages, making this a must-watch encounter for Group B standings."
+        "In a match held at Seattle Stadium on June 24, 2026, Bosnia and Herzegovina asserted control to earn a 3-1 victory over Qatar. The win marked a positive conclusion to their group stage campaign, providing a final boost to their tournament tally.",
+        "For Qatar, the match served as the end of a challenging group stage journey. Despite their efforts throughout the three matches, they finished at the bottom of Group B with one point earned from their opening draw against Switzerland.",
+        "The group dynamics were highly competitive, with Switzerland topping the table with seven points. Canada and Bosnia and Herzegovina both finished with four points, but Canada's superior goal difference of +5 compared to Bosnia and Herzegovina's -1 secured them the second position in the group."
       ],
       "bullets": [
-        "Both teams currently hold one point in Group B and require a win to maintain any hope of advancing.",
-        "The match takes place at Lumen Field in Seattle, with kickoff scheduled for 15:00 ET on FS1.",
-        "Canada and Switzerland currently lead the group with four points each, putting significant pressure on the outcome of this fixture."
+        "Bosnia and Herzegovina finished the group stage with 4 points and a -1 goal difference.",
+        "Qatar concluded their campaign with 1 point from their three group matches.",
+        "Canada secured the second spot in Group B over Bosnia and Herzegovina via goal difference."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:48:51+00:00",
-      "sourceHash": "5613f5ea9f5b36d5",
+      "updatedAt": "2026-06-25T17:47:54+00:00",
+      "sourceHash": "58714cad70559da2",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "live or in-progress match"
+      "refreshReason": "source or prompt changed"
     },
     "51": {
-      "headline": "Morocco Eyes Knockout Spot Against Haiti",
-      "summary": "Morocco enters their final Group C match in a strong position to advance, sitting level on points with Brazil. Meanwhile, Haiti looks to secure their first points of the tournament in this Matchday 3 showdown at Mercedes-Benz Stadium in Atlanta.",
+      "headline": "Morocco Advances After High-Scoring Win Over Haiti",
+      "summary": "Morocco defeated Haiti 4-2 in their final Group C match at Mercedes-Benz Stadium in Atlanta. The victory secured Morocco's place in the Round of 32, finishing the group stage with seven points.",
       "story": [
-        "Morocco has been one of the most disciplined sides in Group C, opening their campaign with a hard-fought 1-1 draw against Brazil before grinding out a crucial 1-0 victory over Scotland. With four points from two matches, they currently occupy second place in the group, trailing Brazil only on goal difference. A win or potentially even a draw could be enough to see them through to the knockout stages, depending on the outcome of the simultaneous match between Scotland and Brazil.",
-        "Haiti has faced a challenging path in this tournament, suffering defeats to both Scotland and Brazil. Despite being unable to find the back of the net in their first two outings, they arrive in Atlanta looking to play the role of spoiler and end their group stage run on a high note. While they have been eliminated from contention for the next round, they remain a motivated side aiming to test a Moroccan defense that has conceded only once so far.",
-        "The tactical stakes are clear for Morocco as they look to control the tempo of the game at Mercedes-Benz Stadium. They will need to avoid the complacency that can sometimes strike when facing a team already out of the running. For Haiti, the focus will be on tightening their defensive structure after conceding three goals in their last outing, while seeking that elusive first goal of the tournament to reward their supporters.",
-        "This match, scheduled for June 24 at 18:00 ET, will be broadcast on FS1. With the group standings so tight at the top, every goal and point will be vital as Morocco attempts to secure their path to the next phase of the competition."
+        "In a lively encounter at Mercedes-Benz Stadium, Morocco solidified their position in the tournament with a 4-2 victory over Haiti. The result marked the end of the group stage for both sides, with Morocco finishing level on points with group winners Brazil, though trailing on goal difference.",
+        "Morocco entered the match with momentum following a hard-fought 1-0 win over Scotland in their previous outing. Their offensive output against Haiti proved decisive, as they managed to find the back of the net four times to ensure they would move on to the knockout stages.",
+        "For Haiti, the match concluded a challenging group campaign. Despite the defeat, they managed to score twice, their highest output of the tournament, though they ultimately finished at the bottom of Group C without a point.",
+        "With the group stage concluded, Morocco now looks ahead to the Round of 32. They are scheduled to face the winner of Group F on June 29, carrying the confidence of an unbeaten group stage performance into the knockout rounds."
       ],
       "bullets": [
-        "Morocco is currently tied for first place in Group C with 4 points and a +1 goal differential.",
-        "Haiti is looking for their first goal and first points of the 2026 World Cup campaign.",
-        "The match takes place at Mercedes-Benz Stadium in Atlanta, with kickoff set for 18:00 ET on FS1."
+        "Morocco finished second in Group C with 7 points, identical to Brazil but with a lower goal difference.",
+        "The 4-2 scoreline was the highest-scoring match for both teams during the group stage.",
+        "Morocco remains undefeated in the tournament and will advance to play the winner of Group F on June 29."
       ],
-      "sections": [],
-      "updatedAt": "2026-06-24T07:16:19+00:00",
-      "sourceHash": "46683d38ecc0f7dc",
+      "sections": [
+        {
+          "title": "Group C Final Standings",
+          "body": "Brazil finished at the top of the group with 7 points and a +6 goal difference, while Morocco also finished with 7 points and a +3 goal difference. Scotland secured third place with 3 points, leaving Haiti at the bottom of the table."
+        }
+      ],
+      "updatedAt": "2026-06-25T17:47:12+00:00",
+      "sourceHash": "a69a9d1a11b0cec4",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "52": {
-      "headline": "Scotland and Brazil Set for High-Stakes Group C Finale",
-      "summary": "Scotland and Brazil face off in a critical Matchday 3 encounter at Hard Rock Stadium in Miami Gardens. With Brazil currently leading the group on 4 points and Scotland sitting on 3, this match will determine who advances to the knockout stages.",
+      "headline": "Brazil Dominates Scotland to Clinch Group C Top Spot",
+      "summary": "Final: Scotland 0, Brazil 3. Brazil secured a convincing 3-0 victory over Scotland at Hard Rock Stadium to finish at the summit of Group C. The result confirmed Brazil's progression to the Round of 32 as group winners, while Scotland concluded their tournament campaign with three points.",
       "story": [
-        "The stakes could not be higher for Scotland as they prepare to take on Brazil in their final group stage match. After opening their tournament with a hard-fought 1-0 victory over Haiti, Scotland suffered a narrow 0-1 defeat to Morocco in their second outing. That result leaves them with 3 points, making a positive result against the group leaders essential to keep their tournament hopes alive.",
-        "Brazil enters this match in a strong position, currently sitting at the top of Group C with 4 points. Following an opening 1-1 draw against Morocco, the team demonstrated their offensive capabilities with a dominant 3-0 victory over Haiti in their second match. With a goal difference of +3, they are currently in the driver's seat to secure a spot in the next round.",
-        "The group dynamics add immense pressure to this fixture. With Morocco also sitting on 4 points and facing Haiti simultaneously, the final standings remain wide open. Scotland knows that a win would vault them to 6 points, likely securing their progression, while a draw might leave them vulnerable to other results in the group.",
-        "Hard Rock Stadium in Miami Gardens will serve as the venue for this pivotal showdown on June 24th at 18:00 ET. As the teams take the pitch, the tactical battle will be defined by Scotland's need to find a breakthrough against a Brazilian side that has been difficult to break down while remaining clinical in front of goal."
+        "Brazil asserted their authority in Miami Gardens, delivering a clinical 3-0 performance against Scotland that left little doubt about their status as group leaders. By maintaining their unbeaten run, Brazil finished their group stage campaign with seven points, edging out Morocco on goal difference to secure the top position in Group C.",
+        "For Scotland, the match marked a difficult end to their tournament journey. Despite an opening win against Haiti, back-to-back losses to Morocco and Brazil left them with three points, ultimately resulting in a third-place finish in the group. The Scottish side struggled to find their attacking rhythm throughout the competition, scoring only one goal across their three matches.",
+        "The match at Hard Rock Stadium served as a statement of intent from the Brazilians, who showcased their depth and attacking efficiency. With a +6 goal difference, Brazil demonstrated why they are considered a formidable force heading into the knockout rounds. They now look ahead to their next challenge, a Round of 32 clash scheduled for June 29 against the runner-up of Group F.",
+        "As the dust settles on Group C, the final standings reflect a highly competitive bracket. While Brazil and Morocco both finished on seven points, Brazil's superior goal difference proved decisive. Scotland and Haiti exit the tournament, leaving the path clear for the group's top two finishers to carry the momentum into the knockout stages."
       ],
       "bullets": [
-        "Brazil leads the group with 4 points, while Scotland sits in third place with 3 points.",
-        "A win for Scotland would guarantee them a strong chance of advancing, whereas Brazil only needs to maintain their current form to secure their place in the knockout stages.",
-        "The match is scheduled for June 24th at 18:00 ET at Hard Rock Stadium in Miami Gardens."
+        "Brazil finished atop Group C with 7 points and a +6 goal difference, securing their place in the Round of 32.",
+        "Scotland finished their campaign in third place with 3 points, having scored 1 goal and conceded 4.",
+        "Brazil will face the runner-up of Group F in the Round of 32 on June 29."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T07:16:26+00:00",
-      "sourceHash": "5a1536fc41bbe416",
+      "updatedAt": "2026-06-25T17:47:24+00:00",
+      "sourceHash": "58ee059fdecf6841",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "53": {
-      "headline": "South Africa and South Korea Face Critical Group A Finale",
-      "summary": "South Africa and South Korea meet at Estadio BBVA in Guadalupe for a pivotal Matchday 3 showdown. With Mexico leading the group, both teams are fighting to secure their path to the knockout stages.",
+      "headline": "South Africa Secures Crucial Win Over South Korea",
+      "summary": "South Africa defeated South Korea 1-0 in a decisive Matchday 3 encounter at Estadio BBVA. The result proved vital for South Africa, who finished second in Group A to advance to the knockout stages.",
       "story": [
-        "The stakes are clear for South Africa as they enter this final group fixture at Estadio BBVA. After earning a hard-fought draw against Czechia following their opening loss to Mexico, South Africa sits on one point and must secure a victory to keep their tournament hopes alive.",
-        "South Korea arrives at this match with three points, currently occupying second place in Group A. Despite a narrow defeat to Mexico in their last outing, they remain in a strong position to advance if they can navigate this final test against a desperate South African side.",
-        "The group dynamics add significant pressure to this encounter, as Mexico has already established a firm grip on the top spot. With Czechia also sitting on one point, the final round of fixtures will determine which nations join Mexico in the next stage or head home early.",
-        "Fans can catch this high-stakes clash on FS1 as both teams look to make a statement in Monterrey. The outcome of this match, combined with the result of the simultaneous fixture between Czechia and Mexico, will finalize the standings in Group A."
+        "In a tense showdown at Estadio BBVA in Guadalupe, South Africa claimed a narrow 1-0 victory over South Korea. The match, which served as the final group stage hurdle for both nations, carried significant weight as both teams vied for a path into the next round of the tournament.",
+        "The 1-0 scoreline was enough to propel South Africa to four points in Group A, securing them the second-place spot behind group winners Mexico. For South Korea, the loss left them on three points, ultimately ending their campaign as they finished third in the group standings.",
+        "South Africa's progression is a testament to their resilience across the group stage. After opening with a loss to Mexico and grinding out a 1-1 draw against Czechia, this victory provided the necessary momentum to keep their tournament dreams alive.",
+        "With the group stage concluded, South Africa now shifts their focus to the Round of 32. They are scheduled to face Canada on June 28, looking to build on the defensive discipline and clinical edge they displayed in this victory over South Korea."
       ],
       "bullets": [
-        "South Korea currently holds second place in Group A with three points, while South Africa sits at the bottom with one point.",
-        "A win is essential for South Africa to have any chance of progression, while South Korea aims to solidify their standing in the top two.",
-        "The match takes place at Estadio BBVA in Guadalupe, with kickoff set for 21:00 ET."
+        "South Africa finished second in Group A with 4 points, securing a spot in the Round of 32.",
+        "South Korea concluded their tournament run in third place with 3 points.",
+        "The match was held at Estadio BBVA in Guadalupe, Mexico."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T07:16:29+00:00",
-      "sourceHash": "b64764aac28922c6",
+      "updatedAt": "2026-06-25T17:46:47+00:00",
+      "sourceHash": "562fc62ab96e3eca",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "54": {
-      "headline": "Mexico Looks to Secure Top Spot Against Czechia",
-      "summary": "Mexico enters the final matchday of Group A with a perfect record and a firm grip on the top position. They face a Czechia side that is fighting for survival and needs a result to keep their tournament hopes alive.",
+      "headline": "Mexico Sweeps Group A with Dominant Victory Over Czechia",
+      "summary": "Final: Czechia 0, Mexico 3. Mexico defeated Czechia 3-0 at Estadio Azteca to secure a perfect group stage campaign. With this result, Mexico finished atop Group A with nine points, while Czechia concluded their tournament run at the bottom of the table.",
       "story": [
-        "Mexico has been the class of Group A so far, securing two clean-sheet victories against South Africa and South Korea. With six points from their opening two matches, they have already guaranteed their progression to the Round of 32, where they are confirmed to play as the winner of Group A.",
-        "For Czechia, the situation is much more precarious. With only one point from their first two matches\u2014a loss to South Korea and a draw with South Africa\u2014they find themselves third in the group. They must secure a win against Mexico at Estadio Azteca to have any realistic chance of climbing into the top two and advancing.",
-        "The atmosphere at the iconic Estadio Azteca in Mexico City will be electric as the host nation looks to maintain their momentum. Mexico\u2019s defense has been impenetrable, having conceded zero goals thus far, a trend they will look to continue against a Czechia attack that has struggled to find consistency.",
-        "While Mexico has already punched their ticket to the next round, this match remains critical for the group dynamics. A win or draw for Mexico ensures they finish their group campaign undefeated, while Czechia will be throwing everything forward in a desperate bid to extend their stay in the tournament."
+        "In front of a home crowd at Estadio Azteca, Mexico delivered a commanding performance to close out their group stage fixtures. The 3-0 victory over Czechia served as a statement of intent, cementing Mexico's status as the dominant force in Group A.",
+        "The match saw Mexico maintain their defensive perfection throughout the group stage, finishing their three matches without conceding a single goal while scoring six. For Czechia, the loss marked the end of a challenging campaign in which they struggled to find consistency, ultimately finishing with one point from their draw against South Africa.",
+        "By securing all nine available points, Mexico has firmly established their momentum heading into the knockout rounds. Their path forward is now set, with a Round of 32 match scheduled for June 30th against the best third-place finisher from Group C, E, F, H, or I.",
+        "The final group standings reflect the gulf in form between the two sides. While Mexico moves forward with confidence and a clean defensive record, Czechia exits the tournament reflecting on a group stage where they were unable to secure a victory in three attempts."
       ],
       "bullets": [
-        "Mexico has secured 6 points and a +3 goal difference, guaranteeing them the top spot in Group A.",
-        "Czechia sits in third place with 1 point and must win to challenge South Korea for the second qualification spot.",
-        "The match will be held at the historic Estadio Azteca in Mexico City, with kickoff set for 21:00 ET on FOX."
+        "Mexico finished Group A with a perfect 3-0-0 record, scoring six goals and conceding zero.",
+        "Czechia finished at the bottom of Group A with one point and a -4 goal difference.",
+        "Mexico advances to the Round of 32, with their next match scheduled for June 30 at 21:00 ET."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T07:16:34+00:00",
-      "sourceHash": "2402cd7b5137933e",
+      "updatedAt": "2026-06-25T17:46:59+00:00",
+      "sourceHash": "fb8cdbca79c9a546",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1092,25 +1073,23 @@
     },
     "24": {
       "headline": "Colombia Secures Vital Opening Win Over Uzbekistan",
-      "summary": "Final: Uzbekistan 1, Colombia 3. Colombia opened their Group K campaign with a decisive 3-1 victory over Uzbekistan at Estadio Azteca. This result immediately positioned Colombia as a strong contender in the group while leaving Uzbekistan facing significant pressure early in the tournament.",
+      "summary": "Final: Uzbekistan 1, Colombia 3. Colombia defeated Uzbekistan 3-1 in their Group K opening match at Estadio Azteca. This result provided Colombia with a crucial early advantage in the standings, setting the tone for their campaign.",
       "story": [
-        "The match at Mexico City's iconic Estadio Azteca saw Colombia assert their dominance early, effectively dismantling the Uzbekistan defense to walk away with all three points. By scoring three goals, Colombia demonstrated the attacking intent necessary to navigate a competitive group stage.",
-        "For Uzbekistan, the 3-1 defeat marked a difficult start to their World Cup journey. The loss placed them on the back foot immediately, a situation that only intensified following their subsequent 5-0 defeat to Portugal in the second matchday.",
-        "The result significantly altered the landscape of Group K. While Colombia emerged from the match with three points, the group remains tight, especially following the draw between Portugal and DR Congo on the same day. This victory provided Colombia with a crucial cushion as they look toward their remaining fixtures.",
-        "Looking ahead, the implications of this match are clear. Colombia now holds a favorable position in the standings, while Uzbekistan finds themselves at the bottom of the table with a daunting goal difference. Uzbekistan will need a massive turnaround in their final group match against DR Congo to salvage any hope of progression.",
-        "Colombia's performance in this opener served as a statement of intent. With momentum on their side, they now prepare for critical matchups against DR Congo and Portugal to determine their ultimate standing in the group."
+        "In a match held at the iconic Estadio Azteca in Mexico City, Colombia demonstrated their quality by overcoming Uzbekistan with a 3-1 victory. The win was a statement of intent for the Colombian side, who utilized the opening matchday to claim all three points and establish themselves as a force within Group K.",
+        "For Uzbekistan, the match proved to be a difficult start to their tournament journey. Despite finding the back of the net, they were unable to contain the Colombian attack, ultimately falling by a two-goal margin that left them chasing points in their subsequent fixtures.",
+        "The implications of this result were significant for the group dynamic. By securing the win, Colombia immediately separated themselves from the pack, putting pressure on both Portugal and DR Congo to keep pace throughout the remainder of the group stage.",
+        "Following this match, Colombia continued their momentum, eventually rising to the top of the group standings with 6 points from their first two matches. Uzbekistan, meanwhile, faced a challenging path forward as they looked to recover from this initial defeat."
       ],
       "bullets": [
-        "Colombia claimed a vital 3-1 victory, taking full control of their opening matchday performance.",
-        "The result left Uzbekistan at the bottom of Group K with a difficult path forward after two consecutive losses.",
-        "Estadio Azteca hosted the encounter, which proved to be a pivotal moment in shaping the early Group K standings."
+        "Colombia's 3-1 victory at Estadio Azteca provided the foundation for their current lead in Group K.",
+        "The result placed immediate pressure on the other teams in the group, including Portugal and DR Congo."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T07:21:36+00:00",
-      "sourceHash": "0fd51adab8fec755",
+      "updatedAt": "2026-06-25T17:49:58+00:00",
+      "sourceHash": "adb789b9000990a5",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match target"
+      "refreshReason": "source or prompt changed"
     },
     "23": {
       "headline": "Ghana Edges Past Panama in Group L Opener",
@@ -1154,21 +1133,27 @@
       "refreshReason": "source or prompt changed"
     },
     "21": {
-      "headline": "Portugal and DR Congo battle to a stalemate in Houston",
-      "summary": "Portugal and DR Congo played to a 1-1 draw in their Group K opener at NRG Stadium. The result forced both sides to look toward their remaining group fixtures to secure a path to the knockout stages.",
+      "headline": "Portugal and DR Congo Battle to a Stalemate in Group K Opener",
+      "summary": "Portugal and DR Congo played to a 1-1 draw in their Group K opening match at NRG Stadium in Houston. This result set the tone for a competitive group stage, leaving both sides with work to do as the tournament progressed.",
       "story": [
-        "The opening match of Group K at NRG Stadium in Houston saw Portugal and DR Congo share the points in a hard-fought 1-1 draw. Both teams entered the tournament with high aspirations, and the result reflected a closely contested tactical battle where neither side could find a decisive edge.",
-        "For Portugal, the draw served as an early test of their resilience. While they were unable to secure all three points in this initial outing, the squad responded emphatically in their second match by defeating Uzbekistan 5-0. This dominant performance significantly bolstered their goal difference and put them in a strong position atop the group standings with four points from two matches.",
-        "As the group stage progresses, the implications of this opening-day result have become clearer. Portugal currently leads the group, but with Colombia and DR Congo still to play their second match, the table remains dynamic. The path forward for these teams will be determined by their upcoming performances, particularly as they look to navigate the pressure of the final matchday."
+        "The match at NRG Stadium saw Portugal and DR Congo share the points in a tightly contested 1-1 draw. As the opening fixture for both teams in Group K, the result immediately established a sense of urgency for the matches that followed.",
+        "Following this draw, the group dynamics shifted significantly. Portugal eventually found their stride in their second match with a dominant 5-0 victory over Uzbekistan, while DR Congo faced a narrow 1-0 defeat against Colombia.",
+        "Heading into the final round of group fixtures, the standings reflect a clear hierarchy. Colombia currently leads the group with 6 points, followed closely by Portugal with 4 points. DR Congo sits in third place with 1 point, while Uzbekistan remains at the bottom of the table.",
+        "The implications for the final matchday are substantial. With Colombia and Portugal set to face off, and DR Congo needing a win against Uzbekistan to keep their hopes alive, the pressure is at its peak for every team in the group."
       ],
       "bullets": [
-        "The 1-1 draw at NRG Stadium marked a balanced start for both teams in Group K.",
-        "Portugal used the momentum from their opening draw to secure a commanding 5-0 victory over Uzbekistan in their second match.",
-        "The result left DR Congo with a critical point, keeping their knockout stage ambitions alive as they head into their next fixture against Colombia."
+        "The 1-1 draw served as the opening point for both nations in the 2026 tournament.",
+        "Portugal's subsequent 5-0 win over Uzbekistan helped them recover their goal difference significantly.",
+        "DR Congo enters the final matchday needing a result against Uzbekistan to challenge for a higher group position."
       ],
-      "sections": [],
-      "updatedAt": "2026-06-24T16:47:47+00:00",
-      "sourceHash": "c4d15d3b7d303505",
+      "sections": [
+        {
+          "title": "Group K Context",
+          "body": "Colombia currently holds the top spot in Group K with 6 points from two matches. Portugal follows with 4 points, while DR Congo remains in contention with 1 point. Uzbekistan has yet to secure a point after two rounds of play."
+        }
+      ],
+      "updatedAt": "2026-06-25T17:50:13+00:00",
+      "sourceHash": "213953a60d38511c",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1421,65 +1406,66 @@
       "refreshReason": "source or prompt changed"
     },
     "7": {
-      "headline": "Scotland Edges Haiti in Tense Opening Match",
-      "summary": "Scotland secured a narrow 1-0 victory over Haiti in their Group C opener at Boston Stadium. The result provided Scotland with an initial three points, though the group dynamic has since shifted following subsequent matches.",
+      "headline": "Scotland Edges Haiti in Group C Opener",
+      "summary": "Scotland secured a narrow 1-0 victory over Haiti in their opening Group C match at Boston Stadium. This result provided Scotland with their only points of the tournament, while Haiti struggled to find their footing throughout the group stage.",
       "story": [
-        "The match, held on June 13, 2026, at Gillette Stadium in Foxborough, served as a critical starting point for both sides in a competitive Group C. Scotland managed to break the deadlock to claim all three points, setting an early tone for their tournament campaign.",
-        "While the victory was vital at the time, the group landscape has evolved significantly since that evening. Following their Matchday 1 win, Scotland went on to face Morocco in their second fixture, ultimately falling 0-1. This leaves Scotland with 3 points from two matches, placing them in a precarious position heading into their final group stage game.",
-        "Haiti, meanwhile, found the going difficult after the opening loss. They subsequently faced Brazil on Matchday 2, suffering a 0-3 defeat. With zero points and a goal difference of -4, Haiti faces an uphill battle as they prepare for their final match against Morocco.",
-        "The group is currently led by Brazil and Morocco, both sitting on 4 points, while Scotland remains in the hunt with 3 points. The upcoming Matchday 3 fixtures will be decisive, as Scotland prepares to take on Brazil, while Haiti looks to secure their first points against Morocco."
+        "The match at Gillette Stadium in Foxborough served as a critical starting point for both teams in Group C. Scotland managed to break the deadlock and hold firm, claiming a 1-0 win that proved to be their solitary success in a challenging group campaign.",
+        "For Haiti, the result was a difficult start to their tournament journey. Despite their efforts, they were unable to find the back of the net against the Scottish defense, setting a tone for a group stage where they would ultimately finish at the bottom of the table with zero points.",
+        "Haiti's tournament concluded after three matches, having conceded eight goals while scoring two. Their final match against Morocco, a 4-2 loss, showcased their offensive potential, but the early setback against Scotland left them with too much ground to make up in a highly competitive group."
       ],
       "bullets": [
-        "Scotland's 1-0 win provided a crucial early advantage in Group C.",
-        "Haiti remains winless in the group after two matches, having conceded four goals.",
-        "The group remains tight, with Brazil and Morocco leading the table on 4 points each."
+        "Scotland's 1-0 win was their only victory in the group stage.",
+        "Haiti finished the group stage with zero points after three matches.",
+        "The match was held at Gillette Stadium in Foxborough, Massachusetts."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:48:24+00:00",
-      "sourceHash": "c6fc23e5bb5dad49",
+      "updatedAt": "2026-06-25T17:50:26+00:00",
+      "sourceHash": "d6f148a8a3b239fd",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "6": {
-      "headline": "Brazil and Morocco share points in Group C opener",
-      "summary": "Brazil and Morocco played to a 1-1 draw at MetLife Stadium in their opening Group C match. The result set the tone for a competitive group stage, leaving both sides with work to do in their subsequent fixtures.",
+      "headline": "Brazil and Morocco Open Group C with Hard-Fought Draw",
+      "summary": "Brazil and Morocco played to a 1-1 draw at MetLife Stadium in their opening match of the 2026 World Cup. This result set the tone for a competitive Group C, where both nations eventually finished level on seven points after three matches.",
       "story": [
-        "The opening match between Brazil and Morocco at MetLife Stadium in East Rutherford proved to be a tightly contested affair. Both teams fought hard for control, but neither could find a decisive edge, resulting in a 1-1 stalemate that forced them to split the points.",
-        "Following this match, both teams have continued their campaigns with varying degrees of success. Brazil has since secured a 3-0 victory over Haiti, while Morocco bounced back with a 1-0 win against Scotland. These results have left Brazil and Morocco tied at the top of the group standings with 4 points each.",
-        "As the group stage nears its conclusion, the focus shifts to the final matchday. Brazil is scheduled to face Scotland, while Morocco will take on Haiti. With the group remaining tightly packed, every goal and point remains critical for securing a favorable position in the knockout bracket."
+        "The opening match of Group C at MetLife Stadium in East Rutherford saw Brazil and Morocco share the points in a 1-1 stalemate. Played on June 13, the encounter served as a high-stakes introduction to the tournament for both sides, establishing an early balance of power in the group.",
+        "While neither team could claim victory on the day, the draw proved to be a foundational moment for their respective campaigns. Both nations demonstrated the resilience required to navigate the group stage, ultimately finishing their three matches with identical records of two wins and one draw.",
+        "Following this result, both Brazil and Morocco went on to secure victories against Scotland and Haiti. By the conclusion of the group phase, Brazil topped the standings with a superior goal difference of +6, while Morocco followed closely in second place with a goal difference of +3.",
+        "The competitive nature of this opening fixture foreshadowed the success both teams would enjoy in the tournament. With their group stage obligations behind them, both squads successfully advanced to the Round of 32, where they now look toward their respective knockout stage challenges."
       ],
       "bullets": [
-        "Brazil and Morocco currently share the lead in Group C, both sitting on 4 points after two matches.",
-        "The 1-1 draw at MetLife Stadium remains the only match in the group where Brazil failed to secure a victory.",
-        "Both teams enter the final matchday with their qualification destiny in their own hands."
+        "The 1-1 draw proved critical in a group where Brazil and Morocco ultimately finished tied on seven points.",
+        "MetLife Stadium hosted this opening Group C clash, which set the stage for both teams' successful progression to the knockout rounds.",
+        "Both teams remained undefeated throughout the group stage, demonstrating defensive consistency and offensive efficiency."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:48:28+00:00",
-      "sourceHash": "2eeaef65d8577e97",
+      "updatedAt": "2026-06-25T17:50:43+00:00",
+      "sourceHash": "7fdeb49e63c1b7a9",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "5": {
-      "headline": "Switzerland and Qatar Deadlocked in Group B Opener",
-      "summary": "Switzerland and Qatar played to a 1-1 draw in their Group B opening match at Levi's Stadium. The result left both teams searching for momentum in a competitive group stage.",
+      "headline": "Switzerland and Qatar Open Group B with a Draw",
+      "summary": "Switzerland and Qatar played to a 1-1 draw in their opening Group B match at Levi's Stadium. This result set the tone for a competitive group stage where every point proved vital for the final standings.",
       "story": [
-        "The opening match for Switzerland and Qatar at Levi's Stadium in the San Francisco Bay Area concluded in a 1-1 draw. Both sides worked to establish control in a tightly contested fixture, but neither could find the decisive goal to claim all three points.",
-        "For Switzerland, the draw served as the starting point for their tournament campaign, which later saw them secure a dominant 4-1 victory over Bosnia and Herzegovina. This initial point proved vital as they moved into a strong position in the group standings.",
-        "Qatar faced a difficult path following the stalemate. Despite the hard-fought point against the Swiss, they struggled in their subsequent match against Canada, ultimately making their final group fixture against Bosnia and Herzegovina a must-win scenario to keep their tournament hopes alive.",
-        "As the group stage progressed, the impact of this opening draw became clear. With Canada and Switzerland currently leading the group on four points each, the early parity between Switzerland and Qatar set the stage for a high-stakes conclusion to Group B."
+        "The opening match for both sides at the San Francisco Bay Area Stadium ended in a 1-1 deadlock, leaving both teams to share the spoils in their first outing of the tournament. The match served as the initial test for both squads as they navigated the early pressures of Group B.",
+        "For Switzerland, this draw was the beginning of a successful group campaign. Following this result, they went on to secure victories against Bosnia and Herzegovina and Canada, ultimately finishing at the top of the group with 7 points.",
+        "Qatar faced a more challenging path following the draw. Despite earning a point in this opening fixture, they were unable to secure further points in their subsequent matches against Canada and Bosnia and Herzegovina, concluding their group stage run at the bottom of the table.",
+        "The match at Levi's Stadium was a pivotal moment in the group's narrative, as it established the early parity that defined the opening round of games. With Switzerland advancing to the Round of 32 as group winners, this initial point proved to be a foundational element of their progression."
       ],
       "bullets": [
-        "The 1-1 draw provided both teams with their first point of the tournament in a balanced Group B opening.",
-        "Switzerland leveraged the experience into a 4-1 win in their second match, while Qatar faced significant pressure following a heavy defeat to Canada."
+        "Switzerland finished atop Group B with 7 points, while Qatar finished fourth with 1 point.",
+        "The draw at Levi's Stadium was the only point Qatar secured during the group stage.",
+        "Switzerland used this result as a springboard to win their next two matches and qualify for the knockout stage."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:53:05+00:00",
-      "sourceHash": "5ebae9db33057e90",
+      "updatedAt": "2026-06-25T17:50:56+00:00",
+      "sourceHash": "72365212ddfc3595",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match target"
+      "refreshReason": "source or prompt changed"
     },
     "4": {
       "headline": "United States Dominates Paraguay in Group D Opener",
@@ -1525,45 +1511,45 @@
     },
     "2": {
       "headline": "South Korea edges Czechia in Group A opener",
-      "summary": "South Korea secured a narrow 2-1 victory over Czechia in their opening match of the tournament. This result set the tone for a competitive Group A campaign at Estadio Akron in Zapopan.",
+      "summary": "South Korea defeated Czechia 2-1 in their opening Group A match at Estadio Akron. This result provided South Korea with their only points of the tournament, as they ultimately finished third in the group standings.",
       "story": [
-        "The match at Estadio Akron provided an intense start to Group A play, with South Korea ultimately claiming all three points in a 2-1 win. The contest was tightly contested throughout, reflecting the high stakes of the opening round of the group stage.",
-        "For South Korea, the victory provided a vital foundation for their tournament journey. While they later faced a narrow defeat to Mexico in their second fixture, the points earned against Czechia kept them firmly in the hunt for a knockout stage berth heading into their final group match against South Africa.",
-        "Czechia, meanwhile, found themselves in a difficult position following the loss. Despite battling to a 1-1 draw against South Africa in their subsequent match, they currently sit with only one point from two games, making their final group stage encounter against Mexico a must-win scenario to keep their hopes alive.",
-        "As the group stage concludes, the table remains dynamic. Mexico currently leads the group with six points, followed by South Korea with three, while Czechia and South Africa both trail with one point each. The final matchday will determine which teams advance, with every goal difference and point proving critical in this tightly packed group."
+        "The opening match of Group A saw South Korea secure a hard-fought 2-1 victory over Czechia at Estadio Akron in Zapopan. Played on June 11, 2026, the encounter set the tone for a competitive group stage where every point proved vital.",
+        "For South Korea, this victory represented the high point of their tournament campaign. Despite the strong start, they were unable to build momentum in their subsequent fixtures, falling to Mexico and South Africa by identical 1-0 scorelines in their final two matches.",
+        "Czechia faced a difficult road following this initial defeat. While they managed to secure a 1-1 draw against South Africa in their second match, a heavy 3-0 loss to Mexico in their final group game left them at the bottom of the table with a single point.",
+        "The final Group A standings saw Mexico dominate with a perfect nine points, while South Africa claimed second place with four points. South Korea finished third with three points, and Czechia concluded their tournament run in fourth place."
       ],
       "bullets": [
-        "South Korea's victory over Czechia proved essential for their standing, keeping them in second place in Group A with three points.",
-        "The loss left Czechia at the bottom of the table alongside South Africa, necessitating a strong performance against group leaders Mexico to progress."
+        "South Korea's 2-1 win over Czechia was their only victory of the group stage.",
+        "The match was hosted at the Estadio Akron in Zapopan, Mexico.",
+        "Czechia finished at the bottom of Group A with one point from three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:48:44+00:00",
-      "sourceHash": "b0d0eb657d46e52b",
+      "updatedAt": "2026-06-25T17:51:33+00:00",
+      "sourceHash": "70b7ce3958acc274",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "1": {
-      "headline": "Mexico Opens Tournament with Decisive Victory Over South Africa",
-      "summary": "Mexico secured a 2-0 victory against South Africa in their opening Group A match at the iconic Estadio Azteca. This result set the tone for Mexico's campaign, establishing them as an early force in the group standings. The win provided a crucial foundation for their subsequent progression in the tournament.",
+      "headline": "Mexico Opens Tournament with Commanding Win Over South Africa",
+      "summary": "Mexico defeated South Africa 2-0 in their opening Group A match at Estadio Azteca. This victory set the tone for Mexico's dominant group stage performance, where they ultimately finished at the top of the table with nine points.",
       "story": [
-        "The atmosphere at Estadio Azteca in Mexico City was electric as Mexico kicked off their tournament journey on June 11. Facing South Africa in the opening round of Group A, the home side delivered a clinical performance to secure a 2-0 win, delighting the local supporters and signaling their intent to dominate the group stage.",
-        "By securing all three points in this opening fixture, Mexico immediately placed themselves in a strong position. The victory was the first step in a successful run that saw them maintain a perfect record through their first two matches, including a subsequent 1-0 win over South Korea.",
-        "For South Africa, the match proved to be a difficult start to their campaign. Despite the setback against Mexico, they continued to fight in Group A, later securing a 1-1 draw against Czechia to keep their tournament hopes alive heading into the final round of group fixtures.",
-        "Mexico currently sits at the top of Group A with 6 points from two matches, boasting an impressive goal difference of +3 and having yet to concede a goal. Their disciplined defensive performance against South Africa served as a blueprint for their success, providing the stability needed to navigate the group phase.",
-        "As the group stage nears its conclusion, the implications of this opening match remain significant. With Mexico already looking toward the Round of 32, the pressure shifts to the remaining teams to battle for the secondary qualification spots and favorable seeding in the knockout stages."
+        "The opening match of the tournament saw Mexico take control early against South Africa at the iconic Estadio Azteca in Mexico City. By securing a 2-0 result, Mexico immediately signaled their intent to dominate Group A, leveraging home-field advantage in front of a passionate crowd.",
+        "This match served as the foundation for a perfect group stage campaign for the hosts. Mexico went on to win all three of their group matches, finishing with a flawless record of nine points and a goal difference of plus-six, having scored six goals while conceding none throughout the opening round.",
+        "For South Africa, the result was a challenging start to their tournament journey. Despite the opening loss, they remained competitive in the group, eventually securing four points after a draw against Czechia and a narrow 1-0 victory over South Korea in their final group fixture.",
+        "The final group standings confirmed Mexico as the clear leaders, while South Africa's four points were enough to secure the runner-up spot in Group A. This placement earned South Africa a matchup against Canada in the Round of 32, while Mexico moved forward to face the best third-place finisher from other groups."
       ],
       "bullets": [
-        "Mexico's 2-0 victory at Estadio Azteca served as the catalyst for their current lead in Group A.",
-        "The match marked the beginning of a defensive masterclass for Mexico, who have kept clean sheets in both of their opening fixtures.",
-        "South Africa's loss in this opener necessitated a resilient response in their second match, where they managed to secure a point against Czechia."
+        "Mexico finished Group A with a perfect 9 points and 0 goals conceded.",
+        "South Africa secured the runner-up position in the group with 4 points.",
+        "The match was hosted at the historic Estadio Azteca in Mexico City."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T07:21:49+00:00",
-      "sourceHash": "f9dea425b62cec5a",
+      "updatedAt": "2026-06-25T17:51:45+00:00",
+      "sourceHash": "8177530078775b40",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match target"
+      "refreshReason": "source or prompt changed"
     },
     "74": {
       "headline": "Germany Awaits Opponent in Round of 32 Knockout Clash",
@@ -1809,91 +1795,91 @@
       "refreshReason": "group standings or prompt changed"
     },
     "B": {
-      "headline": "Canada and Switzerland Set for Group B Showdown",
-      "summary": "Group B has reached a critical juncture with Canada and Switzerland tied at the top of the table with 4 points each. Following dominant performances in their second matches, both teams are now separated only by goal difference as they head into their final group stage meeting. Meanwhile, Bosnia and Herzegovina and Qatar remain in a tight battle for third place with 1 point apiece.",
+      "headline": "Switzerland Secures Group B Top Spot",
+      "summary": "Switzerland finished at the top of Group B with 7 points after an impressive campaign. Canada and Bosnia and Herzegovina both concluded with 4 points, while Qatar struggled to find momentum throughout the group stage.",
       "story": [],
       "bullets": [
-        "Canada leads the group with a +6 goal difference after a 6-0 victory over Qatar.",
-        "Switzerland sits in second place with a +3 goal difference following their 4-1 win against Bosnia and Herzegovina.",
-        "Canada and Switzerland face off on June 24 to decide the group winner.",
-        "Bosnia and Herzegovina and Qatar will play each other on June 24, both seeking their first win of the tournament."
+        "Switzerland finished undefeated with 7 points and a +4 goal difference.",
+        "Canada secured second place with 4 points and a strong +5 goal difference.",
+        "Bosnia and Herzegovina also finished with 4 points but placed third due to a -1 goal difference.",
+        "Qatar concluded their group stage campaign with 1 point after three matches."
       ],
       "sections": [
         {
-          "title": "The Race for the Top",
-          "body": "Canada and Switzerland have established themselves as the clear frontrunners in Group B. Canada\u2019s massive 6-0 win against Qatar significantly bolstered their goal difference to +6, while Switzerland remains competitive with a +3 goal difference. Their upcoming match on June 24 will be the decisive factor in determining who finishes at the top of the standings."
+          "title": "Switzerland's Dominant Run",
+          "body": "Switzerland asserted their control over the group by earning 7 points from their three matches. Their campaign was highlighted by a decisive 4-1 victory over Bosnia and Herzegovina and a narrow 2-1 win against Canada in the final matchday."
         },
         {
-          "title": "Struggles at the Bottom",
-          "body": "Bosnia and Herzegovina and Qatar have both found it difficult to secure points, each sitting on just 1 point after two matches. Both teams drew their opening games but suffered heavy defeats in their second outings. Their final match against one another is a must-win scenario if either side hopes to salvage their campaign."
+          "title": "The Battle for Second",
+          "body": "Canada and Bosnia and Herzegovina both finished the group stage with 4 points, creating a tight race for the runner-up position. Canada ultimately claimed the second spot, bolstered by a dominant 6-0 win against Qatar and a superior +5 goal difference compared to Bosnia and Herzegovina's -1."
         },
         {
-          "title": "Looking Ahead to Matchday 3",
-          "body": "The final round of group fixtures is scheduled for June 24 at 15:00 ET. The clash between Switzerland and Canada will be broadcast on FOX, while the match between Bosnia and Herzegovina and Qatar will be available on FS1. These games will finalize the table and confirm which teams advance from the group."
+          "title": "Qatar's Group Conclusion",
+          "body": "Qatar found the group stage difficult, managing only 1 point from their three fixtures. Their tournament ended with a 3-1 loss to Bosnia and Herzegovina, leaving them at the bottom of the table with a -8 goal difference."
         }
       ],
-      "updatedAt": "2026-06-24T16:48:56+00:00",
-      "sourceHash": "b5763361ea501145",
+      "updatedAt": "2026-06-25T17:52:21+00:00",
+      "sourceHash": "358bbe9561d21867",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "group standings or prompt changed"
     },
     "C": {
-      "headline": "Group C Tightens as Brazil and Morocco Lead the Way",
-      "summary": "Group C has developed into a competitive three-way race after two rounds of matches. Brazil and Morocco currently sit at the top of the table with 4 points each, while Scotland remains firmly in contention with 3 points. Haiti has been eliminated from contention after failing to secure a point in their first two outings.",
+      "headline": "Brazil and Morocco Dominate Group C",
+      "summary": "Group C has concluded with Brazil and Morocco emerging as the clear leaders, both finishing their campaigns with 7 points. While Brazil secured the top spot through a superior goal difference of 6, Morocco followed closely with a goal difference of 3. Scotland and Haiti have been eliminated after failing to keep pace with the group's frontrunners.",
       "story": [],
       "bullets": [
-        "Brazil leads the group on goal difference with a +3 rating.",
-        "Morocco sits in second place with 4 points after a crucial win against Scotland.",
-        "Scotland holds 3 points and must face Brazil in their final group match.",
-        "Haiti has been mathematically eliminated, having scored zero goals and conceded four."
+        "Brazil finished first in the group with 7 points and a +6 goal difference.",
+        "Morocco also finished with 7 points, securing second place with a +3 goal difference.",
+        "Scotland ended their run with 3 points, while Haiti finished at the bottom of the table with 0 points.",
+        "Brazil's dominant 3-0 victory over Scotland in Matchday 3 solidified their position at the top."
       ],
       "sections": [
         {
-          "title": "The Frontrunners",
-          "body": "Brazil and Morocco have established themselves as the teams to beat, both sitting on 4 points after their opening draw and subsequent wins. Brazil's dominant 3-0 victory over Haiti significantly boosted their goal difference to +3, giving them a slight edge at the top of the standings. Morocco remains right on their heels with a +1 goal difference following their narrow 1-0 win over Scotland."
+          "title": "The Battle for the Top",
+          "body": "Brazil and Morocco were the class of the group, both remaining unbeaten throughout their three matches. Their initial 1-1 draw set the tone for a competitive group, but Brazil's offensive efficiency ultimately allowed them to edge out Morocco for the top spot."
         },
         {
-          "title": "Scotland's Crucial Final Match",
-          "body": "Scotland currently occupies third place with 3 points, earned from their opening 1-0 victory against Haiti. Their path forward is clear but difficult, as they must face Brazil in the final round of group matches. A positive result against the group leaders is essential for Scotland to keep their tournament hopes alive."
+          "title": "Scotland's Campaign",
+          "body": "Scotland managed a single victory, a 1-0 win against Haiti in their opening match. Despite their efforts, they were unable to secure points against the top two teams, finishing with a goal difference of -3."
         },
         {
-          "title": "Looking Ahead to Matchday 3",
-          "body": "The final day of group play features Morocco taking on Haiti, while Scotland meets Brazil. With Morocco looking to secure their spot against a winless Haiti side, the spotlight will be on the Scotland-Brazil clash. These matches will ultimately determine the final standings and which teams advance from Group C."
+          "title": "Haiti's Difficult Exit",
+          "body": "It was a challenging tournament for Haiti, who finished at the bottom of the group with 0 points. They struggled defensively throughout the group stage, conceding 8 goals while managing to score 2."
         }
       ],
-      "updatedAt": "2026-06-24T16:48:59+00:00",
-      "sourceHash": "3f80c62076cbe636",
+      "updatedAt": "2026-06-25T17:52:09+00:00",
+      "sourceHash": "de4ba7cd3a6b674c",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "group standings or prompt changed"
     },
     "A": {
-      "headline": "Mexico Dominates Group A as Final Matchday Looms",
-      "summary": "Mexico has firmly taken control of Group A, securing two consecutive wins to sit at the top of the table with six points. With Czechia and South Africa trailing with only one point each, the final round of matches will be decisive for the remaining qualification spots.",
+      "headline": "Mexico Dominates Group A with Perfect Record",
+      "summary": "Mexico has secured a flawless group stage campaign, finishing at the top of Group A with nine points. South Africa clinches the second spot with four points after a decisive final matchday victory, while South Korea and Czechia are eliminated.",
       "story": [],
       "bullets": [
-        "Mexico remains undefeated and has yet to concede a goal in the tournament.",
-        "South Korea holds second place with three points after their opening win against Czechia.",
-        "Czechia and South Africa are currently tied on one point, making their final matches critical.",
-        "Mexico has secured a goal difference of +3, the best in the group."
+        "Mexico finished with a perfect 3-0-0 record and a +6 goal difference.",
+        "South Africa secured second place with 4 points after defeating South Korea 1-0.",
+        "South Korea finished third with 3 points, narrowly missing out on advancement.",
+        "Czechia concluded their campaign at the bottom of the table with 1 point."
       ],
       "sections": [
         {
-          "title": "Mexico's Commanding Lead",
-          "body": "Mexico has been clinical, opening their campaign with a 2-0 victory over South Africa before edging out South Korea 1-0. Their perfect record and solid defensive performance have put them in the driver's seat as they head into their final group match against Czechia."
+          "title": "Mexico's Commanding Performance",
+          "body": "Mexico established total control over Group A from the opening match, where they defeated South Africa 2-0. They maintained their momentum throughout the group stage, including a 1-0 win over South Korea and a dominant 3-0 victory against Czechia to finish with six goals scored and zero conceded."
         },
         {
           "title": "The Battle for Second Place",
-          "body": "South Korea sits in second place with three points, having defeated Czechia 2-1 in their opening match. They will face South Africa in the final round, needing a strong result to ensure they hold off the chasing pack and secure their advancement."
+          "body": "The race for the runner-up position remained competitive until the final matchday. South Africa's 1-0 win over South Korea proved to be the deciding factor, allowing them to finish with 4 points, one point ahead of South Korea's 3 points."
         },
         {
-          "title": "High Stakes for Czechia and South Africa",
-          "body": "Both Czechia and South Africa find themselves under immense pressure with only one point from two matches. As they prepare for their final fixtures against Mexico and South Korea respectively, both teams must secure a win to keep their tournament hopes alive."
+          "title": "Group A Final Standings",
+          "body": "The group concluded with Mexico leading the table with 9 points, followed by South Africa with 4 points. South Korea finished third with 3 points and a -1 goal difference, while Czechia rounded out the group in fourth place with 1 point and a -4 goal difference."
         }
       ],
-      "updatedAt": "2026-06-24T16:49:03+00:00",
-      "sourceHash": "dad1e830f27bd9cd",
+      "updatedAt": "2026-06-25T17:51:57+00:00",
+      "sourceHash": "acc7f0ffcbb1acd2",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "group standings or prompt changed"
@@ -1959,31 +1945,31 @@
       "refreshReason": "group standings or prompt changed"
     },
     "K": {
-      "headline": "Group K Outlook: Portugal Takes Control as Colombia Chases",
-      "summary": "Portugal has surged to the top of Group K with four points after a dominant 5-0 victory over Uzbekistan. With Colombia sitting on three points from their opening match, the group remains highly competitive as teams prepare for the final round of fixtures. The upcoming clash between Colombia and DR Congo will be pivotal in shaping the final standings.",
+      "headline": "Group K: Colombia and Portugal Set for Showdown",
+      "summary": "Group K has reached a pivotal stage with Colombia and Portugal emerging as the clear frontrunners. After two matches, Colombia leads with 6 points, while Portugal follows closely with 4 points and a superior goal difference of 5. The final matchday will determine the group winner as these two heavyweights face off.",
       "story": [],
       "bullets": [
-        "Portugal leads the group with 4 points and a strong +5 goal difference.",
-        "Uzbekistan sits at the bottom of the table with 0 points and a -7 goal difference after two matches.",
-        "Colombia holds 3 points from their single match played, keeping them well-positioned for qualification.",
-        "The upcoming Colombia versus Portugal fixture on Matchday 3 is set to be the decisive encounter for the group."
+        "Colombia sits atop the table with a perfect 6 points from two matches.",
+        "Portugal's dominant 5-0 win over Uzbekistan boosted their goal difference to 5.",
+        "DR Congo remains in the hunt for points with 1 point from their opening two fixtures.",
+        "Uzbekistan has been eliminated from contention for the top spots after two losses."
       ],
       "sections": [
         {
-          "title": "Portugal's Dominance",
-          "body": "After an opening 1-1 draw against DR Congo, Portugal responded emphatically by defeating Uzbekistan 5-0. This result has propelled them to the top of the standings with 4 points and a commanding goal difference of +5."
+          "title": "The Frontrunners' Path",
+          "body": "Colombia has been clinical, securing a 3-1 victory against Uzbekistan and a narrow 1-0 win over DR Congo. Portugal recovered from their opening 1-1 draw with DR Congo by dismantling Uzbekistan 5-0. This sets up a high-stakes encounter on June 27th where the group lead is on the line."
         },
         {
-          "title": "Colombia's Position",
-          "body": "Colombia currently sits in second place with 3 points following their 3-1 victory over Uzbekistan in Matchday 1. They have a crucial game ahead against DR Congo, where a win would keep them firmly in the hunt for the top spot."
+          "title": "The Struggle at the Bottom",
+          "body": "DR Congo currently sits in third place with 1 point and a goal difference of -1. While they showed resilience in their draw against Portugal, their narrow loss to Colombia leaves them needing a result in their final match. Uzbekistan has struggled significantly, conceding 8 goals and scoring only once in their two appearances."
         },
         {
-          "title": "The Road Ahead",
-          "body": "The group concludes with high-stakes matches on June 27, featuring Colombia against Portugal and DR Congo against Uzbekistan. These fixtures will determine the final table order, as DR Congo looks to improve upon their 1 point from their opening draw."
+          "title": "Looking Ahead to Matchday 3",
+          "body": "The final round of fixtures on June 27th features the marquee matchup between Colombia and Portugal at 19:30 ET. Simultaneously, DR Congo will face Uzbekistan in a match that will finalize the group standings. All eyes will be on whether Portugal can overcome their goal difference deficit to claim the top spot."
         }
       ],
-      "updatedAt": "2026-06-24T16:49:06+00:00",
-      "sourceHash": "96a77aa9de6060e9",
+      "updatedAt": "2026-06-25T17:52:34+00:00",
+      "sourceHash": "8b3d8372750392c5",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "group standings or prompt changed"
@@ -2056,106 +2042,106 @@
       "refreshReason": "player stats or prompt changed"
     },
     "deniz-undav-germany": {
-      "headline": "Deniz Undav's Explosive Efficiency for Germany",
-      "summary": "Deniz Undav has been a revelation for Germany, making an immediate impact despite limited time on the pitch. Through his first 2 matches, he has been involved in 5 points, showcasing a clinical edge in front of goal. His ability to produce high-value output in just 69 minutes of play is among the most impressive displays in the tournament so far.",
+      "headline": "Deniz Undav: Germany's Ultra-Efficient Impact Sub",
+      "summary": "Deniz Undav has been a revelation for Germany, making an explosive impact in limited time on the pitch. With 3 goals and 2 assists in just 69 minutes, he has proven to be an incredibly dangerous offensive weapon. His ability to contribute directly to scoring makes him one of the most efficient players in the tournament so far.",
       "story": [],
       "bullets": [
-        "Contributed 3 goals and 2 assists in just 2 matches.",
-        "Maintains an elite 3.9 goals per 90 minutes rate.",
-        "Boasts a points per 90 minutes rate of 6.5.",
-        "Totaled 5 points across 69 minutes of tournament action.",
-        "Ranked 4th overall in player performance metrics."
+        "Contributed to 5 total points in only 2 matches played.",
+        "Maintains a staggering 3.9 goals per 90 minutes.",
+        "Boasts an elite 6.5 points per 90 rate.",
+        "Registered 3 goals and 2 assists despite limited playing time.",
+        "Key offensive contributor in Germany's Group E campaign."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Undav is currently operating at a level of efficiency that is difficult to replicate. With 3 goals and 2 assists in only 69 minutes, he is maximizing every opportunity he receives. His goals per 90 rate of 3.9 highlights just how dangerous he is whenever he is on the field."
+          "body": "Deniz Undav has redefined what it means to be an impact player during this World Cup. By recording 3 goals and 2 assists in just 69 minutes, he has demonstrated remarkable precision in front of the net. His per-90 metrics, specifically 3.9 goals and 6.5 points, highlight his extreme effectiveness whenever he is on the field."
         },
         {
-          "title": "High-Impact Production",
-          "body": "The German forward has quickly become a focal point for production, accumulating 5 points in his limited appearances. A points per 90 rate of 6.5 underscores his role as a primary playmaker and scorer. He has proven to be an essential asset for Germany's attacking depth."
+          "title": "Tournament Impact",
+          "body": "Undav has appeared in 2 matches for Germany, playing a pivotal role in the team's offensive output. His contribution of 5 points has been instrumental in Germany's success during the group stage. Even with restricted minutes, he has consistently found ways to influence the scoreline."
         },
         {
-          "title": "Tournament Context",
-          "body": "Germany has enjoyed a strong start to the group stage, securing wins against Curacao and Ivory Coast. Undav has been instrumental in these victories, helping his side maintain momentum. With a match against Ecuador upcoming, he will look to continue his high-scoring form."
+          "title": "Team Context",
+          "body": "Germany has enjoyed a strong start to the tournament, including a dominant 7-1 victory over Curacao and a tight 2-1 win against Ivory Coast. Undav's presence provides the squad with a high-upside option capable of changing the game's momentum instantly. As the team looks ahead to their match against Ecuador, his form remains a major talking point."
         },
         {
           "title": "Looking Ahead",
-          "body": "As Germany moves toward the final group stage match against Ecuador, all eyes will be on whether Undav can sustain his current output. His performance has already secured his team a favorable position heading into the knockout rounds. Maintaining this efficiency will be vital as the competition intensifies."
+          "body": "Following their successful group stage matches, Germany is scheduled to face Ecuador on June 25. With a spot in the Round of 32 already on the horizon, Undav will look to continue his high-scoring form. His ability to produce points at such a high rate makes him a player to watch as the tournament progresses into the knockout rounds."
         }
       ],
-      "updatedAt": "2026-06-24T16:49:57+00:00",
-      "sourceHash": "df5a9e55e0b798db",
+      "updatedAt": "2026-06-25T17:53:25+00:00",
+      "sourceHash": "9cb7a9e1b5321e5d",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "jonathan-david-canada": {
-      "headline": "Jonathan David: Canada's Clinical Spearhead",
-      "summary": "Jonathan David has emerged as a dominant force for Canada in the group stage, showcasing exceptional efficiency in front of the net. Through two matches, he has already tallied 3 goals, proving to be the primary engine of his team's attack. His ability to convert opportunities at a high rate has been instrumental in Canada's campaign so far. As the team looks toward their final group stage fixture, David remains a critical figure to watch.",
+      "headline": "Jonathan David: Leading the Canadian Attack",
+      "summary": "Jonathan David has been a central figure for Canada in the group stage, demonstrating high efficiency in front of goal. Across his 3 matches played, he has logged 271 minutes of action. His ability to find the back of the net has been a crucial component of Canada's offensive output. As the team moves into the Round of 32, David remains a key player to watch.",
       "story": [],
       "bullets": [
-        "Ranked 5th overall in tournament production.",
-        "Maintains an impressive 1.6 goals per 90 minutes.",
-        "Has successfully netted 3 goals across 170 minutes of play.",
-        "Contributed significantly to the 6-0 victory over Qatar.",
-        "Currently holds a points-per-90 rate of 1.6."
+        "Scored 3 goals in 3 tournament matches.",
+        "Maintained an impressive 1.0 goals per 90 minutes rate.",
+        "Logged a total of 271 minutes on the pitch.",
+        "Totaled 3 points throughout the group stage.",
+        "Key contributor to Canada's advancement to the knockout stage."
       ],
       "sections": [
         {
-          "title": "Scoring Efficiency",
-          "body": "Jonathan David has been incredibly clinical, netting 3 goals in just 170 minutes of action. His 1.6 goals per 90 rate highlights his ability to maximize limited time on the pitch. This level of efficiency is a major reason he currently sits at rank 5 among all players."
+          "title": "Clinical Finishing",
+          "body": "Jonathan David has proven to be a highly efficient forward during his time on the field. With 3 goals scored in 271 minutes, he is averaging a goal every 90 minutes. This level of production highlights his importance as the primary scoring threat for Canada."
         },
         {
-          "title": "Impact on Team Success",
-          "body": "David's offensive output has been central to Canada's performance in Group B. His production was particularly evident during the commanding 6-0 win against Qatar, where he helped anchor the attack. With 3 total points in 2 matches, he has proven to be an essential asset for the squad."
+          "title": "Group Stage Performance",
+          "body": "David participated in all three group stage matches, including the high-scoring 6-0 victory over Qatar. His consistency across these fixtures has been vital for the team's tactical setup. He has been a constant presence, appearing in every match Canada has played so far."
+        },
+        {
+          "title": "Looking Ahead to the Knockout Stage",
+          "body": "Canada is now set to face South Africa in the Round of 32 on June 28. Following a competitive group stage, David will look to carry his scoring form into this high-stakes elimination match. The team will rely on his efficiency to navigate the challenges of the knockout round."
         },
         {
           "title": "Tournament Context",
-          "body": "After securing a draw against Bosnia and Herzegovina and a massive win over Qatar, Canada is in a strong position. David's consistency in the final third has provided the tactical edge needed to navigate these group matches. His role as a forward remains the focal point of Canada's offensive strategy."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "The next challenge for David and Canada is a crucial match against Switzerland on June 24. Given his current form and high scoring rate, he will undoubtedly be the player the Swiss defense focuses on neutralizing. Maintaining this momentum will be vital as the team aims to advance further in the tournament."
+          "body": "Canada's journey included a draw against Bosnia and Herzegovina, a dominant win against Qatar, and a narrow loss to Switzerland. David's contribution of 3 points reflects his active role in these varied match scenarios. His presence in the forward line provides the necessary pressure to challenge upcoming opponents."
         }
       ],
-      "updatedAt": "2026-06-24T16:50:01+00:00",
-      "sourceHash": "4e3030f3355fd49f",
+      "updatedAt": "2026-06-25T17:54:19+00:00",
+      "sourceHash": "6fd41d3cbda151de",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "johan-manzambi-switzerland": {
-      "headline": "Johan Manzambi: The Ultimate Efficiency Expert",
-      "summary": "Johan Manzambi has emerged as one of the most clinical finishers in the tournament despite limited time on the pitch. Representing Switzerland, he has made the most of his 59 minutes of action across 2 matches. His ability to convert opportunities into goals has been a standout feature of his performance so far. With a high per-90 rate, he remains a player to watch as Switzerland heads into their final group stage fixture.",
+      "headline": "Johan Manzambi: Switzerland's Efficient Midfield Engine",
+      "summary": "Johan Manzambi has emerged as a critical playmaker for Switzerland, delivering significant offensive production in limited time. Through three group stage matches, he has proven to be a highly efficient contributor in the final third. His ability to impact the scoreboard has been a cornerstone of the Swiss attack as they move into the knockout rounds.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in just 59 minutes of play.",
-        "Maintains an impressive 3.1 goals per 90 minutes.",
-        "Totaled 2 points across 2 tournament appearances.",
-        "Demonstrated elite efficiency in limited substitute roles.",
-        "Key offensive contributor for Switzerland in Group B."
+        "Registered 3 goals and 1 assist across 3 matches played.",
+        "Maintains an impressive 1.8 goals per 90 minutes.",
+        "Accumulated 4 total points throughout the group stage.",
+        "Demonstrates high efficiency with a 2.4 points per 90 rate.",
+        "Logged 147 minutes of action for the Swiss side."
       ],
       "sections": [
         {
-          "title": "Impact in Limited Minutes",
-          "body": "Manzambi has proven that playing time does not necessarily equate to impact. By scoring 2 goals in only 59 minutes, he has showcased a remarkable knack for finding the back of the net when it counts. This high-octane production makes him a dangerous weapon for the Swiss attack."
+          "title": "Clinical Efficiency",
+          "body": "Manzambi has maximized his impact despite playing only 147 minutes in the tournament. His 1.8 goals per 90 rate highlights a player who is incredibly dangerous whenever he is on the pitch. This level of production has made him one of the most efficient midfielders in the competition."
         },
         {
-          "title": "Statistical Efficiency",
-          "body": "His efficiency is highlighted by a goals per 90 rate of 3.1. This metric places him in an elite tier of finishers who maximize every touch they receive. With 2 total points, he has been a consistent source of offensive output for his team."
+          "title": "Tournament Impact",
+          "body": "With 4 total points, Manzambi has been directly involved in a significant portion of Switzerland's offensive output. His ability to balance scoring with playmaking has kept opposing defenses on their heels throughout the group stage. He remains a vital asset as the team transitions to the high-stakes knockout phase."
         },
         {
-          "title": "Tournament Context",
-          "body": "Switzerland has seen varied results in Group B, including a 1-1 draw against Qatar and a 4-1 victory over Bosnia and Herzegovina. Manzambi's contributions have been vital in these high-stakes matches. His role as a high-impact midfielder has provided the team with necessary depth and scoring threat."
+          "title": "Group Stage Performance",
+          "body": "Switzerland navigated a challenging group stage with matches against Qatar, Bosnia and Herzegovina, and Canada. Manzambi was a consistent presence throughout these fixtures, helping his team secure their place in the next round. His contributions were instrumental in the team's successful progression."
         },
         {
           "title": "Looking Ahead",
-          "body": "As Switzerland prepares for their upcoming Matchday 3 fixture against Canada, the focus turns to whether Manzambi can maintain his torrid scoring pace. Given his current form, he will likely remain a focal point for opposing defenses. Fans should watch to see if his efficiency continues in this crucial group stage finale."
+          "body": "Switzerland now looks toward their upcoming Round of 32 match on July 2nd. As the team prepares to face the winner of Group E, F, G, I, or J, Manzambi's form will be a key factor for the Swiss. Maintaining his current per-90 efficiency will be crucial for their continued success in the knockout bracket."
         }
       ],
-      "updatedAt": "2026-06-24T16:51:16+00:00",
-      "sourceHash": "2a3e18cdffb4a9b3",
+      "updatedAt": "2026-06-25T17:53:39+00:00",
+      "sourceHash": "e90957d26e2265ae",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2289,71 +2275,71 @@
       "refreshReason": "player stats or prompt changed"
     },
     "erling-braut-haaland-norway": {
-      "headline": "Erling Braut Haaland: Norway's Clinical Spearhead",
-      "summary": "Erling Braut Haaland has been a dominant force for Norway in the group stage, showcasing elite efficiency in front of goal. Through 2 matches and 208 minutes of play, he has already racked up 4 goals. His ability to consistently find the back of the net has been central to Norway's successful start in Group I. As the tournament progresses, he remains the primary focal point for his team's attacking ambitions.",
+      "headline": "Erling Braut Haaland: Norway's Clinical Edge",
+      "summary": "Erling Braut Haaland has been a dominant force for Norway through their first two group stage matches. With 4 goals in just 208 minutes of play, he has proven to be the focal point of the Norwegian attack. His efficiency in front of goal has been vital to the team's success in Group I. As Norway prepares for their next challenge, Haaland remains the player to watch.",
       "story": [],
       "bullets": [
-        "Registered 4 goals across 2 appearances in the group stage.",
-        "Maintains an impressive 1.7 goals per 90 minutes rate.",
-        "Accumulated 4 total points with a 1.7 points per 90 rate.",
-        "Played a total of 208 minutes to lead the Norwegian front line.",
-        "Key contributor to Norway's victories over Iraq and Senegal."
+        "Scored 4 goals in 2 matches played.",
+        "Maintains an impressive 1.7 goals per 90 minutes.",
+        "Totaled 4 points with a 1.7 points per 90 rate.",
+        "Logged 208 minutes of action across two group stage appearances.",
+        "Key contributor in victories against Iraq and Senegal."
       ],
       "sections": [
         {
-          "title": "Tournament Production",
-          "body": "Haaland has been remarkably efficient, scoring 4 goals in just 2 matches. His scoring rate of 1.7 goals per 90 minutes highlights his clinical nature when presented with opportunities. This level of output has been vital for Norway's current standing in Group I."
+          "title": "Clinical Efficiency",
+          "body": "Haaland has been remarkably efficient, converting his opportunities at a high rate for Norway. His 1.7 goals per 90 rate highlights his ability to capitalize on limited chances throughout his 208 minutes on the pitch. This level of production is exactly why he ranks among the top performers in the tournament."
         },
         {
-          "title": "Impact on Team Success",
-          "body": "Norway has secured two wins in their opening group matches, defeating Iraq 4-1 and Senegal 3-2. Haaland's presence has been the consistent factor in these high-scoring affairs. His ability to convert chances into points has directly influenced the team's positive results."
-        },
-        {
-          "title": "Efficiency Metrics",
-          "body": "With 4 points in total, Haaland is currently averaging 1.7 points per 90 minutes. His involvement over 208 minutes demonstrates his durability and importance to the squad's tactical setup. He remains a high-efficiency threat that opposing defenses must prioritize."
+          "title": "Group Stage Impact",
+          "body": "Norway has relied heavily on Haaland to navigate their group stage fixtures. He played a pivotal role in the 4-1 win over Iraq and the narrow 3-2 victory against Senegal. His 4 total points have been instrumental in securing Norway's current standing."
         },
         {
           "title": "Looking Ahead",
-          "body": "Norway's next challenge is a highly anticipated matchup against France on June 26. Following their strong start, the team will look to Haaland to continue his scoring form in this critical final group stage fixture. Maintaining his current per-90 rate will be essential for Norway's hopes of advancing further."
+          "body": "With two matches already in the books, Norway turns their attention to a high-stakes encounter against France on June 26. Haaland will be expected to lead the line once again as the team looks to maintain their form. His presence will be the primary concern for the French defense."
+        },
+        {
+          "title": "Tournament Context",
+          "body": "Ranking 4th among players, Haaland is demonstrating why he is considered one of the most dangerous forwards in the world. His ability to sustain a 1.7 points per 90 rate over his 2 matches shows consistency under pressure. He continues to be the engine of Norway's offensive strategy."
         }
       ],
-      "updatedAt": "2026-06-24T16:49:53+00:00",
-      "sourceHash": "3aeb77d39f1e618b",
+      "updatedAt": "2026-06-25T17:53:13+00:00",
+      "sourceHash": "5414c5a147df9335",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "kylian-mbappe-france": {
-      "headline": "Kylian Mbappe: The Clinical Force for France",
-      "summary": "Kylian Mbappe has established himself as a premier attacking threat in the tournament, spearheading France's offensive efforts with lethal efficiency. Through his first 2 matches, he has already recorded 4 goals, proving to be the focal point of the French attack. His ability to convert chances at a high volume has been instrumental in securing victories over Senegal and Iraq. As France prepares for their final group stage match against Norway, Mbappe remains the player to watch for defensive units.",
+      "headline": "Kylian Mbappe: The Spearhead of the French Attack",
+      "summary": "Kylian Mbappe has been a dominant force for France in the group stage, showcasing elite finishing ability. Through just 2 matches, he has already tallied 4 goals, proving to be the primary engine for his team's offensive production. His clinical nature in front of the net has been a major factor in France's undefeated start to the tournament. With a high volume of output in limited minutes, he remains the most dangerous threat for any opposing defense.",
       "story": [],
       "bullets": [
-        "Currently ranks 2nd in overall player performance metrics.",
-        "Has accounted for 4 goals in just 199 minutes of play.",
-        "Maintains a prolific 1.8 goals per 90 minutes rate.",
-        "Total contribution of 4 points across 2 matches played.",
-        "Key offensive engine in France's undefeated group stage campaign."
+        "Currently ranked 3rd in player performance metrics.",
+        "Has recorded 4 goals over 199 minutes of play.",
+        "Maintains an impressive 1.8 goals per 90 minutes rate.",
+        "Has contributed 4 total points to France's campaign.",
+        "Has been a key starter in both of France's completed matches."
       ],
       "sections": [
         {
-          "title": "Unmatched Scoring Efficiency",
-          "body": "Mbappe has demonstrated exceptional precision in front of the net, netting 4 goals in only 199 minutes of action. His 1.8 goals per 90 rate highlights his ability to impact the game consistently whenever he is on the pitch. This level of efficiency makes him one of the most dangerous forwards in the current tournament."
+          "title": "Clinical Efficiency",
+          "body": "Mbappe's efficiency is one of the most striking aspects of his tournament performance so far. With 4 goals in 199 minutes, he is scoring at a rate of 1.8 goals per 90 minutes. This level of production highlights his ability to capitalize on scoring opportunities whenever they arise."
         },
         {
-          "title": "Driving France's Success",
-          "body": "France has enjoyed a strong start to the group stage, securing wins against Senegal and Iraq. Mbappe has been central to these results, providing the necessary firepower to break down opposing defenses. His presence on the field has directly translated into 4 points for his team."
+          "title": "Impact on France's Success",
+          "body": "France has enjoyed a strong start, securing victories against Senegal and Iraq. Mbappe has been central to these results, providing the necessary firepower to break down opposing backlines. His presence on the pitch ensures that France remains a constant threat in the final third."
         },
         {
-          "title": "Looking Ahead to Norway",
-          "body": "With the group stage concluding, France is set to face Norway on June 26. Given his current form, Mbappe will likely be the primary target for the Norwegian defense. Maintaining his high output will be critical for France as they look to carry their momentum into the next stage."
+          "title": "Tournament Context",
+          "body": "Having played 2 matches, Mbappe has established himself as a focal point for France. His 4 total points reflect his direct involvement in the team's success during the group stage. As the tournament progresses, his ability to sustain this production will be critical for France's ambitions."
         },
         {
-          "title": "Statistical Profile",
-          "body": "Across his 2 appearances, Mbappe has shown no signs of slowing down, balancing his high goal tally with a points-per-90 rate of 1.8. While he has yet to record an assist, his primary role as a finisher has been highly effective. He continues to be a top-tier performer in the tournament rankings."
+          "title": "Looking Ahead",
+          "body": "France is set to face Norway in their upcoming Matchday 3 fixture. Given his current form and goal-scoring rate, Mbappe will likely be the player to watch as France looks to maintain their momentum. Fans will be eager to see if he can continue his high-scoring streak in this final group match."
         }
       ],
-      "updatedAt": "2026-06-24T16:49:49+00:00",
-      "sourceHash": "30c401bbd548aede",
+      "updatedAt": "2026-06-25T17:53:00+00:00",
+      "sourceHash": "acd0982897ba4aaa",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2634,36 +2620,36 @@
       "model": "gemini-3.1-flash-lite"
     },
     "ruben-vargas-switzerland": {
-      "headline": "Ruben Vargas: Switzerland's Efficient Midfield Catalyst",
-      "summary": "Ruben Vargas has emerged as a key contributor for Switzerland, making a direct impact in both of his tournament appearances so far. With a goal and an assist to his name, he has proven to be a highly efficient presence in the final third. His ability to produce points in limited time highlights his importance to the Swiss attack. As Switzerland prepares for their upcoming match against Canada, Vargas remains a player to watch for his offensive output.",
+      "headline": "Ruben Vargas: The Efficient Engine of the Swiss Attack",
+      "summary": "Ruben Vargas has emerged as a key offensive contributor for Switzerland throughout the group stage. With 2 goals and 1 assist in 194 minutes of play, he has demonstrated a clinical edge in front of the net. His ability to impact the scoreboard consistently makes him a vital asset for the Swiss as they advance to the knockout rounds.",
       "story": [],
       "bullets": [
-        "Contributed 1 goal and 1 assist in 2 matches played.",
-        "Maintains a strong 0.8 goals per 90 minutes rate.",
-        "Delivering high value with 1.6 points per 90 minutes.",
-        "Logged 111 total minutes across two group stage appearances.",
-        "Key offensive engine in Switzerland's recent 4-1 victory over Bosnia and Herzegovina."
+        "Contributed 2 goals and 1 assist across 3 matches.",
+        "Maintained an impressive 0.9 goals per 90 minutes.",
+        "Logged 194 total minutes of tournament action.",
+        "Earned 3 total points for his attacking output.",
+        "Operating at a high efficiency with 1.4 points per 90 minutes."
       ],
       "sections": [
         {
-          "title": "Immediate Impact",
-          "body": "Ruben Vargas has been highly productive during his 111 minutes on the pitch. By securing a goal and an assist early in the tournament, he has established himself as a vital creative force for the Swiss side."
+          "title": "Clinical Efficiency",
+          "body": "Vargas has maximized his time on the pitch, proving to be one of the most efficient players in the squad. His rate of 0.9 goals per 90 minutes highlights his ability to find the back of the net whenever he is involved in the action. This high-level production is a primary reason for his current ranking."
         },
         {
-          "title": "Efficiency Metrics",
-          "body": "The efficiency of Vargas is reflected in his impressive per-90 rates. With a goals per 90 rate of 0.8 and a points per 90 rate of 1.6, he is maximizing his time on the field and providing consistent offensive returns."
+          "title": "Group Stage Impact",
+          "body": "Throughout the three group stage matches, Vargas played a pivotal role in Switzerland's offensive success. Whether scoring or setting up teammates, his involvement has been central to the team's ability to secure results against Qatar, Bosnia and Herzegovina, and Canada. His 3 total points reflect a player who is consistently involved in high-leverage moments."
         },
         {
           "title": "Team Context",
-          "body": "Vargas played a role in Switzerland's balanced start to the group stage, which included a draw against Qatar and a dominant 4-1 win against Bosnia and Herzegovina. His contributions have helped the team secure 2 total points thus far."
+          "body": "Switzerland's progression through the group stage has been bolstered by the attacking versatility provided by Vargas. As the team prepares for their upcoming Round of 32 match on July 2nd, his form will be essential for maintaining their momentum. His ability to balance goal-scoring with creative playmaking provides the Swiss with a dynamic threat."
         },
         {
           "title": "Looking Ahead",
-          "body": "Following the team's strong performance in their second match, Switzerland now looks toward their final group stage fixture against Canada. Vargas will aim to carry his current momentum into this upcoming encounter on June 24th."
+          "body": "With the group stage concluded, all eyes turn to the knockout phase where the stakes are significantly higher. Switzerland is scheduled to face the best 3rd place team from groups E, F, G, I, or J. Vargas will look to carry his group stage efficiency into this critical fixture to help his team advance further."
         }
       ],
-      "updatedAt": "2026-06-24T16:52:21+00:00",
-      "sourceHash": "5c340de3eeac65ec",
+      "updatedAt": "2026-06-25T17:55:38+00:00",
+      "sourceHash": "5ea7da5deb806a56",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3020,216 +3006,212 @@
       "model": "gemini-3.1-flash-lite"
     },
     "crysencio-summerville-netherlands": {
-      "headline": "Crysencio Summerville: Efficiency in the Dutch Attack",
-      "summary": "Crysencio Summerville has made a significant impact for the Netherlands in limited action during the group stage. Through just 123 minutes of play, he has been a highly productive forward, contributing directly to three goals. His efficiency in front of the net has been a standout feature of the Dutch offensive strategy so far. As the team moves toward their next fixture, Summerville remains a key player to watch.",
+      "headline": "Crysencio Summerville: The Netherlands' Efficiency Machine",
+      "summary": "Crysencio Summerville has emerged as a key attacking threat for the Netherlands during the group stage. With 2 goals and 1 assist in just 123 minutes of play, he is demonstrating remarkable efficiency in front of the net. His ability to contribute directly to scoring makes him a vital component of the Dutch offensive strategy. As the team heads into their final group match, Summerville remains a player to watch for his high-impact performances.",
       "story": [],
       "bullets": [
-        "Ranked 6th in current tournament efficiency metrics.",
-        "Recorded 2 goals and 1 assist in 2 matches played.",
-        "Maintains an impressive 1.5 goals per 90 minutes.",
-        "Delivering a high-value 2.2 points per 90 minutes.",
-        "Totaled 123 minutes of action across the opening group stage matches."
+        "Registered 2 goals and 1 assist across 2 tournament appearances.",
+        "Maintains an impressive 1.5 goals per 90 minutes rate.",
+        "Totaled 3 points in just 123 minutes of action.",
+        "Delivering a high-efficiency 2.2 points per 90 minutes.",
+        "Key contributor in a Netherlands side that has scored 7 goals in two matches."
       ],
       "sections": [
         {
-          "title": "Clinical Production",
-          "body": "Summerville has maximized his time on the pitch with remarkable precision. With 2 goals and 1 assist, he has been involved in a goal every 41 minutes on average. This level of output makes him one of the most dangerous forwards in the current tournament field."
+          "title": "Clinical Efficiency",
+          "body": "Summerville has maximized his time on the pitch, recording 2 goals and 1 assist in only 123 minutes. His goals per 90 rate of 1.5 highlights his ability to find the back of the net whenever he is involved. This level of production is a significant factor in his current rank of 10 among players."
         },
         {
-          "title": "Efficiency Metrics",
-          "body": "The forward is currently operating at a rate of 1.5 goals per 90 minutes. His overall point contribution is equally strong, sitting at 2.2 points per 90 minutes. These figures highlight his ability to influence the game significantly whenever he is called upon."
+          "title": "Tournament Impact",
+          "body": "In his 2 matches played, Summerville has been directly involved in 3 points for the Netherlands. His points per 90 rate of 2.2 underscores his role as a primary playmaker and finisher. He has proven to be a reliable option for the Dutch attack during their high-scoring group stage run."
         },
         {
-          "title": "Tournament Context",
-          "body": "The Netherlands have enjoyed a strong start to their campaign, including a high-scoring 5-1 victory over Sweden. Summerville has been a vital part of this attacking momentum, helping the team navigate their Group F schedule successfully. His contributions have been instrumental in securing points for the Dutch side."
+          "title": "Team Context",
+          "body": "The Netherlands have enjoyed a productive group stage, including a 2-2 draw with Japan and a dominant 5-1 victory over Sweden. Summerville's contributions have been central to this offensive output. His ability to perform under pressure has helped the team maintain a strong position in Group F."
         },
         {
           "title": "Looking Ahead",
-          "body": "Following the completion of their first two matches, the Netherlands are preparing for their final group stage fixture against Tunisia. Summerville will look to maintain his current form as the team aims to build on their previous results. All eyes will be on whether he can continue his high-efficiency production in the upcoming match."
+          "body": "The Netherlands are set to face Tunisia on June 25th in their final group stage match. Given his current form and per-90 efficiency, Summerville will likely be a focal point for the Dutch attack. Fans will be looking to see if he can carry his momentum into this upcoming fixture."
         }
       ],
-      "updatedAt": "2026-06-24T16:50:05+00:00",
-      "sourceHash": "44861217b64e2c23",
+      "updatedAt": "2026-06-25T17:54:31+00:00",
+      "sourceHash": "169e9c81896395c9",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "mikel-oyarzabal-spain": {
       "headline": "Mikel Oyarzabal's Efficient Impact for Spain",
-      "summary": "Mikel Oyarzabal has emerged as a key offensive contributor for Spain during the group stage. Through his first 144 minutes of play, he has demonstrated remarkable efficiency in front of the net. His ability to generate points in limited action makes him a focal point of Spain's attack. As the team prepares for their final group match, Oyarzabal remains a player to watch for his direct goal involvement.",
+      "summary": "Mikel Oyarzabal has emerged as a clinical force for Spain during the group stage, demonstrating high efficiency in limited minutes. Through his first 2 matches, he has already contributed to 3 total points. His ability to convert opportunities has been a key factor in Spain's attacking production. Oyarzabal remains a primary threat as the team prepares for their upcoming match against Uruguay.",
       "story": [],
       "bullets": [
-        "Recorded 2 goals and 1 assist in just 2 matches played.",
-        "Maintains an impressive scoring rate of 1.2 goals per 90 minutes.",
-        "Accumulated a total of 3 points across 144 minutes on the pitch.",
-        "Delivers a high production rate of 1.9 points per 90 minutes.",
-        "Integral part of the Spanish squad currently competing in Group H."
+        "Registered 2 goals and 1 assist in just 144 minutes of play.",
+        "Maintains an impressive 1.2 goals per 90 minutes rate.",
+        "Delivers a strong 1.9 points per 90 minutes efficiency.",
+        "Played a pivotal role in Spain's 4-0 victory over Saudi Arabia.",
+        "Ranked 11th among tournament performers based on current output."
       ],
       "sections": [
         {
-          "title": "Tournament Production",
-          "body": "Oyarzabal has been highly productive in his limited time on the pitch, tallying 2 goals and 1 assist. With 144 minutes played, he has shown an excellent ability to capitalize on his opportunities. This efficiency is reflected in his 1.2 goals per 90 rate."
+          "title": "Clinical Efficiency",
+          "body": "Oyarzabal has maximized his time on the pitch, recording 2 goals and 1 assist across 144 minutes. His per-90 metrics highlight his effectiveness, boasting a 1.2 goals per 90 rate and a 1.9 points per 90 rate. This level of production makes him one of the most efficient forwards in the tournament so far."
         },
         {
-          "title": "Efficiency Metrics",
-          "body": "Beyond his scoring, Oyarzabal has been a consistent source of points for the Spanish team. He currently holds a points per 90 rate of 1.9, highlighting his role as a primary playmaker and finisher. His 3 total points demonstrate his importance to the team's offensive output."
-        },
-        {
-          "title": "Team Context",
-          "body": "Spain's offensive performance has been bolstered by Oyarzabal's presence in the lineup. After a scoreless opening match against Cabo Verde, the team found their rhythm in a 4-0 victory over Saudi Arabia. Oyarzabal's contributions have been central to this improved attacking form."
+          "title": "Tournament Context",
+          "body": "After a scoreless draw against Cabo Verde in the opening match, Oyarzabal and the Spanish attack found their rhythm in a 4-0 win against Saudi Arabia. His presence in the forward line has been instrumental in shifting the team's momentum. He currently sits at rank 11 in the player standings."
         },
         {
           "title": "Looking Ahead",
-          "body": "Spain is set to face Uruguay on June 26th in their final group stage fixture. Fans will be looking to see if Oyarzabal can maintain his high per-90 rates in this crucial matchup. His performance will be vital as Spain aims to secure their standing in Group H."
+          "body": "Spain is set to conclude their group stage campaign against Uruguay on June 26. Given his recent form, Oyarzabal will likely be a focal point for the Spanish offense as they look to secure their standing in Group H. The upcoming match will be a critical test for the team's attacking depth."
         }
       ],
-      "updatedAt": "2026-06-24T16:50:09+00:00",
-      "sourceHash": "86035760a3e7247d",
+      "updatedAt": "2026-06-25T17:54:43+00:00",
+      "sourceHash": "6f5e10d10ae4ab95",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "maximiliano-araujo-uruguay": {
-      "headline": "Maximiliano Araujo: Uruguay's Dynamic Midfield Engine",
-      "summary": "Maximiliano Araujo has emerged as a critical attacking force for Uruguay, demonstrating high efficiency in his two tournament appearances. With 2 goals and 1 assist, he has been involved in significant offensive production for his side. His ability to impact the scoreboard consistently makes him a standout player in Group H. Araujo currently maintains an impressive points-per-90 rate of 1.6.",
+      "headline": "Maximiliano Araujo: Uruguay's Dynamic Midfield Threat",
+      "summary": "Maximiliano Araujo has emerged as a vital offensive engine for Uruguay in the group stage. Through his first 174 minutes of play, he has demonstrated remarkable efficiency in front of the goal. His ability to contribute both as a scorer and a playmaker makes him a standout performer in the midfield. Araujo remains a focal point for Uruguay as they prepare for their upcoming high-stakes match against Spain.",
       "story": [],
       "bullets": [
-        "Contributed 2 goals and 1 assist across 174 minutes of play.",
-        "Maintains a clinical goals-per-90 rate of 1.0.",
-        "Delivering a strong points-per-90 rate of 1.6.",
-        "Key contributor in Uruguay's high-scoring group stage matches.",
-        "Has successfully navigated 2 full matches for the squad."
+        "Registered 2 goals and 1 assist across 2 matches played.",
+        "Maintains a highly efficient 1.0 goals per 90 minutes rate.",
+        "Contributes a solid 1.6 points per 90 minutes for his side.",
+        "Logged 174 total minutes of action in the group stage so far.",
+        "Key offensive contributor in Uruguay's draws against Saudi Arabia and Cabo Verde."
       ],
       "sections": [
         {
-          "title": "Impactful Production",
-          "body": "Araujo has been remarkably efficient in his limited time on the pitch, recording 2 goals and 1 assist. His presence in the midfield has provided Uruguay with a necessary spark during intense group stage encounters. With 174 minutes logged, his output remains one of the most productive among his teammates."
+          "title": "Clinical Efficiency",
+          "body": "Araujo has been exceptionally sharp in his limited time on the pitch. With 2 goals scored over 174 minutes, his 1.0 goals per 90 rate highlights his ability to capitalize on scoring opportunities. He is proving to be one of the most lethal midfielders in the tournament relative to his playing time."
         },
         {
-          "title": "Efficiency and Scoring Rate",
-          "body": "The midfielder is currently operating at a goals-per-90 rate of 1.0, highlighting his effectiveness when presented with opportunities. This scoring efficiency is complemented by a solid points-per-90 rate of 1.6. These metrics underscore his role as a primary offensive threat for Uruguay."
+          "title": "Playmaking Impact",
+          "body": "Beyond his scoring prowess, Araujo has displayed versatility by adding 1 assist to his tally. His total of 3 points reflects his dual-threat nature as both a finisher and a creator. This balanced production is a major reason he ranks 12th among players."
         },
         {
           "title": "Tournament Context",
-          "body": "Uruguay has navigated two challenging matches, drawing against both Saudi Arabia and Cabo Verde. Araujo has been a central figure in these high-stakes fixtures, helping the team maintain offensive momentum. His performance has been instrumental in keeping Uruguay competitive within Group H."
+          "body": "Uruguay has relied on Araujo throughout their opening fixtures against Saudi Arabia and Cabo Verde. As the team navigates a challenging Group H, his consistency in the midfield has been a stabilizing force. His output has directly influenced the team's ability to remain competitive in tight matches."
         },
         {
           "title": "Looking Ahead",
-          "body": "As Uruguay prepares for their upcoming Matchday 3 fixture against Spain, Araujo's form will be vital. The match is scheduled for June 26th and will serve as a definitive test for the squad's progression. Fans will be watching to see if he can carry his current scoring momentum into this crucial final group game."
+          "body": "The next test for Araujo and Uruguay is a critical Matchday 3 encounter against Spain on June 26. Given his current form and per-90 rates, he will be a player to watch as Uruguay seeks a decisive result. Fans can catch the action on FOX as the group stage concludes."
         }
       ],
-      "updatedAt": "2026-06-24T16:50:13+00:00",
-      "sourceHash": "45686af1c0f569be",
+      "updatedAt": "2026-06-25T17:54:56+00:00",
+      "sourceHash": "991b3b1c92aa2b44",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "ayase-ueda-japan": {
       "headline": "Ayase Ueda: The Spearhead of Japan's Attack",
-      "summary": "Ayase Ueda has emerged as a critical offensive force for Japan during the group stage. Through his first 174 minutes of play, he has demonstrated remarkable efficiency in front of the net. His ability to contribute both as a scorer and a playmaker has been vital to Japan's unbeaten start in Group F. As Japan heads into their final group match, Ueda remains a focal point for their attacking strategy.",
+      "summary": "Ayase Ueda has emerged as a clinical force for Japan in the group stage, directly contributing to three goals across his two appearances. With 174 minutes played, he has proven to be an incredibly efficient outlet for his team. His ability to find the net and create opportunities has been central to Japan's offensive success so far.",
       "story": [
-        "Ayase Ueda has been a standout performer for Japan, delivering high-impact production in limited time.",
-        "With 2 goals and 1 assist, he has been directly involved in a significant portion of Japan's offensive output.",
-        "His efficiency is highlighted by a goals-per-90 rate of 1.0, underscoring his clinical nature in the penalty area.",
-        "Having played in both the draw against the Netherlands and the victory over Tunisia, Ueda is a proven commodity in this tournament."
+        "Ayase Ueda has been a standout performer for Japan, demonstrating high-level efficiency in front of goal.",
+        "Across 174 minutes, he has recorded 2 goals and 1 assist, totaling 3 points.",
+        "His per-90 metrics highlight his impact, with a goals-per-90 rate of 1.0 and a points-per-90 rate of 1.6.",
+        "As Japan prepares for their final group stage match against Sweden, Ueda remains a focal point of their attacking strategy."
       ],
       "bullets": [
-        "Recorded 2 goals and 1 assist in 174 minutes of play.",
-        "Maintains an impressive 1.0 goals-per-90 rate.",
-        "Accumulated 3 points across two group stage appearances.",
-        "A key contributor to Japan's 4-0 win against Tunisia.",
-        "Currently ranked 8th among tournament players for his production."
+        "Contributed to 3 total points in just 2 matches.",
+        "Maintains a clinical 1.0 goals-per-90 rate.",
+        "Logged 174 minutes of action during the group stage.",
+        "Registered 2 goals and 1 assist to lead the offensive charge.",
+        "Achieved a points-per-90 rate of 1.6."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Ueda has maximized his time on the pitch, proving to be one of the most efficient forwards in the tournament. His 1.0 goals-per-90 rate reflects a high level of composure when presented with scoring opportunities. This efficiency has been a cornerstone of Japan's ability to pressure opponents throughout the group stage."
+          "body": "Ueda has been remarkably sharp, converting his opportunities with a goals-per-90 rate of 1.0. His efficiency ensures that Japan maximizes their time in the final third, turning possession into tangible results."
         },
         {
-          "title": "Impact on Results",
-          "body": "With 3 points to his name, Ueda has been instrumental in securing results for Japan. His involvement in the 2-2 draw against the Netherlands and the dominant 4-0 performance against Tunisia highlights his consistency. He has proven he can produce against varied defensive setups."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "As Japan prepares to face Sweden on June 25, Ueda will look to build upon his current form. Having already logged 174 minutes, he is well-acclimated to the tournament's pace and intensity. Supporters will be watching to see if he can maintain his high points-per-90 rate of 1.6 in the final group match."
+          "title": "Tournament Impact",
+          "body": "Through 174 minutes of play, Ueda has been involved in 3 points, showcasing his dual threat as both a scorer and a playmaker. His performance has been a key driver in Japan's ability to navigate their group stage fixtures effectively."
         },
         {
           "title": "Team Context",
-          "body": "Ueda sits at the heart of a Japanese attack that has shown great versatility during the group stage. His role as a forward allows him to link play effectively, as evidenced by his assist tally. His performance remains a primary reason for Japan's strong standing in Group F."
+          "body": "Japan's attack has flourished with Ueda at the helm, coming off a dominant 4-0 victory against Tunisia. Having already secured a draw against the Netherlands, the team looks to maintain this momentum in their upcoming match against Sweden."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "With the group stage concluding, all eyes are on the upcoming match against Sweden on June 25. Ueda's current form will be vital as Japan looks to solidify their standing in Group F."
         }
       ],
-      "updatedAt": "2026-06-24T16:50:17+00:00",
-      "sourceHash": "2f48a5bfdd83c7e7",
+      "updatedAt": "2026-06-25T17:55:12+00:00",
+      "sourceHash": "6d988ec6d160e037",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "cody-gakpo-netherlands": {
       "headline": "Cody Gakpo: The Netherlands' Dynamic Offensive Catalyst",
-      "summary": "Cody Gakpo has emerged as a central figure for the Netherlands, demonstrating clinical efficiency in the opening stages of the tournament. Through his first 2 matches, he has been directly involved in 3 points, showcasing his ability to both score and create for his teammates. With 182 minutes played, his high output makes him one of the most productive forwards in the competition. As the group stage concludes, Gakpo remains a vital component of the Dutch attacking strategy.",
+      "summary": "Cody Gakpo has emerged as a central figure for the Netherlands, demonstrating clinical efficiency in the opening stages of the tournament. Through his first 182 minutes of play, he has been directly involved in three goals. His ability to contribute both as a scorer and a creator makes him a vital asset for the Dutch attack. As the group stage concludes, Gakpo remains a player to watch for his high-impact production.",
       "story": [],
       "bullets": [
-        "Registered 2 goals and 1 assist across 2 tournament matches.",
-        "Maintains an impressive 1.0 goals per 90 minutes rate.",
-        "Contributed to a total of 3 points in 182 minutes of action.",
-        "Delivering a high-impact 1.5 points per 90 minutes.",
-        "Key contributor to the Netherlands' strong start in Group F."
+        "Contributed 2 goals and 1 assist across 2 matches played.",
+        "Maintains an impressive scoring rate of 1.0 goals per 90 minutes.",
+        "Averaging 1.5 points per 90 minutes of action.",
+        "Totaled 182 minutes on the pitch during the group stage.",
+        "Key contributor to the Netherlands' high-scoring performance against Sweden."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Gakpo has been remarkably efficient in front of goal, converting his opportunities at a high rate. His 1.0 goals per 90 minutes demonstrates his ability to capitalize on chances when the team needs it most."
+          "body": "Gakpo has been remarkably efficient in his limited time on the field. With 2 goals in just 182 minutes, he is currently operating at a rate of 1.0 goals per 90 minutes. This level of output highlights his importance as a primary threat in the final third."
         },
         {
-          "title": "A Dual-Threat Forward",
-          "body": "Beyond his goal-scoring, Gakpo has proven to be a versatile playmaker for the Netherlands. By recording an assist alongside his 2 goals, he has reached 3 points total, proving he is just as dangerous as a creator as he is a finisher."
+          "title": "Dual-Threat Production",
+          "body": "Beyond his goal-scoring, Gakpo has proven to be a versatile playmaker. By adding an assist to his tally, he has accumulated 3 total points so far. His points per 90 rate of 1.5 underlines his consistent influence on the team's offensive output."
         },
         {
-          "title": "Tournament Workload",
-          "body": "Having logged 182 minutes over 2 matches, Gakpo is clearly a primary option for his side. His consistent presence on the pitch has allowed him to sustain a points per 90 rate of 1.5, highlighting his reliability in high-stakes environments."
+          "title": "Team Context and Impact",
+          "body": "The Netherlands' attack has looked potent, particularly in their recent 5-1 victory over Sweden. Gakpo has been at the heart of this success, helping the team navigate through a challenging group. His presence on the field has been a constant factor in the team's ability to find the back of the net."
         },
         {
-          "title": "Group Stage Outlook",
-          "body": "The Netherlands have enjoyed a productive start to their campaign, including a dominant 5-1 victory over Sweden. With a final group match against Tunisia approaching on June 25, Gakpo will look to build on his current form to help his team secure their position."
+          "title": "Looking Ahead",
+          "body": "With the group stage concluding, the Netherlands prepare for their upcoming fixture against Tunisia on June 25. Gakpo will look to build upon his current form to help secure a strong finish for his side. His performance in this final group match will be crucial for the team's momentum heading into the next stage."
         }
       ],
-      "updatedAt": "2026-06-24T16:51:07+00:00",
-      "sourceHash": "4445e3028398b54b",
+      "updatedAt": "2026-06-25T17:55:25+00:00",
+      "sourceHash": "f3e993441e7e7938",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "jose-vinicius-junior-brazil": {
-      "headline": "Jose Vinicius Junior: Brazil's Dynamic Attacking Force",
-      "summary": "Jose Vinicius Junior has established himself as a vital component of Brazil's attack through two group stage matches. With a blend of goal-scoring prowess and creative playmaking, he has contributed directly to three points for his side. His efficiency on the pitch has been a standout feature as Brazil navigates Group C. He remains a focal point for the team as they look ahead to their final group stage fixture.",
-      "story": [],
+      "headline": "Jose Vinicius Junior: The Spearhead of Brazil's Attack",
+      "summary": "Jose Vinicius Junior has been a dominant force for Brazil throughout the group stage, currently ranking second in tournament production. With 4 goals and 1 assist in just 3 matches, he has proven to be an essential component of the Brazilian offensive unit. His high efficiency is reflected in his impressive per-90 rates as he heads into the knockout rounds.",
+      "story": [
+        "Jose Vinicius Junior has been a dominant force for Brazil throughout the group stage, currently ranking second in tournament production.",
+        "With 4 goals and 1 assist in just 3 matches, he has proven to be an essential component of the Brazilian offensive unit.",
+        "His high efficiency is reflected in his impressive per-90 rates as he heads into the knockout rounds."
+      ],
       "bullets": [
-        "Contributed 2 goals and 1 assist across 2 tournament matches.",
-        "Maintains an impressive 0.9 goals per 90 minutes.",
-        "Logged 191 total minutes of action for Brazil.",
-        "Generating 1.4 points per 90 minutes of play.",
-        "Key contributor in Brazil's 3-0 victory over Haiti."
+        "Ranked 2nd in overall player performance.",
+        "Contributed 4 goals and 1 assist across 3 matches played.",
+        "Maintained a clinical 1.2 goals per 90 minutes.",
+        "Averaged 1.5 points per 90 minutes during the group stage.",
+        "Logged 294 total minutes of action for Brazil."
       ],
       "sections": [
         {
-          "title": "Impactful Production",
-          "body": "Vinicius Junior has been highly productive in his 191 minutes of tournament play. By recording 2 goals and 1 assist, he has proven to be a reliable threat in the final third. His ability to influence the scoreboard consistently makes him a dangerous asset for the Brazilian squad."
+          "title": "Clinical Efficiency",
+          "body": "Vinicius Junior has demonstrated remarkable precision in front of the net, netting 4 goals in only 294 minutes of play. His rate of 1.2 goals per 90 minutes highlights his ability to capitalize on scoring opportunities consistently. This efficiency makes him one of the most dangerous forwards in the current tournament field."
         },
         {
-          "title": "Efficiency Metrics",
-          "body": "The forward is currently operating at a high level of efficiency, boasting a goals per 90 rate of 0.9. This statistical output highlights his clinical nature when provided with opportunities. Furthermore, his 1.4 points per 90 rate underscores his overall value to the team's offensive structure."
-        },
-        {
-          "title": "Tournament Context",
-          "body": "After a hard-fought 1-1 draw against Morocco in the opening match, Vinicius Junior helped propel Brazil to a dominant 3-0 win against Haiti. These results have solidified his role as a primary attacking outlet. His performance levels have been instrumental in Brazil's current standing within Group C."
+          "title": "Group Stage Impact",
+          "body": "Throughout the three group stage matches, Vinicius Junior was instrumental in Brazil securing their position at the top of the group. His contributions were vital in victories against Haiti and Scotland, as well as the opening draw against Morocco. With 5 total points, he has been directly involved in a significant portion of Brazil's offensive output."
         },
         {
           "title": "Looking Ahead",
-          "body": "Brazil is set to face Scotland on June 24 at 18:00 ET in their final group stage match. Vinicius Junior will look to carry his current form into this crucial encounter. Fans can catch the action on FOX as Brazil aims to close out the group stage on a high note."
+          "body": "As Brazil advances to the Round of 32, the team will rely on Vinicius Junior to maintain his high level of production. He is scheduled to lead the attack against the runner-up from Group F on June 29th. His ability to sustain his 1.5 points per 90 rate will be crucial as the stakes rise in the knockout phase."
         }
       ],
-      "updatedAt": "2026-06-24T16:51:12+00:00",
-      "sourceHash": "f2389a61efcddb30",
+      "updatedAt": "2026-06-25T17:52:46+00:00",
+      "sourceHash": "9be7a6898ce5e33b",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3270,36 +3252,41 @@
       "refreshReason": "player stats or prompt changed"
     },
     "matheus-cunha-brazil": {
-      "headline": "Matheus Cunha: Brazil's High-Efficiency Scoring Threat",
-      "summary": "Matheus Cunha has emerged as a lethal option for Brazil, demonstrating incredible efficiency in limited action. Through his first 2 matches, he has already found the back of the net twice. With a goals-per-90 rate of 1.7, he is making a strong case for increased involvement as the tournament progresses. His ability to capitalize on opportunities makes him a standout performer in the Brazilian attack.",
-      "story": [],
+      "headline": "Matheus Cunha: Brazil's Clinical Forward",
+      "summary": "Matheus Cunha has emerged as a vital offensive force for Brazil during the group stage. With 3 goals in just 191 minutes of play, he has demonstrated remarkable efficiency in front of the net. His ability to capitalize on opportunities has been a highlight of Brazil's campaign. As the team moves into the knockout rounds, his form will be critical for their success.",
+      "story": [
+        "Matheus Cunha has been a standout performer for Brazil, ranking 7th in player performance metrics.",
+        "His scoring rate of 1.4 goals per 90 minutes highlights his clinical nature when on the pitch.",
+        "Across 3 matches, he has consistently contributed to Brazil's offensive output.",
+        "With the team advancing to the Round of 32, Cunha remains a primary threat for opposing defenses."
+      ],
       "bullets": [
-        "Scored 2 goals in just 109 minutes of action.",
-        "Maintains an impressive 1.7 goals per 90 minutes.",
-        "Totaled 2 points across his 2 tournament appearances.",
-        "A key contributor to Brazil's offensive output in Group C.",
-        "Currently operating at a 1.7 points per 90 rate."
+        "Scored 3 goals in 3 matches played.",
+        "Maintains an impressive 1.4 goals per 90 minutes.",
+        "Logged 191 total minutes of tournament action.",
+        "Accounted for 3 total points in the group stage.",
+        "Key contributor to Brazil's undefeated group phase."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Cunha has been remarkably clinical during his time on the pitch. By scoring 2 goals in only 109 minutes, he has proven that he does not need a full match to impact the scoreboard. His 1.7 goals-per-90 rate highlights his status as one of the most efficient finishers in the current competition."
+          "body": "Cunha has proven to be one of the most efficient forwards in the tournament. By netting 3 goals in only 191 minutes, he maintains a stellar 1.4 goals per 90 rate. This level of production suggests he is making the most of every opportunity provided."
         },
         {
-          "title": "Tournament Impact",
-          "body": "Across his 2 matches played, Cunha has been a vital part of Brazil's forward line. He has accumulated 2 points, reflecting his direct involvement in the team's success. His ability to produce at such a high rate per 90 minutes provides Brazil with a significant tactical advantage."
-        },
-        {
-          "title": "Team Context",
-          "body": "Brazil's group stage campaign has been defined by strong performances, including a 1-1 draw against Morocco and a 3-0 victory over Haiti. Cunha has been instrumental in these fixtures, helping the squad navigate the challenges of Group C. His presence adds a layer of depth that keeps opposing defenses on high alert."
+          "title": "Group Stage Impact",
+          "body": "Brazil's path through Group C included matches against Morocco, Haiti, and Scotland. Cunha was instrumental in these fixtures, helping the team secure victories and move into the knockout stage. His presence in the forward line has provided a consistent scoring threat."
         },
         {
           "title": "Looking Ahead",
-          "body": "With Brazil set to face Scotland on June 24th, all eyes will be on whether Cunha can maintain his scoring momentum. As the group stage concludes, his high-efficiency production will be a focal point for the team's strategy. Fans will be eager to see if he can carry this form into the next match."
+          "body": "Following a successful group campaign, Brazil is now set to face the runner-up of Group F in the Round of 32. This upcoming match on June 29th will be a test of the team's momentum. Cunha will look to carry his group stage form into this high-stakes knockout environment."
+        },
+        {
+          "title": "Statistical Profile",
+          "body": "With 3 goals and 3 total points, Cunha is currently a top-tier performer in the competition. His per-90 metrics for both goals and points sit at 1.4, underscoring his high impact relative to his time on the field. He continues to be a focal point of Brazil's attacking strategy."
         }
       ],
-      "updatedAt": "2026-06-24T16:51:24+00:00",
-      "sourceHash": "a0d4bd67625a7dcd",
+      "updatedAt": "2026-06-25T17:53:52+00:00",
+      "sourceHash": "6e11297169131776",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3340,36 +3327,36 @@
       "refreshReason": "player stats or prompt changed"
     },
     "ismael-saibari-morocco": {
-      "headline": "Ismael Saibari: Morocco's Clinical Forward",
-      "summary": "Ismael Saibari has emerged as a key offensive threat for Morocco during the group stage. With 2 goals across 181 minutes, he has demonstrated impressive efficiency in front of the net. His ability to impact the scoreboard has been vital to Morocco's standing in Group C.",
+      "headline": "Ismael Saibari: The Clinical Midfield Engine for Morocco",
+      "summary": "Ismael Saibari has emerged as a standout performer for Morocco, demonstrating remarkable efficiency in the midfield. With 3 goals across 3 matches, he has proven to be a vital offensive outlet for his team. His ability to impact the scoreboard while logging 255 minutes of action makes him a key player to watch as Morocco advances to the knockout stages.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in 2 matches played.",
-        "Maintains a productive 1.0 goals per 90 minutes rate.",
-        "Logged 181 total minutes of tournament action.",
-        "Currently holds 2 total points in the competition.",
-        "Key contributor in Morocco's unbeaten start to the group stage."
+        "Scored 3 goals in 3 tournament appearances",
+        "Maintains a prolific 1.1 goals per 90 minutes",
+        "Logged 255 total minutes of play",
+        "Averaging 1.1 points per 90 minutes",
+        "Key contributor to Morocco's successful Group C campaign"
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Saibari has been highly effective with his limited opportunities on the pitch. His 1.0 goals per 90 rate highlights his ability to capitalize on scoring chances when they arrive."
+          "title": "Scoring Efficiency",
+          "body": "Saibari has been exceptionally clinical, converting his opportunities into 3 goals during the group stage. His rate of 1.1 goals per 90 minutes highlights his ability to find the back of the net consistently when on the pitch."
         },
         {
           "title": "Tournament Impact",
-          "body": "Across his 181 minutes of play, Saibari has been a central figure in Morocco's attack. His 2 goals have directly contributed to the team's points tally, proving his value as a forward."
+          "body": "Across 255 minutes of play, Saibari has established himself as a central figure in Morocco's tactical setup. His consistent output has been instrumental in helping the team navigate through a challenging Group C schedule."
         },
         {
-          "title": "Group Stage Context",
-          "body": "Morocco has navigated a challenging group stage with a draw against Brazil and a victory over Scotland. Saibari's presence has been a steadying force for the team as they look ahead to their final group match."
+          "title": "Team Performance Context",
+          "body": "Morocco's journey included a draw against Brazil, a narrow victory over Scotland, and a high-scoring 4-2 win against Haiti. Saibari's presence in the midfield has been a constant throughout these varied match scenarios."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluding against Haiti on June 24, all eyes will be on Saibari to see if he can maintain his scoring form. Morocco will rely on his offensive output to secure a strong position moving forward."
+          "body": "With the group stage concluded, Morocco is set to face the winner of Group F in the Round of 32. Saibari will look to carry his scoring momentum into this high-stakes knockout fixture."
         }
       ],
-      "updatedAt": "2026-06-24T16:51:41+00:00",
-      "sourceHash": "cb0fa61aca61a801",
+      "updatedAt": "2026-06-25T17:54:04+00:00",
+      "sourceHash": "d85185f30cc8179a",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
