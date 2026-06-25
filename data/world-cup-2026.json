@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24",
+  "generatedAt": "2026-06-25",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -1738,9 +1738,25 @@
       "timezoneLabel": "ET",
       "home": "Morocco",
       "away": "Haiti",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "atlanta"
+      "venueId": "atlanta",
+      "homeScore": 4,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-25T02:12:52+00:00",
+          "title": "Morocco vs Haiti Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=37c0v5fkCLI",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-25T02:12:52+00:00"
+      }
     },
     {
       "id": 52,
@@ -1753,9 +1769,25 @@
       "timezoneLabel": "ET",
       "home": "Scotland",
       "away": "Brazil",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "miami"
+      "venueId": "miami",
+      "homeScore": 0,
+      "awayScore": 3,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-25T02:13:23+00:00",
+          "title": "Scotland vs Brazil Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=fWN13Oe4kA0",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-25T02:13:23+00:00"
+      }
     },
     {
       "id": 53,
@@ -2096,13 +2128,14 @@
       "date": "2026-06-29",
       "time": "21:00",
       "home": "Winner Group F",
-      "away": "Runner-up Group C",
+      "away": "Morocco",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "monterrey",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760488"
+      "espnEventId": "760488",
+      "awaySource": "Runner-up Group C"
     },
     {
       "id": 76,
@@ -2110,14 +2143,15 @@
       "round": "Knockout",
       "date": "2026-06-29",
       "time": "13:00",
-      "home": "Winner Group C",
+      "home": "Brazil",
       "away": "Runner-up Group F",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "houston",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760487"
+      "espnEventId": "760487",
+      "homeSource": "Winner Group C"
     },
     {
       "id": 77,
@@ -2544,7 +2578,7 @@
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-24T22:36:19+00:00",
+  "scheduleUpdatedAt": "2026-06-25T01:52:39+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2708,6 +2742,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-24T21:00:25+00:00",
+  "bracketUpdatedAt": "2026-06-25T01:52:41+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
