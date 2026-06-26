@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-06-25",
+  "generatedAt": "2026-06-26",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -1924,9 +1924,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Tunisia",
       "away": "Netherlands",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "kansas-city"
+      "venueId": "kansas-city",
+      "homeScore": 1,
+      "awayScore": 3,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-26T04:58:47+00:00",
+          "title": "Tunisia vs Netherlands Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=o0AmHN-XnOs",
+          "channel": "FOX Sports",
+          "durationText": "13 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-26T04:58:47+00:00"
+      }
     },
     {
       "id": 58,
@@ -1939,9 +1955,25 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Japan",
       "away": "Sweden",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "dallas"
+      "venueId": "dallas",
+      "homeScore": 1,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-26T04:59:22+00:00",
+          "title": "Japan vs Sweden Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=CerrE-MoofY",
+          "channel": "FOX Sports",
+          "durationText": "13 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-26T04:59:22+00:00"
+      }
     },
     {
       "id": 59,
@@ -1956,7 +1988,21 @@ window.WORLD_CUP_DATA = {
       "away": "United States",
       "status": "scheduled",
       "network": "FOX",
-      "venueId": "los-angeles"
+      "venueId": "los-angeles",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-26T04:59:57+00:00",
+          "title": "T\u00fcrkiye vs United States Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=7JJLMyKBG90",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-26T04:59:57+00:00"
+      }
     },
     {
       "id": 60,
@@ -1971,7 +2017,21 @@ window.WORLD_CUP_DATA = {
       "away": "Australia",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "sf-bay"
+      "venueId": "sf-bay",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-26T05:00:39+00:00",
+          "title": "Paraguay vs Australia Extended Highlights \ud83c\udf0e\ud83c\udfc6  2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=NdgZtyReLbY",
+          "channel": "FOX Sports",
+          "durationText": "12 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-26T05:00:39+00:00"
+      }
     },
     {
       "id": 61,
@@ -2192,7 +2252,7 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-06-29",
       "time": "21:00",
-      "home": "Winner Group F",
+      "home": "Netherlands",
       "away": "Morocco",
       "status": "scheduled",
       "network": "TBD",
@@ -2200,7 +2260,8 @@ window.WORLD_CUP_DATA = {
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760488",
-      "awaySource": "Runner-up Group C"
+      "awaySource": "Runner-up Group C",
+      "homeSource": "Winner Group F"
     },
     {
       "id": 76,
@@ -2209,14 +2270,15 @@ window.WORLD_CUP_DATA = {
       "date": "2026-06-29",
       "time": "13:00",
       "home": "Brazil",
-      "away": "Runner-up Group F",
+      "away": "Japan",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "houston",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760487",
-      "homeSource": "Winner Group C"
+      "homeSource": "Winner Group C",
+      "awaySource": "Runner-up Group F"
     },
     {
       "id": 77,
@@ -2287,14 +2349,15 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-01",
       "time": "20:00",
       "home": "United States",
-      "away": "Best 3rd Group B/E/F/I/J",
+      "away": "Bosnia-Herzegovina",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "sf-bay",
       "homeSource": "Winner Group D",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760494"
+      "espnEventId": "760494",
+      "awaySource": "Best 3rd Group B/E/F/I/J"
     },
     {
       "id": 82,
@@ -2394,14 +2457,15 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-07-03",
       "time": "14:00",
-      "home": "Runner-up Group D",
+      "home": "Australia",
       "away": "Runner-up Group G",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760499"
+      "espnEventId": "760499",
+      "homeSource": "Runner-up Group D"
     },
     {
       "id": 89,
@@ -2644,7 +2708,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-25T22:51:48+00:00",
+  "scheduleUpdatedAt": "2026-06-26T04:36:42+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2808,6 +2872,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-25T22:51:50+00:00",
+  "bracketUpdatedAt": "2026-06-26T04:36:44+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
