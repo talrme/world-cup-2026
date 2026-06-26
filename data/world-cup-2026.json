@@ -2048,9 +2048,25 @@
       "timezoneLabel": "ET",
       "home": "Norway",
       "away": "France",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "boston"
+      "venueId": "boston",
+      "homeScore": 1,
+      "awayScore": 4,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-26T21:57:58+00:00",
+          "title": "Norway vs France Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=VB1B9bkj2xc",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-26T21:57:58+00:00"
+      }
     },
     {
       "id": 62,
@@ -2063,9 +2079,25 @@
       "timezoneLabel": "ET",
       "home": "Senegal",
       "away": "Iraq",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "toronto"
+      "venueId": "toronto",
+      "homeScore": 5,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/results?search_query=Fox+Soccer+Senegal+vs+Iraq+extended+highlights+2026+FIFA+World+Cup",
+          "lastCheckedAt": "2026-06-26T21:58:20+00:00",
+          "title": "Senegal vs Iraq Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=oR3o61OvWLI",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "youtube-search"
+        },
+        "lastCheckedAt": "2026-06-26T21:58:20+00:00"
+      }
     },
     {
       "id": 63,
@@ -2290,14 +2322,15 @@
       "round": "Knockout",
       "date": "2026-06-30",
       "time": "17:00",
-      "home": "Winner Group I",
+      "home": "France",
       "away": "Best 3rd Group C/D/F/G/H",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760492"
+      "espnEventId": "760492",
+      "homeSource": "Winner Group I"
     },
     {
       "id": 78,
@@ -2306,14 +2339,15 @@
       "date": "2026-06-30",
       "time": "13:00",
       "home": "Ivory Coast",
-      "away": "Runner-up Group I",
+      "away": "Norway",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760490",
-      "homeSource": "Runner-up Group E"
+      "homeSource": "Runner-up Group E",
+      "awaySource": "Runner-up Group I"
     },
     {
       "id": 79,
@@ -2712,7 +2746,7 @@
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-26T13:25:33+00:00",
+  "scheduleUpdatedAt": "2026-06-26T21:38:01+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2876,6 +2910,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-26T04:36:44+00:00",
+  "bracketUpdatedAt": "2026-06-26T21:38:04+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
