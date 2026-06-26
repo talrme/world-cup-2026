@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-26T22:08:51+00:00",
+  "generatedAt": "2026-06-26T23:26:37+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -108,39 +108,41 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Egypt Secures Crucial Victory Over New Zealand",
       "summary": "Final: New Zealand 1, Egypt 3. Egypt defeated New Zealand 3-1 at BC Place in Vancouver, moving to the top of Group G with four points. This result leaves New Zealand at the bottom of the table with one point after two matches.",
       "story": [
-        "Egypt delivered a clinical performance at BC Place, overcoming New Zealand 3-1 to seize control of Group G. The victory, earned on June 21, marks a significant turning point in the group stage, positioning Egypt as the team to beat heading into the final round of fixtures.",
-        "For New Zealand, the loss was a difficult setback. After opening their tournament with a hard-fought 2-2 draw against Iran, they were unable to replicate that offensive output against a disciplined Egyptian side. The result leaves them with just one point from two matches, placing immense pressure on their upcoming finale.",
-        "The group dynamics have shifted dramatically following this result. Egypt now sits comfortably at the summit with four points and a positive goal difference of two. Meanwhile, the draw between Belgium and Iran earlier in the day means the race for the remaining qualification spots remains wide open, with Belgium and Iran both sitting on two points.",
-        "Looking ahead, the final matchday in Group G will be decisive. Egypt will face Iran, while New Zealand must take on Belgium. Both matches are scheduled for June 26, and with the group standings so tightly contested, every goal and point will be vital for teams looking to secure their path to the next round."
+        "Egypt delivered a clinical performance at BC Place, taking control of their World Cup destiny with a 3-1 win over New Zealand. The victory provided a significant boost for the North African side, who entered the match following a hard-fought draw against Belgium in their tournament opener.",
+        "For New Zealand, the result was a difficult setback. After showing resilience in a 2-2 draw against Iran in their first match, they were unable to contain the Egyptian attack in Vancouver. The loss leaves the team in a precarious position as they prepare for their final group stage fixture.",
+        "The three points earned in this match propel Egypt to the top of Group G standings with four points from two games. Their disciplined approach has positioned them favorably heading into the final round of group fixtures, where they will face Iran.",
+        "New Zealand now sits at the bottom of the group with only one point. With a goal difference of -2, they face a must-win scenario in their upcoming clash against Belgium to keep their tournament hopes alive.",
+        "The Group G picture remains tight, with only three points separating the top-ranked side from the bottom. As the teams head into the final matchday, every goal and point will be decisive in determining who advances to the knockout stages."
       ],
       "bullets": [
-        "Egypt moves to first place in Group G with 4 points.",
-        "New Zealand remains at the bottom of the group with 1 point.",
-        "The 3-1 win gives Egypt a +2 goal difference, the best in the group."
+        "Egypt leads Group G with 4 points, while New Zealand remains at the bottom with 1 point.",
+        "Egypt's victory provides them with a cushion heading into their final group match against Iran.",
+        "New Zealand must secure a win against Belgium in their next match to have any chance of progressing."
       ],
       "sections": [],
-      "updatedAt": "2026-06-25T19:25:20+00:00",
+      "updatedAt": "2026-06-26T23:24:55+00:00",
       "sourceHash": "cf5771916f97b859",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "41": {
-      "headline": "Argentina Secures Knockout Spot with Win Over Austria",
-      "summary": "Argentina defeated Austria 2-0 at AT&T Stadium to maintain their perfect record in Group J. This result confirms Argentina's dominance in the group stage, while Austria remains in a tight battle for the remaining qualification spots.",
+      "headline": "Argentina Dominates Austria to Secure Group J Control",
+      "summary": "Argentina defeated Austria 2-0 at AT&T Stadium, maintaining their perfect start to the tournament. This result moves Argentina to six points and keeps them firmly at the top of Group J after two matches.",
       "story": [
-        "Argentina continued their clinical form in the 2026 World Cup, dispatching Austria 2-0 in a commanding performance at AT&T Stadium in Arlington. The victory, which followed their opening 3-0 win against Algeria, solidified their position at the top of Group J with six points from two matches.",
-        "The match was defined by Argentina's defensive solidity and efficiency, as they kept their second consecutive clean sheet of the tournament. By limiting Austria's opportunities, they controlled the tempo of the game and ensured that their path to the Round of 32 remains clear and secure.",
-        "For Austria, the loss keeps them on three points, putting significant pressure on their final group stage fixture against Algeria. With the group standings currently showing Argentina leading with six points, followed by Austria and Algeria tied at three points apiece, the final matchday will be decisive for determining the second qualifier from the group.",
-        "Argentina now looks ahead to their final group match against Jordan, where they will aim to complete a perfect group stage campaign. Meanwhile, Austria must regroup quickly to secure a positive result against Algeria to keep their tournament aspirations alive."
+        "Argentina continued their clinical form in Group J with a controlled 2-0 victory over Austria in Arlington. Playing at AT&T Stadium on June 22, the side demonstrated why they are currently the team to beat in the group, backing up their opening 3-0 win against Algeria with another clean sheet.",
+        "The match was a significant test for Austria, who entered the contest with three points after their own opening victory. However, Argentina\u2019s defensive solidity proved too much to overcome, as they limited Austria\u2019s opportunities and managed the game effectively to secure all three points.",
+        "With this win, Argentina sits comfortably at the top of the table with six points and a +5 goal difference. They have yet to concede a goal in the tournament, establishing themselves as the clear favorites to advance from the group.",
+        "For Austria, the loss keeps them at three points, level with Algeria in the race for the second qualification spot. The group remains competitive, and Austria\u2019s final match against Algeria will now be a decisive fixture in determining their path to the knockout stages.",
+        "Argentina now looks ahead to their final group stage match against Jordan on June 27. Having already secured their position, they will aim to finish the group phase with a perfect record before shifting their focus to the Round of 32."
       ],
       "bullets": [
-        "Argentina remains undefeated and unscored upon through two group matches.",
-        "The win guarantees Argentina a place in the Round of 32.",
-        "Austria and Algeria are now locked in a critical race for the second qualifying spot in Group J."
+        "Argentina remains undefeated and unscored upon through two matches, holding a commanding lead in Group J.",
+        "The loss leaves Austria tied on points with Algeria, setting up a high-stakes showdown in the final group matchday.",
+        "Argentina has officially qualified for the knockout phase, with their Round of 32 match scheduled for July 3."
       ],
       "sections": [],
-      "updatedAt": "2026-06-25T19:25:08+00:00",
+      "updatedAt": "2026-06-26T23:24:40+00:00",
       "sourceHash": "9ee29334574d29a4",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -189,21 +191,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "44": {
-      "headline": "Algeria secures vital victory over Jordan",
-      "summary": "Final: Jordan 1, Algeria 2. Algeria defeated Jordan 2-1 in a crucial Group J matchup at Levi's Stadium. The result keeps Algeria's knockout stage hopes alive while leaving Jordan without a point through two matches.",
+      "headline": "Algeria Secures Vital Win Over Jordan",
+      "summary": "Final: Jordan 1, Algeria 2. Algeria defeated Jordan 2-1 in a pivotal Group J encounter at Levi's Stadium. This result keeps Algeria's knockout stage hopes alive while leaving Jordan searching for their first point of the tournament.",
       "story": [
-        "Algeria claimed a hard-fought 2-1 victory against Jordan in their second group stage fixture, held at Levi's Stadium in the San Francisco Bay Area. The win was essential for Algeria, who entered the match looking to bounce back following their opening loss to Argentina.",
-        "For Jordan, the result is a difficult blow. Despite a competitive effort, they remain at the bottom of Group J with zero points after two matches. Having also fallen to Austria in their tournament opener, Jordan now faces a steep uphill battle as they prepare for their final group stage game against Argentina.",
-        "The victory moves Algeria to three points in the group standings, placing them level with Austria. This sets the stage for a high-stakes showdown between Algeria and Austria on June 27, where both teams will be fighting for position and the potential to advance.",
-        "As the group stage reaches its conclusion, the pressure is mounting. Argentina currently leads the group with six points, while the battle for the remaining qualification spots remains tight. Algeria's ability to capitalize on this match against Jordan provides them with the momentum needed for their upcoming decisive fixture."
+        "In a high-stakes Matchday 2 clash held in the San Francisco Bay Area, Algeria managed to edge past Jordan with a 2-1 victory. The win was essential for the North African side, providing them with their first three points of the tournament after a difficult opening loss to Argentina.",
+        "For Jordan, the result was a difficult blow. Despite a competitive effort, they remain at the bottom of Group J with zero points from their first two matches. Having also fallen to Austria in their opener, Jordan now faces a daunting final group stage test against Argentina.",
+        "The victory shifts the dynamic of Group J significantly. With Argentina leading the table on six points, the race for the second spot remains tight. Algeria now sits level on three points with Austria, setting up a dramatic showdown between those two nations in the final round of group matches.",
+        "As the group enters its conclusion, the pressure is immense. Algeria will look to build on this momentum when they face Austria, while Jordan will aim to finish their campaign on a high note against the group leaders. Every goal and point will be critical as the teams fight for a place in the next round."
       ],
       "bullets": [
-        "Algeria earned their first three points of the tournament, moving into a tie with Austria for second place in Group J.",
-        "Jordan remains winless after two matches and faces a difficult final group game against Argentina.",
-        "The result sets up a critical Matchday 3 clash between Algeria and Austria to determine final group positioning."
+        "Algeria earned their first points of the tournament, moving into a tie with Austria for second place in Group J.",
+        "Jordan remains winless after two matches and faces a difficult final fixture against Argentina.",
+        "The group stage concludes on June 27, with the final standings set to be determined by the results of the Algeria-Austria and Jordan-Argentina matches."
       ],
       "sections": [],
-      "updatedAt": "2026-06-25T19:24:30+00:00",
+      "updatedAt": "2026-06-26T23:24:26+00:00",
       "sourceHash": "a3ab97cdfc1de537",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -674,25 +676,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "56": {
-      "headline": "Ecuador Stuns Germany in Group E Finale",
-      "summary": "Ecuador secured a hard-fought 2-1 victory over Germany at MetLife Stadium to conclude their group stage campaign. Despite the loss, Germany finished at the top of Group E, while Ecuador finished third with four points.",
+      "headline": "Ecuador Upsets Germany in Group E Finale",
+      "summary": "Ecuador secured a hard-fought 2-1 victory over Germany at MetLife Stadium in their final Group E match. Despite the defeat, Germany finished at the top of the group standings to advance to the Round of 32. The result leaves Ecuador with 4 points, concluding their tournament run.",
       "story": [
-        "In a dramatic conclusion to Group E at MetLife Stadium, Ecuador claimed a 2-1 win over Germany. The result provided a spirited finish for Ecuador, who had previously struggled to find the back of the net in their opening two matches against Ivory Coast and Curacao.",
-        "For Germany, the defeat did not derail their standing in the tournament. Having entered the match with two prior wins, they maintained their position at the top of the group table with six points and a strong goal difference of plus-six.",
-        "The match in East Rutherford saw Ecuador capitalize on their opportunities to edge out the group leaders. This victory brings Ecuador's total to four points, though they ultimately finished behind Germany and Ivory Coast in the final group standings.",
-        "Looking ahead, Germany now shifts its focus to the Round of 32. As winners of Group E, they are scheduled to return to the pitch on June 29 to face the best third-place finisher from Group A, B, C, D, or F."
+        "In a high-stakes clash at MetLife Stadium in East Rutherford, Ecuador delivered a spirited performance to overcome Germany 2-1. The match served as the final fixture for both sides in Group E, with Germany entering the contest having already established a strong position at the top of the table.",
+        "For Germany, the match was a rare stumble in an otherwise dominant group stage campaign. Having previously dispatched Curacao 7-1 and edged Ivory Coast 2-1, the German side entered this final group outing with confidence. Despite the loss to Ecuador, Germany maintained their status as group winners with 6 points and a superior goal difference.",
+        "Ecuador\u2019s victory provided a positive conclusion to their tournament journey. After opening with a narrow 1-0 loss to Ivory Coast and playing to a scoreless draw against Curacao, the team found their scoring touch against the group leaders. The win brought their total to 4 points, though it was ultimately not enough to overcome the points tallies of Germany and Ivory Coast.",
+        "The final Group E standings see Germany and Ivory Coast advancing to the knockout stages, both finishing with 6 points. Germany now looks ahead to their Round of 32 fixture on June 29, where they will face the best third-placed team from groups A, B, C, D, or F."
       ],
       "bullets": [
-        "Germany finished first in Group E with 6 points, despite the 2-1 loss to Ecuador.",
-        "Ecuador concluded their group stage with 4 points after a win, a draw, and a loss.",
-        "Germany advances to the Round of 32, with their next match set for June 29."
+        "Germany finished first in Group E with 6 points, securing their spot in the Round of 32.",
+        "Ecuador concluded their tournament with 4 points following the 2-1 win.",
+        "The match was held at MetLife Stadium in East Rutherford, New Jersey."
       ],
       "sections": [],
-      "updatedAt": "2026-06-25T23:16:43+00:00",
+      "updatedAt": "2026-06-26T23:23:57+00:00",
       "sourceHash": "fc185cf15fe45a09",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "57": {
       "headline": "Netherlands Secure Top Spot in Group F with Victory Over Tunisia",
@@ -778,22 +780,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "61": {
-      "headline": "Group I Supremacy on the Line in Foxborough",
-      "summary": "Norway and France meet at Gillette Stadium with both teams already qualified for the knockout stages after perfect starts to their campaigns. With six points each, this match will decide who finishes at the top of Group I. The winner will claim the group crown, while a draw would leave France in the top spot based on their superior goal difference.",
+      "headline": "France Dominates Norway to Clinch Group I Perfection",
+      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway at Gillette Stadium to finish their group stage campaign with a perfect record. The result solidified France's position at the top of Group I, while Norway advanced to the knockout stages as the group runner-up.",
       "story": [
-        "The stakes for this Matchday 3 encounter are clear: the winner takes control of Group I. Both Norway and France have been dominant, each securing two victories to reach six points. France enters the match with a slight edge in the standings, boasting a +5 goal difference compared to Norway's +4, meaning they only need a draw to secure the first-place finish.",
-        "France has looked formidable throughout the group stage, dispatching Senegal 3-1 and Iraq 3-0. Their defensive organization has been a standout feature, conceding only a single goal across their first two matches while maintaining a consistent offensive output.",
-        "Norway has been equally impressive in their pursuit of the top spot, though their path has been slightly more high-scoring. After a commanding 4-1 victory over Iraq in their opener, they survived a back-and-forth thriller against Senegal, ultimately winning 3-2. Their ability to find the back of the net has been their hallmark, leading the group with seven goals scored.",
-        "The match at Gillette Stadium in Foxborough serves as the final test for both sides before the knockout rounds begin. With both teams having already punched their tickets to the next stage, the focus shifts to seeding and momentum. A victory here would provide a significant psychological boost and a potentially more favorable path in the tournament bracket."
+        "In a high-stakes clash at Boston Stadium, France demonstrated their tournament credentials by dismantling Norway 4-1. The victory ensured that France swept all three of their group matches, finishing with a commanding nine points and a goal difference of plus-eight.",
+        "For Norway, the defeat served as a reality check, though their earlier wins against Iraq and Senegal were enough to secure second place in the group. Despite the lopsided scoreline in Foxborough, Norway maintained their path forward in the tournament, finishing with six points.",
+        "With the group stage now complete, the focus shifts immediately to the Round of 32. France, as the winners of Group I, will prepare for their next challenge on June 30, where they are set to face a third-place finisher from another group.",
+        "Norway also looks ahead to a June 30 matchup in the Round of 32, where they will take on the runner-up from Group E. Both teams leave the group phase having successfully navigated the initial hurdles of the tournament."
       ],
       "bullets": [
-        "France leads the group on goal difference (+5 vs +4) and only requires a draw to finish first.",
-        "Both teams have secured maximum points from their first two matches, guaranteeing their progression to the next round.",
-        "Norway enters the match as the group's highest-scoring team with seven goals across two games."
+        "France finished Group I undefeated with 9 points, while Norway secured second place with 6 points.",
+        "France\u2019s victory at Gillette Stadium capped a dominant group stage performance with 10 goals scored.",
+        "Both nations have successfully qualified for the Round of 32, with matches scheduled for June 30."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:44:51+00:00",
-      "sourceHash": "f38c25a7060b30d0",
+      "updatedAt": "2026-06-26T23:23:44+00:00",
+      "sourceHash": "c6e04860ce1dc791",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1651,30 +1653,30 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "group standings or prompt changed"
     },
     "J": {
-      "headline": "Group J: Argentina Dominates as Race for Second Heats Up",
-      "summary": "Argentina has asserted total control over Group J, securing six points and a clean sheet through two matches. Meanwhile, Austria and Algeria remain locked in a tight battle for second place, each holding three points. Jordan sits at the bottom of the table with zero points and faces a difficult final test against the group leaders.",
+      "headline": "Argentina Dominates Group J as Qualification Heats Up",
+      "summary": "Argentina has asserted total control over Group J, securing two victories and maintaining a perfect defensive record. With six points from two matches, they sit comfortably at the top of the table. Meanwhile, Austria and Algeria remain in a tight battle for the remaining spots, each holding three points heading into the final round.",
       "story": [],
       "bullets": [
-        "Argentina leads the group with 6 points and a perfect +5 goal difference.",
-        "Austria and Algeria are tied on 3 points, making their upcoming head-to-head match critical.",
-        "Jordan has 0 points after two matches and must face Argentina in their final group fixture.",
-        "Argentina has yet to concede a goal, scoring 5 times in their first two appearances."
+        "Argentina leads the group with 6 points and an impressive +5 goal difference.",
+        "Austria and Algeria are tied on 3 points, making their head-to-head match crucial.",
+        "Jordan remains winless after two matches but will look to finish strong against Argentina.",
+        "Argentina has yet to concede a goal, scoring 5 times across their first two fixtures."
       ],
       "sections": [
         {
           "title": "Argentina's Commanding Start",
-          "body": "Argentina has been clinical in Group J, opening their campaign with a 3-0 victory over Algeria followed by a 2-0 win against Austria. With six points from two games and a +5 goal difference, they have effectively secured their position at the top of the table. They enter their final match against Jordan in a position of complete control."
+          "body": "Argentina has been clinical in Group J, opening their campaign with a 3-0 victory over Algeria before following up with a 2-0 win against Austria. Their defensive solidity is a standout feature, as they have kept clean sheets in both matches played. They currently sit at the top of the table with 6 points and a +5 goal difference."
         },
         {
           "title": "The Battle for Second Place",
-          "body": "Austria and Algeria both sit on three points, setting the stage for a high-stakes showdown on Matchday 3. Austria holds the edge in goal difference at 0 compared to Algeria's -2, but the head-to-head result will be the ultimate decider for their standing. Both teams know that a victory is essential to keep their tournament hopes alive."
+          "body": "Austria and Algeria are locked in a tense race, both sitting on 3 points. Austria holds the edge in goal difference at 0 compared to Algeria's -2, but their upcoming Matchday 3 encounter will be the deciding factor for their progression. This head-to-head showdown on June 27th is the most significant fixture for the secondary qualification spot."
         },
         {
-          "title": "Jordan's Uphill Climb",
-          "body": "Jordan has struggled to find their footing, falling 3-1 to Austria and 2-1 to Algeria in their opening matches. With zero points and a -3 goal difference, they face the daunting task of playing Argentina in the final round. They will need a massive performance to shift the group dynamics on the final day."
+          "title": "Looking Ahead to Matchday 3",
+          "body": "The final round of group matches features Algeria facing Austria, while Jordan takes on the group leaders, Argentina. Jordan, currently with 0 points after losses to Austria and Algeria, will aim to disrupt Argentina's perfect run. Both matches are scheduled for June 27th at 22:00 ET, providing a dramatic conclusion to the group stage."
         }
       ],
-      "updatedAt": "2026-06-25T19:28:02+00:00",
+      "updatedAt": "2026-06-26T23:25:44+00:00",
       "sourceHash": "b2727774eef40043",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
@@ -1711,61 +1713,60 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "group standings or prompt changed"
     },
     "G": {
-      "headline": "Group G Tightens as Egypt Takes Control",
-      "summary": "Egypt has emerged as the team to beat in Group G, sitting at the top of the table with four points after two matches. While the group remains competitive, Egypt's recent victory over New Zealand gives them a clear advantage heading into the final round. Belgium and Iran remain locked in a stalemate, both searching for their first win of the tournament.",
+      "headline": "Group G Tightens as Egypt Takes Command",
+      "summary": "Egypt sits at the top of Group G with 4 points after two matches, putting them in the strongest position heading into the final round. With Belgium and Iran locked on 2 points each and New Zealand trailing with 1, every team remains in contention for a spot in the next stage. The final matchday will be decisive as the group looks to finalize its standings.",
       "story": [],
       "bullets": [
         "Egypt leads the group with 4 points and a +2 goal difference.",
-        "Iran and Belgium are currently tied on 2 points each.",
-        "New Zealand sits at the bottom of the table with 1 point.",
-        "Egypt secured a crucial 3-1 victory against New Zealand in Matchday 2.",
+        "Belgium and Iran are deadlocked with 2 points each after two draws.",
+        "New Zealand holds 1 point and must win their final match to keep their hopes alive.",
         "The final round of fixtures features New Zealand vs. Belgium and Egypt vs. Iran."
       ],
       "sections": [
         {
           "title": "Egypt's Path to the Top",
-          "body": "Egypt has navigated the first two matches effectively, following an opening 1-1 draw against Belgium with a decisive 3-1 win over New Zealand. With 4 points and a positive goal difference of 2, they are the only team in the group to have secured a victory so far. They now head into their final match against Iran in a position of strength."
+          "body": "Egypt has navigated the first two matches effectively, securing a 1-1 draw against Belgium followed by a 3-1 victory over New Zealand. With 4 points and a +2 goal difference, they currently control their own destiny. They enter the final match against Iran needing only a result to solidify their standing at the top of the group."
         },
         {
-          "title": "The Deadlock Between Belgium and Iran",
-          "body": "Belgium and Iran have mirrored each other's performance, both recording two draws in their opening fixtures. Their direct encounter in Matchday 2 ended in a 0-0 stalemate, leaving both sides with 2 points and an even goal difference. Both teams will need to find a breakthrough in their final matches to keep their tournament hopes alive."
+          "title": "The Stalemate Between Belgium and Iran",
+          "body": "Both Belgium and Iran find themselves in a precarious position after playing to a 0-0 draw in their second match. With only 2 points each, both sides have struggled to find a decisive edge, leaving them vulnerable to being overtaken. They must now look for a win in their final group games to avoid elimination."
         },
         {
-          "title": "High Stakes in Matchday 3",
-          "body": "The final group stage matches on June 26 will be decisive for all four teams. New Zealand faces a must-win scenario against Belgium to climb from their current 1-point standing, while Egypt and Iran square off to determine the final group hierarchy. Every goal will be critical as the teams fight for position in the table."
+          "title": "New Zealand's Final Stand",
+          "body": "New Zealand sits at the bottom of the table with 1 point, following an initial 2-2 draw with Iran and a 3-1 loss to Egypt. Despite the difficult start, they remain mathematically alive heading into their final game against Belgium. They will need a strong performance and a victory to have any chance of climbing out of the bottom spot."
         }
       ],
-      "updatedAt": "2026-06-25T19:27:37+00:00",
+      "updatedAt": "2026-06-26T23:25:20+00:00",
       "sourceHash": "8d70ba73f40518f2",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "active or recent group"
     },
     "H": {
-      "headline": "Group H Tightens as Spain Takes Control",
-      "summary": "Spain has surged to the top of Group H following a dominant 4-0 victory over Saudi Arabia. With Uruguay and Cabo Verde locked on two points each, the final matchday remains highly competitive for the remaining qualification spots.",
+      "headline": "Group H Control: Spain Leads the Pack",
+      "summary": "Spain has taken control of Group H following a dominant 4-0 victory over Saudi Arabia, placing them at the top of the table with 4 points. Uruguay and Cabo Verde remain locked in a tight battle for second place, both sitting on 2 points after their 2-2 draw. Saudi Arabia faces an uphill climb with only 1 point heading into the final matchday.",
       "story": [],
       "bullets": [
         "Spain leads the group with 4 points and a +4 goal difference.",
-        "Uruguay and Cabo Verde are currently tied with 2 points apiece.",
-        "Saudi Arabia sits at the bottom with 1 point after two matches.",
-        "The final round of fixtures features a pivotal clash between Uruguay and Spain."
+        "Uruguay and Cabo Verde are tied on 2 points, separated only by their identical goal records.",
+        "Saudi Arabia sits at the bottom with 1 point and a -4 goal difference.",
+        "The final round of matches will determine which teams advance from this competitive group."
       ],
       "sections": [
         {
-          "title": "Spain's Dominant Form",
-          "body": "After a scoreless draw against Cabo Verde in their opener, Spain found their rhythm in a 4-0 thrashing of Saudi Arabia. They currently sit in first place with 4 points and have maintained a perfect defensive record, conceding zero goals so far."
+          "title": "Spain's Dominant Position",
+          "body": "After a scoreless opening draw against Cabo Verde, Spain asserted their authority with a decisive 4-0 win against Saudi Arabia. With 4 points and a clean sheet record, they are currently the team to beat in Group H. They head into their final match against Uruguay in a strong position to secure their spot in the next round."
         },
         {
-          "title": "The Battle for Second",
-          "body": "Uruguay and Cabo Verde find themselves in a deadlock, both holding 2 points from their first two matches. Their direct 2-2 draw in the second round highlighted how evenly matched these sides are, leaving both teams with everything to play for in the final group stage games."
+          "title": "The Deadlock for Second",
+          "body": "Uruguay and Cabo Verde have mirrored each other's performance so far, both earning 2 points from two draws. Their 2-2 stalemate in Matchday 2 highlighted the parity between these two sides. With everything to play for, both teams are under immense pressure to secure a result in their final group fixtures."
         },
         {
-          "title": "High Stakes for Matchday 3",
-          "body": "The final group matches on June 26 will decide the fate of all four nations. While Spain faces a tough test against Uruguay, Cabo Verde will look to secure points against Saudi Arabia to keep their qualification hopes alive."
+          "title": "Final Matchday Stakes",
+          "body": "The group concludes on June 26 with two high-stakes encounters. Uruguay faces a tough test against leaders Spain, while Cabo Verde meets Saudi Arabia in a match that will be critical for their qualification hopes. Saudi Arabia, despite their 1 point, will be looking to finish their campaign on a high note."
         }
       ],
-      "updatedAt": "2026-06-25T19:27:24+00:00",
+      "updatedAt": "2026-06-26T23:25:07+00:00",
       "sourceHash": "30e2903c3a56ebfd",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
@@ -1867,33 +1868,33 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "E": {
       "headline": "Germany and Ivory Coast Advance from Group E",
-      "summary": "Group E has concluded with Germany and Ivory Coast securing their spots at the top of the table. Despite a final matchday loss, Germany finished first on goal difference, while Ivory Coast matched their six-point total.",
+      "summary": "Group E has concluded with Germany and Ivory Coast securing their spots at the top of the table. Despite a final matchday loss, Germany's strong goal difference allowed them to finish first, while Ivory Coast matched them on points to comfortably advance.",
       "story": [],
       "bullets": [
-        "Germany leads the group with 6 points and a superior goal difference of +6.",
-        "Ivory Coast also finishes with 6 points, securing second place after a 2-0 win against Curacao.",
-        "Ecuador ends their campaign with 4 points after a hard-fought 2-1 victory over Germany in their final match.",
-        "Curacao concludes the group stage at the bottom of the table with 1 point and a -8 goal difference."
+        "Germany finished at the top of the group with 6 points and a +6 goal difference.",
+        "Ivory Coast also secured 6 points, finishing second after a 2-0 win over Curacao.",
+        "Ecuador finished third with 4 points, falling just short of the top two despite a final victory over Germany.",
+        "Curacao rounded out the group with 1 point from their three matches."
       ],
       "sections": [
         {
-          "title": "The Battle for the Top",
-          "body": "Germany dominated the group early with a commanding 7-1 victory over Curacao and a narrow 2-1 win against Ivory Coast. Although they stumbled in their final match against Ecuador with a 1-2 loss, their strong goal difference of +6 kept them firmly in the top position."
+          "title": "Germany's Dominant Start",
+          "body": "Germany set the pace early in the group, highlighted by a commanding 7-1 victory over Curacao in their opening match. Although they stumbled in their final game with a 2-1 loss to Ecuador, their overall performance and superior goal difference of +6 ensured they remained in the top spot."
         },
         {
-          "title": "Ivory Coast's Consistency",
-          "body": "Ivory Coast maintained a steady performance throughout the group stage, starting with a 1-0 win over Ecuador. After falling to Germany, they bounced back effectively to defeat Curacao 2-0, finishing with 6 points and a +2 goal difference."
+          "title": "Ivory Coast's Consistent Campaign",
+          "body": "Ivory Coast proved to be a formidable force, securing 6 points across their three matches. After a narrow 1-0 win against Ecuador and a 2-1 defeat to Germany, they closed out the group stage with a clinical 2-0 victory over Curacao to guarantee their progression."
         },
         {
-          "title": "Ecuador and Curacao's Exit",
-          "body": "Ecuador pushed hard until the end, finishing with 4 points after their final 2-1 win against Germany. Curacao struggled to find their footing in the group, managing only a 0-0 draw against Ecuador as their sole point of the tournament."
+          "title": "Ecuador's Late Push",
+          "body": "Ecuador fought hard throughout the group stage, finishing with 4 points. Their resilience was on full display in the final round as they defeated Germany 2-1, though the result was not enough to overcome the point deficit to the top two finishers."
         }
       ],
-      "updatedAt": "2026-06-25T23:17:51+00:00",
+      "updatedAt": "2026-06-26T23:25:57+00:00",
       "sourceHash": "6447bb74f3e62315",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "group standings or prompt changed"
+      "refreshReason": "active or recent group"
     },
     "D": {
       "headline": "Group D Concludes: United States Leads the Way",
@@ -1956,30 +1957,30 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "active or recent group"
     },
     "L": {
-      "headline": "Group L: England and Ghana Lead the Way",
-      "summary": "England and Ghana currently sit at the top of Group L, both locked on four points after two matches. With Croatia trailing closely behind with three points and Panama still searching for their first, the final round of fixtures will be decisive for knockout qualification.",
+      "headline": "Group L Tightens as Final Matchday Looms",
+      "summary": "Group L is perfectly poised heading into the final round of fixtures after two rounds of play. England and Ghana currently lead the table with four points apiece, while Croatia remains in the hunt with three points. Panama has been eliminated from contention after two losses.",
       "story": [],
       "bullets": [
         "England leads the group on goal difference with a +2 rating.",
         "Ghana remains undefeated and has yet to concede a goal in the tournament.",
-        "Croatia stays in contention with three points following their victory over Panama.",
-        "Panama is currently at the bottom of the table with zero points and zero goals scored."
+        "Croatia secured a vital 1-0 win against Panama to stay within one point of the leaders.",
+        "Panama has been mathematically eliminated after failing to score in their first two matches."
       ],
       "sections": [
         {
           "title": "The Frontrunners",
-          "body": "England and Ghana have established themselves as the teams to beat, both securing four points from their opening two games. England's high-scoring 4-2 win against Croatia helped them secure a superior goal difference, while Ghana has relied on a disciplined defense that has yet to allow a goal."
+          "body": "England and Ghana are currently deadlocked at the top of the standings with four points each. England holds the slight edge for the top spot due to a superior goal difference of +2 compared to Ghana's +1. Their head-to-head meeting ended in a 0-0 stalemate, leaving everything to play for in the final group matches."
         },
         {
-          "title": "Croatia's Path Forward",
-          "body": "After a difficult start against England, Croatia bounced back with a crucial 1-0 win over Panama. They now sit on three points and must secure a result in their upcoming match against Ghana to keep their hopes of advancing alive."
+          "title": "Croatia's Path",
+          "body": "After an opening 4-2 defeat to England, Croatia bounced back with a crucial 1-0 victory over Panama. With three points on the board, they sit just one point behind the leaders. They must secure a result in their final match against Ghana to keep their tournament hopes alive."
         },
         {
-          "title": "High Stakes in Matchday 3",
-          "body": "The final group stage fixtures on June 27th will determine the standings, as England faces Panama while Croatia takes on Ghana. Panama, despite having zero points, will look to play spoiler, while every other team has a clear path to potentially securing a spot in the next round."
+          "title": "The Deciding Fixtures",
+          "body": "The final day of Group L action features England taking on Panama, while Croatia faces a high-stakes clash against Ghana. Both matches are scheduled for June 27 at 17:00 ET. The outcomes of these games will determine the final standings and which teams advance from the group."
         }
       ],
-      "updatedAt": "2026-06-25T19:27:50+00:00",
+      "updatedAt": "2026-06-26T23:25:32+00:00",
       "sourceHash": "f02f741c5223efdd",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
@@ -1988,31 +1989,31 @@ window.WORLD_CUP_AI_INSIGHTS = {
   },
   "players": {
     "lionel-messi-argentina": {
-      "headline": "Lionel Messi: The Tournament's Early Offensive Benchmark",
-      "summary": "Lionel Messi has established himself as the premier offensive force in the tournament through his first two appearances for Argentina. With 5 goals in just 188 minutes of play, he is currently operating at an elite level of efficiency. His ability to find the back of the net has been the primary engine for Argentina's perfect start in Group J. As the team looks toward their final group stage match, Messi remains the focal point of their attacking strategy.",
+      "headline": "Lionel Messi: The Dominant Force of Group J",
+      "summary": "Lionel Messi has started the tournament in exceptional form, leading the stats table with a commanding performance for Argentina. Through his first 2 matches, he has been directly involved in 5 points for his side. His efficiency in front of goal has been a primary driver of Argentina's perfect start to the group stage. As the team moves toward their final group match, Messi remains the focal point of their attacking strategy.",
       "story": [],
       "bullets": [
-        "Currently ranked 1st in tournament performance metrics.",
-        "Has recorded 5 goals across 2 matches played.",
-        "Maintains a clinical 2.4 goals per 90 minutes rate.",
-        "Totaled 188 minutes on the pitch so far.",
-        "Has contributed 5 total points to his team's campaign."
+        "Currently ranked 1st in player performance metrics.",
+        "Has recorded 5 goals across 188 minutes of play.",
+        "Maintains an impressive 2.4 goals per 90 minutes rate.",
+        "Contributed 5 total points in his 2 tournament appearances.",
+        "Maintains a consistent 2.4 points per 90 minutes rate."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Messi's output has been nothing short of extraordinary during the group stage. By scoring 5 goals in only 188 minutes, he has demonstrated a remarkable ability to capitalize on opportunities. His goals per 90 rate of 2.4 highlights just how dangerous he has been whenever he is on the field."
+          "body": "Messi's impact on the pitch has been defined by his lethal finishing. With 5 goals scored in just 188 minutes, he is operating at a remarkably high level of efficiency. His goals per 90 rate of 2.4 highlights just how dangerous he has been every time he steps onto the field."
         },
         {
-          "title": "Leading the Argentine Attack",
-          "body": "As the leader of the Argentina frontline, Messi has been instrumental in securing victories against Algeria and Austria. His 5 total points reflect his role as the primary catalyst for the team's success in Group J. His presence on the pitch continues to be a major concern for opposing defenses."
+          "title": "Tournament Impact",
+          "body": "As the leader of the Argentina attack, Messi has been the primary engine for his team's success in Group J. He has accumulated 5 points through his individual contributions, setting the standard for the squad. His presence has been instrumental in securing victories against Algeria and Austria."
         },
         {
-          "title": "Upcoming Challenges",
-          "body": "Argentina's momentum will be tested in their final group match against Jordan on June 27. Following that, the team has already secured a spot in the Round of 32 on July 3. Messi will look to maintain his high scoring pace as the tournament shifts into the high-stakes knockout phase."
+          "title": "Looking Ahead",
+          "body": "Argentina's group stage campaign concludes with a match against Jordan on June 27. Following that, the team has already secured a spot in the Round of 32 scheduled for July 3. Messi will look to carry his current momentum into these upcoming fixtures."
         }
       ],
-      "updatedAt": "2026-06-25T19:28:30+00:00",
+      "updatedAt": "2026-06-26T23:26:24+00:00",
       "sourceHash": "54be0cfc82fd6ca9",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
@@ -3665,6 +3666,37 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
+    },
+    "pape-gueye-senegal": {
+      "headline": "Pape Gueye: Senegal's Midfield Catalyst",
+      "summary": "Pape Gueye has emerged as a surprisingly potent offensive force for Senegal during the group stage. Despite playing in a midfield role, he has been directly involved in three goals across his three appearances. His efficiency in limited minutes highlights his importance to Senegal's tactical setup.",
+      "story": [],
+      "bullets": [
+        "Contributed 2 goals and 1 assist in 186 minutes of play.",
+        "Maintained an impressive 1.0 goals per 90 minutes rate.",
+        "Recorded a points per 90 rate of 1.5 throughout the group stage.",
+        "Played in all 3 of Senegal's group stage matches.",
+        "Key contributor to Senegal's 5-0 victory over Iraq in the final group fixture."
+      ],
+      "sections": [
+        {
+          "title": "Efficiency in the Middle",
+          "body": "Pape Gueye has maximized his time on the pitch, recording 2 goals and 1 assist over his 186 minutes of action. His ability to contribute to the scoresheet from a midfield position has been a vital asset for Senegal. With a goals per 90 rate of 1.0, he has proven to be an incredibly clinical presence when opportunities arise."
+        },
+        {
+          "title": "Tournament Impact",
+          "body": "Across his 3 matches, Gueye has maintained a points per 90 rate of 1.5. This statistical output underscores his high level of involvement in Senegal's attacking phases. His performance metrics suggest he is operating with high efficiency regardless of the opponent."
+        },
+        {
+          "title": "Team Context",
+          "body": "Senegal's group stage journey saw them face France, Norway, and Iraq. Gueye was a constant fixture throughout these matches, culminating in a dominant 5-0 win against Iraq. His presence in the midfield has helped stabilize the team while providing a necessary spark in the final third."
+        }
+      ],
+      "updatedAt": "2026-06-26T23:26:37+00:00",
+      "sourceHash": "05744717926e82fc",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
     }
   },
   "matchPreviews": {
@@ -6026,34 +6058,35 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "78": {
-      "headline": "Ivory Coast Prepares for Knockout Stage Clash in Arlington",
-      "summary": "Ivory Coast enters the Round of 32 at AT&T Stadium to face the runner-up from Group I. This high-stakes knockout match marks a pivotal moment in the tournament as both sides look to secure their path forward.",
+      "headline": "Ivory Coast and Norway Clash in Round of 32 Knockout Showdown",
+      "summary": "The World Cup knockout stage intensifies as Ivory Coast and Norway meet at AT&T Stadium in Arlington. Both teams arrive after navigating their respective group stages to secure a spot in this crucial Round of 32 matchup. Fans can expect a high-stakes encounter as the path to the next round begins here.",
       "story": [
-        "The knockout stage arrives in Arlington as Ivory Coast prepares to take the pitch at AT&T Stadium. Having navigated a competitive Group E, the Ivorian squad is now set for a high-pressure encounter against the runner-up from Group I.",
-        "Ivory Coast's journey to this stage has been defined by a series of tactical tests. Their group stage campaign included a narrow victory over Ecuador, a hard-fought battle against Germany, and a decisive performance against Curacao. These experiences have provided the team with a diverse set of challenges that will be vital as they transition into the single-elimination format.",
-        "The atmosphere in Texas will be electric as the Round of 32 begins. With the opponent finalized as the second-place finisher from Group I, Ivory Coast must remain adaptable. The uncertainty surrounding their specific matchup opponent adds an extra layer of intrigue, requiring the squad to rely on their established chemistry and tactical discipline.",
-        "As both teams step onto the grass at Dallas Stadium, the stakes could not be higher. Every possession and tactical decision carries the weight of tournament survival. Fans can expect a focused effort from Ivory Coast as they aim to leverage their group stage momentum to overcome the challenge posed by their Group I counterpart."
+        "The stage is set in Arlington, Texas, as AT&T Stadium prepares to host a compelling Round of 32 fixture between Ivory Coast and Norway. This knockout match represents the culmination of hard-fought group campaigns for both nations, as they shift their focus to the high-pressure environment of single-elimination football.",
+        "Ivory Coast enters this contest as the runner-up from Group E. Their journey through the group stage saw them face a variety of tactical challenges, demonstrating resilience and the ability to find results when it matters most. Having navigated through Matchday 1, 2, and 3, the team arrives in Dallas ready to test their mettle against European opposition.",
+        "On the other side, Norway secured their place in the knockout bracket as the runner-up from Group I. Their group stage performance showcased an ability to generate offense, providing a clear identity that they will look to impose on the pitch in Texas. The squad has shown they can handle the intensity of tournament play, and this match marks their first step into the knockout phase.",
+        "The venue for this clash, AT&T Stadium, provides a world-class backdrop for what promises to be an intriguing tactical battle. With both teams having proven their capabilities during the group stage, the focus now turns to how these sides adjust to the unique pressures of the Round of 32, where every decision on the field carries significant weight.",
+        "As kickoff approaches on June 30 at 13:00 ET, the narrative centers on which side can best execute their game plan under the bright lights of the knockout stage. Both Ivory Coast and Norway have earned their right to be here, and this encounter serves as a pivotal moment in their respective tournament journeys."
       ],
       "bullets": [
-        "Watch how Ivory Coast adjusts their defensive structure against an opponent emerging from the Group I bracket.",
-        "Observe the tactical approach of the Ivorian midfield in controlling the tempo within the expansive environment of AT&T Stadium.",
-        "Monitor the transition play as Ivory Coast looks to capitalize on the unique challenges presented by a knockout-stage opponent."
+        "Watch for how Ivory Coast manages the transition from their Group E experience to the unique demands of a knockout match.",
+        "Observe how Norway utilizes their attacking momentum from the group stage to challenge the Ivorian defensive structure.",
+        "Keep an eye on the atmosphere at AT&T Stadium, as the venue in Arlington hosts this high-stakes Round of 32 fixture."
       ],
       "sections": [
         {
-          "title": "The Road to the Round of 32",
-          "body": "Ivory Coast successfully navigated a challenging Group E, showing resilience against diverse styles of play. Their ability to secure points in varied conditions suggests they are well-prepared for the intensity of the knockout rounds. This upcoming match at AT&T Stadium serves as their first major test in the single-elimination bracket."
+          "title": "Tournament Context",
+          "body": "This match is part of the Round of 32, the first stage of the knockout bracket. Both teams qualified by finishing as runners-up in their respective groups, setting up this clash at the iconic Dallas Stadium."
         },
         {
-          "title": "Venue Context",
-          "body": "The match is hosted at AT&T Stadium in Arlington, Texas, a premier venue known for its massive scale and atmosphere. Players will need to adapt to the specific conditions of this stadium as they compete for a spot in the next round. The setting provides a grand stage for what promises to be a compelling tactical battle."
+          "title": "Venue Information",
+          "body": "The match will take place at AT&T Stadium in Arlington, Texas. This venue is a centerpiece of the tournament and provides a massive stage for these two teams to compete for survival in the bracket."
         }
       ],
-      "updatedAt": "2026-06-25T23:22:37+00:00",
-      "sourceHash": "c9baf19590c85262",
+      "updatedAt": "2026-06-26T23:24:12+00:00",
+      "sourceHash": "230660e463a9e5a8",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "88": {
       "headline": "Australia Prepares for High-Stakes Knockout Clash in Arlington",
@@ -6076,6 +6109,37 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
+    },
+    "77": {
+      "headline": "France Set for Round of 32 Clash at MetLife Stadium",
+      "summary": "France prepares to enter the knockout stage at MetLife Stadium on June 30th. They face a yet-to-be-determined opponent emerging from the pool of third-place finishers across several groups. This high-stakes encounter marks the beginning of the Round of 32 for the French squad.",
+      "story": [
+        "France heads into the Round of 32 with significant momentum following a dominant showing in Group I. Having successfully navigated their group stage fixtures, the team now shifts its focus to the intensity of knockout football at the New York New Jersey Stadium in East Rutherford.",
+        "The path to this match was paved by a series of convincing performances throughout the group stage. France demonstrated both offensive versatility and defensive discipline, setting a high standard as they enter this critical phase of the tournament.",
+        "The identity of their opponent remains a compelling mystery, as the slot is reserved for one of the best third-place teams from Groups C, D, F, G, or H. This uncertainty adds a layer of tactical intrigue, as France must prepare for a variety of potential playing styles and strategic approaches.",
+        "MetLife Stadium serves as the iconic backdrop for this clash, providing a massive stage for what promises to be a pivotal afternoon of football. With the tournament structure now moving into a single-elimination format, every decision on the pitch carries increased weight.",
+        "As the kickoff time of 17:00 ET approaches, all eyes will be on how France adapts to the unique challenge of facing a high-performing third-place qualifier. The pressure of the knockout rounds often brings out the best in top-tier nations, and this matchup will be a true test of their championship credentials."
+      ],
+      "bullets": [
+        "Watch how France adjusts their tactical setup to counter the specific strengths of their opponent once the final bracket slot is confirmed.",
+        "Observe the atmosphere at MetLife Stadium, as the venue hosts this high-stakes Round of 32 fixture.",
+        "Monitor France's defensive structure, which will be tested by a team that has fought hard to secure a place in the knockout bracket."
+      ],
+      "sections": [
+        {
+          "title": "The Road to the Knockouts",
+          "body": "France arrives at this stage after a flawless group campaign where they consistently found the back of the net. Their ability to dismantle diverse opponents suggests they are well-prepared for the rigors of the knockout bracket. The team will look to maintain this offensive rhythm as they transition into the Round of 32."
+        },
+        {
+          "title": "Awaiting the Challenger",
+          "body": "The opponent for this match is defined as the best third-place team from a wide selection of groups, including C, D, F, G, and H. This creates a unique scouting challenge for the French coaching staff. Fans should keep an eye on how the team manages the uncertainty surrounding their mystery challenger."
+        }
+      ],
+      "updatedAt": "2026-06-26T23:26:11+00:00",
+      "sourceHash": "6135c13faa225487",
+      "promptHash": "58c0eceedbff748a",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "future spoiler-free preview"
     }
   }
 };
