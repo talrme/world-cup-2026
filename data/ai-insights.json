@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T08:35:50+00:00",
+  "generatedAt": "2026-06-26T13:55:40+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -269,22 +269,23 @@
       "refreshReason": "source or prompt changed"
     },
     "32": {
-      "headline": "Paraguay Secures Crucial Win Over Turkey",
-      "summary": "Final: Turkey 0, Paraguay 1. Paraguay defeated Turkey 1-0 in a tightly contested Group D match at Levi's Stadium. The result keeps Paraguay in the hunt for a knockout stage spot while leaving Turkey without a point after two matches.",
+      "headline": "Paraguay Edges Turkey in Crucial Group D Battle",
+      "summary": "Final: Turkey 0, Paraguay 1. Paraguay secured a vital 1-0 victory over Turkey at Levi's Stadium in Santa Clara. This narrow result proved decisive in shaping the competitive landscape of Group D during the second matchday.",
       "story": [
-        "Paraguay claimed a vital 1-0 victory over Turkey in their Matchday 2 encounter, providing a significant boost to their standing in Group D. Played at Levi's Stadium in Santa Clara, the match was a defensive battle that ultimately saw Paraguay capitalize on their opportunity to secure three points.",
-        "For Turkey, the loss is a difficult blow. Having failed to find the back of the net in either of their first two matches, they now sit at the bottom of the group with zero points and a negative three goal difference. Their path to the next round has become extremely narrow following this result.",
-        "Paraguay now sits level on three points with Australia, trailing only on goal difference. This victory sets up a high-stakes scenario for the final round of group fixtures, where Paraguay will face Australia in a match that could determine which team advances alongside the United States.",
-        "As the group stage reaches its conclusion, the pressure is mounting. Turkey will look to salvage pride and potentially disrupt the group dynamics in their final match against the United States, while Paraguay remains firmly focused on their upcoming clash with Australia to secure their progression."
+        "The match at Levi's Stadium saw Paraguay claim all three points in a tightly contested affair. By holding firm against Turkey, Paraguay managed to keep their tournament aspirations alive and put themselves in a better position within the group standings.",
+        "For Turkey, the 0-1 defeat was a difficult setback following their opening match against Australia. The inability to find the back of the net against a disciplined Paraguayan defense left them searching for answers as they looked toward their final group stage fixture.",
+        "This result significantly tightened the group, setting the stage for a high-stakes conclusion to the group phase. With the points distributed this way, every team entered their final match with everything to play for, knowing that qualification margins were razor-thin.",
+        "The atmosphere in the San Francisco Bay Area provided a fitting backdrop for a match that carried heavy weight for both sides. The defensive focus from Paraguay allowed them to dictate the tempo and eventually walk away with a clean sheet and a win.",
+        "Looking back at the full group picture, this match served as a pivotal moment that kept Paraguay in the hunt for advancement. While Turkey eventually finished the group stage with a win against the United States, this loss to Paraguay remained a defining hurdle in their campaign."
       ],
       "bullets": [
-        "Paraguay moves to three points, matching Australia in the Group D standings.",
-        "Turkey remains winless and scoreless after two matches, facing elimination.",
-        "The final group fixtures will be decisive, with Paraguay facing Australia and Turkey taking on the United States."
+        "Paraguay's 1-0 win provided them with essential points to stay competitive in Group D.",
+        "The result left Turkey in a precarious position midway through the group stage.",
+        "Levi's Stadium in Santa Clara hosted this critical Matchday 2 encounter."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T05:02:34+00:00",
-      "sourceHash": "f6e13afc94b085ce",
+      "updatedAt": "2026-06-26T13:54:00+00:00",
+      "sourceHash": "dcc4c36084a6c170",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -331,23 +332,23 @@
       "refreshReason": "source or prompt changed"
     },
     "29": {
-      "headline": "United States Secures Knockout Spot with Victory Over Australia",
-      "summary": "The United States defeated Australia 2-0 in their Matchday 2 encounter at Lumen Field. This result keeps the U.S. perfect in Group D with six points, effectively solidifying their position at the top of the table.",
+      "headline": "United States Secures Crucial 2-0 Victory Over Australia",
+      "summary": "The United States defeated Australia 2-0 in a pivotal Group D matchup at Lumen Field in Seattle. This result solidified the Americans' position at the top of the group standings during the early stages of the tournament.",
       "story": [
-        "The United States continued their dominant form in Group D, securing a convincing 2-0 win against Australia in front of a home crowd at Lumen Field in Seattle. Building on their opening match success against Paraguay, the U.S. maintained defensive discipline and clinical execution to overcome a resilient Australian side.",
-        "With this victory, the United States moved to six points from two matches, boasting a stellar goal difference of plus-five. The result leaves the team in command of the group as they head into their final group stage fixture against Turkey.",
-        "For Australia, the loss leaves them locked in a tight battle for the second qualification spot. Sitting on three points, they remain level with Paraguay, setting the stage for a high-stakes final matchday where every goal and point will be critical to their advancement hopes.",
-        "The atmosphere at Seattle Stadium provided a fitting backdrop for a match that significantly clarified the landscape of Group D. By controlling the tempo and limiting Australia's opportunities, the U.S. demonstrated why they are currently the team to beat in this group.",
-        "Looking ahead, the United States will conclude their group campaign against Turkey on June 25, while Australia will face off against Paraguay in a pivotal matchup to determine who joins the U.S. in the knockout stages."
+        "In a highly anticipated Matchday 2 clash held at Seattle Stadium, the United States asserted their dominance in Group D by handing Australia a 2-0 defeat. The victory was a statement performance for the home side, providing them with significant momentum as they navigated the group stage.",
+        "The match proved to be a defining moment for the group dynamics. By securing all three points, the United States effectively distanced themselves from the rest of the pack, putting immense pressure on Australia and the remaining teams to chase them in the final round of fixtures.",
+        "For Australia, the loss served as a reality check after their strong start in Matchday 1. Despite their defensive efforts, they were unable to contain the American attack, which ultimately proved to be the difference on the day.",
+        "Following the conclusion of the group stage, the United States finished at the top of the table with 6 points, while Australia secured second place with 4 points. This outcome set the stage for both nations to advance, with the United States moving on to a Round of 32 knockout match against Bosnia-Herzegovina.",
+        "The atmosphere in Seattle provided a fitting backdrop for this encounter, as fans witnessed a tactical battle that ultimately rewarded the clinical execution of the United States. With the group phase now complete, both teams look ahead to the knockout rounds, where the stakes reach an entirely new level."
       ],
       "bullets": [
-        "The United States remains undefeated in Group D with a perfect 6-point record after two matches.",
-        "Australia holds 3 points, tied with Paraguay, making their final group match against Paraguay essential for qualification.",
-        "The U.S. has outscored their opponents 6-1 through their first two fixtures."
+        "The United States finished atop Group D with 6 points after their victory over Australia.",
+        "Australia secured second place in the group despite the Matchday 2 setback, finishing with 4 points.",
+        "The result at Lumen Field was instrumental in shaping the final standings of a competitive Group D."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T05:03:13+00:00",
-      "sourceHash": "92797b8b8f6816c8",
+      "updatedAt": "2026-06-26T13:54:12+00:00",
+      "sourceHash": "9f8aa923e28d1a35",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -737,44 +738,42 @@
       "refreshReason": "source or prompt changed"
     },
     "59": {
-      "headline": "Group D Finale: United States Looks to Secure Top Spot Against Turkey",
-      "summary": "The United States enters the final matchday of Group D at the top of the table with six points, having already secured a spot in the Round of 32. Turkey, currently sitting at the bottom of the group with zero points, faces a must-win scenario to keep any slim hopes of advancement alive. The match will take place at SoFi Stadium in Inglewood, California.",
+      "headline": "Turkey Edges United States in High-Scoring Group D Finale",
+      "summary": "Turkey defeated the United States 3-2 in a thrilling Matchday 3 encounter at SoFi Stadium. Despite the loss, the United States secured the top spot in Group D, while Turkey finished their tournament campaign with a win.",
       "story": [
-        "The United States has been the dominant force in Group D, securing back-to-back victories against Paraguay and Australia to sit comfortably in first place. With six points and a commanding plus-five goal difference, the U.S. has already locked in their progression to the Round of 32, where they are set to face the winner of Group D in the next stage.",
-        "For Turkey, the tournament has been a difficult struggle. After losses to Australia and Paraguay, they find themselves at the bottom of the group without a single point or a goal scored. Despite the challenging start, they will look to finish their campaign on a high note by testing their mettle against the group leaders in front of a major audience at SoFi Stadium.",
-        "The tactical stakes for the U.S. are clear: a result here would solidify their position at the top of the group, providing momentum heading into the knockout rounds. Meanwhile, Turkey will be playing for pride and the chance to disrupt the group standings, knowing that their performance will be defined by their ability to finally break through against a disciplined American defense.",
-        "This final Group D fixture is scheduled for June 25 at 22:00 ET and will be broadcast on FOX. As the group stage concludes, all eyes will be on Inglewood to see if the U.S. can maintain their perfect record or if Turkey can find a late spark to end their tournament run on a positive note."
+        "The final match of Group D provided plenty of drama at SoFi Stadium in Inglewood, as Turkey and the United States engaged in a back-and-forth battle that ended 3-2 in favor of the Turkish side. It was a spirited performance from Turkey, who looked to end their group stage run on a high note after earlier losses to Australia and Paraguay.",
+        "For the United States, the result was ultimately secondary to their standing in the group. Having entered the match in a strong position following wins against Paraguay and Australia, the U.S. maintained their lead in the group standings despite the narrow defeat. They finished with 6 points from three matches and a positive goal difference of 4.",
+        "With the group stage now concluded, the United States turns its focus toward the knockout rounds. They are set to face Bosnia-Herzegovina in the Round of 32 on July 1, carrying the momentum of their group-winning performance into the next phase of the tournament."
       ],
       "bullets": [
-        "The United States has already qualified for the Round of 32 with a perfect 6 points from two matches.",
-        "Turkey enters the final matchday looking for their first points and first goal of the tournament.",
-        "The match is hosted at SoFi Stadium, with kickoff set for 22:00 ET on June 25."
+        "The United States finished first in Group D with 6 points, while Turkey concluded their campaign in fourth place with 3 points.",
+        "The 3-2 result marked the highest-scoring match for both teams in the group stage.",
+        "The United States advances to the Round of 32 to face Bosnia-Herzegovina on July 1."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:44:36+00:00",
-      "sourceHash": "67379dfd9d7c4105",
+      "updatedAt": "2026-06-26T13:53:18+00:00",
+      "sourceHash": "1b5048a445c5961f",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "60": {
-      "headline": "Paraguay and Australia Face High-Stakes Showdown in Group D Finale",
-      "summary": "Paraguay and Australia meet at Levi's Stadium in the final round of Group D with both teams locked on three points. The winner of this clash will significantly boost their chances of advancing to the knockout stage, while the loser risks elimination depending on the result of the simultaneous match between the United States and Turkey.",
+      "headline": "Australia and Paraguay Play to Stalemate in Group D Finale",
+      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 draw at Levi's Stadium. The result leaves Australia second in Group D, securing their path to the Round of 32, while Paraguay finishes third in the group standings.",
       "story": [
-        "The scenario in Group D is finely balanced as Paraguay and Australia head into their final group stage match at Levi's Stadium in Santa Clara. With both nations sitting on three points, this fixture serves as a de facto playoff for a spot in the next round, making every goal and defensive stand crucial.",
-        "Paraguay enters this match with momentum following a hard-fought 1-0 victory over Turkey in their second outing, which helped them recover from an opening-day loss to the United States. Their ability to secure points in a tight defensive battle will be tested against an Australian side that has shown tactical discipline throughout the tournament.",
-        "Australia, meanwhile, remains in a strong position despite a 2-0 defeat to the United States in their previous match. Having opened their campaign with a solid 2-0 win over Turkey, the Socceroos have demonstrated they can control the tempo and capitalize on scoring opportunities when the pressure is on.",
-        "With the United States currently leading the group with six points, the race for the second qualification spot is effectively a direct contest between Paraguay and Australia. Goal difference could become a deciding factor if the match ends in a draw, adding another layer of complexity to the tactical approach of both managers.",
-        "The atmosphere at San Francisco Bay Area Stadium is expected to be electric for this 22:00 ET kickoff on June 25. Fans can tune in to FS1 to see which of these two determined squads will secure their path forward in the competition."
+        "In a tightly contested Matchday 3 fixture at Levi's Stadium in Santa Clara, Paraguay and Australia played out a scoreless draw. Neither side could find the breakthrough, resulting in a defensive stalemate that ultimately saw both teams hold firm in their respective defensive thirds throughout the match.",
+        "For Australia, the point was vital. Finishing the group stage with four points from three matches, they secured second place in Group D. This placement guarantees them a spot in the Round of 32, where they are already scheduled to face the runner-up of Group G on July 3.",
+        "Paraguay concludes their tournament run with four points as well, but they finish third in the group due to goal difference. Despite a resilient defensive effort to close out the group stage, they were unable to overcome the deficit in their standings to leapfrog the Australians.",
+        "The match served as a tense conclusion to a competitive Group D, which saw the United States finish at the top of the table despite their own result against Turkey. With the group stage now complete, Australia shifts their focus toward the knockout rounds and the challenges that await them in the next stage of the tournament."
       ],
       "bullets": [
-        "Both teams enter the final day tied on three points, making this a winner-takes-all scenario for qualification.",
-        "Paraguay recovered from an opening loss to defeat Turkey, while Australia looks to bounce back from their defeat against the United States.",
-        "The match takes place at Levi's Stadium, with the outcome likely determining the second-place finisher in Group D."
+        "Australia finishes second in Group D with 4 points, advancing to the Round of 32.",
+        "Paraguay finishes third in the group with 4 points, concluding their group stage campaign.",
+        "The match at Levi's Stadium ended in a 0-0 draw, keeping Australia's goal difference at 0."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:44:40+00:00",
-      "sourceHash": "3bacb1c6984dfbc5",
+      "updatedAt": "2026-06-26T13:53:35+00:00",
+      "sourceHash": "f161c8400d080bf4",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1371,22 +1370,22 @@
       "refreshReason": "source or prompt changed"
     },
     "8": {
-      "headline": "Australia Opens Group D Campaign with Shutout Win Over Turkey",
-      "summary": "Australia defeated Turkey 2-0 in their opening match of the tournament at BC Place in Vancouver. This result set the tone for Group D, providing Australia with a crucial early advantage in the standings. The victory served as a foundational moment for their progression through the group stage.",
+      "headline": "Australia Opens Group D Campaign with 2-0 Victory Over Turkey",
+      "summary": "Australia defeated Turkey 2-0 in their Matchday 1 encounter at BC Place. This result provided the foundation for Australia's progression through a competitive Group D.",
       "story": [
-        "The match at BC Place saw Australia execute a disciplined performance to secure a 2-0 victory over Turkey. By keeping a clean sheet and finding the back of the net twice, Australia immediately established themselves as a competitive force in Group D.",
-        "For Turkey, the loss presented an early challenge in a tightly contested group. The result left them needing to recover points in subsequent matches against the United States and Paraguay to keep their tournament hopes alive.",
-        "Following this Matchday 1 fixture, the landscape of Group D evolved quickly. Australia moved forward to face the United States in their second match, while Turkey looked to bounce back against Paraguay. The early points secured in Vancouver proved vital as the group standings tightened.",
-        "As the group stage progressed, the impact of this opening win remained a key narrative for Australia. With the United States currently leading the group with six points, Australia\u2019s initial success against Turkey provided the necessary cushion to remain in contention for a knockout spot heading into their final group match against Paraguay."
+        "Australia secured a vital 2-0 win against Turkey to kick off their 2026 World Cup journey. Played at BC Place in Vancouver, the match proved to be a decisive opening statement for the Australians, who managed to keep a clean sheet while capitalizing on their scoring opportunities.",
+        "The victory was an essential component of Australia's group stage performance. Following this win, Australia went on to face the United States and Paraguay, eventually accumulating 4 points across their three matches to finish second in Group D.",
+        "For Turkey, the opening loss set a difficult tone for the remainder of their group fixtures. Despite a resilient 3-2 comeback victory against the United States in their final match, the early deficit against Australia proved too significant to overcome in the final group standings.",
+        "With the group stage now concluded, Australia has successfully advanced to the Round of 32. They are scheduled to face the runner-up of Group G on July 3, carrying the momentum from their opening victory and their hard-fought draw against Paraguay into the knockout phase."
       ],
       "bullets": [
-        "Australia secured a clean sheet victory, limiting Turkey to zero goals.",
-        "The match was hosted at BC Place in Vancouver, serving as a pivotal opener for Group D.",
-        "The 2-0 result provided Australia with a critical three points to start their campaign."
+        "Australia's 2-0 win was the catalyst for their second-place finish in Group D.",
+        "The match was hosted at BC Place in Vancouver, Canada.",
+        "Australia finished the group stage with 4 points, securing a spot in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T05:04:04+00:00",
-      "sourceHash": "1687eb65a342d001",
+      "updatedAt": "2026-06-26T13:54:28+00:00",
+      "sourceHash": "d02e3c297503b4ee",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1454,23 +1453,22 @@
       "refreshReason": "source or prompt changed"
     },
     "4": {
-      "headline": "United States Dominates Paraguay in Opening Group D Clash",
-      "summary": "The United States secured a decisive 4-1 victory over Paraguay in their opening match of the tournament. This emphatic win at SoFi Stadium set the tone for the Americans' campaign in Group D.",
+      "headline": "United States Dominates Paraguay in Group D Opener",
+      "summary": "The United States secured a commanding 4-1 victory over Paraguay in their opening Group D match at SoFi Stadium. This decisive result set the tone for the Americans' successful group stage campaign, which ultimately saw them finish at the top of the table with six points.",
       "story": [
-        "The United States opened their tournament account in style at SoFi Stadium in Inglewood, California, delivering a comprehensive 4-1 performance against Paraguay. The result immediately established the hosts as the team to beat in Group D, showcasing their attacking intent from the very first matchday.",
-        "By putting four goals past the Paraguayan defense, the U.S. side not only claimed three vital points but also built a significant goal difference advantage early on. This margin proved crucial as the group stage progressed, providing a cushion that allowed the team to maintain control of their own destiny.",
-        "Following this opening victory, the United States continued their momentum by defeating Australia 2-0 in their second group fixture. With six points from two matches, they currently sit atop the Group D standings, having scored six goals while conceding only once.",
-        "For Paraguay, the loss in the opener forced a quick regrouping. They responded by securing a narrow 1-0 win against Turkey in their second match, keeping their knockout stage aspirations alive heading into the final round of group fixtures.",
-        "As the group stage concludes, the United States looks toward their final match against Turkey, while Paraguay faces a critical showdown against Australia. The U.S. has already secured a path to the Round of 32, where they are slated to face the best third-place finisher from Group B, E, F, I, or J."
+        "The atmosphere at SoFi Stadium in Inglewood was electric as the United States kicked off their tournament journey with a statement performance. By putting four goals past Paraguay, the U.S. immediately signaled their intent to control the group, leveraging home-field advantage to secure a vital three points in Matchday 1.",
+        "This victory proved to be the cornerstone of the American group stage effort. Following this win, the United States went on to defeat Australia 2-0, and despite a narrow 3-2 loss to Turkey in their final group fixture, they maintained enough momentum to finish first in Group D with a total of six points and a plus-four goal difference.",
+        "For Paraguay, the heavy defeat in the opener created immediate pressure. While they managed to bounce back with a 1-0 win against Turkey in their second match, they were unable to find the net in a 0-0 draw against Australia in their final group game. This left them with four points, ultimately finishing third in the group standings.",
+        "The result at SoFi Stadium was a clear indicator of the offensive firepower the United States brought to the tournament. By securing the top spot in Group D, the U.S. earned their place in the Round of 32, where they are now scheduled to face Bosnia-Herzegovina as they look to continue their run in the knockout stages."
       ],
       "bullets": [
-        "The United States leads Group D with 6 points and a +5 goal difference after two matches.",
-        "The 4-1 opening win provided the necessary momentum for the U.S. to secure early qualification for the knockout stage.",
-        "Paraguay remains in contention for the next round following a bounce-back win against Turkey."
+        "The United States finished at the top of Group D with 6 points from three matches.",
+        "Paraguay concluded their group stage campaign with 4 points, finishing third in the table.",
+        "The 4-1 win provided the United States with a significant goal difference advantage that proved crucial for their group standing."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T05:04:29+00:00",
-      "sourceHash": "81c381e754bc17b6",
+      "updatedAt": "2026-06-26T13:54:46+00:00",
+      "sourceHash": "cec94dea09ea5dee",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1894,31 +1892,31 @@
       "refreshReason": "group standings or prompt changed"
     },
     "D": {
-      "headline": "Group D: United States Dominates as Race for Second Heats Up",
-      "summary": "The United States has firmly taken control of Group D with two consecutive victories and a commanding goal difference. While the Americans look ahead to their final group match, Australia and Paraguay remain locked in a tight battle for the second qualification spot. Turkey, currently at the bottom of the table, faces a difficult path to remain in contention.",
+      "headline": "Group D Concludes: United States Leads the Way",
+      "summary": "The United States has finished at the top of Group D with 6 points after a competitive three-match stretch. Australia and Paraguay follow closely with 4 points each, while Turkey concludes their campaign with 3 points. The group stage results highlight a tight race for the runner-up position behind the American side.",
       "story": [],
       "bullets": [
-        "United States leads the group with 6 points and a +5 goal difference.",
-        "Australia and Paraguay are tied on 3 points each, making their final match pivotal.",
-        "Turkey has 0 points and a -3 goal difference after two matches.",
-        "The United States has scored 6 goals and conceded only 1 in their first two outings."
+        "The United States secured first place in the group with 6 points and a +4 goal difference.",
+        "Australia and Paraguay finished level on 4 points, separated by goal difference.",
+        "Turkey managed a final matchday win against the United States but finished bottom with 3 points.",
+        "The United States scored a group-high 8 goals across their three matches."
       ],
       "sections": [
         {
-          "title": "United States in Command",
-          "body": "The United States has been the standout performer in Group D, securing a 4-1 win over Paraguay and a 2-0 victory against Australia. With 6 points from two matches, they have established a comfortable cushion at the top of the table. They head into their final fixture against Turkey with significant momentum and a strong goal difference of +5."
+          "title": "United States Dominance",
+          "body": "The United States controlled the group early with a 4-1 victory over Paraguay and a 2-0 win against Australia. Despite a 3-2 loss to Turkey in their final match, their strong goal difference of +4 ensured they finished comfortably at the top of the table."
         },
         {
-          "title": "The Battle for Second Place",
-          "body": "Australia and Paraguay are currently level on 3 points, setting the stage for a high-stakes showdown on Matchday 3. Australia holds a goal difference of 0, while Paraguay sits at -2 following their opening loss to the US and a narrow 1-0 win over Turkey. The winner of their upcoming head-to-head match will be in a prime position to advance."
+          "title": "The Battle for Second",
+          "body": "Australia and Paraguay fought hard to secure the second spot, both finishing on 4 points. Australia maintained a 0 goal difference, which placed them ahead of Paraguay, who finished with a -2 goal difference after a scoreless draw in their final encounter."
         },
         {
           "title": "Turkey's Final Stand",
-          "body": "Turkey finds themselves in a challenging position with 0 points from their first two matches. Having lost 2-0 to Australia and 1-0 to Paraguay, they have yet to find the back of the net. They will need a strong performance against the United States in their final group game to have any hope of salvaging their tournament campaign."
+          "body": "Turkey struggled early with a 2-0 loss to Australia and a 1-0 defeat to Paraguay. However, they ended their tournament on a high note by upsetting the group leaders, the United States, with a 3-2 victory in their final matchday fixture."
         }
       ],
-      "updatedAt": "2026-06-26T05:04:47+00:00",
-      "sourceHash": "ad28feac79bf0895",
+      "updatedAt": "2026-06-26T13:54:59+00:00",
+      "sourceHash": "eeab9aca6695ddbe",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "group standings or prompt changed"
@@ -2324,36 +2322,36 @@
       "refreshReason": "player stats or prompt changed"
     },
     "folarin-balogun-united-states": {
-      "headline": "Folarin Balogun: Clinical Efficiency Leading the US Attack",
-      "summary": "Folarin Balogun has established himself as a potent threat for the United States, showcasing high-level efficiency in front of goal. Through his first 180 minutes of play, he has maintained a consistent scoring pace that keeps opposing defenses on high alert. As the tournament progresses into the knockout stages, his ability to capitalize on limited opportunities remains a critical asset for the squad.",
+      "headline": "Folarin Balogun: The Clinical Edge for the United States",
+      "summary": "Folarin Balogun has established himself as a primary offensive threat for the United States during the group stage. With 2 goals across 3 matches, he has demonstrated a high level of efficiency in front of the net. His ability to capitalize on limited opportunities makes him a vital component of the American attack as they head into the knockout rounds.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in 3 matches played.",
-        "Maintains a clinical 1.0 goals per 90 minutes rate.",
-        "Contributed 2 total points to the United States campaign.",
-        "Logged 180 minutes of action across the group stage.",
-        "Currently ranks 20th among top tournament performers."
+        "Scored 2 goals in 3 tournament appearances.",
+        "Maintains an impressive 1.0 goals per 90 minutes rate.",
+        "Totaled 2 points throughout the group stage campaign.",
+        "Logged 180 minutes of action for the United States.",
+        "Demonstrated consistent scoring efficiency with a 1.0 points per 90 rate."
       ],
       "sections": [
         {
-          "title": "Clinical Scoring Output",
-          "body": "Balogun has been a model of efficiency for the United States, finding the back of the net twice during his 180 minutes on the pitch. His 1.0 goals per 90 rate highlights his ability to make an immediate impact whenever he is involved in the attacking third."
+          "title": "Clinical Efficiency",
+          "body": "Balogun has been remarkably efficient during his time on the pitch, recording a goals per 90 rate of 1.0. By converting his chances at this frequency, he has provided the United States with a reliable focal point in the final third. His 2 goals represent a significant contribution to the team's overall offensive output."
         },
         {
           "title": "Tournament Impact",
-          "body": "With 2 points accumulated so far, Balogun has proven to be a central figure in the United States offensive strategy. His presence as a forward has been instrumental in securing results during the group stage matches against Paraguay and Australia."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "The United States prepares for their upcoming Group D finale against Turkey before shifting focus to the Round of 32. With a confirmed knockout stage matchup against Bosnia-Herzegovina on July 1st, Balogun will look to sustain his high production levels under pressure."
+          "body": "Across 180 minutes of play, Balogun has proven his value as a starting forward. His presence on the field has been instrumental in the team's group stage performance, where he consistently looked to threaten the opposition's defense. His ability to generate points at a rate of 1.0 per 90 minutes highlights his consistent involvement in the team's scoring efforts."
         },
         {
           "title": "Team Context",
-          "body": "As the United States navigates the tournament bracket, Balogun's role as a primary goal-scoring threat remains vital. His performance consistency provides the team with a reliable outlet as they transition from group play into the high-stakes environment of the knockout rounds."
+          "body": "The United States offense has relied on Balogun's movement and finishing ability to navigate a challenging group stage. Having participated in matches against Paraguay, Australia, and Turkey, he has faced diverse defensive setups and maintained his scoring form. His performance remains a cornerstone for the team's tactical approach."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "As the United States prepares for their upcoming Round of 32 match against Bosnia-Herzegovina, Balogun's form will be a key factor to watch. With the tournament shifting to the high-stakes knockout phase, his clinical nature will be essential for the team's advancement. Fans will look to him to maintain his scoring momentum in this critical fixture."
         }
       ],
-      "updatedAt": "2026-06-26T05:07:41+00:00",
-      "sourceHash": "b6b4c47079d3e751",
+      "updatedAt": "2026-06-26T13:55:13+00:00",
+      "sourceHash": "63428e6cb383a2fb",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -4267,23 +4265,22 @@
       "refreshReason": "manual spoiler-free preview target"
     },
     "81": {
-      "headline": "Knockout Stage Intensity: United States Faces Bosnia-Herzegovina",
-      "summary": "The United States and Bosnia-Herzegovina prepare for a high-stakes Round of 32 clash at Levi's Stadium. As the tournament shifts into the knockout phase, both sides look to secure their path forward in this critical matchup.",
+      "headline": "United States Faces Bosnia-Herzegovina in Round of 32 Clash",
+      "summary": "The United States takes on Bosnia-Herzegovina at Levi's Stadium in the Round of 32 on July 1, 2026. This knockout stage matchup brings together the winner of Group D and a high-performing third-place finisher to determine who advances further in the tournament.",
       "story": [
-        "The 2026 World Cup reaches a fever pitch as the Round of 32 brings the United States and Bosnia-Herzegovina together in Santa Clara. Hosted at the San Francisco Bay Area Stadium, this fixture marks a pivotal moment in the tournament where every decision on the pitch carries immense weight.",
-        "The United States enters this encounter having navigated their group stage campaign with notable momentum. Having secured their spot as the winners of Group D, the hosts will look to utilize the energy of the home crowd in California to dictate the tempo of the game.",
-        "Bosnia-Herzegovina arrives at this stage as one of the best third-place finishers from their respective group pool. Their journey to this Round of 32 matchup reflects a resilient campaign, and they will be looking to test the defensive organization of the American side.",
-        "Tactically, the match promises to be a fascinating study in styles. The United States has shown an ability to control proceedings in their previous outings, while Bosnia-Herzegovina will likely look to disrupt that rhythm and capitalize on transitions to keep the pressure on the home favorites.",
-        "With the knockout bracket now in full effect, there is no room for error. Both teams know that the path to the next round requires absolute focus and execution, making this evening clash a must-watch for those tracking the progression of the tournament."
+        "The 2026 World Cup knockout phase intensifies as the United States prepares to host Bosnia-Herzegovina at the San Francisco Bay Area Stadium in Santa Clara. Having emerged as the winners of Group D, the United States enters this Round of 32 fixture with the momentum of a successful group stage campaign behind them.",
+        "For the United States, the road to this stage included a series of competitive group matches against Paraguay, Australia, and Turkey. These encounters tested the team's resilience and tactical flexibility, providing a rigorous preparation for the high-stakes environment of a single-elimination knockout game.",
+        "Bosnia-Herzegovina arrives at this stage after securing their spot as one of the best third-place finishers from Groups B, E, F, I, or J. Their path to the Round of 32 reflects a determined effort to navigate a complex qualification landscape, making them a formidable opponent for the home side.",
+        "As the tournament shifts to the knockout format, every decision on the pitch carries increased weight. Fans watching this matchup should look for how the United States utilizes their home-field advantage in California and how Bosnia-Herzegovina adapts to the pressure of a high-stakes international environment."
       ],
       "bullets": [
-        "The United States enters as the winner of Group D, while Bosnia-Herzegovina qualified as a top-performing third-place side.",
-        "The match is scheduled for July 1, 2026, at 20:00 ET at Levi's Stadium in Santa Clara.",
-        "This is a Round of 32 knockout fixture, meaning the intensity will be at its peak from the opening whistle."
+        "Venue: Levi's Stadium, Santa Clara, California",
+        "Kickoff: July 1, 2026, at 20:00 ET",
+        "Stage: Round of 32, Knockout Round"
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T08:35:10+00:00",
-      "sourceHash": "4263d51201326ba3",
+      "updatedAt": "2026-06-26T13:55:26+00:00",
+      "sourceHash": "bd7d5d5dfb7de138",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -6039,34 +6036,26 @@
       "refreshReason": "future spoiler-free preview"
     },
     "88": {
-      "headline": "Australia Prepares for High-Stakes Round of 32 Clash in Arlington",
-      "summary": "Australia enters the Round of 32 at AT&T Stadium to face the runner-up from Group G. This knockout stage matchup represents a critical juncture in the tournament for the squad. Fans can look forward to an intense tactical battle as the path toward the next round begins.",
+      "headline": "Australia Prepares for High-Stakes Knockout Clash in Arlington",
+      "summary": "Australia enters the Round of 32 at AT&T Stadium to face the runner-up from Group G. This knockout match marks a pivotal moment in the tournament as teams fight to keep their dreams alive. Fans can look forward to a tense tactical battle in Texas.",
       "story": [
-        "The stage is set in Arlington, Texas, as Australia prepares to compete in the Round of 32 on July 3, 2026. This knockout fixture at the Dallas Stadium marks a pivotal moment in the tournament, where the margin for error disappears and every decision carries significant weight.",
-        "Australia has navigated a challenging path through Group D to reach this stage. Their journey has been defined by a mix of high-intensity encounters that have tested their resolve and tactical flexibility. As they step onto the pitch in Texas, they carry the experience of their previous group stage performances into this high-pressure environment.",
-        "Their opponent remains to be determined, as the slot is reserved for the runner-up of Group G. This uncertainty adds a layer of intrigue to the pre-match preparations, as Australia must remain ready to adapt to the specific tactical identity and playing style of whichever team emerges from that group.",
-        "AT&T Stadium provides a world-class backdrop for this knockout clash. The atmosphere in Arlington is expected to be electric, with both teams fully aware that this match is the gateway to further progression in the tournament. With a 14:00 ET kickoff time, the conditions will be ripe for a compelling display of international football."
+        "The 2026 World Cup reaches a fever pitch as Australia prepares for their Round of 32 knockout match. Scheduled for July 3 at 14:00 ET, the fixture will be hosted at the iconic Dallas Stadium in Arlington, Texas. Having navigated a challenging group stage, Australia now finds themselves in the high-pressure environment of single-elimination football.",
+        "Australia's journey to this stage has been defined by a mix of grit and defensive discipline. Their group campaign included a strong opening victory against Turkey, a difficult encounter with the United States, and a hard-fought stalemate against Paraguay. These experiences have tested their resolve and prepared them for the intensity of the knockout rounds.",
+        "While Australia has secured their spot, their opponent remains to be determined. The slot is reserved for the runner-up of Group G, meaning the tactical preparation for the Australian squad will be focused on adapting to the specific style of their mystery challenger. This uncertainty adds an extra layer of intrigue to the matchup.",
+        "AT&T Stadium serves as the perfect stage for this encounter. Known for its massive scale and electric atmosphere, the venue in Arlington is set to provide a world-class backdrop for a game where every decision matters. With the stakes at their absolute highest, both teams will be looking to impose their will early.",
+        "As the clock ticks down to kickoff, all eyes turn to how Australia will manage the transition from group play to the do-or-die nature of the knockout bracket. Whether they face a high-pressing side or a more conservative opponent from Group G, the match promises to be a defining moment for the Australian squad in this tournament."
       ],
       "bullets": [
-        "Monitor how Australia adjusts their defensive structure to counter the specific threats posed by the unknown Group G runner-up.",
-        "Watch for early tactical shifts as both sides look to establish dominance in the midfield during the opening minutes.",
-        "Observe how the atmosphere at AT&T Stadium influences the tempo of the match as the pressure of the knockout stage mounts."
+        "Australia enters the knockout phase after a diverse group stage performance against Turkey, the United States, and Paraguay.",
+        "The match takes place at AT&T Stadium in Arlington, a premier venue for this 2026 World Cup showdown.",
+        "The identity of the Group G runner-up will dictate the tactical approach for Australia in this crucial Round of 32 fixture."
       ],
-      "sections": [
-        {
-          "title": "The Road to the Knockout Stage",
-          "body": "Australia has spent the last few weeks navigating the complexities of Group D. Having faced diverse opponents, the team has gathered essential experience that will be vital in this single-elimination format. They now look to translate those lessons into a successful performance in Arlington."
-        },
-        {
-          "title": "Understanding the Stakes",
-          "body": "In the Round of 32, there is no room for complacency. Every tactical adjustment and individual effort serves the singular goal of advancing in the bracket. The identity of the Group G runner-up will finalize the matchup, setting the stage for a definitive showdown."
-        }
-      ],
-      "updatedAt": "2026-06-26T08:35:23+00:00",
-      "sourceHash": "9db7098c85a84663",
+      "sections": [],
+      "updatedAt": "2026-06-26T13:55:40+00:00",
+      "sourceHash": "1799569f88226aaf",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     }
   }
 }

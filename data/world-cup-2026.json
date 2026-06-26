@@ -1986,7 +1986,7 @@
       "timezoneLabel": "ET",
       "home": "Turkey",
       "away": "United States",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
       "venueId": "los-angeles",
       "videos": {
@@ -2002,7 +2002,9 @@
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-26T04:59:57+00:00"
-      }
+      },
+      "homeScore": 3,
+      "awayScore": 2
     },
     {
       "id": 60,
@@ -2015,7 +2017,7 @@
       "timezoneLabel": "ET",
       "home": "Paraguay",
       "away": "Australia",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "sf-bay",
       "videos": {
@@ -2031,7 +2033,9 @@
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-26T05:00:39+00:00"
-      }
+      },
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 61,
@@ -2708,7 +2712,7 @@
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-26T04:36:42+00:00",
+  "scheduleUpdatedAt": "2026-06-26T13:25:33+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
