@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-26T05:10:16+00:00",
+  "generatedAt": "2026-06-26T08:35:50+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -590,22 +590,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "52": {
-      "headline": "Brazil Dominates Scotland to Clinch Group C Top Spot",
-      "summary": "Final: Scotland 0, Brazil 3. Brazil secured a convincing 3-0 victory over Scotland at Hard Rock Stadium to finish at the summit of Group C. The result confirmed Brazil's progression to the Round of 32 as group winners, while Scotland concluded their tournament campaign with three points.",
+      "headline": "Brazil Secures Top Spot with Dominant Win Over Scotland",
+      "summary": "Final: Scotland 0, Brazil 3. Brazil defeated Scotland 3-0 at Hard Rock Stadium to conclude their group stage campaign. This commanding victory ensured Brazil finished at the top of Group C, while Scotland exited the tournament after a challenging three-match run.",
       "story": [
-        "Brazil asserted their authority in Miami Gardens, delivering a clinical 3-0 performance against Scotland that left little doubt about their status as group leaders. By maintaining their unbeaten run, Brazil finished their group stage campaign with seven points, edging out Morocco on goal difference to secure the top position in Group C.",
-        "For Scotland, the match marked a difficult end to their tournament journey. Despite an opening win against Haiti, back-to-back losses to Morocco and Brazil left them with three points, ultimately resulting in a third-place finish in the group. The Scottish side struggled to find their attacking rhythm throughout the competition, scoring only one goal across their three matches.",
-        "The match at Hard Rock Stadium served as a statement of intent from the Brazilians, who showcased their depth and attacking efficiency. With a +6 goal difference, Brazil demonstrated why they are considered a formidable force heading into the knockout rounds. They now look ahead to their next challenge, a Round of 32 clash scheduled for June 29 against the runner-up of Group F.",
-        "As the dust settles on Group C, the final standings reflect a highly competitive bracket. While Brazil and Morocco both finished on seven points, Brazil's superior goal difference proved decisive. Scotland and Haiti exit the tournament, leaving the path clear for the group's top two finishers to carry the momentum into the knockout stages."
+        "Brazil asserted their authority in Miami Gardens, delivering a clinical 3-0 performance against Scotland that left no doubt about their intentions in this tournament. By controlling the tempo from the start, the South American side effectively neutralized Scotland's defensive setup and capitalized on their offensive opportunities throughout the match.",
+        "For Scotland, the result marked a difficult end to their World Cup journey. Despite an opening victory against Haiti, they were unable to find the back of the net in their subsequent two matches, ultimately finishing third in Group C with three points and a goal difference of -3.",
+        "The win was pivotal for Brazil, who finished the group stage with seven points. While they tied with Morocco on points, Brazil's superior goal difference of +6 secured them the first-place position in the group standings.",
+        "With the group stage now complete, Brazil turns their attention to the knockout phase. They are scheduled to face Japan in the Round of 32 on June 29, carrying the momentum of an unbeaten group stage performance into the high-stakes environment of the single-elimination rounds."
       ],
       "bullets": [
-        "Brazil finished atop Group C with 7 points and a +6 goal difference, securing their place in the Round of 32.",
-        "Scotland finished their campaign in third place with 3 points, having scored 1 goal and conceded 4.",
-        "Brazil will face the runner-up of Group F in the Round of 32 on June 29."
+        "Brazil finished first in Group C with 7 points, edging out Morocco on goal difference.",
+        "Scotland concludes their tournament run in third place with 3 points.",
+        "Brazil advances to the Round of 32 to face Japan on June 29."
       ],
       "sections": [],
-      "updatedAt": "2026-06-25T17:47:24+00:00",
-      "sourceHash": "58ee059fdecf6841",
+      "updatedAt": "2026-06-26T08:34:49+00:00",
+      "sourceHash": "8d25f615b54a8043",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -3608,6 +3608,45 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
+    },
+    "anthony-elanga-sweden": {
+      "headline": "Anthony Elanga: Efficient Impact for Sweden",
+      "summary": "Anthony Elanga has proven to be a highly efficient attacking option for Sweden during the group stage. Despite limited minutes on the pitch, he has managed to convert his opportunities into meaningful production. His ability to find the back of the net quickly has made him a standout performer in his team's rotation. Elanga's contributions remain a key talking point as Sweden navigates their tournament campaign.",
+      "story": [
+        "Anthony Elanga has made the most of his time on the field, recording 2 goals in just 149 minutes of play.",
+        "His scoring rate highlights a clinical edge, as he maintains a goals-per-90 rate of 1.2.",
+        "While Sweden faced varied results in their group matches against Tunisia, the Netherlands, and Japan, Elanga remained a consistent threat whenever called upon."
+      ],
+      "bullets": [
+        "Total of 2 goals scored across 3 matches played.",
+        "Impressive efficiency with a goals-per-90 rate of 1.2.",
+        "Accumulated 2 total points in the tournament so far.",
+        "Logged 149 total minutes of playing time for Sweden.",
+        "Maintains a points-per-90 rate of 1.2."
+      ],
+      "sections": [
+        {
+          "title": "Clinical Efficiency",
+          "body": "Anthony Elanga has demonstrated remarkable precision in front of goal during his time in the tournament. With 2 goals in only 149 minutes, he has maximized his impact relative to his time on the pitch. His 1.2 goals-per-90 rate places him among the most efficient attackers in the current squad."
+        },
+        {
+          "title": "Tournament Contribution",
+          "body": "Across his 3 matches played, Elanga has been a vital part of Sweden's offensive efforts. He has successfully converted his limited playing time into 2 total points, proving his value as a forward. His ability to produce at a rate of 1.2 points-per-90 highlights his effectiveness in high-pressure scenarios."
+        },
+        {
+          "title": "Team Context",
+          "body": "Sweden's group stage journey included a dominant 5-1 victory over Tunisia, a challenging 5-1 loss to the Netherlands, and a hard-fought 1-1 draw against Japan. Elanga's performances have been a bright spot throughout these varied results. His role within the team continues to be defined by his quick impact and scoring capability."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "As Sweden reflects on their group stage performances, Elanga's statistical profile suggests he is a player who can change the momentum of a match. His high per-90 rates indicate that he remains a dangerous option for the coaching staff moving forward. Maintaining this level of production will be crucial for his team's future success."
+        }
+      ],
+      "updatedAt": "2026-06-26T08:35:50+00:00",
+      "sourceHash": "7ed70ba45c2d5c0e",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
     }
   },
   "matchPreviews": {
@@ -4228,34 +4267,26 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "manual spoiler-free preview target"
     },
     "81": {
-      "headline": "United States Prepares for Knockout Stage at Levi's Stadium",
-      "summary": "The United States enters the Round of 32 at Levi's Stadium in Santa Clara as the winner of Group D. They await their opponent, which will be determined from the best third-place finishers across Groups B, E, F, I, or J. This high-stakes knockout match marks a pivotal moment for the hosts in the 2026 tournament.",
+      "headline": "Knockout Stage Intensity: United States Faces Bosnia-Herzegovina",
+      "summary": "The United States and Bosnia-Herzegovina prepare for a high-stakes Round of 32 clash at Levi's Stadium. As the tournament shifts into the knockout phase, both sides look to secure their path forward in this critical matchup.",
       "story": [
-        "The United States squad heads to the San Francisco Bay Area for a critical Round of 32 showdown on July 1, 2026. Having secured their position as the winner of Group D, the team is now set to transition into the intensity of the knockout phase. The atmosphere at Levi's Stadium is expected to be electric as the host nation looks to continue their campaign in front of a home crowd.",
-        "While the United States has solidified their spot, the identity of their opponent remains one of the most intriguing aspects of this matchup. The path to this game involves a complex selection process, with the opponent being confirmed as one of the best third-place teams from Groups B, E, F, I, or J. This uncertainty adds a layer of tactical intrigue, as the American coaching staff must prepare for a variety of potential playstyles.",
-        "The United States enters this round with momentum from their group stage performances. They successfully navigated matches against Paraguay and Australia, demonstrating both offensive capability and defensive discipline. These previous outings have served as a vital foundation for the squad as they prepare to face the unique challenges that only a knockout game can provide.",
-        "As the tournament progresses, the stakes at Levi's Stadium reach a new level. Every decision on the pitch becomes magnified in the knockout format, where the margin for error narrows significantly. Fans and analysts alike will be watching closely to see how the United States adapts to the pressure of a win-or-go-home environment against an opponent that has fought hard to earn their place in this stage of the competition."
+        "The 2026 World Cup reaches a fever pitch as the Round of 32 brings the United States and Bosnia-Herzegovina together in Santa Clara. Hosted at the San Francisco Bay Area Stadium, this fixture marks a pivotal moment in the tournament where every decision on the pitch carries immense weight.",
+        "The United States enters this encounter having navigated their group stage campaign with notable momentum. Having secured their spot as the winners of Group D, the hosts will look to utilize the energy of the home crowd in California to dictate the tempo of the game.",
+        "Bosnia-Herzegovina arrives at this stage as one of the best third-place finishers from their respective group pool. Their journey to this Round of 32 matchup reflects a resilient campaign, and they will be looking to test the defensive organization of the American side.",
+        "Tactically, the match promises to be a fascinating study in styles. The United States has shown an ability to control proceedings in their previous outings, while Bosnia-Herzegovina will likely look to disrupt that rhythm and capitalize on transitions to keep the pressure on the home favorites.",
+        "With the knockout bracket now in full effect, there is no room for error. Both teams know that the path to the next round requires absolute focus and execution, making this evening clash a must-watch for those tracking the progression of the tournament."
       ],
       "bullets": [
-        "Watch how the United States adapts their tactical approach against an opponent that could come from several different group backgrounds.",
-        "Observe the home-field advantage at Levi's Stadium as the United States plays in front of a supportive crowd in Santa Clara.",
-        "Monitor the defensive structure of the United States, which has been a key component of their success throughout the group stage."
+        "The United States enters as the winner of Group D, while Bosnia-Herzegovina qualified as a top-performing third-place side.",
+        "The match is scheduled for July 1, 2026, at 20:00 ET at Levi's Stadium in Santa Clara.",
+        "This is a Round of 32 knockout fixture, meaning the intensity will be at its peak from the opening whistle."
       ],
-      "sections": [
-        {
-          "title": "The Road to the Round of 32",
-          "body": "The United States earned their place in this round by finishing at the top of Group D. Their journey included a strong opening victory against Paraguay and a disciplined performance against Australia. This consistency has provided the team with a solid platform as they enter the knockout phase."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at Levi's Stadium in the San Francisco Bay Area. As a premier venue in California, it offers a world-class stage for this pivotal knockout encounter. The local environment is expected to play a significant role in the energy of the match."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:26:08+00:00",
-      "sourceHash": "e2b4edd0a724a288",
+      "sections": [],
+      "updatedAt": "2026-06-26T08:35:10+00:00",
+      "sourceHash": "4263d51201326ba3",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "85": {
       "headline": "Switzerland Prepares for Knockout Stage at BC Place",
@@ -6003,6 +6034,36 @@ window.WORLD_CUP_AI_INSIGHTS = {
       ],
       "updatedAt": "2026-06-25T23:22:37+00:00",
       "sourceHash": "c9baf19590c85262",
+      "promptHash": "58c0eceedbff748a",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "future spoiler-free preview"
+    },
+    "88": {
+      "headline": "Australia Prepares for High-Stakes Round of 32 Clash in Arlington",
+      "summary": "Australia enters the Round of 32 at AT&T Stadium to face the runner-up from Group G. This knockout stage matchup represents a critical juncture in the tournament for the squad. Fans can look forward to an intense tactical battle as the path toward the next round begins.",
+      "story": [
+        "The stage is set in Arlington, Texas, as Australia prepares to compete in the Round of 32 on July 3, 2026. This knockout fixture at the Dallas Stadium marks a pivotal moment in the tournament, where the margin for error disappears and every decision carries significant weight.",
+        "Australia has navigated a challenging path through Group D to reach this stage. Their journey has been defined by a mix of high-intensity encounters that have tested their resolve and tactical flexibility. As they step onto the pitch in Texas, they carry the experience of their previous group stage performances into this high-pressure environment.",
+        "Their opponent remains to be determined, as the slot is reserved for the runner-up of Group G. This uncertainty adds a layer of intrigue to the pre-match preparations, as Australia must remain ready to adapt to the specific tactical identity and playing style of whichever team emerges from that group.",
+        "AT&T Stadium provides a world-class backdrop for this knockout clash. The atmosphere in Arlington is expected to be electric, with both teams fully aware that this match is the gateway to further progression in the tournament. With a 14:00 ET kickoff time, the conditions will be ripe for a compelling display of international football."
+      ],
+      "bullets": [
+        "Monitor how Australia adjusts their defensive structure to counter the specific threats posed by the unknown Group G runner-up.",
+        "Watch for early tactical shifts as both sides look to establish dominance in the midfield during the opening minutes.",
+        "Observe how the atmosphere at AT&T Stadium influences the tempo of the match as the pressure of the knockout stage mounts."
+      ],
+      "sections": [
+        {
+          "title": "The Road to the Knockout Stage",
+          "body": "Australia has spent the last few weeks navigating the complexities of Group D. Having faced diverse opponents, the team has gathered essential experience that will be vital in this single-elimination format. They now look to translate those lessons into a successful performance in Arlington."
+        },
+        {
+          "title": "Understanding the Stakes",
+          "body": "In the Round of 32, there is no room for complacency. Every tactical adjustment and individual effort serves the singular goal of advancing in the bracket. The identity of the Group G runner-up will finalize the matchup, setting the stage for a definitive showdown."
+        }
+      ],
+      "updatedAt": "2026-06-26T08:35:23+00:00",
+      "sourceHash": "9db7098c85a84663",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "future spoiler-free preview"
