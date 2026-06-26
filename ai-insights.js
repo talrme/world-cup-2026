@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-26T13:55:40+00:00",
+  "generatedAt": "2026-06-26T16:27:33+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -565,27 +565,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "51": {
-      "headline": "Morocco Advances After High-Scoring Win Over Haiti",
-      "summary": "Morocco defeated Haiti 4-2 in their final Group C match at Mercedes-Benz Stadium in Atlanta. The victory secured Morocco's place in the Round of 32, finishing the group stage with seven points.",
+      "headline": "Morocco Clinches Knockout Spot with High-Scoring Win Over Haiti",
+      "summary": "Morocco secured their place in the Round of 32 with a decisive 4-2 victory over Haiti at Mercedes-Benz Stadium. The result cemented Morocco's second-place finish in Group C, trailing Brazil only on goal difference. Haiti concludes their tournament campaign after a hard-fought effort in their final group stage appearance.",
       "story": [
-        "In a lively encounter at Mercedes-Benz Stadium, Morocco solidified their position in the tournament with a 4-2 victory over Haiti. The result marked the end of the group stage for both sides, with Morocco finishing level on points with group winners Brazil, though trailing on goal difference.",
-        "Morocco entered the match with momentum following a hard-fought 1-0 win over Scotland in their previous outing. Their offensive output against Haiti proved decisive, as they managed to find the back of the net four times to ensure they would move on to the knockout stages.",
-        "For Haiti, the match concluded a challenging group campaign. Despite the defeat, they managed to score twice, their highest output of the tournament, though they ultimately finished at the bottom of Group C without a point.",
-        "With the group stage concluded, Morocco now looks ahead to the Round of 32. They are scheduled to face the winner of Group F on June 29, carrying the confidence of an unbeaten group stage performance into the knockout rounds."
+        "In a lively encounter in Atlanta, Morocco demonstrated their offensive capabilities to overcome Haiti 4-2. The win was essential for Morocco, ensuring they finished their group stage campaign with 7 points, identical to group winners Brazil, but ultimately settling for the runner-up position due to goal difference.",
+        "For Haiti, the match marked the end of their 2026 World Cup journey. Despite the defeat, finding the back of the net twice against a disciplined Moroccan side provided a spirited exit for the team as they look toward future international competitions.",
+        "With the group stage now concluded, the focus shifts immediately to the knockout rounds. Morocco\u2019s second-place finish in Group C sets up a high-stakes Round of 32 clash against the winner of Group F, the Netherlands, scheduled for June 29."
       ],
       "bullets": [
-        "Morocco finished second in Group C with 7 points, identical to Brazil but with a lower goal difference.",
-        "The 4-2 scoreline was the highest-scoring match for both teams during the group stage.",
-        "Morocco remains undefeated in the tournament and will advance to play the winner of Group F on June 29."
+        "Morocco finished Group C in second place with 7 points, level with Brazil.",
+        "The 4-2 victory at Mercedes-Benz Stadium confirmed Morocco's advancement to the Round of 32.",
+        "Morocco is set to face the Netherlands in the next stage of the tournament."
       ],
-      "sections": [
-        {
-          "title": "Group C Final Standings",
-          "body": "Brazil finished at the top of the group with 7 points and a +6 goal difference, while Morocco also finished with 7 points and a +3 goal difference. Scotland secured third place with 3 points, leaving Haiti at the bottom of the table."
-        }
-      ],
-      "updatedAt": "2026-06-25T17:47:12+00:00",
-      "sourceHash": "a69a9d1a11b0cec4",
+      "sections": [],
+      "updatedAt": "2026-06-26T16:27:33+00:00",
+      "sourceHash": "3d46ffcff494120e",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
