@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26",
+  "generatedAt": "2026-06-27",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2110,9 +2110,25 @@
       "timezoneLabel": "ET",
       "home": "Cabo Verde",
       "away": "Saudi Arabia",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "houston"
+      "venueId": "houston",
+      "homeScore": 0,
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-27T10:16:30+00:00",
+          "title": "Cape Verde vs Saudi Arabia Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=grj3Ijq7cjQ",
+          "channel": "FOX Sports",
+          "durationText": "12 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-27T10:16:30+00:00"
+      }
     },
     {
       "id": 64,
@@ -2125,9 +2141,25 @@
       "timezoneLabel": "ET",
       "home": "Uruguay",
       "away": "Spain",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "guadalajara"
+      "venueId": "guadalajara",
+      "homeScore": 0,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-27T10:17:03+00:00",
+          "title": "Uruguay vs Spain Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=3OVZj9WqyDc",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-27T10:17:03+00:00"
+      }
     },
     {
       "id": 65,
@@ -2142,7 +2174,21 @@
       "away": "Belgium",
       "status": "scheduled",
       "network": "FOX",
-      "venueId": "vancouver"
+      "venueId": "vancouver",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-27T10:17:28+00:00",
+          "title": "New Zealand vs Belgium Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=Rouzq1yDV-Q",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-27T10:17:28+00:00"
+      }
     },
     {
       "id": 66,
@@ -2157,7 +2203,21 @@
       "away": "Iran",
       "status": "scheduled",
       "network": "FS1",
-      "venueId": "seattle"
+      "venueId": "seattle",
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-27T10:18:03+00:00",
+          "title": "Egypt vs Iran Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=vzUdJ51WH48",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-27T10:18:03+00:00"
+      }
     },
     {
       "id": 67,
@@ -2273,14 +2333,15 @@
       "date": "2026-06-29",
       "time": "16:30",
       "home": "Germany",
-      "away": "Best 3rd Group A/B/C/D/F",
+      "away": "Paraguay",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "boston",
       "homeSource": "Winner Group E",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760489"
+      "espnEventId": "760489",
+      "awaySource": "Best 3rd Group A/B/C/D/F"
     },
     {
       "id": 75,
@@ -2323,14 +2384,15 @@
       "date": "2026-06-30",
       "time": "17:00",
       "home": "France",
-      "away": "Best 3rd Group C/D/F/G/H",
+      "away": "Sweden",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760492",
-      "homeSource": "Winner Group I"
+      "homeSource": "Winner Group I",
+      "awaySource": "Best 3rd Group C/D/F/G/H"
     },
     {
       "id": 78,
@@ -2403,14 +2465,15 @@
       "round": "Knockout",
       "date": "2026-07-01",
       "time": "16:00",
-      "home": "Winner Group G",
+      "home": "Belgium",
       "away": "Best 3rd Group A/E/H/I/J",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "seattle",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760493"
+      "espnEventId": "760493",
+      "homeSource": "Winner Group G"
     },
     {
       "id": 83,
@@ -2433,14 +2496,15 @@
       "round": "Knockout",
       "date": "2026-07-02",
       "time": "15:00",
-      "home": "Winner Group H",
+      "home": "Spain",
       "away": "Runner-up Group J",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "los-angeles",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760497"
+      "espnEventId": "760497",
+      "homeSource": "Winner Group H"
     },
     {
       "id": 85,
@@ -2465,14 +2529,15 @@
       "date": "2026-07-03",
       "time": "18:00",
       "home": "Argentina",
-      "away": "Runner-up Group H",
+      "away": "Cabo Verde",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "miami",
       "homeSource": "Winner Group J",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760500"
+      "espnEventId": "760500",
+      "awaySource": "Runner-up Group H"
     },
     {
       "id": 87,
@@ -2496,14 +2561,15 @@
       "date": "2026-07-03",
       "time": "14:00",
       "home": "Australia",
-      "away": "Runner-up Group G",
+      "away": "Egypt",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760499",
-      "homeSource": "Runner-up Group D"
+      "homeSource": "Runner-up Group D",
+      "awaySource": "Runner-up Group G"
     },
     {
       "id": 89,
@@ -2746,7 +2812,7 @@
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-26T21:38:01+00:00",
+  "scheduleUpdatedAt": "2026-06-27T09:52:47+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2910,6 +2976,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-26T21:38:04+00:00",
+  "bracketUpdatedAt": "2026-06-27T09:52:48+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
