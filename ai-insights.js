@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-27T12:12:29+00:00",
+  "generatedAt": "2026-06-27T13:26:22+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -6141,35 +6141,31 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "77": {
-      "headline": "France Set for Round of 32 Clash at MetLife Stadium",
-      "summary": "France prepares to enter the knockout stage at MetLife Stadium on June 30th. They face a yet-to-be-determined opponent emerging from the pool of third-place finishers across several groups. This high-stakes encounter marks the beginning of the Round of 32 for the French squad.",
+      "headline": "France and Sweden Clash in Round of 32 Knockout Showdown",
+      "summary": "France and Sweden meet at MetLife Stadium in East Rutherford for a high-stakes Round of 32 knockout match. Both sides arrive with distinct group stage journeys as they look to secure their path forward in the tournament.",
       "story": [
-        "France heads into the Round of 32 with significant momentum following a dominant showing in Group I. Having successfully navigated their group stage fixtures, the team now shifts its focus to the intensity of knockout football at the New York New Jersey Stadium in East Rutherford.",
-        "The path to this match was paved by a series of convincing performances throughout the group stage. France demonstrated both offensive versatility and defensive discipline, setting a high standard as they enter this critical phase of the tournament.",
-        "The identity of their opponent remains a compelling mystery, as the slot is reserved for one of the best third-place teams from Groups C, D, F, G, or H. This uncertainty adds a layer of tactical intrigue, as France must prepare for a variety of potential playing styles and strategic approaches.",
-        "MetLife Stadium serves as the iconic backdrop for this clash, providing a massive stage for what promises to be a pivotal afternoon of football. With the tournament structure now moving into a single-elimination format, every decision on the pitch carries increased weight.",
-        "As the kickoff time of 17:00 ET approaches, all eyes will be on how France adapts to the unique challenge of facing a high-performing third-place qualifier. The pressure of the knockout rounds often brings out the best in top-tier nations, and this matchup will be a true test of their championship credentials."
+        "The 2026 World Cup reaches a critical juncture as France and Sweden prepare to face off on June 30 at 17:00 ET. Hosted at the iconic MetLife Stadium in East Rutherford, New Jersey, this Round of 32 fixture marks the beginning of the knockout phase where every moment carries the weight of tournament survival.",
+        "France enters this match with significant momentum after a dominant performance in Group I. They navigated their group stage campaign with conviction, securing victories against Senegal, Iraq, and Norway. Their ability to find the back of the net consistently throughout those three matches suggests a high-powered attack that will look to dictate the tempo from the opening whistle.",
+        "Sweden arrives at this stage after a varied group stage experience in Group F. Their journey included a commanding win over Tunisia, a challenging encounter against the Netherlands, and a hard-fought draw with Japan. Having navigated the complexities of their group, Sweden will look to bring that resilience to the pitch against a formidable French side.",
+        "The tactical narrative for this match centers on how Sweden\u2019s defense manages the pressure applied by the French frontline. France has demonstrated a clinical edge in their previous outings, and Sweden will need to rely on the defensive organization they displayed throughout their group stage matches to keep the scoreline tight.",
+        "As the tournament moves into the knockout rounds, the atmosphere at MetLife Stadium is expected to be electric. With both teams having proven their ability to compete on the world stage, this matchup promises to be a test of mental fortitude and tactical discipline for both squads."
       ],
       "bullets": [
-        "Watch how France adjusts their tactical setup to counter the specific strengths of their opponent once the final bracket slot is confirmed.",
-        "Observe the atmosphere at MetLife Stadium, as the venue hosts this high-stakes Round of 32 fixture.",
-        "Monitor France's defensive structure, which will be tested by a team that has fought hard to secure a place in the knockout bracket."
+        "France enters the knockout stage following an undefeated run in Group I, scoring multiple goals in every group match.",
+        "Sweden looks to build on their experience against diverse styles of play encountered during their Group F campaign.",
+        "The match takes place at the New York New Jersey Stadium, providing a massive stage for this Round of 32 encounter."
       ],
       "sections": [
         {
-          "title": "The Road to the Knockouts",
-          "body": "France arrives at this stage after a flawless group campaign where they consistently found the back of the net. Their ability to dismantle diverse opponents suggests they are well-prepared for the rigors of the knockout bracket. The team will look to maintain this offensive rhythm as they transition into the Round of 32."
-        },
-        {
-          "title": "Awaiting the Challenger",
-          "body": "The opponent for this match is defined as the best third-place team from a wide selection of groups, including C, D, F, G, and H. This creates a unique scouting challenge for the French coaching staff. Fans should keep an eye on how the team manages the uncertainty surrounding their mystery challenger."
+          "title": "Tournament Context",
+          "body": "This match is part of the Round of 32, the first stage of the knockout bracket. France qualified as the winner of Group I, while Sweden advanced as one of the best third-placed teams from the group stage. The winner of this contest will continue their journey in the 2026 World Cup."
         }
       ],
-      "updatedAt": "2026-06-26T23:26:11+00:00",
-      "sourceHash": "6135c13faa225487",
+      "updatedAt": "2026-06-27T13:26:22+00:00",
+      "sourceHash": "adf41e385c23f3fb",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "82": {
       "headline": "Belgium Prepares for Knockout Stage at Lumen Field",
