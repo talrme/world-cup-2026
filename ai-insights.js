@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-27T15:27:19+00:00",
+  "generatedAt": "2026-06-27T16:48:14+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -573,23 +573,24 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "51": {
       "headline": "Morocco Clinches Knockout Spot with High-Scoring Win Over Haiti",
-      "summary": "Morocco secured their place in the Round of 32 with a decisive 4-2 victory over Haiti at Mercedes-Benz Stadium. The result cemented Morocco's second-place finish in Group C, trailing Brazil only on goal difference. Haiti concludes their tournament campaign after a hard-fought effort in their final group stage appearance.",
+      "summary": "Morocco secured their place in the Round of 32 with a decisive 4-2 victory over Haiti at Mercedes-Benz Stadium. This result finalized the Group C standings, confirming Morocco as the group runners-up behind Brazil.",
       "story": [
-        "In a lively encounter in Atlanta, Morocco demonstrated their offensive capabilities to overcome Haiti 4-2. The win was essential for Morocco, ensuring they finished their group stage campaign with 7 points, identical to group winners Brazil, but ultimately settling for the runner-up position due to goal difference.",
-        "For Haiti, the match marked the end of their 2026 World Cup journey. Despite the defeat, finding the back of the net twice against a disciplined Moroccan side provided a spirited exit for the team as they look toward future international competitions.",
-        "With the group stage now concluded, the focus shifts immediately to the knockout rounds. Morocco\u2019s second-place finish in Group C sets up a high-stakes Round of 32 clash against the winner of Group F, the Netherlands, scheduled for June 29."
+        "In an energetic Matchday 3 encounter in Atlanta, Morocco demonstrated their attacking depth by putting four goals past Haiti. The 4-2 win was the perfect punctuation to a successful group stage campaign that saw the team remain unbeaten through three matches.",
+        "For Morocco, the victory was essential to maintaining their momentum after a hard-fought draw against Brazil and a narrow win over Scotland earlier in the group stage. By finishing with seven points, they successfully navigated a challenging group to earn their spot in the next phase of the tournament.",
+        "Haiti, while unable to secure a point in the tournament, showed resilience in their final match by finding the back of the net twice. Despite the loss, the performance provided a competitive end to their World Cup journey.",
+        "With the group stage now concluded, Morocco turns its attention to the Round of 32. They are set to face the Netherlands on June 29, a high-stakes matchup that will test their ability to compete against the winners of Group F."
       ],
       "bullets": [
-        "Morocco finished Group C in second place with 7 points, level with Brazil.",
-        "The 4-2 victory at Mercedes-Benz Stadium confirmed Morocco's advancement to the Round of 32.",
-        "Morocco is set to face the Netherlands in the next stage of the tournament."
+        "Morocco finished second in Group C with 7 points, trailing Brazil only on goal difference.",
+        "The 4-2 victory at Mercedes-Benz Stadium marked Morocco's highest-scoring performance of the group stage.",
+        "Morocco advances to face the Netherlands in the Round of 32 on June 29."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T16:27:33+00:00",
+      "updatedAt": "2026-06-27T16:48:14+00:00",
       "sourceHash": "3d46ffcff494120e",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "52": {
       "headline": "Brazil Secures Group C Top Spot with Dominant Win Over Scotland",
