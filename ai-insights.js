@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-27T13:26:22+00:00",
+  "generatedAt": "2026-06-27T15:27:19+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -70,22 +70,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "38": {
-      "headline": "Belgium and Iran play to stalemate in Group G",
-      "summary": "Belgium and Iran played to a 0-0 draw at SoFi Stadium, leaving both teams searching for their first win of the tournament. The result keeps the group standings tight as teams head into the final matchday.",
+      "headline": "Belgium and Iran Battle to Stalemate in Group G",
+      "summary": "Belgium and Iran played to a 0-0 draw at SoFi Stadium, leaving both sides searching for more in their Group G campaign. The result tightened the group standings, forcing both teams to look toward their final matchday fixtures to secure their knockout stage ambitions.",
       "story": [
-        "The match at SoFi Stadium in Inglewood ended in a scoreless draw, as neither Belgium nor Iran could find the breakthrough needed to secure three points. Both sides struggled to convert their opportunities into goals throughout the 90 minutes, resulting in a defensive battle that ultimately favored neither team.",
-        "For Belgium, the draw marks their second consecutive point-sharing result, following their 1-1 opener against Egypt. With two points from two matches, they find themselves in a precarious position as they look toward their final group stage fixture against New Zealand.",
-        "Iran also moves to two points after two games, having previously drawn 2-2 with New Zealand. The result keeps them level with Belgium in the group standings, setting the stage for a high-stakes final round of matches where qualification spots will be decided.",
-        "With Egypt currently leading the group with four points, the pressure is mounting for both Belgium and Iran. Both teams will need to secure a victory in their respective Matchday 3 encounters to ensure their progression in the tournament."
+        "The match at SoFi Stadium in Inglewood saw Belgium and Iran trade defensive efforts in a tightly contested 0-0 draw. Despite the high stakes of Matchday 2, neither side could find the breakthrough, resulting in a point shared that kept the group dynamics wide open.",
+        "For Belgium, the draw represented a second consecutive stalemate following their opening 1-1 result against Egypt. The inability to secure three points against Iran placed additional pressure on their final group stage fixture against New Zealand, where they ultimately found their offensive rhythm.",
+        "Iran, meanwhile, displayed resilience throughout the match. Having also drawn their opening game 2-2 against New Zealand, this clean sheet against a formidable Belgian side was a significant defensive milestone, though it left them with a narrow margin for error heading into their final group match against Egypt.",
+        "The result significantly impacted the trajectory of Group G. By the conclusion of the group stage, Belgium finished at the top of the table with 5 points and a +4 goal difference, while Iran concluded their tournament run with 3 points, ultimately finishing third in the group standings."
       ],
       "bullets": [
-        "The 0-0 draw leaves Belgium and Iran tied on two points each in Group G.",
-        "Both teams remain winless after two matches, increasing the urgency for their final group stage games.",
-        "Egypt currently leads the group with four points heading into the final round."
+        "The 0-0 draw at SoFi Stadium was a defensive stalemate that left Group G wide open after Matchday 2.",
+        "Belgium leveraged this result to eventually secure the top spot in Group G with 5 points.",
+        "Iran finished their group campaign with 3 points, remaining competitive throughout the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T10:20:46+00:00",
-      "sourceHash": "d9a650675cb7626a",
+      "updatedAt": "2026-06-27T15:25:14+00:00",
+      "sourceHash": "ff6eb5af42ef3d28",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -113,27 +113,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "40": {
-      "headline": "Egypt Secures Crucial Victory Over New Zealand",
-      "summary": "Final: New Zealand 1, Egypt 3. Egypt defeated New Zealand 3-1 at BC Place in Vancouver to take control of Group G. This result moves Egypt to the top of the table with four points after two matches, leaving New Zealand at the bottom of the group.",
+      "headline": "Egypt Secures Vital Victory Over New Zealand",
+      "summary": "Final: New Zealand 1, Egypt 3. Egypt defeated New Zealand 3-1 in a decisive Group G encounter at BC Place in Vancouver. This result proved instrumental in Egypt's path to the knockout stages, keeping them firmly in the hunt for the top of the group.",
       "story": [
-        "Egypt delivered a clinical performance at BC Place, overcoming New Zealand 3-1 in a pivotal Matchday 2 clash. The victory was a significant statement for the side, as it propelled them to the summit of Group G with four points, distancing themselves from the tight race developing beneath them.",
-        "For New Zealand, the defeat was a tough blow following their opening draw against Iran. Despite their efforts, they struggled to contain the Egyptian attack and now find themselves in a precarious position at the bottom of the table with only one point from their first two fixtures.",
-        "The group dynamics have tightened significantly following the day's other result, where Belgium and Iran played to a scoreless draw. With Egypt now leading the pack, the final round of group stage matches becomes critical for all four nations as they fight for advancement.",
-        "Looking ahead, New Zealand faces a must-win scenario against Belgium in their final group match to keep their tournament hopes alive. Meanwhile, Egypt will look to build on their momentum when they take on Iran to solidify their standing at the top of the group."
+        "The atmosphere at BC Place was electric as Egypt took control of the match, ultimately securing a 3-1 victory against New Zealand. By finding the back of the net three times, Egypt demonstrated the attacking efficiency required to navigate a competitive group stage.",
+        "For New Zealand, the loss proved difficult to overcome in the broader context of Group G. The result left them struggling to find their footing against the tactical discipline shown by their opponents, ultimately impacting their ability to challenge for a spot in the next round.",
+        "This match was a pivotal moment in the group standings. With the three points secured, Egypt maintained their momentum, eventually finishing the group stage with 5 points and a positive goal difference, which was enough to secure their progression."
       ],
       "bullets": [
-        "Egypt currently leads Group G with 4 points and a +2 goal difference.",
-        "New Zealand sits at the bottom of the group with 1 point and a -2 goal difference.",
-        "The result at BC Place in Vancouver marks the first win for either team in this group stage."
+        "Egypt's 3-1 win provided the necessary cushion to finish second in Group G.",
+        "The victory at BC Place was the only win for either side in the group stage, proving to be the difference-maker for Egypt's qualification.",
+        "Egypt finished the group stage with 5 points, trailing group leaders Belgium only on goal difference."
       ],
-      "sections": [
-        {
-          "title": "Group G Outlook",
-          "body": "The group remains highly competitive with only three points separating the top and bottom sides. With Egypt in the lead, the upcoming matches between New Zealand versus Belgium and Egypt versus Iran will determine the final knockout stage qualifiers."
-        }
-      ],
-      "updatedAt": "2026-06-27T10:20:21+00:00",
-      "sourceHash": "6d12319d2aff860e",
+      "sections": [],
+      "updatedAt": "2026-06-27T15:25:00+00:00",
+      "sourceHash": "7c8c8147fc8776cd",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -751,24 +745,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "59": {
-      "headline": "Turkey Edges United States in High-Scoring Group D Finale",
-      "summary": "Turkey defeated the United States 3-2 in a thrilling Matchday 3 encounter at SoFi Stadium. Despite the loss, the United States secured the top spot in Group D, while Turkey finished their tournament campaign with a win.",
+      "headline": "Turkey Edges United States in Thrilling Group D Finale",
+      "summary": "Turkey secured a hard-fought 3-2 victory over the United States in the final match of Group D at SoFi Stadium. Despite the loss, the United States finished at the top of the group standings with 6 points, while Turkey concluded their tournament run with 3 points.",
       "story": [
-        "The final match of Group D provided plenty of drama at SoFi Stadium in Inglewood, as Turkey and the United States engaged in a back-and-forth battle that ended 3-2 in favor of the Turkish side. It was a spirited performance from Turkey, who looked to end their group stage run on a high note after earlier losses to Australia and Paraguay.",
-        "For the United States, the result was ultimately secondary to their standing in the group. Having entered the match in a strong position following wins against Paraguay and Australia, the U.S. maintained their lead in the group standings despite the narrow defeat. They finished with 6 points from three matches and a positive goal difference of 4.",
-        "With the group stage now concluded, the United States turns its focus toward the knockout rounds. They are set to face Bosnia-Herzegovina in the Round of 32 on July 1, carrying the momentum of their group-winning performance into the next phase of the tournament."
+        "The atmosphere at SoFi Stadium in Inglewood was electric as Turkey and the United States faced off in their final Group D encounter. In a back-and-forth contest, Turkey managed to overcome the U.S. side with a final score of 3-2, providing a dramatic conclusion to the group stage.",
+        "For the United States, the result did not derail their momentum in the tournament. Having entered the match with two previous victories\u2014a 4-1 win over Paraguay and a 2-0 win against Australia\u2014the U.S. had already established a strong position. They finished the group stage at the summit with 6 points and a positive goal difference of 4.",
+        "Turkey, meanwhile, fought valiantly in their final appearance. After opening their campaign with a 2-0 loss to Australia and a narrow 1-0 defeat to Paraguay, this victory served as a spirited exit from the competition. Their 3 points were not enough to advance, but the win ensured they left the tournament on a high note.",
+        "With the group stage now complete, the focus for the United States shifts immediately to the knockout phase. Having secured the top spot in Group D, the U.S. is set to face Bosnia-Herzegovina in the Round of 32 on July 1st. This upcoming fixture will be a critical test as they look to carry their group-stage form into the single-elimination rounds."
       ],
       "bullets": [
-        "The United States finished first in Group D with 6 points, while Turkey concluded their campaign in fourth place with 3 points.",
-        "The 3-2 result marked the highest-scoring match for both teams in the group stage.",
-        "The United States advances to the Round of 32 to face Bosnia-Herzegovina on July 1."
+        "The United States finished first in Group D with 6 points, securing a spot in the Round of 32 against Bosnia-Herzegovina.",
+        "Turkey concluded their tournament with a 3-2 win, finishing fourth in the group with 3 points.",
+        "The match at SoFi Stadium served as the final group-stage fixture for both nations."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T13:53:18+00:00",
+      "updatedAt": "2026-06-27T15:26:31+00:00",
       "sourceHash": "1b5048a445c5961f",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "60": {
       "headline": "Paraguay and Australia Play to Scoreless Draw in Group D Finale",
@@ -875,43 +870,44 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "65": {
-      "headline": "Group G Showdown: New Zealand and Belgium Fight for Survival",
-      "summary": "New Zealand and Belgium meet in a critical Group G finale at BC Place in Vancouver. With both teams needing points to keep their tournament hopes alive, this Matchday 3 clash carries significant weight for the final standings.",
+      "headline": "Belgium Dominates New Zealand to Secure Top Spot in Group G",
+      "summary": "Final: New Zealand 1, Belgium 5. Belgium secured a commanding 5-1 victory over New Zealand at BC Place to finish at the top of Group G. This emphatic win ensured their progression to the Round of 32, while New Zealand concludes their tournament campaign with a single point.",
       "story": [
-        "The stakes could not be higher in Vancouver as New Zealand and Belgium prepare for their final group stage encounter. Currently sitting at the bottom of Group G with one point, New Zealand faces a must-win scenario to have any chance of progressing. Their tournament journey has been defined by high-scoring efforts, including a 2-2 draw against Iran and a 1-3 loss to Egypt, leaving them desperate to tighten their defense while maintaining their offensive spark.",
-        "Belgium enters this fixture in a precarious position as well, having drawn both of their opening matches. With two points from two games, the Belgians have been defensively sound but have struggled to find the back of the net, recording a 1-1 draw with Egypt and a scoreless stalemate against Iran. Their inability to secure a win thus far puts immense pressure on them to deliver a clinical performance against the New Zealand side.",
-        "The group dynamics add another layer of intrigue to this matchup. With Egypt leading the pack on four points and Iran sitting on two, every goal and point in this final round of fixtures will be decisive. A victory for either side could potentially vault them into the knockout stages, depending on the outcome of the simultaneous match between Egypt and Iran.",
-        "As the teams take the pitch at BC Place, the tactical battle will be central to the outcome. Belgium will look to leverage their disciplined structure to finally unlock a victory, while New Zealand will aim to capitalize on their attacking energy to overcome their current points deficit. Fans can catch the broadcast on FOX as these two nations vie for a spot in the next round."
+        "Belgium entered the final matchday of Group G with everything to play for, and they delivered their most clinical performance of the tournament. After two consecutive draws against Egypt and Iran, the Belgian side found their offensive rhythm in Vancouver, dismantling New Zealand with a decisive 5-1 scoreline.",
+        "The result at BC Place was a statement of intent, allowing Belgium to leapfrog Egypt in the group standings. By finishing with five points and a superior goal difference, Belgium successfully navigated a tight group to claim the top seed heading into the knockout stages.",
+        "For New Zealand, the match proved to be a difficult end to their World Cup journey. Despite a hard-fought draw against Iran in their opening match, they struggled to contain the Belgian attack, ultimately finishing at the bottom of the group with one point and a goal difference of -6.",
+        "With the group phase now complete, Belgium shifts their focus to the Round of 32. Having secured the top spot in Group G, they are scheduled to play their next match on July 1, where they will face the best third-place finisher from Groups A, E, H, I, or J."
       ],
       "bullets": [
-        "New Zealand enters the match at the bottom of Group G with one point, while Belgium holds two points from two draws.",
-        "A win is essential for New Zealand to remain in contention, while Belgium needs a victory to secure their path to the knockout rounds.",
-        "The match takes place at BC Place in Vancouver, with kickoff scheduled for 23:00 ET on June 26."
+        "Belgium finished atop Group G with 5 points, edging out Egypt on goal difference.",
+        "The 5-1 victory marks Belgium's highest scoring output of the group stage.",
+        "Belgium advances to the Round of 32, with their next match set for July 1."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:47:43+00:00",
-      "sourceHash": "4c69af5a6b023781",
+      "updatedAt": "2026-06-27T15:24:35+00:00",
+      "sourceHash": "03c720217cbe95b9",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "66": {
-      "headline": "Egypt and Iran clash in Group G finale",
-      "summary": "Egypt enters the final matchday of Group G leading the table with four points, while Iran sits in second with two points. The outcome of this encounter at Lumen Field will be decisive for both nations as they vie for a spot in the next round.",
+      "headline": "Egypt and Iran Play to Stalemate in Group G Finale",
+      "summary": "Egypt and Iran finished their Group G campaign with a 0-0 draw at Lumen Field in Seattle. The result confirmed Egypt's place in the knockout stages, while Iran concluded their tournament run with three points from their three group matches.",
       "story": [
-        "Egypt has established themselves as the team to beat in Group G. After a hard-fought opening draw against Belgium, they secured a convincing 3-1 victory over New Zealand. This performance has placed them at the top of the standings with four points and a positive goal difference, putting them in a strong position to advance.",
-        "Iran finds themselves in a more precarious situation, currently sitting in second place with two points after back-to-back draws against New Zealand and Belgium. While they remain undefeated, their inability to secure a win thus far means they must be aggressive to ensure their tournament life continues beyond this match.",
-        "The stakes are clear for this showdown in Seattle. A win or a draw would guarantee Egypt a place in the next stage, while Iran likely needs a victory to feel secure, depending on the result of the concurrent match between Belgium and New Zealand.",
-        "Lumen Field will provide the backdrop for this high-pressure fixture. With the group so tightly contested behind the leaders, every goal and point gained here will be critical for determining the final order of the table."
+        "The final matchday in Group G saw Egypt and Iran battle to a scoreless draw, a result that ultimately favored the North African side. Played at Seattle Stadium, the match lacked the breakthrough goal needed to break the deadlock, leaving both teams to settle for a share of the points.",
+        "For Egypt, the point was enough to solidify their standing in the group. Having secured five points across their three matches\u2014including a victory over New Zealand and a draw against Belgium\u2014they successfully navigated a competitive group to advance to the Round of 32.",
+        "Iran, meanwhile, proved to be a difficult opponent throughout the group stage. Despite failing to secure a win, they remained unbeaten in their final two matches, having previously held Belgium to a 0-0 draw. Their resilience was on display once again against Egypt, though the lack of a victory ultimately left them outside the qualification spots.",
+        "With the group stage concluded, Egypt now turns its attention to the knockout phase. They are scheduled to face Australia on July 3 in the Round of 32, a match that will test their ability to perform under the pressure of single-elimination football.",
+        "The final Group G standings reflect a tight battle for the top spots. Belgium finished at the summit with five points, edging out Egypt on goal difference, while Iran finished third with three points and New Zealand rounded out the group."
       ],
       "bullets": [
-        "Egypt leads Group G with 4 points, while Iran holds 2 points from two draws.",
-        "A result for Egypt secures their advancement, whereas Iran faces pressure to find their first win of the tournament.",
-        "The match is scheduled for June 26 at 23:00 ET at Lumen Field in Seattle."
+        "Egypt advanced to the Round of 32 with five points, setting up a clash against Australia on July 3.",
+        "The 0-0 result marked Iran's second consecutive draw to close out their tournament participation.",
+        "Belgium finished first in Group G on goal difference, despite Egypt also finishing with five points."
       ],
       "sections": [],
-      "updatedAt": "2026-06-24T16:45:16+00:00",
-      "sourceHash": "52097e978b466a98",
+      "updatedAt": "2026-06-27T15:24:48+00:00",
+      "sourceHash": "63bdb8a069478325",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1232,22 +1228,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "16": {
-      "headline": "Iran and New Zealand Trade Goals in Thrilling Draw",
-      "summary": "Iran and New Zealand played to a 2-2 draw in their opening Group G match at SoFi Stadium in Inglewood. The high-scoring stalemate set an early tone for a competitive group stage, leaving both teams searching for their first win of the tournament.",
+      "headline": "Iran and New Zealand Share Points in Group G Thriller",
+      "summary": "Iran and New Zealand played to a 2-2 draw in their opening Matchday 1 fixture at SoFi Stadium. This high-scoring stalemate set the tone for a competitive Group G, ultimately contributing to a group dynamic where every point proved vital.",
       "story": [
-        "The match at SoFi Stadium delivered an entertaining encounter as Iran and New Zealand split the points in a 2-2 draw. Both sides showed attacking intent throughout the evening, resulting in a back-and-forth affair that kept fans on the edge of their seats in California.",
-        "For Iran, the result provided a foundation to build upon, though it ultimately left them with a pair of draws after their subsequent match against Belgium also finished scoreless. The inability to secure a victory in this opening fixture put added pressure on their final group stage match against Egypt.",
-        "New Zealand faced a more difficult path following the draw, as they were unable to capitalize on the momentum against Egypt in their second outing. With only one point from their first two matches, the New Zealand squad found themselves at the bottom of the Group G table heading into their final fixture against Belgium.",
-        "The competitive nature of this match underscored the tight margins within Group G. With Egypt currently leading the group on four points, the draws between Iran, New Zealand, and Belgium have left the qualification picture wide open, making every remaining match critical for advancement."
+        "The opening match between Iran and New Zealand at SoFi Stadium in Inglewood provided an immediate spark for Group G. Both sides showed offensive intent in a 2-2 draw, marking a significant start to their respective campaigns in the tournament.",
+        "For Iran, the result was the first of three consecutive draws in the group stage. Following this match, they would go on to hold both Belgium and Egypt to scoreless results, showcasing a resilient defensive structure that kept them in contention throughout the opening phase.",
+        "New Zealand faced a more difficult path following this initial point. While they managed to find the back of the net twice against Iran, the subsequent matches against Egypt and Belgium proved challenging, ultimately leaving them at the bottom of the group standings.",
+        "The draw at SoFi Stadium served as a crucial early indicator of the parity within the group. With Belgium and Egypt also drawing their opening match, the group remained wide open heading into the second round of fixtures.",
+        "By the conclusion of the group stage, the points dropped in this opening encounter played a significant role in the final table. Iran finished with three points from three draws, while New Zealand concluded their tournament run with one point."
       ],
       "bullets": [
-        "The 2-2 draw was the highest-scoring match of the opening round for Group G.",
-        "The result left Iran with two points from two matches, while New Zealand earned their only point of the group stage so far in this fixture.",
-        "SoFi Stadium in Inglewood served as the venue for this intense opening-day clash."
+        "The 2-2 draw was the highest-scoring match in Group G during the opening round of play.",
+        "Iran finished the group stage undefeated, though their three points from three draws were not enough to advance.",
+        "SoFi Stadium hosted this competitive fixture, which set the stage for a tight group race between Belgium, Egypt, Iran, and New Zealand."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T10:22:31+00:00",
-      "sourceHash": "d00335c62a0602f1",
+      "updatedAt": "2026-06-27T15:25:26+00:00",
+      "sourceHash": "bfd13b47873fe2a6",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1271,27 +1268,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "14": {
-      "headline": "Belgium and Egypt Share Points in Seattle Opener",
-      "summary": "Belgium and Egypt played to a 1-1 draw in their opening Group G match at Lumen Field. The stalemate set the tone for a tightly contested group stage, leaving both sides searching for consistency in their subsequent fixtures.",
+      "headline": "Belgium and Egypt deadlock in Group G opener",
+      "summary": "Belgium and Egypt played to a 1-1 draw in their opening Group G match at Lumen Field in Seattle. This result set the tone for a tightly contested group that ultimately saw both nations finish level on five points after three matches.",
       "story": [
-        "The opening match of Group G saw Belgium and Egypt battle to a 1-1 draw at Seattle Stadium on June 15, 2026. In a high-stakes environment, both teams struggled to find a decisive edge, resulting in a shared point that left the group wide open from the very first day of competition.",
-        "The result at Lumen Field served as a microcosm of the parity within the group. While both sides demonstrated defensive resilience, neither could capitalize on enough opportunities to secure all three points, forcing them to look toward their remaining matches to secure a path to the knockout stages.",
-        "Following this draw, the group dynamics shifted significantly as the tournament progressed. Subsequent matches saw Egypt find their rhythm with a win over New Zealand, while Belgium faced further frustration with a scoreless draw against Iran, leaving the group standings tightly packed as the final matchday approaches.",
-        "The draw remains a pivotal moment in the group's narrative, as it denied both teams the early momentum needed to comfortably navigate the first round. With the final group matches on the horizon, the pressure has mounted for Belgium to secure a result against New Zealand to keep their tournament aspirations alive."
+        "The opening match of Group G at Seattle Stadium saw Belgium and Egypt share the spoils in a 1-1 draw. The encounter served as a critical starting point for both teams in a group that proved to be exceptionally balanced throughout the tournament.",
+        "Looking back at the group stage conclusion, the significance of this draw is clear. Belgium and Egypt finished the group phase tied on five points each, with Belgium ultimately taking the top spot on goal difference. This early stalemate proved to be a defining moment in the standings.",
+        "Following this match, both teams successfully navigated the rest of the group stage without a loss. Belgium eventually found their attacking form in a 5-1 victory over New Zealand, while Egypt maintained defensive consistency throughout their three matches.",
+        "As both teams move forward, they have secured their places in the knockout rounds. Belgium is set to face the best third-place finisher from Groups A, E, H, I, or J, while Egypt prepares for a Round of 32 clash against Australia."
       ],
       "bullets": [
-        "The 1-1 result at Lumen Field provided an early indicator of the competitive balance within Group G.",
-        "The draw left Belgium with significant work to do in their final group stage fixture to ensure qualification.",
-        "Egypt utilized the point as a foundation for their subsequent victory, placing them in a stronger position within the group standings."
+        "The 1-1 draw was a pivotal result in a Group G that saw the top two teams finish level on five points.",
+        "Belgium finished as the group winners on goal difference, while Egypt advanced as the runner-up.",
+        "The match was hosted at Lumen Field in Seattle, serving as the opening fixture for both teams."
       ],
-      "sections": [
-        {
-          "title": "Group G Context",
-          "body": "The draw between Belgium and Egypt was one of several closely contested results in the group. With Egypt currently leading the group with 4 points, the remaining teams are fighting to close the gap in the final round of matches."
-        }
-      ],
-      "updatedAt": "2026-06-27T10:23:02+00:00",
-      "sourceHash": "3d4e81e6d29a51d6",
+      "sections": [],
+      "updatedAt": "2026-06-27T15:25:39+00:00",
+      "sourceHash": "792ca37dbb6ef790",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1723,31 +1715,31 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "group standings or prompt changed"
     },
     "G": {
-      "headline": "Group G Tightens as Egypt Takes Control",
-      "summary": "Egypt has emerged as the clear leader in Group G after two rounds of play, securing four points and a positive goal difference. With the rest of the group separated by only a single point, the final matchday is set to be a high-stakes battle for qualification spots. Every team remains in contention as they head into the decisive final fixtures.",
+      "headline": "Group G Reaches Dramatic Conclusion",
+      "summary": "Group G has concluded its three-match cycle with Belgium and Egypt finishing deadlocked at the top of the table. Both nations finished with 5 points, though Belgium secured the top spot via a superior goal difference of 4 compared to Egypt's 2. Iran finishes in third place, while New Zealand concludes their campaign at the bottom of the group.",
       "story": [],
       "bullets": [
-        "Egypt leads the group with 4 points following their 3-1 victory over New Zealand.",
-        "Iran and Belgium are currently deadlocked on 2 points each with identical goal differences of 0.",
-        "New Zealand sits at the bottom with 1 point but remains mathematically alive for the final matchday.",
-        "The final round of matches on June 26 will determine which teams advance from this competitive group."
+        "Belgium claims the group lead with 5 points and a +4 goal difference.",
+        "Egypt matches Belgium's 5-point tally but finishes second on goal difference.",
+        "Iran finishes third with 3 points after a resilient defensive campaign.",
+        "New Zealand rounds out the group with 1 point after a difficult run."
       ],
       "sections": [
         {
-          "title": "Egypt's Path to the Top",
-          "body": "Egypt has navigated the first two rounds effectively, starting with a 1-1 draw against Belgium before securing a 3-1 win against New Zealand. This performance leaves them at the top of the table with 4 points and a solid goal difference of +2. They are currently the only team in the group to have secured a victory."
+          "title": "The Battle for the Top",
+          "body": "Belgium and Egypt both navigated the group stage without a single loss, finishing with identical records of 5 points from 3 matches. Belgium's decisive 5-1 victory against New Zealand in the final matchday proved critical in separating them from Egypt, who played out a goalless draw against Iran in their final fixture."
         },
         {
-          "title": "The Deadlock Between Iran and Belgium",
-          "body": "Iran and Belgium find themselves in a precarious position, both sitting on 2 points after two consecutive draws. Their direct encounter on Matchday 2 ended in a 0-0 stalemate, reflecting how closely matched these sides have been. Both teams must now look for a result in their final games to ensure their progression."
+          "title": "Iran's Defensive Resilience",
+          "body": "Iran proved to be a difficult side to break down throughout the tournament, finishing their group stage with 3 points from 3 draws. Despite not securing a victory, they remained competitive in every match, including a 0-0 stalemate against group leaders Belgium and a 0-0 result against Egypt."
         },
         {
-          "title": "High Stakes for the Final Matchday",
-          "body": "The group concludes on June 26 with two critical matches: New Zealand versus Belgium and Egypt versus Iran. New Zealand, currently holding 1 point, must defeat Belgium to keep their tournament hopes alive. Meanwhile, Egypt will look to maintain their lead against an Iran side that is desperate for their first win of the competition."
+          "title": "New Zealand's Campaign",
+          "body": "New Zealand finished at the bottom of the group with 1 point, earned from their opening 2-2 draw against Iran. While they showed attacking intent by scoring 4 goals, their defensive struggles were evident, conceding 10 goals across their three matches."
         }
       ],
-      "updatedAt": "2026-06-27T10:24:18+00:00",
-      "sourceHash": "9b9c9e0a016830cb",
+      "updatedAt": "2026-06-27T15:25:52+00:00",
+      "sourceHash": "77e767eba1465218",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "group standings or prompt changed"
@@ -1907,34 +1899,34 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "active or recent group"
     },
     "D": {
-      "headline": "Group D Concludes: United States Leads the Way",
-      "summary": "The United States has finished at the top of Group D with 6 points after a competitive three-match stretch. Australia and Paraguay follow closely with 4 points each, while Turkey concludes their campaign with 3 points. The group stage results highlight a tight race for the runner-up position behind the American side.",
+      "headline": "Group D Concludes: United States Secures Top Spot",
+      "summary": "The United States has finished at the top of Group D with 6 points despite a loss in their final match. Australia and Paraguay both finished with 4 points, while Turkey was eliminated with 3 points. The group stage saw high-scoring affairs and tight defensive battles throughout the three matchdays.",
       "story": [],
       "bullets": [
-        "The United States secured first place in the group with 6 points and a +4 goal difference.",
-        "Australia and Paraguay finished level on 4 points, separated by goal difference.",
-        "Turkey managed a final matchday win against the United States but finished bottom with 3 points.",
-        "The United States scored a group-high 8 goals across their three matches."
+        "United States leads the group with 6 points and a +4 goal difference.",
+        "Australia and Paraguay finish level on 4 points, with Australia holding a superior goal difference.",
+        "Turkey exits the tournament after finishing fourth with 3 points.",
+        "The United States scored 8 goals across their three matches, the highest in the group."
       ],
       "sections": [
         {
           "title": "United States Dominance",
-          "body": "The United States controlled the group early with a 4-1 victory over Paraguay and a 2-0 win against Australia. Despite a 3-2 loss to Turkey in their final match, their strong goal difference of +4 ensured they finished comfortably at the top of the table."
+          "body": "The United States controlled the group early with a 4-1 victory over Paraguay and a 2-0 win against Australia. Although they fell 3-2 to Turkey in their final match, their strong goal difference of +4 ensured they remained in first place."
         },
         {
           "title": "The Battle for Second",
-          "body": "Australia and Paraguay fought hard to secure the second spot, both finishing on 4 points. Australia maintained a 0 goal difference, which placed them ahead of Paraguay, who finished with a -2 goal difference after a scoreless draw in their final encounter."
+          "body": "Australia and Paraguay fought hard to secure the second spot, both finishing the group stage with 4 points. Australia's 2-0 win over Turkey and their 0-0 draw with Paraguay proved vital in keeping their goal difference at 0, compared to Paraguay's -2."
         },
         {
-          "title": "Turkey's Final Stand",
-          "body": "Turkey struggled early with a 2-0 loss to Australia and a 1-0 defeat to Paraguay. However, they ended their tournament on a high note by upsetting the group leaders, the United States, with a 3-2 victory in their final matchday fixture."
+          "title": "Turkey's Final Push",
+          "body": "Turkey struggled to find consistency, losing their first two matches against Australia and Paraguay. They ended their campaign on a high note by defeating the United States 3-2, but it was not enough to overcome their 3-point total and -2 goal difference."
         }
       ],
-      "updatedAt": "2026-06-26T13:54:59+00:00",
+      "updatedAt": "2026-06-27T15:27:19+00:00",
       "sourceHash": "eeab9aca6695ddbe",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "group standings or prompt changed"
+      "refreshReason": "active or recent group"
     },
     "K": {
       "headline": "Group K Tightens as Colombia and Portugal Set Up Final Showdown",
@@ -2211,39 +2203,35 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "elijah-just-new-zealand": {
       "headline": "Elijah Just: A Clinical Presence for New Zealand",
-      "summary": "Elijah Just has emerged as a key offensive contributor for New Zealand during the group stage. Through three matches, he has demonstrated an impressive ability to find the back of the net consistently. His efficiency on the pitch has made him a standout performer for his side. As New Zealand looks toward their final group fixture, Just remains a focal point of their attacking strategy.",
-      "story": [
-        "Elijah Just has been a bright spot for New Zealand, netting 3 goals across 3 matches played.",
-        "His efficiency is highlighted by a goals-per-90 rate of 0.9, showcasing his ability to maximize his 292 minutes on the pitch.",
-        "With 3 total points, Just has been the primary engine for his team's offensive output in Group G."
-      ],
+      "summary": "Elijah Just has emerged as a standout performer for New Zealand, showcasing impressive efficiency in front of goal throughout the group stage. Despite the team facing challenging results against tough opposition, Just remained a focal point of the attack. His ability to find the back of the net consistently has solidified his role as a key contributor in the midfield. He currently stands as a primary offensive threat for his squad.",
+      "story": [],
       "bullets": [
-        "Total of 3 goals scored across 3 matches played.",
-        "Maintains a high efficiency rate of 0.9 goals per 90 minutes.",
-        "Accumulated 292 total minutes of tournament action.",
-        "Currently holds 3 points, leading his team's individual scoring efforts.",
-        "Key offensive threat heading into the final group match against Belgium."
+        "Recorded 3 goals across 3 matches played in the group stage.",
+        "Maintained a high level of efficiency with 0.9 goals per 90 minutes.",
+        "Logged a total of 292 minutes of action for New Zealand.",
+        "Accumulated 3 points throughout the tournament thus far.",
+        "Served as a consistent offensive outlet in the midfield position."
       ],
       "sections": [
         {
-          "title": "Clinical Finishing",
-          "body": "Elijah Just has proven to be an incredibly clinical asset for New Zealand. By converting 3 goals in his 292 minutes of play, he has maintained a high standard of offensive output. His ability to capitalize on opportunities has been a defining feature of his tournament performance."
+          "title": "Clinical Efficiency",
+          "body": "Elijah Just has demonstrated remarkable composure in the final third, netting 3 goals in just 292 minutes of play. His scoring rate of 0.9 goals per 90 minutes highlights his ability to capitalize on limited opportunities. This efficiency makes him one of the most productive midfielders in the current tournament field."
         },
         {
-          "title": "High-Efficiency Production",
-          "body": "The efficiency of Just is best reflected in his per-90 statistics. With a goals-per-90 rate of 0.9 and a points-per-90 rate of 0.9, he is consistently impacting the game whenever he is on the field. This level of production highlights his importance as a primary playmaker and scorer."
+          "title": "Tournament Impact",
+          "body": "Across his 3 matches, Just has been a reliable presence for New Zealand, contributing significantly to the team's offensive output. With 3 total points, he has been involved in the most critical moments for his side. His consistent involvement suggests he is a vital component of the team's tactical setup."
         },
         {
-          "title": "Tournament Context",
-          "body": "New Zealand has faced a challenging path in Group G, including a hard-fought 2-2 draw against Iran and a difficult 1-3 result against Egypt. Throughout these matches, Just has been a consistent presence in the midfield. His contributions remain vital as the team prepares for their upcoming match against Belgium."
+          "title": "Group Stage Context",
+          "body": "New Zealand navigated a difficult Group G, facing opponents like Iran, Egypt, and Belgium. Despite the team's defensive struggles in these fixtures, Just provided a consistent spark in the midfield. His performance remained a bright spot even as the team faced high-scoring matches against international powerhouses."
         },
         {
-          "title": "Looking Ahead",
-          "body": "As New Zealand heads into their final group stage match against Belgium, the team will look to Just to maintain his scoring form. The match is scheduled for June 26 at 23:00 ET. His ability to find space and finish will be critical for New Zealand's ambitions in this fixture."
+          "title": "Role and Positioning",
+          "body": "Operating primarily as a midfielder, Just has balanced his creative duties with a high goal-scoring output. His 0.9 points per 90 minutes reflect his dual-threat capability on the pitch. He remains an essential player for New Zealand as they look to build on his individual success."
         }
       ],
-      "updatedAt": "2026-06-27T10:25:36+00:00",
-      "sourceHash": "2984d9b50c24e448",
+      "updatedAt": "2026-06-27T15:26:05+00:00",
+      "sourceHash": "ba2e6532eec0ebf9",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2606,35 +2594,35 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "ramin-rezaeian-iran": {
       "headline": "Ramin Rezaeian: The Defensive Catalyst for Iran",
-      "summary": "Ramin Rezaeian has established himself as a vital offensive threat from the defensive line during Iran's World Cup campaign. Through 3 matches and 309 minutes of play, he has been involved in 3 total points. His ability to contribute directly to scoring makes him a standout performer in the tournament. As Iran looks toward their upcoming match against Egypt, Rezaeian's efficiency remains a key component of their tactical approach.",
+      "summary": "Ramin Rezaeian has been a standout performer for Iran, showcasing remarkable offensive output from the defensive position. Across 3 matches and 309 minutes of play, he has directly contributed to 3 total points. His ability to impact the score sheet makes him a unique asset in the tournament. These statistics highlight his efficiency and importance to Iran's tactical setup.",
       "story": [],
       "bullets": [
-        "Contributed 2 goals and 1 assist across 3 matches played.",
-        "Maintains a productive 0.6 goals per 90 minutes rate.",
-        "Logged 309 minutes of action for the Iran squad.",
-        "Currently holds a points per 90 rate of 0.9.",
-        "A key defensive asset with significant impact on the scoresheet."
+        "Recorded 2 goals and 1 assist throughout the group stage.",
+        "Accumulated 3 total points over 3 matches played.",
+        "Maintained an impressive 0.6 goals per 90 minutes rate.",
+        "Delivered a 0.9 points per 90 minutes efficiency rating.",
+        "Logged a total of 309 minutes on the pitch for Iran."
       ],
       "sections": [
         {
-          "title": "Offensive Production from Defense",
-          "body": "Rezaeian has defied traditional defensive roles by becoming a primary source of offense for Iran. With 2 goals and 1 assist, he has been directly involved in 3 points, proving his value in the final third. His presence on the pitch is clearly linked to Iran's ability to generate scoring opportunities."
+          "title": "Elite Offensive Production",
+          "body": "Rezaeian has defied the typical expectations of a defender by contributing significantly to Iran's scoring efforts. With 2 goals and 1 assist, his involvement in the final third has been a crucial component of the team's offensive strategy. His per-90 rate of 0.6 goals underscores his clinical nature when opportunities arise."
         },
         {
-          "title": "Efficiency on the Pitch",
-          "body": "The efficiency of Rezaeian is highlighted by his impressive per-90 rates. Recording 0.6 goals per 90 minutes and 0.9 points per 90 minutes, he maximizes his time on the field. These statistics underscore his high level of engagement and clinical nature whenever he moves forward."
+          "title": "High-Volume Involvement",
+          "body": "Playing 309 minutes across 3 matches, Rezaeian has been a constant presence in Iran's lineup. His endurance and consistency have allowed him to maintain a high points-per-90 rate of 0.9. This level of sustained performance is rare for a player operating primarily from the back."
         },
         {
-          "title": "Tournament Workload",
-          "body": "Having played 3 matches and totaling 309 minutes, Rezaeian has been a constant fixture for Iran. His endurance and consistency have allowed him to maintain his attacking output throughout the group stage. He remains a reliable engine for his team as they navigate the tournament schedule."
+          "title": "Team Context and Impact",
+          "body": "Iran's group stage campaign saw them navigate tough fixtures against New Zealand, Belgium, and Egypt. Rezaeian's ability to remain productive despite these challenging matchups highlights his reliability. His contributions have been instrumental in keeping the team competitive throughout the group stage."
         },
         {
-          "title": "Looking Ahead",
-          "body": "After completing matches against New Zealand and Belgium, Iran is now preparing for their upcoming match against Egypt. Rezaeian will look to build upon his current form in this crucial Group G fixture. His performance will be essential as Iran continues their quest for success in the group."
+          "title": "Statistical Efficiency",
+          "body": "When looking at the numbers, Rezaeian's efficiency stands out as a primary reason for his high ranking. By converting his limited chances into 3 total points, he has proven to be an incredibly efficient player. His statistical profile suggests he is one of the most dangerous defenders in the current tournament field."
         }
       ],
-      "updatedAt": "2026-06-27T10:26:51+00:00",
-      "sourceHash": "c0a8ed22034368b3",
+      "updatedAt": "2026-06-27T15:26:19+00:00",
+      "sourceHash": "665dfaef43957cb4",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -6115,27 +6103,31 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "88": {
-      "headline": "Australia and Egypt Clash in Round of 32 Showdown",
-      "summary": "Australia and Egypt meet at AT&T Stadium in Arlington for a high-stakes Round of 32 knockout match. Both teams successfully navigated their respective groups to reach this stage of the tournament. The winner of this matchup will move forward in the competition.",
+      "headline": "Australia and Egypt Clash in Round of 32 Knockout Showdown",
+      "summary": "Australia and Egypt meet at AT&T Stadium in Arlington for a high-stakes Round of 32 knockout match. Both teams earned their spots as runners-up from their respective groups and are looking to extend their tournament run. The winner of this fixture will move one step closer to glory in the 2026 World Cup.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Australia and Egypt face off in the Round of 32. Taking place at the iconic AT&T Stadium in Arlington, Texas, this knockout fixture promises to be a test of endurance and tactical discipline for both sides.",
-        "Australia enters this match after a challenging group stage campaign in Group D. Having faced diverse opponents, the squad has shown resilience and the ability to adapt to different styles of play. Their journey to this stage has been defined by a focus on defensive structure and opportunistic attacking transitions.",
-        "As this is a knockout match, the stakes are at their absolute peak. With no room for error, both managers will be looking to exploit specific tactical gaps while maintaining their defensive integrity. The atmosphere in Dallas is expected to be electric as these two nations compete for a place in the next round.",
-        "Fans should keep a close eye on how the midfield battle develops, as control of the center of the pitch will likely dictate the flow of the game. With both teams having proven their mettle in the group stages, this encounter serves as a fascinating clash of styles on the global stage."
+        "The 2026 World Cup reaches a critical juncture as Australia and Egypt face off in the Round of 32. Taking place at the iconic AT&T Stadium in Arlington, Texas, this match represents the beginning of the knockout phase where there is no room for error. Both squads have navigated the challenges of the group stage and now find themselves in a win-or-go-home scenario under the bright lights of the Dallas Stadium.",
+        "Australia enters this contest after a rigorous group stage campaign in Group D. They demonstrated resilience throughout their three opening matches, showing an ability to manage different styles of play against varied international opposition. Having secured their place as the runner-up in their group, the Socceroos arrive in Texas with a clear objective to assert their tactical discipline on the biggest stage.",
+        "Egypt arrives at this knockout encounter following a competitive run in Group G. Their path to the Round of 32 was defined by a mix of offensive energy and defensive stability, finishing as the group runner-up. The Egyptian side has shown they can adapt to the pressures of tournament football, and they will be looking to leverage that experience as they prepare to take on the Australian challenge.",
+        "The atmosphere in Arlington is expected to be electric as these two nations meet for a place in the next round. With the stakes at their highest, the tactical battle between the two managers will be a primary focus. Both teams have shown they can grind out results, and this matchup promises to be a test of endurance, strategy, and composure under the intense pressure of knockout football."
       ],
       "bullets": [
         "Venue: AT&T Stadium in Arlington, Texas.",
-        "Stage: Round of 32 knockout match.",
-        "Kickoff: July 3, 2026, at 14:00 ET."
+        "Kickoff is scheduled for 14:00 ET on July 3, 2026.",
+        "Both teams enter as runners-up from their respective groups, Group D and Group G."
       ],
       "sections": [
         {
-          "title": "Tournament Context",
-          "body": "Australia secured their spot as the runner-up from Group D, while Egypt earned their place as the runner-up from Group G. Because this is a knockout round, the match must produce a result to determine who advances further in the tournament. Both teams are looking to build on their group stage momentum to keep their World Cup dreams alive."
+          "title": "Path to the Knockout Stage",
+          "body": "Australia secured their spot by navigating a challenging Group D, finishing as the runner-up. Egypt earned their place in the Round of 32 by finishing as the runner-up in Group G, showing consistency across their three group matches."
+        },
+        {
+          "title": "Venue Spotlight",
+          "body": "The match takes place at AT&T Stadium, also known as Dallas Stadium, located in Arlington, Texas. This world-class facility will provide a massive stage for these two teams to compete for a spot in the next phase of the tournament."
         }
       ],
-      "updatedAt": "2026-06-27T12:11:36+00:00",
-      "sourceHash": "263fcafbdf41a0dd",
+      "updatedAt": "2026-06-27T15:27:03+00:00",
+      "sourceHash": "a2f8ce34e3cccc96",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -6168,35 +6160,35 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "82": {
-      "headline": "Belgium Prepares for Knockout Stage at Lumen Field",
-      "summary": "Belgium enters the Round of 32 at Seattle Stadium, awaiting their opponent from a pool of third-place finishers. This high-stakes knockout match marks a critical transition in the tournament as the bracket narrows down.",
+      "headline": "Belgium Prepares for Round of 32 Clash in Seattle",
+      "summary": "Belgium enters the Round of 32 at Lumen Field following a strong finish to their group stage campaign. They now await the determination of their opponent, who will emerge as one of the best third-place teams from Groups A, E, H, I, or J.",
       "story": [
-        "As the 2026 World Cup moves into the high-pressure environment of the knockout rounds, Belgium finds itself positioned in the Round of 32. Having navigated their way through Group G, the team now prepares for a decisive encounter at Lumen Field in Seattle, Washington, on July 1, 2026.",
-        "The atmosphere in Seattle is set to be electric for this 16:00 ET kickoff. As a venue known for its passionate sports culture, the stadium provides a fitting stage for a knockout match where the margin for error effectively disappears and every tactical decision carries immense weight.",
-        "Belgium\u2019s path to this stage has been defined by a series of challenging group matches. Their journey included a hard-fought draw against Egypt and a defensive stalemate against Iran, demonstrating a squad that is battle-tested and ready for the rigors of tournament football.",
-        "The identity of their opponent remains one of the most intriguing aspects of this matchup. Belgium is slated to face the best third-place team emerging from a diverse pool of groups, specifically A, E, H, I, or J. This uncertainty adds a layer of complexity to their preparation, as they must be ready to adapt to different tactical styles.",
-        "Whether facing a side known for high-pressing intensity or one that prioritizes a disciplined defensive block, Belgium will need to leverage their experience to control the tempo of the match. The Round of 32 is where tournament favorites often define their legacy, and this fixture represents a significant hurdle on that path."
+        "Belgium arrives in Seattle for this pivotal Round of 32 knockout match with momentum on their side. Having secured their place in this stage as the winners of Group G, the team has navigated a challenging group schedule that tested their resolve and tactical flexibility across three distinct matchdays.",
+        "The journey for Belgium began with a pair of tightly contested draws against Egypt and Iran, where the squad focused on defensive stability and finding their rhythm in the tournament. These early tests provided a foundation for the team to build upon as they adjusted to the intensity of the World Cup stage.",
+        "Their final group stage performance against New Zealand served as a significant statement of intent, showcasing an offensive surge that propelled them to the top of their group. This emphatic victory demonstrated the attacking potential that Belgium brings into the knockout phase, providing a confidence boost as they transition into the high-stakes environment of single-elimination football.",
+        "The identity of Belgium's opponent remains a compelling mystery, as the slot is reserved for one of the best third-place finishers from a wide pool of groups including A, E, H, I, and J. This uncertainty adds a layer of tactical intrigue, as Belgium must prepare for a variety of potential playstyles and strategic approaches that their eventual challenger might employ.",
+        "Lumen Field in Seattle will host this encounter on July 1, 2026, at 16:00 ET. As the tournament shifts into the knockout rounds, the atmosphere in the Pacific Northwest is expected to be electric, providing a fitting backdrop for a match that carries the weight of tournament survival for both sides involved."
       ],
       "bullets": [
-        "Watch how Belgium adapts their tactical approach against an opponent determined by the third-place rankings from groups A, E, H, I, or J.",
-        "Observe the tactical atmosphere at Lumen Field, a venue that frequently hosts intense, high-stakes matches.",
-        "Keep an eye on how Belgium\u2019s core group manages the transition from group stage play to the sudden-death pressure of the knockout rounds."
+        "Belgium enters the knockout stage as the undefeated winners of Group G.",
+        "The opponent will be confirmed as one of the best third-place teams from Groups A, E, H, I, or J.",
+        "The match is scheduled for July 1, 2026, at 16:00 ET at Lumen Field in Seattle."
       ],
       "sections": [
         {
-          "title": "The Road to Seattle",
-          "body": "Belgium\u2019s group stage campaign has been characterized by defensive resilience and tactical patience. Having navigated matches against Egypt and Iran, the team enters the knockout phase with a clear understanding of the intensity required to succeed in this tournament."
+          "title": "The Path to the Knockout Stage",
+          "body": "Belgium's group stage campaign was marked by steady improvement, moving from two initial draws to a dominant offensive display in their final match. Their ability to adapt and find the back of the net in their most recent outing will be a key storyline to watch as they face the pressure of the Round of 32."
         },
         {
-          "title": "The Opponent Mystery",
-          "body": "The bracket structure dictates that Belgium faces the best third-place finisher from a wide selection of groups. This creates a unique challenge, as the team must prepare for a variety of potential tactical threats before the final whistle confirms their path forward."
+          "title": "Tactical Uncertainty",
+          "body": "Because the opponent is determined by the complex criteria for best third-place finishers, Belgium faces the unique challenge of preparing for a range of tactical possibilities. Watching how they adjust their formation and defensive structure once the opponent is finalized will be critical to their success in this match."
         }
       ],
-      "updatedAt": "2026-06-27T12:12:16+00:00",
-      "sourceHash": "6c2a799c51b69c07",
+      "updatedAt": "2026-06-27T15:26:45+00:00",
+      "sourceHash": "194b22f0c72ba72a",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "84": {
       "headline": "Spain Prepares for Round of 32 Clash at SoFi Stadium",

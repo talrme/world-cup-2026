@@ -2172,7 +2172,7 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "New Zealand",
       "away": "Belgium",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
       "venueId": "vancouver",
       "videos": {
@@ -2188,7 +2188,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-27T10:17:28+00:00"
-      }
+      },
+      "homeScore": 1,
+      "awayScore": 5
     },
     {
       "id": 66,
@@ -2201,7 +2203,7 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "home": "Egypt",
       "away": "Iran",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "seattle",
       "videos": {
@@ -2217,7 +2219,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-27T10:18:03+00:00"
-      }
+      },
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 67,
@@ -2812,7 +2816,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-27T09:52:47+00:00",
+  "scheduleUpdatedAt": "2026-06-27T14:52:27+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
