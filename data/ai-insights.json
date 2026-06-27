@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T20:30:33+00:00",
+  "generatedAt": "2026-06-27T21:50:01+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2237,40 +2237,35 @@
     },
     "harry-kane-england": {
       "headline": "Harry Kane: England's Focal Point in Group L",
-      "summary": "Harry Kane continues to serve as the primary attacking threat for England in the current World Cup campaign. With 2 goals across 3 matches, he has demonstrated clinical efficiency in front of the net. His contributions have been vital as England navigates through their group stage fixtures. Kane currently maintains a strong scoring pace, reflecting his importance to the team's offensive structure.",
-      "story": [
-        "Harry Kane has been a central figure for England, accumulating 204 minutes of play across 3 matches.",
-        "His statistical output includes 2 goals and a total of 2 points, highlighting his role as a key finisher.",
-        "With a goals-per-90 rate of 0.9, Kane remains one of the most efficient strikers in the tournament.",
-        "As England prepares for their upcoming match against Panama, Kane's presence will be crucial for securing points."
-      ],
+      "summary": "Harry Kane remains the central figure for England, delivering consistent attacking output through the early stages of the tournament. With 2 goals across 3 matches, he has proven his ability to find the back of the net in high-stakes environments. His presence on the pitch continues to be a vital component of England's tactical approach as they navigate the group stage. Kane's efficiency remains a key narrative as he balances his role as a primary scorer for his nation.",
+      "story": [],
       "bullets": [
-        "Total of 2 goals scored in 3 matches played.",
-        "Efficient scoring rate of 0.9 goals per 90 minutes.",
-        "Has logged 204 minutes of action for England.",
-        "Currently holds 2 total points in the tournament.",
-        "Key offensive leader for England in Group L."
+        "Registered 2 goals in 3 matches played.",
+        "Maintains an impressive 0.8 goals per 90 minutes.",
+        "Logged 219 total minutes of action for England.",
+        "Currently holds a total of 2 points in the tournament.",
+        "Maintains a points per 90 rate of 0.8."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Harry Kane has proven his worth as a lethal finisher by netting 2 goals during his 204 minutes on the pitch. His rate of 0.9 goals per 90 minutes underscores his ability to capitalize on limited opportunities. This efficiency is a cornerstone of England's attacking strategy."
+          "title": "Tournament Scoring Impact",
+          "body": "Harry Kane has successfully converted his opportunities into 2 goals during his 219 minutes on the field. His clinical nature is highlighted by a goals per 90 rate of 0.8, underscoring his efficiency when called upon. This production establishes him as a reliable threat within the England attacking setup."
         },
         {
-          "title": "Tournament Contribution",
-          "body": "Across his 3 appearances, Kane has accounted for 2 points, serving as the primary engine for England's scoring efforts. His consistent presence ensures that the team maintains a credible threat against any opposition. He remains a focal point for the squad as they progress through the group stage."
+          "title": "Operational Efficiency",
+          "body": "Beyond his goal-scoring, Kane has maintained a points per 90 rate of 0.8 throughout his 3 matches. This statistical consistency reflects his steady involvement in England's offensive transitions. He continues to be a focal point for the team's tactical execution."
         },
         {
-          "title": "Group L Context",
-          "body": "England's journey in Group L has seen a variety of results, including a 4-2 victory over Croatia and a 0-0 draw with Ghana. Kane's involvement in these high-stakes matches has been instrumental in shaping the team's standing. The squad now looks toward the upcoming fixture against Panama to solidify their position."
+          "title": "Team Context and Progression",
+          "body": "England's Group L campaign has seen varied results, including a 4-2 victory over Croatia and a 0-0 draw against Ghana. Kane has been a constant presence throughout these fixtures, helping the team navigate the complexities of the group stage. His performance remains central to the squad's overall stability."
         },
         {
           "title": "Looking Ahead",
-          "body": "With the group stage concluding, the focus shifts to the match against Panama scheduled for June 27. Kane will look to build upon his current tally of 2 goals to help England secure a favorable outcome. His performance in this upcoming game will be pivotal for the team's advancement."
+          "body": "As England prepares for their upcoming fixture against Panama, all eyes will be on Kane to see if he can add to his current tally. The match represents a crucial opportunity for the team to solidify their standing in the group. His ability to capitalize on scoring chances will be a primary factor in the outcome."
         }
       ],
-      "updatedAt": "2026-06-27T20:30:33+00:00",
-      "sourceHash": "b1fd3742ea3936e4",
+      "updatedAt": "2026-06-27T21:50:01+00:00",
+      "sourceHash": "00a1c61a6e2d46da",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3536,36 +3531,32 @@
       "refreshReason": "player stats or prompt changed"
     },
     "daniel-munoz-colombia": {
-      "headline": "Daniel Munoz: The Unexpected Scoring Threat from Defense",
-      "summary": "Daniel Munoz has emerged as a surprising offensive catalyst for Colombia during the group stage. Despite operating primarily as a defender, he has already found the back of the net twice in his opening two appearances. His efficiency is highlighted by a remarkable goals-per-90 rate, making him one of the most productive defenders in the tournament so far. Munoz's ability to contribute in the final third has been vital to Colombia's successful start to their campaign.",
+      "headline": "Daniel Munoz: The Defensive Powerhouse Driving Colombia",
+      "summary": "Daniel Munoz has emerged as a surprisingly potent offensive threat from the defensive line during this World Cup campaign. Through 207 minutes of play, he has already secured 2 goals for Colombia. His ability to contribute directly to the scoreline has made him a standout performer in Group K. As Colombia prepares for their next challenge, Munoz remains a critical component of their tactical setup.",
       "story": [],
       "bullets": [
-        "Scored 2 goals across his first 2 matches of the tournament.",
-        "Maintains an impressive 0.9 goals-per-90 rate.",
-        "Logged 207 minutes of action for Colombia in Group K.",
-        "Currently ranks 29th among players for his tournament impact.",
-        "Key contributor to Colombia's unbeaten start in group play."
+        "Registered 2 goals in just 2 matches played.",
+        "Maintains an impressive 0.9 goals per 90 minutes.",
+        "Totaled 207 minutes of action across the group stage.",
+        "Currently holding a points per 90 rate of 0.9.",
+        "Key contributor to Colombia's successful start in Group K."
       ],
       "sections": [
         {
-          "title": "Elite Efficiency",
-          "body": "Munoz has demonstrated clinical finishing that is rare for a defensive player. With 2 goals in just 207 minutes, he is averaging 0.9 goals per 90 minutes. This high level of output has made him a focal point of Colombia's attacking structure."
+          "title": "A Rare Defensive Threat",
+          "body": "While typically tasked with defensive responsibilities, Munoz has defied expectations with his clinical finishing. Scoring 2 goals from the defender position is a significant achievement that highlights his involvement in the final third. His efficiency is reflected in his 0.9 goals per 90 rate, proving he is a constant danger during open play."
         },
         {
-          "title": "Impact on the Pitch",
-          "body": "Across his 2 matches played, Munoz has been a constant presence on the field. His 2 total points reflect his direct involvement in Colombia's scoring efforts. His ability to balance defensive duties with offensive production has been a standout feature of his performance."
+          "title": "Tournament Impact",
+          "body": "Munoz has been a mainstay for Colombia, logging 207 minutes over the course of 2 matches. His presence has been vital in securing results, including a 3-1 victory over Uzbekistan and a 1-0 win against DR Congo. His ability to impact the scoreboard has directly translated into 2 total points for his side."
         },
         {
-          "title": "Team Context",
-          "body": "Colombia has enjoyed a strong start, securing victories against Uzbekistan and DR Congo. Munoz has been instrumental in these results, helping his team navigate the early stages of Group K. His contributions have provided the necessary edge in tightly contested matches."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "Colombia faces a crucial test in their next fixture against Portugal on June 27. Fans will be watching to see if Munoz can maintain his scoring form against tougher opposition. This upcoming match will be a significant indicator of Colombia's potential to advance deep into the tournament."
+          "title": "Looking Ahead to Portugal",
+          "body": "With the group stage concluding, all eyes turn to the upcoming fixture against Portugal on June 27. Munoz will look to maintain his high level of production as Colombia aims to solidify their standing in Group K. Fans can catch the action on FOX as he continues his impressive tournament run."
         }
       ],
-      "updatedAt": "2026-06-27T12:10:18+00:00",
-      "sourceHash": "1eb8be19d0ea535d",
+      "updatedAt": "2026-06-27T21:49:48+00:00",
+      "sourceHash": "dfc36596978069cf",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
