@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-27T16:48:14+00:00",
+  "generatedAt": "2026-06-27T19:16:39+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -445,21 +445,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "45": {
       "headline": "Portugal Dominates Uzbekistan in Five-Goal Houston Showcase",
-      "summary": "Portugal secured a commanding 5-0 victory over Uzbekistan at NRG Stadium, significantly boosting their goal difference in Group K. This emphatic result keeps Portugal firmly in contention for the knockout stages heading into their final group match.",
+      "summary": "Portugal secured a commanding 5-0 victory over Uzbekistan at NRG Stadium, significantly boosting their goal difference in Group K. This emphatic result places Portugal on four points, keeping them firmly in the hunt for a top spot as the group stage enters its final round.",
       "story": [
-        "Portugal delivered a clinical performance at Houston Stadium, dismantling Uzbekistan with a 5-0 scoreline that left no doubt about their superiority on the day. After a frustrating draw in their opening match against DR Congo, this result provided the perfect response to get their campaign back on track.",
-        "The match was defined by Portugal's offensive efficiency, as they successfully exploited gaps in the Uzbekistan defense to rack up five goals. For Uzbekistan, the loss serves as a difficult reality check, leaving them with zero points after two matches and a significant goal difference deficit.",
-        "With this win, Portugal moves to four points in Group K, trailing leaders Colombia by two points. The group remains highly competitive, as the win keeps Portugal well-positioned to challenge for the top spot in their upcoming showdown against Colombia.",
-        "For Uzbekistan, the path forward is narrow. Having conceded eight goals across their first two matches, they will look to conclude their tournament run with a strong performance against DR Congo in their final group fixture.",
-        "As the group stage enters its final round, all eyes turn to the pivotal clash between Colombia and Portugal. That match will ultimately decide the final standings and determine which teams advance to the next phase of the competition."
+        "Portugal delivered a clinical performance in Houston, dismantling Uzbekistan with a 5-0 scoreline that leaves no doubt about their offensive capabilities. After a frustrating draw in their opening match against DR Congo, this result was exactly what Portugal needed to regain momentum and assert their dominance in the group.",
+        "The match at NRG Stadium was one-sided from the start, as Portugal controlled the tempo and exploited gaps in the Uzbekistan defense. By putting five goals past their opponents, Portugal has surged to a +5 goal difference, a statistic that could prove vital in the final group standings.",
+        "For Uzbekistan, the loss is a difficult setback that leaves them with zero points after two matches. While their tournament path has become significantly steeper, they will look to finish their campaign on a positive note in their final fixture against DR Congo.",
+        "The Group K table is now tightly contested at the top, with Colombia leading on six points and Portugal trailing closely with four. The stage is set for a high-stakes showdown in the final round, where Portugal will face Colombia to determine the ultimate group winner.",
+        "With the group stage conclusion looming on June 27, all eyes are on the upcoming clash between Portugal and Colombia. Both teams have shown quality throughout their first two matches, and their head-to-head encounter will decide the final hierarchy of the group."
       ],
       "bullets": [
-        "Portugal's 5-0 victory significantly improved their goal difference to +5, providing a crucial tie-breaking advantage.",
-        "Uzbekistan remains at the bottom of Group K with zero points and a -7 goal difference.",
-        "The result sets up a high-stakes finale in Group K, with Colombia and Portugal separated by only two points."
+        "Portugal's 5-0 win significantly improved their goal difference to +5, providing a major advantage for tie-breaking scenarios.",
+        "The result leaves Uzbekistan at the bottom of Group K with zero points, while Portugal moves to four points.",
+        "Portugal now prepares for a decisive final group match against Colombia to finalize the standings."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T18:31:59+00:00",
+      "updatedAt": "2026-06-27T19:15:32+00:00",
       "sourceHash": "d7ce75fc01a82b1d",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -509,42 +509,43 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "48": {
       "headline": "Colombia Secures Knockout Spot with Narrow Win Over DR Congo",
-      "summary": "Colombia defeated DR Congo 1-0 at Estadio Akron to maintain their perfect start in Group K. With this result, Colombia moves to six points from two matches, effectively punching their ticket to the next round.",
+      "summary": "Colombia defeated DR Congo 1-0 at Estadio Akron to maintain their perfect record in Group K. With this result, Colombia sits atop the group with six points, while DR Congo remains on one point heading into the final matchday.",
       "story": [
-        "In a tightly contested Matchday 2 fixture at Estadio Akron in Zapopan, Colombia edged past DR Congo with a 1-0 victory. The win was hard-fought, reflecting the defensive resilience both sides brought to the pitch under the lights.",
-        "Following their opening 3-1 victory over Uzbekistan, Colombia has now secured six points, placing them firmly at the top of Group K. Their consistency has been the hallmark of their tournament campaign so far, having conceded only one goal across their first two matches.",
-        "For DR Congo, the loss is a difficult setback after their promising 1-1 draw against Portugal in the opening round. With only one point from two matches, they now face immense pressure heading into their final group stage fixture.",
-        "The group landscape is now clearly defined as the tournament approaches its third matchday. Colombia sits comfortably with six points, while Portugal follows with four. DR Congo remains in third with one point, and Uzbekistan rounds out the group with zero points.",
-        "Looking ahead, the final round of Group K fixtures will be decisive. Colombia will face Portugal in a high-stakes battle for the top spot in the group, while DR Congo must secure a win against Uzbekistan to keep their hopes of advancement alive."
+        "In a tightly contested Matchday 2 fixture at Estadio Akron in Zapopan, Colombia edged past DR Congo with a 1-0 victory. The result proved pivotal for the group standings, as it solidified Colombia's position at the top of the table after two matches.",
+        "For Colombia, the win builds on their strong opening performance against Uzbekistan and brings their total to six points. Having already secured their standing, they now look ahead to a high-stakes showdown against Portugal to close out the group stage.",
+        "DR Congo, meanwhile, faced a difficult night after opening their tournament with a draw against Portugal. Despite a resilient defensive effort, they were unable to find an equalizer, leaving them with just one point from their first two games.",
+        "The group landscape is now clearly defined as the final round of fixtures approaches. Colombia leads the pack with six points, followed by Portugal with four, while DR Congo sits in third with one point and Uzbekistan remains at the bottom of the table.",
+        "The pressure is now firmly on DR Congo for their final group match against Uzbekistan, where they will need a decisive result to keep their tournament hopes alive. Colombia and Portugal will meet simultaneously to determine the final group hierarchy."
       ],
       "bullets": [
-        "Colombia remains perfect in Group K with six points from two matches.",
-        "DR Congo sits on one point, needing a win in their final match to challenge for qualification.",
-        "The 1-0 result at Estadio Akron keeps Colombia in control of their own destiny heading into the match against Portugal."
+        "Colombia maintains a perfect 6-point record after two matches in Group K.",
+        "The 1-0 result leaves DR Congo in a precarious position with only one point earned from their first two fixtures.",
+        "Colombia and Portugal are set to clash on June 27 to decide the final standings at the top of the group."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T18:31:46+00:00",
+      "updatedAt": "2026-06-27T19:15:20+00:00",
       "sourceHash": "4abccfb5c6047092",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "49": {
-      "headline": "Switzerland Secures Top Spot in Group B with Victory Over Canada",
-      "summary": "Switzerland defeated Canada 2-1 at BC Place to clinch first place in Group B. The result ensures Switzerland advances to the Round of 32 as the group winner, while Canada moves forward as the runner-up.",
+      "headline": "Switzerland Secures Group B Top Spot with Win Over Canada",
+      "summary": "Switzerland defeated Canada 2-1 in their final group stage match at BC Place in Vancouver. This result confirmed Switzerland as the winners of Group B, while Canada finished as the group runner-up.",
       "story": [
-        "In a high-stakes Matchday 3 encounter held at BC Place in Vancouver, Switzerland edged out Canada 2-1 to solidify their position at the summit of Group B. The victory allowed the Swiss to finish their group stage campaign with an impressive 7 points from three matches, remaining undefeated throughout the opening round.",
-        "The match was a tightly contested affair that ultimately decided the hierarchy of the group. Coming into the day, both sides were focused on securing the top seed to influence their path in the knockout stages. Switzerland's ability to capitalize on their opportunities proved decisive, as they managed to overcome a resilient Canadian side in front of a home crowd.",
-        "For Canada, the 2-1 defeat marks their first loss of the tournament. Despite the setback, they finished the group stage with 4 points and a strong goal difference of +5, which was enough to secure second place in the group standings ahead of Bosnia and Herzegovina.",
-        "With the group stage now concluded, both teams look ahead to the knockout rounds. Switzerland will prepare for their Round of 32 match scheduled for July 2, where they will face the best third-place finisher from Groups E, F, G, I, or J. Meanwhile, Canada is set to take on South Africa on June 28 in their own Round of 32 clash."
+        "In a decisive Matchday 3 encounter at BC Place, Switzerland edged out Canada 2-1 to solidify their position at the summit of Group B. The victory allowed the Swiss to finish the group stage undefeated, accumulating 7 points from their three matches.",
+        "For Canada, the loss brought an end to their group campaign with 4 points. Despite the defeat, Canada secured their place in the knockout stages, finishing level on points with Bosnia and Herzegovina but ahead on goal difference.",
+        "The match was a tactical battle that saw Switzerland maintain their composure to break down a Canadian side that had shown immense offensive potential earlier in the tournament, most notably in their 6-0 win over Qatar.",
+        "With the group stage now concluded, Switzerland moves forward as the group winner and will prepare for their Round of 32 match on July 2, where they will face the best third-placed team from Groups E, F, G, I, or J.",
+        "Canada, having finished as the runner-up in Group B, will shift their focus to their upcoming Round of 32 fixture against the runner-up of Group A, scheduled for June 28."
       ],
       "bullets": [
-        "Switzerland finished atop Group B with 7 points, while Canada secured second place with 4 points.",
-        "The 2-1 result at BC Place confirmed Switzerland as the group winner, setting them up for a Round of 32 fixture on July 2.",
-        "Canada concluded their group stage with a 1-1-1 record and will face South Africa in the next round on June 28."
+        "Switzerland finished atop Group B with 7 points, remaining unbeaten throughout the group stage.",
+        "Canada finished as the group runner-up with 4 points, securing their advancement to the Round of 32.",
+        "The result at BC Place finalized the standings, with Bosnia and Herzegovina and Qatar finishing third and fourth, respectively."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T18:31:20+00:00",
+      "updatedAt": "2026-06-27T19:14:45+00:00",
       "sourceHash": "1eff7f305e86c072",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -552,20 +553,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "50": {
       "headline": "Bosnia and Herzegovina Concludes Group Stage with 3-1 Win Over Qatar",
-      "summary": "Bosnia and Herzegovina secured a 3-1 victory against Qatar in their final Group B match at Lumen Field. While the result earned them three points, it was not enough to overcome the goal difference gap required to climb out of third place in the group standings.",
+      "summary": "Bosnia and Herzegovina secured a 3-1 victory against Qatar in their final Group B match at Lumen Field. While the win provided a positive finish to their tournament run, it was not enough to overcome the group standings.",
       "story": [
-        "In a match held at Lumen Field in Seattle, Bosnia and Herzegovina closed out their group stage campaign on a high note by defeating Qatar 3-1. The victory provided a positive finish to a challenging tournament run, marking their first win of the group stage after earlier results against Canada and Switzerland.",
-        "For Qatar, the match represented the end of a difficult group stage journey. Despite a resilient start to the tournament with a draw against Switzerland, they struggled to find their footing in subsequent matches, ultimately finishing at the bottom of Group B.",
-        "The final group standings reflect a competitive Group B, where Switzerland finished at the top with 7 points. Canada secured the second spot with 4 points, edging out Bosnia and Herzegovina on goal difference despite both teams finishing with identical point totals.",
-        "Bosnia and Herzegovina concludes their tournament run with 4 points, having scored 5 goals and conceded 6 throughout their three matches. While they showed flashes of quality, the heavy defeat to Switzerland in their second match proved to be a significant hurdle in their pursuit of a knockout stage berth."
+        "In a match held at Lumen Field in Seattle, Bosnia and Herzegovina claimed a 3-1 win over Qatar to wrap up their Group B campaign. The result marked Bosnia and Herzegovina's first victory of the group stage, following a draw against Canada and a loss to Switzerland in their previous fixtures.",
+        "For Qatar, the defeat brought a difficult group stage to a close. Despite a resilient 1-1 draw against Switzerland in their opening match, Qatar struggled to find momentum, ultimately finishing at the bottom of the group with a single point.",
+        "The final group standings saw Switzerland finish at the top with 7 points, followed by Canada with 4 points. Bosnia and Herzegovina also finished with 4 points but fell behind Canada in the final ranking due to goal difference, ending their journey in the tournament.",
+        "The match served as the final chapter for both nations in this group, with the outcome reflecting the broader competitive landscape of Group B. While Bosnia and Herzegovina leave the competition with a hard-fought win, the group ultimately belonged to Switzerland and Canada, who advanced to the next stage."
       ],
       "bullets": [
-        "Bosnia and Herzegovina finished third in Group B with 4 points, level with Canada but trailing on goal difference.",
-        "Qatar concluded their group stage campaign with 1 point from three matches.",
-        "The match was hosted at Lumen Field in Seattle, Washington."
+        "Bosnia and Herzegovina finished their group stage with 4 points, level with Canada but behind on goal difference.",
+        "Qatar concluded their tournament appearance with 1 point from three matches.",
+        "The match was played at Lumen Field in Seattle on June 24, 2026."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T18:31:33+00:00",
+      "updatedAt": "2026-06-27T19:15:07+00:00",
       "sourceHash": "58714cad70559da2",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -615,42 +616,43 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "53": {
       "headline": "South Africa Secures Vital Win to Advance",
-      "summary": "South Africa defeated South Korea 1-0 in their final Group A match, clinching a spot in the next round. The victory at Estadio BBVA propelled South Africa to four points, effectively ending South Korea's tournament run.",
+      "summary": "South Africa defeated South Korea 1-0 in their final Group A match at Estadio BBVA. This narrow victory proved decisive, as it propelled South Africa to four points and second place in the group standings. The result effectively ended South Korea's tournament run, as they finished third with three points.",
       "story": [
-        "In a high-stakes showdown at Estadio BBVA in Guadalupe, South Africa delivered a disciplined performance to edge past South Korea 1-0. The result was the defining moment for Group A's qualification picture, as South Africa needed the win to separate themselves from the pack and secure their progression.",
-        "The match was a tense, tactical affair throughout, with both sides aware that the margin for error was razor-thin. South Africa's ability to capitalize on their opportunity proved to be the difference, allowing them to finish the group stage with four points from their three matches.",
-        "For South Korea, the loss was a difficult conclusion to their campaign. Despite a promising start to the tournament, they finished with three points, leaving them third in the group and unable to advance past the group stage.",
-        "With this victory, South Africa solidified their standing as the runner-up in Group A, trailing only the dominant Mexico. Their focus now shifts immediately to the Round of 32, where they are scheduled to face Canada on June 28th.",
-        "The atmosphere in Nuevo Leon provided a fitting backdrop for a match that carried such heavy implications for both nations. By holding firm defensively and finding the decisive goal, South Africa demonstrated the resilience required to navigate the pressures of the group stage."
+        "The atmosphere at Estadio BBVA in Guadalupe was tense as both teams entered the match knowing their tournament lives were on the line. South Africa needed a positive result to keep their knockout stage hopes alive, while South Korea looked to bounce back from their previous loss to Mexico. The match was a tightly contested affair, defined by defensive discipline and the high stakes of the final matchday.",
+        "South Africa\u2019s 1-0 victory was a testament to their resilience throughout the group stage. After opening their campaign with a loss to Mexico and a draw against Czechia, the squad managed to find the breakthrough they needed when it mattered most. By keeping a clean sheet against South Korea, they ensured that their single goal was enough to secure all three points.",
+        "For South Korea, the loss was a difficult conclusion to their group stage journey. Despite an impressive start to the tournament with a win over Czechia, they were unable to find the back of the net against Mexico or South Africa in their subsequent matches. Finishing with three points, they ultimately fell short of the qualification threshold in a competitive Group A.",
+        "With this result, the final group standings confirmed Mexico at the top with a perfect nine points, followed by South Africa in second with four. South Korea finished third, and Czechia rounded out the group in fourth. South Africa now looks ahead to the Round of 32, where they are scheduled to face Canada on June 28."
       ],
       "bullets": [
-        "South Africa finished second in Group A with 4 points, securing a place in the Round of 32.",
-        "South Korea concluded their tournament with 3 points, finishing third in the group.",
-        "South Africa will face Canada in the next stage of the competition on June 28th."
+        "South Africa finished second in Group A with four points, securing their spot in the Round of 32.",
+        "The 1-0 win at Estadio BBVA was South Africa's first victory of the tournament.",
+        "South Korea concluded their campaign in third place with three points from three matches.",
+        "South Africa will advance to face Canada in the next stage of the competition."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T18:30:55+00:00",
+      "updatedAt": "2026-06-27T19:14:08+00:00",
       "sourceHash": "562fc62ab96e3eca",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "54": {
-      "headline": "Mexico Dominates Czechia to Secure Perfect Group Stage Finish",
-      "summary": "Final: Czechia 0, Mexico 3. Mexico defeated Czechia 3-0 at Estadio Azteca, cementing a flawless group stage performance. With this victory, Mexico finishes at the top of Group A with nine points and a perfect defensive record, while Czechia concludes their tournament campaign at the bottom of the table.",
+      "headline": "Mexico Dominates Czechia to Sweep Group A",
+      "summary": "Final: Czechia 0, Mexico 3. Mexico secured a clinical 3-0 victory over Czechia at Estadio Azteca, finishing their group stage campaign with a perfect nine points. The result cements Mexico's position at the top of Group A while confirming Czechia's exit from the tournament.",
       "story": [
-        "In a commanding display at Estadio Azteca, Mexico dismantled Czechia 3-0 to close out their group stage schedule in style. The result ensured that the hosts finished the opening phase of the tournament with a perfect record, having won all three of their matches while maintaining an unblemished defensive sheet throughout.",
-        "Czechia, meanwhile, struggled to find their footing in the tournament. Following a loss to South Korea and a hard-fought draw against South Africa, they were unable to contain the Mexican attack in this final fixture. The defeat leaves them with a single point from three matches, ending their journey in the competition.",
-        "The implications of the result are significant for the knockout stage. As the winners of Group A, Mexico now advances to the Round of 32, where they are scheduled to play on June 30. They will await the determination of their opponent, which will be the best third-place finisher from Groups C, E, F, H, or I.",
-        "With the group stage concluded, the focus now shifts to the high-stakes environment of the knockout rounds. Mexico\u2019s performance in front of their home crowd has set a high bar, and they will look to carry this momentum into their next match as they continue their pursuit of the title."
+        "In front of a home crowd at Estadio Azteca, Mexico delivered their most convincing performance of the group stage. The 3-0 victory over Czechia was a statement of intent, as the hosts controlled the tempo and exploited defensive gaps to dismantle their opponents throughout the ninety minutes.",
+        "For Mexico, the win was the exclamation point on a flawless group phase. Having already secured narrow wins against South Africa and South Korea earlier in the tournament, this decisive result ensured they finished with a perfect record, scoring six goals and conceding zero.",
+        "The loss proved costly for Czechia, who struggled to gain momentum throughout the tournament. After opening with a loss to South Korea and managing only a draw against South Africa, they were unable to find the necessary breakthrough against a disciplined Mexican side, ultimately finishing at the bottom of the group with a single point.",
+        "With the group stage concluded, the focus now shifts to the knockout rounds. Mexico's dominance earns them a spot in the Round of 32, where they are scheduled to play on June 30th against a third-place finisher from Group C, E, F, H, or I.",
+        "The atmosphere in Mexico City was electric as the hosts confirmed their status as a team to watch in the coming weeks. While Czechia departs the competition, Mexico carries significant momentum into the knockout stage, having demonstrated both defensive solidity and offensive efficiency."
       ],
       "bullets": [
-        "Mexico finished the group stage with a perfect 3-0-0 record and zero goals conceded.",
-        "Czechia finished at the bottom of Group A with one point and a goal difference of minus-four.",
-        "Mexico advances to the Round of 32 on June 30 as the winner of Group A."
+        "Mexico finished Group A with a perfect 9 points and a +6 goal differential.",
+        "The win at Estadio Azteca keeps Mexico's clean sheet record intact through three matches.",
+        "Czechia concludes their tournament run with 1 point from three fixtures."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T18:31:08+00:00",
+      "updatedAt": "2026-06-27T19:14:32+00:00",
       "sourceHash": "fb8cdbca79c9a546",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -1776,30 +1778,30 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "group standings or prompt changed"
     },
     "B": {
-      "headline": "Switzerland Secures Group B Top Spot",
-      "summary": "Switzerland has finished at the top of Group B with 7 points after an undefeated group stage run. Canada and Bosnia and Herzegovina both finished with 4 points, though Canada claims second place due to a superior goal difference of 5 compared to Bosnia's -1. Qatar concludes the group in fourth place with a single point.",
+      "headline": "Switzerland Secures Top Spot in Group B",
+      "summary": "Switzerland has emerged as the clear leader of Group B after a strong performance across three matches. With seven points, they have successfully navigated the group stage, leaving Canada and Bosnia and Herzegovina to battle for the remaining spots.",
       "story": [],
       "bullets": [
-        "Switzerland finished atop the group with 7 points and a +4 goal difference.",
-        "Canada secured the second spot with 4 points and a strong +5 goal difference.",
-        "Bosnia and Herzegovina also finished on 4 points but fell to third place due to goal difference.",
-        "Qatar struggled throughout the group stage, finishing with 1 point and a -8 goal difference."
+        "Switzerland finished at the top of the table with 7 points and a +4 goal difference.",
+        "Canada secured second place with 4 points, boasting a superior +5 goal difference.",
+        "Bosnia and Herzegovina also finished with 4 points but sits third due to a -1 goal difference.",
+        "Qatar concluded their campaign at the bottom of the group with 1 point."
       ],
       "sections": [
         {
-          "title": "Switzerland's Dominant Run",
-          "body": "Switzerland controlled the group, starting with a 1-1 draw against Qatar before finding their rhythm. They secured a decisive 4-1 victory over Bosnia and Herzegovina and finished their campaign with a 2-1 win against Canada to confirm their first-place standing."
+          "title": "Swiss Dominance",
+          "body": "Switzerland controlled the group by remaining unbeaten, highlighted by a decisive 4-1 victory over Bosnia and Herzegovina and a final 2-1 win against Canada. Their offensive consistency resulted in 7 goals scored, ensuring they finished at the top of the standings."
         },
         {
-          "title": "The Battle for Second Place",
-          "body": "Canada and Bosnia and Herzegovina were locked in a tight race for the runner-up position, both finishing with 4 points. Canada's massive 6-0 win over Qatar proved vital, giving them a +5 goal difference that ultimately separated them from Bosnia and Herzegovina, who finished with a -1 goal difference."
+          "title": "The Battle for Second",
+          "body": "Canada and Bosnia and Herzegovina both finished the group stage with 4 points, but Canada's explosive 6-0 win against Qatar proved vital. Despite a 1-1 draw between the two sides in their opening match, Canada's overall goal difference of +5 ultimately separated them from Bosnia and Herzegovina's -1."
         },
         {
-          "title": "Group B Final Standings",
-          "body": "The group concluded with Switzerland leading at 7 points, followed by Canada with 4 points, Bosnia and Herzegovina with 4 points, and Qatar with 1 point. The final matchday saw Switzerland defeat Canada 2-1, while Bosnia and Herzegovina ended their tournament with a 3-1 victory over Qatar."
+          "title": "Qatar's Difficult Campaign",
+          "body": "Qatar struggled to find their footing in Group B, managing only a single point from their opening 1-1 draw against Switzerland. They conceded 10 goals throughout the tournament, ultimately finishing at the bottom of the table after a 3-1 loss to Bosnia and Herzegovina in their final match."
         }
       ],
-      "updatedAt": "2026-06-26T18:32:49+00:00",
+      "updatedAt": "2026-06-27T19:16:39+00:00",
       "sourceHash": "358bbe9561d21867",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
@@ -1807,33 +1809,29 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "C": {
       "headline": "Brazil and Morocco Dominate Group C",
-      "summary": "Brazil and Morocco have successfully navigated the group stage, finishing tied on 7 points at the top of the table. While Brazil secured the top spot through a superior goal difference of +6, Morocco followed closely with a +3 goal difference. Scotland and Haiti conclude their campaigns in third and fourth place respectively.",
+      "summary": "Group C has concluded with Brazil and Morocco finishing at the top of the table, both securing 7 points after three matches. While Brazil leads the group thanks to a superior goal difference of +6, Morocco closely follows with a goal difference of +3. Scotland finishes third with 3 points, while Haiti concludes the group stage in fourth place without a win.",
       "story": [],
       "bullets": [
-        "Brazil finished first in the group with 7 points and a +6 goal difference.",
-        "Morocco matched Brazil's 7 points but settled for second place with a +3 goal difference.",
-        "Scotland secured one victory against Haiti to finish with 3 points.",
-        "Haiti finished at the bottom of the table with 0 points after three matches."
+        "Brazil secured the top spot with 7 points and a +6 goal difference.",
+        "Morocco matched Brazil's 7-point tally but finished second on goal difference.",
+        "Scotland earned 3 points from their opening win against Haiti but fell in their subsequent matches.",
+        "Haiti finished at the bottom of the group after three losses, scoring 2 goals and conceding 8."
       ],
       "sections": [
         {
           "title": "The Battle for the Top",
-          "body": "Brazil and Morocco were the clear class of the group, both remaining undefeated through their three matches. Their opening 1-1 draw set the tone for a competitive group, but both sides pulled away from the rest of the field as the tournament progressed."
+          "body": "Brazil and Morocco were the clear class of the group, both remaining undefeated throughout their three matches. Their opening 1-1 draw set the tone for a competitive group, but both sides ultimately pulled away from the rest of the pack to secure their advancement."
         },
         {
-          "title": "Brazil's Commanding Finish",
-          "body": "Brazil solidified their position at the top of the table with strong performances, including a 3-0 win over Haiti and a 3-0 victory against Scotland in their final match. Their clinical attack produced 7 goals while their defense remained incredibly sturdy, conceding only once throughout the group stage."
+          "title": "Scotland's Campaign",
+          "body": "Scotland started their tournament on a high note with a narrow 1-0 victory over Haiti in Matchday 1. However, they were unable to build on that momentum, suffering losses to both Morocco and Brazil in their final two outings."
         },
         {
-          "title": "Morocco's Strong Campaign",
-          "body": "Morocco proved their quality by securing two wins and a draw, showing great resilience in their 4-2 win against Haiti to close out their group schedule. With 6 goals scored, they maintained constant pressure on Brazil for the top spot until the final whistle."
-        },
-        {
-          "title": "Scotland and Haiti's Exit",
-          "body": "Scotland managed a narrow 1-0 victory against Haiti in their opening match, which ultimately served as their only points of the tournament. Haiti struggled to find their footing, finishing with 0 points and a -6 goal difference after conceding 8 times across their three fixtures."
+          "title": "Haiti's Difficult Run",
+          "body": "It was a challenging group stage for Haiti, who finished with 0 points from their three matches. Despite finding the back of the net twice in a 4-2 defeat to Morocco, defensive struggles ultimately led to a group-worst goal difference of -6."
         }
       ],
-      "updatedAt": "2026-06-26T18:32:37+00:00",
+      "updatedAt": "2026-06-27T19:16:20+00:00",
       "sourceHash": "de4ba7cd3a6b674c",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
@@ -1841,29 +1839,29 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "A": {
       "headline": "Mexico Dominates Group A with Perfect Record",
-      "summary": "Mexico has concluded their group stage campaign with a flawless performance, securing 9 points and finishing at the top of the table. South Africa secured the second spot with 4 points, while South Korea and Czechia have been eliminated after failing to surpass the top two teams.",
+      "summary": "Mexico has concluded their group stage campaign with a flawless performance, securing 9 points from three matches without conceding a single goal. South Africa finishes as the runner-up with 4 points, narrowly edging out South Korea to advance.",
       "story": [],
       "bullets": [
-        "Mexico finished with a perfect 9 points and a +6 goal difference.",
-        "South Africa clinched second place with 4 points following a crucial 1-0 victory over South Korea.",
-        "South Korea finished third with 3 points, narrowly missing out on advancement.",
-        "Czechia struggled throughout the group, finishing last with 1 point from three matches."
+        "Mexico finished top of the table with a perfect 9 points and a +6 goal difference.",
+        "South Africa secured second place with 4 points after their decisive 1-0 win against South Korea.",
+        "South Korea finishes third with 3 points, while Czechia rounds out the group with 1 point.",
+        "Mexico maintained a clean sheet throughout all three group matches, scoring 6 goals in total."
       ],
       "sections": [
         {
           "title": "Mexico's Commanding Performance",
-          "body": "Mexico established total control of Group A by winning all three of their matches. Their defensive discipline was a standout feature, as they finished the group stage having scored 6 goals while conceding zero."
+          "body": "Mexico established total control over Group A, winning all three of their matches. They opened with a 2-0 victory over South Africa, followed by a tight 1-0 win against South Korea, and finished with a dominant 3-0 result against Czechia."
         },
         {
           "title": "The Battle for Second Place",
-          "body": "The race for the runner-up spot remained competitive until the final matchday. South Africa's 1-0 win against South Korea proved decisive, allowing them to finish with 4 points and edge out their opponents by a single point."
+          "body": "The race for the runner-up spot remained competitive until the final matchday. South Africa's 1-0 victory over South Korea in their final fixture proved vital, allowing them to finish on 4 points and secure their progression."
         },
         {
-          "title": "Elimination for South Korea and Czechia",
-          "body": "Despite a promising start with a 2-1 win against Czechia, South Korea could not maintain momentum and finished with 3 points. Czechia found the going difficult, managing only a 1-1 draw against South Africa to finish at the bottom of the group with 1 point."
+          "title": "Group A Final Standings",
+          "body": "Mexico leads the group with 9 points, followed by South Africa with 4 points. South Korea concludes their tournament in third place with 3 points, and Czechia finishes fourth with 1 point after a difficult campaign."
         }
       ],
-      "updatedAt": "2026-06-26T18:32:24+00:00",
+      "updatedAt": "2026-06-27T19:16:07+00:00",
       "sourceHash": "acc7f0ffcbb1acd2",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
@@ -1930,30 +1928,30 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "active or recent group"
     },
     "K": {
-      "headline": "Group K Tightens as Colombia and Portugal Set Up Final Showdown",
-      "summary": "Colombia leads Group K with a perfect six points after two matches, while Portugal sits closely behind with four points. With DR Congo and Uzbekistan struggling to keep pace, the final matchday will determine the top spots in the group. The upcoming clash between Colombia and Portugal is the pivotal fixture for group supremacy.",
+      "headline": "Group K: Colombia and Portugal Set for Showdown",
+      "summary": "Colombia sits at the top of Group K with six points after two matches, closely followed by Portugal with four points. With DR Congo holding one point and Uzbekistan yet to record a point, the final matchday will determine the group's fate. The upcoming clash between Colombia and Portugal is the pivotal fixture for the top spot.",
       "story": [],
       "bullets": [
-        "Colombia holds the top spot with 6 points and a +3 goal difference.",
+        "Colombia leads the group with 6 points and a +3 goal difference.",
         "Portugal follows in second place with 4 points and a strong +5 goal difference.",
-        "DR Congo remains in contention with 1 point, while Uzbekistan has been eliminated from contention for the top spots with 0 points.",
-        "The final matchday features a high-stakes encounter between group leaders Colombia and Portugal."
+        "DR Congo remains in the hunt with 1 point, while Uzbekistan is at the bottom with 0 points.",
+        "The final round features a high-stakes meeting between Colombia and Portugal."
       ],
       "sections": [
         {
-          "title": "Colombia's Strong Start",
-          "body": "Colombia has been clinical, securing victories against both Uzbekistan and DR Congo. Their 3-1 win over Uzbekistan and a narrow 1-0 victory against DR Congo have put them in the driver's seat with 6 points. They now face their toughest test yet against Portugal to maintain their perfect record."
+          "title": "The Race for the Top",
+          "body": "Colombia has been clinical, securing victories against Uzbekistan and DR Congo to reach 6 points. Portugal recovered from their opening draw against DR Congo with a dominant 5-0 win over Uzbekistan, putting them at 4 points. These two teams have separated themselves from the rest of the group heading into the final matchday."
         },
         {
-          "title": "Portugal's Dominant Response",
-          "body": "After a frustrating 1-1 draw against DR Congo in their opener, Portugal bounced back emphatically with a 5-0 thrashing of Uzbekistan. This result significantly bolstered their goal difference to +5, the best in the group. They are well-positioned to challenge Colombia for the top spot in their final group stage match."
+          "title": "Pressure on the Bottom Half",
+          "body": "DR Congo enters the final round with 1 point after a 1-1 draw with Portugal and a narrow 1-0 loss to Colombia. Uzbekistan has struggled significantly, conceding 8 goals across two matches while scoring only once. Both teams will look to salvage their tournament in their final head-to-head encounter."
         },
         {
-          "title": "The Road Ahead",
-          "body": "The final round of matches on June 27 will decide the group's fate. Colombia and Portugal will square off in a match that will likely determine the group winner, while DR Congo and Uzbekistan will play for pride. All eyes are on the Colombia-Portugal fixture to see who emerges from Group K at the top of the table."
+          "title": "Matchday 3 Outlook",
+          "body": "The final group stage matches are scheduled for June 27 at 19:30 ET. Colombia and Portugal will face off to decide the group winner, while DR Congo and Uzbekistan will meet simultaneously. These matches will finalize the standings and confirm which teams advance."
         }
       ],
-      "updatedAt": "2026-06-26T18:32:12+00:00",
+      "updatedAt": "2026-06-27T19:15:54+00:00",
       "sourceHash": "8b3d8372750392c5",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
