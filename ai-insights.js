@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-28T10:19:05+00:00",
+  "generatedAt": "2026-06-28T11:59:40+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -724,24 +724,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "58": {
       "headline": "Japan and Sweden Draw in Group F Finale",
-      "summary": "Japan and Sweden played to a 1-1 draw at AT&T Stadium in Arlington, concluding their group stage campaigns. The result leaves Japan in second place in Group F, while Sweden finishes third.",
+      "summary": "Japan and Sweden played to a 1-1 draw at AT&T Stadium in Arlington to conclude their Group F campaigns. The result leaves Japan in second place in the group, while Sweden finishes third.",
       "story": [
-        "The match at AT&T Stadium served as a pivotal conclusion to Group F, with both sides looking to solidify their positions in the tournament bracket. Despite a hard-fought effort from both teams, the 1-1 scoreline reflected a balanced contest where neither side could find the decisive goal to break the deadlock.",
-        "For Japan, the point was sufficient to secure second place in the group standings with five points, trailing only the Netherlands. This finish confirms Japan's progression to the Round of 32, where they are set to face Brazil on June 29.",
-        "Sweden finishes their group stage run in third place with four points. While the draw against Japan prevented them from climbing higher in the table, their performance throughout the group stage has kept their tournament hopes alive as they look toward a challenging Round of 32 matchup against France on June 30.",
-        "The atmosphere in Arlington was tense as both teams navigated the final minutes of the group phase, knowing the implications for their respective paths in the knockout stages. With the group stage now complete, both squads turn their attention to the high-stakes environment of the knockout rounds."
+        "The match at AT&T Stadium saw Japan and Sweden trade goals in a hard-fought encounter that ultimately solidified the final standings of Group F. With both sides looking to maximize their points heading into the knockout stages, the 1-1 stalemate reflected the competitive nature of the group.",
+        "For Japan, the point was enough to secure second place in the group with 5 points, trailing only the Netherlands. This finish sets up a challenging Round of 32 matchup against Brazil on June 29.",
+        "Sweden finishes their group stage run in third place with 4 points. Despite the draw, they remain in the tournament picture and are now looking ahead to a Round of 32 fixture against France on June 30."
       ],
       "bullets": [
-        "Japan finished second in Group F with 5 points, setting up a Round of 32 match against Brazil.",
-        "Sweden secured third place with 4 points and will advance to face France in the next round.",
-        "The Netherlands topped the group, while Tunisia concluded their campaign in fourth place."
+        "Japan secures second place in Group F with 5 points, setting up a clash with Brazil.",
+        "Sweden finishes third with 4 points and will face France in the next round.",
+        "The match was held at AT&T Stadium in Arlington, Texas."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T10:19:32+00:00",
+      "updatedAt": "2026-06-28T11:59:03+00:00",
       "sourceHash": "7e4206a15b886f3e",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "59": {
       "headline": "Turkey Edges United States in Thrilling Group D Finale",
@@ -766,45 +765,44 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "60": {
       "headline": "Paraguay and Australia Play to Scoreless Draw in Group D Finale",
-      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 draw at Levi's Stadium. The result left both teams level on four points, confirming their respective paths into the knockout rounds.",
+      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 draw at Levi's Stadium. The result left both teams level on four points, confirming their progression to the knockout stages.",
       "story": [
-        "The match at Levi's Stadium in Santa Clara served as a tense conclusion to Group D, with both Paraguay and Australia looking to solidify their standing. Neither side managed to break the deadlock during the 90 minutes, resulting in a 0-0 draw that kept the group standings tight.",
-        "For Australia, the point was sufficient to secure the runner-up spot in the group, finishing with four points and a neutral goal difference. This placement sets them up for a Round of 32 clash against Egypt, scheduled for July 3.",
-        "Paraguay also concluded their group stage with four points. Despite a challenging start to the tournament, their resilience in this final match helped them secure a spot in the next stage, where they are set to face Germany on June 29.",
-        "The competitive nature of Group D was on full display throughout the final matchday, as the draw ensured both teams maintained their momentum heading into the tournament's knockout phase. With the group stage now behind them, both squads turn their attention to high-stakes elimination matches."
+        "The final matchday in Group D saw Paraguay and Australia battle to a stalemate in Santa Clara. Neither side was able to break the deadlock at Levi's Stadium, resulting in a 0-0 finish that ultimately satisfied the requirements for both nations to extend their tournament stay.",
+        "Coming into the match, both teams were looking to solidify their standing in the group. While the lack of goals prevented either side from seizing the top spot, the point was sufficient to ensure that both Paraguay and Australia successfully navigated the group phase.",
+        "The defensive nature of the contest reflected the high stakes of the final round. With the United States finishing atop the group despite their loss to Turkey, the draw allowed Australia to secure the runner-up position on goal difference, while Paraguay advanced as one of the best third-placed teams.",
+        "With the group stage now concluded, the focus shifts immediately to the Round of 32. Australia is set to face Egypt on July 3, while Paraguay prepares for a challenging knockout encounter against Germany on June 29."
       ],
       "bullets": [
-        "The 0-0 draw kept Australia and Paraguay level on four points, with Australia taking the runner-up position in Group D.",
-        "Australia advances to face Egypt on July 3, while Paraguay prepares for a Round of 32 meeting with Germany on June 29."
+        "Australia secured the runner-up spot in Group D, finishing with four points and a neutral goal difference.",
+        "Paraguay also finished with four points, advancing to the knockout stage as a third-place qualifier.",
+        "The draw at Levi's Stadium concludes a tight group race where all four teams remained in contention until the final whistle."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T10:19:19+00:00",
+      "updatedAt": "2026-06-28T11:58:51+00:00",
       "sourceHash": "4c81293aeddd3d55",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "61": {
-      "headline": "France Dominates Norway to Clinch Perfect Group Stage",
-      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway at Boston Stadium, finishing their group stage campaign with a perfect nine points. The result solidified France's position at the top of Group I, while Norway advanced as the group runner-up.",
+      "headline": "France Dominates Norway to Sweep Group I",
+      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway at Boston Stadium to finish their group stage campaign with a perfect record. The result confirms France as the winners of Group I, while Norway advances to the knockout stages as the group runner-up.",
       "story": [
-        "France delivered a clinical performance in Foxborough, Massachusetts, overcoming Norway 4-1 to maintain their flawless record in Group I. The victory served as a statement of intent, as France concluded the group phase with three wins, 10 goals scored, and only two conceded.",
-        "For Norway, the defeat marked their first loss of the tournament following earlier wins against Iraq and Senegal. Despite the setback, Norway successfully navigated the group stage, finishing with six points and securing their place in the Round of 32.",
-        "The match at Gillette Stadium showcased France's offensive depth and tactical control throughout the 90 minutes. By securing the top spot in the group, France earned a favorable path forward, setting up a Round of 32 clash against Sweden on June 30.",
-        "Norway now turns their attention to the knockout stages as well. As the runners-up of Group I, they are scheduled to face Ivory Coast on June 30 in what promises to be a challenging test for the Norwegian side.",
-        "With the group stage now concluded, the final standings saw France lead the table with nine points, followed by Norway with six. Senegal finished third with three points, while Iraq rounded out the group in fourth place."
+        "France asserted their authority in the final matchday of Group I, dismantling Norway 4-1 in Foxborough. The victory capped off a flawless group stage performance for the French side, who finished with nine points and a commanding plus-eight goal difference.",
+        "For Norway, the defeat marked their first loss of the tournament after hard-fought wins against Iraq and Senegal in their opening two fixtures. Despite the setback, Norway successfully navigated the group, securing second place with six points.",
+        "With the group stage now concluded, both teams turn their attention to the Round of 32. France will advance to face Sweden, while Norway prepares for a knockout clash against Ivory Coast on June 30."
       ],
       "bullets": [
-        "France finished at the top of Group I with a perfect 3-0-0 record and a +8 goal difference.",
-        "Norway secured second place in the group, advancing to the Round of 32 despite the loss.",
-        "France is set to play Sweden in the next round, while Norway will face Ivory Coast."
+        "France finished at the top of Group I with a perfect 3-0-0 record.",
+        "Norway secured second place in the group despite the loss, finishing with six points.",
+        "France will face Sweden in the Round of 32, while Norway is set to play Ivory Coast."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T10:19:07+00:00",
+      "updatedAt": "2026-06-28T11:58:39+00:00",
       "sourceHash": "586728e78f753f11",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "62": {
       "headline": "Senegal Dominates Iraq 5-0 to Secure Knockout Berth",
@@ -828,25 +826,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "63": {
-      "headline": "Cabo Verde Secures Knockout Spot After Stalemate with Saudi Arabia",
-      "summary": "Cabo Verde and Saudi Arabia played to a 0-0 draw at NRG Stadium, a result that ultimately proved sufficient for Cabo Verde to advance from Group H. While the match lacked a breakthrough, the point was enough to secure Cabo Verde second place in the group standings.",
+      "headline": "Cabo Verde Secures Knockout Berth with Stalemate Against Saudi Arabia",
+      "summary": "Cabo Verde and Saudi Arabia played to a 0-0 draw at NRG Stadium in Houston, a result that ultimately proved sufficient for Cabo Verde to advance from Group H. Despite the lack of goals, the point was enough to secure a second-place finish for the side, while Saudi Arabia concluded their tournament campaign.",
       "story": [
-        "The final matchday in Group H saw Cabo Verde and Saudi Arabia battle to a scoreless draw in Houston. Neither side could find the back of the net, but the defensive focus ensured that Cabo Verde maintained their position in the table, effectively navigating a tight group stage campaign.",
-        "For Cabo Verde, the result was the culmination of a resilient group performance. Having drawn against both Spain and Uruguay earlier in the tournament, this third consecutive draw allowed them to finish with 3 points, narrowly edging out their group rivals to claim the runner-up spot.",
-        "Saudi Arabia concluded their tournament run with this draw, finishing at the bottom of the group with 2 points. Despite a competitive effort throughout the group stage, they were unable to secure the win necessary to leapfrog the other teams in the standings.",
-        "With the group stage now closed, the focus shifts to the knockout rounds. Cabo Verde has earned a place in the Round of 32, where they are set to face Argentina on July 3. This upcoming fixture represents a significant challenge as they look to continue their journey in the tournament."
+        "The final matchday in Group H saw Cabo Verde navigate a tense defensive battle at NRG Stadium. Facing a Saudi Arabian side looking to end their tournament on a high note, Cabo Verde prioritized stability to ensure they maintained their position in the standings.",
+        "The 0-0 result marks the end of the group stage for both nations. For Cabo Verde, the draw was the culmination of a resilient group performance, having previously drawn against both Spain and Uruguay. This consistency allowed them to finish with 3 points, narrowly edging out their group rivals to claim the runner-up spot.",
+        "Saudi Arabia leaves the competition after a challenging group stage. While they were unable to find the back of the net in this final fixture, they finish their World Cup journey with 2 points from three matches, including a hard-fought draw against Uruguay in their opener.",
+        "With the group stage now concluded, the focus shifts immediately to the next phase for Cabo Verde. Having secured second place in Group H, they are now set to face Argentina in the Round of 32 on July 3. This upcoming knockout clash represents a significant milestone for the team as they prepare for the pressure of tournament football."
       ],
       "bullets": [
-        "Cabo Verde finished second in Group H with 3 points, remaining undefeated throughout the group stage.",
-        "The draw confirmed Saudi Arabia's exit from the tournament, as they finished fourth in the group with 2 points.",
-        "Cabo Verde advances to the Round of 32 to face Argentina on July 3."
+        "Cabo Verde advances to the Round of 32 as the runner-up of Group H.",
+        "The draw leaves Saudi Arabia at the bottom of the group with 2 points.",
+        "Cabo Verde will face Argentina in their next match on July 3."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T10:18:42+00:00",
+      "updatedAt": "2026-06-28T11:58:26+00:00",
       "sourceHash": "2a604418eb5b43d1",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "64": {
       "headline": "Spain Secures Top Spot in Group H with Narrow Win Over Uruguay",
@@ -2017,39 +2015,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "player stats or prompt changed"
     },
     "deniz-undav-germany": {
-      "headline": "Deniz Undav: Germany's High-Efficiency Super-Sub",
-      "summary": "Deniz Undav has emerged as one of the most clinical attacking threats in the tournament despite limited time on the pitch. With 3 goals and 2 assists across 3 matches, he has been involved in a goal every 21 minutes of play. His ability to impact the game immediately makes him a vital weapon for Germany as they advance to the knockout stages. Undav currently ranks 6th among all players in tournament production.",
+      "headline": "Deniz Undav: Germany's High-Efficiency Super Sub",
+      "summary": "Deniz Undav has emerged as a remarkably efficient attacking force for Germany in the group stage. Despite limited playing time, he has managed to impact the scoresheet consistently. His ability to produce points in short bursts makes him a unique weapon for the German squad. He currently ranks 6th among all players in the tournament for his offensive output.",
       "story": [],
       "bullets": [
-        "Maintains an elite 2.5 goals per 90 minutes rate.",
-        "Contributed to 5 total points in just 107 minutes of action.",
-        "Averaging 4.2 points per 90 minutes throughout the group stage.",
-        "Has successfully recorded 3 goals and 2 assists in 3 appearances.",
-        "Provides a lethal offensive spark for Germany heading into the Round of 32."
+        "Registered 3 goals and 2 assists across 3 matches played.",
+        "Maintains a blistering 2.5 goals per 90 minutes.",
+        "Accumulated 5 total points with a 4.2 points per 90 rate.",
+        "Highly efficient production achieved in just 107 total minutes.",
+        "Key contributor to Germany's Group E campaign."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Deniz Undav has redefined efficiency in this tournament, showcasing a rare ability to find the back of the net in short bursts. Playing only 107 minutes total, his output of 3 goals and 2 assists highlights a player who maximizes every touch. His goals per 90 rate of 2.5 is among the most impressive in the competition."
+          "body": "Deniz Undav has been the definition of clinical during his time on the pitch. With 3 goals and 2 assists in only 107 minutes, his output is among the most efficient in the entire tournament. His goals per 90 rate of 2.5 highlights just how dangerous he is whenever he is involved in the action."
         },
         {
           "title": "Impact Per Minute",
-          "body": "The German forward has proven that high volume is not required to be a statistical standout. With 4.2 points per 90 minutes, Undav is consistently involved in high-leverage scoring moments. This level of production suggests he is the most dangerous option off the bench for his side."
+          "body": "Undav's statistical profile is defined by his high points per 90 rate of 4.2. This metric underscores his role as a high-impact player who does not need a full match to influence the result. He currently sits at rank 6, proving that his limited minutes have been incredibly productive."
         },
         {
           "title": "Tournament Context",
-          "body": "Undav has been a central figure in Germany's group stage campaign, which included a dominant 7-1 victory over Curacao and a tight 2-1 win against Ivory Coast. Even in the narrow 2-1 loss to Ecuador, his presence remained a constant concern for opposing defenses. He now looks ahead to the Round of 32 match against Paraguay."
+          "body": "Germany's group stage journey included a dominant 7-1 win against Curacao, a tight 2-1 victory over Ivory Coast, and a narrow 2-1 loss to Ecuador. Undav has been a vital part of this rotation, helping the team navigate through these three matches. His ability to contribute across different game states has been a major asset for the squad."
         },
         {
           "title": "Looking Ahead",
-          "body": "As Germany prepares for their knockout match against Paraguay, Undav's role will be under the microscope. Whether he earns a starting spot or continues his role as a high-impact substitute, his current form makes him a player to watch. His ability to sustain this production will be critical for Germany's deep run aspirations."
+          "body": "Germany is now set to face Paraguay in the Round of 32 on June 29. As the tournament moves into the knockout stage, Undav's efficiency will be a critical factor for his team. Whether he continues to impact the game as a substitute or earns more time, he remains a player to watch."
         }
       ],
-      "updatedAt": "2026-06-27T10:25:24+00:00",
+      "updatedAt": "2026-06-28T11:59:40+00:00",
       "sourceHash": "bea9fc1db696b405",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
+      "refreshReason": "top player"
     },
     "jonathan-david-canada": {
       "headline": "Jonathan David: Leading the Canadian Attack",
@@ -2298,38 +2296,38 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "kylian-mbappe-france": {
       "headline": "Kylian Mbappe: The Spearhead of France's Attack",
-      "summary": "Kylian Mbappe has established himself as a dominant force in the World Cup, leading France with exceptional efficiency. Through three matches, he has been directly involved in six points, showcasing his ability to both score and create for his teammates. His current form makes him one of the most dangerous forwards in the tournament as France advances to the knockout stages.",
+      "summary": "Kylian Mbappe has been a dominant force for France throughout the group stage, racking up 6 points across his 3 matches played. His clinical finishing and playmaking ability have been central to France's successful run. With 290 minutes under his belt, he continues to be the focal point of the French offensive strategy. His efficiency remains a key narrative as France heads into the knockout rounds.",
       "story": [],
       "bullets": [
-        "Total of 4 goals and 2 assists in 3 matches played.",
-        "Accumulated 6 total points so far in the tournament.",
+        "Registered 4 goals and 2 assists in 3 matches played.",
         "Maintains an impressive 1.2 goals per 90 minutes.",
-        "Delivering 1.9 points per 90 minutes of play.",
-        "Logged 290 total minutes on the pitch for France."
+        "Contributing at a rate of 1.9 points per 90 minutes.",
+        "Totaled 290 minutes of action during the group stage.",
+        "Key contributor to France's undefeated record in Group I."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Mbappe's statistical output is highlighted by his high rate of production relative to his time on the field. With 1.2 goals per 90 minutes, he remains a constant threat to opposing defenses. His ability to convert opportunities into points has been a cornerstone of France's offensive success."
+          "body": "Mbappe has proven to be incredibly lethal in front of goal during this tournament. With 4 goals scored in just 290 minutes, his 1.2 goals per 90 rate highlights his ability to capitalize on limited opportunities. He is currently one of the most efficient forwards in the competition."
+        },
+        {
+          "title": "A Dual-Threat Playmaker",
+          "body": "Beyond his scoring prowess, Mbappe has been instrumental in creating chances for his teammates. By recording 2 assists, he has demonstrated his versatility and vision in the final third. This playmaking capability has helped him reach a total of 6 points."
         },
         {
           "title": "Tournament Impact",
-          "body": "Across 290 minutes of action, Mbappe has proven to be the primary engine for the French attack. His contribution of 4 goals and 2 assists demonstrates a well-rounded game that goes beyond simple finishing. He is currently averaging 1.9 points per 90 minutes, reflecting his significant influence on every match he enters."
-        },
-        {
-          "title": "Team Context",
-          "body": "France has navigated their group stage fixtures with confidence, securing victories against Senegal, Iraq, and Norway. Mbappe has been central to these results, helping the team maintain momentum heading into the next phase. The squad's collective performance has provided the perfect platform for him to shine."
+          "body": "France's group stage campaign saw them secure victories against Senegal, Iraq, and Norway, with Mbappe playing a pivotal role in each result. His consistent output has been a cornerstone of the team's offensive rhythm. He continues to be a nightmare for opposing defenses."
         },
         {
           "title": "Looking Ahead",
-          "body": "As France transitions to the Round of 32, the focus shifts to their upcoming match against Sweden. Having secured their spot through strong group play, the team will look to Mbappe to continue his high-level production. This knockout fixture will be a critical test for the forward as he aims to sustain his current tournament form."
+          "body": "As France prepares for their upcoming Round of 32 match against Sweden, all eyes will be on Mbappe to maintain his form. His ability to perform under pressure will be vital as the tournament shifts to the knockout stage. Fans will be eager to see if he can extend his scoring streak in the next fixture."
         }
       ],
-      "updatedAt": "2026-06-27T10:24:58+00:00",
+      "updatedAt": "2026-06-28T11:59:15+00:00",
       "sourceHash": "07461a1cc35a58d1",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
+      "refreshReason": "top player"
     },
     "folarin-balogun-united-states": {
       "headline": "Folarin Balogun's Efficient Scoring Impact",
@@ -3417,35 +3415,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "player stats or prompt changed"
     },
     "ousmane-dembele-france": {
-      "headline": "Ousmane Dembele: The Efficiency Engine for France",
-      "summary": "Ousmane Dembele has been a standout performer for France, demonstrating exceptional efficiency in the group stage. With 4 goals and 1 assist across 3 matches, he has proven to be a vital offensive force. His ability to impact the game in limited minutes makes him one of the most dangerous players in the tournament so far.",
+      "headline": "Ousmane Dembele's Clinical Efficiency for France",
+      "summary": "Ousmane Dembele has emerged as a key offensive engine for France during the group stage, ranking third among players. With 5 points accumulated across 3 matches, he has been instrumental in his team's dominant run. His ability to convert opportunities into goals has made him one of the most efficient threats in the tournament so far.",
       "story": [],
       "bullets": [
-        "Ranked 3rd in player performance metrics.",
-        "Recorded 4 goals and 1 assist in 226 minutes played.",
-        "Maintains a high-impact goals-per-90 rate of 1.6.",
-        "Contributing 2.0 points per 90 minutes of action.",
-        "Key contributor to France's undefeated group stage run."
+        "Registered 4 goals and 1 assist in just 226 minutes of play.",
+        "Maintains an impressive 1.6 goals per 90 minutes.",
+        "Delivering a high-impact 2.0 points per 90 minutes rate.",
+        "Contributed to France's perfect group stage record against Senegal, Iraq, and Norway.",
+        "Preparing for the upcoming Round of 32 clash against Sweden."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Dembele has been remarkably clinical, turning his 226 minutes on the pitch into 5 total points. His goals-per-90 rate of 1.6 highlights his ability to find the back of the net with high frequency. This level of production is a major reason he currently sits at rank 3 among players."
+          "title": "Elite Scoring Efficiency",
+          "body": "Dembele has been remarkably clinical in front of goal, finding the back of the net 4 times in limited action. His goals per 90 rate of 1.6 highlights his ability to maximize every minute spent on the pitch. This level of production is a primary reason for his high standing in the tournament rankings."
         },
         {
-          "title": "Group Stage Dominance",
-          "body": "France navigated their group matches against Senegal, Iraq, and Norway with ease, and Dembele was at the heart of that success. His offensive output helped the team secure victories in all three group fixtures. The team's momentum carries them into the next stage with high confidence."
+          "title": "Playmaking and Contribution",
+          "body": "Beyond his scoring, Dembele has provided 1 assist to help France secure victories in all three group stage matches. With a total of 5 points, he has proven to be a versatile threat in the midfield. His points per 90 rate of 2.0 underscores his consistent involvement in France's attacking success."
         },
         {
-          "title": "Looking Ahead",
-          "body": "Following a successful group campaign, France is set to face Sweden in the Round of 32. Dembele will look to continue his scoring form as the competition transitions to the knockout phase. Fans will be watching to see if he can maintain his impressive per-90 rates under the pressure of a single-elimination match."
+          "title": "Tournament Context",
+          "body": "France has navigated their group stage fixtures with ease, defeating Senegal, Iraq, and Norway. Dembele has been a central figure in these performances, helping the team maintain a high level of offensive output. As the team transitions to the knockout phase, his form remains a critical asset."
+        },
+        {
+          "title": "Looking Ahead to the Knockouts",
+          "body": "Following their successful group campaign, France is set to face Sweden in the Round of 32. Dembele will look to carry his momentum into this high-stakes encounter on June 30. His ability to maintain his scoring pace will be vital as the competition intensifies."
         }
       ],
-      "updatedAt": "2026-06-27T10:25:11+00:00",
+      "updatedAt": "2026-06-28T11:59:27+00:00",
       "sourceHash": "5e660562105ee6b8",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
+      "refreshReason": "top player"
     },
     "mostafa-ziko-egypt": {
       "headline": "Mostafa Ziko: The Engine Behind Egypt's Midfield Production",
