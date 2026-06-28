@@ -2234,9 +2234,25 @@
       "timezoneLabel": "ET",
       "home": "Panama",
       "away": "England",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
-      "venueId": "ny-nj"
+      "venueId": "ny-nj",
+      "homeScore": 0,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-27T23:56:55+00:00",
+          "title": "Panama vs England Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=JOPTAAFb3_s",
+          "channel": "FOX Sports",
+          "durationText": "14 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-27T23:56:55+00:00"
+      }
     },
     {
       "id": 68,
@@ -2249,9 +2265,25 @@
       "timezoneLabel": "ET",
       "home": "Croatia",
       "away": "Ghana",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
-      "venueId": "philadelphia"
+      "venueId": "philadelphia",
+      "homeScore": 2,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-27T23:57:16+00:00",
+          "title": "Croatia vs Ghana Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122",
+          "url": "https://www.youtube.com/watch?v=j4wJ3nGXuas",
+          "channel": "FOX Sports",
+          "durationText": "12 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-27T23:57:16+00:00"
+      }
     },
     {
       "id": 69,
@@ -2422,14 +2454,15 @@
       "date": "2026-06-30",
       "time": "21:00",
       "home": "Mexico",
-      "away": "Best 3rd Group C/E/F/H/I",
+      "away": "Ecuador",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "mexico-city",
       "homeSource": "Winner Group A",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760491"
+      "espnEventId": "760491",
+      "awaySource": "Best 3rd Group C/E/F/H/I"
     },
     {
       "id": 80,
@@ -2437,14 +2470,15 @@
       "round": "Knockout",
       "date": "2026-07-01",
       "time": "12:00",
-      "home": "Winner Group L",
+      "home": "England",
       "away": "Best 3rd Group E/H/I/J/K",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "atlanta",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760495"
+      "espnEventId": "760495",
+      "homeSource": "Winner Group L"
     },
     {
       "id": 81,
@@ -2486,13 +2520,14 @@
       "date": "2026-07-02",
       "time": "19:00",
       "home": "Runner-up Group K",
-      "away": "Runner-up Group L",
+      "away": "Croatia",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "toronto",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760496"
+      "espnEventId": "760496",
+      "awaySource": "Runner-up Group L"
     },
     {
       "id": 84,
@@ -2550,13 +2585,14 @@
       "date": "2026-07-03",
       "time": "21:30",
       "home": "Winner Group K",
-      "away": "Best 3rd Group D/E/I/J/L",
+      "away": "Ghana",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "kansas-city",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760501"
+      "espnEventId": "760501",
+      "awaySource": "Best 3rd Group D/E/I/J/L"
     },
     {
       "id": 88,
@@ -2816,7 +2852,7 @@
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-27T14:52:27+00:00",
+  "scheduleUpdatedAt": "2026-06-27T23:37:51+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
@@ -2980,6 +3016,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-27T09:52:48+00:00",
+  "bracketUpdatedAt": "2026-06-27T23:37:53+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
