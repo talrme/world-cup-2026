@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-28T07:06:34+00:00",
+  "generatedAt": "2026-06-28T10:19:05+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2053,38 +2053,38 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "jonathan-david-canada": {
       "headline": "Jonathan David: Leading the Canadian Attack",
-      "summary": "Jonathan David has been a central figure for Canada, demonstrating clinical finishing throughout the group stage. With 3 goals across his 3 matches, he has proven to be an essential component of the team's offensive strategy. His efficiency in front of goal has been a standout feature of his performance so far. As Canada moves into the knockout rounds, his form will be critical to their success.",
+      "summary": "Jonathan David has been a central figure for Canada throughout the group stage, demonstrating clinical finishing in front of the net. With 3 goals across 3 matches, he has proven to be an essential focal point for his team's offensive production. His ability to maintain high efficiency over 271 minutes of play highlights his importance to the squad as they progress into the knockout rounds.",
       "story": [],
       "bullets": [
-        "Totaled 3 goals in 3 tournament appearances",
-        "Maintained a sharp 1.0 goals per 90 minutes",
-        "Logged 271 minutes of total playing time",
-        "Recorded 3 total points in the group stage",
-        "Key offensive contributor for Canada's Round of 32 run"
+        "Scored 3 goals in 3 matches played.",
+        "Maintains a clinical 1.0 goals per 90 minutes rate.",
+        "Logged a total of 271 minutes on the pitch.",
+        "Totaled 3 points throughout the group stage.",
+        "Key offensive contributor in Canada's Group B campaign."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Jonathan David has demonstrated remarkable composure in front of the net during his time on the pitch. By maintaining a goals per 90 rate of 1.0, he has maximized his impact during his 271 minutes of action. This level of efficiency highlights his role as a primary scoring threat for Canada."
+          "title": "Tournament Efficiency",
+          "body": "Jonathan David has been remarkably efficient during his time on the field. By recording a goals per 90 rate of 1.0, he has consistently converted his opportunities into meaningful contributions for Canada."
         },
         {
-          "title": "Tournament Impact",
-          "body": "Across three group stage matches, David has been a constant presence in the Canadian lineup. His 3 goals have been vital to the team's progression, especially during the high-scoring victory against Qatar. He remains a focal point for the squad as they transition into the knockout phase."
+          "title": "Impact in Group Play",
+          "body": "Across the three group stage matches, David served as a constant threat to opposing defenses. His 3 goals were instrumental in helping Canada navigate a challenging Group B schedule."
         },
         {
-          "title": "Looking Toward the Knockouts",
-          "body": "Following the conclusion of the group stage, Canada is now set to face South Africa in the Round of 32. With the intensity of the tournament increasing, David's ability to maintain his scoring pace will be tested. All eyes will be on him to see if he can carry his group stage momentum into this critical knockout fixture."
+          "title": "Workload and Reliability",
+          "body": "Playing 271 minutes shows that David is a trusted starter who manages a significant workload. His presence on the pitch for nearly the entirety of the group stage underscores his role as the primary striker."
         },
         {
-          "title": "Team Context",
-          "body": "Canada's journey through Group B has seen a variety of results, from a draw against Bosnia and Herzegovina to a dominant win over Qatar. Throughout these matches, David has remained a consistent offensive outlet. His contributions have been instrumental in securing Canada's place in the next stage of the competition."
+          "title": "Looking Ahead",
+          "body": "With Canada advancing to the Round of 32, the team will rely on David's scoring touch once again. They are set to face South Africa, and his ability to find the back of the net will be crucial in the knockout stage."
         }
       ],
-      "updatedAt": "2026-06-26T22:03:49+00:00",
+      "updatedAt": "2026-06-28T10:18:16+00:00",
       "sourceHash": "4ae4bf782e51061b",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
+      "refreshReason": "top player"
     },
     "johan-manzambi-switzerland": {
       "headline": "Johan Manzambi: The Efficiency Engine for Switzerland",
@@ -2262,39 +2262,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "player stats or prompt changed"
     },
     "erling-braut-haaland-norway": {
-      "headline": "Erling Braut Haaland: A Clinical Force for Norway",
-      "summary": "Erling Braut Haaland has established himself as a primary offensive engine for Norway in the group stage. With 4 goals across 3 matches, his efficiency in front of the net has been a defining feature of his tournament performance. Playing 208 minutes, he remains a constant threat to opposing defenses. His ability to convert chances makes him a standout player in the current standings.",
+      "headline": "Erling Braut Haaland: The Norwegian Scoring Machine",
+      "summary": "Erling Braut Haaland has been a dominant force for Norway during the group stage, showcasing incredible efficiency in front of the net. With 4 goals across 3 matches, he has proven to be the focal point of his team's attacking strategy. His ability to maintain high production levels despite limited minutes highlights his lethal nature as a forward. As Norway advances to the Round of 32, Haaland remains their most dangerous asset.",
       "story": [],
       "bullets": [
-        "Scored 4 goals in 3 tournament matches.",
+        "Scored 4 goals in just 3 matches played.",
         "Maintains an impressive 1.7 goals per 90 minutes.",
-        "Accumulated 4 total points throughout the group stage.",
-        "Logged 208 minutes of action for Norway.",
-        "Maintains a consistent 1.7 points per 90 minutes."
+        "Contributed 4 total points to Norway's campaign.",
+        "Logged 208 total minutes on the pitch.",
+        "Maintains a points per 90 rate of 1.7."
       ],
       "sections": [
         {
-          "title": "Tournament Production",
-          "body": "Haaland has been remarkably clinical during his time on the pitch. His 4 goals demonstrate a high level of efficiency, especially considering he has played just 208 minutes. He currently leads the offensive charge for his team."
+          "title": "Clinical Efficiency",
+          "body": "Haaland has been exceptionally clinical throughout the tournament, converting his opportunities at a high rate. His 1.7 goals per 90 minutes demonstrates that he does not need much time or volume to impact the scoreboard. This level of efficiency is a primary reason he ranks 5th among tournament players."
         },
         {
-          "title": "Efficiency Metrics",
-          "body": "The striker is currently operating at a rate of 1.7 goals per 90 minutes. This high output reflects his importance to Norway's tactical setup. Every time he is on the field, he remains a statistical standout."
+          "title": "Tournament Impact",
+          "body": "Across 208 minutes of play, Haaland has been the engine of the Norwegian attack. While he has 0 assists, his role as a pure finisher has been vital to the team's results in Group I. His 4 total points reflect his direct involvement in Norway's scoring output."
         },
         {
-          "title": "Group Stage Context",
-          "body": "Norway's group stage journey saw varied results, including a 4-1 victory over Iraq and a 3-2 win against Senegal. Despite a difficult 4-1 loss to France, Haaland's individual contributions remained a consistent bright spot. He has been instrumental in navigating the team through Group I."
+          "title": "Group Stage Performance",
+          "body": "Norway's group stage journey included high-scoring affairs against Iraq, Senegal, and France. Haaland was instrumental in these fixtures, helping his team navigate a challenging group. His presence ensured that Norway remained a constant threat to opposing defenses."
         },
         {
           "title": "Looking Ahead",
-          "body": "Norway is now set to face Ivory Coast in the Round of 32. This upcoming knockout match will be a critical test for Haaland and his teammates. Fans will be watching to see if he can maintain his high scoring pace in this high-stakes environment."
+          "body": "Norway is set to face Ivory Coast in the Round of 32 on June 30th. Haaland will look to continue his scoring form as the tournament shifts to the knockout stage. His performance in this upcoming match will be critical for Norway's hopes of advancing further."
         }
       ],
-      "updatedAt": "2026-06-26T22:01:40+00:00",
+      "updatedAt": "2026-06-28T10:17:27+00:00",
       "sourceHash": "fe47c71fa3a52717",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
+      "refreshReason": "top player"
     },
     "kylian-mbappe-france": {
       "headline": "Kylian Mbappe: The Spearhead of France's Attack",
@@ -2332,36 +2332,36 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "player stats or prompt changed"
     },
     "folarin-balogun-united-states": {
-      "headline": "Folarin Balogun: Clinical Efficiency Leading the US Attack",
-      "summary": "Folarin Balogun has established himself as a potent scoring threat for the United States during the group stage. With a high level of efficiency, he has managed to find the back of the net consistently across his appearances. His performance remains a focal point for the team as they transition into the knockout rounds.",
+      "headline": "Folarin Balogun's Efficient Scoring Impact",
+      "summary": "Folarin Balogun has established himself as a lethal presence for the United States during the group stage. Through 180 minutes of play, he has demonstrated impressive efficiency in front of the net. His ability to convert opportunities has been a key component of the American attack as they advance into the knockout rounds.",
       "story": [],
       "bullets": [
-        "Scored 2 goals across 3 matches played",
-        "Maintains a clinical 1.0 goals per 90 minutes",
-        "Totaled 180 minutes of action in the group stage",
-        "Contributed 2 total points to the team effort",
-        "Averaging 1.0 points per 90 minutes"
+        "Registered 2 goals across 3 tournament matches",
+        "Maintains a clinical 1.0 goals per 90 minutes rate",
+        "Totaled 2 points in 180 minutes of action",
+        "Key offensive contributor for the United States",
+        "Moving forward to the Round of 32 against Bosnia-Herzegovina"
       ],
       "sections": [
         {
-          "title": "Impactful Scoring Rate",
-          "body": "Balogun has demonstrated remarkable precision in front of goal throughout the tournament. By maintaining a rate of 1.0 goals per 90 minutes, he has proven to be a highly efficient striker for the United States. This consistency has been vital to the team's offensive output during their group stage campaign."
+          "title": "Tournament Production",
+          "body": "Folarin Balogun has been highly productive during his 180 minutes on the pitch. With 2 goals to his name, he is currently averaging 1.0 goals per 90 minutes. This level of efficiency highlights his role as a primary scoring threat for the United States."
         },
         {
-          "title": "Tournament Workload",
-          "body": "Over the course of 3 matches, Balogun has logged 180 minutes on the pitch. This playing time highlights his importance to the squad's tactical setup. His ability to remain productive while managing these minutes underscores his value as a primary forward."
+          "title": "Efficiency Metrics",
+          "body": "Balogun's impact is further reflected in his points per 90 rate, which sits at 1.0. Across his 3 matches played, he has consistently maximized his time on the field. His ability to contribute points without needing excessive minutes is a testament to his sharp form."
         },
         {
-          "title": "Team Context and Performance",
-          "body": "The United States experienced a dynamic group stage, featuring wins against Paraguay and Australia, followed by a narrow loss to Turkey. Balogun's contributions were instrumental in navigating these fixtures. As the team moves forward, his presence remains central to their offensive strategy."
+          "title": "Team Context",
+          "body": "The United States has navigated a competitive group stage, featuring matches against Paraguay, Australia, and Turkey. Balogun's presence in the lineup has been central to the team's offensive strategy throughout these fixtures. His contributions have helped the squad secure their spot in the next phase of the tournament."
         },
         {
-          "title": "Looking Ahead to the Knockout Stage",
-          "body": "Following the conclusion of the group matches, the United States is now preparing for a Round of 32 showdown against Bosnia-Herzegovina. This upcoming fixture represents a critical test for Balogun and his teammates. Success in this match will rely on continuing the efficient scoring form established in the earlier rounds."
+          "title": "Looking Ahead",
+          "body": "With the group stage concluded, the focus shifts to the Round of 32. The United States is scheduled to face Bosnia-Herzegovina on July 1, 2026. Balogun will look to maintain his scoring momentum as the stakes rise in the knockout stage."
         }
       ],
-      "updatedAt": "2026-06-28T00:03:19+00:00",
-      "sourceHash": "9e19611b9b48c4b3",
+      "updatedAt": "2026-06-28T10:15:30+00:00",
+      "sourceHash": "959e26f9f09d2224",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2579,40 +2579,35 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "ramin-rezaeian-iran": {
       "headline": "Ramin Rezaeian: The Defensive Catalyst for Iran",
-      "summary": "Ramin Rezaeian has established himself as a vital contributor for Iran, balancing his defensive duties with significant attacking output. Across 3 matches and 309 minutes of play, he has been involved in 3 total points. His ability to impact the scoreboard from the backline makes him a standout performer in this tournament. Rezaeian remains a key figure in Iran's tactical setup as they navigate their group stage fixtures.",
-      "story": [
-        "Ramin Rezaeian has been a standout defender for Iran, contributing 2 goals and 1 assist throughout his 3 matches played.",
-        "His efficiency is highlighted by a goals per 90 rate of 0.6 and a points per 90 rate of 0.9.",
-        "Rezaeian has logged a total of 309 minutes on the pitch, demonstrating his importance to the team's defensive structure.",
-        "His performance has been instrumental in Iran's group stage campaign, where the team faced opponents including New Zealand, Belgium, and Egypt."
-      ],
+      "summary": "Ramin Rezaeian has established himself as a uniquely productive presence for Iran during the group stage. Despite playing as a defender, he has managed to contribute significantly to the team's offensive output. His ability to impact the scoreboard has made him a standout performer in his role. Rezaeian has been a fixture in the lineup, logging heavy minutes across all three group matches.",
+      "story": [],
       "bullets": [
-        "Total contribution of 2 goals and 1 assist across 3 matches.",
-        "Logged 309 total minutes of tournament action.",
-        "Maintains an impressive 0.6 goals per 90 rate.",
-        "Achieved a points per 90 rate of 0.9.",
-        "Key defensive contributor for Iran throughout the group stage."
+        "Registered 2 goals and 1 assist throughout the group stage.",
+        "Maintained a high efficiency rate with 0.6 goals per 90 minutes.",
+        "Logged a total of 309 minutes across 3 matches played.",
+        "Accumulated 3 total points for his side.",
+        "Delivered a consistent points per 90 rate of 0.9."
       ],
       "sections": [
         {
-          "title": "Attacking Impact from the Back",
-          "body": "Rezaeian has defied traditional defensive expectations by securing 2 goals and 1 assist. His offensive involvement provides Iran with a unique tactical advantage during high-stakes matches. This level of production is rare for a defender, making him a focal point of Iran's attacking strategy."
+          "title": "A Rare Offensive Force",
+          "body": "It is uncommon to see a defender provide such direct goal contributions in a tournament setting. With 2 goals and 1 assist, Rezaeian has been a vital part of Iran's attack. His presence on the pitch elevates the team's threat level significantly."
         },
         {
-          "title": "Efficiency and Consistency",
-          "body": "With a goals per 90 rate of 0.6 and a points per 90 rate of 0.9, Rezaeian is maximizing his time on the pitch. Having played 309 minutes, he has proven to be both durable and highly productive. His statistical profile suggests he is consistently involved in the most critical moments of the game."
+          "title": "Efficiency and Output",
+          "body": "Rezaeian's statistical profile is bolstered by his impressive per-90 metrics. A goals per 90 rate of 0.6 highlights his clinical nature when opportunities arise. He has maximized his 309 minutes on the field to become a primary contributor."
         },
         {
-          "title": "Team Context and Tournament Path",
-          "body": "Iran's group stage journey included competitive fixtures against New Zealand, Belgium, and Egypt. Rezaeian has been a constant presence throughout these matches, helping the team navigate a challenging schedule. His reliability in the backline has been essential to Iran's performance in these three completed matches."
+          "title": "Tournament Consistency",
+          "body": "Across the three group matches against New Zealand, Belgium, and Egypt, Rezaeian remained a constant for the Iranian squad. His ability to maintain a points per 90 rate of 0.9 shows he is involved in high-leverage moments. He has been essential to the team's tactical structure throughout the group phase."
         },
         {
-          "title": "A Vital Tactical Asset",
-          "body": "Ranking 23rd among players, Rezaeian's influence extends beyond mere defensive clearance. He serves as a bridge between the defensive and attacking phases for his team. His ability to maintain high performance levels over 309 minutes underscores his role as a cornerstone of the squad."
+          "title": "Team Context",
+          "body": "Iran's group stage journey saw a mix of high-scoring draws and defensive battles. Rezaeian's versatility allowed him to adapt to these varying match environments effectively. His performance remains a highlight of the team's campaign."
         }
       ],
-      "updatedAt": "2026-06-28T00:02:27+00:00",
-      "sourceHash": "ca3340a6ee406a5c",
+      "updatedAt": "2026-06-28T10:14:41+00:00",
+      "sourceHash": "4e0090a35b27db0e",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -2719,36 +2714,32 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "model": "gemini-3.1-flash-lite"
     },
     "ermin-mahmic-bosnia-and-herzegovina": {
-      "headline": "Ermin Mahmic: The Ultimate Super Sub Efficiency",
-      "summary": "Ermin Mahmic has carved out a unique role for Bosnia and Herzegovina, demonstrating incredible scoring efficiency in limited action. Despite playing only 39 minutes across three matches, he has managed to find the back of the net twice. His ability to capitalize on brief appearances makes him a standout statistical anomaly in this tournament. Mahmic currently leads his squad in per-90 efficiency metrics.",
+      "headline": "Ermin Mahmic: The Ultimate Efficiency Specialist",
+      "summary": "Ermin Mahmic has emerged as one of the most clinical players in the tournament despite limited time on the pitch. Representing Bosnia and Herzegovina, he has maximized every opportunity he has been given by the coaching staff. His ability to find the back of the net in such a short window makes him a standout statistical anomaly in Group B. Mahmic currently boasts an impressive scoring rate that forces observers to take notice of his impact.",
       "story": [],
       "bullets": [
-        "Scored 2 goals in only 39 minutes of action.",
-        "Maintains an elite 4.6 goals per 90 minutes rate.",
-        "Contributed 2 total points during the group stage.",
-        "Appeared in all 3 of Bosnia and Herzegovina's group matches.",
-        "Demonstrates high-impact production as a rotational midfielder."
+        "Recorded 2 goals in just 39 minutes of action.",
+        "Maintains a staggering 4.6 goals per 90 minutes rate.",
+        "Totaled 2 points across his 3 tournament appearances.",
+        "Demonstrated elite efficiency in limited playing time.",
+        "Key contributor to Bosnia and Herzegovina's group stage campaign."
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Mahmic has been remarkably clinical, recording 2 goals from just 39 minutes on the pitch. This level of output results in a stellar 4.6 goals per 90 rate, highlighting his ability to make an immediate impact regardless of the limited time provided. His presence on the field has been synonymous with high-value offensive production."
+          "title": "Clinical Finishing",
+          "body": "Mahmic has been the definition of efficiency for Bosnia and Herzegovina. With 2 goals scored in only 39 minutes of play, he has proven that he does not need a full match to influence the scoreboard. His performance is highlighted by a remarkable 4.6 goals per 90 rate."
         },
         {
-          "title": "Tournament Contribution",
-          "body": "Across the three group stage matches against Canada, Switzerland, and Qatar, Mahmic has been a consistent fixture in the rotation. While his total minutes remain low, his 2 total points underscore his effectiveness in the final third. He has proven to be a vital asset for Bosnia and Herzegovina when called upon by the coaching staff."
+          "title": "Tournament Impact",
+          "body": "Across 3 matches, Mahmic has provided a unique spark for his side. While his total minutes remain low, his 2 points reflect a player who is constantly involved in high-leverage moments. He currently holds a 4.6 points per 90 rate, underscoring his high-value contributions."
         },
         {
-          "title": "Role and Impact",
-          "body": "Operating as a midfielder, Mahmic\u2019s role has been defined by his explosive scoring capability rather than high-volume playmaking. With no assists recorded, his primary contribution remains his direct goal-scoring threat. His 4.6 points per 90 rate reflects a player who is maximizing every single touch he receives during his short stints."
-        },
-        {
-          "title": "Team Context",
-          "body": "Bosnia and Herzegovina\u2019s group stage campaign saw a variety of results, including a draw with Canada, a loss to Switzerland, and a victory over Qatar. Mahmic\u2019s ability to find the net amidst these varying team performances highlights his individual focus and readiness. He remains a key statistical outlier for his team as they look toward future fixtures."
+          "title": "Group B Context",
+          "body": "Bosnia and Herzegovina navigated a challenging Group B schedule that included matches against Canada, Switzerland, and Qatar. Mahmic's ability to remain productive despite the varying results of these fixtures highlights his consistency. He remains a fascinating player to watch given his extreme per-90 output."
         }
       ],
-      "updatedAt": "2026-06-28T00:02:40+00:00",
-      "sourceHash": "2987137dde341d3f",
+      "updatedAt": "2026-06-28T10:14:53+00:00",
+      "sourceHash": "2d4e9feab3b9635a",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3077,35 +3068,35 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "maximiliano-araujo-uruguay": {
       "headline": "Maximiliano Araujo: Uruguay's Dynamic Midfield Threat",
-      "summary": "Maximiliano Araujo has emerged as a vital offensive engine for Uruguay during the group stage. With 2 goals and 1 assist across 3 matches, he has proven to be a consistent threat in the final third. His ability to impact the game efficiently is reflected in his solid per-90 rates. Araujo remains a focal point for Uruguay's tactical setup as they navigate the tournament.",
+      "summary": "Maximiliano Araujo has emerged as a vital offensive engine for Uruguay during the group stage. Across his 3 matches, he has demonstrated a sharp eye for goal and a consistent ability to contribute to the scoresheet. With 278 minutes of action, he has maintained a high level of efficiency that keeps him at the center of his team's attacking plans.",
       "story": [],
       "bullets": [
-        "Contributed to 3 total points across 3 tournament matches.",
-        "Maintains an impressive 0.6 goals per 90 minutes played.",
-        "Logged 278 total minutes of action for Uruguay.",
-        "Delivered 2 goals and 1 assist in the group stage.",
-        "Achieved a points per 90 rate of 1.0."
+        "Contributed 2 goals and 1 assist throughout the group stage.",
+        "Logged 278 minutes across 3 total appearances.",
+        "Maintained an impressive 0.6 goals per 90 minutes rate.",
+        "Recorded a points per 90 rate of 1.0.",
+        "Proved to be a key offensive contributor for the Uruguay squad."
       ],
       "sections": [
         {
           "title": "Impact and Efficiency",
-          "body": "Araujo has been highly productive during his 278 minutes on the pitch. By recording 2 goals and 1 assist, he has demonstrated a clinical edge that elevates Uruguay's attacking potential. His 0.6 goals per 90 rate highlights his effectiveness whenever he is involved in the play."
+          "body": "Araujo has been remarkably productive during his time on the pitch, tallying 2 goals and 1 assist. His efficiency is highlighted by a goals per 90 rate of 0.6, showing he is a constant danger when in the final third. This output underscores his importance to Uruguay's tactical setup."
         },
         {
-          "title": "Tournament Consistency",
-          "body": "Playing in all 3 group stage matches, Araujo has been a constant presence for his side. Whether facing Saudi Arabia, Cabo Verde, or Spain, he has maintained a steady influence on the game. His 1.0 points per 90 rate underscores his reliability as a primary contributor in the midfield."
+          "title": "Tournament Workload",
+          "body": "Having played in 3 matches, Araujo has been a staple in the starting rotation for Uruguay. He has accumulated 278 minutes of play, indicating he is a primary option for his manager. His ability to sustain this intensity over the course of the group stage has been a notable feature of his performance."
         },
         {
-          "title": "Team Context",
-          "body": "Uruguay's group stage campaign saw a variety of results, including draws against Saudi Arabia and Cabo Verde, followed by a narrow loss to Spain. Throughout these high-stakes fixtures, Araujo has served as a key outlet for his team. His ability to generate scoring opportunities has been essential to Uruguay's offensive strategy."
+          "title": "Group Stage Context",
+          "body": "Uruguay's group stage journey included competitive fixtures against Saudi Arabia, Cabo Verde, and Spain. Araujo remained a focal point throughout these matches, adapting to the varying defensive challenges presented by each opponent. His contribution of 3 total points reflects his direct involvement in the team's scoring efforts."
         },
         {
-          "title": "Future Outlook",
-          "body": "As the tournament progresses, Araujo's role will likely remain central to Uruguay's aspirations. His statistical profile suggests he is a player who can turn a match with a single moment of brilliance. Coaches and fans alike will look to him to maintain this level of output as the competition intensifies."
+          "title": "Statistical Profile",
+          "body": "With a points per 90 rate of 1.0, Araujo ranks among the more efficient midfielders in the tournament. His ability to balance goal-scoring duties with playmaking responsibilities makes him a versatile asset. These metrics highlight a player who is maximizing every minute of his tournament experience."
         }
       ],
-      "updatedAt": "2026-06-28T00:02:14+00:00",
-      "sourceHash": "be0a46ccad850b6b",
+      "updatedAt": "2026-06-28T10:14:28+00:00",
+      "sourceHash": "1d1db59428c92db1",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3181,105 +3172,109 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "player stats or prompt changed"
     },
     "jose-vinicius-junior-brazil": {
-      "headline": "Jose Vinicius Junior: Brazil's Dynamic Offensive Catalyst",
-      "summary": "Jose Vinicius Junior has been a standout performer for Brazil, anchoring the attack with significant efficiency. Through his first 3 matches, he has demonstrated a lethal ability to find the back of the net and create scoring opportunities. His production has been central to Brazil's progression through the group stage. As the team moves into the knockout rounds, his form remains a critical component of their offensive strategy.",
+      "headline": "Jose Vinicius Junior: The Spearhead of Brazil's Attack",
+      "summary": "Jose Vinicius Junior has been a dominant force for Brazil throughout the group stage of the tournament. With 4 goals and 1 assist across 3 matches, he has proven to be an essential contributor to the team's offensive success. His clinical finishing and ability to generate points have placed him among the top performers in the competition so far.",
       "story": [],
       "bullets": [
-        "Registered 4 goals and 1 assist across 3 matches played.",
-        "Maintains an impressive scoring rate of 1.2 goals per 90 minutes.",
-        "Totaled 5 points throughout the group stage campaign.",
+        "Recorded 4 goals and 1 assist in 3 matches played.",
+        "Maintains an impressive 1.2 goals per 90 minutes.",
+        "Accumulated a total of 5 points during the group stage.",
         "Logged 294 minutes of action on the pitch.",
-        "Delivers a consistent production rate of 1.5 points per 90 minutes."
-      ],
-      "sections": [
-        {
-          "title": "Elite Scoring Efficiency",
-          "body": "Vinicius Junior has proven to be one of the most efficient forwards in the tournament. With 4 goals in just 294 minutes, his ability to capitalize on chances is reflected in his 1.2 goals per 90 rate. This high level of output has made him a primary threat for opposing defenses."
-        },
-        {
-          "title": "A Complete Attacking Threat",
-          "body": "Beyond his goal-scoring prowess, he has contributed 1 assist, bringing his total points to 5. His versatility in the final third allows him to impact the game in multiple ways, maintaining a strong 1.5 points per 90 rate. He continues to be a focal point for Brazil's attacking movements."
-        },
-        {
-          "title": "Group Stage Impact",
-          "body": "Brazil navigated a successful group stage, and Vinicius Junior was instrumental in their results against Morocco, Haiti, and Scotland. His presence on the field helped the team secure vital points as they transitioned through the opening round. His consistency across these 3 matches highlights his importance to the squad."
-        },
-        {
-          "title": "Looking Ahead to the Knockouts",
-          "body": "Following their successful group campaign, Brazil is now set to face Japan in the Round of 32. All eyes will be on Vinicius Junior to see if he can maintain his high-scoring form in this high-stakes knockout fixture. His performance will be pivotal as Brazil aims to continue their tournament journey."
-        }
-      ],
-      "updatedAt": "2026-06-26T22:01:22+00:00",
-      "sourceHash": "c5372fef2cddec83",
-      "promptHash": "8f02badebfc8d658",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
-    },
-    "brian-brobbey-netherlands": {
-      "headline": "Brian Brobbey: The Netherlands' Clinical Efficiency",
-      "summary": "Brian Brobbey has emerged as a lethal attacking force for the Netherlands, currently ranking 9th in player performance. In just 168 minutes of action across 3 matches, he has already found the back of the net 3 times. His ability to capitalize on limited opportunities has made him a standout contributor for the Dutch squad. Brobbey's clinical finishing is a primary reason for his high production rate in this tournament.",
-      "story": [],
-      "bullets": [
-        "Scored 3 goals in 3 tournament appearances",
-        "Maintains an impressive 1.6 goals per 90 minutes",
-        "Totaled 3 points throughout the group stage",
-        "Demonstrated high efficiency over 168 total minutes played",
-        "Key contributor to the Netherlands' successful group stage campaign"
-      ],
-      "sections": [
-        {
-          "title": "Clinical Finishing",
-          "body": "Brobbey has been remarkably efficient in front of goal, boasting a goals per 90 rate of 1.6. By scoring 3 goals in only 168 minutes, he has proven to be an incredibly dangerous presence whenever he is on the pitch. This level of output highlights his role as a primary scoring threat for the Netherlands."
-        },
-        {
-          "title": "Tournament Impact",
-          "body": "Across the three group stage matches, Brobbey has been instrumental in the Netherlands' offensive output. His 3 total points reflect his direct involvement in the team's success during their fixtures against Japan, Sweden, and Tunisia. He continues to be a focal point for the Dutch attack as they progress through the tournament."
-        },
-        {
-          "title": "Team Context",
-          "body": "The Netherlands have enjoyed a strong run, including a 5-1 victory over Sweden and a 3-1 win against Tunisia. Brobbey's contributions have helped the team secure their standing in Group F. With the knockout stages approaching, his form will be vital for the team's continued success."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "Following a successful group stage, the Netherlands are now scheduled to face Morocco in the Round of 32. Brobbey will look to carry his scoring momentum into this high-stakes knockout match. Fans will be watching to see if he can maintain his clinical per-90 efficiency on the bigger stage."
-        }
-      ],
-      "updatedAt": "2026-06-26T22:02:59+00:00",
-      "sourceHash": "d7d24fa907d28c29",
-      "promptHash": "8f02badebfc8d658",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
-    },
-    "matheus-cunha-brazil": {
-      "headline": "Matheus Cunha: Brazil's High-Efficiency Scoring Threat",
-      "summary": "Matheus Cunha has emerged as a lethal option for Brazil, demonstrating remarkable efficiency in limited playing time. Across his 3 matches, he has already found the back of the net 3 times. His ability to impact the scoreboard in just 191 minutes makes him one of the most dangerous forwards in the tournament. Brazil will look to leverage his clinical finishing as they move into the knockout stages.",
-      "story": [],
-      "bullets": [
-        "Registered 3 goals in 3 tournament appearances",
-        "Maintains a stellar goals-per-90 rate of 1.4",
-        "Totaled 191 minutes of action for Brazil",
-        "Contributing a points-per-90 rate of 1.4",
-        "Key offensive contributor in Brazil's undefeated Group C campaign"
+        "Delivers a high-efficiency rate of 1.5 points per 90 minutes."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Cunha has been a model of efficiency during the group stage. With 3 goals scored in only 191 minutes, his 1.4 goals-per-90 rate highlights his ability to capitalize on limited opportunities. He has proven that he does not need a full match to change the outcome of a game."
+          "body": "Vinicius Junior has displayed remarkable efficiency in front of the net, boasting a goals per 90 rate of 1.2. His ability to convert opportunities has been a cornerstone of Brazil's attacking strategy. This level of production highlights his role as a primary threat for the national team."
+        },
+        {
+          "title": "Impactful Production",
+          "body": "With 5 points total, the forward has been directly involved in a significant portion of Brazil's scoring output. His 3 matches played have seen him consistently involved in key attacking sequences. His 1.5 points per 90 rate underscores his constant threat to opposing defenses."
+        },
+        {
+          "title": "Tournament Context",
+          "body": "Brazil navigated a successful group stage campaign, drawing with Morocco before securing decisive victories against Haiti and Scotland. Vinicius Junior was a constant presence throughout these fixtures, logging 294 minutes. His performance has been instrumental in helping Brazil advance to the knockout stages."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "As the tournament transitions to the Round of 32, Brazil is set to face Japan. Given his current form and high output, Vinicius Junior will likely remain the focal point of the Brazilian attack. Fans will be watching to see if he can maintain his scoring momentum in this high-stakes knockout matchup."
+        }
+      ],
+      "updatedAt": "2026-06-28T10:17:14+00:00",
+      "sourceHash": "c5372fef2cddec83",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
+    },
+    "brian-brobbey-netherlands": {
+      "headline": "Brian Brobbey: The Netherlands' Clinical Finishing Force",
+      "summary": "Brian Brobbey has emerged as a highly efficient attacking threat for the Netherlands in this tournament. With 3 goals scored in just 168 minutes of play, he has demonstrated remarkable composure in front of the net. His ability to impact the scoreboard in limited time makes him a vital asset for the Dutch squad as they progress into the knockout stages.",
+      "story": [],
+      "bullets": [
+        "Ranked 9th overall in tournament player performance.",
+        "Maintained an impressive 1.6 goals per 90 minutes rate.",
+        "Accumulated 3 total points across 3 matches played.",
+        "Demonstrated high efficiency with 1.6 points per 90 minutes.",
+        "Contributed to a successful group stage campaign for the Netherlands."
+      ],
+      "sections": [
+        {
+          "title": "Clinical Efficiency",
+          "body": "Brobbey's statistical output is defined by his lethal efficiency. By netting 3 goals in only 168 minutes, he has proven that he does not need a full match to alter the course of a game. His per-90 rates of 1.6 for both goals and points highlight his role as a high-impact finisher."
+        },
+        {
+          "title": "Tournament Impact",
+          "body": "Throughout the group stage, Brobbey was a key component of the Netherlands' offensive strategy. His presence helped the team navigate competitive fixtures against Japan, Sweden, and Tunisia. His consistent production has been instrumental in the team's ability to secure results."
+        },
+        {
+          "title": "Team Context",
+          "body": "The Netherlands have shown strong form throughout their group stage matches, including a dominant 5-1 victory over Sweden and a 3-1 win against Tunisia. Brobbey's contributions have aligned perfectly with the team's aggressive attacking style. As the team moves forward, his ability to capitalize on limited opportunities remains a significant tactical advantage."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "Following a successful group stage, the Netherlands are now set to face Morocco in the Round of 32. This upcoming knockout match will be a critical test for the squad and for Brobbey as he looks to continue his scoring momentum. The team will rely on his clinical touch as they aim to advance further in the tournament."
+        }
+      ],
+      "updatedAt": "2026-06-28T10:17:39+00:00",
+      "sourceHash": "d7d24fa907d28c29",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
+    },
+    "matheus-cunha-brazil": {
+      "headline": "Matheus Cunha: Brazil's High-Efficiency Scoring Threat",
+      "summary": "Matheus Cunha has emerged as a lethal attacking option for Brazil, demonstrating incredible efficiency in limited minutes. Across his 3 matches, he has managed to find the back of the net 3 times. His ability to capitalize on opportunities makes him a standout performer in the tournament so far. With the knockout stages approaching, his clinical finishing will be vital for the Brazilian squad.",
+      "story": [],
+      "bullets": [
+        "Registered 3 goals in just 191 minutes of play.",
+        "Maintains an impressive 1.4 goals per 90 minutes.",
+        "Totaled 3 points throughout the group stage campaign.",
+        "Appeared in all 3 of Brazil's group matches.",
+        "Maintains a 1.4 points per 90 minute rate."
+      ],
+      "sections": [
+        {
+          "title": "Clinical Efficiency",
+          "body": "Cunha has been remarkably efficient during his time on the pitch. By scoring 3 goals in only 191 minutes, he has proven that he does not need a massive volume of playing time to make a significant impact on the scoreboard. His 1.4 goals per 90 rate highlights his role as a high-value finisher for Brazil."
         },
         {
           "title": "Group Stage Impact",
-          "body": "Brazil navigated Group C successfully with wins over Haiti and Scotland, alongside a draw with Morocco. Cunha was instrumental in this run, providing the necessary offensive spark to secure top standing in the group. His presence in the final third has been a consistent threat to opposing defenses."
+          "body": "Brazil's path through Group C included matches against Morocco, Haiti, and Scotland, where Cunha played a key role in the team's offensive production. The team secured strong results, including a 3-0 win over Haiti and a 3-0 victory against Scotland. His presence has been a consistent factor in Brazil's ability to break down opposing defenses."
         },
         {
-          "title": "Looking Ahead to the Knockout Stage",
-          "body": "Following a successful group performance, Brazil is set to face Japan in the Round of 32. With the tournament shifting to a single-elimination format, Cunha's high-scoring form will be vital for the team's progression. Brazil will rely on his continued production to navigate the challenges of the knockout bracket."
+          "title": "Looking Ahead to the Knockouts",
+          "body": "As Brazil transitions into the Round of 32, the stakes rise significantly. They are scheduled to face Japan on June 29, and the team will look to Cunha to maintain his scoring form. His ability to produce points per 90 at a rate of 1.4 will be a critical asset in a single-elimination format."
+        },
+        {
+          "title": "Role and Tactical Context",
+          "body": "Operating as a forward, Cunha has maximized his opportunities within Brazil's tactical setup. While he has 0 assists, his primary contribution has been finding the net directly. His performance profile suggests he is currently one of the most dangerous players in the tournament when given space to operate."
         }
       ],
-      "updatedAt": "2026-06-26T22:03:11+00:00",
+      "updatedAt": "2026-06-28T10:17:52+00:00",
       "sourceHash": "27dbaf46ec0b2d03",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
+      "refreshReason": "top player"
     },
     "daichi-kamada-japan": {
       "headline": "Daichi Kamada: The Engine of Japan's Midfield",
@@ -3317,39 +3312,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "player stats or prompt changed"
     },
     "ismael-saibari-morocco": {
-      "headline": "Ismael Saibari: Morocco's High-Efficiency Midfield Threat",
-      "summary": "Ismael Saibari has emerged as a clinical force for Morocco, demonstrating remarkable efficiency in the midfield throughout the group stage. With 3 goals scored across 255 minutes of play, he has been a pivotal figure in his team's attacking output. His ability to convert opportunities has been instrumental in Morocco's progression to the knockout stages. Saibari currently stands as a standout performer, maintaining a high scoring rate that keeps opposing defenses on high alert.",
+      "headline": "Ismael Saibari: The Engine of Morocco's Attack",
+      "summary": "Ismael Saibari has emerged as a clinical force for Morocco during the group stage, demonstrating exceptional efficiency in front of goal. With 3 goals across 3 matches, he has been instrumental in navigating Morocco through a challenging Group C. His ability to capitalize on limited opportunities makes him a standout performer in the tournament so far.",
       "story": [],
       "bullets": [
-        "Scored 3 goals in 3 matches played during the group stage.",
-        "Maintains an impressive goals per 90 rate of 1.1.",
-        "Logged 255 total minutes of action for Morocco.",
-        "Delivered a points per 90 rate of 1.1.",
-        "Key contributor to Morocco's successful advancement to the Round of 32."
+        "Scored 3 goals in 3 matches played",
+        "Maintains a clinical 1.1 goals per 90 minutes",
+        "Logged 255 total minutes on the pitch",
+        "Recorded 3 total points in the tournament",
+        "Key contributor to Morocco's advancement to the Round of 32"
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Saibari has proven to be incredibly efficient with his time on the pitch, recording 3 goals in just 255 minutes. His goals per 90 rate of 1.1 highlights his ability to impact the scoreboard whenever he is involved in the match. This level of production from a midfielder is a significant asset for the Moroccan squad."
+          "body": "Saibari's impact is defined by his remarkable conversion rate, boasting a goals per 90 rate of 1.1. By finding the back of the net 3 times in just 255 minutes, he has proven to be an incredibly high-value asset for the Moroccan side."
         },
         {
-          "title": "Tournament Impact",
-          "body": "Across his 3 matches, Saibari has been a consistent presence in the team's tactical setup. His points per 90 rate of 1.1 reflects his overall influence on the pitch during the group stage. As Morocco navigated matches against Brazil, Scotland, and Haiti, his contributions remained vital to their campaign."
+          "title": "Tournament Contribution",
+          "body": "Across three group stage fixtures, Saibari has been a constant presence in the midfield. His 3 total points reflect his direct influence on the scoreboard as Morocco secured their place in the next stage."
         },
         {
-          "title": "Looking Toward the Knockouts",
-          "body": "Following a successful group stage, Morocco is now set to face the Netherlands in the Round of 32. Saibari will look to carry his scoring momentum into this high-stakes encounter. His performance will be critical as Morocco attempts to extend their tournament run against a challenging opponent."
+          "title": "Road to the Round of 32",
+          "body": "Morocco navigated a group featuring Brazil, Scotland, and Haiti to reach the knockout phase. Saibari will look to carry his group stage momentum into the upcoming Round of 32 clash against the Netherlands."
         },
         {
-          "title": "Team Context",
-          "body": "Morocco's journey through Group C featured a draw with Brazil and victories over Scotland and Haiti. Saibari's role in these fixtures helped secure their spot in the next phase of the tournament. The team's collective effort has set the stage for a compelling matchup in the upcoming knockout round."
+          "title": "Looking Ahead",
+          "body": "With the knockout stages beginning, Saibari's role becomes even more critical for Morocco. The upcoming match against the Netherlands represents a significant test for the midfielder as he aims to maintain his scoring form."
         }
       ],
-      "updatedAt": "2026-06-26T22:03:36+00:00",
+      "updatedAt": "2026-06-28T10:18:04+00:00",
       "sourceHash": "1e5b47c2aa98e7ca",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "player stats or prompt changed"
+      "refreshReason": "top player"
     },
     "ismaila-sarr-senegal": {
       "headline": "Ismaila Sarr's Clinical Impact for Senegal",
@@ -3598,70 +3593,66 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "nicolas-pepe-ivory-coast": {
       "headline": "Nicolas Pepe: Ivory Coast's Efficient Attacking Threat",
-      "summary": "Nicolas Pepe has emerged as a clinical attacking option for Ivory Coast during the group stage. Despite playing a limited role in terms of total minutes, his ability to find the back of the net has been vital. He currently leads his team's output with a high efficiency rate that makes him a player to watch as they advance to the knockout rounds.",
+      "summary": "Nicolas Pepe has emerged as a clinical presence for Ivory Coast during the group stage of the tournament. Despite limited time on the pitch, he has maximized his opportunities to contribute directly to the scoreboard. His ability to find the back of the net efficiently makes him a player to watch as the team transitions into the knockout rounds.",
       "story": [],
       "bullets": [
-        "Registered 2 goals across 3 tournament matches.",
-        "Maintains a highly efficient 1.1 goals per 90 minutes.",
-        "Totaled 164 minutes of action during the group stage.",
-        "Contributing 1.1 points per 90 minutes for his side.",
-        "Key offensive contributor in Ivory Coast's successful group campaign."
+        "Registered 2 goals across 3 tournament matches",
+        "Maintains an impressive 1.1 goals per 90 minutes",
+        "Totaled 164 minutes of playing time in the group stage",
+        "Accumulated 2 total points with a 1.1 points per 90 rate",
+        "Key contributor to Ivory Coast's progression to the Round of 32"
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Nicolas Pepe has demonstrated remarkable composure in front of goal during his time on the pitch. With 2 goals scored in just 164 minutes, his per-90 rate of 1.1 highlights his ability to capitalize on limited opportunities. This level of production is a significant asset for Ivory Coast as they navigate the tournament."
+          "body": "Pepe has demonstrated remarkable efficiency in front of goal during his time on the field. By recording 2 goals in just 164 minutes, he has proven to be a highly effective option for the Ivory Coast attack. His goals per 90 rate of 1.1 highlights his ability to impact the game significantly whenever he is called upon."
         },
         {
           "title": "Tournament Impact",
-          "body": "Across his 3 appearances, Pepe has proven to be an effective presence in the midfield. He has secured 2 points for his overall tally, reflecting his direct impact on match outcomes. His ability to maintain a 1.1 points per 90 rate underscores his reliability when called upon by the coaching staff."
+          "body": "Throughout the three group stage matches, Pepe has been a focal point for the Ivory Coast offense. His contribution of 2 points has been vital in helping the team navigate a competitive group. He continues to provide a reliable scoring threat as the squad prepares for their upcoming knockout challenge."
         },
         {
-          "title": "Team Context",
-          "body": "Ivory Coast successfully navigated their group stage fixtures, including a win against Ecuador and a victory over Curacao. Pepe's contributions were instrumental in these results, helping the team secure their path forward. The squad now looks toward their upcoming Round of 32 match against Norway with momentum."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "As the tournament transitions into the high-stakes Round of 32, the role of efficient players like Pepe becomes even more critical. Ivory Coast is scheduled to face Norway on June 30th. Maintaining his current scoring rate will be a priority for the team as they aim to extend their stay in the competition."
+          "title": "Looking Ahead to the Knockout Stage",
+          "body": "Following a successful group campaign, Ivory Coast is set to face Norway in the Round of 32 on June 30. Pepe will look to carry his scoring form into this high-stakes fixture. His performance will be critical as the team aims to advance further in the tournament."
         }
       ],
-      "updatedAt": "2026-06-28T00:03:06+00:00",
-      "sourceHash": "f599aabc2e80d82e",
+      "updatedAt": "2026-06-28T10:15:18+00:00",
+      "sourceHash": "3457826efb0676d7",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
     },
     "anthony-elanga-sweden": {
-      "headline": "Anthony Elanga: Sweden's Efficient Attacking Threat",
-      "summary": "Anthony Elanga has emerged as a clinical presence for Sweden during the group stage of the tournament. Despite limited minutes, he has demonstrated an impressive ability to find the back of the net. His contribution has been pivotal in Sweden's offensive efforts across their three group matches. As the team prepares for the knockout stages, Elanga remains a player to watch for his high-impact production.",
+      "headline": "Anthony Elanga's Efficient Impact for Sweden",
+      "summary": "Anthony Elanga has emerged as a potent attacking option for Sweden during the group stage of the tournament. Despite playing limited minutes, his ability to find the back of the net has provided a significant boost to the team's offensive output. With Sweden advancing to the knockout rounds, Elanga's efficiency will be a key factor to watch. He currently stands as a high-impact player relative to his time on the pitch.",
       "story": [],
       "bullets": [
-        "Registered 2 goals in 3 matches played.",
-        "Maintains a highly efficient 1.2 goals per 90 minutes.",
+        "Recorded 2 goals in 3 matches played.",
+        "Maintains an impressive 1.2 goals per 90 minutes.",
         "Totaled 149 minutes of action during the group stage.",
-        "Accumulated 2 total points throughout the tournament.",
-        "Maintains a points per 90 rate of 1.2."
+        "Contributed 2 total points to the Swedish campaign.",
+        "Proving to be a highly efficient finisher in limited appearances."
       ],
       "sections": [
         {
           "title": "Clinical Efficiency",
-          "body": "Elanga has maximized his time on the pitch, proving to be one of Sweden's most dangerous options in front of goal. With 2 goals scored in only 149 minutes, his scoring rate is remarkably high. His ability to convert chances makes him a valuable asset for the Swedish attack."
+          "body": "Elanga has maximized his opportunities on the field, demonstrating a sharp eye for goal. His rate of 1.2 goals per 90 minutes highlights his ability to capitalize on limited chances. This level of production is vital for a team looking to make a deep run in the tournament."
         },
         {
-          "title": "Tournament Impact",
-          "body": "Across three group stage matches, Elanga has been a consistent threat for his side. He has recorded 2 points, reflecting his direct involvement in Sweden's offensive output. His per-90 metrics of 1.2 for both goals and points highlight his efficiency when he is on the field."
+          "title": "Tournament Contribution",
+          "body": "Across his 3 matches, Elanga has been a consistent presence in the Swedish attack. By accumulating 2 goals and 2 total points in just 149 minutes, he has proven his value as a reliable forward. His contributions have been instrumental in helping Sweden navigate through a challenging group stage."
         },
         {
-          "title": "Group Stage Context",
-          "body": "Sweden navigated a challenging group that included matches against Tunisia, the Netherlands, and Japan. Elanga was involved in these fixtures, contributing to the team's overall performance. His presence has been a key component of the squad's tactical approach throughout the opening round."
+          "title": "Looking Ahead to the Knockouts",
+          "body": "Sweden's journey continues with a high-stakes Round of 32 match against France. As the tournament shifts to a knockout format, Elanga\u2019s role will be critical in breaking down top-tier defenses. His ability to maintain his current scoring efficiency will be tested against the French side."
         },
         {
-          "title": "Looking Ahead",
-          "body": "With the group stage concluded, Sweden now looks toward a difficult Round of 32 matchup against France. Elanga will aim to carry his clinical form into this high-stakes knockout encounter. His performance will be crucial as Sweden seeks to advance further in the tournament."
+          "title": "Team Context",
+          "body": "Sweden's group stage performance included a dominant win against Tunisia, a tough loss to the Netherlands, and a hard-fought draw with Japan. Elanga has integrated well into the rotation, providing the necessary spark when called upon. The team will rely on his continued form as they prepare for the upcoming challenge in the knockout bracket."
         }
       ],
-      "updatedAt": "2026-06-28T00:02:53+00:00",
-      "sourceHash": "cd329dc677c0917f",
+      "updatedAt": "2026-06-28T10:15:06+00:00",
+      "sourceHash": "bcae246967dde173",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3700,6 +3691,142 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
+    },
+    "yoane-wissa-dr-congo": {
+      "headline": "Yoane Wissa: The Clinical Edge for DR Congo",
+      "summary": "Yoane Wissa has emerged as a vital attacking outlet for DR Congo, demonstrating high efficiency in front of goal throughout the group stage. Across his 3 matches and 307 minutes played, he has proven to be a consistent threat to opposing defenses. His ability to convert chances has been a cornerstone of his team's offensive output. Wissa currently stands as a primary contributor in the final third for his side.",
+      "story": [],
+      "bullets": [
+        "Recorded 3 goals across 3 matches played.",
+        "Maintained an impressive goals-per-90 rate of 0.9.",
+        "Logged a total of 307 minutes on the pitch.",
+        "Delivered a points-per-90 rate of 0.9.",
+        "Key contributor in the Group K campaign for DR Congo."
+      ],
+      "sections": [
+        {
+          "title": "Clinical Efficiency",
+          "body": "Wissa has been exceptionally sharp, finding the back of the net 3 times during the group stage. His goals-per-90 rate of 0.9 highlights his ability to capitalize on limited opportunities. This level of production makes him one of the most efficient forwards in his group."
+        },
+        {
+          "title": "Workload and Reliability",
+          "body": "With 307 minutes logged over 3 matches, Wissa has been a constant presence in the DR Congo lineup. His durability and consistent involvement allow him to remain a focal point for his team's tactical setup. He continues to be a reliable option for his side when searching for a breakthrough."
+        },
+        {
+          "title": "Tournament Context",
+          "body": "Playing in Group K, Wissa faced varied opposition including Portugal, Colombia, and Uzbekistan. His performance against Uzbekistan in the final group match was particularly notable, contributing to a 3-1 victory. These matches have defined his role as a primary attacking threat for DR Congo."
+        },
+        {
+          "title": "Statistical Impact",
+          "body": "By maintaining a points-per-90 rate of 0.9, Wissa has solidified his standing as a high-impact player. While he has not recorded any assists, his primary focus remains on goal-scoring duties. His current rank of 15 reflects his significant influence on the tournament so far."
+        }
+      ],
+      "updatedAt": "2026-06-28T10:18:29+00:00",
+      "sourceHash": "79af6562ff10b924",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
+    },
+    "riyad-mahrez-algeria": {
+      "headline": "Riyad Mahrez: The Creative Engine for Algeria",
+      "summary": "Riyad Mahrez has established himself as a vital offensive threat for Algeria during the group stage. With 2 goals and 1 assist across 3 matches, he has proven his ability to impact the scoreboard consistently. His efficiency is highlighted by a strong goals-per-90 rate of 0.8 as he prepares for upcoming fixtures.",
+      "story": [],
+      "bullets": [
+        "Contributed 2 goals and 1 assist in 3 matches played.",
+        "Maintains an impressive 0.8 goals per 90 minutes.",
+        "Recording 1.3 points per 90 minutes of action.",
+        "Logged 214 total minutes on the pitch for Algeria.",
+        "Key offensive playmaker heading into the Round of 32."
+      ],
+      "sections": [
+        {
+          "title": "Impact and Efficiency",
+          "body": "Riyad Mahrez has been highly effective in his 214 minutes of tournament play. His ability to find the back of the net frequently is evidenced by his 0.8 goals per 90 rate, making him a focal point of the Algerian attack."
+        },
+        {
+          "title": "Statistical Contribution",
+          "body": "Across his 3 matches, Mahrez has accumulated 3 points through a combination of 2 goals and 1 assist. This level of production underscores his role as a primary creator and finisher for his national side."
+        },
+        {
+          "title": "Tournament Context",
+          "body": "After navigating through the group stage, Algeria looks to rely on Mahrez's experience and scoring touch. His consistency in generating points per 90, currently at 1.3, will be crucial as the team advances."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "Following the group stage, Algeria prepares for a high-stakes Round of 32 clash against Switzerland. Mahrez remains the player to watch as he carries his group-stage momentum into this critical knockout fixture."
+        }
+      ],
+      "updatedAt": "2026-06-28T10:18:41+00:00",
+      "sourceHash": "f87a1043974c4c8b",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
+    },
+    "jude-bellingham-england": {
+      "headline": "Jude Bellingham: The Engine of England's Midfield",
+      "summary": "Jude Bellingham has established himself as a pivotal figure for England in this tournament, contributing directly to three goals across his three appearances. His ability to impact the game in limited minutes highlights his efficiency and importance to the team's offensive structure. With England moving into the knockout stages, Bellingham remains a primary threat for his side.",
+      "story": [],
+      "bullets": [
+        "Registered 2 goals and 1 assist in 3 matches.",
+        "Maintained an impressive 0.8 goals per 90 minutes.",
+        "Accumulated 3 total points during the group stage.",
+        "Logged 238 minutes of play for England.",
+        "Delivered a strong 1.1 points per 90 rate."
+      ],
+      "sections": [
+        {
+          "title": "Impact and Efficiency",
+          "body": "Bellingham's production has been highly efficient, as evidenced by his 0.8 goals per 90 rate. Despite playing 238 minutes, he has consistently found ways to influence the scoreline, proving his worth as a dynamic midfielder."
+        },
+        {
+          "title": "Group Stage Performance",
+          "body": "Throughout the group stage, which included matches against Croatia, Ghana, and Panama, Bellingham was a constant presence. His contributions helped England secure their path forward, culminating in a solid performance in the final group match."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "England now shifts focus to the Round of 32, where they are scheduled to face Congo DR. Bellingham will look to carry his group stage momentum into this high-stakes knockout fixture."
+        },
+        {
+          "title": "Role in the Squad",
+          "body": "As a key midfielder, Bellingham's role involves balancing defensive responsibilities with attacking surges. His 1.1 points per 90 rate underscores his effectiveness in being involved in crucial attacking sequences for England."
+        }
+      ],
+      "updatedAt": "2026-06-28T10:18:53+00:00",
+      "sourceHash": "6808df9a65ca3014",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
+    },
+    "marko-arnautovic-austria": {
+      "headline": "Marko Arnautovic: Austria's Efficient Attacking Spearhead",
+      "summary": "Marko Arnautovic has emerged as a highly efficient attacking presence for Austria during the group stage. Despite limited playing time, he has made a significant impact on the scoresheet. His ability to convert opportunities quickly positions him as a key threat for Austria as they move into the knockout rounds. He currently holds a strong per-90 rate that highlights his clinical nature in front of the goal.",
+      "story": [],
+      "bullets": [
+        "Recorded 2 goals in 3 matches played",
+        "Maintains a high efficiency with 1.4 goals per 90 minutes",
+        "Accumulated 2 total points during the group stage",
+        "Demonstrated impact in just 133 total minutes of play",
+        "Key offensive contributor for Austria's campaign"
+      ],
+      "sections": [
+        {
+          "title": "Clinical Efficiency",
+          "body": "Arnautovic has maximized his time on the pitch, proving to be one of the most efficient forwards in the tournament. With 2 goals scored in only 133 minutes, he is averaging 1.4 goals per 90 minutes. This high rate of production showcases his ability to capitalize on limited chances."
+        },
+        {
+          "title": "Tournament Impact",
+          "body": "As a central figure in the Austrian attack, Arnautovic has been vital to his team's progression through the group stage. His 2 points reflect his direct influence on the offensive output of the squad. He remains a primary focal point for the team as they look toward future fixtures."
+        },
+        {
+          "title": "Looking Ahead",
+          "body": "Austria faces a crucial upcoming match against Algeria before transitioning into the Round of 32. With a scheduled knockout game against Spain, Arnautovic's form will be critical for Austria's success. His ability to maintain his current per-90 rate will be a major factor in their pursuit of tournament advancement."
+        }
+      ],
+      "updatedAt": "2026-06-28T10:19:05+00:00",
+      "sourceHash": "87b6c0e9280d45bb",
+      "promptHash": "8f02badebfc8d658",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "top player"
     }
   },
   "matchPreviews": {
@@ -4341,62 +4468,62 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "85": {
-      "headline": "Switzerland Prepares for Knockout Stage at BC Place",
-      "summary": "Switzerland enters the Round of 32 after a strong showing in Group B. They await their opponent, which will be determined by the best third-place finisher from Groups E, F, G, I, or J. The match is scheduled for July 2, 2026, at BC Place in Vancouver.",
+      "headline": "Switzerland and Algeria Clash in Vancouver Round of 32",
+      "summary": "The knockout stage begins as Switzerland faces off against Algeria at BC Place. This Round of 32 encounter marks a pivotal moment for both teams as they look to extend their tournament journey. Fans can expect a high-stakes atmosphere in Vancouver on July 2, 2026.",
       "story": [
-        "Switzerland arrives at the knockout stage with significant momentum following their successful campaign in Group B. Having navigated through their initial matches against Qatar, Bosnia and Herzegovina, and Canada, they have secured their position as a group winner. This performance has earned them a spot in the Round of 32, where the stakes are elevated as the tournament shifts into a single-elimination format.",
-        "The identity of their opponent remains one of the most intriguing aspects of this matchup. Switzerland will face the best third-place team emerging from a diverse pool of contenders across Groups E, F, G, I, and J. This uncertainty adds a layer of tactical complexity, as the Swiss squad must prepare for a variety of potential playing styles and tactical setups that could emerge from those different groups.",
-        "The venue for this encounter is the iconic BC Place in Vancouver, Canada. Known for its distinct atmosphere, the stadium will serve as the backdrop for this critical knockout fixture. Players will need to adjust to the environment as they look to maintain the form that defined their group stage run.",
-        "As Switzerland prepares for this fixture, the focus will be on maintaining the consistency that allowed them to navigate the group phase. With the tournament structure now demanding perfection in every match, the team will need to rely on the tactical discipline and cohesion they demonstrated throughout their earlier appearances. The upcoming match represents a pivotal moment in their journey, testing their ability to adapt to an unknown challenger under the pressure of the knockout rounds."
+        "The 2026 World Cup reaches a critical juncture as Switzerland and Algeria meet in the Round of 32. Having secured their spot as the winners of Group B, the Swiss enter this knockout match with momentum built through their group stage performances. Their path here included a draw against Qatar and victories over Bosnia and Herzegovina and Canada, showcasing a resilient squad that knows how to navigate tournament pressure.",
+        "On the other side, Algeria arrives at this stage after navigating a challenging path through Group J. Their journey to the knockout rounds involved a mix of results against Argentina and Jordan, demonstrating the team's ability to adapt and compete on the global stage. As a best third-place side from the group stage, they bring a unique tactical challenge that Switzerland will need to solve to advance.",
+        "The venue for this high-stakes encounter is the iconic BC Place in Vancouver, Canada. The stadium, known for its vibrant atmosphere, will provide a fitting backdrop for the intensity of knockout football. With the pressure of a single-elimination format, both sides are expected to leave everything on the pitch as they fight for a place in the next round.",
+        "Tactically, this matchup presents an intriguing contrast. Switzerland has demonstrated a consistent ability to find the net throughout their group matches, while Algeria has shown flashes of offensive capability that could test the Swiss defensive structure. Both managers will be looking to exploit specific weaknesses identified during the group stage, making the opening minutes of the match essential for setting the tone.",
+        "As the tournament shifts into the knockout phase, the margin for error effectively disappears. For both Switzerland and Algeria, this match represents the culmination of their preparation and the beginning of a potential deep run. With the eyes of the world on Vancouver, the stage is set for a compelling display of skill, strategy, and determination."
       ],
       "bullets": [
-        "Watch how Switzerland adjusts their defensive structure to account for the unknown stylistic threats posed by a third-place group finisher.",
-        "Observe the transition from the group stage environment to the high-intensity atmosphere of the Round of 32 at BC Place.",
-        "Monitor the Swiss team's ability to maintain their established tactical rhythm against a fresh opponent entering the knockout bracket."
+        "Switzerland enters the knockout stage with the confidence of a group winner, having remained undefeated in Group B.",
+        "The match takes place at BC Place in Vancouver, a venue that promises a raucous and supportive atmosphere for the Round of 32."
       ],
       "sections": [
         {
-          "title": "The Road to Vancouver",
-          "body": "Switzerland enters this match after a productive group stage where they remained unbeaten. Their performance in Group B demonstrated a capacity for both offensive output and defensive resilience. This foundation will be essential as they face the high-pressure environment of the knockout rounds."
+          "title": "Road to the Knockouts",
+          "body": "Switzerland finished their group campaign at the top of Group B, showing strong form against Qatar, Bosnia and Herzegovina, and Canada. Algeria earned their place in the Round of 32 by securing a spot as one of the best third-place finishers, having faced tough competition in Group J."
         },
         {
-          "title": "The Unknown Challenger",
-          "body": "The opponent is currently defined as the best third-place team from Groups E, F, G, I, or J. This creates a unique challenge for the Swiss coaching staff, who must prepare for multiple tactical possibilities. The eventual matchup will depend on the final standings across those five groups."
+          "title": "Match Context",
+          "body": "This Round of 32 fixture is scheduled for July 2, 2026, at 23:00 ET. As a knockout match, the teams are playing for survival in the tournament, ensuring that every tactical decision and individual performance will be under intense scrutiny."
         }
       ],
-      "updatedAt": "2026-06-25T07:26:15+00:00",
-      "sourceHash": "8227bdb0fe144ae7",
+      "updatedAt": "2026-06-28T10:16:35+00:00",
+      "sourceHash": "2ce587359e3b8a8a",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "86": {
-      "headline": "Knockout Stage Intensity: Argentina Meets Cabo Verde in Miami",
-      "summary": "The Round of 32 brings a compelling clash to Hard Rock Stadium as Argentina faces off against Cabo Verde. With the stakes raised in the knockout stage, both teams look to leave their mark on the 2026 tournament. This matchup promises tactical intrigue under the lights in Miami Gardens.",
+      "headline": "Argentina and Cabo Verde Clash in Miami Round of 32",
+      "summary": "Argentina and Cabo Verde meet at Hard Rock Stadium on July 3, 2026, in a high-stakes Round of 32 knockout match. Both teams arrive with distinct tournament paths, setting the stage for a compelling encounter in Florida. This matchup determines who moves one step closer to the ultimate prize.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Argentina and Cabo Verde square off in the Round of 32. Having navigated their respective group stages, both sides now face the high-pressure environment of a single-elimination knockout match. The atmosphere at Hard Rock Stadium in Miami Gardens is set to be electric for this pivotal encounter.",
-        "Argentina enters this fixture as the winner of Group J, having demonstrated strong form throughout their opening matches. Their path to this stage was defined by consistent performances that established them as a formidable presence in the tournament. Fans will be watching closely to see if they can maintain that momentum against a resilient opponent.",
-        "Cabo Verde arrives in the Round of 32 as the runner-up from Group H. Their journey through the group phase was characterized by defensive tenacity and a refusal to back down against high-profile competition. Having navigated a challenging group, they have proven their ability to hold their own on the world stage.",
-        "The tactical battle will be a focal point of the evening. Argentina typically looks to control the pace of the game through possession and fluid attacking movements, while Cabo Verde has shown a capacity to frustrate opponents with organized defensive structures. Whether Argentina can break down that defensive wall or Cabo Verde can capitalize on transition opportunities will likely dictate the flow of the match.",
-        "As the tournament moves into the knockout rounds, every decision on the pitch carries significant weight. With the match scheduled for July 3, 2026, at 18:00 ET, both teams are fully aware that there is no margin for error. The winner of this contest will secure their place in the next phase of the tournament, making this a must-watch event for football fans."
+        "The 2026 World Cup reaches a critical juncture as Argentina and Cabo Verde square off in the Round of 32. Taking place at the iconic Hard Rock Stadium in Miami Gardens, this fixture represents the intensity of knockout football where every decision carries immense weight. Argentina enters this stage as the winner of Group J, while Cabo Verde secured their place as the runner-up from Group H.",
+        "Argentina's journey to this point has been defined by a disciplined approach in the group stage. Having navigated their initial fixtures with focus, they arrive in Florida looking to maintain their momentum. Their ability to control the tempo and execute their tactical plan will be tested against a resilient opponent that has proven difficult to break down.",
+        "Cabo Verde arrives in the knockout round having demonstrated remarkable defensive tenacity throughout their group campaign. Their path included hard-fought encounters against strong opposition, proving they have the grit necessary to compete on the world stage. For them, this match is an opportunity to showcase their organization and challenge one of the tournament's established forces.",
+        "Tactically, the battle in the midfield will be central to the outcome of this match. Argentina will likely look to dictate play and find gaps in the defensive structure of their opponents. Conversely, Cabo Verde will aim to remain compact and look for opportunities to transition quickly, turning defensive stops into dangerous attacking moments.",
+        "As the sun sets over Miami, the atmosphere at Hard Rock Stadium is expected to be electric. With a spot in the next round on the line, both squads are prepared for a grueling 90 minutes of football. Fans can expect a match defined by tactical chess moves and the relentless pressure that only a World Cup knockout game can provide."
       ],
       "bullets": [
-        "Watch how Argentina\u2019s attacking unit attempts to penetrate the disciplined defensive block of Cabo Verde.",
-        "Observe if Cabo Verde can replicate their group stage resilience to neutralize Argentina's offensive threats.",
-        "Monitor the midfield battle, as control of the center of the pitch will be vital for both sides in the Miami heat."
+        "Watch how Argentina\u2019s midfield manages the transition against a deep-sitting defensive block.",
+        "Monitor Cabo Verde\u2019s ability to maintain their defensive discipline under sustained pressure.",
+        "Observe the tactical adjustments made by both managers as the match progresses in the Miami heat."
       ],
       "sections": [
         {
-          "title": "Venue Context",
-          "body": "The match takes place at Hard Rock Stadium in Miami Gardens, Florida. This iconic venue is prepared to host the high-stakes intensity of a Round of 32 knockout game."
+          "title": "The Road to Miami",
+          "body": "Argentina secured their position by topping Group J, showcasing a potent attack and a solid defensive foundation. Cabo Verde earned their knockout spot by navigating a challenging Group H, finishing as the runner-up after a series of tightly contested matches. Both teams now face the pressure of a single-elimination scenario where there is no room for error."
         },
         {
-          "title": "Path to the Round of 32",
-          "body": "Argentina qualified for this match by finishing as the winner of Group J. Cabo Verde earned their spot by securing the runner-up position in Group H."
+          "title": "Venue Spotlight",
+          "body": "Hard Rock Stadium in Miami Gardens serves as the backdrop for this high-stakes encounter. Known for its vibrant atmosphere, the venue is set to host a pivotal moment in the 2026 World Cup. The conditions in Florida will play a factor as both teams look to impose their will on the pitch."
         }
       ],
-      "updatedAt": "2026-06-27T12:11:49+00:00",
-      "sourceHash": "619c6993368f4e82",
+      "updatedAt": "2026-06-28T10:16:48+00:00",
+      "sourceHash": "f695bf73004b89d6",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -6149,124 +6276,141 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "82": {
-      "headline": "Belgium Prepares for Round of 32 Clash in Seattle",
-      "summary": "Belgium enters the Round of 32 at Lumen Field following a strong finish to their group stage campaign. They now await the determination of their opponent, who will emerge as one of the best third-place teams from Groups A, E, H, I, or J.",
+      "headline": "Belgium and Senegal Clash in Seattle Round of 32 Showdown",
+      "summary": "Belgium and Senegal meet at Lumen Field for a high-stakes Round of 32 knockout match. Both teams enter this fixture looking to build on their group stage performances as they fight for a spot in the next round.",
       "story": [
-        "Belgium arrives in Seattle for this pivotal Round of 32 knockout match with momentum on their side. Having secured their place in this stage as the winners of Group G, the team has navigated a challenging group schedule that tested their resolve and tactical flexibility across three distinct matchdays.",
-        "The journey for Belgium began with a pair of tightly contested draws against Egypt and Iran, where the squad focused on defensive stability and finding their rhythm in the tournament. These early tests provided a foundation for the team to build upon as they adjusted to the intensity of the World Cup stage.",
-        "Their final group stage performance against New Zealand served as a significant statement of intent, showcasing an offensive surge that propelled them to the top of their group. This emphatic victory demonstrated the attacking potential that Belgium brings into the knockout phase, providing a confidence boost as they transition into the high-stakes environment of single-elimination football.",
-        "The identity of Belgium's opponent remains a compelling mystery, as the slot is reserved for one of the best third-place finishers from a wide pool of groups including A, E, H, I, and J. This uncertainty adds a layer of tactical intrigue, as Belgium must prepare for a variety of potential playstyles and strategic approaches that their eventual challenger might employ.",
-        "Lumen Field in Seattle will host this encounter on July 1, 2026, at 16:00 ET. As the tournament shifts into the knockout rounds, the atmosphere in the Pacific Northwest is expected to be electric, providing a fitting backdrop for a match that carries the weight of tournament survival for both sides involved."
+        "The 2026 World Cup reaches a critical juncture as Belgium and Senegal face off in the Round of 32 at Seattle Stadium. As the winner of Group G, Belgium arrives in the Pacific Northwest with momentum from their final group stage performance, while Senegal secured their place in the knockout bracket as one of the best third-placed teams from their respective group path.",
+        "Belgium's journey to this stage saw them navigate a challenging Group G. After opening their tournament with draws against Egypt and Iran, they found their offensive rhythm in a commanding victory over New Zealand. This late-group resurgence will be a key storyline as they look to maintain that attacking intensity against a resilient Senegalese side.",
+        "Senegal enters this knockout encounter battle-tested after a rigorous group stage campaign. Despite facing tough tests against France and Norway, their emphatic 5-0 victory over Iraq demonstrated their ability to dominate when the pressure is on. This offensive firepower makes them a dangerous opponent for any team in the knockout bracket.",
+        "The atmosphere at Lumen Field in Seattle is expected to be electric for this 16:00 ET kickoff. With the tournament shifting into a win-or-go-home format, both squads must balance the tactical discipline required for knockout football with the urgency needed to break down a well-organized defense.",
+        "Tactically, this match presents an intriguing contrast in styles. Belgium will look to control the tempo and utilize the confidence gained from their final group match, while Senegal will aim to disrupt that flow and capitalize on their ability to find the back of the net in bunches. Every possession will be vital in this high-stakes environment."
       ],
       "bullets": [
-        "Belgium enters the knockout stage as the undefeated winners of Group G.",
-        "The opponent will be confirmed as one of the best third-place teams from Groups A, E, H, I, or J.",
-        "The match is scheduled for July 1, 2026, at 16:00 ET at Lumen Field in Seattle."
+        "Belgium enters the knockout stage as the winner of Group G, carrying momentum from a strong finish to their group schedule.",
+        "Senegal qualified for this round as a best third-placed team, showing significant offensive potential in their final group match against Iraq.",
+        "The match takes place at the iconic Lumen Field in Seattle, providing a unique backdrop for this Round of 32 clash."
       ],
-      "sections": [
-        {
-          "title": "The Path to the Knockout Stage",
-          "body": "Belgium's group stage campaign was marked by steady improvement, moving from two initial draws to a dominant offensive display in their final match. Their ability to adapt and find the back of the net in their most recent outing will be a key storyline to watch as they face the pressure of the Round of 32."
-        },
-        {
-          "title": "Tactical Uncertainty",
-          "body": "Because the opponent is determined by the complex criteria for best third-place finishers, Belgium faces the unique challenge of preparing for a range of tactical possibilities. Watching how they adjust their formation and defensive structure once the opponent is finalized will be critical to their success in this match."
-        }
-      ],
-      "updatedAt": "2026-06-27T15:26:45+00:00",
-      "sourceHash": "194b22f0c72ba72a",
+      "sections": [],
+      "updatedAt": "2026-06-28T10:15:56+00:00",
+      "sourceHash": "48d3a0fd5e93834b",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "84": {
-      "headline": "Spain Prepares for Round of 32 Clash at SoFi Stadium",
-      "summary": "Spain enters the Round of 32 knockout stage after a successful group campaign in Group H. They are set to face the runner-up of Group J in a high-stakes matchup held at SoFi Stadium in Inglewood. This encounter marks a critical turning point as the tournament shifts into the single-elimination phase.",
+      "headline": "Spain and Austria Clash in Round of 32 Showdown",
+      "summary": "Spain and Austria meet at SoFi Stadium in Inglewood for a high-stakes Round of 32 knockout match. Both teams are looking to secure their path forward in the 2026 World Cup bracket. The match is scheduled for July 2, 2026, at 15:00 ET.",
       "story": [
-        "The 2026 World Cup reaches a fever pitch as Spain prepares to take the field at SoFi Stadium for their Round of 32 knockout match on July 2nd. Having emerged from Group H, Spain arrives in California with momentum, looking to translate their group stage form into success in this high-pressure knockout environment.",
-        "Spain's journey to this stage was defined by a series of disciplined performances. They opened their tournament with a hard-fought draw against Cabo Verde, followed by a dominant showing against Saudi Arabia. They ultimately secured their position at the top of their group with a narrow victory over Uruguay, proving their ability to grind out results when it matters most.",
-        "While Spain's path is clear, their opposition remains to be determined, as they await the runner-up from Group J. This uncertainty adds an intriguing layer to the preparation, as Spain must remain focused on their own tactical identity while staying adaptable to the specific challenges that the second-place finisher from Group J will bring to the pitch.",
-        "SoFi Stadium in Inglewood provides a spectacular backdrop for this knockout fixture. As the tournament moves into the Round of 32, every minute becomes increasingly vital. Fans can expect a tense atmosphere as both sides fight for survival in the competition, knowing that only one team will advance to the next stage of the bracket."
+        "The 2026 World Cup knockout stage intensifies as Spain and Austria prepare to face off at the iconic SoFi Stadium in California. As the winner of Group H, Spain enters this encounter with momentum, having navigated their group stage fixtures with a series of disciplined performances. Their journey to this stage included a resilient defensive showing and clinical execution in the final third, setting the tone for their knockout campaign.",
+        "Austria arrives at this Round of 32 matchup after securing their place as the runner-up from Group J. Their path through the group stage tested their ability to adapt against diverse tactical setups, providing them with valuable experience as they prepare for the pressure of a single-elimination environment. Facing a side like Spain requires both tactical discipline and the ability to capitalize on limited opportunities.",
+        "SoFi Stadium in Inglewood will provide a spectacular backdrop for this contest. The venue, known for its modern design and atmosphere, is set to host a pivotal moment in the tournament. With both teams having successfully navigated the group phase, the stakes are at their highest, and the tactical battle between Spain's established style and Austria's competitive drive will be a key storyline to watch.",
+        "As the teams prepare for kickoff on July 2, the focus shifts to how each side manages the intensity of knockout football. Spain will look to impose their rhythm on the game, while Austria will aim to disrupt that flow and find their own path to success. With a spot in the next round on the line, every tactical decision and individual performance will carry significant weight in this highly anticipated clash."
       ],
       "bullets": [
-        "Spain's tactical versatility after navigating three distinct group stage opponents.",
-        "The pressure of the knockout format beginning at the Round of 32 stage.",
-        "The challenge of preparing for an opponent finalized from the Group J standings."
+        "Watch how Spain's tactical structure from their Group H campaign translates to the high-pressure environment of the knockout stage.",
+        "Observe how Austria adapts their defensive and offensive strategies to counter a top-seeded opponent in a winner-take-all scenario.",
+        "Monitor the midfield battle, as control of the center of the pitch at SoFi Stadium will likely dictate the momentum for both sides."
       ],
       "sections": [
         {
           "title": "Tournament Context",
-          "body": "This match is part of the Round of 32, the first phase of the knockout bracket. Spain secured their spot by winning Group H, while their opponent arrives as the runner-up from Group J. The winner of this match will continue their journey toward the final."
+          "body": "This match is part of the Round of 32 in the 2026 World Cup knockout bracket. Spain earned their spot here by finishing as the winner of Group H, while Austria qualified as the runner-up from Group J. The winner of this game will continue their journey in the tournament."
         },
         {
-          "title": "Venue Details",
-          "body": "The match will be hosted at SoFi Stadium in Inglewood, California. Kickoff is scheduled for 15:00 ET on July 2nd. This venue is one of the premier locations for the 2026 tournament."
+          "title": "Venue Information",
+          "body": "The match will be held at SoFi Stadium, located in Inglewood, California. This facility is one of the premier venues for the 2026 World Cup, offering a world-class environment for this critical knockout fixture."
         }
       ],
-      "updatedAt": "2026-06-27T12:12:29+00:00",
-      "sourceHash": "970b67de8f9a8e4d",
+      "updatedAt": "2026-06-28T10:16:09+00:00",
+      "sourceHash": "68cb444cd4a33f13",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "80": {
-      "headline": "England Faces Knockout Challenge in Atlanta",
-      "summary": "England enters the Round of 32 at Mercedes-Benz Stadium to face a determined opponent emerging from the third-place rankings. This high-stakes knockout clash marks the beginning of the tournament's most pressurized phase.",
+      "headline": "England and Congo DR Clash in Atlanta Round of 32",
+      "summary": "England enters the Round of 32 at Mercedes-Benz Stadium following a successful group stage campaign. They face a Congo DR side looking to make their mark in this knockout showdown. The winner of this match moves one step closer to the ultimate prize in the 2026 World Cup.",
       "story": [
-        "The stage is set in Atlanta as England prepares for their Round of 32 knockout match on July 1, 2026. Having secured their position as the winner of Group L, the Three Lions arrive at Mercedes-Benz Stadium with momentum from a group stage campaign that saw them navigate challenges against Croatia, Ghana, and Panama.",
-        "England's path to this knockout fixture was defined by a mix of offensive production and defensive resilience. Their group stage journey included a high-scoring opener against Croatia, a hard-fought stalemate with Ghana, and a clinical victory over Panama to solidify their top-of-the-table finish.",
-        "The identity of their opponent adds a layer of intrigue to this matchup, as the slot is reserved for the best third-place finisher from a pool including Groups E, H, I, J, and K. This uncertainty forces England to remain adaptable, as they must prepare for a side that has survived the unique pressures of the group stage and is fighting for survival in the tournament.",
-        "As the tournament shifts into the knockout round, the margin for error effectively vanishes. Every decision on the pitch in Atlanta will carry significant weight, and both teams will be acutely aware that only one side can advance to the next stage of the competition.",
-        "Fans should look for how England manages the transition from group play to the intensity of a single-elimination environment. With the tactical discipline shown throughout their previous matches, the team will aim to control the tempo while remaining wary of the specific threats posed by a third-place qualifier looking to pull off a significant result."
+        "The 2026 World Cup knockout phase arrives in Atlanta as England prepares to face Congo DR in a high-stakes Round of 32 encounter. England secured their place in this stage by topping Group L, demonstrating defensive resolve and tactical discipline throughout their three group matches. Having navigated a challenging path that included matchups against Croatia, Ghana, and Panama, the Three Lions arrive at Mercedes-Benz Stadium with significant momentum.",
+        "Congo DR enters this fixture as one of the best third-place teams from the group stage, having successfully navigated the complex qualification criteria across Groups E, H, I, J, and K. Their presence in the Round of 32 reflects their resilience and ability to compete on the biggest stage. This match represents a massive opportunity for the squad to test themselves against a perennial tournament favorite in a single-elimination format.",
+        "The atmosphere in Atlanta is expected to be electric as these two nations meet on July 1st. For England, the focus will be on maintaining the consistency that saw them finish their group stage undefeated. Their ability to control the tempo of the game will be critical, especially against an opponent that has proven they can survive the pressures of tournament football.",
+        "Tactically, this match presents an intriguing contrast. England has shown they can adapt to different styles, whether it is breaking down a stubborn defense or managing a high-intensity game. Congo DR will likely look to disrupt England's rhythm, relying on their collective spirit to pull off a statement performance. With no second chances in the knockout rounds, every possession and tactical decision will carry immense weight as both teams fight for survival."
       ],
       "bullets": [
-        "England enters the knockout round unbeaten in their group stage campaign.",
-        "The match takes place at the iconic Mercedes-Benz Stadium in Atlanta.",
-        "The opponent is determined by the ranking of third-place teams from Groups E, H, I, J, and K."
+        "England finished at the top of Group L, entering the knockout stage with a strong record.",
+        "Congo DR advanced as one of the best third-place teams, earning their spot in the Round of 32.",
+        "The match takes place at the iconic Mercedes-Benz Stadium in Atlanta, Georgia."
+      ],
+      "sections": [
+        {
+          "title": "The Stakes in Atlanta",
+          "body": "As the tournament transitions to the Round of 32, the margin for error disappears entirely. Both England and Congo DR must now perform under the pressure of a knockout format where only one team can advance. The match is scheduled for July 1st at 12:00 ET."
+        }
+      ],
+      "updatedAt": "2026-06-28T10:15:43+00:00",
+      "sourceHash": "a3d9fd8192c39e58",
+      "promptHash": "58c0eceedbff748a",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "preview source or prompt changed"
+    },
+    "83": {
+      "headline": "Portugal and Croatia Clash in Round of 32 Showdown",
+      "summary": "Portugal and Croatia meet at BMO Field in Toronto for a high-stakes Round of 32 matchup. Both teams enter the knockout stage after navigating their respective group campaigns as runners-up. This encounter promises to be a tactical battle as both sides look to extend their tournament journey.",
+      "story": [
+        "The 2026 World Cup knockout phase intensifies as Portugal and Croatia face off on July 2, 2026, at Toronto Stadium. As the runners-up from Group K and Group L respectively, both squads have fought hard to reach this stage, and now the margin for error disappears in this sudden-death environment.",
+        "Portugal arrives in Toronto following a group stage that saw them balance defensive resilience with moments of offensive dominance. Their path included a hard-fought draw against DR Congo, a commanding 5-0 victory over Uzbekistan, and a tactical stalemate against Colombia. This variety in their group results suggests a team capable of adapting their approach depending on the opponent's style.",
+        "On the other side, Croatia navigated a challenging Group L to secure their spot in the Round of 32. After an opening match against England, they demonstrated their ability to grind out results with a narrow win over Panama and a decisive victory against Ghana. Their journey to this point has been defined by their persistence in tight contests.",
+        "The venue for this clash is BMO Field, a stadium known for its intimate atmosphere, which should provide a fantastic backdrop for this knockout fixture. With the stakes at their highest, the pressure on both squads will be immense as they compete for a place in the next round of the tournament.",
+        "Tactically, this matchup is intriguing because both teams have shown they can manage different phases of play. Portugal has displayed the ability to control a game offensively, while Croatia has proven they can handle the pressure of close, physical encounters. Fans should expect a focused performance from both sides as they aim to execute their game plans perfectly."
+      ],
+      "bullets": [
+        "Watch how Portugal utilizes their attacking depth, which was on full display during their five-goal performance in the group stage.",
+        "Observe Croatia's midfield control, a key component in their ability to secure narrow victories throughout the group phase.",
+        "Keep an eye on the tactical adjustments made by both managers as they navigate the pressure of a knockout match at BMO Field."
       ],
       "sections": [
         {
           "title": "Tournament Context",
-          "body": "This Round of 32 fixture serves as the definitive test for England after their successful group stage run. The knockout format ensures that the intensity will be at its peak from the opening whistle."
+          "body": "This match is part of the Round of 32, marking the beginning of the knockout phase where every game is a must-win. Portugal qualified as the runner-up from Group K, while Croatia earned their place as the runner-up from Group L. The winner of this fixture will continue their campaign in the next round of the tournament."
         },
         {
-          "title": "Venue Spotlight",
-          "body": "The match will be hosted at Mercedes-Benz Stadium in Atlanta, Georgia. This venue is set to provide a vibrant atmosphere for one of the most critical stages of the 2026 World Cup."
+          "title": "Venue Information",
+          "body": "The match will take place at BMO Field in Toronto, Ontario. Located in Canada, this stadium is set to host this critical encounter on July 2, 2026, at 19:00 ET. The atmosphere in Toronto is expected to be electric as these two European sides battle for survival."
         }
       ],
-      "updatedAt": "2026-06-28T00:05:55+00:00",
-      "sourceHash": "d26c1d21801be786",
+      "updatedAt": "2026-06-28T10:16:22+00:00",
+      "sourceHash": "80047cadb7019e8c",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
-    "83": {
-      "headline": "Knockout Stage Intensity: Croatia Awaits Opponent in Toronto",
-      "summary": "The 2026 World Cup reaches the high-stakes Round of 32 as Croatia prepares for a pivotal knockout match at BMO Field. With their group stage journey behind them, Croatia now faces the uncertainty of an opponent emerging from Group K. This clash in Toronto promises to be a defining moment for both sides as they fight for survival in the tournament.",
+    "87": {
+      "headline": "Colombia and Ghana Clash in Kansas City Round of 32",
+      "summary": "Colombia enters the knockout stage as the winner of Group K, facing off against Ghana at Arrowhead Stadium. This Round of 32 matchup promises high stakes as both teams look to advance in the 2026 World Cup bracket. The match is scheduled for July 3, 2026, at 21:30 ET.",
       "story": [
-        "The atmosphere in Toronto is set to be electric as BMO Field hosts a critical Round of 32 matchup on July 2, 2026. As the knockout phase begins, the margin for error vanishes, and every tactical decision becomes magnified under the lights. Croatia enters this stage with the experience of a grueling group campaign, ready to test their mettle against the runner-up from Group K.",
-        "Croatia\u2019s path to this fixture was marked by resilience throughout their group stage schedule. They navigated a challenging set of matches, showing the ability to adapt to different styles of play and pressure situations. Having secured their place in the knockout bracket, they now turn their full attention to the specific challenges posed by a knockout environment where only one team can move forward.",
-        "The identity of their opponent remains one of the most compelling storylines heading into the match. The runner-up from Group K will arrive in Ontario carrying the momentum of their own group stage performance. For Croatia, the preparation involves scouting the tactical tendencies of the Group K field, ensuring they are ready for whatever style of play their opponent brings to the pitch.",
-        "Tactically, this match will likely hinge on midfield control and the ability to capitalize on limited opportunities. In the knockout rounds, teams often prioritize defensive stability while looking for the precise moment to strike. Croatia will look to leverage their tournament experience to dictate the tempo, while their yet-to-be-confirmed opponent will aim to disrupt that rhythm and impose their own game plan.",
-        "As the kickoff time of 19:00 ET approaches, the focus shifts entirely to the green grass of BMO Field. The venue, known for its intimate and intense atmosphere, provides the perfect backdrop for a high-stakes encounter. Fans and analysts alike are watching closely to see how the tactical battle unfolds in what is sure to be a memorable night of World Cup action."
+        "The 2026 World Cup reaches a critical juncture as Colombia and Ghana meet in Kansas City for a high-stakes Round of 32 encounter. Colombia arrives at this stage after a successful group campaign in Group K, where they remained unbeaten across three matches. Their journey included a strong opening victory against Uzbekistan, a narrow win over DR Congo, and a hard-fought draw against Portugal.",
+        "Ghana enters this knockout fixture as one of the best third-placed teams from the group stage. Their path to the Round of 32 was defined by resilience, featuring a victory against Panama and a defensive stalemate against England. Despite a challenging final group match against Croatia, Ghana has proven they can compete against top-tier opposition on the world stage.",
+        "Arrowhead Stadium in Kansas City serves as the backdrop for this showdown, providing an iconic venue for the knockout intensity. As the tournament shifts to a single-elimination format, the pressure on both squads to execute their game plans from the opening whistle will be immense.",
+        "Tactically, the match presents an intriguing contrast in styles. Colombia has shown the ability to break down defenses while maintaining a disciplined structure, as evidenced by their clean sheet against Portugal. Meanwhile, Ghana has demonstrated a capacity for grit and tactical flexibility, having navigated a difficult group that included high-profile opponents.",
+        "With a spot in the next round on the line, both teams will be looking to capitalize on their momentum from the group stage. Fans can expect a physical and strategic battle as these two nations vie for the opportunity to continue their tournament run in the United States."
       ],
       "bullets": [
-        "Watch how Croatia manages the transition from group stage play to the sudden-death pressure of the Round of 32.",
-        "Observe the tactical adjustments made by Croatia to counter the specific strengths of their Group K opponent.",
-        "Keep an eye on the midfield battle, as control in the center of the pitch will be vital for both teams in this high-stakes environment."
+        "Colombia's defensive consistency, having conceded only once during their three group stage matches.",
+        "Ghana's ability to grind out results, particularly their disciplined performance against England.",
+        "The high-pressure environment of the knockout stage at Arrowhead Stadium, which often favors teams that can manage the emotional intensity of the match."
       ],
       "sections": [
         {
-          "title": "The Road to Toronto",
-          "body": "Croatia arrives at this stage after a series of competitive matches in Group L, including contests against England, Panama, and Ghana. These experiences have tested their squad depth and tactical flexibility, providing a solid foundation for the knockout rounds. They now face the challenge of maintaining that consistency against a fresh opponent in a winner-take-all scenario."
+          "title": "Road to the Round of 32",
+          "body": "Colombia secured their place in the knockout bracket by finishing at the top of Group K. Ghana earned their spot by qualifying as one of the best third-placed teams from the group stage, having competed in Group L."
         },
         {
-          "title": "Knockout Stakes",
-          "body": "The Round of 32 represents the start of the tournament's most unforgiving phase. With the group stage standings finalized, the focus shifts to a single-elimination format where every minute counts. Croatia and their opponent will both be looking to assert dominance early to avoid the tension of a prolonged stalemate."
+          "title": "Venue Context",
+          "body": "The match takes place at Arrowhead Stadium in Kansas City, Missouri. This venue is set to host a pivotal moment in the tournament as the Round of 32 begins."
         }
       ],
-      "updatedAt": "2026-06-28T00:06:09+00:00",
-      "sourceHash": "77e85ec69ae22b70",
+      "updatedAt": "2026-06-28T10:17:02+00:00",
+      "sourceHash": "a3ebdcc6ad4114b5",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "future spoiler-free preview"
