@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T13:37:07+00:00",
+  "generatedAt": "2026-06-28T15:29:16+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -744,20 +744,21 @@
     },
     "59": {
       "headline": "Turkey Edges United States in Thrilling Group D Finale",
-      "summary": "Turkey secured a hard-fought 3-2 victory over the United States in the final match of Group D at SoFi Stadium. Despite the loss, the United States finished at the top of the group standings with 6 points, while Turkey concluded their tournament run with 3 points.",
+      "summary": "Turkey secured a 3-2 victory over the United States in a high-scoring encounter at SoFi Stadium. Despite the loss, the United States finished at the top of Group D, while Turkey concluded their tournament run with a hard-fought win.",
       "story": [
-        "The atmosphere at SoFi Stadium in Inglewood was electric as Turkey and the United States faced off in their final Group D encounter. In a back-and-forth contest, Turkey managed to overcome the U.S. side with a final score of 3-2, providing a dramatic conclusion to the group stage.",
-        "For the United States, the result did not derail their momentum in the tournament. Having entered the match with two previous victories\u2014a 4-1 win over Paraguay and a 2-0 win against Australia\u2014the U.S. had already established a strong position. They finished the group stage at the summit with 6 points and a positive goal difference of 4.",
-        "Turkey, meanwhile, fought valiantly in their final appearance. After opening their campaign with a 2-0 loss to Australia and a narrow 1-0 defeat to Paraguay, this victory served as a spirited exit from the competition. Their 3 points were not enough to advance, but the win ensured they left the tournament on a high note.",
-        "With the group stage now complete, the focus for the United States shifts immediately to the knockout phase. Having secured the top spot in Group D, the U.S. is set to face Bosnia-Herzegovina in the Round of 32 on July 1st. This upcoming fixture will be a critical test as they look to carry their group-stage form into the single-elimination rounds."
+        "The final matchday of Group D delivered an intense battle at SoFi Stadium in Inglewood, as Turkey edged out the United States in a 3-2 thriller. Both teams played with purpose, resulting in a back-and-forth contest that kept the crowd engaged until the final whistle.",
+        "For the United States, the result did not derail their campaign. Having entered the match in a strong position, they maintained their standing at the top of Group D with 6 points. Their earlier victories against Paraguay and Australia provided the necessary cushion to secure their advancement to the Round of 32.",
+        "Turkey, meanwhile, ended their group stage on a high note. After struggling to find momentum in their opening matches against Australia and Paraguay, this victory provided a positive conclusion to their tournament journey. Despite the win, they finished fourth in the group with 3 points, narrowly missing out on further progression.",
+        "The group dynamics remained competitive throughout the final round. With Paraguay and Australia playing to a 0-0 draw in the concurrent fixture, the United States finished with a +4 goal difference, effectively securing their spot as group winners.",
+        "Looking ahead, the United States now turns its focus to the knockout stages. They are set to face Bosnia-Herzegovina in the Round of 32 on July 1, carrying the momentum of a successful group stage campaign into the high-stakes environment of the single-elimination bracket."
       ],
       "bullets": [
-        "The United States finished first in Group D with 6 points, securing a spot in the Round of 32 against Bosnia-Herzegovina.",
-        "Turkey concluded their tournament with a 3-2 win, finishing fourth in the group with 3 points.",
-        "The match at SoFi Stadium served as the final group-stage fixture for both nations."
+        "The United States finished first in Group D with 6 points despite the 3-2 defeat.",
+        "Turkey concluded their tournament with a win, finishing fourth in the group standings.",
+        "The United States will advance to face Bosnia-Herzegovina in the Round of 32 on July 1."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T15:26:31+00:00",
+      "updatedAt": "2026-06-28T15:28:52+00:00",
       "sourceHash": "1b5048a445c5961f",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -888,26 +889,26 @@
       "refreshReason": "source or prompt changed"
     },
     "66": {
-      "headline": "Egypt and Iran Play to Stalemate in Group G Finale",
-      "summary": "Egypt and Iran finished their Group G campaign with a 0-0 draw at Lumen Field in Seattle. The result confirmed Egypt's place in the knockout stages, while Iran concluded their tournament run with three points from their three group matches.",
+      "headline": "Egypt Secures Knockout Spot After Stalemate with Iran",
+      "summary": "Egypt and Iran played to a 0-0 draw in their final Group G match at Lumen Field in Seattle. The result was enough for Egypt to advance to the Round of 32, while Iran concluded their tournament campaign with three points.",
       "story": [
-        "The final matchday in Group G saw Egypt and Iran battle to a scoreless draw, a result that ultimately favored the North African side. Played at Seattle Stadium, the match lacked the breakthrough goal needed to break the deadlock, leaving both teams to settle for a share of the points.",
-        "For Egypt, the point was enough to solidify their standing in the group. Having secured five points across their three matches\u2014including a victory over New Zealand and a draw against Belgium\u2014they successfully navigated a competitive group to advance to the Round of 32.",
-        "Iran, meanwhile, proved to be a difficult opponent throughout the group stage. Despite failing to secure a win, they remained unbeaten in their final two matches, having previously held Belgium to a 0-0 draw. Their resilience was on display once again against Egypt, though the lack of a victory ultimately left them outside the qualification spots.",
-        "With the group stage concluded, Egypt now turns its attention to the knockout phase. They are scheduled to face Australia on July 3 in the Round of 32, a match that will test their ability to perform under the pressure of single-elimination football.",
-        "The final Group G standings reflect a tight battle for the top spots. Belgium finished at the summit with five points, edging out Egypt on goal difference, while Iran finished third with three points and New Zealand rounded out the group."
+        "The final matchday in Group G saw Egypt and Iran battle to a scoreless draw, a result that ultimately favored the North African side. Played at Seattle Stadium, the match lacked the breakthrough goal needed to break the deadlock, but the point proved vital for Egypt's progression.",
+        "Coming into the match with momentum from their 3-1 victory over New Zealand in the previous round, Egypt managed the game effectively to ensure they maintained their standing in the group. Despite Iran\u2019s efforts to find a win that might have kept their own hopes alive, the defensive discipline on display from both sides kept the scoreline locked at 0-0.",
+        "With this result, Egypt finishes the group stage with 5 points, level with Belgium but trailing on goal difference. Their consistent performance across the three matches\u2014including a draw against Belgium and a win over New Zealand\u2014has earned them a place in the knockout stages.",
+        "For Iran, the tournament concludes after a resilient run that saw them draw all three of their group stage matches. While they remained undefeated throughout the group phase, the lack of a decisive victory left them on 3 points, ultimately falling short of the top two spots required to advance.",
+        "Egypt now turns its attention to the Round of 32, where they are scheduled to face Australia on July 3. As they transition into the knockout phase, they will look to build on the defensive stability shown in this final group outing."
       ],
       "bullets": [
-        "Egypt advanced to the Round of 32 with five points, setting up a clash against Australia on July 3.",
-        "The 0-0 result marked Iran's second consecutive draw to close out their tournament participation.",
-        "Belgium finished first in Group G on goal difference, despite Egypt also finishing with five points."
+        "Egypt advances to the Round of 32 after finishing second in Group G with 5 points.",
+        "Iran exits the tournament after finishing third in the group, having drawn all three of their matches.",
+        "Egypt is set to face Australia in the upcoming Round of 32 clash on July 3."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T15:24:48+00:00",
+      "updatedAt": "2026-06-28T15:28:39+00:00",
       "sourceHash": "63bdb8a069478325",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "67": {
       "headline": "England Clinches Group L Top Spot with Victory Over Panama",
@@ -1694,34 +1695,34 @@
       "refreshReason": "active or recent group"
     },
     "G": {
-      "headline": "Group G Reaches Dramatic Conclusion",
-      "summary": "Group G has concluded its three-match cycle with Belgium and Egypt finishing deadlocked at the top of the table. Both nations finished with 5 points, though Belgium secured the top spot via a superior goal difference of 4 compared to Egypt's 2. Iran finishes in third place, while New Zealand concludes their campaign at the bottom of the group.",
+      "headline": "Group G Reaches Thrilling Conclusion",
+      "summary": "Group G has concluded its group stage play with Belgium and Egypt finishing deadlocked on five points at the top of the table. Belgium secures the top spot thanks to a superior goal difference of plus-four compared to Egypt's plus-two. Iran finishes third with three points, while New Zealand concludes their campaign at the bottom of the group.",
       "story": [],
       "bullets": [
-        "Belgium claims the group lead with 5 points and a +4 goal difference.",
-        "Egypt matches Belgium's 5-point tally but finishes second on goal difference.",
-        "Iran finishes third with 3 points after a resilient defensive campaign.",
-        "New Zealand rounds out the group with 1 point after a difficult run."
+        "Belgium finishes first in Group G with five points and a plus-four goal difference.",
+        "Egypt claims the second spot, also finishing with five points after an unbeaten group stage.",
+        "Iran remains competitive throughout the group stage, finishing with three points from three draws.",
+        "New Zealand ends their tournament run with one point after a challenging final match against Belgium."
       ],
       "sections": [
         {
-          "title": "The Battle for the Top",
-          "body": "Belgium and Egypt both navigated the group stage without a single loss, finishing with identical records of 5 points from 3 matches. Belgium's decisive 5-1 victory against New Zealand in the final matchday proved critical in separating them from Egypt, who played out a goalless draw against Iran in their final fixture."
+          "title": "Belgium's Dominant Finish",
+          "body": "Belgium surged to the top of the standings following an emphatic 5-1 victory over New Zealand in their final match. This result was crucial, as it allowed them to edge out Egypt on goal difference after both teams finished with identical point totals."
         },
         {
-          "title": "Iran's Defensive Resilience",
-          "body": "Iran proved to be a difficult side to break down throughout the tournament, finishing their group stage with 3 points from 3 draws. Despite not securing a victory, they remained competitive in every match, including a 0-0 stalemate against group leaders Belgium and a 0-0 result against Egypt."
+          "title": "Egypt's Consistent Performance",
+          "body": "Egypt maintained a steady pace throughout the group stage, finishing with five points and an unbeaten record. Despite a hard-fought 0-0 draw against Iran in their final fixture, their earlier 3-1 win over New Zealand provided the foundation for their successful qualification path."
         },
         {
-          "title": "New Zealand's Campaign",
-          "body": "New Zealand finished at the bottom of the group with 1 point, earned from their opening 2-2 draw against Iran. While they showed attacking intent by scoring 4 goals, their defensive struggles were evident, conceding 10 goals across their three matches."
+          "title": "Iran and New Zealand's Campaigns",
+          "body": "Iran proved to be a difficult opponent to break down, securing three points through three consecutive draws. New Zealand struggled to find defensive stability, conceding 10 goals across their three matches and finishing with a single point earned in their opening draw against Iran."
         }
       ],
-      "updatedAt": "2026-06-27T15:25:52+00:00",
+      "updatedAt": "2026-06-28T15:29:03+00:00",
       "sourceHash": "77e767eba1465218",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "group standings or prompt changed"
+      "refreshReason": "active or recent group"
     },
     "H": {
       "headline": "Spain Dominates Group H to Secure Top Spot",
@@ -1874,30 +1875,30 @@
       "refreshReason": "active or recent group"
     },
     "D": {
-      "headline": "Group D Concludes: United States Secures Top Spot",
-      "summary": "The United States has finished at the top of Group D with 6 points despite a loss in their final match. Australia and Paraguay both finished with 4 points, while Turkey was eliminated with 3 points. The group stage saw high-scoring affairs and tight defensive battles throughout the three matchdays.",
+      "headline": "United States Secures Top Spot in Competitive Group D",
+      "summary": "The United States has emerged as the leader of Group D after a hard-fought group stage campaign, finishing with 6 points. Despite a final matchday loss, their strong offensive performance provided enough cushion to hold off the rest of the pack. Australia and Paraguay finished level on 4 points, with Australia taking second place on goal difference.",
       "story": [],
       "bullets": [
-        "United States leads the group with 6 points and a +4 goal difference.",
-        "Australia and Paraguay finish level on 4 points, with Australia holding a superior goal difference.",
-        "Turkey exits the tournament after finishing fourth with 3 points.",
-        "The United States scored 8 goals across their three matches, the highest in the group."
+        "The United States finished first in the group with 6 points and a +4 goal difference.",
+        "Australia secured second place with 4 points and a 0 goal difference.",
+        "Paraguay also finished with 4 points but placed third due to a -2 goal difference.",
+        "Turkey concluded their campaign in fourth place with 3 points."
       ],
       "sections": [
         {
-          "title": "United States Dominance",
-          "body": "The United States controlled the group early with a 4-1 victory over Paraguay and a 2-0 win against Australia. Although they fell 3-2 to Turkey in their final match, their strong goal difference of +4 ensured they remained in first place."
+          "title": "US Dominance and Final Day Drama",
+          "body": "The United States dominated the early stages of the group, starting with a convincing 4-1 victory over Paraguay and a 2-0 win against Australia. Although they stumbled in their final match with a 3-2 loss to Turkey, their early goal tally of 8 ensured they remained at the top of the standings."
         },
         {
-          "title": "The Battle for Second",
-          "body": "Australia and Paraguay fought hard to secure the second spot, both finishing the group stage with 4 points. Australia's 2-0 win over Turkey and their 0-0 draw with Paraguay proved vital in keeping their goal difference at 0, compared to Paraguay's -2."
+          "title": "The Battle for Second Place",
+          "body": "Australia and Paraguay fought closely for the runner-up position throughout the group stage. Australia's 2-0 opening win against Turkey proved vital, as their 0-0 draw with Paraguay in the final round allowed them to maintain a superior goal difference of 0 compared to Paraguay's -2."
         },
         {
-          "title": "Turkey's Final Push",
-          "body": "Turkey struggled to find consistency, losing their first two matches against Australia and Paraguay. They ended their campaign on a high note by defeating the United States 3-2, but it was not enough to overcome their 3-point total and -2 goal difference."
+          "title": "Turkey's Late Surge",
+          "body": "Turkey faced a difficult start, falling 2-0 to Australia and 1-0 to Paraguay in their first two matches. They ended on a high note by defeating the group-winning United States 3-2, though the result was not enough to overcome their early points deficit."
         }
       ],
-      "updatedAt": "2026-06-27T15:27:19+00:00",
+      "updatedAt": "2026-06-28T15:29:16+00:00",
       "sourceHash": "eeab9aca6695ddbe",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
