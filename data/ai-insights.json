@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T11:59:40+00:00",
+  "generatedAt": "2026-06-28T13:37:07+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -132,22 +132,22 @@
       "refreshReason": "source or prompt changed"
     },
     "41": {
-      "headline": "Argentina Dominates Austria to Secure Group J Lead",
-      "summary": "Argentina defeated Austria 2-0 at AT&T Stadium in Arlington, maintaining their perfect start to the tournament. This result moves Argentina to the top of Group J with six points and a clean sheet record across two matches.",
+      "headline": "Argentina Secures Dominant Win Over Austria",
+      "summary": "Argentina defeated Austria 2-0 in their Group J clash at AT&T Stadium. This victory solidified Argentina's control over the group and put them in a strong position heading into the final round of matches.",
       "story": [
-        "Argentina continued their clinical form in Group J, dispatching Austria 2-0 in a controlled performance at AT&T Stadium. Coming off a dominant 3-0 victory against Algeria in their opening match, Argentina proved once again why they are the team to beat in this group, keeping their defensive record spotless while adding another three points to their tally.",
-        "For Austria, the loss marks their first defeat of the tournament following their 3-1 win over Jordan. Despite the setback, they remain in the mix for the knockout stages, currently sitting level on points with Algeria as the group enters its final matchday.",
-        "The tactical discipline shown by Argentina was the defining feature of the match in Texas. By stifling the Austrian attack and capitalizing on their own opportunities, they have effectively distanced themselves from the rest of the group, holding a commanding goal difference of plus-five.",
-        "With this victory, Argentina has secured a strong position heading into their final group stage fixture against Jordan. Meanwhile, Austria will look to rebound in their upcoming match against Algeria, a contest that will be pivotal in determining the final standings of Group J and the path to the Round of 32."
+        "In a highly anticipated Group J showdown, Argentina demonstrated their class with a clinical 2-0 victory over Austria. The match, held at the impressive AT&T Stadium in Arlington, Texas, saw Argentina maintain their defensive discipline while effectively breaking down the Austrian resistance.",
+        "The result was a significant statement of intent from the Argentine side, who managed to keep a clean sheet while securing all three points. For Austria, the loss meant they had to regroup quickly to keep their knockout stage ambitions alive in a competitive group.",
+        "The atmosphere in Dallas was electric, with both sets of fans creating a memorable backdrop for what proved to be a pivotal fixture. Argentina's ability to control the tempo of the game ensured they dictated the flow of play for much of the afternoon.",
+        "Following this result, the group dynamics shifted, putting increased pressure on the remaining fixtures. Argentina's performance underscored their status as a force to be reckoned with, while Austria was left to focus on their subsequent match to secure their path forward.",
+        "The conclusion of this match marked a key milestone in Group J, as the tournament progressed toward the final group stage deciders. With the points secured, Argentina moved closer to finalizing their standing at the top of the group."
       ],
       "bullets": [
-        "Argentina remains undefeated and unscored upon after two matches, sitting comfortably at the top of Group J with 6 points.",
-        "Austria drops to 3 points, creating a tight race for second place with Algeria heading into the final round of group fixtures.",
-        "The match was hosted at AT&T Stadium in Arlington, Texas, serving as a key fixture in the Group J schedule."
+        "Argentina maintained a perfect defensive record in the match, shutting out the Austrian attack.",
+        "The victory at AT&T Stadium provided Argentina with critical momentum in Group J."
       ],
       "sections": [],
-      "updatedAt": "2026-06-28T07:01:28+00:00",
-      "sourceHash": "24f616e3560f6035",
+      "updatedAt": "2026-06-28T13:34:29+00:00",
+      "sourceHash": "eadf821c7322b365",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -195,22 +195,22 @@
       "refreshReason": "source or prompt changed"
     },
     "44": {
-      "headline": "Algeria secures vital victory over Jordan",
-      "summary": "Final: Jordan 1, Algeria 2. Algeria defeated Jordan 2-1 in their Group J encounter at Levi's Stadium in Santa Clara. This result keeps Algeria's knockout stage hopes alive while leaving Jordan at the bottom of the group standings after two matches.",
+      "headline": "Algeria Secures Vital Win Over Jordan",
+      "summary": "Final: Jordan 1, Algeria 2. Algeria defeated Jordan 2-1 in a hard-fought Matchday 2 encounter at Levi's Stadium. This result proved critical for Algeria's tournament path, keeping them in contention within Group J.",
       "story": [
-        "The match at Levi's Stadium proved to be a pivotal moment for Group J, as Algeria fought hard to claim a 2-1 win against Jordan. Following their opening loss to Argentina, the victory provided a necessary spark for the Algerian side to climb back into contention within the group.",
-        "For Jordan, the defeat was a difficult outcome that leaves them with zero points after two rounds of play. Despite their efforts, they have struggled to secure a result, putting them in a challenging position as they look toward their final group stage fixture.",
-        "The current Group J standings show Argentina leading the pack with six points, while Austria and Algeria are locked in a battle for position, both sitting on three points. Jordan remains at the bottom, facing an uphill climb to change their fortunes in the tournament.",
-        "Looking ahead, the final matchday will determine the ultimate fate of these teams. Algeria is set to face Austria in a high-stakes showdown, while Jordan will conclude their group campaign against Argentina. Both matches are scheduled for June 27, with the outcomes set to finalize the group rankings and qualification paths."
+        "The atmosphere at Levi's Stadium in the San Francisco Bay Area provided a dramatic backdrop for this Group J clash. Algeria entered the match looking to bounce back from their opening defeat, while Jordan sought their first points of the tournament.",
+        "Algeria managed to edge out Jordan in a tense 2-1 victory. The win was a necessary response for the Algerian side, providing them with the momentum required to navigate the remainder of the group stage.",
+        "For Jordan, the loss was a difficult hurdle in their campaign. Despite a spirited effort, they were unable to overcome the Algerian defense to secure a result, leaving them searching for their first points as the group stage progressed.",
+        "Following the conclusion of all group fixtures, Algeria finished with 4 points, level with Austria but trailing on goal difference, yet successfully advancing to the knockout stages. Jordan concluded their tournament run with a difficult group stage exit."
       ],
       "bullets": [
-        "Algeria earned their first three points of the tournament, moving level with Austria in the Group J standings.",
-        "Jordan remains winless after two matches, facing a must-win scenario in their final group game against Argentina.",
-        "The 2-1 result at Levi's Stadium sets up a decisive final matchday for all teams in the group."
+        "Algeria secured a 2-1 win, a decisive result that helped propel them toward the knockout stages.",
+        "The match was held at Levi's Stadium in Santa Clara, California.",
+        "Algeria finished the group stage with 4 points, ultimately setting up a Round of 32 matchup against Switzerland."
       ],
       "sections": [],
-      "updatedAt": "2026-06-28T07:01:03+00:00",
-      "sourceHash": "eec5c350d74fb11b",
+      "updatedAt": "2026-06-28T13:34:17+00:00",
+      "sourceHash": "8d43f23f8be9388a",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -597,21 +597,21 @@
       "refreshReason": "past 5 days"
     },
     "52": {
-      "headline": "Brazil Secures Group C Top Spot with Dominant Win Over Scotland",
-      "summary": "Final: Scotland 0, Brazil 3. Brazil defeated Scotland 3-0 at Hard Rock Stadium to conclude their group stage campaign. The result confirms Brazil as the winner of Group C, while Scotland finishes third in the table.",
+      "headline": "Brazil Dominates Scotland to Clinch Group C Top Spot",
+      "summary": "Final: Scotland 0, Brazil 3. Brazil secured a convincing 3-0 victory over Scotland at Hard Rock Stadium to finish at the summit of Group C. The result confirmed Brazil's progression to the Round of 32, while Scotland concludes their group stage campaign with three points.",
       "story": [
-        "Brazil asserted their authority in the final match of Group C, delivering a clinical 3-0 performance against Scotland in Miami Gardens. The victory allowed the South American giants to finish at the summit of the group standings, edging out Morocco on goal difference despite both teams finishing with seven points.",
-        "For Scotland, the match marked the end of a challenging group stage journey. After opening their tournament with a narrow 1-0 win against Haiti, they were unable to find the back of the net in subsequent losses to Morocco and now Brazil, ultimately concluding their campaign with three points from three matches.",
-        "The atmosphere at Hard Rock Stadium saw Brazil continue their upward trajectory in the tournament. Having started with a draw against Morocco, they found their rhythm in back-to-back victories against Haiti and Scotland, showcasing a potent attack that finished the group phase with seven goals scored and only one conceded.",
-        "With the group stage now in the rearview mirror, Brazil looks ahead to the knockout rounds. As the winners of Group C, they are scheduled to face the runner-up of Group F, Japan, in the Round of 32 on June 29."
+        "Brazil asserted their authority in Miami Gardens, delivering a clinical 3-0 performance against Scotland that left little doubt about their status as group leaders. By maintaining their unbeaten record, Brazil successfully navigated the group stage with seven points, edging out Morocco on goal difference to claim the top spot in the standings.",
+        "For Scotland, the match represented a difficult end to their tournament journey. Despite a hard-fought opening win against Haiti, back-to-back losses to Morocco and now Brazil left them with three points, ultimately resulting in their exit from the competition.",
+        "The tactical discipline shown by Brazil throughout the group stage was on full display at Hard Rock Stadium. Having started their campaign with a draw against Morocco and a dominant win over Haiti, this final victory served as a statement of intent as they prepare for the knockout phase.",
+        "With the group stage now concluded, Brazil looks ahead to the Round of 32. They are scheduled to face Japan on June 29, carrying the momentum of a high-scoring finish and a solid defensive record that saw them concede only one goal across their three group fixtures."
       ],
       "bullets": [
-        "Brazil finishes first in Group C with 7 points and a +6 goal difference.",
-        "Scotland concludes their tournament run in third place with 3 points.",
-        "Brazil advances to the Round of 32 to face Japan on June 29."
+        "Brazil finished first in Group C with 7 points and a +6 goal difference.",
+        "Scotland exits the tournament after finishing third in the group with 3 points.",
+        "Brazil advances to face Japan in the Round of 32 on June 29."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T12:11:10+00:00",
+      "updatedAt": "2026-06-28T13:36:05+00:00",
       "sourceHash": "8d25f615b54a8043",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -703,20 +703,20 @@
     },
     "57": {
       "headline": "Netherlands Secure Top Spot in Group F with Victory Over Tunisia",
-      "summary": "Final: Tunisia 1, Netherlands 3. The Netherlands defeated Tunisia 3-1 in their final Group F match at Arrowhead Stadium. This result confirmed the Netherlands' position at the top of the group standings with seven points, while Tunisia concluded their tournament run without a win.",
+      "summary": "Final: Tunisia 1, Netherlands 3. The Netherlands defeated Tunisia 3-1 at Arrowhead Stadium, solidifying their position at the top of Group F. This result concludes the group stage for both nations, with the Dutch moving forward to the knockout rounds.",
       "story": [
-        "The Netherlands entered the final matchday of Group F with momentum and capitalized on their opportunity to secure the top seed. By defeating Tunisia 3-1 in Kansas City, the Dutch side maintained their unbeaten record in the group stage, finishing with two wins and a draw.",
-        "For the Netherlands, the victory was the culmination of a strong group performance that saw them score 10 goals across their three matches. Their offensive consistency throughout the group stage has been a hallmark of their play, providing them with a solid foundation as they look toward the knockout rounds.",
-        "Tunisia struggled to find their footing in a challenging Group F, finishing the tournament with three losses. Despite scoring a goal in this final encounter, they were unable to overcome the pressure applied by the Dutch, closing out their campaign at the bottom of the table.",
-        "With the group stage now concluded, the Netherlands shift their focus to the Round of 32. Their performance has earned them a spot in the next phase, where they are scheduled to face Morocco on June 29."
+        "The Netherlands concluded their group stage campaign on a high note, dispatching Tunisia 3-1 in Kansas City. The victory ensured the Dutch finished at the summit of Group F, maintaining an unbeaten record through their three matches.",
+        "For the Netherlands, the result was the culmination of a strong group performance that saw them collect seven points from a possible nine. After an opening draw against Japan and a dominant win over Sweden, this final performance confirmed their status as a team to watch in the upcoming knockout phase.",
+        "Tunisia struggled to find their footing in this tournament, finishing at the bottom of the group with zero points. Despite a spirited effort in this final match, they were unable to overcome the offensive pressure applied by the Dutch side.",
+        "With the group stage now complete, the Netherlands look ahead to the Round of 32. They are scheduled to face Morocco on June 29, carrying the momentum of their group-winning performance into the high-stakes environment of the knockout bracket."
       ],
       "bullets": [
-        "The Netherlands finished Group F at the top of the table with 7 points and a +6 goal difference.",
-        "Tunisia concluded their 2026 World Cup campaign with 0 points after three matches.",
-        "The Netherlands will advance to the Round of 32 to face Morocco on June 29."
+        "The Netherlands finished Group F undefeated with 7 points and a +6 goal difference.",
+        "Tunisia concluded their World Cup journey at the bottom of the group standings.",
+        "The Netherlands advance to the Round of 32 to face Morocco on June 29."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T12:10:45+00:00",
+      "updatedAt": "2026-06-28T13:35:53+00:00",
       "sourceHash": "44fba4e48d667917",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
@@ -1000,56 +1000,42 @@
       "refreshReason": "source or prompt changed"
     },
     "71": {
-      "headline": "Algeria and Austria Clash for Crucial Knockout Spot",
-      "summary": "Algeria and Austria meet in Kansas City for a decisive final group stage match with both teams sitting level on three points. With Argentina leading the group, this fixture effectively serves as a knockout eliminator for the second qualifying position.",
+      "headline": "Algeria and Austria Finish in Thrilling 3-3 Draw",
+      "summary": "Algeria and Austria played to an entertaining 3-3 draw at Arrowhead Stadium, a result that finalized their positions in Group J. Both teams finished the group stage with 4 points, though Austria secured the runner-up spot on goal difference.",
       "story": [
-        "The stakes could not be clearer at Arrowhead Stadium as Algeria and Austria prepare for their final Group J encounter. Both sides enter this match with identical records of one win and one loss, leaving them locked on three points each. The winner of this contest will be in the driver's seat to secure advancement, while the loser faces the real possibility of elimination depending on the outcome of the concurrent match between Argentina and Jordan.",
-        "Austria began their campaign with a strong 3-1 victory over Jordan but found life difficult against a clinical Argentina side in their second match, falling 2-0. Their ability to bounce back and regain the form shown in their opening fixture will be the primary narrative as they look to solidify their standing in the group.",
-        "Algeria, meanwhile, experienced a challenging start with a 3-0 defeat at the hands of Argentina. However, they showed significant resilience in their second match, grinding out a 2-1 win over Jordan to keep their tournament hopes alive. This momentum will be vital as they face an Austrian team that has demonstrated both offensive capability and defensive vulnerabilities.",
-        "With Argentina currently sitting at the top of the table with six points, the math is straightforward for both teams. A victory here is the most secure path to the next round, as goal difference could become a deciding factor if both teams finish on equal points after three matches. The atmosphere in Kansas City is expected to be intense as both nations fight to extend their stay in the tournament."
+        "The atmosphere at Arrowhead Stadium in Kansas City was electric as Algeria and Austria battled to a 3-3 stalemate in their final group stage fixture. With both sides looking to solidify their standing in the group, the match proved to be an end-to-end affair that kept fans on the edge of their seats until the final whistle.",
+        "Coming into the match, the stakes were clear. Austria entered the game needing to maintain their position to ensure a favorable path into the knockout rounds, while Algeria fought hard to overcome their early tournament deficit. The draw leaves both teams level on 4 points, but Austria\u2019s superior goal difference of 0 compared to Algeria\u2019s -2 ultimately determined the final group standings.",
+        "This result confirms Austria as the runners-up in Group J, setting them up for a challenging Round of 32 clash against Spain on July 2. Meanwhile, Algeria concludes their group campaign with a hard-fought point, having shown significant resilience since their opening match defeat to Argentina.",
+        "As the group stage concludes, Argentina finishes at the top of the table with a perfect 9 points, while Jordan exits the tournament at the bottom of the group. For Algeria, the journey continues in the knockout stage, where they are slated to face Switzerland on July 2, hoping to leverage the momentum from this high-scoring performance."
       ],
       "bullets": [
-        "Both teams enter the final matchday tied on three points, making this a direct battle for the second qualification spot in Group J.",
-        "Austria holds a superior goal difference of 0 compared to Algeria's -2, which could prove decisive if the match ends in a draw.",
-        "The match takes place at Arrowhead Stadium in Kansas City, with both Group J final fixtures kicking off simultaneously at 22:00 ET."
+        "Austria secured second place in Group J on goal difference despite finishing level on 4 points with Algeria.",
+        "The 3-3 draw marks the end of the group stage for both sides, with Austria moving on to face Spain and Algeria set to meet Switzerland in the Round of 32."
       ],
-      "sections": [
-        {
-          "title": "Group J Context",
-          "body": "Argentina has already established dominance in the group with six points and a +5 goal difference. This leaves Austria and Algeria to fight for the remaining path to the knockout stages, as Jordan remains at the bottom of the table with zero points."
-        },
-        {
-          "title": "Tactical Outlook",
-          "body": "Austria will look to replicate the attacking efficiency they displayed against Jordan, while Algeria must maintain the defensive discipline that helped them secure their narrow win in the second round. Both teams will need to manage the pressure of a high-stakes environment where every goal could be the difference between advancing and heading home."
-        }
-      ],
-      "updatedAt": "2026-06-24T16:45:43+00:00",
-      "sourceHash": "835c5b310f3418ae",
+      "sections": [],
+      "updatedAt": "2026-06-28T13:33:53+00:00",
+      "sourceHash": "b8dc5ccde7f081fa",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "72": {
-      "headline": "Argentina Eyes Top Spot in Group J Finale",
-      "summary": "Argentina enters their final Group J match against Jordan at AT&T Stadium with a perfect record and a secured spot in the Round of 32. While Argentina looks to lock up the top seed, Jordan aims to play spoiler in their final appearance of the tournament.",
+      "headline": "Argentina Sweeps Group J with Dominant Win Over Jordan",
+      "summary": "Final: Jordan 1, Argentina 3. Argentina defeated Jordan 3-1 at AT&T Stadium to conclude their group stage campaign with a perfect record. The victory solidified Argentina's position at the top of Group J, while Jordan finished their tournament run without a point.",
       "story": [
-        "Argentina has been the dominant force in Group J, maintaining a flawless record through two matches. With consecutive victories over Algeria and Austria, they have scored five goals while keeping a clean sheet in both outings. This performance has already guaranteed them a place in the knockout stages, with a match against the runner-up of Group H already scheduled for July 3.",
-        "For Jordan, the tournament has been a difficult challenge. Despite showing effort in their opening two fixtures, they remain at the bottom of the group with zero points. Following losses to Austria and Algeria, Jordan will be looking to conclude their World Cup campaign on a high note by testing themselves against one of the tournament's most consistent sides.",
-        "The stakes for this match at Dallas Stadium are clear: Argentina needs a result to ensure they finish at the top of the group, which would secure their path into the next phase. With the match kicking off at 22:00 ET, all eyes will be on whether Jordan can disrupt Argentina's rhythm or if the favorites will continue their clinical form heading into the knockout rounds."
+        "Argentina maintained their clinical form in Arlington, Texas, dispatching Jordan 3-1 to cap off a flawless group stage performance. By securing all nine points from their three matches, Argentina demonstrated why they are a formidable force heading into the knockout rounds.",
+        "For Jordan, the match marked the end of a challenging tournament. Despite their efforts, they were unable to secure a result in Group J, finishing the group stage with three losses. Their performance against Argentina served as their final appearance in the 2026 competition.",
+        "The result at AT&T Stadium had significant implications for the final standings. Argentina finished comfortably at the top of the table with a +7 goal difference, having conceded only a single goal throughout the group stage.",
+        "With the group stage now concluded, Argentina shifts their focus to the Round of 32. They are scheduled to face Cabo Verde on July 3, carrying the momentum of their undefeated streak into the high-stakes knockout phase."
       ],
       "bullets": [
-        "Argentina has secured 6 points from 2 matches with a +5 goal difference.",
-        "Jordan is currently seeking their first point of the tournament after two hard-fought group stage matches.",
-        "Argentina has already clinched a spot in the Round of 32, scheduled for July 3."
+        "Argentina finished atop Group J with a perfect 3-0-0 record and 9 points.",
+        "Jordan concluded their tournament campaign with 0 points after three group matches.",
+        "Argentina advances to the Round of 32 to face Cabo Verde on July 3."
       ],
-      "sections": [
-        {
-          "title": "Group J Context",
-          "body": "Argentina currently leads the group with 6 points, followed by Austria and Algeria, who are both tied on 3 points. With Jordan at the bottom with 0 points, the final round of fixtures will determine the final standings and which teams advance alongside Argentina."
-        }
-      ],
-      "updatedAt": "2026-06-24T16:45:47+00:00",
-      "sourceHash": "0df0253fe61c483d",
+      "sections": [],
+      "updatedAt": "2026-06-28T13:34:05+00:00",
+      "sourceHash": "38d36a9f78e0e25e",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1138,43 +1124,43 @@
       "refreshReason": "source or prompt changed"
     },
     "20": {
-      "headline": "Austria Secure Opening Win Against Jordan",
-      "summary": "Austria defeated Jordan 3-1 in their Group J opening match at Levi's Stadium. The result provided Austria with a vital three points to begin their tournament campaign in California.",
+      "headline": "Austria Opens Group J Campaign with Decisive Win Over Jordan",
+      "summary": "Austria secured a 3-1 victory over Jordan in their opening match of the tournament at Levi's Stadium. This result provided a crucial early advantage for Austria in Group J, setting the tone for their progression to the knockout stages.",
       "story": [
-        "Austria opened their World Cup account with a decisive 3-1 victory over Jordan in the Group J opener. Played at Levi's Stadium in Santa Clara, the match saw Austria capitalize on their opportunities to secure an early advantage in the group standings.",
-        "For Jordan, the result marked a challenging start to their tournament journey. Despite their efforts, they were unable to overcome the Austrian side, leaving them with significant work to do in their remaining group fixtures to keep their knockout stage hopes alive.",
-        "The victory was instrumental for Austria, providing them with a solid foundation as they navigated the early stages of the group. This win proved essential for their momentum, especially as they looked ahead to subsequent high-stakes matchups against heavyweights like Argentina.",
-        "As the group stage progressed, the impact of this opening result became clear. Austria's ability to take all three points against Jordan kept them firmly in the hunt for a qualifying spot, setting the stage for a tense conclusion to the group phase."
+        "The match, held at Levi's Stadium in Santa Clara, saw Austria assert their authority early in the group stage. By putting three goals past Jordan, they established a strong foundation that proved vital as the group progressed through subsequent rounds.",
+        "For Jordan, the opening defeat proved difficult to overcome, as they ultimately finished the group stage with three losses. While they managed to find the back of the net, the defensive pressure from Austria was too much to contain in this initial encounter.",
+        "This win was a cornerstone of Austria's tournament journey. Despite later challenges against Argentina and a hard-fought draw with Algeria, the points gathered in this Matchday 1 victory helped them secure second place in Group J with four points.",
+        "Following the conclusion of the group stage, Austria\u2019s efforts have earned them a spot in the Round of 32. They are now preparing to face the winner of Group H as they look to continue their campaign in the knockout phase."
       ],
       "bullets": [
-        "Austria claimed a 3-1 victory to start their Group J campaign with maximum points.",
-        "The match was hosted at Levi's Stadium in Santa Clara, California.",
-        "The result established a critical baseline for Austria as they competed for a spot in the knockout rounds."
+        "Austria finished second in Group J with 4 points, securing their path to the Round of 32.",
+        "The 3-1 victory at Levi's Stadium served as the catalyst for Austria's successful group stage performance.",
+        "Jordan concluded their tournament run after finishing fourth in the group standings."
       ],
       "sections": [],
-      "updatedAt": "2026-06-28T07:03:06+00:00",
-      "sourceHash": "8191c95ff708ed45",
+      "updatedAt": "2026-06-28T13:34:41+00:00",
+      "sourceHash": "9f708e47319a8d29",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "19": {
       "headline": "Argentina Dominates Algeria in Group J Opener",
-      "summary": "Argentina secured a commanding 3-0 victory over Algeria in their opening Group J match at Arrowhead Stadium. This result set the tone for Argentina's campaign, establishing them as the team to beat in the group.",
+      "summary": "Argentina secured a decisive 3-0 victory over Algeria at Arrowhead Stadium to kick off their Group J campaign. This commanding performance set the tone for a dominant group stage run that saw Argentina finish with a perfect nine points.",
       "story": [
-        "The match at Kansas City Stadium saw Argentina deliver a clinical performance, putting three goals past Algeria without conceding. The 3-0 win provided an immediate boost to Argentina's goal difference, a factor that has proven vital as the group stage progressed.",
-        "For Algeria, the loss in the opening round created immediate pressure to bounce back in subsequent fixtures. While they managed to recover with a win against Jordan in their second match, the heavy opening defeat left them with a negative goal difference heading into the final group stage showdown.",
-        "Argentina's momentum continued following this victory, as they went on to defeat Austria 2-0 in their second match. With six points from two games and a flawless defensive record, they have firmly cemented their place at the top of Group J.",
-        "As the group stage reaches its conclusion, Argentina holds a comfortable lead, while Algeria finds themselves in a tight battle for the remaining qualification spots. The initial dominance shown by Argentina in Kansas City remains the defining narrative of the group's early proceedings."
+        "The opening match of Group J at Arrowhead Stadium in Kansas City saw Argentina assert their authority early in the tournament. By defeating Algeria 3-0, Argentina signaled their intent to control the group, utilizing a disciplined defensive structure and clinical finishing that kept their opponents at bay throughout the 90 minutes.",
+        "For Algeria, the result was a difficult start to their World Cup journey. Despite the loss, the match served as a critical learning experience as they navigated the complexities of group play, eventually battling through to secure four points and a spot in the knockout stages.",
+        "This victory was the cornerstone of Argentina's flawless group stage performance. Following this result, they went on to defeat Austria 2-0 and Jordan 3-1, finishing at the top of Group J with an impressive goal difference of plus-seven.",
+        "The implications of this match rippled through the rest of the group standings. Argentina's dominance allowed them to advance comfortably to the Round of 32, where they are set to face Cabo Verde. Meanwhile, Algeria's resilience in subsequent matches earned them a place in the knockout bracket, where they will take on Switzerland."
       ],
       "bullets": [
-        "Argentina opened their tournament with a decisive 3-0 win, establishing early control over Group J.",
-        "The victory provided Argentina with a significant goal difference advantage, keeping them unbeaten through their first two matches.",
-        "Algeria faced an uphill climb after the loss, forcing them to fight for points in their subsequent matches to stay in contention."
+        "Argentina opened their campaign with a clean sheet and a three-goal margin, establishing early momentum.",
+        "The result helped Argentina secure the top spot in Group J with a perfect 3-0-0 record.",
+        "Both teams successfully navigated the group stage to reach the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-06-28T07:03:18+00:00",
-      "sourceHash": "2194133316fb7389",
+      "updatedAt": "2026-06-28T13:34:53+00:00",
+      "sourceHash": "d84e4120944354df",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1618,61 +1604,61 @@
   },
   "groups": {
     "F": {
-      "headline": "Netherlands Lead Group F as Standings Finalize",
-      "summary": "The Netherlands have finished at the top of Group F with 7 points after an undefeated run in the group stage. Japan secures second place with 5 points, while Sweden finishes third and Tunisia exits with 0 points.",
+      "headline": "Netherlands Clinch Top Spot in Group F",
+      "summary": "The Netherlands have successfully navigated Group F, finishing at the top of the table with 7 points after three matches. Japan secures the second spot with 5 points, while Sweden finishes third with 4 points and Tunisia rounds out the group at the bottom.",
       "story": [],
       "bullets": [
-        "Netherlands finished unbeaten with 7 points and a +6 goal difference.",
-        "Japan remained consistent, earning 5 points to claim the second spot.",
-        "Sweden ends their group campaign with 4 points after a 1-1 draw against Japan.",
-        "Tunisia concludes the group stage in fourth place after three consecutive losses."
+        "Netherlands finish unbeaten with 7 points and a +6 goal difference.",
+        "Japan remains undefeated in the group stage, earning 5 points to take second place.",
+        "Sweden finishes third with 4 points following a draw against Japan in their final match.",
+        "Tunisia concludes their campaign with 0 points after struggling defensively throughout the group stage."
       ],
       "sections": [
         {
-          "title": "The Dominance of the Netherlands",
-          "body": "The Netherlands asserted their authority in Group F, finishing with 10 goals scored and only 4 conceded. Their campaign was highlighted by a decisive 5-1 victory over Sweden and a final 3-1 win against Tunisia."
+          "title": "Netherlands Dominate Group F",
+          "body": "The Netherlands proved to be the most potent attacking side in the group, scoring 10 goals across their three matches. After an opening 2-2 draw with Japan, they found their rhythm with a 5-1 victory over Sweden and a 3-1 win against Tunisia to seal the top position."
         },
         {
-          "title": "Japan's Steady Performance",
-          "body": "Japan proved to be a resilient side, opening with a 2-2 draw against the Netherlands before securing a dominant 4-0 win over Tunisia. A final 1-1 stalemate with Sweden was enough to cement their second-place standing."
+          "title": "Japan Secures Qualification",
+          "body": "Japan displayed consistent form, starting with a draw against the Netherlands and following up with a dominant 4-0 win over Tunisia. Their final 1-1 draw against Sweden was enough to maintain their second-place standing and ensure their progression."
         },
         {
-          "title": "Sweden and Tunisia's Final Standing",
-          "body": "Sweden finishes third with 4 points, having started strong with a 5-1 win over Tunisia before struggling against the Netherlands. Tunisia finishes at the bottom of the table, having conceded 12 goals across their three matches."
+          "title": "Sweden and Tunisia Results",
+          "body": "Sweden opened their tournament with a strong 5-1 win over Tunisia but could not find the same momentum against the Netherlands or Japan. Tunisia faced a difficult group, conceding 12 goals and finishing without a point despite scoring in two of their three matches."
         }
       ],
-      "updatedAt": "2026-06-27T12:12:02+00:00",
+      "updatedAt": "2026-06-28T13:37:07+00:00",
       "sourceHash": "d0caf2e8bef79177",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "active or recent group"
     },
     "J": {
-      "headline": "Argentina Dominates Group J as Race for Second Heats Up",
-      "summary": "Argentina has firmly taken control of Group J with two clean-sheet victories, securing six points and a +5 goal difference. Behind them, Austria and Algeria are locked on three points apiece, setting up a high-stakes final matchday to determine who joins Argentina in advancing. Jordan remains at the bottom of the table with zero points after two matches.",
+      "headline": "Argentina Dominates Group J with Perfect Record",
+      "summary": "Argentina has asserted total control over Group J, finishing their three matches with a perfect 9 points. While Austria and Algeria fought to a dramatic 3-3 draw in their final match, both teams finished tied on 4 points, leaving the group standings clearly defined.",
       "story": [],
       "bullets": [
-        "Argentina leads the group with 6 points and has yet to concede a goal.",
-        "Austria and Algeria are tied on 3 points, making their head-to-head matchup critical.",
-        "Jordan sits at 0 points but still has one final match against Argentina to play.",
-        "Argentina has secured a +5 goal difference, significantly distancing themselves from the rest of the group."
+        "Argentina finished atop the group with a dominant 9 points and a +7 goal difference.",
+        "Austria and Algeria finished tied on 4 points, with Austria holding the edge on goal difference.",
+        "Jordan concluded their group stage campaign with 0 points after three hard-fought matches.",
+        "The final matchday saw a high-scoring 3-3 draw between Algeria and Austria."
       ],
       "sections": [
         {
-          "title": "Argentina's Commanding Lead",
-          "body": "Argentina has been clinical in their opening two matches, defeating Algeria 3-0 and Austria 2-0. With 5 goals scored and 0 conceded, they have established themselves as the clear leaders of Group J. They head into their final match against Jordan in a position of complete comfort."
+          "title": "Argentina's Commanding Performance",
+          "body": "Argentina was the class of the group, winning all three of their fixtures to secure 9 points. They opened with a 3-0 victory over Algeria, followed by a 2-0 win against Austria, and capped their run with a 3-1 result against Jordan."
         },
         {
           "title": "The Battle for Second Place",
-          "body": "Austria and Algeria are currently deadlocked with 3 points each, creating a tense scenario for the final round of fixtures. Austria holds a superior goal difference of 0 compared to Algeria's -2, but the two teams will face each other on Matchday 3. This direct clash will likely decide which nation claims the second qualification spot."
+          "body": "Austria and Algeria both concluded their group stage with 4 points each. Austria secured their spot above Algeria in the standings due to a superior goal difference of 0 compared to Algeria's -2."
         },
         {
-          "title": "Looking Ahead to Matchday 3",
-          "body": "The final group stage matches on June 27 will be decisive for the remaining three teams. Algeria and Austria will battle for points at 22:00 ET, while Jordan looks to secure their first points of the tournament against the undefeated Argentina. Every goal will be vital as the standings are finalized."
+          "title": "Group J Final Standings",
+          "body": "Argentina leads the table with 9 points, followed by Austria with 4 points and a 0 goal difference. Algeria sits in third with 4 points and a -2 goal difference, while Jordan finishes at the bottom with 0 points after scoring 3 goals and conceding 8."
         }
       ],
-      "updatedAt": "2026-06-28T07:04:19+00:00",
-      "sourceHash": "079246509cebdd7b",
+      "updatedAt": "2026-06-28T13:35:05+00:00",
+      "sourceHash": "3d4eb17414a6f815",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "group standings or prompt changed"
@@ -1739,33 +1725,33 @@
     },
     "H": {
       "headline": "Spain Dominates Group H to Secure Top Spot",
-      "summary": "Spain has successfully navigated Group H, finishing at the top of the table with 7 points after three matches. While Spain remained undefeated and did not concede a single goal, the remaining teams struggled to find consistency, leaving Cabo Verde, Uruguay, and Saudi Arabia to fight for the remaining positions.",
+      "summary": "Spain has successfully navigated Group H, finishing at the top of the table with 7 points after three matches. While Spain remained undefeated and did not concede a single goal, the remaining teams struggled to find consistency throughout the group stage.",
       "story": [],
       "bullets": [
-        "Spain finished atop the group with 7 points and a +5 goal difference.",
-        "Cabo Verde secured second place with 3 points despite a 0 goal difference.",
-        "Uruguay and Saudi Arabia both finished with 2 points, falling short of qualification.",
-        "Spain maintained a perfect defensive record, allowing zero goals across three matches."
+        "Spain finished first with 7 points, boasting an impressive +5 goal difference.",
+        "Cabo Verde secured second place with 3 points, remaining level on goal difference.",
+        "Uruguay and Saudi Arabia both finished with 2 points, failing to secure a win in their three matches.",
+        "Spain's defense was impenetrable, allowing zero goals across their entire group campaign."
       ],
       "sections": [
         {
           "title": "Spain's Commanding Performance",
-          "body": "Spain asserted their authority early, highlighted by a dominant 4-0 victory over Saudi Arabia in their second match. They concluded the group stage with a narrow 1-0 win against Uruguay, ensuring they finished the campaign with 7 points and a clean sheet in every game."
+          "body": "Spain asserted their authority in Group H, culminating in a 1-0 victory over Uruguay in their final match. Their campaign began with a 0-0 draw against Cabo Verde, followed by a dominant 4-0 win against Saudi Arabia. With 5 goals scored and none conceded, they comfortably claimed the top position."
         },
         {
           "title": "The Battle for Second Place",
-          "body": "Cabo Verde managed to clinch second place in the group by accumulating 3 points through three draws. Their path included a scoreless draw against Spain, a 2-2 result against Uruguay, and a final 0-0 stalemate with Saudi Arabia."
+          "body": "Cabo Verde managed to clinch the second spot in the group with 3 points. Despite not winning a match, their draws against Spain, Uruguay, and Saudi Arabia proved sufficient to finish ahead of the rest. Their defensive discipline, conceding only 2 goals, was a key factor in their progression."
         },
         {
-          "title": "Uruguay and Saudi Arabia Exit",
-          "body": "Both Uruguay and Saudi Arabia struggled to secure a win throughout the group stage, finishing with 2 points apiece. Uruguay ended with a goal difference of -1, while Saudi Arabia's heavy loss to Spain left them with a -4 goal difference, ultimately ending their tournament run."
+          "title": "Uruguay and Saudi Arabia's Struggle",
+          "body": "Both Uruguay and Saudi Arabia finished their group stage run with 2 points each. Uruguay recorded draws against Saudi Arabia and Cabo Verde before falling to Spain. Saudi Arabia similarly failed to secure a victory, rounding out the group with a -4 goal difference."
         }
       ],
-      "updatedAt": "2026-06-27T12:09:01+00:00",
+      "updatedAt": "2026-06-28T13:36:55+00:00",
       "sourceHash": "0ede391b36e9bbea",
       "promptHash": "cf348200fcd3aca9",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "group standings or prompt changed"
+      "refreshReason": "active or recent group"
     },
     "B": {
       "headline": "Switzerland Secures Top Spot in Group B",
@@ -1980,36 +1966,36 @@
   },
   "players": {
     "lionel-messi-argentina": {
-      "headline": "Lionel Messi: The Statistical Engine of Argentina",
-      "summary": "Lionel Messi has been the standout performer of the tournament, leading the charge for Argentina with a dominant display in the group stage. Through just 3 matches, he has already recorded 6 goals, showcasing an incredible level of efficiency. His ability to impact the game in limited minutes makes him the most dangerous forward in the competition. As Argentina moves into the knockout rounds, Messi remains the focal point of their offensive strategy.",
+      "headline": "Lionel Messi: The Tournament's Most Efficient Attacker",
+      "summary": "Lionel Messi has been the standout performer of the tournament, leading the charts with a remarkable goal-scoring output. Through his first 3 matches, he has proven to be an unstoppable force for Argentina. His efficiency in front of the net has set a blistering pace for the competition. As Argentina advances to the Round of 32, Messi remains the focal point of their offensive strategy.",
       "story": [],
       "bullets": [
-        "Currently ranked 1st in the player standings.",
-        "Has scored 6 goals in 223 minutes of play.",
-        "Maintaining an elite 2.4 goals per 90 minutes rate.",
-        "Totaled 6 points across 3 tournament appearances.",
-        "Leading Argentina as they prepare for the Round of 32."
+        "Ranked 1st overall in tournament production.",
+        "Recorded 6 goals in just 223 minutes of play.",
+        "Maintains a staggering 2.4 goals per 90 minutes.",
+        "Contributed 6 total points across 3 matches.",
+        "Key driver in Argentina's undefeated group stage run."
       ],
       "sections": [
         {
           "title": "Unmatched Scoring Efficiency",
-          "body": "Messi's production has been nothing short of clinical, netting 6 goals in his first 3 matches. With a goals per 90 rate of 2.4, he is finding the back of the net with remarkable frequency. This efficiency is a testament to his positioning and composure in front of goal."
+          "body": "Messi's ability to find the back of the net has been nothing short of clinical. With 6 goals in only 223 minutes, he is operating at a level of efficiency that few players in World Cup history have achieved. His 2.4 goals per 90 minutes highlights his lethal nature whenever he is on the pitch."
         },
         {
-          "title": "Impact in Limited Minutes",
-          "body": "Despite having played only 223 minutes, Messi has already accumulated 6 points. His points per 90 rate of 2.4 highlights how much he contributes every time he steps onto the pitch. He remains the most influential player for Argentina's attacking unit."
+          "title": "Group Stage Dominance",
+          "body": "Argentina successfully navigated their group stage fixtures against Algeria, Austria, and Jordan. Messi was instrumental in these victories, helping his team secure wins in all three matches. His consistent output ensured that Argentina finished at the top of their group."
         },
         {
-          "title": "Tournament Context",
-          "body": "Argentina has navigated their group stage fixtures against Algeria and Austria successfully, with Messi at the heart of their success. The team now looks ahead to their match against Jordan to close out the group stage. His performance will be critical as they transition into the high-stakes knockout phase."
+          "title": "Looking Ahead to the Round of 32",
+          "body": "With the group stage concluded, Messi and Argentina now prepare for their upcoming Round of 32 clash against Cabo Verde. This knockout match will be a critical test for the team as they look to maintain their momentum. Fans will be watching closely to see if he can continue his record-breaking scoring pace."
         },
         {
-          "title": "Looking Ahead to the Knockouts",
-          "body": "Following the group stage, Argentina is already slated for a Round of 32 matchup against Cabo Verde on July 3rd. Given his current form, Messi will be the primary threat that opponents must neutralize. His consistency will be the key factor in Argentina's pursuit of further success."
+          "title": "Statistical Profile",
+          "body": "Messi currently holds 6 points and 6 goals, cementing his status as the premier forward in the tournament. His points per 90 rate of 2.4 mirrors his goal-scoring frequency, underscoring his singular focus on finishing plays. He remains the most productive player in the current statistical rankings."
         }
       ],
-      "updatedAt": "2026-06-28T07:04:43+00:00",
-      "sourceHash": "dc2172eb25d2c856",
+      "updatedAt": "2026-06-28T13:35:17+00:00",
+      "sourceHash": "b3e35dbf19d17ad9",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "player stats or prompt changed"
@@ -3731,38 +3717,34 @@
     },
     "riyad-mahrez-algeria": {
       "headline": "Riyad Mahrez: The Creative Engine for Algeria",
-      "summary": "Riyad Mahrez has established himself as a vital offensive threat for Algeria during the group stage. With 2 goals and 1 assist across 3 matches, he has proven his ability to impact the scoreboard consistently. His efficiency is highlighted by a strong goals-per-90 rate of 0.8 as he prepares for upcoming fixtures.",
+      "summary": "Riyad Mahrez has been a central figure for Algeria throughout their group stage campaign, consistently contributing to the team's offensive output. With 2 goals and 1 assist across 3 matches, he has proven to be a vital asset in the midfield. His ability to impact the game in limited minutes highlights his efficiency on the world stage. As Algeria moves into the knockout rounds, Mahrez remains a player to watch for his playmaking and scoring prowess.",
       "story": [],
       "bullets": [
-        "Contributed 2 goals and 1 assist in 3 matches played.",
-        "Maintains an impressive 0.8 goals per 90 minutes.",
-        "Recording 1.3 points per 90 minutes of action.",
-        "Logged 214 total minutes on the pitch for Algeria.",
-        "Key offensive playmaker heading into the Round of 32."
+        "Contributed 3 total points across 3 matches played.",
+        "Maintained a strong scoring rate of 0.8 goals per 90 minutes.",
+        "Logged 214 total minutes of action during the group stage.",
+        "Delivered 1 assist to complement his 2 tournament goals.",
+        "Achieved a points-per-90 rate of 1.3 throughout his appearances."
       ],
       "sections": [
         {
           "title": "Impact and Efficiency",
-          "body": "Riyad Mahrez has been highly effective in his 214 minutes of tournament play. His ability to find the back of the net frequently is evidenced by his 0.8 goals per 90 rate, making him a focal point of the Algerian attack."
+          "body": "Riyad Mahrez has demonstrated remarkable efficiency during his 214 minutes on the pitch. By recording 2 goals and 1 assist, he has maintained a productive presence in the Algerian midfield. His goals per 90 rate of 0.8 underscores his ability to capitalize on scoring opportunities when they arise."
         },
         {
-          "title": "Statistical Contribution",
-          "body": "Across his 3 matches, Mahrez has accumulated 3 points through a combination of 2 goals and 1 assist. This level of production underscores his role as a primary creator and finisher for his national side."
+          "title": "Group Stage Performance",
+          "body": "Algeria's group stage journey saw a mix of results, including a hard-fought 2-1 victory against Jordan and a high-scoring 3-3 draw with Austria. Mahrez was a key component in these fixtures, helping the team navigate a competitive group. His consistent involvement has been essential to Algeria's progression to the knockout stage."
         },
         {
-          "title": "Tournament Context",
-          "body": "After navigating through the group stage, Algeria looks to rely on Mahrez's experience and scoring touch. His consistency in generating points per 90, currently at 1.3, will be crucial as the team advances."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "Following the group stage, Algeria prepares for a high-stakes Round of 32 clash against Switzerland. Mahrez remains the player to watch as he carries his group-stage momentum into this critical knockout fixture."
+          "title": "Looking Ahead to the Knockouts",
+          "body": "With the group stage concluded, Algeria now prepares for a challenging Round of 32 matchup against Switzerland. This upcoming fixture represents a critical test for the team and for Mahrez as they look to extend their tournament run. Fans will be looking for him to maintain his points-per-90 rate of 1.3 in this pivotal knockout encounter."
         }
       ],
-      "updatedAt": "2026-06-28T10:18:41+00:00",
-      "sourceHash": "f87a1043974c4c8b",
+      "updatedAt": "2026-06-28T13:35:29+00:00",
+      "sourceHash": "96a1ce005c9e3fbe",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "top player"
+      "refreshReason": "player stats or prompt changed"
     },
     "jude-bellingham-england": {
       "headline": "Jude Bellingham: The Engine of England's Midfield",
@@ -3800,35 +3782,35 @@
       "refreshReason": "top player"
     },
     "marko-arnautovic-austria": {
-      "headline": "Marko Arnautovic: Austria's Efficient Attacking Spearhead",
-      "summary": "Marko Arnautovic has emerged as a highly efficient attacking presence for Austria during the group stage. Despite limited playing time, he has made a significant impact on the scoresheet. His ability to convert opportunities quickly positions him as a key threat for Austria as they move into the knockout rounds. He currently holds a strong per-90 rate that highlights his clinical nature in front of the goal.",
+      "headline": "Marko Arnautovic: Austria's Clinical Forward",
+      "summary": "Marko Arnautovic has been a highly efficient presence for Austria during the group stage. Despite limited minutes on the pitch, he has made a significant impact by finding the back of the net twice. His performance highlights his ability to capitalize on limited opportunities in high-stakes matches.",
       "story": [],
       "bullets": [
-        "Recorded 2 goals in 3 matches played",
-        "Maintains a high efficiency with 1.4 goals per 90 minutes",
-        "Accumulated 2 total points during the group stage",
-        "Demonstrated impact in just 133 total minutes of play",
-        "Key offensive contributor for Austria's campaign"
+        "Recorded 2 goals in 3 tournament matches",
+        "Maintained an impressive 1.4 goals per 90 minutes",
+        "Totaled 133 minutes of playing time",
+        "Achieved a points per 90 rate of 1.4",
+        "Key offensive contributor for Austria in Group J"
       ],
       "sections": [
         {
-          "title": "Clinical Efficiency",
-          "body": "Arnautovic has maximized his time on the pitch, proving to be one of the most efficient forwards in the tournament. With 2 goals scored in only 133 minutes, he is averaging 1.4 goals per 90 minutes. This high rate of production showcases his ability to capitalize on limited chances."
+          "title": "Tournament Efficiency",
+          "body": "Arnautovic has demonstrated remarkable efficiency throughout his 133 minutes of action. With 2 goals to his name, his rate of 1.4 goals per 90 minutes underscores his role as a lethal finisher. He is currently maximizing his time on the field to provide essential offensive output for his team."
         },
         {
-          "title": "Tournament Impact",
-          "body": "As a central figure in the Austrian attack, Arnautovic has been vital to his team's progression through the group stage. His 2 points reflect his direct influence on the offensive output of the squad. He remains a primary focal point for the team as they look toward future fixtures."
+          "title": "Group Stage Impact",
+          "body": "Austria navigated a challenging Group J that included matches against Jordan, Argentina, and Algeria. Arnautovic's contributions were vital in these fixtures, helping the team secure their place in the next phase of the tournament. His ability to remain productive despite the varying intensity of these group matches has been a highlight."
         },
         {
-          "title": "Looking Ahead",
-          "body": "Austria faces a crucial upcoming match against Algeria before transitioning into the Round of 32. With a scheduled knockout game against Spain, Arnautovic's form will be critical for Austria's success. His ability to maintain his current per-90 rate will be a major factor in their pursuit of tournament advancement."
+          "title": "Looking Ahead to the Knockout Stage",
+          "body": "With the group stage concluded, Austria now faces a difficult Round of 32 matchup against Spain. Arnautovic will look to carry his scoring form into this high-pressure knockout fixture. His performance will be critical as Austria aims to extend their tournament run."
         }
       ],
-      "updatedAt": "2026-06-28T10:19:05+00:00",
-      "sourceHash": "87b6c0e9280d45bb",
+      "updatedAt": "2026-06-28T13:35:41+00:00",
+      "sourceHash": "d642529f753e6b22",
       "promptHash": "8f02badebfc8d658",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "top player"
+      "refreshReason": "player stats or prompt changed"
     }
   },
   "matchPreviews": {
@@ -4471,61 +4453,62 @@
     },
     "85": {
       "headline": "Switzerland and Algeria Clash in Vancouver Round of 32",
-      "summary": "The knockout stage begins as Switzerland faces off against Algeria at BC Place. This Round of 32 encounter marks a pivotal moment for both teams as they look to extend their tournament journey. Fans can expect a high-stakes atmosphere in Vancouver on July 2, 2026.",
+      "summary": "The knockout stage begins as Switzerland faces Algeria at BC Place. Both teams arrive with distinct group stage journeys, setting the stage for a high-stakes encounter in Canada. This Round of 32 matchup determines who keeps their tournament dreams alive.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Switzerland and Algeria meet in the Round of 32. Having secured their spot as the winners of Group B, the Swiss enter this knockout match with momentum built through their group stage performances. Their path here included a draw against Qatar and victories over Bosnia and Herzegovina and Canada, showcasing a resilient squad that knows how to navigate tournament pressure.",
-        "On the other side, Algeria arrives at this stage after navigating a challenging path through Group J. Their journey to the knockout rounds involved a mix of results against Argentina and Jordan, demonstrating the team's ability to adapt and compete on the global stage. As a best third-place side from the group stage, they bring a unique tactical challenge that Switzerland will need to solve to advance.",
-        "The venue for this high-stakes encounter is the iconic BC Place in Vancouver, Canada. The stadium, known for its vibrant atmosphere, will provide a fitting backdrop for the intensity of knockout football. With the pressure of a single-elimination format, both sides are expected to leave everything on the pitch as they fight for a place in the next round.",
-        "Tactically, this matchup presents an intriguing contrast. Switzerland has demonstrated a consistent ability to find the net throughout their group matches, while Algeria has shown flashes of offensive capability that could test the Swiss defensive structure. Both managers will be looking to exploit specific weaknesses identified during the group stage, making the opening minutes of the match essential for setting the tone.",
-        "As the tournament shifts into the knockout phase, the margin for error effectively disappears. For both Switzerland and Algeria, this match represents the culmination of their preparation and the beginning of a potential deep run. With the eyes of the world on Vancouver, the stage is set for a compelling display of skill, strategy, and determination."
+        "The 2026 World Cup reaches a critical juncture as Switzerland and Algeria square off in the Round of 32. Switzerland enters this match with momentum after finishing as the winner of Group B, having navigated a challenging slate of fixtures that included matches against Qatar, Bosnia and Herzegovina, and Canada.",
+        "Algeria arrives in Vancouver after securing their spot as one of the best third-placed teams from the group stage. Their path to the knockout round was defined by a diverse set of experiences in Group J, where they faced off against Argentina, Jordan, and Austria.",
+        "The venue for this pivotal showdown is BC Place in Vancouver, British Columbia. As the tournament shifts into the knockout phase, the atmosphere in the stadium is expected to be electric, providing a fitting backdrop for a match where every tactical decision carries significant weight.",
+        "Switzerland will look to carry the consistency they displayed during their group stage campaign into this elimination fixture. Their ability to manage different styles of play against varied opponents has been a hallmark of their performance thus far in the tournament.",
+        "Conversely, Algeria will aim to leverage the resilience they showed throughout their group stage matches. Having faced a variety of tactical challenges, they will be looking to execute a disciplined game plan to overcome the Group B winners and advance further in the bracket."
       ],
       "bullets": [
-        "Switzerland enters the knockout stage with the confidence of a group winner, having remained undefeated in Group B.",
-        "The match takes place at BC Place in Vancouver, a venue that promises a raucous and supportive atmosphere for the Round of 32."
+        "Watch how Switzerland maintains their defensive structure against Algeria's attacking transitions.",
+        "Observe how Algeria utilizes the experience gained from their high-scoring group stage finale to prepare for this knockout intensity.",
+        "Keep an eye on the tactical battle in the midfield as both teams fight for control at BC Place."
       ],
       "sections": [
         {
-          "title": "Road to the Knockouts",
-          "body": "Switzerland finished their group campaign at the top of Group B, showing strong form against Qatar, Bosnia and Herzegovina, and Canada. Algeria earned their place in the Round of 32 by securing a spot as one of the best third-place finishers, having faced tough competition in Group J."
+          "title": "Tournament Context",
+          "body": "This match is part of the Round of 32, marking the transition into the single-elimination phase of the tournament. Switzerland qualified as the winner of Group B, while Algeria earned their place as one of the best third-placed teams across groups E, F, G, I, and J."
         },
         {
-          "title": "Match Context",
-          "body": "This Round of 32 fixture is scheduled for July 2, 2026, at 23:00 ET. As a knockout match, the teams are playing for survival in the tournament, ensuring that every tactical decision and individual performance will be under intense scrutiny."
+          "title": "Venue Information",
+          "body": "The match takes place at BC Place in Vancouver, Canada. This iconic venue in British Columbia will host this high-stakes encounter on July 2, 2026, at 23:00 ET."
         }
       ],
-      "updatedAt": "2026-06-28T10:16:35+00:00",
-      "sourceHash": "2ce587359e3b8a8a",
+      "updatedAt": "2026-06-28T13:36:30+00:00",
+      "sourceHash": "8cdc21162ff0b1e4",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "86": {
-      "headline": "Argentina and Cabo Verde Clash in Miami Round of 32",
-      "summary": "Argentina and Cabo Verde meet at Hard Rock Stadium on July 3, 2026, in a high-stakes Round of 32 knockout match. Both teams arrive with distinct tournament paths, setting the stage for a compelling encounter in Florida. This matchup determines who moves one step closer to the ultimate prize.",
+      "headline": "Argentina and Cabo Verde Clash in Round of 32",
+      "summary": "Argentina and Cabo Verde meet at Hard Rock Stadium for a high-stakes Round of 32 showdown. Both teams arrive with distinct group stage experiences as they look to keep their tournament dreams alive in Florida. The match kicks off on July 3, 2026, at 18:00 ET.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Argentina and Cabo Verde square off in the Round of 32. Taking place at the iconic Hard Rock Stadium in Miami Gardens, this fixture represents the intensity of knockout football where every decision carries immense weight. Argentina enters this stage as the winner of Group J, while Cabo Verde secured their place as the runner-up from Group H.",
-        "Argentina's journey to this point has been defined by a disciplined approach in the group stage. Having navigated their initial fixtures with focus, they arrive in Florida looking to maintain their momentum. Their ability to control the tempo and execute their tactical plan will be tested against a resilient opponent that has proven difficult to break down.",
-        "Cabo Verde arrives in the knockout round having demonstrated remarkable defensive tenacity throughout their group campaign. Their path included hard-fought encounters against strong opposition, proving they have the grit necessary to compete on the world stage. For them, this match is an opportunity to showcase their organization and challenge one of the tournament's established forces.",
-        "Tactically, the battle in the midfield will be central to the outcome of this match. Argentina will likely look to dictate play and find gaps in the defensive structure of their opponents. Conversely, Cabo Verde will aim to remain compact and look for opportunities to transition quickly, turning defensive stops into dangerous attacking moments.",
-        "As the sun sets over Miami, the atmosphere at Hard Rock Stadium is expected to be electric. With a spot in the next round on the line, both squads are prepared for a grueling 90 minutes of football. Fans can expect a match defined by tactical chess moves and the relentless pressure that only a World Cup knockout game can provide."
+        "The 2026 World Cup reaches a critical juncture as Argentina, the winners of Group J, face off against Cabo Verde, the runners-up from Group H. This Round of 32 encounter at Miami Stadium in Miami Gardens promises an electric atmosphere as the knockout phase intensifies.",
+        "Argentina enters this match following a dominant group stage campaign. Their path to the knockout rounds was marked by consistent performances, having navigated through fixtures against Algeria, Austria, and Jordan. Their ability to secure points across these matches has established them as a formidable side heading into the single-elimination format.",
+        "Cabo Verde arrives at this stage having proven their resilience throughout a challenging Group H. Their journey included hard-fought encounters against Spain, Uruguay, and Saudi Arabia. This experience against high-caliber opposition suggests a team that is well-prepared to handle the pressure of tournament football.",
+        "The tactical contrast between these two sides will be a key narrative to follow. Argentina has demonstrated a potent offensive capability throughout their group matches, while Cabo Verde has shown a remarkable ability to remain disciplined and difficult to break down defensively. Watching how these styles clash in the heat of Miami will be central to the outcome.",
+        "With the stakes now at their highest, every possession and tactical decision becomes magnified. Both teams are fully aware that there is no room for error in this knockout round. As they take the pitch on July 3, the focus shifts entirely to executing a game plan that can secure a path forward in the tournament."
       ],
       "bullets": [
-        "Watch how Argentina\u2019s midfield manages the transition against a deep-sitting defensive block.",
-        "Monitor Cabo Verde\u2019s ability to maintain their defensive discipline under sustained pressure.",
-        "Observe the tactical adjustments made by both managers as the match progresses in the Miami heat."
+        "Argentina's offensive consistency throughout the Group J stage.",
+        "Cabo Verde's defensive discipline demonstrated against Group H opponents.",
+        "The high-stakes nature of the Round of 32 knockout format."
       ],
       "sections": [
         {
-          "title": "The Road to Miami",
-          "body": "Argentina secured their position by topping Group J, showcasing a potent attack and a solid defensive foundation. Cabo Verde earned their knockout spot by navigating a challenging Group H, finishing as the runner-up after a series of tightly contested matches. Both teams now face the pressure of a single-elimination scenario where there is no room for error."
+          "title": "Venue and Atmosphere",
+          "body": "The match takes place at the iconic Hard Rock Stadium in Miami Gardens, Florida. This venue is set to provide a vibrant backdrop for a pivotal knockout fixture. Fans can expect intense conditions as both teams battle for a spot in the next round."
         },
         {
-          "title": "Venue Spotlight",
-          "body": "Hard Rock Stadium in Miami Gardens serves as the backdrop for this high-stakes encounter. Known for its vibrant atmosphere, the venue is set to host a pivotal moment in the 2026 World Cup. The conditions in Florida will play a factor as both teams look to impose their will on the pitch."
+          "title": "Tournament Context",
+          "body": "As the winner of Group J, Argentina enters this matchup with momentum from their group stage success. Cabo Verde, having secured their place as the runner-up in Group H, will look to continue their resilient run in the competition. This encounter represents the first step into the knockout bracket for both nations."
         }
       ],
-      "updatedAt": "2026-06-28T10:16:48+00:00",
-      "sourceHash": "f695bf73004b89d6",
+      "updatedAt": "2026-06-28T13:36:43+00:00",
+      "sourceHash": "1633a25248e23aaa",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -6301,30 +6284,26 @@
     },
     "84": {
       "headline": "Spain and Austria Clash in Round of 32 Showdown",
-      "summary": "Spain and Austria meet at SoFi Stadium in Inglewood for a high-stakes Round of 32 knockout match. Both teams are looking to secure their path forward in the 2026 World Cup bracket. The match is scheduled for July 2, 2026, at 15:00 ET.",
+      "summary": "The knockout stage kicks off at SoFi Stadium as Spain faces Austria in a high-stakes Round of 32 encounter. Both teams arrive in Inglewood looking to assert their dominance and secure a path forward in the tournament.",
       "story": [
-        "The 2026 World Cup knockout stage intensifies as Spain and Austria prepare to face off at the iconic SoFi Stadium in California. As the winner of Group H, Spain enters this encounter with momentum, having navigated their group stage fixtures with a series of disciplined performances. Their journey to this stage included a resilient defensive showing and clinical execution in the final third, setting the tone for their knockout campaign.",
-        "Austria arrives at this Round of 32 matchup after securing their place as the runner-up from Group J. Their path through the group stage tested their ability to adapt against diverse tactical setups, providing them with valuable experience as they prepare for the pressure of a single-elimination environment. Facing a side like Spain requires both tactical discipline and the ability to capitalize on limited opportunities.",
-        "SoFi Stadium in Inglewood will provide a spectacular backdrop for this contest. The venue, known for its modern design and atmosphere, is set to host a pivotal moment in the tournament. With both teams having successfully navigated the group phase, the stakes are at their highest, and the tactical battle between Spain's established style and Austria's competitive drive will be a key storyline to watch.",
-        "As the teams prepare for kickoff on July 2, the focus shifts to how each side manages the intensity of knockout football. Spain will look to impose their rhythm on the game, while Austria will aim to disrupt that flow and find their own path to success. With a spot in the next round on the line, every tactical decision and individual performance will carry significant weight in this highly anticipated clash."
+        "The World Cup atmosphere reaches a fever pitch as Spain and Austria prepare to meet on July 2, 2026, at the iconic SoFi Stadium in Inglewood, California. This Round of 32 matchup serves as a critical juncture for both nations, with the intensity of knockout football now taking center stage in the United States.",
+        "Spain enters this fixture as the winner of Group H, having navigated a challenging group stage that tested their tactical discipline and defensive resolve. Their journey to this stage involved a series of matches against Cabo Verde, Saudi Arabia, and Uruguay, providing them with a diverse set of challenges to prepare for the knockout rounds.",
+        "The venue, SoFi Stadium, is set to provide a spectacular backdrop for this 15:00 ET kickoff. As the tournament shifts into the single-elimination phase, the pressure on both squads to execute their game plans with precision will be at an all-time high.",
+        "Fans should look for how Spain\u2019s established group-stage identity matches up against the resilience shown by Austria throughout their own campaign. With a spot in the next round hanging in the balance, both teams will be aiming to impose their style of play early in the match."
       ],
       "bullets": [
-        "Watch how Spain's tactical structure from their Group H campaign translates to the high-pressure environment of the knockout stage.",
-        "Observe how Austria adapts their defensive and offensive strategies to counter a top-seeded opponent in a winner-take-all scenario.",
-        "Monitor the midfield battle, as control of the center of the pitch at SoFi Stadium will likely dictate the momentum for both sides."
+        "Spain enters the knockout stage after finishing atop Group H.",
+        "Austria secured their place in the Round of 32 as the runner-up from Group J.",
+        "The match takes place at SoFi Stadium in Inglewood, California, on July 2, 2026, at 15:00 ET."
       ],
       "sections": [
         {
-          "title": "Tournament Context",
-          "body": "This match is part of the Round of 32 in the 2026 World Cup knockout bracket. Spain earned their spot here by finishing as the winner of Group H, while Austria qualified as the runner-up from Group J. The winner of this game will continue their journey in the tournament."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will be held at SoFi Stadium, located in Inglewood, California. This facility is one of the premier venues for the 2026 World Cup, offering a world-class environment for this critical knockout fixture."
+          "title": "Tactical Context",
+          "body": "Spain demonstrated a strong ability to manage games throughout their group stage run. Austria will need to be prepared for a high-intensity challenge as they look to disrupt Spain's rhythm in this crucial Round of 32 fixture."
         }
       ],
-      "updatedAt": "2026-06-28T10:16:09+00:00",
-      "sourceHash": "68cb444cd4a33f13",
+      "updatedAt": "2026-06-28T13:36:17+00:00",
+      "sourceHash": "9d9bdb0cafc9a4e8",
       "promptHash": "58c0eceedbff748a",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"

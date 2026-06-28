@@ -2358,7 +2358,7 @@
       "timezoneLabel": "ET",
       "home": "Algeria",
       "away": "Austria",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FS1",
       "venueId": "kansas-city",
       "videos": {
@@ -2374,7 +2374,9 @@
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-28T06:57:50+00:00"
-      }
+      },
+      "homeScore": 3,
+      "awayScore": 3
     },
     {
       "id": 72,
@@ -2387,7 +2389,7 @@
       "timezoneLabel": "ET",
       "home": "Jordan",
       "away": "Argentina",
-      "status": "scheduled",
+      "status": "completed",
       "network": "FOX",
       "venueId": "dallas",
       "videos": {
@@ -2403,7 +2405,9 @@
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-28T06:58:11+00:00"
-      }
+      },
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "id": 73,
@@ -2918,7 +2922,7 @@
       "espnEventId": "760517"
     }
   ],
-  "scheduleUpdatedAt": "2026-06-28T06:35:33+00:00",
+  "scheduleUpdatedAt": "2026-06-28T13:03:11+00:00",
   "scheduleSourceUrl": "https://www.sbnation.com/soccer/1117513/world-cup-schedule-2026-how-to-watch-every-match-scores-and-more",
   "venues": [
     {
