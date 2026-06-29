@@ -1228,6 +1228,170 @@ h1 {
   padding: 10px 12px;
 }
 
+.odds-card {
+  background:
+    linear-gradient(135deg, rgba(19, 130, 80, 0.13), rgba(244, 204, 83, 0.16)),
+    rgba(255, 255, 255, 0.58);
+  border: 1px solid rgba(16, 18, 15, 0.14);
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+}
+
+.odds-card-header {
+  align-items: start;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.odds-card-header span {
+  display: grid;
+  gap: 2px;
+}
+
+.odds-card-header b {
+  color: #102016;
+  font-size: 0.82rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.odds-card-header small,
+.odds-source {
+  color: #59635e;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.odds-source a {
+  color: #138250;
+  font-weight: 950;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.odds-card-header strong {
+  background: #102016;
+  border-radius: 999px;
+  color: #f7f5ee;
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  font-weight: 950;
+  padding: 6px 9px;
+}
+
+.odds-probabilities {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+}
+
+.odds-probability {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(16, 18, 15, 0.11);
+  border-radius: 7px;
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  padding: 9px;
+}
+
+.odds-probability em {
+  color: #59635e;
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 900;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.odds-probability b {
+  color: #102016;
+  font-size: 1.25rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.odds-probability-draw {
+  opacity: 0.78;
+}
+
+.odds-math {
+  border-top: 1px solid rgba(16, 18, 15, 0.12);
+  display: grid;
+  gap: 10px;
+  padding-top: 8px;
+}
+
+.odds-math summary {
+  color: #138250;
+  cursor: pointer;
+  font-size: 0.76rem;
+  font-weight: 950;
+  list-style: none;
+}
+
+.odds-math summary::-webkit-details-marker {
+  display: none;
+}
+
+.odds-math summary::after {
+  content: "+";
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.odds-math[open] summary::after {
+  content: "-";
+}
+
+.odds-math p {
+  color: #59635e;
+  font-size: 0.76rem;
+  font-weight: 800;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.odds-math-grid {
+  display: grid;
+  font-size: 0.75rem;
+  gap: 5px 10px;
+  grid-template-columns: 1fr auto;
+}
+
+.odds-math-grid span {
+  color: #59635e;
+  font-weight: 850;
+}
+
+.odds-math-grid b {
+  color: #102016;
+  font-weight: 950;
+  text-align: right;
+}
+
+.odds-math table {
+  border-collapse: collapse;
+  font-size: 0.72rem;
+  width: 100%;
+}
+
+.odds-math th,
+.odds-math td {
+  border-bottom: 1px solid rgba(16, 18, 15, 0.1);
+  padding: 5px 4px;
+  text-align: right;
+}
+
+.odds-math th:first-child,
+.odds-math td:first-child {
+  text-align: left;
+}
+
 .detail-panel.is-needs-result .detail-video-state {
   background: #fff2ca;
   color: #6d4b00;

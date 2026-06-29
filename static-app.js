@@ -2,6 +2,7 @@
   const data = window.WORLD_CUP_DATA;
   const playerStatsData = window.WORLD_CUP_PLAYER_STATS || null;
   const aiInsightsData = window.WORLD_CUP_AI_INSIGHTS || { matches: {}, groups: {}, players: {} };
+  const matchOddsData = window.WORLD_CUP_MATCH_ODDS || { matches: {} };
   const app = document.getElementById("app");
 
   if (!data || !app) {
@@ -1076,6 +1077,123 @@
     `;
   }
 
+  function oddsForMatch(match) {
+    return matchOddsData?.matches?.[String(match.id)] || null;
+  }
+
+  function americanOddsLabel(value) {
+    const numeric = Number(value);
+    if (!Number.isFinite(numeric)) return "";
+    return numeric > 0 ? `+${numeric}` : String(numeric);
+  }
+
+  function americanToRawImpliedProbability(value) {
+    const odds = Number(value);
+    if (!Number.isFinite(odds) || odds === 0) return null;
+    return odds > 0 ? 100 / (odds + 100) : Math.abs(odds) / (Math.abs(odds) + 100);
+  }
+
+  function percentLabel(value, digits = 0) {
+    if (!Number.isFinite(value)) return "";
+    return `${(value * 100).toFixed(digits)}%`;
+  }
+
+  function oddsProbabilities(odds) {
+    const outcomes = Array.isArray(odds?.outcomes) ? odds.outcomes : [];
+    const raw = outcomes
+      .map((outcome) => ({
+        ...outcome,
+        rawProbability: americanToRawImpliedProbability(outcome.american),
+      }))
+      .filter((outcome) => outcome.label && Number.isFinite(outcome.rawProbability));
+    const overround = raw.reduce((sum, outcome) => sum + outcome.rawProbability, 0);
+    if (!raw.length || !overround) return null;
+    return {
+      overround,
+      vig: Math.max(0, overround - 1),
+      outcomes: raw.map((outcome) => ({
+        ...outcome,
+        fairProbability: outcome.rawProbability / overround,
+      })),
+    };
+  }
+
+  function renderOddsProbability(match) {
+    const odds = oddsForMatch(match);
+    const probabilities = oddsProbabilities(odds);
+    if (!odds || !probabilities) return "";
+
+    const teamOutcomes = probabilities.outcomes.filter((outcome) => outcome.key !== "draw");
+    const drawOutcome = probabilities.outcomes.find((outcome) => outcome.key === "draw");
+    const favorite = [...teamOutcomes].sort((a, b) => b.fairProbability - a.fairProbability)[0];
+    const sourceLabel = odds.sourceLabel || odds.book || matchOddsData.source?.label || "Odds source";
+    const sourceUrl = odds.sourceUrl || matchOddsData.source?.url || "";
+    const sourceMarkup = sourceUrl
+      ? `<a href="${escapeHtml(sourceUrl)}" rel="noreferrer" target="_blank">${escapeHtml(sourceLabel)}</a>`
+      : escapeHtml(sourceLabel);
+    const asOf = odds.asOf ? formatDataTimestamp(odds.asOf) : "";
+    const mathRows = probabilities.outcomes
+      .map(
+        (outcome) => `
+          <tr>
+            <th scope="row">${escapeHtml(outcome.label)}</th>
+            <td>${escapeHtml(americanOddsLabel(outcome.american))}</td>
+            <td>${escapeHtml(percentLabel(outcome.rawProbability, 1))}</td>
+            <td>${escapeHtml(percentLabel(outcome.fairProbability, 1))}</td>
+          </tr>
+        `,
+      )
+      .join("");
+
+    return `
+      <section class="odds-card" aria-label="Betting odds implied probabilities">
+        <div class="odds-card-header">
+          <span>
+            <b>Win chance</b>
+            <small>${escapeHtml(odds.market || "Moneyline")}</small>
+          </span>
+          ${favorite ? `<strong>${escapeHtml(favorite.label)} ${escapeHtml(percentLabel(favorite.fairProbability))}</strong>` : ""}
+        </div>
+        <div class="odds-probabilities">
+          ${teamOutcomes
+            .map(
+              (outcome) => `
+                <span class="odds-probability">
+                  <em>${escapeHtml(outcome.label)}</em>
+                  <b>${escapeHtml(percentLabel(outcome.fairProbability))}</b>
+                </span>
+              `,
+            )
+            .join("")}
+          ${
+            drawOutcome
+              ? `<span class="odds-probability odds-probability-draw"><em>Draw</em><b>${escapeHtml(percentLabel(drawOutcome.fairProbability))}</b></span>`
+              : ""
+          }
+        </div>
+        <details class="odds-math">
+          <summary>Show math</summary>
+          <p>
+            American odds become raw implied probabilities, then each raw probability is divided by the total market probability to remove the sportsbook margin.
+          </p>
+          <div class="odds-math-grid">
+            <span>Raw market total</span>
+            <b>${escapeHtml(percentLabel(probabilities.overround, 1))}</b>
+            <span>Estimated margin</span>
+            <b>${escapeHtml(percentLabel(probabilities.vig, 1))}</b>
+          </div>
+          <table>
+            <thead>
+              <tr><th>Outcome</th><th>Odds</th><th>Raw</th><th>No-vig</th></tr>
+            </thead>
+            <tbody>${mathRows}</tbody>
+          </table>
+          <p class="odds-source">${sourceMarkup}${asOf ? ` as of ${escapeHtml(asOf)}` : ""}. POC only, not betting advice.</p>
+        </details>
+      </section>
+    `;
+  }
+
   function scoreCutoffReveals(match) {
     return Boolean(state.scoreCutoffEnabled && state.scoreCutoffDate && localDateKey(match) <= state.scoreCutoffDate);
   }
@@ -1436,6 +1554,7 @@
         <div class="detail-score">${renderScorePill(match)}</div>
         ${videoStatus(match) ? `<div class="detail-video-state">${escapeHtml(videoStatus(match))}</div>` : ""}
         ${renderVideoActions(match)}
+        ${renderOddsProbability(match)}
         <dl>
           ${renderRankingRow(match)}
           <div><dt>Stage</dt><dd>${escapeHtml(match.group ? `Group ${match.group}` : match.stage)}</dd></div>
