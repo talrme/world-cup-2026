@@ -3016,6 +3016,29 @@
     requestBracketLineUpdate();
   }
 
+  function readerSurfaceOpen() {
+    return Boolean(
+      (state.selectedId !== null && state.detailOpen) ||
+        state.countryPickerOpen ||
+        state.settingsOpen ||
+        state.feedbackOpen ||
+        state.shareOpen ||
+        state.installOpen ||
+        state.statsInfoOpen ||
+        state.playerDetailsKey ||
+        state.groupDetailsKey ||
+        state.mapVenueId,
+    );
+  }
+
+  function renderFromTimer() {
+    state.now = new Date();
+    if (readerSurfaceOpen()) {
+      return;
+    }
+    render();
+  }
+
   function syncMobileMenuDom() {
     app.dataset.mobileMenu = state.mobileMenuOpen ? "open" : "closed";
 
@@ -3694,7 +3717,7 @@
     requestTodayJumpUpdate();
   }
 
-  window.setInterval(render, 60_000);
+  window.setInterval(renderFromTimer, 60_000);
   document.addEventListener("wheel", closeMobileMenuFromOutsideScroll, { passive: true });
   document.addEventListener("touchmove", closeMobileMenuFromOutsideScroll, { passive: true });
   window.addEventListener("scroll", handleWindowScroll, { passive: true });
