@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29",
+  "generatedAt": "2026-06-30",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2450,14 +2450,30 @@
       "time": "16:30",
       "home": "Germany",
       "away": "Paraguay",
-      "status": "scheduled",
+      "status": "completed",
       "network": "TBD",
       "venueId": "boston",
       "homeSource": "Winner Group E",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760489",
-      "awaySource": "Best 3rd Group A/B/C/D/F"
+      "awaySource": "Best 3rd Group A/B/C/D/F",
+      "homeScore": 1,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-30T16:24:57+00:00",
+          "title": "Germany vs Paraguay Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=-gtI96YhJek",
+          "channel": "FOX Sports",
+          "durationText": "24 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-30T16:24:57+00:00"
+      }
     },
     {
       "id": 75,
@@ -2467,14 +2483,30 @@
       "time": "21:00",
       "home": "Netherlands",
       "away": "Morocco",
-      "status": "scheduled",
+      "status": "completed",
       "network": "TBD",
       "venueId": "monterrey",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760488",
       "awaySource": "Runner-up Group C",
-      "homeSource": "Winner Group F"
+      "homeSource": "Winner Group F",
+      "homeScore": 1,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-30T16:25:21+00:00",
+          "title": "Netherlands vs Morocco Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=DkZtwwbN1YI",
+          "channel": "FOX Sports",
+          "durationText": "19 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-30T16:25:21+00:00"
+      }
     },
     {
       "id": 76,
@@ -2493,7 +2525,21 @@
       "homeSource": "Winner Group C",
       "awaySource": "Runner-up Group F",
       "homeScore": 2,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-30T16:25:40+00:00",
+          "title": "Brazil vs Japan Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=QgUSOlN0Tt0",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-30T16:25:40+00:00"
+      }
     },
     {
       "id": 77,
@@ -2706,14 +2752,15 @@
       "date": "2026-07-04",
       "time": "13:00",
       "home": "Canada",
-      "away": "Winner Match 75",
+      "away": "Morocco",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "houston",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760502",
-      "homeSource": "Winner Match 73"
+      "homeSource": "Winner Match 73",
+      "awaySource": "Winner Match 75"
     },
     {
       "id": 90,
@@ -2721,14 +2768,15 @@
       "round": "Knockout",
       "date": "2026-07-04",
       "time": "17:00",
-      "home": "Winner Match 74",
+      "home": "Paraguay",
       "away": "Winner Match 77",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "philadelphia",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760503"
+      "espnEventId": "760503",
+      "homeSource": "Winner Match 74"
     },
     {
       "id": 91,
@@ -3106,6 +3154,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-29T19:30:38+00:00",
+  "bracketUpdatedAt": "2026-06-30T16:21:07+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
