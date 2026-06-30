@@ -2549,7 +2549,7 @@ window.WORLD_CUP_DATA = {
       "time": "17:00",
       "home": "France",
       "away": "Sweden",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
@@ -2558,7 +2558,21 @@ window.WORLD_CUP_DATA = {
       "homeSource": "Winner Group I",
       "awaySource": "Best 3rd Group C/D/F/G/H",
       "homeScore": 3,
-      "awayScore": 0
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-30T23:54:59+00:00",
+          "title": "France vs Sweden Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=II84TKpzJY4",
+          "channel": "FOX Sports",
+          "durationText": "16 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-30T23:54:59+00:00"
+      }
     },
     {
       "id": 78,
@@ -2787,14 +2801,15 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-04",
       "time": "17:00",
       "home": "Paraguay",
-      "away": "Winner Match 77",
+      "away": "France",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "philadelphia",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760503",
-      "homeSource": "Winner Match 74"
+      "homeSource": "Winner Match 74",
+      "awaySource": "Winner Match 77"
     },
     {
       "id": 91,
@@ -3173,6 +3188,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-30T22:44:25+00:00",
+  "bracketUpdatedAt": "2026-06-30T23:54:10+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
