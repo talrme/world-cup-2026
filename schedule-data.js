@@ -2566,7 +2566,7 @@ window.WORLD_CUP_DATA = {
       "time": "13:00",
       "home": "Ivory Coast",
       "away": "Norway",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
@@ -2574,8 +2574,8 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760490",
       "homeSource": "Runner-up Group E",
       "awaySource": "Runner-up Group I",
-      "homeScore": 0,
-      "awayScore": 1
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "id": 79,
@@ -2787,14 +2787,15 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-05",
       "time": "16:00",
       "home": "Brazil",
-      "away": "Winner Match 78",
+      "away": "Norway",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760504",
-      "homeSource": "Winner Match 76"
+      "homeSource": "Winner Match 76",
+      "awaySource": "Winner Match 78"
     },
     {
       "id": 92,
@@ -3156,6 +3157,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-30T18:27:03+00:00",
+  "bracketUpdatedAt": "2026-06-30T19:12:16+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
