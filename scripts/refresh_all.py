@@ -6,15 +6,48 @@ from __future__ import annotations
 import argparse
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+START_TIME = time.monotonic()
+
+
+def format_elapsed(seconds: float) -> str:
+    seconds = max(0, int(seconds))
+    hours, remainder = divmod(seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    if hours:
+        return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+    return f"{minutes:02d}:{seconds:02d}"
+
+
+def elapsed_label() -> str:
+    return format_elapsed(time.monotonic() - START_TIME)
 
 
 def run(command: list[str]) -> int:
-    print(f"$ {' '.join(command)}")
-    return subprocess.call(command, cwd=ROOT)
+    step_start = time.monotonic()
+    print(f"[{elapsed_label()}] $ {' '.join(command)}", flush=True)
+    process = subprocess.Popen(
+        command,
+        cwd=ROOT,
+        stderr=subprocess.STDOUT,
+        stdout=subprocess.PIPE,
+        text=True,
+        bufsize=1,
+    )
+    assert process.stdout is not None
+    for line in process.stdout:
+        print(f"[{elapsed_label()}] {line}", end="", flush=True)
+    status = process.wait()
+    print(
+        f"[{elapsed_label()}] Command finished in {format_elapsed(time.monotonic() - step_start)} "
+        f"with exit {status}",
+        flush=True,
+    )
+    return status
 
 
 def main() -> int:
@@ -80,7 +113,7 @@ def main() -> int:
         return video_status
 
     if args.skip_ai:
-        print("Skipping AI insights by request")
+        print(f"[{elapsed_label()}] Skipping AI insights by request")
         return 0
 
     ai_command = [sys.executable, "scripts/update_ai_insights.py", "--mode", args.ai_mode]

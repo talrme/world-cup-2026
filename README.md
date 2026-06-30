@@ -237,6 +237,7 @@ What it does:
 - Lets you run the same refresh manually from GitHub.
 - Writes the full refresh log into the Actions run output.
 - Adds a run summary with the trigger, changed files, diff summary, elapsed refresh runtime in seconds/minutes, and a final one-line commit/no-op verdict.
+- Prefixes refresh log lines with elapsed time from the start of the refresh, such as `[04:12]`, so long runs are easier to diagnose.
 - Uploads a `refresh-output-*` artifact for each run, retained for 30 days.
 - Commits refreshed schedule, player stats, and AI insight data back to `main` only when those files changed.
 
