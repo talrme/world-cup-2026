@@ -785,6 +785,18 @@ def insight_bucket(data: dict[str, Any], kind: str) -> dict[str, Any]:
     )
 
 
+def prune_preview_only_match_recaps(ai_data: dict[str, Any], schedule: dict[str, Any]) -> int:
+    """Remove stale recap entries for matches that are still preview-only."""
+    recaps = ai_data.setdefault("matches", {})
+    removed = 0
+    for match in schedule.get("matches", []):
+        match_id = str(match.get("id"))
+        if match_id in recaps and match_insight_focus(match) == "preview":
+            del recaps[match_id]
+            removed += 1
+    return removed
+
+
 def parse_time(value: str | None) -> dt.datetime | None:
     if not value:
         return None
@@ -1138,6 +1150,7 @@ def main() -> int:
     ai_data.setdefault("matchPreviews", {})
     ai_data.setdefault("groups", {})
     ai_data.setdefault("players", {})
+    pruned_preview_recaps = prune_preview_only_match_recaps(ai_data, schedule)
 
     targets = build_targets(schedule, player_stats, ai_data, args)
     all_refresh_targets = [
@@ -1159,6 +1172,8 @@ def main() -> int:
     print(f"AI insight targets skipped by cache/cadence: {skipped_by_cache}")
     print(f"AI insight max calls this run: {args.max_calls}")
     print(f"AI insight estimated paid-tier cost: ${estimated:.4f}")
+    if pruned_preview_recaps:
+        print(f"AI stale preview-only recap entries pruned: {pruned_preview_recaps}")
 
     if args.dry_run:
         for target in refresh_targets:

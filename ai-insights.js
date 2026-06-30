@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-30T17:50:22+00:00",
+  "generatedAt": "2026-06-30T18:22:23+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -661,388 +661,367 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "55": {
-      "headline": "Ivory Coast Secures Knockout Berth with Win Over Curacao",
-      "summary": "Final: Curacao 0, Ivory Coast 2. Ivory Coast defeated Curacao 2-0 in their final Group E match at Lincoln Financial Field. The victory ensured Ivory Coast finished with six points, successfully advancing to the Round of 32.",
+      "headline": "Ivory Coast Secures Knockout Spot with Win Over Curacao",
+      "summary": "Final: Curacao 0, Ivory Coast 2. Ivory Coast defeated Curacao 2-0 to solidify their position in the group and advance to the knockout stages.",
       "story": [
-        "Ivory Coast delivered a professional performance in Philadelphia, overcoming Curacao with a 2-0 result to solidify their position in the tournament. By controlling the tempo and securing all three points, they finished their group stage campaign with a strong 6-point tally.",
-        "For Curacao, the match marked the end of a challenging group stage journey. Despite a resilient 0-0 draw against Ecuador earlier in the tournament, they were unable to find the back of the net against a disciplined Ivorian defense, concluding their run with one point.",
-        "The result had significant implications for the final Group E standings. With Germany also finishing on six points, Ivory Coast\u2019s victory ensured they remained in the hunt for top-tier positioning, ultimately setting them up for a Round of 32 clash against Norway.",
-        "The atmosphere at Lincoln Financial Field provided a fitting backdrop for this decisive Matchday 3 fixture. As the group stage concluded, the win served as a vital momentum builder for the Ivorian squad as they transitioned into the high-stakes knockout phase."
+        "Ivory Coast handled their business in the final group match, taking a clean 2-0 victory over Curacao. The result ensured they finished with six points, placing them second in Group E behind Germany on goal difference.",
+        "For Curacao, the tournament concludes after a challenging group campaign. Despite a resilient 0-0 draw against Ecuador earlier in the group, they were unable to find the back of the net against the Ivorian defense, finishing their run with a single point.",
+        "The victory was vital for Ivory Coast, who bounced back from a narrow loss to Germany in their previous outing. By securing these three points, they successfully navigated a competitive group to earn their place in the Round of 32.",
+        "With the group stage now in the rearview mirror, Ivory Coast moves forward to face Norway in the next phase of the tournament, carrying the momentum of this decisive win."
       ],
       "bullets": [
-        "Ivory Coast finished second in Group E with 6 points, trailing Germany only on goal difference.",
-        "The 2-0 win confirmed Ivory Coast's progression to the Round of 32.",
-        "Curacao finished their tournament campaign at the bottom of the group with 1 point."
+        "Ivory Coast finished second in Group E with six points from three matches.",
+        "Curacao ended their tournament run with one point and a -8 goal differential.",
+        "The 2-0 win confirmed Ivory Coast's progression to a knockout clash against Norway."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T17:14:44+00:00",
+      "updatedAt": "2026-06-30T18:19:44+00:00",
       "sourceHash": "f6f3d9569c772758",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "56": {
-      "headline": "Ecuador Upsets Germany in Group E Finale",
-      "summary": "Ecuador secured a 2-1 victory over Germany in a high-stakes Group E encounter at MetLife Stadium. Despite the loss, Germany finished at the top of the group standings, while Ecuador's result earned them a spot in the knockout stages.",
+      "headline": "Ecuador Upsets Germany to Secure Knockout Spot",
+      "summary": "Ecuador defeated Germany 2-1 in their final Group E match, earning a crucial result that propelled them into the Round of 32.",
       "story": [
-        "The atmosphere at MetLife Stadium in East Rutherford was electric as Ecuador faced Germany in a critical Matchday 3 showdown. With everything on the line, Ecuador delivered a resilient performance to edge out the group leaders 2-1, marking a significant result in their tournament campaign.",
-        "The final group standings reflect a tight race, with Germany and Ivory Coast both finishing on 6 points, while Ecuador secured 4 points to advance. This victory proved vital for Ecuador, as it ensured they moved forward in the tournament despite a challenging start to their group schedule.",
-        "Following this result, Ecuador turned their attention toward a Round of 32 clash against Mexico. Meanwhile, Germany moved forward to face Paraguay in the next stage, carrying the momentum of their group-topping performance despite the setback in New Jersey."
+        "Ecuador pulled off a significant victory against Germany, finishing their group stage campaign with a 2-1 win. Despite a challenging start to the tournament, this result allowed them to secure four points and advance to the knockout phase.",
+        "For Germany, the loss did not prevent them from topping Group E, as they finished with six points and a strong goal difference. Having already secured victories against Curacao and Ivory Coast earlier in the group, they maintained their position at the top of the table despite the setback.",
+        "Ecuador's path forward now leads to a Round of 32 matchup against Mexico. After navigating a competitive group that included Ivory Coast and Curacao, Ecuador will look to carry the momentum from this upset into their next challenge."
       ],
       "bullets": [
-        "Ecuador's 2-1 win over Germany was their first victory of the group stage, securing their advancement.",
-        "Germany finished first in Group E with 6 points and a +6 goal difference despite the loss.",
-        "The match was hosted at MetLife Stadium in East Rutherford, New Jersey."
+        "Ecuador finished third in Group E with four points, enough to qualify for the next round.",
+        "Germany topped the group with six points despite the defeat.",
+        "Ecuador is set to face Mexico in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:26:56+00:00",
+      "updatedAt": "2026-06-30T18:19:52+00:00",
       "sourceHash": "d183898eb5110c53",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "57": {
-      "headline": "Netherlands Secure Group F Top Spot with Victory Over Tunisia",
-      "summary": "Final: Tunisia 1, Netherlands 3. The Netherlands defeated Tunisia 3-1 at Arrowhead Stadium to conclude their group stage campaign. This result confirmed the Dutch as winners of Group F, while Tunisia finished their tournament run without a point.",
+      "headline": "Netherlands secure top spot in Group F with victory over Tunisia",
+      "summary": "Final: Tunisia 1, Netherlands 3. The Netherlands defeated Tunisia 3-1 to finish their group stage campaign undefeated and clinch the top position in Group F.",
       "story": [
-        "The Netherlands asserted their dominance in Group F with a clinical 3-1 victory over Tunisia in Kansas City. Coming into the final matchday with momentum, the Dutch side controlled the tempo and ensured they would enter the knockout stages as the group leaders.",
-        "For Tunisia, the match marked the end of a challenging tournament. Despite finding the back of the net, they were unable to overcome a potent Netherlands attack that had been in fine form throughout the group phase.",
-        "The final standings reflect the disparity in the group, with the Netherlands finishing on seven points after an unbeaten run. Their performance in this match served as a statement of intent, building on their previous high-scoring displays in the group.",
-        "With the group stage now complete, the Netherlands advanced to the Round of 32 as the top seed from Group F. Their journey continued shortly after this match with a knockout fixture against Morocco, where they fought to a 1-1 draw."
+        "The Netherlands maintained their dominant form in the final group match, comfortably handling Tunisia to finish with seven points from three matches. This victory ensured they topped the group, distancing themselves from Japan and Sweden.",
+        "For Tunisia, the result capped a difficult tournament run where they finished at the bottom of the group without a point. Despite scoring their second goal of the competition in this match, their defense struggled throughout the group stage, conceding 12 goals in total.",
+        "By securing first place in Group F, the Netherlands moved forward into the knockout stages with momentum. Their path continued into the Round of 32, where they faced Morocco in a competitive fixture that ended in a 1-1 draw."
       ],
       "bullets": [
-        "The Netherlands finished atop Group F with 7 points, maintaining an unbeaten record through three matches.",
-        "Tunisia concluded their 2026 campaign with 0 points, having faced a difficult path in a group featuring the Netherlands, Japan, and Sweden.",
-        "The match at Arrowhead Stadium in Kansas City served as the final group stage test for both nations."
+        "The Netherlands finished the group stage with an impressive 10 goals scored and only 4 conceded.",
+        "Tunisia concluded their tournament journey with three losses and a -10 goal differential.",
+        "The Netherlands' group-winning performance earned them a spot in the Round of 32 against Morocco."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:26:40+00:00",
+      "updatedAt": "2026-06-30T18:19:27+00:00",
       "sourceHash": "e6e31eb6a22b0154",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "58": {
-      "headline": "Japan and Sweden Draw in Group F Finale",
-      "summary": "Japan and Sweden played to a 1-1 draw at AT&T Stadium in Arlington, concluding their group stage campaigns. The result left Japan with 5 points to secure second place in Group F, while Sweden finished with 4 points.",
+      "headline": "Japan and Sweden play to a stalemate in Group F finale",
+      "summary": "Japan and Sweden finished their group stage campaign with a 1-1 draw, locking Japan into the runner-up spot in Group F.",
       "story": [
-        "The final matchday of Group F saw Japan and Sweden battle to a 1-1 stalemate in Texas. Both teams entered the match with hopes of solidifying their standing, but neither side could find a decisive second goal to break the deadlock.",
-        "For Japan, the point proved sufficient to maintain their position in the group, finishing with a total of 5 points from their three matches. Their unbeaten run in the group stage, which included a draw against the Netherlands and a dominant victory over Tunisia, allowed them to advance to the Round of 32.",
-        "Sweden finished their group stage with 4 points, reflecting an up-and-down tournament performance that included a high-scoring win against Tunisia and a difficult loss to the Netherlands. Despite the draw in this final match, Sweden's overall performance was enough to keep them in contention as the tournament progresses.",
-        "The atmosphere at AT&T Stadium in Arlington provided a fitting backdrop for the conclusion of Group F. With the group stage now complete, the focus for both nations shifts toward the knockout rounds.",
-        "Japan moved on to face Brazil in the Round of 32, a challenging fixture that tested their resolve. Meanwhile, Sweden prepared for a high-stakes encounter against France in the next stage of the competition."
+        "The 1-1 draw between Japan and Sweden concluded a competitive Group F, leaving Japan with 5 points and Sweden with 4. While the result did not change the top of the table, it was a pivotal moment for both teams as they looked to secure their positions heading into the knockout rounds.",
+        "Japan maintained their unbeaten group stage record, finishing behind the Netherlands. Their consistent performance across all three matches allowed them to advance as the group runner-up, setting up a challenging Round of 32 matchup against Brazil.",
+        "For Sweden, the single point was enough to keep their tournament hopes alive despite a difficult group stage that saw them concede heavily against the Netherlands. They finished third in the group, which ultimately earned them a spot in the next phase to face France."
       ],
       "bullets": [
         "Japan finished second in Group F with 5 points, remaining undefeated in group play.",
-        "Sweden secured 4 points, finishing third in the group standings.",
-        "The draw at AT&T Stadium marked the final group stage fixture for both teams."
+        "The draw secured Sweden a spot in the Round of 32 as one of the best third-placed teams.",
+        "Japan advanced to face Brazil in the next round, while Sweden moved on to a match against France."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:26:48+00:00",
+      "updatedAt": "2026-06-30T18:19:36+00:00",
       "sourceHash": "a4f37e7ab83ce47f",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "59": {
-      "headline": "Turkey Edges United States in Thrilling Group D Finale",
-      "summary": "Turkey secured a 3-2 victory over the United States in a high-scoring Matchday 3 encounter at SoFi Stadium. Despite the loss, the United States finished at the top of Group D with 6 points, while Turkey concluded their tournament run with 3 points.",
+      "headline": "Turkey Edges United States in Group D Finale",
+      "summary": "Turkey secured a 3-2 victory over the United States in their final group stage match, though the result did not displace the U.S. from the top of the standings.",
       "story": [
-        "The atmosphere at SoFi Stadium in Inglewood was electric as Turkey and the United States faced off in their final group stage match. The encounter proved to be the most productive offensive display in Group D, with five goals scored between the two sides.",
-        "For the United States, the result did not derail their momentum in the tournament. Having already secured victories against Paraguay and Australia in their previous two matches, the U.S. entered this fixture with a comfortable cushion. Their total of 6 points was sufficient to claim the top spot in the group standings.",
-        "Turkey, meanwhile, fought hard to end their campaign on a high note. After suffering defeats to Australia and Paraguay earlier in the group stage, this win provided a significant consolation. Their 3-2 victory demonstrated their offensive capabilities, though it was not enough to overcome the points deficit required to advance.",
-        "With the group stage now concluded, the focus shifts to the knockout rounds. The United States, as the winners of Group D, have successfully advanced to the Round of 32. They are now set to face Bosnia-Herzegovina on July 1 in what promises to be a pivotal test for the home side.",
-        "The final group table shows the United States leading with 6 points and a +4 goal difference. Australia and Paraguay followed with 4 points each, while Turkey finished fourth with 3 points, rounding out a competitive and unpredictable Group D."
+        "Despite the narrow 3-2 defeat to Turkey, the United States maintained their position at the summit of Group D. Having already secured two clean-sheet victories against Paraguay and Australia earlier in the tournament, the U.S. entered this final matchday with enough cushion to absorb the loss and advance as group winners.",
+        "For Turkey, the win provided a spirited conclusion to their campaign. After struggling to find their footing in their opening matches against Australia and Paraguay, this high-scoring performance against the group leaders offered a positive note, even though it was not enough to propel them into the knockout rounds.",
+        "The United States now shifts their focus toward the Round of 32. As winners of Group D, they are scheduled to face Bosnia-Herzegovina on July 1, looking to regain the defensive form that defined their early group stage success."
       ],
       "bullets": [
-        "The United States finished first in Group D with 6 points, securing their spot in the Round of 32.",
-        "Turkey ended their tournament on a positive note with a 3-2 win, their first victory of the group stage.",
-        "The United States will continue their journey against Bosnia-Herzegovina on July 1."
+        "The United States finished atop Group D with 6 points despite the loss to Turkey.",
+        "Turkey concluded their tournament run with a 3-point tally after this final victory.",
+        "The U.S. will move on to face Bosnia-Herzegovina in the Round of 32 on July 1."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:23:41+00:00",
+      "updatedAt": "2026-06-30T18:19:11+00:00",
       "sourceHash": "1b5048a445c5961f",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "60": {
-      "headline": "Paraguay and Australia Play to Scoreless Draw in Group D Finale",
-      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 draw at Levi's Stadium. The result left both teams locked on four points, with Australia securing second place in Group D on goal difference.",
+      "headline": "Paraguay and Australia Play to Scoreless Draw",
+      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 stalemate, leaving both teams to look ahead to the knockout rounds.",
       "story": [
-        "The final matchday in Group D saw a tense defensive battle between Paraguay and Australia at Levi's Stadium in Santa Clara. Neither side was able to break the deadlock, resulting in a 0-0 stalemate that ultimately decided the final standings of the group.",
-        "Coming into the match, both teams were fighting for position to secure their path into the knockout stages. With the points shared, Australia finished the group stage with four points and a neutral goal difference, which proved sufficient to claim the runner-up spot behind the United States.",
-        "Paraguay also concluded their group stage with four points. Despite the draw, their path forward was already set, as they had previously qualified for the Round of 32. This result leaves them with a -2 goal difference, placing them third in the final group table.",
-        "The match in the San Francisco Bay Area served as a tactical conclusion to a competitive group. While the lack of goals kept the scoreline quiet, the implications were significant for the tournament bracket, as both nations now shift their focus toward the upcoming knockout rounds."
+        "The final matchday in Group D concluded with a tense 0-0 draw between Paraguay and Australia. Neither side could find a breakthrough, resulting in a defensive stalemate that saw both teams earn a point to close out their group fixtures.",
+        "For Australia, the result secures their standing in the group with 4 points, successfully navigating their way through the initial stage. They now shift their focus to the Round of 32, where they are scheduled to face Egypt on July 3rd.",
+        "Paraguay also finished with 4 points, though their path forward proved more complex. Following this draw, they moved into a knockout fixture against Germany in the Round of 32, a match that took place on June 29th.",
+        "While the scoreboard remained blank, the point was vital for both squads to confirm their progression from a competitive Group D. With the group stage now in the rearview mirror, both nations turn their attention to the challenges of the knockout bracket."
       ],
       "bullets": [
-        "Australia secured second place in Group D, finishing with four points and a 0-0 goal difference.",
-        "Paraguay finished third in the group, also ending with four points but a -2 goal difference.",
-        "The draw confirmed Australia's advancement to the Round of 32, where they are set to face Egypt."
+        "Australia finished second in Group D with 4 points and a 0 goal difference.",
+        "Paraguay concluded the group stage with 4 points, setting up a knockout match against Germany.",
+        "The match ended 0-0, marking the final group stage appearance for both teams."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:26:31+00:00",
+      "updatedAt": "2026-06-30T18:19:19+00:00",
       "sourceHash": "3236c6a07d6f8ce3",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "61": {
-      "headline": "France Dominates Norway to Clinch Group I Perfection",
-      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway at Gillette Stadium to finish their group stage campaign with a perfect nine points. The result solidified France's position at the top of Group I, while Norway advanced to the knockout stages as the group runner-up.",
+      "headline": "France Dominates Norway to Sweep Group I",
+      "summary": "Final: Norway 1, France 4. France secured a perfect group stage record with a decisive 4-1 victory over Norway.",
       "story": [
-        "France delivered a clinical performance in Foxborough, dismantling Norway 4-1 in the final matchday of Group I. The victory served as a statement of intent, as France navigated the group stage with three consecutive wins, scoring 10 goals while conceding only two throughout the opening phase.",
-        "For Norway, the defeat was a reality check after a hard-fought tournament run, but it did not derail their progression. Having secured six points from their earlier victories against Iraq and Senegal, Norway finished comfortably in second place, ensuring their spot in the Round of 32.",
-        "The match at Gillette Stadium showcased the offensive depth of the French squad, who consistently pressured the Norwegian defense throughout the afternoon. By securing the top spot in Group I, France earned a favorable path heading into the knockout rounds, where they are now scheduled to face Sweden.",
-        "Norway now pivots their attention to the Round of 32, where they face a challenging matchup against Ivory Coast. Despite the heavy loss to France, the Norwegian team remains in the hunt, carrying the momentum from their earlier group stage successes into the high-stakes environment of single-elimination play."
+        "France asserted their authority in Group I, capping off a flawless group stage campaign by dismantling Norway 4-1. The result ensured France finished at the top of the table with nine points from three matches, maintaining a dominant goal difference of plus-eight throughout the opening round.",
+        "For Norway, the defeat was a reality check after two hard-fought wins against Iraq and Senegal. Despite the loss, they successfully advanced to the Round of 32 as the group runner-up, securing six points and demonstrating enough offensive spark to remain a threat in the knockout phase.",
+        "The win solidified France's status as a top contender as they look ahead to their Round of 32 fixture against Sweden. Meanwhile, Norway shifted their focus immediately to their next challenge, a knockout match against Ivory Coast."
       ],
       "bullets": [
-        "France finished Group I with a perfect 3-0-0 record and a +8 goal differential.",
-        "Norway secured second place in the group with six points, setting up a Round of 32 clash with Ivory Coast.",
-        "The 4-1 scoreline marked the highest-scoring output against Norway in their group stage campaign."
+        "France finished Group I with a perfect 3-0-0 record, scoring 10 goals while conceding only two.",
+        "Norway advanced to the knockout stage as the second-place team in the group despite the heavy loss."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T17:14:36+00:00",
+      "updatedAt": "2026-06-30T18:18:55+00:00",
       "sourceHash": "ebf1c8fa3ae8c1b6",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "62": {
-      "headline": "Senegal Dominates Iraq 5-0 to Secure Knockout Berth",
-      "summary": "Senegal cruised to a decisive 5-0 victory over Iraq at BMO Field in Toronto, finishing their group stage campaign on a high note. The emphatic win secured Senegal's place in the Round of 32 as one of the best third-placed teams in the tournament.",
+      "headline": "Senegal Dominates Iraq 5-0 to Secure Knockout Spot",
+      "summary": "Senegal cruised to a 5-0 victory over Iraq in their final group stage match, effectively punching their ticket to the Round of 32.",
       "story": [
-        "In a commanding performance at Toronto Stadium, Senegal left no doubt about their intentions, dismantling Iraq with a five-goal shutout. The result provided the necessary momentum for a side that had fought hard but come up short in their previous group encounters against France and Norway.",
-        "For Senegal, the victory was a vital statement of intent. After narrow losses in their first two matches, the team utilized this final group fixture to bolster their goal difference and solidify their standing. By putting five goals past the Iraqi defense, they ensured their tournament journey continues.",
-        "Iraq struggled to gain a foothold throughout the match, ultimately concluding their group stage campaign without a point. Despite the difficult result, the experience of competing on the world stage provided a significant test for the squad against high-level opposition.",
-        "With the group stage now complete, Senegal turns its focus toward the Round of 32. They are scheduled to face Belgium on July 1, a challenge that will test the resilience and attacking flair they displayed in their final group match."
+        "Senegal delivered a clinical performance in their final Group I fixture, dismantling Iraq 5-0 to finish their group campaign on a high note. The result provided a significant boost to their goal differential and ensured they finished with 3 points, enough to keep their tournament dreams alive.",
+        "The match was a one-sided affair from the start, as Senegal capitalized on their opportunities to overwhelm the Iraqi defense. This emphatic win was a necessary response after narrow defeats to France and Norway earlier in the group stage.",
+        "With this victory, Senegal successfully navigated the group stage and now looks ahead to a Round of 32 showdown against Belgium. The team will carry the momentum from this five-goal haul into the knockout rounds, where the stakes rise significantly.",
+        "Iraq exits the tournament after a difficult group stage, finishing at the bottom of the table without a point. While the result was disappointing for them, Senegal utilized the match to sharpen their attack and secure their place in the next phase of the competition."
       ],
       "bullets": [
-        "Senegal finished third in Group I with 3 points, earning a spot in the Round of 32.",
-        "The 5-0 victory marked the largest margin of win for Senegal in the group stage.",
-        "Iraq finished the group stage at the bottom of the table, concluding their tournament run."
+        "Senegal finished Group I with 3 points and a positive goal difference of 2.",
+        "The 5-0 scoreline marks the largest margin of victory for Senegal in the group stage.",
+        "Senegal advances to face Belgium in the Round of 32 on July 1."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:23:28+00:00",
+      "updatedAt": "2026-06-30T18:19:03+00:00",
       "sourceHash": "ef2a04cbbb302406",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "63": {
-      "headline": "Cabo Verde Secures Knockout Berth With Stalemate Against Saudi Arabia",
-      "summary": "Cabo Verde and Saudi Arabia played to a 0-0 draw at NRG Stadium in their final Group H match. The point was enough for Cabo Verde to finish as the group runner-up, while Saudi Arabia concludes their tournament campaign.",
+      "headline": "Cabo Verde Secures Knockout Spot After Stalemate with Saudi Arabia",
+      "summary": "Cabo Verde and Saudi Arabia played to a 0-0 draw, a result that confirmed Cabo Verde's progression to the Round of 32.",
       "story": [
-        "The atmosphere at NRG Stadium in Houston was tense as Cabo Verde looked to protect their position in the standings. Despite a scoreless 90 minutes, the draw proved sufficient for the team to navigate through the group stage with three points, ultimately securing second place in Group H.",
-        "For Saudi Arabia, the match marked the end of a challenging group stage. While they were unable to find the breakthrough needed to climb the table, the team showed defensive resilience in their final outing, holding firm against a Cabo Verde side that had demonstrated attacking intent in their previous fixture against Uruguay.",
-        "Cabo Verde's progression is particularly notable given the competitive nature of the group. Having drawn all three of their group matches\u2014against Spain, Uruguay, and now Saudi Arabia\u2014they move forward to the Round of 32 with an unbeaten record, relying on a disciplined defensive structure to carry them into the knockout phase.",
-        "Looking ahead, the road becomes significantly steeper for Cabo Verde. As the runner-up of Group H, they are now set for a high-stakes encounter against Argentina in the Round of 32 on July 3. This upcoming match represents a massive step up in competition as they look to extend their tournament run."
+        "Cabo Verde finished their group stage campaign with a hard-fought point against Saudi Arabia, maintaining their unbeaten record in the tournament. Despite the lack of goals, the draw was enough to secure second place in Group H with three points from their three matches.",
+        "For Saudi Arabia, the result concluded a challenging group stage where they finished at the bottom of the table with two points. While they remained competitive throughout, they were unable to find the breakthrough needed to climb out of the group.",
+        "This result officially sets up a Round of 32 showdown for Cabo Verde against Argentina. Having navigated a difficult group that included Spain and Uruguay, Cabo Verde now turns their attention to the knockout phase."
       ],
       "bullets": [
-        "Cabo Verde finished second in Group H with three points from three draws.",
-        "The result eliminates Saudi Arabia from the tournament after they finished the group stage with two points.",
-        "Cabo Verde advances to face Argentina in the Round of 32 on July 3."
+        "Cabo Verde finished second in Group H, remaining undefeated through the group stage.",
+        "Saudi Arabia concluded their tournament run with two points from three matches.",
+        "Cabo Verde advanced to face Argentina in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:22:50+00:00",
+      "updatedAt": "2026-06-30T18:18:39+00:00",
       "sourceHash": "2a604418eb5b43d1",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "64": {
-      "headline": "Spain Secures Top Spot in Group H with Narrow Win Over Uruguay",
-      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 at Estadio Akron, clinching first place in Group H. This result concluded the group stage for both sides, sending Spain through to the Round of 32 while eliminating Uruguay.",
+      "headline": "Spain Secures Top Spot with Narrow Win Over Uruguay",
+      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 to clinch first place in Group H and move on to the Round of 32.",
       "story": [
-        "In a decisive Matchday 3 encounter at Estadio Akron in Zapopan, Spain edged out Uruguay with a 1-0 victory. The result allowed Spain to maintain their unbeaten status in the group stage, finishing with seven points and a clean sheet record throughout their three matches.",
-        "For Uruguay, the loss proved costly as they finished the group stage with two points, failing to secure a win across their fixtures against Saudi Arabia, Cabo Verde, and Spain. Despite a competitive effort, they were unable to overcome the defensive discipline shown by the Spanish side.",
-        "Spain's performance throughout the group stage was marked by defensive consistency, having conceded zero goals in their three matches. Their ability to secure points against Cabo Verde, Saudi Arabia, and finally Uruguay solidified their position at the top of the table.",
-        "With the group stage now complete, Spain advances to the Round of 32. They are scheduled to face Austria on July 2, 2026, as they continue their tournament campaign.",
-        "The final Group H standings see Spain leading with seven points, followed by Cabo Verde with three, while Uruguay and Saudi Arabia finish on two points apiece."
+        "Spain navigated a tight contest against Uruguay to finish their group stage campaign undefeated. The 1-0 victory ensured they topped the group with seven points, maintaining a perfect defensive record throughout their three matches.",
+        "For Uruguay, the result proved costly as they finished with only two points from their three fixtures. After drawing their opening two matches against Saudi Arabia and Cabo Verde, they were unable to find a breakthrough against a disciplined Spanish side."
       ],
       "bullets": [
-        "Spain finished the group stage undefeated and without conceding a single goal.",
-        "The 1-0 victory confirmed Spain as the winner of Group H, setting up a Round of 32 clash against Austria.",
-        "Uruguay concluded their tournament run with two points from three matches."
+        "Spain finished Group H at the top of the table with 7 points and a +5 goal difference.",
+        "Uruguay ended their tournament run in third place with 2 points.",
+        "Spain advanced to the Round of 32 to play Austria on July 2."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:23:03+00:00",
+      "updatedAt": "2026-06-30T18:18:47+00:00",
       "sourceHash": "e4e3c90fedbe9a5a",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "65": {
       "headline": "Belgium Dominates New Zealand to Secure Group G Top Spot",
-      "summary": "Final: New Zealand 1, Belgium 5. Belgium secured a decisive 5-1 victory over New Zealand at BC Place, clinching the top position in Group G. This commanding win ensures Belgium advances to the Round of 32 with five points, while New Zealand concludes their tournament campaign.",
+      "summary": "Final: New Zealand 1, Belgium 5. Belgium surged to the top of Group G with a decisive 5-1 victory over New Zealand, effectively ending the latter's tournament run.",
       "story": [
-        "The 5-1 result at BC Place was the most lopsided affair of the group stage for these teams, providing Belgium with the momentum they needed to top the table. By finishing with five points and a +4 goal difference, Belgium successfully navigated a tight group to secure their place in the knockout rounds.",
-        "For New Zealand, the match proved to be a difficult end to their tournament. Despite showing flashes of competitiveness in their opening draw against Iran, the team struggled to contain the Belgian attack, ultimately finishing at the bottom of the group with one point.",
-        "With the group stage concluded, Belgium now turns its attention to the Round of 32. Their successful campaign in Group G sets up a high-stakes knockout match against Senegal on July 1, where they will look to carry the offensive confidence gained in this victory into the next stage of the tournament."
+        "After a slow start to the group stage with consecutive draws against Egypt and Iran, Belgium finally found their offensive rhythm in their final match. The 5-1 win was a statement performance that saw them leapfrog Egypt to finish at the top of the group standings.",
+        "For New Zealand, the result was a difficult end to their campaign. Despite showing resilience in earlier matches, including a 2-2 draw with Iran, they were unable to contain the Belgian attack and finished at the bottom of the group with one point.",
+        "By winning Group G, Belgium has earned a spot in the Round of 32. They are now set to face Senegal on July 1, shifting their focus toward the knockout stage as they look to build on this newfound momentum.",
+        "The group stage concluded with Belgium taking the lead on goal difference, finishing with five points and a plus-four goal differential. Egypt also finished with five points but settled for second place, while Iran exited the competition with three points."
       ],
       "bullets": [
-        "Belgium finished atop Group G with 5 points, edging out Egypt on goal difference.",
-        "The 5-1 win marked Belgium's highest-scoring performance of the group stage.",
-        "Belgium is set to face Senegal in the Round of 32 on July 1."
+        "Belgium finished atop Group G with 5 points and a +4 goal difference.",
+        "The 5-1 win over New Zealand was Belgium's first victory of the tournament.",
+        "Belgium advances to face Senegal in the Round of 32 on July 1."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:22:25+00:00",
+      "updatedAt": "2026-06-30T18:18:22+00:00",
       "sourceHash": "e8f89c00713580f6",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "66": {
-      "headline": "Egypt Secures Knockout Berth Following Stalemate with Iran",
-      "summary": "Egypt and Iran played to a 0-0 draw in their final Group G encounter at Lumen Field. The point was enough for Egypt to solidify their standing and advance to the Round of 32, while Iran concludes their tournament run.",
+      "headline": "Egypt Secures Knockout Spot After Stalemate with Iran",
+      "summary": "Egypt and Iran played to a 0-0 draw, a result that confirms Egypt's progression to the Round of 32.",
       "story": [
-        "The atmosphere at Seattle Stadium was tense as Egypt and Iran met for their decisive Matchday 3 fixture. With both sides looking to maximize their points, the match ultimately ended in a scoreless draw, a result that favored Egypt's position in the group table.",
-        "For Egypt, the draw was a successful conclusion to a hard-fought group stage campaign. Having previously earned a draw against Belgium and a 3-1 victory over New Zealand, Egypt finished with 5 points. This performance ensures they move forward to the Round of 32, where they are set to face Australia.",
-        "Iran entered the match needing a result to challenge for a qualification spot, but they were unable to break through the Egyptian defense. Despite a resilient effort throughout the group stage, including draws against New Zealand and Belgium, Iran finished the tournament with 3 points, ultimately falling short of the knockout rounds.",
-        "The final Group G standings reflect a competitive bracket, with Belgium and Egypt both finishing on 5 points, though Belgium takes the top spot on goal difference. Iran finishes third with 3 points, followed by New Zealand at the bottom of the table.",
-        "Egypt now turns their attention toward the knockout stages. Their upcoming match against Australia on July 3rd represents a significant test as they look to build on the momentum generated during their successful group stage run."
+        "The final matchday in Group G ended in a tactical deadlock as Egypt and Iran finished scoreless. While the result denied both sides a win, it was enough for Egypt to solidify their standing in the group.",
+        "With five points from three matches, Egypt finished level on points with Belgium but behind on goal difference. Their consistent performance throughout the group stage, including a key victory over New Zealand, ensured they safely navigated the opening round.",
+        "For Iran, the draw brought their tournament to a close. Despite remaining unbeaten in their group matches\u2014having drawn all three of their fixtures\u2014they ultimately fell short of the points required to advance.",
+        "Egypt now shifts their focus to the knockout stages, where they are set to face Australia in the Round of 32."
       ],
       "bullets": [
-        "Egypt advances to the Round of 32 with 5 points, finishing second in Group G.",
-        "The 0-0 result marks the end of Iran's 2026 World Cup journey.",
-        "Egypt is scheduled to face Australia in the next round on July 3rd."
+        "Egypt finishes second in Group G with 5 points, trailing Belgium only on goal difference.",
+        "Iran exits the tournament after recording three consecutive draws in group play.",
+        "Egypt advances to meet Australia in the Round of 32 on July 3."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:22:38+00:00",
+      "updatedAt": "2026-06-30T18:18:30+00:00",
       "sourceHash": "63bdb8a069478325",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "67": {
-      "headline": "England Clinches Top Spot in Group L with Win Over Panama",
-      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama at MetLife Stadium to conclude their group stage campaign. The result ensured England finished at the top of Group L with seven points, while Panama exited the tournament after a challenging three-match run.",
+      "headline": "England Clinches Group L Top Spot with Win Over Panama",
+      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama to finish their group stage campaign at the top of the table.",
       "story": [
-        "England asserted their dominance in the final matchday of Group L, defeating Panama 2-0 in East Rutherford. The victory at MetLife Stadium was the perfect response to their goalless draw against Ghana in the previous round, re-establishing their attacking momentum as they head into the knockout stages.",
-        "For Panama, the match marked the end of a difficult group stage journey. Despite showing defensive resilience throughout the tournament, they were unable to find the back of the net in any of their three fixtures, finishing at the bottom of the group with zero points.",
-        "The win for England was critical, as it solidified their standing at the top of the table with seven points from three matches. This placement grants them a favorable path forward, as they look ahead to their upcoming Round of 32 clash against Congo DR on July 1.",
-        "England's campaign has been characterized by high-scoring potential and defensive stability, having scored six goals while conceding only two across their group fixtures. Their ability to manage the pressure of the final matchday against Panama demonstrated the composure required for a deep tournament run.",
-        "As the group stage concludes, the focus now shifts entirely to the knockout phase. England will carry the momentum of their unbeaten group record into the next round, while Panama departs the competition having gained valuable experience on the world stage."
+        "England solidified their position at the summit of Group L by dispatching Panama 2-0 in their final group match. The result ensured England finished the group phase undefeated with seven points from their three fixtures, having previously beaten Croatia and drawn with Ghana.",
+        "For Panama, the defeat marked the end of a difficult tournament run where they finished at the bottom of the group without securing a point or finding the back of the net. Despite the pressure, they were unable to overcome an England side that showed clinical efficiency when it mattered most.",
+        "With the group stage now concluded, England looks ahead to the Round of 32. Their strong performance in Group L has set up a knockout match against Congo DR, which is scheduled for July 1."
       ],
       "bullets": [
-        "England finished first in Group L with 7 points, remaining unbeaten throughout the group stage.",
-        "Panama concluded their tournament campaign without a goal, finishing fourth in the group.",
-        "England advances to the Round of 32 to face Congo DR on July 1."
+        "England finished Group L with 7 points, 6 goals scored, and only 2 conceded.",
+        "Panama concluded their tournament campaign with 0 points and a -4 goal difference.",
+        "England advances to face Congo DR in the Round of 32 on July 1."
       ],
-      "sections": [
-        {
-          "title": "Group L Final Standings",
-          "body": "England topped the group with 7 points, followed by Croatia with 6 points and Ghana with 4 points. Panama finished in fourth place with 0 points, rounding out a competitive group stage."
-        }
-      ],
-      "updatedAt": "2026-06-29T20:22:01+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:22:23+00:00",
       "sourceHash": "fc5b84f7998c5b4a",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "68": {
-      "headline": "Croatia Secures Crucial Victory Over Ghana",
-      "summary": "Croatia defeated Ghana 2-1 in a decisive Group L encounter at Lincoln Financial Field in Philadelphia. The result finalized the group standings, with Croatia finishing second and Ghana concluding their group stage campaign with four points.",
+      "headline": "Croatia Edges Past Ghana to Secure Knockout Berth",
+      "summary": "Croatia defeated Ghana 2-1 in their final group stage match, clinching second place in Group L.",
       "story": [
-        "The atmosphere in Philadelphia was electric as Croatia and Ghana faced off in their final group stage match. With both teams fighting for position in Group L, the stakes were high, and the intensity on the pitch reflected the importance of the result for their tournament progression.",
-        "Croatia managed to edge out their opponents with a 2-1 scoreline, a result that proved vital for their standing in the group. By securing these three points, Croatia solidified their position behind England, finishing the group stage with a total of six points.",
-        "For Ghana, the loss marked a challenging end to their group campaign. Despite a resilient performance throughout the tournament, including a hard-fought draw against England earlier in the group, they finished with four points, leaving them to await their fate regarding potential advancement as one of the best third-placed teams.",
-        "With the group stage now concluded, both teams look toward the knockout rounds. Croatia is set to move on to the Round of 32, where they will face Portugal on July 2, while Ghana prepares for a matchup against Colombia on July 3."
+        "Croatia claimed a vital 2-1 victory over Ghana, a result that ultimately decided the final standings in Group L. By securing all three points, Croatia finished with six points, trailing only England in the group rankings.",
+        "For Ghana, the loss leaves them with four points from their three matches. Despite the defeat, their campaign continues as they advance to the Round of 32, where they are set to meet Colombia on July 3.",
+        "Croatia's path forward is now clear, as they prepare for a Round of 32 matchup against Portugal on July 2. Both teams will look to carry the momentum from their group stage performances into the high-stakes knockout phase."
       ],
       "bullets": [
-        "Croatia finished second in Group L with 6 points, while Ghana finished third with 4 points.",
-        "The match took place at Lincoln Financial Field in Philadelphia, serving as the final group fixture for both nations.",
-        "Croatia advances to face Portugal in the Round of 32, and Ghana looks ahead to a knockout clash with Colombia."
+        "Croatia finished second in Group L with 6 points.",
+        "Ghana secured 4 points and advanced to the Round of 32 as a third-place finisher.",
+        "Croatia will face Portugal in the next round, while Ghana is scheduled to play Colombia."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:22:13+00:00",
+      "updatedAt": "2026-06-30T18:22:08+00:00",
       "sourceHash": "41d630062e3541bd",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "69": {
-      "headline": "Colombia and Portugal play to stalemate in Group K finale",
-      "summary": "Colombia and Portugal finished in a 0-0 draw at Hard Rock Stadium, a result that secured the top spot in Group K for Colombia. Both teams successfully navigated the group stage to advance to the knockout rounds.",
+      "headline": "Colombia and Portugal play to scoreless draw",
+      "summary": "Colombia and Portugal finished their Group K campaign with a 0-0 draw, securing the top two spots in the group standings.",
       "story": [
-        "The final matchday in Group K saw Colombia and Portugal battle to a scoreless draw in Miami Gardens. While neither side could find the back of the net, the tactical discipline on display ensured that both teams maintained their standing in the tournament table.",
-        "For Colombia, the single point was enough to clinch first place in the group, finishing their campaign with seven points from three matches. Their defensive resilience throughout the group stage, conceding only one goal, proved to be the foundation of their success.",
-        "Portugal concluded their group stage run in second place with five points. Despite the draw, they remained unbeaten in the group, having secured a dominant victory over Uzbekistan earlier in the tournament alongside a draw against DR Congo.",
-        "With the group stage now in the rearview mirror, both nations shift their focus to the Round of 32. Colombia is set to face Ghana, while Portugal prepares for a knockout clash against Croatia."
+        "Colombia and Portugal played to a 0-0 stalemate in their final group match, a result that ultimately favored both sides. With the point, Colombia finished at the top of Group K with 7 points, while Portugal secured second place with 5 points.",
+        "With the group stage now concluded, both teams shift their focus to the knockout rounds. Colombia advances to the Round of 32 to face Ghana, while Portugal moves on to meet Croatia in their next fixture.",
+        "Portugal concludes their group run with a strong goal difference of +5, having scored five times in their dominant win against Uzbekistan earlier in the tournament. They will look to carry that offensive momentum into their upcoming clash with Croatia."
       ],
       "bullets": [
-        "Colombia finishes atop Group K with 7 points, remaining undefeated in the group stage.",
-        "Portugal secures second place in the group with 5 points, advancing to the Round of 32 to face Croatia.",
-        "The match at Hard Rock Stadium marked the conclusion of Group K play, with Colombia conceding only one goal across all three group fixtures."
+        "Colombia finished first in Group K with 7 points.",
+        "Portugal claimed second place with 5 points, remaining undefeated in the group.",
+        "Colombia will face Ghana in the Round of 32, while Portugal is set to play Croatia."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:21:36+00:00",
+      "updatedAt": "2026-06-30T18:21:07+00:00",
       "sourceHash": "7fb60662b20c830e",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "70": {
-      "headline": "DR Congo Secures Victory Over Uzbekistan in Group K Finale",
-      "summary": "DR Congo defeated Uzbekistan 3-1 at Mercedes-Benz Stadium in Atlanta to conclude their group stage campaign. While the win provided a strong finish for DR Congo, it was not enough to overcome the points tallies of Colombia and Portugal in the Group K standings.",
+      "headline": "DR Congo secures victory over Uzbekistan",
+      "summary": "DR Congo defeated Uzbekistan 3-1 in their final group stage match to finish with four points in Group K.",
       "story": [
-        "In the final matchday of Group K, DR Congo put on an attacking display to earn a 3-1 victory against Uzbekistan. The match, held at Mercedes-Benz Stadium in Atlanta, saw DR Congo capitalize on their opportunities to secure three points, ending their tournament run on a positive note.",
-        "For Uzbekistan, the result marked the end of a challenging group stage where they struggled to find their footing against tough competition. Despite the loss, the team managed to find the back of the net, though they ultimately finished at the bottom of the group table with zero points.",
-        "The group dynamics were heavily influenced by the concurrent draw between Colombia and Portugal. With Colombia finishing on seven points and Portugal on five, DR Congo\u2019s four-point total left them in third place, just outside the qualification spots for the next round."
+        "DR Congo ended their group campaign on a high note, putting three goals past Uzbekistan to claim their first win of the tournament. The result ensured they finished with a respectable four points after previously drawing with Portugal and narrowly losing to Colombia.",
+        "For Uzbekistan, the match marked the end of a difficult group stage journey. Despite finding the back of the net, they were unable to secure a point in their three fixtures, finishing at the bottom of the group with a goal difference of -9.",
+        "While DR Congo's victory was a strong individual performance, it was not enough to leapfrog Colombia or Portugal in the final Group K standings. Colombia finished at the top with seven points, followed by Portugal with five."
       ],
       "bullets": [
-        "DR Congo finished third in Group K with 4 points, behind Colombia and Portugal.",
-        "Uzbekistan concluded their campaign with 0 points after a difficult group stage.",
-        "The 3-1 result was the highest scoring output for DR Congo in the group stage."
+        "DR Congo finished third in Group K with four points from three matches.",
+        "Uzbekistan concluded their tournament run without a point, conceding 11 goals across their three group games."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:21:48+00:00",
+      "updatedAt": "2026-06-30T18:21:14+00:00",
       "sourceHash": "1831e3c5506ed7f3",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "71": {
-      "headline": "Algeria and Austria Finish in Thrilling 3-3 Stalemate",
-      "summary": "Algeria and Austria played to a dramatic 3-3 draw at Arrowhead Stadium in Kansas City, closing out their Group J campaigns. The result leaves both teams locked on four points, though Austria secures the runner-up spot in the group on goal difference.",
+      "headline": "Algeria and Austria Finish Level in Group J Thriller",
+      "summary": "Algeria and Austria played to a 3-3 draw in their final Group J match, securing their respective paths to the Round of 32.",
       "story": [
-        "The final matchday in Group J delivered an offensive showcase at Arrowhead Stadium, as Algeria and Austria traded goals in a high-scoring 3-3 draw. Both sides entered the match knowing their tournament lives were on the line, and the intensity reflected the stakes as each team pushed for the win to improve their standing.",
-        "For Austria, the point was enough to maintain their position as the group runner-up. Despite the defensive lapses that allowed Algeria to keep pace throughout the night, Austria finished their group stage with four points and a neutral goal difference, successfully navigating the group behind the dominant Argentina.",
-        "With the group stage now concluded, the paths for both teams are set. Austria advances to the Round of 32, where they are scheduled to face Spain on July 2. Algeria, having finished their group fixtures, moves forward to their own Round of 32 matchup against Switzerland, also scheduled for July 2."
+        "The high-scoring 3-3 draw ensured both teams finished their group stage campaigns with 4 points. While Argentina dominated the group with a perfect record, the battle for the runner-up spot remained intense, with Austria ultimately edging out Algeria on goal difference to secure the second position.",
+        "For Austria, the result was enough to maintain their standing and confirm a matchup against Spain in the Round of 32. Their ability to secure points across the group stage proved vital in navigating a challenging path forward in the tournament.",
+        "Algeria, despite the draw, successfully navigated their way through the group phase. Their performance in this final fixture showcased their resilience, and they now turn their focus to a Round of 32 encounter against Switzerland.",
+        "With the group stage now concluded, both teams have successfully advanced to the knockout rounds. The focus shifts immediately to the next stage, where the pressure intensifies as they face off against top-tier opponents in the single-elimination bracket."
       ],
       "bullets": [
-        "Austria secures second place in Group J on goal difference, finishing with four points.",
-        "Algeria concludes the group stage with four points after a hard-fought draw.",
-        "Both teams now look ahead to the Round of 32, with Austria facing Spain and Algeria taking on Switzerland."
+        "The 3-3 draw resulted in Austria finishing second in Group J, while Algeria finished third.",
+        "Austria advances to face Spain in the Round of 32.",
+        "Algeria moves on to a Round of 32 matchup against Switzerland."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:21:11+00:00",
+      "updatedAt": "2026-06-30T18:20:51+00:00",
       "sourceHash": "b8dc5ccde7f081fa",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "72": {
-      "headline": "Argentina Sweeps Group J with Dominant Win Over Jordan",
-      "summary": "Final: Jordan 1, Argentina 3. Argentina defeated Jordan 3-1 at AT&T Stadium to conclude their group stage campaign with a perfect record. The result solidified Argentina's position at the top of Group J, while Jordan finished their tournament run without a point.",
+      "headline": "Argentina Sweeps Group J with Win Over Jordan",
+      "summary": "Final: Jordan 1, Argentina 3. Argentina secured a perfect group stage record by defeating Jordan 3-1 to finish at the top of Group J.",
       "story": [
-        "Argentina maintained their clinical form in Arlington, Texas, dispatching Jordan 3-1 to secure a flawless group stage performance. By winning all three of their fixtures, Argentina demonstrated why they are a force to be reckoned with, finishing the opening round with nine points and a commanding plus-seven goal difference.",
-        "For Jordan, the match marked the end of a challenging tournament. Despite their efforts throughout the group stage, they were unable to secure a result, concluding their campaign at the bottom of the table. The loss at AT&T Stadium served as a final reminder of the high level of competition within Group J.",
-        "The victory ensures that Argentina advances to the Round of 32 as the clear winners of Group J. Their consistency throughout the group phase\u2014having previously shut out both Algeria and Austria\u2014has set a strong tone as they transition into the knockout stages.",
-        "Looking ahead, Argentina is now set to face Cabo Verde in the Round of 32 on July 3. As they move into the single-elimination portion of the tournament, they will look to carry the momentum from this three-game win streak into their next high-stakes encounter."
+        "Argentina maintained their dominant form in the group stage, closing out their campaign with a 3-1 victory over Jordan. The result solidified Argentina's position at the top of the table with a flawless nine points from three matches.",
+        "For Jordan, the match marked the end of a difficult tournament run. Despite finding the back of the net, they were unable to overcome the offensive pressure from a clinical Argentine side, finishing at the bottom of the group.",
+        "With the group stage now concluded, Argentina turns their attention toward the Round of 32. Their strong performance has earned them a spot in the knockout bracket, where they are set to face Cabo Verde on July 3."
       ],
       "bullets": [
-        "Argentina finished atop Group J with a perfect 3-0-0 record, scoring eight goals and conceding only one.",
-        "Jordan concluded their tournament participation with three losses, finishing fourth in the group standings.",
-        "Argentina advances to the Round of 32, where they are scheduled to play Cabo Verde on July 3."
+        "Argentina finished the group stage with a perfect 3-0-0 record and a +7 goal differential.",
+        "Argentina will advance to the Round of 32 to play Cabo Verde.",
+        "Jordan concluded their tournament campaign with three losses."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:21:24+00:00",
+      "updatedAt": "2026-06-30T18:20:59+00:00",
       "sourceHash": "38d36a9f78e0e25e",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "24": {
       "headline": "Colombia Secures Vital Opening Win Over Uzbekistan",
@@ -1519,171 +1498,107 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "74": {
-      "headline": "Germany and Paraguay Deadlocked in Boston Stadium Thriller",
-      "summary": "Germany and Paraguay played to a 1-1 draw in their Round of 32 clash at Gillette Stadium. The stalemate leaves both sides looking toward the next phase of the competition as they navigate the pressure of the knockout stage.",
+      "headline": "Germany and Paraguay Deadlocked in Round of 32",
+      "summary": "Germany and Paraguay played to a 1-1 draw in their Round of 32 knockout match, leaving the outcome to be decided beyond regulation time.",
       "story": [
-        "The Round of 32 matchup at Boston Stadium saw Germany and Paraguay fight to a 1-1 draw, a result that underscores the fine margins of tournament football. Entering the match as the winner of Group E, Germany looked to assert their dominance, while Paraguay arrived as one of the best third-place finishers, eager to prove their resilience on the big stage.",
-        "The atmosphere in Foxborough was intense as both teams traded blows in a high-stakes encounter. Germany, having navigated a group stage that included a commanding 7-1 win over Curacao and a tight victory against Ivory Coast, found themselves tested by a disciplined Paraguayan side that had previously kept a clean sheet against Australia.",
-        "For Paraguay, the draw represents a significant show of grit. After a difficult start to their tournament against the United States, they managed to stabilize their form, securing a win against Turkey and holding firm in this knockout fixture. The ability to hold a powerhouse like Germany to a draw speaks volumes about their defensive organization.",
-        "As the dust settles on this match, the focus shifts immediately to the implications for the bracket. The result forces both teams to regroup as they prepare for the challenges ahead in the knockout rounds, where every possession and defensive lapse carries immense weight."
+        "Germany entered this Round of 32 clash as the winners of Group E, looking to reassert their dominance after a narrow defeat to Ecuador in their final group stage match. They faced a resilient Paraguay side that had successfully navigated their way through Group D as one of the best third-placed teams.",
+        "The match proved to be a tightly contested affair, with neither side able to pull away during regulation. Both teams showcased defensive discipline, resulting in the 1-1 stalemate that forced the game into a high-pressure environment where every subsequent action carried immense weight for their tournament survival.",
+        "For Germany, the result was a test of their composure after a group stage that saw them score seven goals against Curacao but struggle for consistency late in the opening round. Paraguay, meanwhile, continued their trend of low-scoring, gritty performances, having managed a win against Turkey and a scoreless draw with Australia earlier in the tournament.",
+        "With the match ending in a draw, the path forward in the knockout bracket remains uncertain for both nations. The winner of this fixture is slated to advance to the Round of 16, where they will face the winner of Match 77."
       ],
       "bullets": [
-        "The match finished 1-1, forcing a tense stalemate in the Round of 32 at Gillette Stadium.",
-        "Germany advanced to this stage as the winner of Group E, while Paraguay qualified as one of the best third-place sides."
+        "The match finished 1-1 after regulation time, forcing a decisive conclusion to determine who advances.",
+        "Germany arrived as Group E winners, while Paraguay qualified as one of the top third-placed finishers from the group stage.",
+        "The victor of this matchup is scheduled to face the winner of Match 77 in the upcoming Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:26:06+00:00",
+      "updatedAt": "2026-06-30T18:20:26+00:00",
       "sourceHash": "cd14c811900256ca",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
-    },
-    "79": {
-      "headline": "Mexico Prepares for Round of 32 at Estadio Azteca",
-      "summary": "Mexico has secured their path to the Round of 32 as the winner of Group A. They now await a challenging knockout match against a third-place finisher from a wide pool of groups. This high-stakes encounter will take place at the historic Estadio Azteca on June 30.",
-      "story": [
-        "Mexico enters the knockout stage with momentum after a strong group performance, having successfully navigated their opening fixtures against South Africa and South Korea. By securing the top spot in Group A, they have earned the right to host this Round of 32 match on home soil, setting the stage for an electric atmosphere in Mexico City.",
-        "The identity of Mexico's opponent remains one of the most intriguing variables of the tournament. The slot is reserved for the 'Best 3rd Group C/E/F/H/I,' meaning the final matchup will be determined by the complex performance matrix of third-place teams across five different groups. This uncertainty requires Mexico to prepare for a variety of tactical styles, as they could face a defensive-minded squad or a high-pressing underdog looking to cause an upset.",
-        "Playing at the iconic Estadio Azteca provides a significant advantage for Mexico, given the venue's history and the intensity of the local crowd. The match is scheduled for June 30 at 21:00 ET, marking a pivotal moment in the tournament bracket. As the field narrows, the pressure mounts, and this fixture serves as a critical test for Mexico's aspirations to progress deeper into the competition.",
-        "Because the opponent is tied to the third-place qualification matrix, fans should monitor the final group standings across groups C, E, F, H, and I closely. The specific identity of the visitor will only be confirmed once all group stage matches are finalized, adding an extra layer of anticipation to this knockout clash."
-      ],
-      "bullets": [
-        "Mexico confirmed as the winner of Group A, securing home-field advantage for the Round of 32.",
-        "The opponent will be the best third-place finisher from a pool consisting of Groups C, E, F, H, and I.",
-        "The match is set for June 30 at 21:00 ET at the legendary Estadio Azteca in Mexico City.",
-        "Mexico's tactical preparation must remain flexible to account for the diverse playing styles of potential third-place qualifiers."
-      ],
-      "sections": [],
-      "updatedAt": "2026-06-24T16:46:26+00:00",
-      "sourceHash": "5468c7714fefad04",
-      "promptHash": "9a88f27249ffb299",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
-    },
-    "81": {
-      "headline": "United States Secures Round of 32 Spot at Levi's Stadium",
-      "summary": "The United States has officially locked in their place in the Round of 32 as the winner of Group D. They will host this knockout match at Levi's Stadium in Santa Clara on July 1, 2026, awaiting an opponent from the complex third-place qualification matrix.",
-      "story": [
-        "The United States enters the knockout stage with significant momentum, having navigated their Group D fixtures with a strong performance. After securing victories against Paraguay and Australia, the team has confirmed their status as the group winner, earning them this prime slot in the Round of 32. This success allows the U.S. to prepare for a high-stakes encounter on home soil at Levi's Stadium.",
-        "The identity of their opponent remains one of the most intriguing variables of the tournament. The slot is reserved for a 'Best 3rd' finisher from a pool consisting of Groups B, E, F, I, or J. Because this team is determined by the final points and goal difference tallies across these five distinct groups, the U.S. will not know who they face until the conclusion of all group stage matches.",
-        "Playing at Levi's Stadium in the San Francisco Bay Area provides a massive stage for this Round of 32 clash. The kickoff is scheduled for 20:00 ET on July 1, 2026. As the U.S. awaits the finalization of the bracket, the focus will shift toward analyzing the various tactical profiles of potential third-place finishers, each of whom will bring a unique challenge to this knockout fixture."
-      ],
-      "bullets": [
-        "The United States qualified for this match by finishing as the winner of Group D.",
-        "The opponent will be determined by the third-place qualification matrix from Groups B, E, F, I, or J.",
-        "The match is set for July 1, 2026, at 20:00 ET at Levi's Stadium in Santa Clara."
-      ],
-      "sections": [],
-      "updatedAt": "2026-06-24T16:46:44+00:00",
-      "sourceHash": "9897339aa6805aa3",
-      "promptHash": "9a88f27249ffb299",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
-    },
-    "86": {
-      "headline": "Argentina Eyes Round of 32 Clash in Miami",
-      "summary": "Argentina has secured their path to the Round of 32 as the winner of Group J. They are now set to play at Hard Rock Stadium on July 3, 2026, awaiting the runner-up from Group H.",
-      "story": [
-        "Argentina enters the knockout stages with momentum after a dominant performance in Group J. Having dispatched Algeria 3-0 and Austria 2-0 in their first two matches, they have proven to be a formidable force. Their final group stage match against Jordan serves as the last hurdle before they shift their focus entirely to the high-stakes environment of the knockout rounds.",
-        "The Round of 32 matchup in Miami Gardens will pit Argentina against the runner-up from Group H. Because the final standings in Group H are still being determined, Argentina's specific opponent remains a mystery. This uncertainty requires the team to prepare for a variety of tactical styles, as the second-place finisher from that group could bring a vastly different approach to the pitch.",
-        "Hard Rock Stadium will serve as the venue for this encounter on July 3 at 18:00 ET. As the winner of their group, Argentina enjoys the advantage of playing in a high-profile knockout fixture, but the pressure of a single-elimination tournament is significant. The winner of this match will progress further into the bracket, making this a pivotal moment for any team with championship aspirations.",
-        "Observers should monitor the conclusion of Group H closely to see which nation secures the second-place spot. Once that team is confirmed, the tactical narrative of this match will sharpen, as analysts will look at how Argentina\u2019s structured play matches up against the specific strengths and weaknesses of their opponent."
-      ],
-      "bullets": [
-        "Argentina qualified for this spot by winning Group J, following consecutive clean-sheet victories.",
-        "The match is scheduled for July 3, 2026, at 18:00 ET at Hard Rock Stadium in Miami Gardens.",
-        "The opponent is currently unconfirmed and will be the runner-up from Group H."
-      ],
-      "sections": [],
-      "updatedAt": "2026-06-24T16:48:02+00:00",
-      "sourceHash": "4a5c5260e5e0ed0f",
-      "promptHash": "9a88f27249ffb299",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "76": {
-      "headline": "Brazil Edges Past Japan in Houston Thriller",
-      "summary": "Brazil secured a hard-fought 2-1 victory over Japan at NRG Stadium to advance in the Round of 32. The win keeps Brazil's momentum alive following a dominant group stage performance. Japan exits the tournament after a resilient display that pushed the South American giants to the limit.",
+      "headline": "Brazil Advances Past Japan in Round of 32",
+      "summary": "Brazil secured their spot in the next round with a hard-fought 2-1 victory over Japan.",
       "story": [
-        "The atmosphere at NRG Stadium in Houston was electric as Brazil and Japan met in a high-stakes Round of 32 clash. Entering the knockout stage as the winner of Group C, Brazil looked to maintain the form that saw them dismantle Scotland and Haiti in their previous outings. Japan, meanwhile, arrived as the runner-up from Group F, carrying the confidence of an unbeaten group stage run that included a commanding 4-0 win over Tunisia.",
-        "The match proved to be a tactical battle, with both sides trading blows in a tense environment. Brazil\u2019s ability to find the back of the net twice proved to be the difference-maker, as they navigated the pressure of a single-elimination fixture. Despite Japan\u2019s disciplined defensive structure and ability to create threats, they were ultimately unable to overcome the narrow one-goal deficit.",
-        "This result marks a significant progression for Brazil, who now look ahead to the Round of 16. Their path through the tournament remains challenging, but securing a win in Houston provides them with the necessary confidence to face their next opponent on July 5th. The victory serves as a testament to their squad depth and composure under the bright lights of the knockout rounds.",
-        "For Japan, the tournament concludes after a spirited campaign. Having navigated a group that featured the Netherlands and Sweden, their performance against Brazil was a fitting end to a tournament where they consistently demonstrated their competitive quality on the world stage.",
-        "With this victory, Brazil advances to the next stage of the tournament, where they will face the winner of Match 78. The focus now shifts to preparing for that July 5th encounter, as the field continues to narrow in the quest for the World Cup title."
+        "Brazil continued their strong tournament form by edging past Japan 2-1 in a tense Round of 32 encounter. Entering the knockout phase as winners of Group C, the Brazilians maintained their composure to overcome a resilient Japanese side that had progressed as the runner-up from Group F.",
+        "This result marks a significant step forward for Brazil, who have now navigated their way through both the group stage and their opening knockout fixture. After a balanced group campaign that included impressive wins over Haiti and Scotland, they proved their ability to handle the high-pressure environment of single-elimination football.",
+        "For Japan, the tournament concludes after a competitive run that saw them remain unbeaten in their group matches against the Netherlands, Tunisia, and Sweden. Despite their strong showing in the group stage, they were unable to overcome the Brazilian challenge in this decisive fixture.",
+        "With this victory, Brazil now turns their attention to the Round of 16, where they are scheduled to face the winner of Match 78 on July 5. The squad will look to build on this momentum as they continue their pursuit of the title."
       ],
       "bullets": [
-        "Brazil advances to the Round of 16 following a 2-1 victory over Japan.",
-        "Brazil will face the winner of Match 78 on July 5th at 16:00 ET.",
-        "The match was held at NRG Stadium in Houston, Texas."
+        "Brazil extended their unbeaten run in the tournament with a narrow one-goal margin victory.",
+        "Japan exits the competition following a solid group stage performance where they finished as Group F runners-up.",
+        "Brazil moves on to the Round of 16 match on July 5."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:26:15+00:00",
+      "updatedAt": "2026-06-30T18:20:34+00:00",
       "sourceHash": "ef35d1c8c3828dce",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "73": {
-      "headline": "Canada Advances After Narrow Victory Over South Africa",
-      "summary": "Final: South Africa 0, Canada 1. Canada secured a 1-0 win over South Africa in their Round of 32 clash at SoFi Stadium. The result sends Canada through to the next stage of the tournament, ending South Africa's campaign in Inglewood. Canada now looks ahead to a Round of 16 matchup against Morocco.",
+      "headline": "Canada Advances Past South Africa in Round of 32",
+      "summary": "Final: South Africa 0, Canada 1. Canada secured a 1-0 victory over South Africa to move on in the knockout stage.",
       "story": [
-        "In a tightly contested Round of 32 knockout match at SoFi Stadium, Canada emerged victorious with a 1-0 win over South Africa. The match, held in the heart of California, proved to be a defensive battle where a single goal was enough to determine which side would continue their journey in the tournament.",
-        "For Canada, the victory follows a rollercoaster group stage where they showcased both offensive power and defensive vulnerabilities. After a dominant 6-0 win over Qatar and a difficult 2-1 loss to Switzerland, the team demonstrated the necessary composure to navigate the high-pressure environment of a knockout fixture.",
-        "South Africa entered this match after a hard-fought group stage campaign, which included a critical 1-0 win over South Korea that secured their spot in the Round of 32. Despite their efforts to break through the Canadian defense in this match, they were unable to find an equalizer after falling behind.",
-        "The win marks a significant milestone for Canada, as they now advance to face Morocco in the Round of 16. That match is scheduled for July 4, where they will look to build on the momentum gained from this victory in Los Angeles."
+        "Canada successfully navigated their Round of 32 matchup against South Africa, clinching a narrow 1-0 win to keep their tournament run alive. The result sees Canada move forward in the knockout bracket while bringing South Africa's campaign to a close.",
+        "Coming off a mixed group stage performance that included a dominant 6-0 win over Qatar and a loss to Switzerland, Canada showed the necessary composure to handle the pressure of a single-elimination fixture. South Africa, who reached this stage after a hard-fought 1-0 victory against South Korea in their final group match, were unable to find an equalizer.",
+        "With this win, Canada now shifts their focus to the Round of 16. They are scheduled to face Morocco on July 4, looking to build on the momentum generated by this victory at SoFi Stadium."
       ],
       "bullets": [
-        "Canada advances to the Round of 16 following the 1-0 win.",
-        "The match was held at SoFi Stadium in Inglewood, California.",
-        "Canada is set to meet Morocco in the next round on July 4."
+        "Canada advances to the Round of 16 to play Morocco on July 4.",
+        "South Africa exits the tournament following the 1-0 defeat.",
+        "The match was decided by a single goal, reflecting the tight margins of the knockout stage."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:26:23+00:00",
+      "updatedAt": "2026-06-30T18:20:42+00:00",
       "sourceHash": "60dd92111d0ae4eb",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "75": {
-      "headline": "Netherlands and Morocco Deadlocked in Round of 32 Thriller",
-      "summary": "The Netherlands and Morocco played to a 1-1 draw in a tense Round of 32 clash at Estadio BBVA. The stalemate forced both sides to look toward the next phase of the tournament as they fought for survival in the knockout bracket.",
+      "headline": "Netherlands and Morocco Deadlocked in Round of 32",
+      "summary": "The Netherlands and Morocco played to a 1-1 draw in the Round of 32, leaving the match outcome to be decided beyond regulation.",
       "story": [
-        "The Round of 32 encounter between the Netherlands and Morocco proved to be a grueling test of endurance and tactical discipline. Entering the match as the winner of Group F, the Netherlands sought to impose their rhythm, while Morocco, the runner-up from Group C, arrived with the momentum of a successful group stage campaign.",
-        "Staged at the iconic Estadio BBVA in Guadalupe, the atmosphere was charged with the intensity expected of knockout football. Both teams demonstrated why they reached this stage, trading blows in a match that remained balanced until the final whistle.",
-        "The 1-1 scoreline reflects the parity on the pitch, as neither side could find the decisive breakthrough to avoid the pressures of a high-stakes knockout environment. The result underscores the difficulty of navigating this bracket, where every error is magnified and every goal carries immense weight.",
-        "For the Netherlands, the result marks a shift in their momentum following a strong group stage performance, while Morocco continues to prove their resilience against top-tier opposition. The match serves as a reminder of the fine margins that define the World Cup knockout rounds.",
-        "As the tournament progresses, both squads must now regroup and assess their paths forward. The intensity displayed at Estadio BBVA ensures that the remaining fixtures will be closely watched by fans and analysts alike as the competition narrows down to the final contenders."
+        "The Round of 32 clash between the Netherlands and Morocco proved to be a tightly contested affair, ending in a 1-1 stalemate. Both teams entered the knockout stage with momentum from their respective group campaigns, but neither side could find a decisive edge to avoid a prolonged battle.",
+        "The Netherlands arrived here as the winners of Group F, having showcased their offensive capabilities with a 5-1 victory over Sweden and a 3-1 win against Tunisia during the group stage. Their ability to score in bunches was a hallmark of their early tournament form, but they found a much sterner defensive test against the Moroccan side.",
+        "Morocco reached this stage by navigating a challenging Group C, which included a resilient 1-1 draw against Brazil and a high-scoring 4-2 win over Haiti. Their path to the knockout rounds demonstrated a capacity to compete with top-tier opponents, a trait they carried into this match.",
+        "With the score locked at 1-1, the focus now shifts to the implications of this result for the remainder of the bracket. Both teams displayed the intensity expected of knockout football, leaving fans to look toward the next phase of the tournament to see how this result ripples through the competition."
       ],
       "bullets": [
-        "The match finished in a 1-1 draw, reflecting the defensive grit shown by both nations in the Round of 32.",
-        "Estadio BBVA in Guadalupe served as the venue for this high-stakes knockout showdown."
+        "The match finished 1-1, forcing a resolution beyond the standard 90 minutes.",
+        "The Netherlands advanced to this round as the winner of Group F, while Morocco qualified as the runner-up from Group C."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:30:37+00:00",
+      "updatedAt": "2026-06-30T18:20:18+00:00",
       "sourceHash": "1f5db3106e98650c",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "78": {
-      "headline": "Ivory Coast and Norway Deadlocked in Round of 32 Stalemate",
-      "summary": "Ivory Coast and Norway played to a 0-0 draw in their Round of 32 encounter at AT&T Stadium. The defensive battle saw neither side break the deadlock, leaving the knockout stage tie evenly poised.",
+      "headline": "Ivory Coast and Norway Deadlocked in Round of 32",
+      "summary": "Ivory Coast and Norway played to a 0-0 draw in their Round of 32 knockout matchup.",
       "story": [
-        "The Round of 32 clash between Ivory Coast and Norway at AT&T Stadium in Arlington proved to be a tightly contested affair. Despite the high stakes of the knockout stage, neither team was able to find the back of the net, resulting in a scoreless draw.",
-        "Ivory Coast entered this match after a strong group stage campaign in Group E, where they secured victories against Ecuador and Curacao, alongside a narrow defeat to Germany. Their path to the knockout rounds showcased a balanced team capable of both defensive resilience and clinical finishing.",
-        "Norway arrived in Texas following a dynamic group stage performance in Group I. They opened their tournament with a dominant 4-1 win over Iraq and a thrilling 3-2 victory against Senegal, though they faced a setback in their final group match against France.",
-        "As the tournament progresses, both nations will need to reflect on this stalemate. The inability to secure a win in regulation time adds a layer of complexity to their journey, as they look to build on their respective group stage successes in the remainder of the competition."
+        "The Round of 32 clash between Ivory Coast and Norway ended in a scoreless stalemate, leaving both sides unable to find a breakthrough during regulation time.",
+        "Ivory Coast entered this knockout fixture after finishing as the runner-up in Group E, where they secured wins against Ecuador and Curacao but fell to Germany. Their path to this stage demonstrated a balanced attack, having scored five goals across their three group matches.",
+        "Norway arrived at the Round of 32 as the runner-up from Group I. Their group stage campaign was defined by high-scoring affairs, including a 4-1 victory over Iraq and a 3-2 win against Senegal, before a final group loss to France.",
+        "With neither side able to break the deadlock, the match leaves both teams facing the immediate pressure of the knockout format as they look to advance further in the tournament."
       ],
       "bullets": [
-        "Ivory Coast and Norway finished their Round of 32 match in a 0-0 draw at AT&T Stadium.",
-        "Both teams entered the knockout stage after finishing as runners-up in their respective groups."
+        "The match finished 0-0, requiring further resolution in the knockout bracket.",
+        "Ivory Coast advanced to this stage after a 2-1-0 group performance in Group E.",
+        "Norway reached the Round of 32 following a 2-0-1 group stage showing in Group I."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T17:15:26+00:00",
+      "updatedAt": "2026-06-30T18:20:08+00:00",
       "sourceHash": "935b07fac43b406c",
-      "promptHash": "9d871a4069b0c8c7",
+      "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "live or in-progress match"
+      "refreshReason": "manual match recap target"
     }
   },
   "groups": {
@@ -3910,703 +3825,500 @@ window.WORLD_CUP_AI_INSIGHTS = {
   },
   "matchPreviews": {
     "55": {
-      "headline": "Group E Showdown: Curacao Faces Ivory Coast in Philadelphia",
-      "summary": "Curacao and Ivory Coast meet at Lincoln Financial Field for their final Group E match of the tournament. Both teams look to make a definitive statement in this high-stakes Matchday 3 encounter.",
+      "headline": "Group E Stakes: Curacao Meets Ivory Coast",
+      "summary": "Curacao and Ivory Coast face off in their final group stage match with critical implications for their tournament journey.",
       "story": [
-        "The 2026 World Cup Group E action arrives in Philadelphia as Curacao and Ivory Coast prepare to face off at Lincoln Financial Field. With the group stage reaching its climax, every moment on the pitch carries significant weight for both squads as they look to secure their standing in the tournament.",
-        "Curacao enters this match with one point from their opening two fixtures. After a challenging start against Germany, they demonstrated resilience in their second match by holding Ecuador to a scoreless draw. This defensive stability will be a key storyline as they prepare to take on the Ivorian attack.",
-        "Ivory Coast arrives in Philadelphia with three points, having secured a victory against Ecuador in their opening match before a narrow contest against Germany. The Ivorian team has shown they can compete at a high level, and they will be looking to build on their performance to solidify their position in the group.",
-        "The tactical battle in this match will be fascinating to observe. Ivory Coast has displayed a balanced approach throughout their first two games, while Curacao will likely look to build upon the defensive discipline they displayed in their most recent outing. Both teams know that a strong performance here is essential for their tournament journey.",
-        "As the sun sets on Group E, the atmosphere at Lincoln Financial Field is expected to be electric. Fans can catch all the action live on FS1 as these two nations compete for control and momentum in what promises to be a compelling chapter of their World Cup campaign."
+        "Ivory Coast enters this match sitting second in Group E with three points, having secured a win against Ecuador before a narrow loss to Germany. Their ability to manage this final group fixture will be vital as they look to maintain their position in the standings.",
+        "Curacao arrives at this third matchday with one point following a hard-fought draw against Ecuador. After facing a difficult start against Germany, the team demonstrated defensive resilience in their second outing and will aim to build on that momentum.",
+        "With Germany currently leading the group, the dynamics of this matchup carry significant weight for both sides. Every point earned here is essential for teams looking to secure their standing in a tightly contested group."
       ],
       "bullets": [
-        "Watch how Curacao adjusts their defensive shape after keeping a clean sheet in their previous match.",
-        "Observe the Ivorian midfield transition as they look to break down a determined opponent.",
-        "Monitor how both teams handle the pressure of the final group stage matchday in Philadelphia."
+        "Ivory Coast holds three points while Curacao enters with one point.",
+        "Both teams are playing their third and final match of the group stage.",
+        "Curacao's defense showed improvement in their second match by keeping a clean sheet against Ecuador."
       ],
       "sections": [
         {
           "title": "Group E Context",
-          "body": "Germany currently leads the group with six points, followed by Ivory Coast with three. Both Ecuador and Curacao sit at one point, making this final round of matches critical for the remaining contenders."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at Lincoln Financial Field in Philadelphia, Pennsylvania. This iconic venue is set to host a pivotal moment for both teams in their quest to progress."
+          "body": "Germany currently sits atop the group with six points from two matches. Ivory Coast holds the second spot, while Ecuador and Curacao follow with one point each. The outcome of this match will be a deciding factor in the final group rankings."
         }
       ],
-      "updatedAt": "2026-06-25T07:41:19+00:00",
+      "updatedAt": "2026-06-30T18:14:15+00:00",
       "sourceHash": "58ba12af027dcdeb",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "manual spoiler-free preview target"
     },
     "56": {
-      "headline": "Group E Finale: Ecuador Faces Germany at MetLife Stadium",
-      "summary": "Ecuador and Germany meet in their final Group E match at MetLife Stadium. Both teams look to make their mark on Matchday 3 as the group stage concludes.",
+      "headline": "Germany and Ecuador Face Off in Group E Finale",
+      "summary": "Germany enters the final group match with a perfect record while Ecuador looks to secure their first goal of the tournament.",
       "story": [
-        "The 2026 World Cup group stage reaches a critical juncture as Ecuador and Germany prepare to square off at MetLife Stadium in East Rutherford, New Jersey. This Matchday 3 encounter serves as a pivotal moment for both squads as they navigate the final hurdles of Group E.",
-        "Germany enters this matchup with momentum, having secured two victories in their opening matches. Their offensive output has been a significant talking point, demonstrating a capability to find the back of the net consistently throughout the tournament so far.",
-        "On the other side, Ecuador arrives at this fixture looking to capitalize on their opportunities. Having navigated a challenging start to their campaign, they will be aiming to put together a complete performance on the big stage in New Jersey.",
-        "The atmosphere at MetLife Stadium is expected to be electric as these two teams clash on June 25 at 16:00 ET. With the group standings currently showing Germany at the top with 6 points and Ecuador holding 1 point, the stakes are high for both nations.",
-        "Tactically, the match presents an intriguing contrast. Germany has shown a potent attacking rhythm, while Ecuador will need to rely on their defensive structure to manage the pressure and create chances of their own in this high-stakes environment."
+        "Germany arrives at this final group stage encounter in strong form, having secured two victories in their opening matches. With nine goals scored and only two conceded, they have demonstrated a potent offensive capability throughout the tournament so far.",
+        "Ecuador finds themselves in a challenging position as they search for their first goal of the competition. Following a narrow loss to Ivory Coast and a scoreless draw against Curacao, they currently sit on one point and face a significant test against the group leaders.",
+        "The tactical dynamic will be interesting to watch as Germany aims to maintain their momentum while Ecuador focuses on finding a breakthrough in the final third. Both teams have everything to play for as they look to finalize their standing in Group E."
       ],
       "bullets": [
-        "Germany enters the match leading Group E with 6 points from their first two games.",
-        "Ecuador is seeking a breakthrough performance to improve their standing in the group.",
-        "The match is hosted at the iconic MetLife Stadium in the New York New Jersey region."
+        "Germany has scored 9 goals in their first two matches.",
+        "Ecuador is still seeking their first goal of the group stage.",
+        "Germany leads Group E with 6 points."
       ],
-      "sections": [],
-      "updatedAt": "2026-06-25T07:23:06+00:00",
+      "sections": [
+        {
+          "title": "Group E Context",
+          "body": "Germany holds the top spot in the group with a goal difference of plus seven. Ecuador and Curacao are currently tied with one point each, trailing Ivory Coast who sits in second place with three points."
+        }
+      ],
+      "updatedAt": "2026-06-30T18:14:23+00:00",
       "sourceHash": "e57756a049e00938",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "57": {
-      "headline": "Group F Finale: Tunisia Faces Netherlands in Kansas City",
-      "summary": "Tunisia and the Netherlands meet at Arrowhead Stadium for their final Group F fixture of the 2026 World Cup. With the group stage reaching its conclusion, both teams take the pitch in Kansas City with significant stakes on the line.",
+      "headline": "Netherlands and Tunisia Close Out Group F",
+      "summary": "The Netherlands look to secure their standing in Group F as they face a Tunisia side searching for their first points of the tournament.",
       "story": [
-        "The 2026 World Cup group stage reaches a critical juncture as Group F concludes its schedule. Tunisia and the Netherlands are set to face off at Arrowhead Stadium in Kansas City, Missouri, on June 25 at 19:00 ET. This matchup serves as the final opportunity for both sides to make their mark on the group standings before the tournament progresses to the next phase.",
-        "The Netherlands enters this encounter with 4 points from their first two matches, having secured a draw against Japan and a victory over Sweden. Their offensive output has been a notable feature of their campaign so far, contributing to a positive goal difference of 4. As they prepare for this third matchday, they look to maintain the momentum established in their previous outings.",
-        "Tunisia finds themselves in a challenging position as they approach this final group stage match. After facing tough tests against Sweden and Japan in their opening fixtures, they are looking to finish their group campaign on a high note. The team will be aiming to regroup and deliver a strong performance in front of the crowd at Arrowhead Stadium.",
-        "The atmosphere in Kansas City is expected to be intense as fans gather for this pivotal Group F clash. With the group standings currently showing the Netherlands and Japan tied at 4 points, and Sweden trailing with 3, every moment in this match carries weight. Viewers can tune in to the broadcast on FOX to follow the action as it unfolds on the pitch."
+        "The Netherlands enter this final group stage match with momentum, having earned four points from their first two outings. Their campaign began with a 2-2 draw against Japan before a dominant 5-1 victory over Sweden, leaving them with a goal difference of plus-four.",
+        "Tunisia finds themselves in a difficult position after two matches. Following an opening 5-1 loss to Sweden and a 4-0 defeat against Japan, they are currently at the bottom of the group standings and are looking to finish their tournament run on a positive note.",
+        "This match serves as the conclusion to Group F play. With the group standings currently tight at the top, the Netherlands will be focused on maintaining their form to solidify their position heading into the next phase of the competition."
       ],
       "bullets": [
-        "Monitor how the Dutch attack, which has scored 7 goals in two matches, attempts to break down the Tunisian defensive structure.",
-        "Observe how Tunisia adjusts their tactical approach in this final group stage appearance to disrupt the Netherlands' rhythm.",
-        "Keep an eye on the live group standings, as the results of this match will be vital in determining the final table positions for Group F."
+        "The Netherlands lead Group F with 4 points and a plus-4 goal difference.",
+        "Tunisia is looking to rebound after conceding 9 goals across their first two matches.",
+        "Group F remains competitive with Japan also sitting on 4 points."
       ],
       "sections": [
         {
           "title": "Group F Context",
-          "body": "The group is tightly contested, with the Netherlands and Japan currently leading the pack with 4 points each. Sweden remains in contention with 3 points, making this final matchday essential for determining the ultimate group hierarchy. Tunisia enters the match looking to secure their first points of the tournament."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will be hosted at the iconic Arrowhead Stadium in Kansas City, Missouri. This venue serves as a key site for the 2026 World Cup, providing a historic backdrop for this international encounter."
+          "body": "The Netherlands and Japan are currently tied at the top of the group with 4 points apiece. Sweden follows with 3 points, while Tunisia has yet to record a point. The outcome of this match will determine the final table positions."
         }
       ],
-      "updatedAt": "2026-06-25T07:23:18+00:00",
+      "updatedAt": "2026-06-30T18:13:59+00:00",
       "sourceHash": "5834e1c50dc17636",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "58": {
-      "headline": "Group F Showdown: Japan and Sweden Clash in Arlington",
-      "summary": "Japan and Sweden meet at AT&T Stadium for a pivotal Matchday 3 encounter in Group F. With the group standings tightly packed, both teams look to secure their position in the tournament. This clash promises high stakes as the group stage reaches its conclusion.",
+      "headline": "Japan and Sweden Face Off in Group F Finale",
+      "summary": "Japan and Sweden meet in their final group stage match with significant implications for the standings in Group F.",
       "story": [
-        "The stage is set at AT&T Stadium in Arlington, Texas, for a critical Group F matchup between Japan and Sweden. As we reach Matchday 3, the intensity of the competition is palpable, with every possession and tactical decision carrying significant weight for both sides.",
-        "Japan enters this fixture with momentum, having demonstrated strong offensive capabilities in their previous outings. Their ability to find the back of the net has been a hallmark of their campaign so far, and they will look to maintain that attacking rhythm against a resilient Swedish side.",
-        "Sweden, meanwhile, arrives in Arlington looking to make a statement. Having navigated a challenging start to the tournament, they understand the importance of this final group stage match. Their approach will likely focus on defensive organization and capitalizing on transition opportunities to disrupt Japan's flow.",
-        "The atmosphere in Dallas is expected to be electric as these two teams face off. With the group standings currently showing Netherlands and Japan tied on 4 points, and Sweden sitting at 3 points, the margin for error is razor-thin. Every tactical adjustment made by the managers will be under the microscope as they battle for control of the pitch.",
-        "Fans tuning in on FS1 at 19:00 ET can expect a match defined by tactical discipline and high-stakes pressure. As the final whistle approaches for the group stage, both Japan and Sweden are fully aware that their performance here will dictate the narrative of their tournament journey moving forward."
+        "Japan enters this final group stage match with momentum, having secured four points from their first two outings. After a hard-fought draw against the Netherlands, they demonstrated their clinical side by shutting out Tunisia in a dominant four-goal performance.",
+        "Sweden finds themselves in a challenging position with three points after two matches. Following an impressive opening victory against Tunisia, they faced a difficult result against the Netherlands, making this final encounter vital for their standing in the group.",
+        "The group dynamics remain tight, with the Netherlands and Japan currently tied on four points at the top. Sweden sits just one point behind, ensuring that every moment in this matchup carries weight as teams look to secure their path forward."
       ],
       "bullets": [
-        "Watch how Japan\u2019s forward line attempts to break down the Swedish defensive structure.",
-        "Observe Sweden\u2019s tactical response to Japan\u2019s high-scoring momentum from their previous match.",
-        "Keep an eye on the midfield battle, as control of the center will be vital for both squads in this high-pressure environment."
+        "Japan has shown strong offensive form, scoring six goals across their first two matches.",
+        "Sweden's attack has proven capable of finding the net, also tallying six goals in their opening two appearances.",
+        "Group F remains highly competitive, with only one point separating the top three teams heading into this final day."
       ],
-      "sections": [
-        {
-          "title": "Group F Context",
-          "body": "The group is incredibly competitive, with the Netherlands and Japan leading with 4 points each. Sweden follows closely with 3 points, ensuring that this matchup is essential for their progression hopes. The outcome of this game will be a defining moment for the final standings in the group."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at the iconic AT&T Stadium in Arlington, Texas. Known for its massive scale and vibrant atmosphere, the venue provides a grand stage for this critical international encounter. Players will need to adapt to the environment as they seek a vital result."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:23:34+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:14:07+00:00",
       "sourceHash": "f616fcdb9a51c895",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "59": {
-      "headline": "Group D Finale: Turkey Meets United States at SoFi Stadium",
-      "summary": "The United States and Turkey face off in a pivotal Matchday 3 encounter at SoFi Stadium in Inglewood. With the group stage reaching its conclusion, both teams look to make their mark on this high-stakes fixture in California.",
+      "headline": "United States and Turkey Meet in Group D Finale",
+      "summary": "The United States enters this final group stage match looking to maintain their momentum against a Turkey side seeking their first points of the tournament.",
       "story": [
-        "The stage is set in Inglewood as the United States prepares to host Turkey at SoFi Stadium for the final round of Group D action. This Matchday 3 clash brings together two sides with contrasting paths through the tournament so far, as the atmosphere in California promises to be electric for this evening kickoff.",
-        "The United States enters this final group match with 6 points from their opening two fixtures. Having secured victories against Paraguay and Australia, the hosts have displayed a potent attack and a disciplined defensive structure throughout their campaign, positioning themselves firmly at the top of the group standings.",
-        "On the other side, Turkey arrives at this matchup seeking to shift their momentum after a challenging start to the tournament. Despite their efforts against Australia and Paraguay in the previous rounds, they have yet to find the back of the net, making this final group game a critical opportunity to leave a lasting impression on the world stage.",
-        "The tactical battle will be fascinating to watch as Turkey aims to break through a United States defense that has conceded only one goal across their first two matches. With the home crowd behind them, the United States will look to maintain their rhythm and control the tempo, while Turkey will undoubtedly be searching for the spark needed to ignite their offensive play.",
-        "As the sun sets on Group D, the focus shifts entirely to the pitch at Los Angeles Stadium. Every pass and challenge in this encounter carries significant weight, ensuring that viewers are in for a compelling conclusion to the group stage proceedings."
+        "The United States arrives at this third matchday with a strong start, having secured 6 points through their first two appearances. With a goal difference of 5, they have demonstrated both offensive efficiency and defensive discipline in their opening matches against Paraguay and Australia.",
+        "Turkey faces a difficult challenge as they look to conclude their group stage campaign on a positive note. Having yet to record a point or a goal in the tournament, they will be focused on finding a breakthrough against a high-performing opponent.",
+        "This matchup serves as the final test for both teams in Group D. While the United States aims to solidify their standing at the top of the table, Turkey is playing for pride and a chance to leave a mark before the end of the group stage."
       ],
       "bullets": [
-        "Watch how the United States maintains their defensive consistency after allowing only one goal in their first two matches.",
-        "Observe if Turkey can find their first goal of the tournament against a confident American side.",
-        "Keep an eye on the midfield battle, which will likely dictate the pace of play in this final Group D fixture."
+        "The United States has scored 6 goals and conceded only 1 across their first two matches.",
+        "Turkey is looking for their first goal of the tournament after being held scoreless in their opening two games.",
+        "Group D standings currently see the United States in first place with 6 points, while Turkey sits at the bottom with 0 points."
       ],
-      "sections": [
-        {
-          "title": "Group D Context",
-          "body": "The United States leads the group with 6 points, while Australia and Paraguay both hold 3 points heading into the final day. Turkey currently sits at 0 points, making this match a vital test of their resilience and tactical adaptability."
-        },
-        {
-          "title": "Venue Details",
-          "body": "The match takes place at the iconic SoFi Stadium in Inglewood, California. This state-of-the-art venue is set to provide a spectacular backdrop for the final round of Group D matches."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:23:41+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:13:40+00:00",
       "sourceHash": "20671f9bc8e865a3",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "60": {
-      "headline": "Group D Showdown: Paraguay Meets Australia in Santa Clara",
-      "summary": "Paraguay and Australia face off in a critical Matchday 3 encounter at Levi's Stadium. Both teams enter the match with three points, making this final group stage fixture a pivotal moment for their tournament aspirations.",
+      "headline": "Group D Stakes: Paraguay Meets Australia",
+      "summary": "Paraguay and Australia face off in their final group match with both teams sitting on three points.",
       "story": [
-        "The stage is set in the San Francisco Bay Area as Paraguay and Australia prepare to battle at Levi's Stadium in Santa Clara. With the group stage reaching its conclusion, this Matchday 3 clash carries significant weight for both sides as they look to secure their standing in Group D.",
-        "Paraguay arrives at this fixture following a resilient performance in their previous outing, where they secured a victory against Turkey. This result provided a vital boost after their opening match against the United States, and the team will be looking to carry that momentum into this high-stakes encounter on California soil.",
-        "Australia enters the match with an identical points tally, having opened their campaign with a strong win over Turkey before facing a challenging match against the United States. The Socceroos have demonstrated their ability to compete at this level and will be aiming to execute a disciplined game plan to navigate this final group hurdle.",
-        "The tactical landscape for this match is defined by the narrow margins typical of World Cup group play. With both teams level on points, the focus will be on defensive organization and the ability to capitalize on limited opportunities in what promises to be a tense, tactical affair."
+        "Paraguay and Australia enter this Matchday 3 encounter tied on points in Group D, creating a high-stakes scenario for both sides. Each team has secured one victory and suffered one defeat through their first two matches, leaving the group standings tightly contested behind the United States.",
+        "Australia opened their campaign with a 2-0 win over Turkey before falling to the United States. They currently hold a goal difference of 0, providing them a slight statistical edge in the group table as they aim to navigate this final hurdle.",
+        "Paraguay arrives at this match following a bounce-back performance against Turkey, where they secured a 1-0 victory after an initial loss to the United States. With a goal difference of -2, they will be looking to build on their most recent defensive effort to improve their standing.",
+        "This matchup serves as the closing chapter for Group D, with both squads aware that their performance here will define their path forward in the tournament."
       ],
       "bullets": [
-        "Both teams enter the match tied with 3 points, intensifying the stakes for this final group stage appearance.",
-        "The match takes place at Levi's Stadium in Santa Clara, California, on June 25 at 22:00 ET.",
-        "Paraguay and Australia are both looking to build upon their respective performances against Turkey and the United States earlier in the group stage."
+        "Both teams enter the match with 3 points from their first two games.",
+        "Australia holds a 0 goal difference, while Paraguay enters with a -2 goal difference.",
+        "This is the final group stage match for both nations."
       ],
-      "sections": [
-        {
-          "title": "Group D Context",
-          "body": "The United States currently leads the group with 6 points, while Australia and Paraguay follow with 3 points each. Turkey rounds out the group, meaning every tactical decision in this final match will be crucial for the standings."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:23:50+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:13:50+00:00",
       "sourceHash": "9b34592ba80abbc8",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "61": {
-      "headline": "Group I Leaders Collide in Foxborough",
-      "summary": "Norway and France face off at Gillette Stadium in a high-stakes Matchday 3 encounter. Both teams enter the match with six points, setting the stage for a compelling battle to determine the final group standing.",
+      "headline": "Norway and France Clash for Group I Supremacy",
+      "summary": "Norway and France enter their final group stage match both holding 6 points and looking to secure the top spot in Group I.",
       "story": [
-        "The stage is set at Gillette Stadium in Foxborough for a marquee Group I showdown between Norway and France. As both nations arrive at Matchday 3 with perfect records, this fixture represents the pinnacle of the group stage, with the two sides separated only by goal difference in the current standings.",
-        "France has displayed clinical form throughout their campaign, securing back-to-back victories against Senegal and Iraq. Their defensive discipline has been a hallmark of their performance, having conceded only a single goal across their first two matches while maintaining a potent offensive output.",
-        "Norway enters this contest with momentum of their own, having navigated challenging encounters against Iraq and Senegal. Their attacking unit has been particularly prolific, finding the back of the net seven times in just two appearances, showcasing a high-energy style that has kept spectators on the edge of their seats.",
-        "The tactical contrast between France\u2019s structured approach and Norway\u2019s aggressive offensive rhythm promises a fascinating tactical battle. With both teams already proving their quality in the tournament, this match serves as a definitive test of composure and strategy under the bright lights of Boston Stadium.",
-        "As the sun sets on Group I, the atmosphere in Massachusetts is expected to be electric. Fans can catch all the action live on FOX as these two heavyweights vie for superiority in one of the most anticipated matchups of the group phase."
+        "Both Norway and France arrive at this final group stage encounter with perfect records, having secured two wins apiece in their opening matches. With 6 points each, this meeting serves as the definitive test to determine who finishes at the top of Group I.",
+        "France has displayed impressive defensive discipline throughout the tournament so far, conceding only a single goal across their victories against Senegal and Iraq. Their offense has been equally clinical, netting 6 goals to build a strong goal difference of 5.",
+        "Norway enters the match with a high-scoring profile, having tallied 7 goals in their wins over Iraq and Senegal. While their attack has been prolific, they have allowed 3 goals, resulting in a goal difference of 4, which places them just behind France in the current standings.",
+        "This matchup brings together the two most successful sides in the group. As both teams look to carry momentum into the next stage, this contest will be a critical indicator of their form and tactical readiness."
       ],
       "bullets": [
-        "Watch for the battle between Norway's high-scoring attack and France's disciplined defensive line.",
-        "Observe how both teams manage the pressure of a top-of-the-table clash with six points already secured.",
-        "Monitor the midfield control, as both teams have shown the ability to dictate the tempo of their previous matches."
+        "France leads Group I with a goal difference of 5.",
+        "Norway has scored 7 goals in their first two matches, the highest total in the group.",
+        "Both teams have already secured 6 points from their opening two fixtures."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "France currently holds the top spot in Group I with a goal difference of plus five. Norway sits closely behind in second place with a goal difference of plus four, ensuring that every moment of this match carries significant weight for the final group ranking."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at Gillette Stadium in Foxborough, Massachusetts. This venue serves as the backdrop for what promises to be a pivotal afternoon of football in the United States."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:23:57+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:13:24+00:00",
       "sourceHash": "f3fdba3739f9b2d2",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "62": {
-      "headline": "Group I Finale: Senegal and Iraq Clash in Toronto",
-      "summary": "Senegal and Iraq meet at BMO Field for their final Group I fixture of the 2026 World Cup. Both teams look to make their mark in Toronto as they conclude their group stage campaigns.",
+      "headline": "Senegal and Iraq Face Off in Group I Finale",
+      "summary": "Senegal and Iraq meet for their final group stage match as both teams look to secure their first points of the tournament.",
       "story": [
-        "The 2026 World Cup group stage reaches its conclusion for Group I as Senegal and Iraq prepare to face off at BMO Field in Toronto. This Matchday 3 encounter serves as a pivotal moment for both squads, who are eager to showcase their quality on the global stage before the tournament progresses.",
-        "Senegal enters this match following two competitive outings against France and Norway. Despite the challenges faced in their previous fixtures, the team has demonstrated an ability to find the back of the net, scoring three goals across their first two appearances. They will be looking to build on that offensive momentum in this final group match.",
-        "Iraq, meanwhile, has navigated a difficult start to the tournament against formidable opponents. Having faced Norway in their opener and France in their second match, the team is looking to close out their group stage journey with a strong performance. This match represents a fresh opportunity for them to execute their tactical plan and challenge their opponents.",
-        "The venue for this clash is the iconic BMO Field in Toronto, Ontario. As the tournament moves through its final group stage matches, the atmosphere in Canada is expected to be electric. Fans and neutrals alike will be watching closely to see how these two sides approach their final game of the group phase.",
-        "Tactically, both managers will be focused on tightening their defensive structures while seeking to exploit gaps in the opposition's formation. With both teams having analyzed the footage from their previous two matches, the adjustments made in training this week will be critical to their success on the pitch."
+        "Senegal enters this match looking to build on their offensive output from their previous outing, where they found the back of the net twice against Norway. Despite a challenging start to the group stage, their ability to generate scoring chances remains a key factor to watch as they aim to conclude their group campaign on a high note.",
+        "Iraq faces a difficult task in their final group appearance, having navigated matches against France and Norway. With their sights set on their first points of the tournament, they will need to tighten their defensive structure and find a breakthrough in the final third to challenge Senegal.",
+        "Both teams currently sit at the bottom of Group I, trailing France and Norway. While the path to the knockout stages is complex, this match provides both sides a final opportunity to demonstrate their quality and impact the final group standings."
       ],
       "bullets": [
-        "Watch for how Senegal's attack attempts to break down the defensive lines after netting three goals in their first two matches.",
-        "Observe how Iraq adapts their strategy in their third group stage appearance to secure a positive result.",
-        "The match kicks off at 15:00 ET and will be broadcast on FS1."
+        "Senegal scored 3 goals over their first two matches.",
+        "Iraq is seeking their first goal since their opening match against Norway.",
+        "Both teams are looking for their first win of the tournament."
       ],
-      "sections": [
-        {
-          "title": "Group I Context",
-          "body": "France and Norway currently lead the group standings with six points each after two matches. Senegal and Iraq are both looking to secure their first points of the tournament in this final group stage showdown."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:24:05+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:13:32+00:00",
       "sourceHash": "56aa335833e07b12",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "63": {
-      "headline": "Group H Showdown: Cabo Verde Meets Saudi Arabia in Houston",
-      "summary": "Cabo Verde and Saudi Arabia face off at NRG Stadium in Houston for their final match of the group stage. With the group standings tightly contested, both teams look to make a decisive impact on Matchday 3.",
+      "headline": "Group H Finale: Cabo Verde vs. Saudi Arabia",
+      "summary": "Cabo Verde and Saudi Arabia meet in their final group stage match with both teams looking to influence their standing in Group H.",
       "story": [
-        "The stage is set in Houston as Cabo Verde and Saudi Arabia prepare for a critical Matchday 3 encounter at NRG Stadium. As the group stage reaches its conclusion, every moment on the pitch carries significant weight for both sides in Group H.",
-        "Cabo Verde enters this match having demonstrated resilience throughout the tournament. They opened their campaign with a hard-fought draw against Spain and followed that up with an intense 2-2 result against Uruguay. Their ability to remain competitive against high-profile opposition has been a hallmark of their performance so far.",
-        "On the other side, Saudi Arabia arrives in Texas looking to rebound and finish their group campaign on a strong note. Their journey began with a resilient 1-1 draw against Uruguay, though they faced a difficult challenge in their second outing against Spain. The team will be focused on executing their game plan effectively in this final group fixture.",
-        "The atmosphere at NRG Stadium promises to be electric as these two teams clash. With the group standings currently showing Spain at the top, followed by Uruguay and Cabo Verde with two points each, and Saudi Arabia with one point, the stakes for this matchup are clear for all involved.",
-        "Tactically, viewers should watch how both sides manage the pressure of a final group stage game. Cabo Verde has shown they can hold their own defensively while finding the back of the net, while Saudi Arabia will be eager to sharpen their attacking transitions and tighten their defensive structure to secure a positive result in their last group appearance."
+        "Cabo Verde enters this match having proven they can hold their own against top-tier competition. After opening their tournament with a scoreless draw against Spain, they followed up with a high-scoring 2-2 result against Uruguay. Their ability to remain competitive in both matches has kept them squarely in the mix within a tight group.",
+        "Saudi Arabia faces a different challenge as they look to bounce back from their second matchday. After securing a hard-fought 1-1 draw against Uruguay in their opener, they encountered a difficult match against Spain. They will be looking to find their offensive rhythm again as they take the field for this final group encounter.",
+        "The Group H table remains highly contested heading into this final day. With Spain leading on 4 points, Uruguay and Cabo Verde sit level on 2 points each, while Saudi Arabia holds 1 point. Every action in this match will be significant as the teams look to maximize their position before the group stage concludes."
       ],
       "bullets": [
-        "Watch how Cabo Verde maintains their defensive organization, which has been tested against top-tier opponents in their first two matches.",
-        "Observe Saudi Arabia's tactical adjustments as they look to regain the offensive rhythm they displayed in their opening match.",
-        "Monitor the midfield battle, as control of the center of the pitch in Houston will likely dictate the flow of the game."
+        "Cabo Verde has shown defensive resilience, conceding only 2 goals across their first two matches.",
+        "Saudi Arabia is aiming to recapture the form that earned them a point against Uruguay in their opening fixture.",
+        "The tight point distribution in Group H ensures that the outcome of this match will have direct implications for the final standings."
       ],
-      "sections": [
-        {
-          "title": "Group H Context",
-          "body": "Heading into this final round of group matches, the table is exceptionally tight. Spain leads with 4 points, while Uruguay and Cabo Verde are locked on 2 points apiece. Saudi Arabia sits on 1 point, meaning the outcome of this match will be pivotal for the final group standings."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at NRG Stadium in Houston, Texas. This iconic venue is set to host the teams on June 26 at 20:00 ET, with the broadcast available on FS1."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:24:12+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:13:07+00:00",
       "sourceHash": "67ab3a3aba6a72f0",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "64": {
-      "headline": "Group H Showdown: Uruguay Faces Spain in Zapopan",
-      "summary": "Uruguay and Spain meet at Estadio Akron for a pivotal Group H Matchday 3 encounter. With the group standings tightly contested, both teams look to secure their position in the tournament. Kickoff is set for 20:00 ET on June 26, 2026.",
+      "headline": "Group H Finale: Uruguay Meets Spain",
+      "summary": "Uruguay and Spain face off in the final match of Group H with significant implications for the group standings.",
       "story": [
-        "The stage is set in Zapopan, Mexico, as Group H concludes its group stage action at Estadio Akron. Uruguay enters this match looking to build on their previous outings, having navigated two intense draws against Saudi Arabia and Cabo Verde. Their resilience has kept them in the thick of the competition, and they will need to bring that same competitive spirit to face a formidable Spanish side.",
-        "Spain arrives at this final group stage match with momentum, currently sitting at the top of the Group H standings with four points. After an opening stalemate against Cabo Verde, they demonstrated their offensive capabilities with a commanding performance against Saudi Arabia. Their defensive record remains unblemished in the tournament so far, having conceded zero goals across their first two matches.",
-        "For Uruguay, the objective is clear: maintain composure and find a way to break down a disciplined Spanish defense. Having scored three goals while conceding three in their first two games, they have shown an ability to find the back of the net, but will need to tighten their defensive structure to contain Spain's attack. Every point is vital as the group remains closely packed.",
-        "Spain, meanwhile, aims to solidify their standing at the top of the table. Their tactical approach has yielded a strong goal difference of four, providing them with a solid foundation heading into this final group fixture. The atmosphere at Estadio Guadalajara will be electric as both nations vie for control in what promises to be a tactical battle.",
-        "As the final whistle approaches for the group stage, the stakes could not be higher. Both teams have everything to play for, and the outcome will determine the final landscape of Group H. Fans tuning in on FOX can expect a high-stakes clash between two teams with distinct styles and everything on the line."
+        "Spain enters this final group stage match sitting at the top of the table with 4 points. After a scoreless draw against Cabo Verde to open the tournament, they found their rhythm in a 4-0 victory over Saudi Arabia, showcasing a potent attack that has yet to concede a goal.",
+        "Uruguay finds themselves in a more challenging position, currently holding 2 points after consecutive draws against Saudi Arabia and Cabo Verde. With 3 goals scored and 3 conceded, they have shown an ability to find the net, but defensive consistency will be a key focus as they look to secure a result against the group leaders.",
+        "The group remains tightly contested, with only 2 points separating the top three teams. Every action on the pitch will carry weight as both sides look to solidify their standing and ensure their path forward in the competition."
       ],
       "bullets": [
-        "Watch how Uruguay's attack attempts to penetrate a Spanish defense that has yet to concede a goal in this tournament.",
-        "Observe Spain's ability to maintain their offensive rhythm following their dominant performance in their previous match.",
-        "Monitor the midfield battle, as control of the center of the pitch will likely dictate the flow of the game."
+        "Spain leads Group H with 4 points and a +4 goal difference.",
+        "Uruguay has drawn both of their opening matches, scoring 3 goals and conceding 3.",
+        "Spain enters this match having kept a clean sheet in both of their previous group appearances."
       ],
       "sections": [
         {
           "title": "Group H Context",
-          "body": "Spain leads the group with four points, while Uruguay sits on two points alongside Cabo Verde. Saudi Arabia rounds out the group with one point, ensuring that every result in this final matchday carries significant weight for the final standings."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at Estadio Akron in Zapopan, Jalisco. This venue serves as a key host site for the tournament, providing a world-class stage for this critical Group H matchup."
+          "body": "Spain leads the group with 4 points, while Uruguay and Cabo Verde are tied with 2 points each. Saudi Arabia rounds out the group with 1 point. This final matchday will determine the ultimate order of the standings."
         }
       ],
-      "updatedAt": "2026-06-25T07:24:20+00:00",
+      "updatedAt": "2026-06-30T18:13:16+00:00",
       "sourceHash": "c762d7b30338eeec",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "65": {
-      "headline": "Group G Finale: New Zealand Faces Belgium in Vancouver",
-      "summary": "New Zealand and Belgium meet at BC Place for a critical Group G Matchday 3 encounter. Both teams look to make a statement in this final group stage fixture to determine their path forward in the tournament.",
+      "headline": "Group G Finale: New Zealand and Belgium Seek Crucial Points",
+      "summary": "New Zealand and Belgium meet in their final group stage match, with both teams looking to improve their standing in a tightly contested Group G.",
       "story": [
-        "The stage is set in Vancouver as BC Place prepares to host a pivotal Group G showdown between New Zealand and Belgium. As the group stage reaches its conclusion on June 26, the atmosphere is charged with anticipation for this Matchday 3 clash.",
-        "New Zealand enters this fixture having navigated a challenging start to their campaign. After an opening 2-2 draw against Iran, they faced a tough 1-3 result against Egypt. They will be looking to stabilize their performance and capitalize on their attacking potential against a disciplined Belgian side.",
-        "Belgium arrives in Vancouver having played two tight, defensive-minded matches in the group stage. They opened with a 1-1 draw against Egypt followed by a 0-0 stalemate with Iran. Their ability to remain compact and organized has been a hallmark of their play, and they will aim to find their rhythm in the final third.",
-        "The tactical battle will be fascinating to watch as New Zealand's approach meets the resilient structure of Belgium. With the group standings tightly packed, every moment at BC Place carries significant weight for both squads as they strive to leave their mark on the tournament.",
-        "Fans tuning in on FOX at 23:00 ET will see a matchup defined by contrasting styles and the high stakes inherent in the final round of group play. It is a defining moment for both nations as they look to execute their game plans on the world stage."
+        "Group G remains wide open as New Zealand and Belgium head into their final group match. With Egypt currently leading the group on four points, the remaining spots are heavily contested, leaving little room for error for either side.",
+        "Belgium enters this fixture having drawn both of their previous matches, showing defensive discipline with a 1-1 result against Egypt and a 0-0 stalemate against Iran. They have yet to secure a victory in the tournament, making this final group appearance a pivotal moment for their progression.",
+        "New Zealand faces a difficult challenge after earning one point from their first two matches. Following a 2-2 draw with Iran and a 1-3 loss to Egypt, they will need a strong performance to keep their tournament hopes alive against a resilient Belgian side."
       ],
       "bullets": [
-        "Watch how New Zealand adjusts their defensive shape after conceding five goals across their first two matches.",
-        "Observe if Belgium can break their scoring drought after recording only one goal in their previous two appearances.",
-        "Monitor the midfield battle in Vancouver, as controlling the tempo will be essential for both sides in this high-pressure environment."
+        "Belgium has recorded two draws in their opening matches, maintaining a solid defensive record.",
+        "New Zealand is looking to bounce back after a challenging result against Egypt in their second match.",
+        "Group G standings are tight, with only three points separating the top and bottom teams."
       ],
-      "sections": [
-        {
-          "title": "Group G Context",
-          "body": "Entering Matchday 3, Egypt leads the group with four points, while Iran and Belgium follow with two points each. New Zealand sits at one point, making this final encounter crucial for the group's ultimate hierarchy."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at the iconic BC Place in Vancouver, Canada. This venue serves as the backdrop for what promises to be a dramatic conclusion to the Group G schedule."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:24:27+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:12:51+00:00",
       "sourceHash": "fd39224b458aee1f",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "66": {
-      "headline": "Group G Finale: Egypt and Iran Clash in Seattle",
-      "summary": "Egypt and Iran meet at Lumen Field for a pivotal Matchday 3 encounter in Group G. Both teams arrive with everything to play for as the group stage reaches its dramatic conclusion.",
+      "headline": "Egypt and Iran Clash in Group G Finale",
+      "summary": "Egypt and Iran meet in their final group stage match with significant implications for the Group G standings.",
       "story": [
-        "The stage is set in Seattle as Egypt and Iran prepare to face off in the final round of Group G matches. With the tournament intensity rising, this encounter at Lumen Field serves as a critical junction for both sides looking to secure their standing in the group.",
-        "Egypt enters this match with four points from their first two outings. After opening their campaign with a draw against Belgium, they demonstrated their attacking potential in a victory over New Zealand. They will look to carry that momentum into this final group stage fixture.",
-        "Iran has proven to be a difficult side to break down, entering this match with two points from two draws. Having shared the spoils with both New Zealand and Belgium, they have shown resilience and tactical discipline throughout their opening matches.",
-        "The atmosphere in Seattle promises to be electric as these two teams meet on June 26. As the final match of the group stage, the stakes are high, and both squads will be aiming to execute their game plans to the best of their ability.",
-        "Tactically, the match will be a fascinating watch. Egypt has shown a capacity to find the back of the net, while Iran has maintained a solid defensive structure that has kept them in contention against every opponent they have faced so far."
+        "Egypt enters this final group match in a strong position, currently sitting at the top of the table with 4 points from their first two outings. After opening their campaign with a draw against Belgium, they secured a victory over New Zealand to build momentum.",
+        "Iran arrives at this encounter having drawn both of their opening matches. With 2 points and a goal difference of 0, they have proven difficult to break down, holding both New Zealand and Belgium to stalemates.",
+        "The stakes are clear for both sides as they look to secure their standing in the group. Egypt will aim to maintain their current form, while Iran seeks their first win to bolster their position in a tightly contested group."
       ],
       "bullets": [
-        "Watch how Egypt's attacking rhythm matches up against Iran's disciplined defensive shape.",
-        "Observe how both teams manage the pressure of a final group stage match at Lumen Field.",
-        "Keep an eye on the midfield battle, which will likely dictate the tempo of the game."
+        "Egypt currently leads Group G with 4 points and a +2 goal difference.",
+        "Iran remains undefeated in the group after two consecutive draws.",
+        "Both teams have played two matches, with Egypt scoring 4 goals and Iran scoring 2."
       ],
-      "sections": [
-        {
-          "title": "Group G Landscape",
-          "body": "Egypt currently sits at the top of the group with four points, while Iran is tied with Belgium on two points. Every action in this match will have significant implications for the final group standings."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:24:34+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:12:59+00:00",
       "sourceHash": "0863de0f8977a96b",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "67": {
-      "headline": "Group L Finale: Panama Meets England at MetLife Stadium",
-      "summary": "Panama and England face off in their final Group L match at MetLife Stadium. Both teams look to make a statement in this crucial Matchday 3 encounter. Kickoff is set for 17:00 ET on FOX.",
+      "headline": "Group L Finale: Panama Meets England",
+      "summary": "Panama and England conclude their Group L campaign at MetLife Stadium with everything still to play for.",
       "story": [
-        "The stage is set at MetLife Stadium in East Rutherford, New Jersey, as Panama and England prepare for their final Group L clash. This Matchday 3 fixture carries significant weight for both nations as they look to navigate the complexities of their group standings.",
-        "England enters the match with 4 points from their first two outings. They opened their campaign with a high-scoring 4-2 victory over Croatia before playing to a scoreless draw against Ghana. Their performance thus far has established them as a focal point in the group dynamics.",
-        "Panama arrives at this third matchday looking to find their footing after two tightly contested affairs. Their opening match against Ghana ended in a 1-0 result, followed by a narrow 1-0 defeat to Croatia. Despite the results, their defensive resilience has been a consistent theme throughout the tournament.",
-        "The atmosphere at the New York New Jersey Stadium promises to be electric as these two teams square off. With the group stage reaching its conclusion, every possession and tactical decision will be scrutinized as both sides aim to leave a lasting impression in this high-stakes environment.",
-        "Tactically, the match presents an interesting contrast in styles. England has shown an ability to find the back of the net, while Panama has demonstrated a disciplined approach that forces opponents to work hard for every opportunity. Fans can expect a compelling battle as both squads take the pitch for this pivotal encounter."
+        "England enters this final group match with 4 points after a high-scoring opening win against Croatia and a scoreless draw with Ghana. They currently sit at the top of the group standings with a plus-two goal difference, looking to solidify their standing as the group stage draws to a close.",
+        "Panama arrives at this match looking for their first points of the tournament. Despite two hard-fought performances against Ghana and Croatia that both ended in narrow single-goal margins, they have yet to find the back of the net.",
+        "The tactical dynamic will be intriguing as England aims to maintain their unbeaten record while Panama fights to secure a result in their final appearance of this round. With the group table currently tight, every moment on the pitch will influence the final standings for all four teams involved."
       ],
       "bullets": [
-        "England currently leads Group L with 4 points and a +2 goal difference.",
-        "Panama is seeking their first points and first goal of the tournament in this final group stage match.",
-        "The match takes place at the iconic MetLife Stadium in East Rutherford, New Jersey."
+        "England currently leads Group L with 4 points and a plus-two goal difference.",
+        "Panama has been involved in two very tight matches, both finishing with 1-0 results.",
+        "This is the final matchday for Group L, determining the ultimate order of the table."
       ],
-      "sections": [
-        {
-          "title": "Group L Context",
-          "body": "The group is tightly contested, with England and Ghana currently holding 4 points each. Croatia sits at 3 points, while Panama is looking to capitalize on this final opportunity to shift the standings."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match is hosted at MetLife Stadium, located in East Rutherford, New Jersey. This venue serves as a major hub for the tournament and is expected to provide a vibrant backdrop for this decisive fixture."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:24:41+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:16:08+00:00",
       "sourceHash": "9d84842631255be9",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "68": {
-      "headline": "Group L Showdown: Croatia Faces Ghana in Philadelphia",
-      "summary": "Croatia and Ghana meet at Lincoln Financial Field for their final Group L match of the 2026 World Cup. With the group standings tightly contested, both teams look to secure their position in this pivotal Matchday 3 encounter.",
+      "headline": "Group L Stakes: Croatia and Ghana Face Off",
+      "summary": "Croatia and Ghana meet in their final group match with both teams looking to secure their standing in Group L.",
       "story": [
-        "As the group stage reaches its conclusion, the atmosphere in Philadelphia is set for a high-stakes meeting between Croatia and Ghana. Both nations enter this Matchday 3 fixture knowing that every moment on the pitch at Lincoln Financial Field carries significant weight for their tournament ambitions.",
-        "Croatia arrives at this match with three points from their first two outings. After an intense opening match against England, they bounced back with a victory over Panama. They will be looking to build on that momentum as they face a disciplined Ghanaian side that has proven difficult to break down.",
-        "Ghana has shown impressive defensive resolve throughout the tournament so far. With four points in their account, they secured an opening win against Panama before holding England to a scoreless draw in their second match. Their ability to remain organized under pressure will be a key factor to watch as they take on the Croatian attack.",
-        "The tactical battle will be fascinating to observe, as Croatia seeks to unlock a Ghanaian defense that has yet to concede a goal in the competition. Conversely, Ghana will aim to maintain their composure and capitalize on any opportunities that arise, keeping their path forward in their own hands."
+        "As Group L reaches its conclusion, the tension is palpable with England, Ghana, and Croatia all firmly in the mix. Ghana enters this match with 4 points from their first two outings, having demonstrated defensive discipline by keeping a clean sheet in their draw against England and their victory over Panama.",
+        "Croatia arrives at this final group fixture with 3 points, following a hard-fought win against Panama after an opening loss to England. Having scored 3 goals and conceded 4 across their first two matches, they will need to balance their attacking intent with defensive stability to navigate this high-stakes encounter.",
+        "With England also sitting on 4 points, the group remains wide open. This matchup serves as a pivotal moment for both sides as they look to finalize their position in the standings and ensure their path forward in the tournament."
       ],
       "bullets": [
-        "Watch how Croatia\u2019s attacking patterns attempt to penetrate a Ghanaian defense that has maintained a clean sheet record through two matches.",
-        "Observe the midfield control, as both teams will be fighting to dictate the tempo in what is a must-watch final group stage fixture.",
-        "Monitor how the pressure of the final group matchday affects the tactical approach of both managers as they navigate the tight Group L standings."
+        "Ghana has yet to concede a goal in the tournament, maintaining a perfect defensive record through two matches.",
+        "Croatia currently sits on 3 points, trailing both England and Ghana by a single point in the group table.",
+        "Both teams are coming off results in their second matchday that kept their tournament aspirations alive."
       ],
-      "sections": [
-        {
-          "title": "Group L Context",
-          "body": "Heading into this final round, England and Ghana lead the group with four points each, while Croatia sits in third with three points. Panama completes the group, making this a critical juncture for the teams vying for progression."
-        },
-        {
-          "title": "Venue Details",
-          "body": "The match takes place at Lincoln Financial Field in Philadelphia, Pennsylvania. This iconic venue will host the teams as they look to leave their mark on the 2026 World Cup group stage."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:24:49+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:16:16+00:00",
       "sourceHash": "86f1447ac3047cde",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "69": {
-      "headline": "Group K Showdown: Colombia Faces Portugal in Miami",
-      "summary": "Colombia and Portugal meet at Hard Rock Stadium for a pivotal Group K Matchday 3 encounter. Both teams enter the fixture with strong form, setting the stage for a high-stakes battle in Florida.",
+      "headline": "Group K Leaders Collide",
+      "summary": "Colombia and Portugal face off in the final matchday of Group K with both teams vying for top positioning.",
       "story": [
-        "The atmosphere at Hard Rock Stadium in Miami Gardens is set to be electric as Colombia and Portugal square off in the final round of Group K. With both teams having navigated their previous two matches, this encounter serves as the definitive test for their respective ambitions in the tournament.",
-        "Colombia enters the match with a perfect record of 6 points from their first two outings. They opened their campaign with a 3-1 victory over Uzbekistan and followed it up with a hard-fought 1-0 win against DR Congo. Their defensive discipline has been a hallmark of their performance, conceding only one goal across both matches.",
-        "The group standings illustrate the fine margins at play, with Colombia sitting on 6 points and Portugal closely behind on 4. As the final match of the group stage, the tactical approach from both managers will be under the microscope as they look to secure their standing before the tournament progresses.",
-        "Fans tuning in on FOX will witness a clash of styles between a resilient Colombian side and a Portuguese team that has proven it can break games open. With the group reaching its climax, every possession and tactical decision in this Miami showdown carries immense weight."
+        "Colombia enters this match with a perfect record in Group K, having secured victories against Uzbekistan and DR Congo. With 6 points from two matches, they have demonstrated defensive consistency, conceding only a single goal throughout the group stage so far.",
+        "Portugal arrives following a dominant 5-0 performance against Uzbekistan in their second match, which bolstered their goal difference to 5. After an opening draw against DR Congo, they have shown significant offensive momentum that will be tested by the Colombian defense.",
+        "The group standings show Colombia leading with 6 points, followed closely by Portugal with 4 points. Both teams have already established themselves as the primary contenders in the group, making this encounter a critical test of their respective forms before the tournament progresses."
       ],
       "bullets": [
-        "Watch how Colombia's defense, which has allowed only one goal so far, handles Portugal's high-scoring attack.",
-        "Observe the midfield battle as Portugal looks to build on the momentum of their five-goal performance against Uzbekistan.",
-        "Keep an eye on the group dynamics, as both teams look to solidify their position at the top of the table."
+        "Colombia has maintained a disciplined defense, allowing only 1 goal across their first two matches.",
+        "Portugal enters with high offensive confidence after scoring 5 goals in their most recent outing.",
+        "Both teams are currently undefeated in Group K play."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This Matchday 3 fixture is the final group stage game for both nations in Group K. The results from the previous two rounds have positioned both teams as the primary contenders in the group."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at Hard Rock Stadium in Miami Gardens, Florida. This iconic venue serves as the backdrop for what promises to be a decisive evening of football."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:24:57+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:15:52+00:00",
       "sourceHash": "c03469567b394369",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "70": {
-      "headline": "Group K Finale: DR Congo Meets Uzbekistan in Atlanta",
-      "summary": "DR Congo and Uzbekistan face off at Mercedes-Benz Stadium for their final Group K match. Both teams look to make a statement in this Matchday 3 encounter on June 27, 2026. Coverage begins at 19:30 ET on FS1.",
+      "headline": "DR Congo and Uzbekistan Close Out Group K",
+      "summary": "DR Congo and Uzbekistan meet for their final Group K fixture to conclude their tournament campaigns.",
       "story": [
-        "The 2026 World Cup group stage reaches a critical juncture as DR Congo and Uzbekistan take the pitch at the iconic Mercedes-Benz Stadium in Atlanta. For these two sides, this Matchday 3 fixture represents the final opportunity to leave their mark on Group K.",
-        "DR Congo enters the match having shown defensive resilience throughout the tournament. Their campaign began with a hard-fought draw against Portugal, followed by a narrow encounter against Colombia. They will look to build on these performances as they seek a positive result in Georgia.",
-        "Uzbekistan arrives in Atlanta looking to regroup after facing tough challenges in their opening two matches against Colombia and Portugal. Despite the difficult start to the group stage, the team remains focused on the task at hand and will aim to execute a disciplined game plan to challenge their opponents.",
-        "The atmosphere in Atlanta is set to be electric as both teams prepare for this high-stakes showdown. With the group standings currently led by Colombia and Portugal, every moment on the field will be vital for DR Congo and Uzbekistan as they aim to end their group stage journey on a high note.",
-        "Tactically, viewers should watch how DR Congo manages their defensive structure against an Uzbekistan side that will be eager to find the back of the net. Both teams have everything to play for, and the match promises to be a compelling battle of wills in the final round of Group K action."
+        "DR Congo enters this matchup with one point from their first two matches. After securing a draw against Portugal in their opener, they faced a narrow defeat to Colombia in their second outing.",
+        "Uzbekistan looks to close their group stage run on a positive note. They have faced difficult tests against Colombia and Portugal to open their tournament schedule.",
+        "Group K standings currently show Colombia leading with six points, followed by Portugal with four, DR Congo with one, and Uzbekistan with zero. Both teams will be looking to leave their mark on the group before the final whistle."
       ],
-      "bullets": [
-        "Watch for DR Congo's defensive organization, which held firm against tough competition in their first two matches.",
-        "Observe how Uzbekistan adjusts their approach in this final group stage appearance to create more attacking opportunities.",
-        "The match takes place at the Mercedes-Benz Stadium, a premier venue in Atlanta, adding to the intensity of the Group K finale."
-      ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This is the final round of Group K matches for both teams. The group also features Colombia and Portugal, who have set a high bar for performance in the opening two rounds."
-        },
-        {
-          "title": "Venue Details",
-          "body": "The match will be hosted at the Mercedes-Benz Stadium in Atlanta, Georgia. This venue is known for its impressive architecture and will provide a grand stage for the conclusion of Group K."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:25:05+00:00",
+      "bullets": [],
+      "sections": [],
+      "updatedAt": "2026-06-30T18:16:00+00:00",
       "sourceHash": "7480b2b83812e110",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "71": {
-      "headline": "Group J Showdown: Algeria Faces Austria in Kansas City",
-      "summary": "Algeria and Austria meet at Arrowhead Stadium for a pivotal Matchday 3 clash in Group J. Both teams enter the match with three points, making this a high-stakes encounter to conclude the group stage.",
+      "headline": "Algeria and Austria Clash in Group J Finale",
+      "summary": "Algeria and Austria meet in their final group stage match, both looking to build on their three-point tallies.",
       "story": [
-        "The stage is set in Kansas City as Algeria and Austria prepare to face off at Arrowhead Stadium. With the group stage reaching its conclusion, both nations find themselves locked in a tight battle for position within Group J.",
-        "Algeria enters this match following a resilient performance against Jordan, which provided them with their first three points of the tournament. After an opening match against Argentina, the squad has shown the ability to bounce back and will look to carry that momentum into this critical fixture.",
-        "Austria also arrives at this match with three points in their tally. Their campaign began with a victory over Jordan, followed by a challenging encounter against Argentina. They will be looking to re-establish their form as they take the pitch in Missouri.",
-        "The atmosphere at Arrowhead Stadium promises to be electric as both teams understand the importance of this Matchday 3 meeting. With Argentina currently leading the group, the outcome of this specific matchup will be vital for both sides as they look to secure their standing.",
-        "Tactically, both teams have demonstrated different approaches throughout the tournament. Watching how they adjust their strategies in this final group game will be a key storyline, as both sides aim to capitalize on their previous experiences to secure a positive result."
+        "Algeria enters this match with three points after a bounce-back performance against Jordan in their second outing. Following an opening defeat to Argentina, the squad demonstrated resilience to secure their first win of the tournament.",
+        "Austria also arrives at this fixture with three points, having opened their campaign with a victory over Jordan before falling to Argentina in their most recent appearance. With both teams currently sitting on identical point totals, the stakes for this final group match are clear.",
+        "The Group J standings show Argentina leading with six points, while Austria and Algeria are locked in a tight race for position. Jordan rounds out the group, meaning every detail in this matchup between Algeria and Austria will be significant for the final table."
       ],
       "bullets": [
-        "Both teams enter the match with identical records of three points from two played matches.",
-        "The match takes place at Arrowhead Stadium in Kansas City, Missouri.",
-        "This is the final matchday for Group J, heightening the intensity for both Algeria and Austria."
+        "Both teams enter the match with 3 points from their first two games.",
+        "Algeria looks to maintain momentum following their recent win against Jordan.",
+        "Austria aims to recover after a challenging match against Argentina."
       ],
-      "sections": [
-        {
-          "title": "Group J Context",
-          "body": "Argentina currently sits at the top of the group with six points. Austria and Algeria are tied on points, while Jordan rounds out the group. The result of this match will be a defining factor in the final group standings."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:25:12+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:15:36+00:00",
       "sourceHash": "44b8d46127f44ca3",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "72": {
-      "headline": "Group J Finale: Jordan Faces Argentina in Arlington",
-      "summary": "Jordan and Argentina meet at AT&T Stadium for their final Group J match of the 2026 World Cup. With the group stage concluding, both teams arrive in Texas looking to make their mark on this high-stakes encounter.",
+      "headline": "Argentina and Jordan close out Group J",
+      "summary": "Argentina looks to maintain their perfect start in Group J as they face a Jordan side fighting to earn their first points of the tournament.",
       "story": [
-        "The stage is set in Arlington as AT&T Stadium prepares to host a pivotal Group J matchup between Jordan and Argentina. As the group stage reaches its third and final matchday, the atmosphere in Texas is electric, with both squads looking to leave everything on the pitch in this marquee fixture.",
-        "Argentina enters this contest with a strong record in the group, having secured victories in their previous two outings against Algeria and Austria. Their defensive discipline has been a hallmark of their performance thus far, as they have yet to concede a single goal while maintaining a perfect points tally.",
-        "For Jordan, this match represents a critical opportunity to challenge themselves against top-tier competition. Despite hard-fought efforts in their opening two matches against Austria and Algeria, the team is eager to demonstrate their tactical resilience and find their rhythm in what promises to be a demanding environment.",
-        "The venue itself, Dallas Stadium, adds a layer of grandeur to the proceedings. Known for its massive scale and intense atmosphere, the stadium in Arlington will serve as the backdrop for what is sure to be a compelling tactical battle between two sides with distinct motivations as they navigate the complexities of Group J."
+        "Argentina enters this final group stage match in a commanding position, sitting at the top of Group J with six points from their first two matches. They have been clinical in their approach, scoring five goals while maintaining a perfect defensive record with zero goals conceded.",
+        "Jordan finds themselves in a difficult position after narrow losses in their opening two fixtures against Austria and Algeria. Despite the results, they have managed to find the back of the net in both matches, showing they can create opportunities even against high-level opposition.",
+        "For Argentina, the objective is to solidify their standing at the top of the group and carry momentum into the next phase. Meanwhile, Jordan will be looking to leave a mark on the tournament by challenging one of the group's strongest performers in their final appearance."
       ],
       "bullets": [
-        "Watch how Argentina\u2019s defense holds up against Jordan\u2019s offensive pressure.",
-        "Observe the tactical adjustments made by both coaching staffs for this final group stage match.",
-        "Experience the atmosphere at AT&T Stadium as these two teams clash in Arlington."
+        "Argentina has yet to concede a goal in the tournament.",
+        "Jordan has scored in both of their previous group stage matches.",
+        "Argentina currently leads Group J with 6 points."
       ],
-      "sections": [
-        {
-          "title": "Group J Context",
-          "body": "Argentina currently sits at the top of the group standings with 6 points from two matches. Jordan is looking to secure a positive result to conclude their group stage campaign."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:25:20+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:15:44+00:00",
       "sourceHash": "1c2a495fbe6725bc",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "73": {
-      "headline": "South Africa and Canada Clash in Round of 32 Knockout Showdown",
-      "summary": "The 2026 World Cup knockout stage begins with South Africa facing off against Canada at SoFi Stadium. Both teams navigated their respective groups to earn this spot in the Round of 32. Fans can look forward to a high-stakes encounter in Inglewood as the tournament intensity shifts to a win-or-go-home format.",
+      "headline": "South Africa and Canada Clash in Round of 32",
+      "summary": "South Africa and Canada meet in the Round of 32 after both nations secured runner-up spots in their respective groups.",
       "story": [
-        "The stage is set in Inglewood, California, as SoFi Stadium prepares to host a compelling Round of 32 matchup between South Africa and Canada. This knockout fixture marks a critical juncture in the tournament, where the margin for error disappears and the pressure on every possession intensifies.",
-        "South Africa enters this match after a hard-fought group stage campaign in Group A. Their journey saw them face diverse tactical challenges, requiring resilience and adaptability to secure their place in the knockout bracket. Having navigated the group phase, they arrive in Los Angeles looking to impose their style on a fresh opponent.",
-        "On the other side of the pitch, Canada arrives as a runner-up from Group B. Their group stage performance was characterized by moments of offensive flair and a clear ambition to control the tempo of their matches. The Canadian squad will be aiming to harness that momentum as they step onto the world stage at one of the tournament's premier venues.",
-        "The venue itself, SoFi Stadium, provides a spectacular backdrop for this encounter. Known for its state-of-the-art facilities and vibrant atmosphere, the stadium in the Los Angeles region is expected to provide a fitting environment for a match of this magnitude. Both teams will need to manage the unique energy of the arena as they vie for a path forward in the competition.",
-        "As both sides prepare for kickoff on June 28, the tactical battle will be the primary focus. With both South Africa and Canada having faced varying levels of defensive and offensive pressure throughout the group stage, the ability to execute under the spotlight of the knockout rounds will be the ultimate test for both rosters."
+        "South Africa enters this knockout match following a resilient group stage campaign in Group A. After facing a difficult start against Mexico, they stabilized with a draw against Czechia and ultimately clinched their spot in the next round by defeating South Korea.",
+        "This matchup represents a significant opportunity for both teams to extend their tournament life. As runners-up, both sides have demonstrated the ability to navigate high-pressure moments throughout the group phase.",
+        "With the stakes now elevated to a single-elimination format, the focus shifts entirely to how these squads manage the transition from group play to the intensity of the knockout rounds."
       ],
       "bullets": [
-        "Kickoff is scheduled for 15:00 ET on June 28 at SoFi Stadium.",
-        "This is a Round of 32 knockout match, meaning both teams are playing for survival in the tournament.",
-        "South Africa advanced as the runner-up from Group A, while Canada advanced as the runner-up from Group B."
+        "South Africa's defensive organization was tested throughout Group A, culminating in a clean sheet in their final group match.",
+        "Canada showcased explosive attacking potential in their second group fixture, demonstrating their capacity to capitalize on scoring opportunities.",
+        "Both teams enter this fixture having navigated three distinct tactical challenges during the group stage."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This match is part of the Round of 32, the opening phase of the knockout bracket. Every game from this point forward is a single-elimination contest that determines which team continues their journey in the 2026 World Cup."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at SoFi Stadium in Inglewood, California. As a key venue in the United States, the stadium offers a massive stage for this international showdown."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:49:33+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:15:28+00:00",
       "sourceHash": "ed33b8a47e48e342",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "manual spoiler-free preview target"
     },
     "74": {
-      "headline": "Germany and Paraguay Clash in Round of 32 Knockout Showdown",
-      "summary": "Germany and Paraguay meet at Gillette Stadium in Foxborough for a high-stakes Round of 32 knockout match. Both teams look to capitalize on their group stage experiences as they begin their quest for tournament progression. Kickoff is set for 16:30 ET on June 29, 2026.",
+      "headline": "Germany and Paraguay Face Off in Round of 32",
+      "summary": "Germany meets Paraguay in a high-stakes Round of 32 knockout match to determine who moves forward in the tournament.",
       "story": [
-        "The 2026 World Cup knockout stage intensifies as Germany, the winner of Group E, faces off against Paraguay, who secured their spot as one of the best third-placed teams from the group stage. This Round of 32 matchup at Boston Stadium in Foxborough, Massachusetts, marks a pivotal moment in the tournament where the margin for error disappears.",
-        "Germany enters this match following a varied group stage campaign. They demonstrated significant offensive capabilities in their opening match against Curacao, followed by a hard-fought victory over Ivory Coast. Their final group encounter against Ecuador provided a stern test, and they will be looking to regain their momentum as they transition into the high-pressure environment of the knockout rounds.",
-        "Paraguay arrives at this stage after navigating a challenging Group D. Their journey included a difficult opener against the United States, a resilient defensive performance to secure a win against Turkey, and a tactical stalemate against Australia. This versatility in their group play suggests they are prepared to adapt to different styles of opposition as they face the German side.",
-        "The atmosphere at Gillette Stadium is expected to be electric, as both nations bring distinct tactical identities to the pitch. Germany will aim to control the tempo and utilize their attacking depth, while Paraguay will look to leverage their defensive discipline and opportunistic play to challenge the European side. With a place in the next round on the line, both teams are set to leave everything on the field."
+        "Germany enters this Round of 32 matchup after finishing at the top of Group E. Their group stage journey saw them secure victories against Curacao and Ivory Coast, though they faced a challenge in their final group match against Ecuador.",
+        "Paraguay arrives at this stage after navigating a competitive Group D. Their path included a win against Turkey and a hard-fought draw with Australia, demonstrating their ability to remain disciplined under pressure.",
+        "As this is a knockout round fixture, both teams are aware that their tournament progression depends entirely on the outcome of this single game. Germany will look to leverage their group-topping form, while Paraguay will aim to build on their defensive resilience shown in their previous outing.",
+        "This matchup presents a clear contrast in styles and recent tournament experiences. With no room for error in the knockout phase, both sides will need to execute their game plans with precision to keep their hopes of advancing alive."
       ],
       "bullets": [
-        "Watch how Germany adjusts their tactical approach after their final group stage test against Ecuador.",
-        "Observe if Paraguay can replicate the defensive organization that kept them competitive throughout their group matches.",
-        "Monitor the midfield battle, as control of the center of the pitch will be vital in this high-stakes knockout fixture."
-      ],
-      "sections": [
-        {
-          "title": "Venue Context",
-          "body": "The match takes place at Gillette Stadium in Foxborough, Massachusetts. Known as Boston Stadium for the tournament, this venue is set to host a pivotal knockout encounter in the heart of New England."
-        },
-        {
-          "title": "Path to the Knockout Stage",
-          "body": "Germany advanced to this round by finishing as the winner of Group E. Paraguay earned their place in the Round of 32 by qualifying as one of the best third-placed teams from the group stage."
-        }
-      ],
-      "updatedAt": "2026-06-27T12:10:58+00:00",
-      "sourceHash": "2a781c0c6d23e70e",
-      "promptHash": "58c0eceedbff748a",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
-    },
-    "79": {
-      "headline": "Mexico Hosts Ecuador in High-Stakes Round of 32 Clash",
-      "summary": "The iconic Estadio Azteca prepares to host a pivotal Round of 32 showdown between tournament hosts Mexico and Ecuador. Both sides arrive at this knockout stage battle with momentum from their group campaigns, setting the stage for an electric atmosphere in Mexico City.",
-      "story": [
-        "The 2026 World Cup reaches a fever pitch as Mexico prepares to defend their home turf against Ecuador in a high-stakes Round of 32 encounter. As the winners of Group A, Mexico enters this matchup with significant confidence, having navigated their group stage fixtures with poise and tactical discipline. The weight of expectation on the host nation is immense, and the atmosphere at the legendary Estadio Azteca is expected to be nothing short of historic for this knockout clash.",
-        "Ecuador arrives at this stage after a challenging path through Group E, where they demonstrated resilience and the ability to compete against world-class opposition. Their journey to the Round of 32 required navigating a difficult group, and their performance in the final group match against Germany proved they have the grit necessary to challenge any opponent in a single-elimination format.",
-        "Mexico\u2019s path to this match was defined by a clean, efficient run through the group stage, where they remained undefeated and consistently found ways to break down their opponents. Their tactical approach has been balanced, focusing on controlling the tempo in front of their home supporters while maintaining a solid defensive structure that has been difficult for teams to penetrate throughout the tournament.",
-        "For Ecuador, the challenge lies in silencing the home crowd and executing a game plan that can disrupt Mexico's rhythm. Having secured their spot as one of the best third-placed finishers, they are battle-tested and ready to embrace the underdog role in one of the most storied stadiums in world football. The tactical battle between Mexico's possession-based style and Ecuador's transition-heavy approach will likely define the flow of the match.",
-        "With a place in the next round on the line, both teams are expected to leave everything on the pitch. The combination of Mexico's home-field advantage and Ecuador's proven ability to perform under pressure makes this one of the most anticipated fixtures of the Round of 32. As the clock ticks toward kickoff at 21:00 ET, the focus shifts entirely to which side can execute their strategy under the bright lights of Mexico City."
-      ],
-      "bullets": [
-        "Monitor how Mexico utilizes the passionate home crowd at Estadio Azteca to dictate the early tempo of the match.",
-        "Watch for Ecuador's ability to transition quickly from defense to attack, a key component of their success in the group stage.",
-        "Observe the tactical adjustments made by both managers as they navigate the pressure of a single-elimination knockout game."
-      ],
-      "sections": [
-        {
-          "title": "The Venue: Estadio Azteca",
-          "body": "Located in the heart of Mexico City, the historic Estadio Azteca serves as the stage for this Round of 32 encounter. Known for its intense atmosphere and massive capacity, the stadium is a fortress for the Mexican national team. Players will need to contend with both the opponent and the sheer scale of the environment in this crucial knockout fixture."
-        },
-        {
-          "title": "Road to the Knockout Stage",
-          "body": "Mexico enters this match as the winner of Group A, having successfully navigated their opening three matches. Ecuador qualified as one of the best third-placed teams from their group, showing significant growth throughout their three-game campaign. Both teams have earned their place in this high-pressure environment through hard-fought performances in the group stage."
-        }
-      ],
-      "updatedAt": "2026-06-28T00:04:37+00:00",
-      "sourceHash": "fb946d963e208322",
-      "promptHash": "58c0eceedbff748a",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
-    },
-    "81": {
-      "headline": "United States Faces Bosnia-Herzegovina in Round of 32 Clash",
-      "summary": "The United States takes on Bosnia-Herzegovina at Levi's Stadium in the Round of 32 on July 1, 2026. This knockout stage matchup brings together the winner of Group D and a high-performing third-place finisher to determine who advances further in the tournament.",
-      "story": [
-        "The 2026 World Cup knockout phase intensifies as the United States prepares to host Bosnia-Herzegovina at the San Francisco Bay Area Stadium in Santa Clara. Having emerged as the winners of Group D, the United States enters this Round of 32 fixture with the momentum of a successful group stage campaign behind them.",
-        "For the United States, the road to this stage included a series of competitive group matches against Paraguay, Australia, and Turkey. These encounters tested the team's resilience and tactical flexibility, providing a rigorous preparation for the high-stakes environment of a single-elimination knockout game.",
-        "Bosnia-Herzegovina arrives at this stage after securing their spot as one of the best third-place finishers from Groups B, E, F, I, or J. Their path to the Round of 32 reflects a determined effort to navigate a complex qualification landscape, making them a formidable opponent for the home side.",
-        "As the tournament shifts to the knockout format, every decision on the pitch carries increased weight. Fans watching this matchup should look for how the United States utilizes their home-field advantage in California and how Bosnia-Herzegovina adapts to the pressure of a high-stakes international environment."
-      ],
-      "bullets": [
-        "Venue: Levi's Stadium, Santa Clara, California",
-        "Kickoff: July 1, 2026, at 20:00 ET",
-        "Stage: Round of 32, Knockout Round"
+        "Germany finished first in Group E, showing offensive potential with a strong showing against Curacao.",
+        "Paraguay enters the knockout stage coming off a clean sheet in their final group match against Australia.",
+        "This is a winner-take-all scenario where the victor secures a spot in the next round of the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T13:55:26+00:00",
-      "sourceHash": "bd7d5d5dfb7de138",
-      "promptHash": "58c0eceedbff748a",
+      "updatedAt": "2026-06-30T18:15:11+00:00",
+      "sourceHash": "2a781c0c6d23e70e",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "79": {
+      "headline": "Mexico and Ecuador Clash in Round of 32",
+      "summary": "Mexico enters the knockout stage as the winner of Group A to face Ecuador in a high-stakes Round of 32 match.",
+      "story": [
+        "Mexico arrives at this Round of 32 encounter following a dominant group stage performance where they finished atop Group A. Their path included clean sheets against South Africa and South Korea, followed by a convincing three-goal victory over Czechia to secure their spot in the knockout bracket.",
+        "Ecuador navigated a challenging path to reach this stage, ultimately securing their place as one of the best third-place finishers. After a narrow loss to Ivory Coast and a scoreless draw with Curacao, they demonstrated resilience by defeating Germany in their final group match to keep their tournament hopes alive.",
+        "This matchup brings together two teams with contrasting group stage experiences. Mexico enters with momentum and defensive solidity, while Ecuador arrives battle-tested after a high-pressure win against a major European side. With no second chances in the knockout format, both squads must adapt quickly to the intensity of the Round of 32."
+      ],
+      "bullets": [
+        "Mexico maintained a perfect defensive record in the group stage, conceding zero goals across three matches.",
+        "Ecuador's group stage concluded with a significant 2-1 victory over Germany, providing them with momentum heading into this knockout fixture."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-30T18:16:30+00:00",
+      "sourceHash": "fb946d963e208322",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "81": {
+      "headline": "United States Faces Bosnia-Herzegovina in Round of 32",
+      "summary": "The United States enters the knockout stage against Bosnia-Herzegovina following a group campaign that showcased both offensive firepower and defensive vulnerabilities.",
+      "story": [
+        "Bosnia-Herzegovina enters this contest as one of the best third-place finishers from the group stage. Having navigated a challenging path to qualify for the knockout rounds, they will be looking to disrupt the momentum of the home side and prove their resilience on the world stage.",
+        "This match marks a pivotal moment for both squads as the tournament shifts into a single-elimination format. With the United States looking to re-establish the form that defined their early group play and Bosnia-Herzegovina aiming to capitalize on their opportunity, the tactical battle will be central to determining who advances."
+      ],
+      "bullets": [
+        "The United States finished first in Group D with two wins and one loss.",
+        "Bosnia-Herzegovina qualified for the knockout stage as a best third-place team.",
+        "This is the opening match of the Round of 32 for both nations."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-30T18:16:55+00:00",
+      "sourceHash": "bd7d5d5dfb7de138",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
     },
     "85": {
-      "headline": "Switzerland and Algeria Clash in Vancouver Round of 32",
-      "summary": "The knockout stage begins as Switzerland faces Algeria at BC Place. Both teams arrive with distinct group stage journeys, setting the stage for a high-stakes encounter in Canada. This Round of 32 matchup determines who keeps their tournament dreams alive.",
+      "headline": "Switzerland and Algeria Face Off in Round of 32",
+      "summary": "Switzerland enters the knockout stage as the winner of Group B to take on Algeria, who qualified as one of the best third-place teams.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Switzerland and Algeria square off in the Round of 32. Switzerland enters this match with momentum after finishing as the winner of Group B, having navigated a challenging slate of fixtures that included matches against Qatar, Bosnia and Herzegovina, and Canada.",
-        "Algeria arrives in Vancouver after securing their spot as one of the best third-placed teams from the group stage. Their path to the knockout round was defined by a diverse set of experiences in Group J, where they faced off against Argentina, Jordan, and Austria.",
-        "The venue for this pivotal showdown is BC Place in Vancouver, British Columbia. As the tournament shifts into the knockout phase, the atmosphere in the stadium is expected to be electric, providing a fitting backdrop for a match where every tactical decision carries significant weight.",
-        "Switzerland will look to carry the consistency they displayed during their group stage campaign into this elimination fixture. Their ability to manage different styles of play against varied opponents has been a hallmark of their performance thus far in the tournament.",
-        "Conversely, Algeria will aim to leverage the resilience they showed throughout their group stage matches. Having faced a variety of tactical challenges, they will be looking to execute a disciplined game plan to overcome the Group B winners and advance further in the bracket."
+        "Switzerland arrives at this Round of 32 matchup after a strong showing in Group B. They opened their tournament with a draw against Qatar before finding their rhythm with a decisive 4-1 victory over Bosnia and Herzegovina and a narrow 2-1 win against Canada to secure their spot at the top of the group.",
+        "Algeria navigated a challenging path to reach this stage. After an opening defeat to Argentina, they responded with a hard-fought 2-1 win over Jordan and a high-scoring 3-3 draw against Austria. Their ability to find the back of the net in their final two group matches will be a key factor as they transition into the knockout intensity.",
+        "This contest marks the first time these two nations meet in this tournament's bracket. With Switzerland looking to maintain the momentum from their unbeaten group stage run and Algeria aiming to build on their resilient performance in Group J, the match promises a contrast in styles and tactical approaches."
       ],
       "bullets": [
-        "Watch how Switzerland maintains their defensive structure against Algeria's attacking transitions.",
-        "Observe how Algeria utilizes the experience gained from their high-scoring group stage finale to prepare for this knockout intensity.",
-        "Keep an eye on the tactical battle in the midfield as both teams fight for control at BC Place."
+        "Switzerland finished their group stage campaign undefeated with two wins and one draw.",
+        "Algeria demonstrated offensive consistency by scoring five goals across their final two group matches.",
+        "The winner of this match advances to the next stage of the knockout bracket."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This match is part of the Round of 32, marking the transition into the single-elimination phase of the tournament. Switzerland qualified as the winner of Group B, while Algeria earned their place as one of the best third-placed teams across groups E, F, G, I, and J."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at BC Place in Vancouver, Canada. This iconic venue in British Columbia will host this high-stakes encounter on July 2, 2026, at 23:00 ET."
-        }
-      ],
-      "updatedAt": "2026-06-28T13:36:30+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:17:19+00:00",
       "sourceHash": "8cdc21162ff0b1e4",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "86": {
-      "headline": "Argentina and Cabo Verde Clash in Round of 32",
-      "summary": "Argentina and Cabo Verde meet at Hard Rock Stadium for a high-stakes Round of 32 showdown. Both teams arrive with distinct group stage experiences as they look to keep their tournament dreams alive in Florida. The match kicks off on July 3, 2026, at 18:00 ET.",
+      "headline": "Argentina and Cabo Verde Open Knockout Play",
+      "summary": "Argentina enters the Round of 32 after a dominant group stage performance to face a resilient Cabo Verde side.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Argentina, the winners of Group J, face off against Cabo Verde, the runners-up from Group H. This Round of 32 encounter at Miami Stadium in Miami Gardens promises an electric atmosphere as the knockout phase intensifies.",
-        "Argentina enters this match following a dominant group stage campaign. Their path to the knockout rounds was marked by consistent performances, having navigated through fixtures against Algeria, Austria, and Jordan. Their ability to secure points across these matches has established them as a formidable side heading into the single-elimination format.",
-        "Cabo Verde arrives at this stage having proven their resilience throughout a challenging Group H. Their journey included hard-fought encounters against Spain, Uruguay, and Saudi Arabia. This experience against high-caliber opposition suggests a team that is well-prepared to handle the pressure of tournament football.",
-        "The tactical contrast between these two sides will be a key narrative to follow. Argentina has demonstrated a potent offensive capability throughout their group matches, while Cabo Verde has shown a remarkable ability to remain disciplined and difficult to break down defensively. Watching how these styles clash in the heat of Miami will be central to the outcome.",
-        "With the stakes now at their highest, every possession and tactical decision becomes magnified. Both teams are fully aware that there is no room for error in this knockout round. As they take the pitch on July 3, the focus shifts entirely to executing a game plan that can secure a path forward in the tournament."
+        "Argentina arrives in the Round of 32 as the winner of Group J, having navigated their opening matches with significant offensive efficiency. They secured victories against Algeria, Austria, and Jordan, demonstrating a consistent ability to find the back of the net throughout the group phase.",
+        "Cabo Verde enters this knockout fixture as the runner-up from Group H. Their path to this stage was defined by defensive tenacity, as they managed to hold opponents to draws in all three of their group matches against Spain, Uruguay, and Saudi Arabia.",
+        "This match represents a contrast in styles between Argentina's high-scoring group run and Cabo Verde's disciplined, low-scoring approach. With the tournament moving into the single-elimination format, both sides must now adapt to the pressure of a win-or-go-home scenario."
       ],
       "bullets": [
-        "Argentina's offensive consistency throughout the Group J stage.",
-        "Cabo Verde's defensive discipline demonstrated against Group H opponents.",
-        "The high-stakes nature of the Round of 32 knockout format."
+        "Argentina maintained a perfect record in Group J, scoring eight goals across their three group matches.",
+        "Cabo Verde remained unbeaten in the group stage, recording three consecutive draws to reach the knockout rounds."
       ],
-      "sections": [
-        {
-          "title": "Venue and Atmosphere",
-          "body": "The match takes place at the iconic Hard Rock Stadium in Miami Gardens, Florida. This venue is set to provide a vibrant backdrop for a pivotal knockout fixture. Fans can expect intense conditions as both teams battle for a spot in the next round."
-        },
-        {
-          "title": "Tournament Context",
-          "body": "As the winner of Group J, Argentina enters this matchup with momentum from their group stage success. Cabo Verde, having secured their place as the runner-up in Group H, will look to continue their resilient run in the competition. This encounter represents the first step into the knockout bracket for both nations."
-        }
-      ],
-      "updatedAt": "2026-06-28T13:36:43+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:17:35+00:00",
       "sourceHash": "1633a25248e23aaa",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "53": {
       "headline": "Group A Showdown: South Africa Faces South Korea",
@@ -6215,363 +5927,263 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "manual spoiler-free preview target"
     },
     "76": {
-      "headline": "Brazil and Japan Clash in Houston Round of 32 Showdown",
-      "summary": "The knockout stage begins as Brazil, winners of Group C, face off against Group F runners-up Japan. This high-stakes encounter at NRG Stadium promises an intriguing tactical battle between two sides that navigated their group stages with distinct styles. Fans can expect a compelling matchup as both teams fight for survival in the tournament.",
+      "headline": "Brazil and Japan Collide in Round of 32",
+      "summary": "Brazil enters the knockout stage as the winner of Group C to face Japan, the runner-up from Group F.",
       "story": [
-        "The World Cup enters its high-pressure knockout phase with a fascinating Round of 32 encounter between Brazil and Japan. Scheduled for June 29 at 13:00 ET, this match brings together two nations that have shown resilience and offensive capability throughout their respective group campaigns.",
-        "Brazil arrives in Houston after a strong performance in Group C, where they finished at the top of the standings. Their journey included a challenging opener against Morocco, followed by clinical victories over Haiti and Scotland. Having demonstrated their ability to control matches and find the back of the net consistently, the Brazilian squad enters this fixture with momentum.",
-        "On the other side, Japan earned their place in the Round of 32 by finishing as the runners-up in Group F. Their group stage was marked by a hard-fought draw against the Netherlands, a dominant shutout victory over Tunisia, and a competitive stalemate with Sweden. Japan has proven to be a disciplined and dangerous opponent capable of executing effective game plans against diverse styles of play.",
-        "The venue for this clash is the iconic NRG Stadium in Houston, Texas. As the tournament shifts into the single-elimination format, the atmosphere is expected to be electric. Both teams will need to manage the intensity of the knockout environment, where every possession and defensive decision carries significant weight.",
-        "Tactically, the matchup presents a clash of philosophies. Brazil will look to leverage their technical prowess and attacking depth to break down the opposition, while Japan will likely rely on their tactical organization and ability to transition quickly. With no second chances remaining in the tournament, the focus for both sides will be on maintaining composure and executing their game plans under pressure."
+        "Brazil arrives at this Round of 32 matchup following a strong group stage performance where they finished atop Group C. After an initial draw against Morocco, the team found their rhythm with decisive victories over Haiti and Scotland, maintaining momentum as they move into the single-elimination phase.",
+        "Japan navigated a competitive Group F to secure their place in this round. Their campaign included a high-scoring draw against the Netherlands, a dominant 4-0 win over Tunisia, and a hard-fought draw against Sweden, demonstrating their ability to adapt to different styles of play.",
+        "This encounter brings together two sides with distinct paths through the group stage. Brazil will look to continue their offensive efficiency, while Japan aims to leverage their tactical discipline to challenge one of the tournament's top seeds in this high-stakes knockout fixture."
       ],
       "bullets": [
-        "Watch how Brazil\u2019s attacking unit attempts to dismantle Japan\u2019s disciplined defensive structure.",
-        "Observe Japan\u2019s transition play and their ability to exploit space against Brazil\u2019s high-pressing style.",
-        "Monitor the midfield battle, as control of the center of the pitch will be vital for both teams to dictate the flow of the game."
+        "Brazil finished Group C undefeated with two wins and one draw.",
+        "Japan remained unbeaten in Group F, recording one victory and two draws.",
+        "The winner of this match advances to the next stage of the knockout bracket."
       ],
-      "sections": [
-        {
-          "title": "Path to the Round of 32",
-          "body": "Brazil secured their spot by winning Group C, finishing their group stage with a solid record against Morocco, Haiti, and Scotland. Japan advanced as the runner-up from Group F, navigating a competitive group that included the Netherlands, Tunisia, and Sweden. Both teams enter this knockout match having successfully adapted to the demands of the tournament thus far."
-        }
-      ],
-      "updatedAt": "2026-06-26T05:10:03+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:15:19+00:00",
       "sourceHash": "5eab52ec1f7d5bc3",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "75": {
-      "headline": "Netherlands and Morocco Clash in Round of 32 Showdown",
-      "summary": "The Netherlands and Morocco meet at Estadio BBVA in Guadalupe for a high-stakes Round of 32 knockout match. Both teams arrive with momentum from their respective group stages, setting the stage for a compelling clash in Mexico. Kickoff is scheduled for 21:00 ET on June 29, 2026.",
+      "headline": "Netherlands and Morocco Clash in Round of 32",
+      "summary": "The Netherlands and Morocco face off in the Round of 32 after strong group stage performances.",
       "story": [
-        "The knockout phase of the 2026 World Cup intensifies as the Netherlands, the winner of Group F, faces off against Morocco, the runner-up from Group C. This Round of 32 encounter at Estadio BBVA in Guadalupe marks a pivotal moment for both squads as they look to navigate the pressure of single-elimination football.",
-        "The Netherlands enters this match after a productive group stage campaign. Their journey included a hard-fought draw against Japan, a dominant offensive display against Sweden, and a victory over Tunisia. This variety of challenges has tested their tactical flexibility and ability to adapt to different styles of play on the world stage.",
-        "The venue for this contest, Estadio BBVA in the city of Guadalupe, Nuevo Leon, provides a spectacular backdrop for this knockout fixture. As both teams prepare to take the pitch, the focus will be on how they manage the unique intensity that only a World Cup knockout match can provide.",
-        "Tactically, this matchup offers an intriguing contrast. The Netherlands will look to leverage the momentum they built during their group stage, while Morocco will aim to build upon the defensive discipline and attacking flair that carried them through their initial fixtures. Fans can expect a tactical battle as both sides strive to secure their path forward in the tournament."
+        "The Netherlands enters this knockout match after finishing at the top of Group F. Their group stage campaign was defined by offensive consistency, including a 5-1 victory over Sweden and a 3-1 win against Tunisia, showing they can find the back of the net reliably.",
+        "Morocco arrives as the runner-up from Group C, having navigated a challenging path that included a draw against Brazil and a victory over Scotland. Their ability to secure results against high-caliber opponents suggests they are well-prepared for the intensity of the knockout stage.",
+        "This matchup brings together two teams that have demonstrated different tactical strengths throughout the tournament. While the Dutch have shown a high-scoring potential, Morocco has proven to be a resilient side capable of managing difficult games against top-tier competition.",
+        "With a spot in the next round on the line, both squads will look to build on their group stage momentum. The tactical battle between the Dutch attack and the Moroccan defensive structure will be a defining factor in this encounter."
       ],
       "bullets": [
-        "Watch how the Netherlands' attacking structure holds up against Morocco's defensive organization.",
-        "Observe the midfield battle, as both teams have shown the ability to control the tempo in their previous outings.",
-        "Keep an eye on the atmosphere at Estadio BBVA, which is set to host this critical knockout showdown."
+        "The Netherlands scored 10 goals across their three group stage matches.",
+        "Morocco remained unbeaten during their Group C campaign.",
+        "Both teams enter this knockout match with significant momentum from their respective group finishes."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This match is part of the Round of 32, where the margin for error disappears. The winner will move one step closer to the final, while the loser will see their tournament journey come to an end."
-        }
-      ],
-      "updatedAt": "2026-06-26T05:10:16+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:15:03+00:00",
       "sourceHash": "f0eed0d6333c970e",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "78": {
-      "headline": "Ivory Coast and Norway Clash in Round of 32 Knockout Showdown",
-      "summary": "The World Cup knockout stage intensifies as Ivory Coast and Norway meet at AT&T Stadium in Arlington. Both teams arrive after navigating their respective group stages to secure a spot in this crucial Round of 32 matchup. Fans can expect a high-stakes encounter as the path to the next round begins here.",
+      "headline": "Ivory Coast and Norway Square Off in Round of 32",
+      "summary": "Ivory Coast and Norway meet in the Round of 32 after both nations secured their spots as runners-up in their respective groups.",
       "story": [
-        "The stage is set in Arlington, Texas, as AT&T Stadium prepares to host a compelling Round of 32 fixture between Ivory Coast and Norway. This knockout match represents the culmination of hard-fought group campaigns for both nations, as they shift their focus to the high-pressure environment of single-elimination football.",
-        "Ivory Coast enters this contest as the runner-up from Group E. Their journey through the group stage saw them face a variety of tactical challenges, demonstrating resilience and the ability to find results when it matters most. Having navigated through Matchday 1, 2, and 3, the team arrives in Dallas ready to test their mettle against European opposition.",
-        "On the other side, Norway secured their place in the knockout bracket as the runner-up from Group I. Their group stage performance showcased an ability to generate offense, providing a clear identity that they will look to impose on the pitch in Texas. The squad has shown they can handle the intensity of tournament play, and this match marks their first step into the knockout phase.",
-        "The venue for this clash, AT&T Stadium, provides a world-class backdrop for what promises to be an intriguing tactical battle. With both teams having proven their capabilities during the group stage, the focus now turns to how these sides adjust to the unique pressures of the Round of 32, where every decision on the field carries significant weight.",
-        "As kickoff approaches on June 30 at 13:00 ET, the narrative centers on which side can best execute their game plan under the bright lights of the knockout stage. Both Ivory Coast and Norway have earned their right to be here, and this encounter serves as a pivotal moment in their respective tournament journeys."
+        "Ivory Coast enters this knockout round matchup after a productive group stage campaign in Group E. They opened with a victory against Ecuador, followed by a narrow loss to Germany, and finished strong with a clean-sheet win over Curacao to secure their place in the bracket.",
+        "Norway arrives from Group I, where they demonstrated significant offensive capabilities. Their group run included a convincing win over Iraq and a high-scoring victory against Senegal, though they faced a difficult challenge against France in their final group match.",
+        "Both teams now face the pressure of a single-elimination format. With the group stage behind them, the focus shifts entirely to this meeting in the Round of 32, where the winner continues their journey in the tournament and the loser is eliminated."
       ],
       "bullets": [
-        "Watch for how Ivory Coast manages the transition from their Group E experience to the unique demands of a knockout match.",
-        "Observe how Norway utilizes their attacking momentum from the group stage to challenge the Ivorian defensive structure.",
-        "Keep an eye on the atmosphere at AT&T Stadium, as the venue in Arlington hosts this high-stakes Round of 32 fixture."
+        "Ivory Coast finished as the runner-up in Group E.",
+        "Norway enters the knockout stage as the runner-up from Group I.",
+        "This is the first meeting between these two sides in the 2026 tournament."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This match is part of the Round of 32, the first stage of the knockout bracket. Both teams qualified by finishing as runners-up in their respective groups, setting up this clash at the iconic Dallas Stadium."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will take place at AT&T Stadium in Arlington, Texas. This venue is a centerpiece of the tournament and provides a massive stage for these two teams to compete for survival in the bracket."
-        }
-      ],
-      "updatedAt": "2026-06-26T23:24:12+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:14:40+00:00",
       "sourceHash": "230660e463a9e5a8",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "88": {
-      "headline": "Australia and Egypt Clash in Round of 32 Knockout Showdown",
-      "summary": "Australia and Egypt meet at AT&T Stadium in Arlington for a high-stakes Round of 32 knockout match. Both teams earned their spots as runners-up from their respective groups and are looking to extend their tournament run. The winner of this fixture will move one step closer to glory in the 2026 World Cup.",
+      "headline": "Australia and Egypt Clash in Round of 32",
+      "summary": "Australia and Egypt meet in the Round of 32 after securing runner-up spots in their respective groups.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Australia and Egypt face off in the Round of 32. Taking place at the iconic AT&T Stadium in Arlington, Texas, this match represents the beginning of the knockout phase where there is no room for error. Both squads have navigated the challenges of the group stage and now find themselves in a win-or-go-home scenario under the bright lights of the Dallas Stadium.",
-        "Australia enters this contest after a rigorous group stage campaign in Group D. They demonstrated resilience throughout their three opening matches, showing an ability to manage different styles of play against varied international opposition. Having secured their place as the runner-up in their group, the Socceroos arrive in Texas with a clear objective to assert their tactical discipline on the biggest stage.",
-        "Egypt arrives at this knockout encounter following a competitive run in Group G. Their path to the Round of 32 was defined by a mix of offensive energy and defensive stability, finishing as the group runner-up. The Egyptian side has shown they can adapt to the pressures of tournament football, and they will be looking to leverage that experience as they prepare to take on the Australian challenge.",
-        "The atmosphere in Arlington is expected to be electric as these two nations meet for a place in the next round. With the stakes at their highest, the tactical battle between the two managers will be a primary focus. Both teams have shown they can grind out results, and this matchup promises to be a test of endurance, strategy, and composure under the intense pressure of knockout football."
+        "Australia enters this knockout fixture after a disciplined group stage run in Group D. They opened their campaign with a victory against Turkey before facing a tough challenge against the United States and finishing with a scoreless draw against Paraguay. Their ability to remain organized in high-stakes situations will be tested as they look to advance.",
+        "Egypt arrives at this stage following an unbeaten group performance in Group G. They earned a hard-fought draw against Belgium, secured a decisive win over New Zealand, and concluded their group play with a stalemate against Iran. Their tactical flexibility and resilience have been central to their journey through the tournament so far.",
+        "With both teams having navigated the group stage as runners-up, this matchup represents a pivotal moment in the bracket. Neither side has shown a willingness to concede easily, and this encounter will likely hinge on which team can execute their game plan more effectively under the pressure of a single-elimination format."
       ],
       "bullets": [
-        "Venue: AT&T Stadium in Arlington, Texas.",
-        "Kickoff is scheduled for 14:00 ET on July 3, 2026.",
-        "Both teams enter as runners-up from their respective groups, Group D and Group G."
+        "Australia finished as the runner-up in Group D, while Egypt secured the second spot in Group G.",
+        "Both teams demonstrated defensive stability during their group matches, each recording a 0-0 draw in their final group fixture.",
+        "This is the first meeting between these two nations in the knockout stage of this tournament."
       ],
-      "sections": [
-        {
-          "title": "Path to the Knockout Stage",
-          "body": "Australia secured their spot by navigating a challenging Group D, finishing as the runner-up. Egypt earned their place in the Round of 32 by finishing as the runner-up in Group G, showing consistency across their three group matches."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at AT&T Stadium, also known as Dallas Stadium, located in Arlington, Texas. This world-class facility will provide a massive stage for these two teams to compete for a spot in the next phase of the tournament."
-        }
-      ],
-      "updatedAt": "2026-06-27T15:27:03+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:17:27+00:00",
       "sourceHash": "a2f8ce34e3cccc96",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "77": {
-      "headline": "France and Sweden Clash in Round of 32 Knockout Showdown",
-      "summary": "France and Sweden meet at MetLife Stadium in East Rutherford for a high-stakes Round of 32 knockout match. Both sides arrive with distinct group stage journeys as they look to secure their path forward in the tournament.",
+      "headline": "France and Sweden Open Knockout Play",
+      "summary": "France enters the Round of 32 as the winner of Group I to face Sweden, who qualified as one of the best third-place teams.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as France and Sweden prepare to face off on June 30 at 17:00 ET. Hosted at the iconic MetLife Stadium in East Rutherford, New Jersey, this Round of 32 fixture marks the beginning of the knockout phase where every moment carries the weight of tournament survival.",
-        "France enters this match with significant momentum after a dominant performance in Group I. They navigated their group stage campaign with conviction, securing victories against Senegal, Iraq, and Norway. Their ability to find the back of the net consistently throughout those three matches suggests a high-powered attack that will look to dictate the tempo from the opening whistle.",
-        "Sweden arrives at this stage after a varied group stage experience in Group F. Their journey included a commanding win over Tunisia, a challenging encounter against the Netherlands, and a hard-fought draw with Japan. Having navigated the complexities of their group, Sweden will look to bring that resilience to the pitch against a formidable French side.",
-        "The tactical narrative for this match centers on how Sweden\u2019s defense manages the pressure applied by the French frontline. France has demonstrated a clinical edge in their previous outings, and Sweden will need to rely on the defensive organization they displayed throughout their group stage matches to keep the scoreline tight.",
-        "As the tournament moves into the knockout rounds, the atmosphere at MetLife Stadium is expected to be electric. With both teams having proven their ability to compete on the world stage, this matchup promises to be a test of mental fortitude and tactical discipline for both squads."
+        "France arrives at this knockout stage after a dominant showing in Group I, where they secured three victories against Senegal, Iraq, and Norway. Their offensive production was consistent throughout the group phase, consistently finding the back of the net and finishing their campaign with a strong performance against Norway.",
+        "Sweden navigated a challenging Group F, which included high-scoring encounters against Tunisia and the Netherlands. After opening their tournament with a decisive win, they faced a difficult result against the Netherlands before earning a hard-fought draw against Japan to secure their path into the bracket.",
+        "This matchup pits France's group-winning momentum against a Sweden side that has proven they can generate offense in high-stakes environments. With the tournament shifting to a single-elimination format, both teams will need to balance their attacking instincts with the defensive discipline required to survive and advance."
       ],
       "bullets": [
-        "France enters the knockout stage following an undefeated run in Group I, scoring multiple goals in every group match.",
-        "Sweden looks to build on their experience against diverse styles of play encountered during their Group F campaign.",
-        "The match takes place at the New York New Jersey Stadium, providing a massive stage for this Round of 32 encounter."
+        "France enters this match undefeated after sweeping their three group stage fixtures.",
+        "Sweden qualified for the Round of 32 as one of the best third-place finishers from the group stage.",
+        "France scored a total of 10 goals across their three group stage matches."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This match is part of the Round of 32, the first stage of the knockout bracket. France qualified as the winner of Group I, while Sweden advanced as one of the best third-placed teams from the group stage. The winner of this contest will continue their journey in the 2026 World Cup."
-        }
-      ],
-      "updatedAt": "2026-06-27T13:26:22+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:14:48+00:00",
       "sourceHash": "adf41e385c23f3fb",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "82": {
       "headline": "Belgium and Senegal Clash in Round of 32",
-      "summary": "Belgium enters the Round of 32 as the winner of Group G to face Senegal, who qualified as one of the best third-placed teams.",
+      "summary": "Belgium enters the knockout stage as the winner of Group G to face Senegal, who advanced as one of the best third-place teams.",
       "story": [
-        "Belgium arrives in the knockout stage with momentum after a dominant 5-1 victory over New Zealand in their final group match. Their path to this point included a pair of draws against Egypt and Iran, showing a team that found its offensive rhythm as the group stage progressed.",
-        "Senegal enters this match looking to build on a high-scoring performance, having secured a 5-0 win against Iraq to confirm their place in the bracket. Despite facing challenges against France and Norway earlier in the tournament, their ability to put five goals past their opponent demonstrates significant attacking potential.",
-        "This Round of 32 fixture represents a clean slate for both squads. As the stakes rise in the knockout format, Belgium will aim to maintain the scoring form they discovered in their last outing, while Senegal will look to carry the confidence from their decisive victory into this encounter."
+        "Belgium arrives in the Round of 32 after a dominant final group stage performance, where they secured a 5-1 victory against New Zealand. Their path to this knockout stage included a draw against Egypt and a stalemate with Iran, showing a team that found its offensive rhythm just in time for the single-elimination format.",
+        "Senegal enters this match following a commanding 5-0 win over Iraq to close out their group play. Despite earlier challenges against France and Norway, their offensive output in the final group match suggests they have the firepower to test a Belgian defense that has been tested throughout the tournament.",
+        "This matchup pits Belgium's tactical consistency against Senegal's ability to capitalize on momentum. With both teams coming off high-scoring victories in their final group games, the focus shifts to which side can maintain that attacking intensity under the pressure of a knockout environment."
       ],
       "bullets": [
-        "Belgium finished atop Group G, while Senegal advanced as one of the best third-placed teams from the group stage.",
-        "Both teams enter the knockout round coming off their most productive offensive displays of the tournament.",
-        "This is the first time these two nations meet in the 2026 knockout bracket."
+        "Belgium finished their group campaign with a strong 5-1 win over New Zealand.",
+        "Senegal enters the knockout round following a decisive 5-0 victory against Iraq.",
+        "Belgium qualified as the winner of Group G, while Senegal advanced as one of the best third-place teams."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T17:50:22+00:00",
+      "updatedAt": "2026-06-30T18:16:47+00:00",
       "sourceHash": "48d3a0fd5e93834b",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "manual spoiler-free preview target"
     },
     "84": {
-      "headline": "Spain and Austria Clash in Round of 32 Showdown",
-      "summary": "The knockout stage kicks off at SoFi Stadium as Spain faces Austria in a high-stakes Round of 32 encounter. Both teams arrive in Inglewood looking to assert their dominance and secure a path forward in the tournament.",
+      "headline": "Spain and Austria Clash in Round of 32",
+      "summary": "Spain enters the knockout stage as Group H winners to face Group J runner-up Austria.",
       "story": [
-        "The World Cup atmosphere reaches a fever pitch as Spain and Austria prepare to meet on July 2, 2026, at the iconic SoFi Stadium in Inglewood, California. This Round of 32 matchup serves as a critical juncture for both nations, with the intensity of knockout football now taking center stage in the United States.",
-        "Spain enters this fixture as the winner of Group H, having navigated a challenging group stage that tested their tactical discipline and defensive resolve. Their journey to this stage involved a series of matches against Cabo Verde, Saudi Arabia, and Uruguay, providing them with a diverse set of challenges to prepare for the knockout rounds.",
-        "The venue, SoFi Stadium, is set to provide a spectacular backdrop for this 15:00 ET kickoff. As the tournament shifts into the single-elimination phase, the pressure on both squads to execute their game plans with precision will be at an all-time high.",
-        "Fans should look for how Spain\u2019s established group-stage identity matches up against the resilience shown by Austria throughout their own campaign. With a spot in the next round hanging in the balance, both teams will be aiming to impose their style of play early in the match."
+        "Spain arrives at this Round of 32 matchup after a steady group stage campaign. They opened with a scoreless draw against Cabo Verde before finding their rhythm with a 4-0 victory over Saudi Arabia and a narrow 1-0 win against Uruguay to secure the top spot in Group H.",
+        "Austria navigated a challenging Group J to reach this stage. Their journey included a 3-1 win over Jordan, a 2-0 loss to Argentina, and a high-scoring 3-3 draw against Algeria, showing their ability to find the back of the net in varied conditions.",
+        "This knockout encounter pits Spain's disciplined defensive form against an Austrian side that has demonstrated resilience in high-scoring affairs. With no second chances remaining in the bracket, both teams will look to capitalize on their group stage momentum to keep their tournament hopes alive."
       ],
       "bullets": [
-        "Spain enters the knockout stage after finishing atop Group H.",
-        "Austria secured their place in the Round of 32 as the runner-up from Group J.",
-        "The match takes place at SoFi Stadium in Inglewood, California, on July 2, 2026, at 15:00 ET."
+        "Spain finished Group H undefeated, conceding zero goals across their three group matches.",
+        "Austria demonstrated offensive versatility in Group J, scoring six total goals across their three matches."
       ],
-      "sections": [
-        {
-          "title": "Tactical Context",
-          "body": "Spain demonstrated a strong ability to manage games throughout their group stage run. Austria will need to be prepared for a high-intensity challenge as they look to disrupt Spain's rhythm in this crucial Round of 32 fixture."
-        }
-      ],
-      "updatedAt": "2026-06-28T13:36:17+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:17:03+00:00",
       "sourceHash": "9d9bdb0cafc9a4e8",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "80": {
-      "headline": "England and Congo DR Clash in Atlanta Round of 32",
-      "summary": "England enters the Round of 32 at Mercedes-Benz Stadium following a successful group stage campaign. They face a Congo DR side looking to make their mark in this knockout showdown. The winner of this match moves one step closer to the ultimate prize in the 2026 World Cup.",
+      "headline": "England Faces Congo DR in Round of 32 Knockout Showdown",
+      "summary": "England enters the knockout phase as Group L winners to take on Congo DR in a high-stakes Round of 32 matchup.",
       "story": [
-        "The 2026 World Cup knockout phase arrives in Atlanta as England prepares to face Congo DR in a high-stakes Round of 32 encounter. England secured their place in this stage by topping Group L, demonstrating defensive resolve and tactical discipline throughout their three group matches. Having navigated a challenging path that included matchups against Croatia, Ghana, and Panama, the Three Lions arrive at Mercedes-Benz Stadium with significant momentum.",
-        "Congo DR enters this fixture as one of the best third-place teams from the group stage, having successfully navigated the complex qualification criteria across Groups E, H, I, J, and K. Their presence in the Round of 32 reflects their resilience and ability to compete on the biggest stage. This match represents a massive opportunity for the squad to test themselves against a perennial tournament favorite in a single-elimination format.",
-        "The atmosphere in Atlanta is expected to be electric as these two nations meet on July 1st. For England, the focus will be on maintaining the consistency that saw them finish their group stage undefeated. Their ability to control the tempo of the game will be critical, especially against an opponent that has proven they can survive the pressures of tournament football.",
-        "Tactically, this match presents an intriguing contrast. England has shown they can adapt to different styles, whether it is breaking down a stubborn defense or managing a high-intensity game. Congo DR will likely look to disrupt England's rhythm, relying on their collective spirit to pull off a statement performance. With no second chances in the knockout rounds, every possession and tactical decision will carry immense weight as both teams fight for survival."
+        "England arrives at this Round of 32 encounter following a successful group stage campaign in Group L. They demonstrated both offensive capability and defensive discipline, securing victories against Croatia and Panama while holding firm in a scoreless draw against Ghana.",
+        "Congo DR steps into this knockout match looking to test their mettle against a side that navigated their group without a single defeat. As one of the best third-place finishers from the pool of Groups E, H, I, J, and K, they bring a unique challenge to the bracket.",
+        "The transition to the knockout stage shifts the dynamic significantly, as there is no room for error in this single-elimination format. England will look to maintain the momentum from their group-topping performance, while Congo DR aims to capitalize on their opportunity to advance further in the tournament."
       ],
       "bullets": [
-        "England finished at the top of Group L, entering the knockout stage with a strong record.",
-        "Congo DR advanced as one of the best third-place teams, earning their spot in the Round of 32.",
-        "The match takes place at the iconic Mercedes-Benz Stadium in Atlanta, Georgia."
+        "England finished their group stage run with two wins and one draw.",
+        "This match marks the beginning of the knockout phase for both nations.",
+        "England enters as the winner of Group L, while Congo DR qualified as a best third-place team."
       ],
-      "sections": [
-        {
-          "title": "The Stakes in Atlanta",
-          "body": "As the tournament transitions to the Round of 32, the margin for error disappears entirely. Both England and Congo DR must now perform under the pressure of a knockout format where only one team can advance. The match is scheduled for July 1st at 12:00 ET."
-        }
-      ],
-      "updatedAt": "2026-06-28T10:15:43+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:16:38+00:00",
       "sourceHash": "a3d9fd8192c39e58",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "83": {
-      "headline": "Portugal and Croatia Clash in Round of 32 Showdown",
-      "summary": "Portugal and Croatia meet at BMO Field in Toronto for a high-stakes Round of 32 matchup. Both teams enter the knockout stage after navigating their respective group campaigns as runners-up. This encounter promises to be a tactical battle as both sides look to extend their tournament journey.",
+      "headline": "Portugal and Croatia Clash in Round of 32",
+      "summary": "Portugal and Croatia meet in the Round of 32 after securing runner-up spots in their respective groups.",
       "story": [
-        "The 2026 World Cup knockout phase intensifies as Portugal and Croatia face off on July 2, 2026, at Toronto Stadium. As the runners-up from Group K and Group L respectively, both squads have fought hard to reach this stage, and now the margin for error disappears in this sudden-death environment.",
-        "Portugal arrives in Toronto following a group stage that saw them balance defensive resilience with moments of offensive dominance. Their path included a hard-fought draw against DR Congo, a commanding 5-0 victory over Uzbekistan, and a tactical stalemate against Colombia. This variety in their group results suggests a team capable of adapting their approach depending on the opponent's style.",
-        "On the other side, Croatia navigated a challenging Group L to secure their spot in the Round of 32. After an opening match against England, they demonstrated their ability to grind out results with a narrow win over Panama and a decisive victory against Ghana. Their journey to this point has been defined by their persistence in tight contests.",
-        "The venue for this clash is BMO Field, a stadium known for its intimate atmosphere, which should provide a fantastic backdrop for this knockout fixture. With the stakes at their highest, the pressure on both squads will be immense as they compete for a place in the next round of the tournament.",
-        "Tactically, this matchup is intriguing because both teams have shown they can manage different phases of play. Portugal has displayed the ability to control a game offensively, while Croatia has proven they can handle the pressure of close, physical encounters. Fans should expect a focused performance from both sides as they aim to execute their game plans perfectly."
+        "Portugal enters this knockout fixture having navigated Group K with a mixed bag of results. They opened their tournament with a draw against DR Congo, followed by a dominant 5-0 victory over Uzbekistan, and concluded their group stage with a scoreless draw against Colombia.",
+        "Croatia arrives at this stage after a rollercoaster run in Group L. Their campaign began with a defeat to England, but they managed to stabilize their form by securing consecutive victories against Panama and Ghana to punch their ticket to the knockout phase.",
+        "Both teams enter this match as runners-up from their groups, meaning neither side had a perfect path to this point. This matchup pits Portugal's ability to keep clean sheets against Croatia's recent momentum of winning back-to-back matches.",
+        "With the tournament moving into the knockout rounds, there is no room for error for either squad. Both teams will need to draw on their group stage experiences to manage the pressure of a win-or-go-home scenario."
       ],
       "bullets": [
-        "Watch how Portugal utilizes their attacking depth, which was on full display during their five-goal performance in the group stage.",
-        "Observe Croatia's midfield control, a key component in their ability to secure narrow victories throughout the group phase.",
-        "Keep an eye on the tactical adjustments made by both managers as they navigate the pressure of a knockout match at BMO Field."
+        "Portugal finished Group K as runner-up after three matches, including a high-scoring win against Uzbekistan.",
+        "Croatia enters the knockout stage on a two-match winning streak following their initial loss to England.",
+        "This is a Round of 32 knockout fixture, meaning the winner advances and the loser is eliminated."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This match is part of the Round of 32, marking the beginning of the knockout phase where every game is a must-win. Portugal qualified as the runner-up from Group K, while Croatia earned their place as the runner-up from Group L. The winner of this fixture will continue their campaign in the next round of the tournament."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will take place at BMO Field in Toronto, Ontario. Located in Canada, this stadium is set to host this critical encounter on July 2, 2026, at 19:00 ET. The atmosphere in Toronto is expected to be electric as these two European sides battle for survival."
-        }
-      ],
-      "updatedAt": "2026-06-28T10:16:22+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:17:11+00:00",
       "sourceHash": "80047cadb7019e8c",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "87": {
-      "headline": "Colombia and Ghana Clash in Kansas City Round of 32",
-      "summary": "Colombia enters the knockout stage as the winner of Group K, facing off against Ghana at Arrowhead Stadium. This Round of 32 matchup promises high stakes as both teams look to advance in the 2026 World Cup bracket. The match is scheduled for July 3, 2026, at 21:30 ET.",
+      "headline": "Colombia and Ghana Clash in Round of 32",
+      "summary": "Colombia enters the knockout stage as the winner of Group K to face Ghana in a high-stakes Round of 32 matchup.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Colombia and Ghana meet in Kansas City for a high-stakes Round of 32 encounter. Colombia arrives at this stage after a successful group campaign in Group K, where they remained unbeaten across three matches. Their journey included a strong opening victory against Uzbekistan, a narrow win over DR Congo, and a hard-fought draw against Portugal.",
-        "Ghana enters this knockout fixture as one of the best third-placed teams from the group stage. Their path to the Round of 32 was defined by resilience, featuring a victory against Panama and a defensive stalemate against England. Despite a challenging final group match against Croatia, Ghana has proven they can compete against top-tier opposition on the world stage.",
-        "Arrowhead Stadium in Kansas City serves as the backdrop for this showdown, providing an iconic venue for the knockout intensity. As the tournament shifts to a single-elimination format, the pressure on both squads to execute their game plans from the opening whistle will be immense.",
-        "Tactically, the match presents an intriguing contrast in styles. Colombia has shown the ability to break down defenses while maintaining a disciplined structure, as evidenced by their clean sheet against Portugal. Meanwhile, Ghana has demonstrated a capacity for grit and tactical flexibility, having navigated a difficult group that included high-profile opponents.",
-        "With a spot in the next round on the line, both teams will be looking to capitalize on their momentum from the group stage. Fans can expect a physical and strategic battle as these two nations vie for the opportunity to continue their tournament run in the United States."
+        "Colombia arrives at this Round of 32 fixture after a disciplined group stage campaign. They secured the top spot in Group K by defeating Uzbekistan and DR Congo, followed by a hard-fought draw against Portugal. Their ability to manage tight games will be tested as they transition into the single-elimination format.",
+        "This matchup presents a classic test of styles in the knockout bracket. Colombia has shown they can find the back of the net, while Ghana has demonstrated an ability to limit scoring opportunities for their opponents. With a spot in the next round on the line, both teams must execute their game plans with precision to survive and advance."
       ],
       "bullets": [
-        "Colombia's defensive consistency, having conceded only once during their three group stage matches.",
-        "Ghana's ability to grind out results, particularly their disciplined performance against England.",
-        "The high-pressure environment of the knockout stage at Arrowhead Stadium, which often favors teams that can manage the emotional intensity of the match."
+        "Colombia finished undefeated in Group K with two wins and one draw.",
+        "Ghana successfully kept a clean sheet against England during their group stage run.",
+        "This is the first time these two nations meet in the 2026 knockout bracket."
       ],
-      "sections": [
-        {
-          "title": "Road to the Round of 32",
-          "body": "Colombia secured their place in the knockout bracket by finishing at the top of Group K. Ghana earned their spot by qualifying as one of the best third-placed teams from the group stage, having competed in Group L."
-        },
-        {
-          "title": "Venue Context",
-          "body": "The match takes place at Arrowhead Stadium in Kansas City, Missouri. This venue is set to host a pivotal moment in the tournament as the Round of 32 begins."
-        }
-      ],
-      "updatedAt": "2026-06-28T10:17:02+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:17:43+00:00",
       "sourceHash": "a3ebdcc6ad4114b5",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "89": {
-      "headline": "Canada and Morocco Clash in Houston Round of 16 Showdown",
-      "summary": "Canada and Morocco meet at NRG Stadium on July 4th for a high-stakes Round of 16 encounter. Both teams have navigated difficult paths through the group stage and the Round of 32 to reach this pivotal knockout match.",
+      "headline": "Canada and Morocco Clash in Round of 16",
+      "summary": "Canada and Morocco meet in the Round of 16 following successful navigation through their respective group stages and opening knockout matches.",
       "story": [
-        "The 2026 World Cup reaches a fever pitch as Canada faces off against Morocco in a highly anticipated Round of 16 matchup. Set to take place at the iconic NRG Stadium in Houston, Texas, this fixture represents a critical juncture for both nations as they look to extend their tournament journey.",
-        "Canada arrives in Houston following a resilient campaign that saw them battle through diverse challenges in Group B before securing their spot in the knockout rounds. Their path included a hard-fought opening draw against Bosnia and Herzegovina, a dominant offensive display against Qatar, and a narrow result against Switzerland. Their momentum continued into the Round of 32, where they successfully navigated a tense match against South Africa.",
-        "Morocco enters this contest with equal determination, having proven their mettle throughout the group stage in Group C. Their journey featured a notable opening draw against Brazil, followed by a disciplined performance against Scotland and a high-scoring victory over Haiti. Their resilience was further tested in the Round of 32, where they faced a formidable challenge against the Netherlands.",
-        "Tactically, both teams have shown they can adapt to the pressures of tournament football. Canada has demonstrated the ability to control matches with offensive flair while maintaining defensive discipline when it matters most. Meanwhile, Morocco has showcased a balanced approach, capable of absorbing pressure and launching clinical counter-attacks, making them a dangerous opponent for any side.",
-        "As the two teams step onto the pitch in Houston on July 4th at 13:00 ET, the atmosphere promises to be electric. With a spot in the next stage on the line, every possession and tactical decision will be magnified. Fans can expect a clash of styles as both sides look to impose their will and secure a place in the next round of this historic tournament."
+        "Canada arrives at this Round of 16 matchup after a hard-fought victory over South Africa. Their tournament path has included a high-scoring win against Qatar and a resilient draw against Bosnia and Herzegovina, proving they can handle both offensive pressure and defensive challenges.",
+        "Both teams have demonstrated significant versatility in their playstyles throughout the competition. Canada has shown they can dominate when given space, while Morocco has proven to be a difficult side to break down, setting up an intriguing tactical battle for a spot in the next phase."
       ],
       "bullets": [
-        "Venue: NRG Stadium in Houston, Texas, provides the stage for this critical knockout match.",
-        "Tournament Context: This Round of 16 battle marks a significant milestone for both nations in their 2026 World Cup campaigns.",
-        "Tactical Intrigue: Watch how Canada's offensive versatility matches up against Morocco's disciplined and counter-attacking structure."
+        "Canada's road to this stage included a dominant 6-0 performance against Qatar.",
+        "Morocco remained competitive throughout their group, including a notable 1-1 draw against Brazil.",
+        "Both sides are coming off intense Round of 32 matches that tested their resolve."
       ],
-      "sections": [
-        {
-          "title": "Road to the Round of 16",
-          "body": "Canada successfully moved through their group before overcoming South Africa in the Round of 32. Morocco navigated a competitive group stage and a challenging Round of 32 fixture against the Netherlands to arrive at this stage."
-        },
-        {
-          "title": "Match Details",
-          "body": "The match is scheduled for July 4, 2026, with kickoff set for 13:00 ET. It will be held at NRG Stadium in Houston, a premier venue for this year's tournament."
-        }
-      ],
-      "updatedAt": "2026-06-30T17:43:36+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:17:51+00:00",
       "sourceHash": "807203afa4d11d70",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "90": {
-      "headline": "Paraguay Faces Knockout Challenge in Philadelphia",
-      "summary": "Paraguay prepares for a high-stakes Round of 16 clash at Lincoln Financial Field. They await the winner of Match 77 to determine their opponent in this critical knockout stage encounter.",
+      "headline": "Paraguay Enters the Round of 16",
+      "summary": "Paraguay faces the winner of Match 77 as they look to continue their journey in the knockout stage.",
       "story": [
-        "The 2026 World Cup reaches a fever pitch as Paraguay enters the Round of 16, set to take the pitch at Philadelphia Stadium. This knockout stage match on July 4th represents a significant hurdle for a team that has navigated a demanding path to reach this point in the tournament.",
-        "Paraguay's journey has been defined by resilience and tactical adaptability. Their group stage campaign saw them face diverse opposition, including matches against the United States, Turkey, and Australia, where they demonstrated an ability to grind out results and maintain defensive discipline.",
-        "Most recently, Paraguay proved their mettle in the Round of 32 by surviving a tense encounter against Germany. That match, which required immense focus and composure, served as a testament to their readiness for the pressure of single-elimination football.",
-        "While Paraguay is confirmed for this fixture, their opponent remains to be determined. The winner of Match 77 will earn the right to challenge them in Philadelphia, bringing their own unique style and momentum into this showdown.",
-        "As both teams prepare for the 17:00 ET kickoff, the atmosphere in Pennsylvania will be electric. For Paraguay, the objective is clear: execute their game plan and secure a path forward in a tournament where every minute on the field carries the weight of history."
+        "Paraguay arrives at this Round of 16 matchup after a resilient path through the tournament. Their journey has been defined by defensive grit and the ability to navigate high-pressure knockout situations, most recently demonstrated in their hard-fought contest against Germany.",
+        "While one side of the bracket is set, the identity of their opponent remains to be determined by the outcome of Match 77. This uncertainty adds a layer of tactical intrigue, as Paraguay must prepare for a challenge against an opponent that has also survived the rigors of the group stage and initial knockout rounds.",
+        "Having faced a diverse range of opponents including the United States, Turkey, and Australia, Paraguay has shown they can adapt to different styles of play. Their ability to keep games tight and remain disciplined will be essential as they look to secure a spot further into the competition."
       ],
       "bullets": [
-        "Watch how Paraguay manages the transition from their recent high-intensity knockout match to this new tactical challenge.",
-        "Keep an eye on the midfield battle, as the identity of the opponent from Match 77 will dictate the flow and pace of the game.",
-        "Observe how Paraguay utilizes their experience in close-fought matches to control the tempo at Lincoln Financial Field."
+        "Paraguay advanced to the Round of 16 following a competitive draw against Germany in the previous knockout round.",
+        "The team maintains a focus on defensive stability, having navigated group play and the Round of 32 with varied results.",
+        "The upcoming opponent is the winner of Match 77, creating a dynamic preparation period for the Paraguayan squad."
       ],
-      "sections": [
-        {
-          "title": "The Unknown Variable",
-          "body": "The identity of the opponent is the primary narrative heading into this fixture. Paraguay must remain flexible, as they prepare to face the winner of Match 77, a team that will arrive with their own set of strengths and tactical motivations."
-        }
-      ],
-      "updatedAt": "2026-06-30T17:43:45+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:18:00+00:00",
       "sourceHash": "649ee877e25db55e",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "91": {
-      "headline": "Brazil Prepares for Round of 16 Showdown at MetLife Stadium",
-      "summary": "Brazil enters the Round of 16 at MetLife Stadium to face the winner of Match 78. This knockout clash promises high stakes as the tournament intensity shifts to East Rutherford on July 5th.",
+      "headline": "Brazil Advances to Round of 16 Knockout Stage",
+      "summary": "Brazil continues their tournament journey in the Round of 16, awaiting the winner of Match 78 to determine their next opponent.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Brazil prepares to take the pitch at MetLife Stadium in East Rutherford. Having navigated through a challenging group stage and a hard-fought Round of 32 victory, the squad is now set for this Round of 16 encounter scheduled for July 5th at 16:00 ET.",
-        "Brazil's journey to this stage has been defined by a mix of resilience and offensive production. Their group stage campaign saw them open with a draw against Morocco before finding their rhythm with convincing victories over Haiti and Scotland. This momentum carried them into the Round of 32, where they secured a narrow win against Japan to earn their place in this knockout fixture.",
-        "While Brazil is confirmed for this date, their opponent remains to be determined. The winner of Match 78 will emerge to challenge the South American side, adding an element of tactical mystery to the pre-match preparation. Brazil will need to remain adaptable as they await the finalization of the bracket.",
-        "MetLife Stadium, located in the New York New Jersey region, serves as the prestigious backdrop for this knockout match. As the tournament progresses, the pressure mounts, and every decision on the pitch becomes magnified. Fans can expect a high-intensity atmosphere as these teams vie for a continuation of their World Cup journey."
+        "Brazil enters this Round of 16 matchup following a successful run through the group stage and a victory in the Round of 32. Their path included a draw against Morocco, followed by clean-sheet victories over Haiti and Scotland, and a narrow win against Japan to secure their current position.",
+        "The identity of Brazil's opponent remains to be determined, as the slot is reserved for the winner of Match 78. This uncertainty adds a layer of intrigue to the preparation, as Brazil must be ready to adapt to the specific tactical profile of whoever emerges from that contest.",
+        "Having navigated a variety of opponents already, Brazil has shown both offensive consistency and the ability to manage tight knockout games. As they move deeper into the tournament, the focus shifts to maintaining that momentum against a fresh challenger in this high-stakes knockout round."
       ],
       "bullets": [
-        "Watch how Brazil manages the transition from their recent victory over Japan to this new knockout challenge.",
-        "Keep an eye on the tactical adjustments Brazil makes once their opponent from Match 78 is officially confirmed.",
-        "Observe the atmosphere at MetLife Stadium as the tournament enters the high-stakes Round of 16 phase."
+        "Brazil remains undefeated across their group stage and Round of 32 appearances.",
+        "The opponent for this match is currently unconfirmed, pending the outcome of Match 78.",
+        "Brazil enters the Round of 16 after a 2-1 victory over Japan in the previous knockout round."
       ],
-      "sections": [
-        {
-          "title": "The Road to the Round of 16",
-          "body": "Brazil has demonstrated strong form throughout the tournament, including a 3-0 victory against Haiti and a 3-0 win over Scotland. Their most recent performance was a 2-1 result against Japan in the Round of 32, showcasing their ability to perform under knockout pressure. This consistency has been a hallmark of their campaign leading up to this match in New Jersey."
-        }
-      ],
-      "updatedAt": "2026-06-30T17:43:54+00:00",
+      "sections": [],
+      "updatedAt": "2026-06-30T18:18:07+00:00",
       "sourceHash": "00bcdd4cf7f8636a",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "manual spoiler-free preview target"
     }
   }
 };
