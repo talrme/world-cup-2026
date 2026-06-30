@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-06-30T19:12:17+00:00",
+  "generatedAt": "2026-06-30T21:09:34+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -45,10 +45,10 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 4,
       "assists": 2,
       "points": 6,
-      "matches": 3,
-      "minutes": 290,
+      "matches": 4,
+      "minutes": 299,
       "goalsPer90": 1.2,
-      "pointsPer90": 1.9
+      "pointsPer90": 1.8
     },
     {
       "rank": 4,
@@ -58,10 +58,10 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 4,
       "assists": 1,
       "points": 5,
-      "matches": 3,
-      "minutes": 226,
-      "goalsPer90": 1.6,
-      "pointsPer90": 2.0
+      "matches": 4,
+      "minutes": 234,
+      "goalsPer90": 1.5,
+      "pointsPer90": 1.9
     },
     {
       "rank": 5,
@@ -396,10 +396,10 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 2,
       "assists": 0,
       "points": 2,
-      "matches": 3,
-      "minutes": 149,
-      "goalsPer90": 1.2,
-      "pointsPer90": 1.2
+      "matches": 4,
+      "minutes": 158,
+      "goalsPer90": 1.1,
+      "pointsPer90": 1.1
     },
     {
       "rank": 31,
@@ -487,8 +487,8 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 2,
       "assists": 0,
       "points": 2,
-      "matches": 3,
-      "minutes": 286,
+      "matches": 4,
+      "minutes": 294,
       "goalsPer90": 0.6,
       "pointsPer90": 0.6
     },
@@ -578,8 +578,8 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 2,
       "points": 3,
-      "matches": 3,
-      "minutes": 296,
+      "matches": 4,
+      "minutes": 305,
       "goalsPer90": 0.3,
       "pointsPer90": 0.9
     },
@@ -591,8 +591,8 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 2,
       "points": 3,
-      "matches": 3,
-      "minutes": 303,
+      "matches": 4,
+      "minutes": 311,
       "goalsPer90": 0.3,
       "pointsPer90": 0.9
     },
@@ -650,19 +650,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 50,
-      "player": "Bradley Barcola",
-      "team": "France",
-      "position": "FW",
-      "goals": 1,
-      "assists": 1,
-      "points": 2,
-      "matches": 3,
-      "minutes": 136,
-      "goalsPer90": 0.7,
-      "pointsPer90": 1.3
-    },
-    {
-      "rank": 51,
       "player": "Luis Romo",
       "team": "Mexico",
       "position": "MID",
@@ -673,6 +660,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "minutes": 141,
       "goalsPer90": 0.6,
       "pointsPer90": 1.3
+    },
+    {
+      "rank": 51,
+      "player": "Bradley Barcola",
+      "team": "France",
+      "position": "FW",
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "matches": 4,
+      "minutes": 144,
+      "goalsPer90": 0.6,
+      "pointsPer90": 1.2
     },
     {
       "rank": 52,
@@ -890,7 +890,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 13,
       "goalsPer90": 6.9,
       "pointsPer90": 6.9
@@ -1475,7 +1475,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 218,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4

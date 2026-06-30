@@ -2549,14 +2549,16 @@
       "time": "17:00",
       "home": "France",
       "away": "Sweden",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760492",
       "homeSource": "Winner Group I",
-      "awaySource": "Best 3rd Group C/D/F/G/H"
+      "awaySource": "Best 3rd Group C/D/F/G/H",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 78,
@@ -2575,7 +2577,21 @@
       "homeSource": "Runner-up Group E",
       "awaySource": "Runner-up Group I",
       "homeScore": 1,
-      "awayScore": 2
+      "awayScore": 2,
+      "videos": {
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-06-30T21:11:05+00:00",
+          "title": "Ivory Coast vs Norway Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=rPebJKCPjK0",
+          "channel": "FOX Sports",
+          "durationText": "13 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-06-30T21:11:05+00:00"
+      }
     },
     {
       "id": 79,
@@ -3157,6 +3173,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-30T19:12:16+00:00",
+  "bracketUpdatedAt": "2026-06-30T21:09:34+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
