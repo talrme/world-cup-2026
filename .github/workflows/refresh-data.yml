@@ -193,10 +193,19 @@ jobs:
         run: |
           mkdir -p refresh-output
 
-          schedule_updates=$(grep -E "^Schedule updates applied:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
-          bracket_updates=$(grep -E "^Bracket matches changed:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
-          video_links_saved=$(grep -E "^New/updated direct video links saved:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/.*: //")
-          ai_summary=$(grep -E "^AI insights summary:" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "s/^AI insights summary: //")
+          extract_log_value() {
+            local pattern="$1"
+            local cleanup="$2"
+            if [[ ! -f refresh-output/refresh.log ]]; then
+              return 0
+            fi
+            grep -E "$pattern" refresh-output/refresh.log 2>/dev/null | tail -n 1 | sed -E "$cleanup" || true
+          }
+
+          schedule_updates=$(extract_log_value "^(\[[0-9:]+\] )?Schedule updates applied:" "s/^(\[[0-9:]+\] )?Schedule updates applied: //")
+          bracket_updates=$(extract_log_value "^(\[[0-9:]+\] )?Bracket matches changed:" "s/^(\[[0-9:]+\] )?Bracket matches changed: //")
+          video_links_saved=$(extract_log_value "^(\[[0-9:]+\] )?New/updated direct video links saved:" "s/^(\[[0-9:]+\] )?New\/updated direct video links saved: //")
+          ai_summary=$(extract_log_value "^(\[[0-9:]+\] )?AI insights summary:" "s/^(\[[0-9:]+\] )?AI insights summary: //")
           schedule_updates=${schedule_updates:-unknown}
           bracket_updates=${bracket_updates:-unknown}
           video_links_saved=${video_links_saved:-unknown}
