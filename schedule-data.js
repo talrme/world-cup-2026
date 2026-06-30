@@ -2557,7 +2557,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760492",
       "homeSource": "Winner Group I",
       "awaySource": "Best 3rd Group C/D/F/G/H",
-      "homeScore": 0,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -3173,6 +3173,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-30T21:09:34+00:00",
+  "bracketUpdatedAt": "2026-06-30T22:44:25+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
