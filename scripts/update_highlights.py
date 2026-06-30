@@ -60,18 +60,22 @@ def parse_kickoff(match: dict[str, Any]) -> dt.datetime | None:
     )
 
 
-def is_video_eligible(match: dict[str, Any], include_all: bool) -> bool:
+def is_video_eligible(match: dict[str, Any], include_all: bool, recent_hours: float | None) -> bool:
     if include_all:
-        return True
-
-    if match.get("status") == "completed":
         return True
 
     kickoff = parse_kickoff(match)
     if not kickoff:
         return False
 
-    return utc_now() - kickoff.astimezone(dt.timezone.utc) > dt.timedelta(hours=2, minutes=30)
+    elapsed = utc_now() - kickoff.astimezone(dt.timezone.utc)
+    if elapsed <= dt.timedelta(hours=2, minutes=30):
+        return False
+
+    if recent_hours is not None and elapsed > dt.timedelta(hours=recent_hours):
+        return False
+
+    return True
 
 
 def normalized_needles(team: str) -> list[str]:
@@ -644,7 +648,11 @@ def comparable_video(value: dict[str, Any] | None) -> dict[str, Any]:
 
 
 def refresh_match(
-    match: dict[str, Any], force: bool, dry_run: bool, delay: float
+    match: dict[str, Any],
+    force: bool,
+    dry_run: bool,
+    delay: float,
+    max_searches: int | None = None,
 ) -> tuple[int, int, int]:
     videos = match.get("videos") if isinstance(match.get("videos"), dict) else {}
     checked = utc_now().isoformat(timespec="seconds")
@@ -653,6 +661,9 @@ def refresh_match(
     checked_count = 0
 
     for kind in ("extended", "short"):
+        if max_searches is not None and checked_count >= max_searches:
+            break
+
         existing = videos.get(kind)
         if existing and existing.get("url") and not force:
             try:
@@ -717,6 +728,13 @@ def main() -> int:
     parser.add_argument("--dry-run", action="store_true", help="Search without writing changes")
     parser.add_argument("--sync-only", action="store_true", help="Only regenerate schedule-data.js")
     parser.add_argument("--sleep", type=float, default=1.2, help="Seconds to wait between YouTube requests")
+    parser.add_argument(
+        "--recent-hours",
+        type=float,
+        default=72,
+        help="Only search matches whose kickoff was within this many hours. Use --all for a full sweep.",
+    )
+    parser.add_argument("--max-searches", type=int, default=None, help="Stop after this many video-slot searches")
     args = parser.parse_args()
 
     data = json.loads(args.data.read_text(encoding="utf-8"))
@@ -731,11 +749,24 @@ def main() -> int:
     eligible = 0
 
     for match in data["matches"]:
-        if not is_video_eligible(match, args.all):
+        if not is_video_eligible(match, args.all, args.recent_hours):
             continue
 
+        remaining_searches = None
+        if args.max_searches is not None:
+            remaining_searches = max(0, args.max_searches - checked)
+            if remaining_searches <= 0:
+                print(f"Video search cap reached: {args.max_searches}")
+                break
+
         eligible += 1
-        match_checked, match_found, match_updated = refresh_match(match, args.force, args.dry_run, args.sleep)
+        match_checked, match_found, match_updated = refresh_match(
+            match,
+            args.force,
+            args.dry_run,
+            args.sleep,
+            remaining_searches,
+        )
         checked += match_checked
         found += match_found
         updated += match_updated

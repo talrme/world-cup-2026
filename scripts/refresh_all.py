@@ -21,6 +21,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Refresh schedule/results, bracket, player stats, YouTube highlights, and AI insights.")
     parser.add_argument("--all-videos", action="store_true", help="Search videos for every match")
     parser.add_argument("--force-videos", action="store_true", help="Replace existing direct video links")
+    parser.add_argument("--video-recent-hours", type=float, default=None, help="Only search recent video candidates within this many hours")
+    parser.add_argument("--video-max-searches", type=int, default=None, help="Maximum video-slot searches this run")
     parser.add_argument("--dry-run-schedule", action="store_true", help="Dry-run the schedule refresh only")
     parser.add_argument("--dry-run-bracket", action="store_true", help="Dry-run the ESPN bracket refresh only")
     parser.add_argument("--skip-ai", action="store_true", help="Skip AI insight generation")
@@ -29,6 +31,9 @@ def main() -> int:
     parser.add_argument("--force-all-ai", action="store_true", help="Regenerate all AI insight targets subject to cost/call caps")
     parser.add_argument("--ai-max-calls", type=int, default=None, help="Maximum Gemini calls this run")
     parser.add_argument("--ai-max-cost", type=float, default=None, help="Maximum estimated paid-tier Gemini cost this run")
+    parser.add_argument("--ai-max-matches", type=int, default=None, help="Maximum AI match targets this run")
+    parser.add_argument("--ai-max-groups", type=int, default=None, help="Maximum AI group targets this run")
+    parser.add_argument("--ai-max-players", type=int, default=None, help="Maximum AI player targets this run")
     parser.add_argument(
         "--ai-match-content",
         choices=["all", "previews", "recaps"],
@@ -66,6 +71,10 @@ def main() -> int:
         video_command.append("--all")
     if args.force_videos:
         video_command.append("--force")
+    if args.video_recent_hours is not None:
+        video_command.extend(["--recent-hours", str(args.video_recent_hours)])
+    if args.video_max_searches is not None:
+        video_command.extend(["--max-searches", str(args.video_max_searches)])
     video_status = run(video_command)
     if video_status != 0:
         return video_status
@@ -84,6 +93,12 @@ def main() -> int:
         ai_command.extend(["--max-calls", str(args.ai_max_calls)])
     if args.ai_max_cost is not None:
         ai_command.extend(["--max-estimated-cost", str(args.ai_max_cost)])
+    if args.ai_max_matches is not None:
+        ai_command.extend(["--max-matches", str(args.ai_max_matches)])
+    if args.ai_max_groups is not None:
+        ai_command.extend(["--max-groups", str(args.ai_max_groups)])
+    if args.ai_max_players is not None:
+        ai_command.extend(["--max-players", str(args.ai_max_players)])
     for match_id in args.ai_match_id:
         ai_command.extend(["--match-id", str(match_id)])
     for group in args.ai_group:

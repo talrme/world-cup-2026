@@ -63,7 +63,10 @@ jobs:
       COMMIT_CHANGES: ${{ github.event_name != 'workflow_dispatch' || inputs.commit_changes }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-3.1-flash-lite
-      GEMINI_SLEEP_SECONDS: "10"
+      GEMINI_SLEEP_SECONDS: "6"
+      SCHEDULED_AI_MAX_CALLS: "4"
+      SCHEDULED_VIDEO_MAX_SEARCHES: "8"
+      SCHEDULED_VIDEO_RECENT_HOURS: "48"
 
     steps:
       - name: Check out repository
@@ -95,6 +98,14 @@ jobs:
           fi
           if [[ "$FORCE_ALL_AI" == "true" ]]; then
             args+=(--force-all-ai)
+          fi
+          if [[ "$GITHUB_EVENT_NAME" == "schedule" ]]; then
+            args+=(--video-max-searches "$SCHEDULED_VIDEO_MAX_SEARCHES")
+            args+=(--video-recent-hours "$SCHEDULED_VIDEO_RECENT_HOURS")
+            args+=(--ai-max-calls "$SCHEDULED_AI_MAX_CALLS")
+            args+=(--ai-match-content recaps)
+            args+=(--ai-max-groups 0)
+            args+=(--ai-max-players 0)
           fi
 
           {

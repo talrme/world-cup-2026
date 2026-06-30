@@ -129,6 +129,7 @@ python3 scripts/update_highlights.py --all
 python3 scripts/update_highlights.py --force
 python3 scripts/update_highlights.py --dry-run
 python3 scripts/update_highlights.py --sync-only
+python3 scripts/update_highlights.py --recent-hours 48 --max-searches 8
 ```
 
 Useful schedule options:
@@ -231,13 +232,19 @@ If the first run fails while pushing a refresh commit, check **Settings → Acti
 
 What it does:
 
-- Runs `python scripts/refresh_all.py` every 15 minutes at `:07`, `:22`, `:37`, and `:52` UTC. Scheduled runs use AI `standard` mode.
+- Runs `python scripts/refresh_all.py` every 15 minutes at `:07`, `:22`, `:37`, and `:52` UTC. Scheduled runs use capped AI/video settings so they stay short.
 - Refreshes the knockout bracket from ESPN's World Cup scoreboard JSON before player stats, highlights, and AI insights run.
 - Lets you run the same refresh manually from GitHub.
 - Writes the full refresh log into the Actions run output.
 - Adds a run summary with the trigger, changed files, diff summary, elapsed refresh runtime in seconds/minutes, and a final one-line commit/no-op verdict.
 - Uploads a `refresh-output-*` artifact for each run, retained for 30 days.
 - Commits refreshed schedule, player stats, and AI insight data back to `main` only when those files changed.
+
+Frequent scheduled runs are intentionally lean:
+
+- Video search is capped at 8 video-slot searches and limited to matches from the last 48 hours. Use manual `all_videos` or local `python3 scripts/update_highlights.py --all` for a slower full sweep.
+- AI is capped at 4 Gemini calls per scheduled run and refreshes match recaps only, with group and player AI disabled for frequent jobs. Broader preview/group/player backfills should be run manually or locally when needed.
+- `GEMINI_SLEEP_SECONDS` is 6 seconds in Actions, so even four AI calls stay comfortably below the workflow timeout.
 
 AI insight automation rules:
 
