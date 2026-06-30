@@ -2575,7 +2575,7 @@ window.WORLD_CUP_DATA = {
       "homeSource": "Runner-up Group E",
       "awaySource": "Runner-up Group I",
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "id": 79,
@@ -3156,6 +3156,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-30T17:12:23+00:00",
+  "bracketUpdatedAt": "2026-06-30T18:27:03+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
