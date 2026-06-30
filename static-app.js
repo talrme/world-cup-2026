@@ -661,6 +661,7 @@
     const open = options.open || (allowActiveOpen && activeInsightKey === key) ? " open" : "";
     const actionClosed = options.actionClosed || "Read insight";
     const actionOpen = options.actionOpen || "Hide insight";
+    const skipIntro = options.skipIntro === true;
 
     const bullets = Array.isArray(insight.bullets)
       ? insight.bullets
@@ -691,6 +692,8 @@
           .join("")
       : "";
     const updated = insight.updatedAt ? formatDataTimestamp(insight.updatedAt) : "";
+    const hasMainBody = Boolean(story || bullets || sections);
+    const showIntro = !skipIntro || !hasMainBody;
 
     return `
       <details class="ai-insight ai-insight-${escapeHtml(kind)}"${open}>
@@ -702,8 +705,8 @@
           </span>
         </summary>
         <div>
-          <strong>${escapeHtml(insight.headline)}</strong>
-          <p>${escapeHtml(insight.summary)}</p>
+          ${showIntro ? `<strong>${escapeHtml(insight.headline)}</strong>` : ""}
+          ${showIntro ? `<p>${escapeHtml(insight.summary)}</p>` : ""}
           ${story ? `<div class="ai-insight-story">${story}</div>` : ""}
           ${bullets && !story ? `<ul>${bullets}</ul>` : ""}
           ${sections && !story ? `<div class="ai-insight-sections">${sections}</div>` : ""}
@@ -1568,12 +1571,14 @@
           open: previewOpen,
           actionClosed: "Read preview",
           actionOpen: "Hide preview",
+          skipIntro: true,
         })}
         ${recap
           ? renderAiInsight("match", match.id, "Match Recap", {
               open: recapOpen,
               actionClosed: "Read recap",
               actionOpen: "Hide recap",
+              skipIntro: true,
             })
           : recapEligible
             ? renderRecapPendingNote()

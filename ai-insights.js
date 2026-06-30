@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-30T17:44:44+00:00",
+  "generatedAt": "2026-06-30T17:50:22+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -6356,26 +6356,24 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "82": {
-      "headline": "Belgium and Senegal Clash in Seattle Round of 32 Showdown",
-      "summary": "Belgium and Senegal meet at Lumen Field for a high-stakes Round of 32 knockout match. Both teams enter this fixture looking to build on their group stage performances as they fight for a spot in the next round.",
+      "headline": "Belgium and Senegal Clash in Round of 32",
+      "summary": "Belgium enters the Round of 32 as the winner of Group G to face Senegal, who qualified as one of the best third-placed teams.",
       "story": [
-        "The 2026 World Cup reaches a critical juncture as Belgium and Senegal face off in the Round of 32 at Seattle Stadium. As the winner of Group G, Belgium arrives in the Pacific Northwest with momentum from their final group stage performance, while Senegal secured their place in the knockout bracket as one of the best third-placed teams from their respective group path.",
-        "Belgium's journey to this stage saw them navigate a challenging Group G. After opening their tournament with draws against Egypt and Iran, they found their offensive rhythm in a commanding victory over New Zealand. This late-group resurgence will be a key storyline as they look to maintain that attacking intensity against a resilient Senegalese side.",
-        "Senegal enters this knockout encounter battle-tested after a rigorous group stage campaign. Despite facing tough tests against France and Norway, their emphatic 5-0 victory over Iraq demonstrated their ability to dominate when the pressure is on. This offensive firepower makes them a dangerous opponent for any team in the knockout bracket.",
-        "The atmosphere at Lumen Field in Seattle is expected to be electric for this 16:00 ET kickoff. With the tournament shifting into a win-or-go-home format, both squads must balance the tactical discipline required for knockout football with the urgency needed to break down a well-organized defense.",
-        "Tactically, this match presents an intriguing contrast in styles. Belgium will look to control the tempo and utilize the confidence gained from their final group match, while Senegal will aim to disrupt that flow and capitalize on their ability to find the back of the net in bunches. Every possession will be vital in this high-stakes environment."
+        "Belgium arrives in the knockout stage with momentum after a dominant 5-1 victory over New Zealand in their final group match. Their path to this point included a pair of draws against Egypt and Iran, showing a team that found its offensive rhythm as the group stage progressed.",
+        "Senegal enters this match looking to build on a high-scoring performance, having secured a 5-0 win against Iraq to confirm their place in the bracket. Despite facing challenges against France and Norway earlier in the tournament, their ability to put five goals past their opponent demonstrates significant attacking potential.",
+        "This Round of 32 fixture represents a clean slate for both squads. As the stakes rise in the knockout format, Belgium will aim to maintain the scoring form they discovered in their last outing, while Senegal will look to carry the confidence from their decisive victory into this encounter."
       ],
       "bullets": [
-        "Belgium enters the knockout stage as the winner of Group G, carrying momentum from a strong finish to their group schedule.",
-        "Senegal qualified for this round as a best third-placed team, showing significant offensive potential in their final group match against Iraq.",
-        "The match takes place at the iconic Lumen Field in Seattle, providing a unique backdrop for this Round of 32 clash."
+        "Belgium finished atop Group G, while Senegal advanced as one of the best third-placed teams from the group stage.",
+        "Both teams enter the knockout round coming off their most productive offensive displays of the tournament.",
+        "This is the first time these two nations meet in the 2026 knockout bracket."
       ],
       "sections": [],
-      "updatedAt": "2026-06-28T10:15:56+00:00",
+      "updatedAt": "2026-06-30T17:50:22+00:00",
       "sourceHash": "48d3a0fd5e93834b",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "preview source or prompt changed"
+      "refreshReason": "manual spoiler-free preview target"
     },
     "84": {
       "headline": "Spain and Austria Clash in Round of 32 Showdown",
