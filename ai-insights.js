@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-06-30T16:32:05+00:00",
+  "generatedAt": "2026-06-30T17:15:26+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -175,21 +175,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "43": {
       "headline": "Norway Edges Senegal in Five-Goal Thriller",
-      "summary": "Norway secured a hard-fought 3-2 victory over Senegal at MetLife Stadium in a pivotal Group I clash. The result proved critical for Norway's progression, keeping them in contention for the knockout stages.",
+      "summary": "Norway secured a hard-fought 3-2 victory over Senegal at MetLife Stadium, a result that proved pivotal in the Group I standings. This high-scoring encounter kept Norway in a strong position during the group stage while leaving Senegal with significant work to do in their final fixture.",
       "story": [
-        "In a high-stakes encounter at MetLife Stadium in East Rutherford, Norway and Senegal delivered an intense battle that kept fans on the edge of their seats. The match, which ended 3-2 in favor of Norway, was one of the most competitive fixtures in Group I, showcasing the fine margins that define World Cup play.",
-        "For Norway, the win was a testament to their offensive resilience. Having already opened their campaign with a strong performance against Iraq, this result solidified their position in the group standings. The three points earned here were essential in navigating a difficult group that also included the formidable French side.",
-        "Senegal, despite falling just short in this encounter, displayed significant attacking intent throughout the 90 minutes. While the loss placed them under pressure, they remained a dangerous side, which they later proved by dismantling Iraq in their final group match. The defeat to Norway ultimately forced Senegal to rely on their goal difference and overall performance to seek a path forward in the tournament.",
-        "Following the conclusion of the group stage, Norway finished with 6 points, securing their spot in the Round of 32 against Ivory Coast. Senegal, finishing with 3 points, looked ahead to their own knockout challenge against Belgium, carrying the lessons learned from this narrow defeat into the next phase of the competition."
+        "The atmosphere at MetLife Stadium in East Rutherford was electric as Norway and Senegal faced off in a crucial Matchday 2 clash. Both sides looked to assert their dominance in Group I, and the resulting 3-2 scoreline reflected an open, attacking game that kept fans on the edge of their seats throughout the evening.",
+        "Norway managed to find the decisive edge in a back-and-forth contest, effectively capitalizing on their opportunities to secure all three points. For Senegal, the loss was a difficult hurdle, though the competitive nature of the match demonstrated their offensive capabilities despite the narrow defeat.",
+        "This result played a major role in shaping the final group dynamics. With Norway taking the win, they maintained momentum heading into their final group stage match against France. Meanwhile, the loss forced Senegal to focus on securing a decisive result in their subsequent match against Iraq to keep their tournament hopes alive."
       ],
       "bullets": [
-        "Norway's 3-2 win was the turning point in their successful bid to reach the Round of 32.",
-        "The match was played at MetLife Stadium, a key venue in the New Jersey region.",
-        "The result left Senegal with 3 points, forcing them to finish their group campaign with a dominant 5-0 win over Iraq to stay in contention."
+        "Norway's 3-2 win provided them with critical points that helped secure their path out of Group I.",
+        "The match at MetLife Stadium featured five total goals, showcasing the high-intensity attacking play present in this group.",
+        "Following this result, Senegal was forced to chase a massive win in their final group game against Iraq to remain in contention."
       ],
       "sections": [],
-      "updatedAt": "2026-06-28T07:01:16+00:00",
-      "sourceHash": "31449c0a28ce9662",
+      "updatedAt": "2026-06-30T17:14:53+00:00",
+      "sourceHash": "20bc3dd7e8277b08",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -238,19 +237,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "34": {
       "headline": "Germany Edges Ivory Coast in Group E Thriller",
-      "summary": "Germany secured a hard-fought 2-1 victory over Ivory Coast at BMO Field in Toronto. This pivotal Matchday 2 result proved essential in shaping the final standings of Group E.",
+      "summary": "Germany defeated Ivory Coast 2-1 in a hard-fought Group E match at BMO Field in Toronto. This result proved pivotal in shaping the group standings, as both teams eventually advanced to the knockout stages.",
       "story": [
-        "The clash at BMO Field served as a high-stakes encounter between two teams vying for dominance in Group E. Germany entered the match with momentum, and their narrow 2-1 win over Ivory Coast ultimately played a significant role in their ability to finish atop the group standings.",
-        "Following this result, both teams continued their campaigns with distinct paths. Germany eventually navigated their way to the knockout stages, while Ivory Coast also successfully advanced from the group, setting up their own journey into the Round of 32."
+        "The clash between Germany and Ivory Coast on June 20, 2026, served as a defining moment in the Group E campaign. Played at BMO Field in Toronto, the match saw Germany secure a narrow 2-1 victory, providing them with critical momentum early in the tournament.",
+        "For Germany, the win was a testament to their offensive depth, building on their dominant performance in the opening match against Curacao. By taking all three points against a resilient Ivory Coast side, they solidified their position at the top of the group table.",
+        "The final group standings saw Germany finish at the top with 6 points, while Ivory Coast also finished with 6 points, trailing only on goal difference. This match was a key indicator of the high stakes in Group E, where every goal proved essential for final seeding."
       ],
       "bullets": [
-        "Germany's 2-1 victory was the decisive factor that allowed them to finish first in Group E over Ivory Coast.",
-        "Both teams finished the group stage with 6 points, making the head-to-head result in Toronto the key differentiator.",
-        "The match took place at BMO Field in Toronto, serving as a critical fixture in the Matchday 2 schedule."
+        "Germany secured a 2-1 victory, moving them to the top of Group E.",
+        "The match was hosted at BMO Field in Toronto, Ontario.",
+        "Both Germany and Ivory Coast successfully navigated the group stage to reach the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T16:27:39+00:00",
-      "sourceHash": "ec37d393418d1673",
+      "updatedAt": "2026-06-30T17:15:02+00:00",
+      "sourceHash": "ea377131952004ef",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -661,24 +661,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "55": {
-      "headline": "Ivory Coast Secures Knockout Berth with Victory Over Curacao",
-      "summary": "Final: Curacao 0, Ivory Coast 2. Ivory Coast defeated Curacao 2-0 in their final Group E match, successfully clinching a spot in the Round of 32. The result at Lincoln Financial Field in Philadelphia ensured Ivory Coast finished second in the group standings with 6 points.",
+      "headline": "Ivory Coast Secures Knockout Berth with Win Over Curacao",
+      "summary": "Final: Curacao 0, Ivory Coast 2. Ivory Coast defeated Curacao 2-0 in their final Group E match at Lincoln Financial Field. The victory ensured Ivory Coast finished with six points, successfully advancing to the Round of 32.",
       "story": [
-        "Ivory Coast delivered a professional performance in Philadelphia, overcoming Curacao with a 2-0 scoreline to confirm their progression from Group E. The victory was essential for the team's tournament ambitions, allowing them to navigate a tight group and secure a place in the next stage.",
-        "For Curacao, the match marked the end of their group stage campaign. Despite a hard-fought goalless draw against Ecuador in their previous outing, they were unable to break down the Ivory Coast defense, finishing the group with one point from their three matches.",
-        "With the group stage now concluded, Ivory Coast turns its attention to the knockout phase. They are scheduled to face Norway in the Round of 32 on June 30, a challenge that will test their resolve as they look to build on the momentum generated by this win."
+        "Ivory Coast delivered a professional performance in Philadelphia, overcoming Curacao with a 2-0 result to solidify their position in the tournament. By controlling the tempo and securing all three points, they finished their group stage campaign with a strong 6-point tally.",
+        "For Curacao, the match marked the end of a challenging group stage journey. Despite a resilient 0-0 draw against Ecuador earlier in the tournament, they were unable to find the back of the net against a disciplined Ivorian defense, concluding their run with one point.",
+        "The result had significant implications for the final Group E standings. With Germany also finishing on six points, Ivory Coast\u2019s victory ensured they remained in the hunt for top-tier positioning, ultimately setting them up for a Round of 32 clash against Norway.",
+        "The atmosphere at Lincoln Financial Field provided a fitting backdrop for this decisive Matchday 3 fixture. As the group stage concluded, the win served as a vital momentum builder for the Ivorian squad as they transitioned into the high-stakes knockout phase."
       ],
       "bullets": [
         "Ivory Coast finished second in Group E with 6 points, trailing Germany only on goal difference.",
-        "The 2-0 win confirmed Ivory Coast's advancement to the Round of 32.",
-        "Curacao concluded their tournament run with a single point earned against Ecuador."
+        "The 2-0 win confirmed Ivory Coast's progression to the Round of 32.",
+        "Curacao finished their tournament campaign at the bottom of the group with 1 point."
       ],
       "sections": [],
-      "updatedAt": "2026-06-28T00:04:23+00:00",
-      "sourceHash": "6215b08f09f32a4b",
+      "updatedAt": "2026-06-30T17:14:44+00:00",
+      "sourceHash": "f6f3d9569c772758",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "56": {
       "headline": "Ecuador Upsets Germany in Group E Finale",
@@ -788,23 +789,24 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "61": {
       "headline": "France Dominates Norway to Clinch Group I Perfection",
-      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway at Boston Stadium to finish their group stage campaign with a perfect nine points. The result cements France's position at the top of Group I, while Norway advances to the knockout stage as the group runner-up.",
+      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway at Gillette Stadium to finish their group stage campaign with a perfect nine points. The result solidified France's position at the top of Group I, while Norway advanced to the knockout stages as the group runner-up.",
       "story": [
-        "France delivered a clinical performance in Foxborough, Massachusetts, asserting their dominance in Group I with a comprehensive 4-1 win. By controlling the tempo and capitalizing on their attacking opportunities, France maintained their unblemished record in the tournament, finishing the group stage with three wins from three matches.",
-        "For Norway, the defeat marked their first loss of the competition following hard-fought victories against Iraq and Senegal. Despite the setback, Norway successfully navigated the group phase, securing six points and confirming their place in the Round of 32.",
-        "The match at Gillette Stadium served as the final test for both sides before transitioning to knockout football. France\u2019s offensive efficiency throughout the group stage, totaling 10 goals scored against only two conceded, underscores their status as a formidable force heading into the next round.",
-        "With the group stage now concluded, France turns its attention to a Round of 32 clash against Sweden on June 30. Meanwhile, Norway faces a challenging path forward, scheduled to meet Ivory Coast on the same day as they look to rebound from this result."
+        "France delivered a clinical performance in Foxborough, dismantling Norway 4-1 in the final matchday of Group I. The victory served as a statement of intent, as France navigated the group stage with three consecutive wins, scoring 10 goals while conceding only two throughout the opening phase.",
+        "For Norway, the defeat was a reality check after a hard-fought tournament run, but it did not derail their progression. Having secured six points from their earlier victories against Iraq and Senegal, Norway finished comfortably in second place, ensuring their spot in the Round of 32.",
+        "The match at Gillette Stadium showcased the offensive depth of the French squad, who consistently pressured the Norwegian defense throughout the afternoon. By securing the top spot in Group I, France earned a favorable path heading into the knockout rounds, where they are now scheduled to face Sweden.",
+        "Norway now pivots their attention to the Round of 32, where they face a challenging matchup against Ivory Coast. Despite the heavy loss to France, the Norwegian team remains in the hunt, carrying the momentum from their earlier group stage successes into the high-stakes environment of single-elimination play."
       ],
       "bullets": [
-        "France finished Group I with a perfect 9-point record and a +8 goal differential.",
-        "Norway secured second place in the group with 6 points, advancing to face Ivory Coast in the Round of 32."
+        "France finished Group I with a perfect 3-0-0 record and a +8 goal differential.",
+        "Norway secured second place in the group with six points, setting up a Round of 32 clash with Ivory Coast.",
+        "The 4-1 scoreline marked the highest-scoring output against Norway in their group stage campaign."
       ],
       "sections": [],
-      "updatedAt": "2026-06-29T20:23:15+00:00",
-      "sourceHash": "586728e78f753f11",
+      "updatedAt": "2026-06-30T17:14:36+00:00",
+      "sourceHash": "ebf1c8fa3ae8c1b6",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "62": {
       "headline": "Senegal Dominates Iraq 5-0 to Secure Knockout Berth",
@@ -1169,21 +1171,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "18": {
       "headline": "Norway Dominates Iraq in Group I Opener",
-      "summary": "Final: Iraq 1, Norway 4. Norway secured a convincing 4-1 victory over Iraq at Boston Stadium to kick off their Group I campaign. This result set the tone for Norway's successful progression through the group stage.",
+      "summary": "Final: Iraq 1, Norway 4. Norway secured a decisive 4-1 victory over Iraq in their Group I opening match at Gillette Stadium. This result set the tone for Norway's successful group stage campaign, ultimately helping them secure a spot in the knockout rounds.",
       "story": [
-        "Norway opened their World Cup journey with a clinical performance at Gillette Stadium, dismantling Iraq 4-1. The match served as a critical statement of intent for the Norwegian side, who utilized the opening fixture to establish momentum in a competitive Group I.",
-        "For Iraq, the match was a difficult introduction to the tournament. Despite their efforts, they were unable to contain the Norwegian attack, eventually finishing their group campaign without a point after subsequent losses to France and Senegal.",
-        "The victory proved vital for Norway's tournament trajectory. By securing three points early, they built the necessary foundation to navigate a challenging group that also featured a formidable French side.",
-        "Following this win, Norway went on to edge out Senegal 3-2 in a high-stakes encounter, ultimately finishing second in the group standings. Their performance across these opening matches earned them a spot in the Round of 32, where they are now scheduled to face Ivory Coast."
+        "Norway opened their tournament account in emphatic fashion at Boston Stadium, defeating Iraq 4-1. The match, held on June 16, 2026, saw Norway assert their offensive capabilities early, establishing a strong foundation for their progression through Group I.",
+        "For Iraq, the match proved to be a difficult start to their World Cup journey. Despite managing to find the back of the net once, they struggled to contain the Norwegian attack throughout the 90 minutes in Foxborough.",
+        "This victory was a critical component of Norway's eventual six-point finish in the group standings. By securing three points in this opening fixture, Norway remained competitive alongside France, eventually moving on to a Round of 32 clash against Ivory Coast.",
+        "The group concluded with France at the top of the table with nine points, followed by Norway with six, Senegal with three, and Iraq with zero. Norway's ability to capitalize on this opening matchup was essential in navigating a group that featured high-scoring encounters throughout the stage."
       ],
       "bullets": [
-        "Norway's 4-1 win provided the essential points needed to secure second place in Group I.",
-        "Iraq finished the group stage at the bottom of the table, struggling to find defensive stability throughout their three matches.",
-        "The result launched Norway into a successful group campaign, culminating in a Round of 32 matchup against Ivory Coast."
+        "Norway's 4-1 win provided the necessary momentum to finish second in Group I.",
+        "The match was held at Gillette Stadium in Foxborough, Massachusetts.",
+        "Iraq finished the group stage at the bottom of the table, while Norway advanced to the knockout phase."
       ],
       "sections": [],
-      "updatedAt": "2026-06-26T22:00:06+00:00",
-      "sourceHash": "16f3a8e47ce5e917",
+      "updatedAt": "2026-06-30T17:15:10+00:00",
+      "sourceHash": "fc2e8e6f62a08650",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1292,22 +1294,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "11": {
-      "headline": "Ivory Coast Edges Ecuador in Group E Opener",
-      "summary": "Ivory Coast secured a narrow 1-0 victory over Ecuador in their Group E opening match at Lincoln Financial Field. This result proved pivotal for the group standings, setting a competitive tone for both teams as they navigated the tournament.",
+      "headline": "Ivory Coast Edges Past Ecuador in Group E Opener",
+      "summary": "Ivory Coast secured a narrow 1-0 victory over Ecuador in their opening Group E match at Lincoln Financial Field. This result proved critical for Ivory Coast, setting a positive tone for their campaign in Philadelphia.",
       "story": [
-        "The match held at Philadelphia's Lincoln Financial Field saw a tight defensive battle that ultimately favored Ivory Coast. By clinching all three points in their first match, the team established early momentum in a group that would eventually see them finish with six points.",
-        "For Ecuador, the loss represented a challenging start to their campaign. Despite the setback, the team remained resilient throughout the group stage, eventually earning a crucial win against Germany in their third match to stay in contention.",
-        "The outcome of this opening fixture had long-term implications for the Group E table. With Germany and Ivory Coast finishing level on points, every goal and result from the opening day was scrutinized as the teams vied for position.",
-        "Following this match, both sides continued their tournament journeys with varying degrees of success. Ivory Coast successfully advanced to the Round of 32, while Ecuador's performance across the group stage earned them a spot in the knockout rounds as well."
+        "The match in Philadelphia served as a vital opening statement for both teams. Ivory Coast managed to break the deadlock, clinching a 1-0 result that provided them with three essential points early in the tournament.",
+        "This victory acted as the foundation for Ivory Coast's group stage journey, which eventually saw them finish with six points. Their performance in this opening match was instrumental in keeping them in contention for the knockout stages.",
+        "Ecuador, despite the initial setback, showed resilience throughout the remainder of the group phase, eventually securing a spot in the Round of 32 after a dramatic final match against Germany."
       ],
       "bullets": [
-        "Ivory Coast's 1-0 win provided the necessary foundation to finish the group stage with six points.",
-        "The match was hosted at Lincoln Financial Field in Philadelphia, serving as a key venue for Group E action.",
-        "The result contributed to a highly competitive group dynamic, ultimately impacting the final standings for both Ivory Coast and Ecuador."
+        "Ivory Coast claimed a 1-0 win to start their group campaign with maximum points.",
+        "The match was hosted at Lincoln Financial Field in Philadelphia.",
+        "This result was a key factor in the final Group E standings, where Ivory Coast finished tied for points with Germany."
       ],
       "sections": [],
-      "updatedAt": "2026-06-27T23:59:48+00:00",
-      "sourceHash": "3956743e8057fa97",
+      "updatedAt": "2026-06-30T17:15:17+00:00",
+      "sourceHash": "36d02b584cc2ecad",
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1663,6 +1664,26 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "9d871a4069b0c8c7",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
+    },
+    "78": {
+      "headline": "Ivory Coast and Norway Deadlocked in Round of 32 Stalemate",
+      "summary": "Ivory Coast and Norway played to a 0-0 draw in their Round of 32 encounter at AT&T Stadium. The defensive battle saw neither side break the deadlock, leaving the knockout stage tie evenly poised.",
+      "story": [
+        "The Round of 32 clash between Ivory Coast and Norway at AT&T Stadium in Arlington proved to be a tightly contested affair. Despite the high stakes of the knockout stage, neither team was able to find the back of the net, resulting in a scoreless draw.",
+        "Ivory Coast entered this match after a strong group stage campaign in Group E, where they secured victories against Ecuador and Curacao, alongside a narrow defeat to Germany. Their path to the knockout rounds showcased a balanced team capable of both defensive resilience and clinical finishing.",
+        "Norway arrived in Texas following a dynamic group stage performance in Group I. They opened their tournament with a dominant 4-1 win over Iraq and a thrilling 3-2 victory against Senegal, though they faced a setback in their final group match against France.",
+        "As the tournament progresses, both nations will need to reflect on this stalemate. The inability to secure a win in regulation time adds a layer of complexity to their journey, as they look to build on their respective group stage successes in the remainder of the competition."
+      ],
+      "bullets": [
+        "Ivory Coast and Norway finished their Round of 32 match in a 0-0 draw at AT&T Stadium.",
+        "Both teams entered the knockout stage after finishing as runners-up in their respective groups."
+      ],
+      "sections": [],
+      "updatedAt": "2026-06-30T17:15:26+00:00",
+      "sourceHash": "935b07fac43b406c",
+      "promptHash": "9d871a4069b0c8c7",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

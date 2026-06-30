@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T16:21:08+00:00",
+  "generatedAt": "2026-06-30T17:12:24+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -72,9 +72,9 @@
       "assists": 0,
       "points": 4,
       "matches": 4,
-      "minutes": 208,
-      "goalsPer90": 1.7,
-      "pointsPer90": 1.7
+      "minutes": 219,
+      "goalsPer90": 1.6,
+      "pointsPer90": 1.6
     },
     {
       "rank": 6,
@@ -397,9 +397,9 @@
       "assists": 0,
       "points": 2,
       "matches": 4,
-      "minutes": 164,
-      "goalsPer90": 1.1,
-      "pointsPer90": 1.1
+      "minutes": 175,
+      "goalsPer90": 1.0,
+      "pointsPer90": 1.0
     },
     {
       "rank": 31,
@@ -1273,19 +1273,6 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 94,
-      "player": "Marcus Pedersen",
-      "team": "Norway",
-      "position": "DEF",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 142,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
-    },
-    {
       "rank": 95,
       "player": "Hyeon-Gyu Oh",
       "team": "South Korea",
@@ -1320,6 +1307,19 @@
       "assists": 0,
       "points": 1,
       "matches": 3,
+      "minutes": 153,
+      "goalsPer90": 0.6,
+      "pointsPer90": 0.6
+    },
+    {
+      "rank": 96,
+      "player": "Marcus Pedersen",
+      "team": "Norway",
+      "position": "DEF",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
       "minutes": 153,
       "goalsPer90": 0.6,
       "pointsPer90": 0.6
@@ -1729,19 +1729,6 @@
     },
     {
       "rank": 122,
-      "player": "Franck Kessie",
-      "team": "Ivory Coast",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 288,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.3
-    },
-    {
-      "rank": 123,
       "player": "Nizar Al Rashdan",
       "team": "Jordan",
       "position": "MID",
@@ -1754,7 +1741,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 124,
+      "rank": 123,
       "player": "Ali Olwan",
       "team": "Jordan",
       "position": "FW",
@@ -1763,6 +1750,19 @@
       "points": 1,
       "matches": 3,
       "minutes": 297,
+      "goalsPer90": 0.3,
+      "pointsPer90": 0.3
+    },
+    {
+      "rank": 124,
+      "player": "Franck Kessie",
+      "team": "Ivory Coast",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
+      "minutes": 299,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
     },

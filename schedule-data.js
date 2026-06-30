@@ -2566,14 +2566,16 @@ window.WORLD_CUP_DATA = {
       "time": "13:00",
       "home": "Ivory Coast",
       "away": "Norway",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760490",
       "homeSource": "Runner-up Group E",
-      "awaySource": "Runner-up Group I"
+      "awaySource": "Runner-up Group I",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 79,
@@ -3154,6 +3156,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-30T16:21:07+00:00",
+  "bracketUpdatedAt": "2026-06-30T17:12:23+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
