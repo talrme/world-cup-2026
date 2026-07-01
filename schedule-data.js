@@ -2648,14 +2648,16 @@ window.WORLD_CUP_DATA = {
       "time": "12:00",
       "home": "England",
       "away": "Congo DR",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "atlanta",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760495",
       "homeSource": "Winner Group L",
-      "awaySource": "Best 3rd Group E/H/I/J/K"
+      "awaySource": "Best 3rd Group E/H/I/J/K",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "id": 81,
@@ -3205,6 +3207,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-01T04:49:16+00:00",
+  "bracketUpdatedAt": "2026-07-01T16:36:06+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

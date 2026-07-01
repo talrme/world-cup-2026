@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T04:52:54+00:00",
+  "generatedAt": "2026-07-01T16:40:36+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -442,22 +442,20 @@
       "refreshReason": "source or prompt changed"
     },
     "46": {
-      "headline": "England and Ghana deadlock in scoreless Group L draw",
-      "summary": "England and Ghana played to a 0-0 draw, a result that kept both sides in contention as they navigated the final stages of Group L.",
+      "headline": "England and Ghana deadlock in scoreless Group L stalemate",
+      "summary": "England and Ghana played to a 0-0 draw, a result that kept the Group L standings tight during the second matchday.",
       "story": [
-        "The match between England and Ghana ended in a stalemate, with neither side able to break the deadlock. The defensive effort from both teams ensured that points were shared in this Matchday 2 encounter.",
-        "For England, the result served as a bridge between their opening victory over Croatia and their subsequent win against Panama, helping them secure the top spot in Group L with 7 points.",
-        "Ghana remained competitive throughout the group stage, finishing with 4 points after this draw and a narrow loss to Croatia. Their performance in this fixture was vital in keeping their tournament hopes alive as they moved toward the knockout rounds.",
-        "Both teams have now advanced to the Round of 32, where England is set to face Congo DR, while Ghana prepares for a challenging matchup against Colombia."
+        "England and Ghana were unable to find the back of the net, finishing their second group stage match in a scoreless draw. The result prevented either side from pulling away in a competitive Group L.",
+        "For Ghana, the point was a hard-fought outcome that kept their tournament hopes alive heading into the final round of group fixtures. England, meanwhile, maintained their position at the top of the table despite the offensive frustration.",
+        "This stalemate proved pivotal for the group dynamic, as it kept the path to the knockout stages open for multiple teams. Following the conclusion of the group stage, England advanced to the Round of 32, while Ghana also secured a spot in the knockout bracket."
       ],
       "bullets": [
-        "The 0-0 draw was the only match in Group L that did not feature a goal.",
-        "England finished at the top of the group table with 7 points, while Ghana secured 4 points.",
-        "Both nations successfully navigated the group stage to reach the Round of 32."
+        "The 0-0 draw left England at the top of Group L with 7 points after three matches.",
+        "Ghana finished the group stage with 4 points, successfully advancing to the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:34:57+00:00",
-      "sourceHash": "4fb269470708a379",
+      "updatedAt": "2026-07-01T16:40:20+00:00",
+      "sourceHash": "af47f530043ec350",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -865,23 +863,24 @@
     },
     "67": {
       "headline": "England Clinches Group L Top Spot with Win Over Panama",
-      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama to finish their group stage campaign at the top of the table.",
+      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory against Panama to finish at the top of Group L with seven points.",
       "story": [
-        "England solidified their position at the summit of Group L by dispatching Panama 2-0 in their final group match. The result ensured England finished the group phase undefeated with seven points from their three fixtures, having previously beaten Croatia and drawn with Ghana.",
-        "For Panama, the defeat marked the end of a difficult tournament run where they finished at the bottom of the group without securing a point or finding the back of the net. Despite the pressure, they were unable to overcome an England side that showed clinical efficiency when it mattered most.",
-        "With the group stage now concluded, England looks ahead to the Round of 32. Their strong performance in Group L has set up a knockout match against Congo DR, which is scheduled for July 1."
+        "England closed out their group stage campaign with a professional 2-0 win over Panama, ensuring they advanced to the knockout rounds as the leaders of Group L. The result left England with two wins and a draw from their three matches, totaling seven points and a plus-four goal difference.",
+        "For Panama, the match marked a difficult end to their tournament run. They finished at the bottom of the group with zero points and failed to find the back of the net in any of their three fixtures, conceding four goals across the group stage.",
+        "England's performance in the group was anchored by their strong opening 4-2 win against Croatia and a disciplined defensive effort in a scoreless draw against Ghana. By topping the group, England moved forward to face Congo DR in the Round of 32.",
+        "The final standings saw Croatia take second place with six points, followed by Ghana with four points. England's consistency throughout the group stage provided them with the necessary momentum to navigate a competitive bracket."
       ],
       "bullets": [
-        "England finished Group L with 7 points, 6 goals scored, and only 2 conceded.",
-        "Panama concluded their tournament campaign with 0 points and a -4 goal difference.",
-        "England advances to face Congo DR in the Round of 32 on July 1."
+        "England finished undefeated in Group L with 7 points from 3 matches.",
+        "Panama concluded their tournament campaign without scoring a goal.",
+        "England advanced to the Round of 32 to face Congo DR."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:22:23+00:00",
-      "sourceHash": "fc5b84f7998c5b4a",
+      "updatedAt": "2026-07-01T16:40:12+00:00",
+      "sourceHash": "2b52b84d25d395ee",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match recap target"
+      "refreshReason": "source or prompt changed"
     },
     "68": {
       "headline": "Croatia Edges Past Ghana to Secure Knockout Berth",
@@ -1026,21 +1025,25 @@
       "refreshReason": "source or prompt changed"
     },
     "22": {
-      "headline": "England opens Group L with high-scoring win over Croatia",
-      "summary": "England secured a 4-2 victory over Croatia in their opening match, setting the tone for their successful group campaign.",
+      "headline": "England Opens Group L with High-Scoring Win Over Croatia",
+      "summary": "England secured a 4-2 victory over Croatia in their opening match of Group L, setting the tone for their campaign.",
       "story": [
-        "England kicked off their tournament in explosive fashion, putting four goals past Croatia in a 4-2 win. This result proved to be the decisive factor in the group standings, as England eventually finished at the top of Group L with seven points.",
-        "For Croatia, the loss forced them to battle through the remainder of the group stage. They responded well, securing narrow victories over Panama and Ghana to finish as runners-up with six points.",
-        "The implications of this opening match were significant for the knockout bracket. England's top-place finish earned them a Round of 32 matchup against Congo DR, while Croatia advanced as the runner-up to face Portugal."
+        "England kicked off their tournament with an impressive offensive display, putting four goals past Croatia in a 4-2 result. The match proved to be a pivotal tone-setter for Group L, establishing England as a potent attacking threat early in the group stage.",
+        "For Croatia, the loss forced an immediate adjustment in their approach for the remainder of the group fixtures. Despite the setback, they remained competitive throughout the opening round, eventually finishing second in the group with 6 points.",
+        "This result was the catalyst for England's successful group run, where they ultimately topped the table with 7 points. Following this match, both teams navigated the rest of the group stage to secure their spots in the knockout rounds."
       ],
       "bullets": [
-        "England finished first in Group L with 7 points, while Croatia followed in second with 6 points.",
-        "The 4-2 scoreline in this match was the highest-scoring game in the group.",
-        "England advanced to meet Congo DR in the Round of 32, while Croatia moved on to face Portugal."
+        "England's four-goal performance provided a significant boost to their goal difference, which helped them secure the top spot in Group L.",
+        "The 4-2 scoreline stood as the highest-scoring match for both teams during their group stage campaigns."
       ],
-      "sections": [],
-      "updatedAt": "2026-06-30T18:38:08+00:00",
-      "sourceHash": "c5768ae3f85886d2",
+      "sections": [
+        {
+          "title": "Group L Implications",
+          "body": "England finished at the top of the group with 7 points, while Croatia followed in second place with 6 points. This opening match result was instrumental in determining the final seeding for the knockout phase."
+        }
+      ],
+      "updatedAt": "2026-07-01T16:40:28+00:00",
+      "sourceHash": "ba2ec64faa4e2c78",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1591,6 +1594,26 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
+    },
+    "80": {
+      "headline": "Congo DR Pulls Off Stunning Upset Over England",
+      "summary": "Final: England 0, Congo DR 1. Congo DR eliminated England from the tournament with a shock 1-0 victory in the Round of 32.",
+      "story": [
+        "In one of the most surprising results of the knockout stage, Congo DR secured a narrow 1-0 win over England to advance to the next round. Entering the match as the winner of Group L, England was heavily favored to progress, but they were unable to break down a resilient Congo DR side that capitalized on their opportunity.",
+        "England's tournament run comes to an abrupt end after a campaign that saw them finish atop their group with wins over Croatia and Panama, along with a draw against Ghana. Despite their solid group stage performance, the pressure of the knockout format proved too much as they failed to find the back of the net in this decisive fixture.",
+        "For Congo DR, the victory marks a historic achievement, as they move forward as one of the best third-place finishers from the group stage to claim a spot in the Round of 16. Their defensive discipline and clinical execution in this match have effectively reshaped the bracket, sending a clear message to the remaining contenders."
+      ],
+      "bullets": [
+        "Congo DR advanced to the next round of the knockout stage with a 1-0 victory.",
+        "England was eliminated despite finishing first in Group L during the group stage.",
+        "This result marks a major upset in the Round of 32, ending England's tournament campaign."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-01T16:40:36+00:00",
+      "sourceHash": "7b6ad0abfb3ff6cd",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {
