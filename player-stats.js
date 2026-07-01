@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-01T22:06:38+00:00",
+  "generatedAt": "2026-07-01T23:40:53+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -78,19 +78,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 6,
-      "player": "Ismaila Sarr",
-      "team": "Senegal",
-      "position": "FW",
-      "goals": 4,
-      "assists": 1,
-      "points": 5,
-      "matches": 4,
-      "minutes": 378,
-      "goalsPer90": 1.0,
-      "pointsPer90": 1.2
-    },
-    {
-      "rank": 7,
       "player": "Jose Vinicius Junior",
       "team": "Brazil",
       "position": "FW",
@@ -99,6 +86,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 5,
       "matches": 4,
       "minutes": 398,
+      "goalsPer90": 0.9,
+      "pointsPer90": 1.1
+    },
+    {
+      "rank": 7,
+      "player": "Ismaila Sarr",
+      "team": "Senegal",
+      "position": "FW",
+      "goals": 4,
+      "assists": 1,
+      "points": 5,
+      "matches": 4,
+      "minutes": 419,
       "goalsPer90": 0.9,
       "pointsPer90": 1.1
     },
@@ -260,19 +260,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 20,
-      "player": "Romelu Lukaku",
-      "team": "Belgium",
-      "position": "FW",
-      "goals": 2,
-      "assists": 1,
-      "points": 3,
-      "matches": 4,
-      "minutes": 173,
-      "goalsPer90": 1.0,
-      "pointsPer90": 1.6
-    },
-    {
-      "rank": 21,
       "player": "Ruben Vargas",
       "team": "Switzerland",
       "position": "MID",
@@ -285,7 +272,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.4
     },
     {
-      "rank": 22,
+      "rank": 21,
       "player": "Riyad Mahrez",
       "team": "Algeria",
       "position": "MID",
@@ -294,6 +281,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 3,
       "matches": 3,
       "minutes": 214,
+      "goalsPer90": 0.8,
+      "pointsPer90": 1.3
+    },
+    {
+      "rank": 22,
+      "player": "Romelu Lukaku",
+      "team": "Belgium",
+      "position": "FW",
+      "goals": 2,
+      "assists": 1,
+      "points": 3,
+      "matches": 4,
+      "minutes": 215,
       "goalsPer90": 0.8,
       "pointsPer90": 1.3
     },
@@ -410,8 +410,8 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 3,
       "matches": 4,
-      "minutes": 383,
-      "goalsPer90": 0.5,
+      "minutes": 401,
+      "goalsPer90": 0.4,
       "pointsPer90": 0.7
     },
     {
@@ -572,6 +572,19 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 44,
+      "player": "Youri Tielemans",
+      "team": "Belgium",
+      "position": "MID",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "matches": 4,
+      "minutes": 438,
+      "goalsPer90": 0.4,
+      "pointsPer90": 0.4
+    },
+    {
+      "rank": 45,
       "player": "Iliman-Cheikh Ndiaye",
       "team": "Senegal",
       "position": "FW",
@@ -584,7 +597,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 2.0
     },
     {
-      "rank": 45,
+      "rank": 46,
       "player": "Nathan-Dylan Saliba",
       "team": "Canada",
       "position": "MID",
@@ -597,7 +610,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.3
     },
     {
-      "rank": 46,
+      "rank": 47,
       "player": "Mohamed Salah",
       "team": "Egypt",
       "position": "MID",
@@ -610,7 +623,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.2
     },
     {
-      "rank": 47,
+      "rank": 48,
       "player": "Breel Embolo",
       "team": "Switzerland",
       "position": "FW",
@@ -623,7 +636,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.0
     },
     {
-      "rank": 48,
+      "rank": 49,
       "player": "Julio Enciso",
       "team": "Paraguay",
       "position": "FW",
@@ -636,7 +649,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.7
     },
     {
-      "rank": 49,
+      "rank": 50,
       "player": "Alexander Isak",
       "team": "Sweden",
       "position": "FW",
@@ -649,7 +662,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.7
     },
     {
-      "rank": 50,
+      "rank": 51,
       "player": "Viktor Gyokeres",
       "team": "Sweden",
       "position": "FW",
@@ -662,7 +675,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.7
     },
     {
-      "rank": 51,
+      "rank": 52,
       "player": "Promise David",
       "team": "Canada",
       "position": "FW",
@@ -675,7 +688,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 2.1
     },
     {
-      "rank": 52,
+      "rank": 53,
       "player": "Soufiane Rahimi",
       "team": "Morocco",
       "position": "FW",
@@ -688,7 +701,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.9
     },
     {
-      "rank": 53,
+      "rank": 54,
       "player": "Sebastian Berhalter",
       "team": "United States",
       "position": "MID",
@@ -701,7 +714,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.0
     },
     {
-      "rank": 54,
+      "rank": 55,
       "player": "Baris Yilmaz",
       "team": "Turkey",
       "position": "FW",
@@ -714,7 +727,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.9
     },
     {
-      "rank": 55,
+      "rank": 56,
       "player": "Luis Romo",
       "team": "Mexico",
       "position": "MID",
@@ -727,7 +740,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.8
     },
     {
-      "rank": 56,
+      "rank": 57,
       "player": "Petar Sucic",
       "team": "Croatia",
       "position": "MID",
@@ -740,7 +753,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.8
     },
     {
-      "rank": 57,
+      "rank": 58,
       "player": "Mousa Tamari",
       "team": "Jordan",
       "position": "FW",
@@ -753,7 +766,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.8
     },
     {
-      "rank": 58,
+      "rank": 59,
       "player": "Alex Freeman",
       "team": "United States",
       "position": "DEF",
@@ -766,7 +779,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.8
     },
     {
-      "rank": 59,
+      "rank": 60,
       "player": "Mostafa Ziko",
       "team": "Egypt",
       "position": "FW",
@@ -779,7 +792,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.7
     },
     {
-      "rank": 60,
+      "rank": 61,
       "player": "In-Beom Hwang",
       "team": "South Korea",
       "position": "MID",
@@ -792,7 +805,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 61,
+      "rank": 62,
       "player": "Felix Nmecha",
       "team": "Germany",
       "position": "MID",
@@ -805,7 +818,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 62,
+      "rank": 63,
       "player": "Luis Diaz",
       "team": "Colombia",
       "position": "FW",
@@ -818,7 +831,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 63,
+      "rank": 64,
       "player": "Kaishu Sano",
       "team": "Japan",
       "position": "MID",
@@ -831,7 +844,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 64,
+      "rank": 65,
       "player": "Nathaniel Brown",
       "team": "Germany",
       "position": "DEF",
@@ -844,7 +857,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 65,
+      "rank": 66,
       "player": "Keito Nakamura",
       "team": "Japan",
       "position": "MID",
@@ -857,7 +870,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.5
     },
     {
-      "rank": 66,
+      "rank": 67,
       "player": "Matias Galarza",
       "team": "Paraguay",
       "position": "MID",
@@ -870,7 +883,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.5
     },
     {
-      "rank": 67,
+      "rank": 68,
       "player": "Virgil van Dijk",
       "team": "Netherlands",
       "position": "DEF",
@@ -883,7 +896,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.4
     },
     {
-      "rank": 68,
+      "rank": 69,
       "player": "Achraf Hakimi",
       "team": "Morocco",
       "position": "DEF",
@@ -896,7 +909,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.4
     },
     {
-      "rank": 69,
+      "rank": 70,
       "player": "Kaan Ayhan",
       "team": "Turkey",
       "position": "DEF",
@@ -909,7 +922,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 7.5
     },
     {
-      "rank": 70,
+      "rank": 71,
       "player": "Mattias Svanberg",
       "team": "Sweden",
       "position": "MID",
@@ -922,7 +935,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 3.5
     },
     {
-      "rank": 71,
+      "rank": 72,
       "player": "Jaminton Campaz",
       "team": "Colombia",
       "position": "MID",
@@ -935,7 +948,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 3.1
     },
     {
-      "rank": 72,
+      "rank": 73,
       "player": "Mahmoud Saber",
       "team": "Egypt",
       "position": "MID",
@@ -948,7 +961,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 2.0
     },
     {
-      "rank": 73,
+      "rank": 74,
       "player": "Sasa Kalajdzic",
       "team": "Austria",
       "position": "FW",
@@ -961,7 +974,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.9
     },
     {
-      "rank": 74,
+      "rank": 75,
       "player": "Ahmed Benbouali",
       "team": "Algeria",
       "position": "FW",
@@ -974,7 +987,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.7
     },
     {
-      "rank": 75,
+      "rank": 76,
       "player": "Fiston Mayele",
       "team": "DR Congo",
       "position": "FW",
@@ -987,7 +1000,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.6
     },
     {
-      "rank": 76,
+      "rank": 77,
       "player": "Rafael Leao",
       "team": "Portugal",
       "position": "FW",
@@ -1000,7 +1013,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.4
     },
     {
-      "rank": 77,
+      "rank": 78,
       "player": "Giovani Lo Celso",
       "team": "Argentina",
       "position": "MID",
@@ -1013,7 +1026,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.4
     },
     {
-      "rank": 78,
+      "rank": 79,
       "player": "Hasan Al Haydos",
       "team": "Qatar",
       "position": "FW",
@@ -1026,7 +1039,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.3
     },
     {
-      "rank": 79,
+      "rank": 80,
       "player": "Helio Varela",
       "team": "Cape Verde",
       "position": "FW",
@@ -1039,7 +1052,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.2
     },
     {
-      "rank": 80,
+      "rank": 81,
       "player": "Jovo Lukic",
       "team": "Bosnia and Herzegovina",
       "position": "FW",
@@ -1052,7 +1065,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.2
     },
     {
-      "rank": 81,
+      "rank": 82,
       "player": "Gessime Yassine",
       "team": "Morocco",
       "position": "FW",
@@ -1065,7 +1078,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.2
     },
     {
-      "rank": 82,
+      "rank": 83,
       "player": "Mateo Chavez",
       "team": "Mexico",
       "position": "DEF",
@@ -1078,7 +1091,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.1
     },
     {
-      "rank": 83,
+      "rank": 84,
       "player": "Alexis Saelemaekers",
       "team": "Belgium",
       "position": "FW",
@@ -1091,7 +1104,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.0
     },
     {
-      "rank": 84,
+      "rank": 85,
       "player": "Hazem Mastouri",
       "team": "Tunisia",
       "position": "FW",
@@ -1104,7 +1117,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.0
     },
     {
-      "rank": 85,
+      "rank": 86,
       "player": "Alvaro Fidalgo",
       "team": "Mexico",
       "position": "MID",
@@ -1117,7 +1130,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 1.0
     },
     {
-      "rank": 86,
+      "rank": 87,
       "player": "Gabriel Martinelli",
       "team": "Brazil",
       "position": "FW",
@@ -1130,7 +1143,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.9
     },
     {
-      "rank": 87,
+      "rank": 88,
       "player": "Thelonious Aasgaard",
       "team": "Norway",
       "position": "MID",
@@ -1143,7 +1156,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.9
     },
     {
-      "rank": 87,
+      "rank": 88,
       "player": "Derrick Luckassen",
       "team": "Ghana",
       "position": "DEF",
@@ -1156,7 +1169,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.9
     },
     {
-      "rank": 88,
+      "rank": 89,
       "player": "Giovanni Reyna",
       "team": "United States",
       "position": "MID",
@@ -1169,7 +1182,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.9
     },
     {
-      "rank": 89,
+      "rank": 90,
       "player": "Nikola Vlasic",
       "team": "Croatia",
       "position": "MID",
@@ -1182,7 +1195,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.8
     },
     {
-      "rank": 90,
+      "rank": 91,
       "player": "Petar Musa",
       "team": "Croatia",
       "position": "FW",
@@ -1195,7 +1208,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.8
     },
     {
-      "rank": 91,
+      "rank": 92,
       "player": "Ante Budimir",
       "team": "Croatia",
       "position": "FW",
@@ -1208,7 +1221,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.8
     },
     {
-      "rank": 92,
+      "rank": 93,
       "player": "Auston Trusty",
       "team": "United States",
       "position": "DEF",
@@ -1221,7 +1234,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.7
     },
     {
-      "rank": 93,
+      "rank": 94,
       "player": "Aymen Hussein",
       "team": "Iraq",
       "position": "FW",
@@ -1234,7 +1247,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.7
     },
     {
-      "rank": 93,
+      "rank": 94,
       "player": "Mahmoud Trezeguet",
       "team": "Egypt",
       "position": "MID",
@@ -1247,7 +1260,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.7
     },
     {
-      "rank": 94,
+      "rank": 95,
       "player": "Alex Baena",
       "team": "Spain",
       "position": "MID",
@@ -1260,7 +1273,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 95,
+      "rank": 96,
       "player": "Leo Ostigard",
       "team": "Norway",
       "position": "DEF",
@@ -1273,7 +1286,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 96,
+      "rank": 97,
       "player": "Hyeon-Gyu Oh",
       "team": "South Korea",
       "position": "FW",
@@ -1286,7 +1299,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 96,
+      "rank": 97,
       "player": "Nico Schlotterbeck",
       "team": "Germany",
       "position": "DEF",
@@ -1299,7 +1312,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 97,
+      "rank": 98,
       "player": "Lamine Yamal",
       "team": "Spain",
       "position": "MID",
@@ -1312,7 +1325,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 98,
+      "rank": 99,
       "player": "Brian Cipenga",
       "team": "DR Congo",
       "position": "FW",
@@ -1321,19 +1334,6 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 1,
       "matches": 4,
       "minutes": 160,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
-    },
-    {
-      "rank": 99,
-      "player": "Ibrahim Mbaye",
-      "team": "Senegal",
-      "position": "FW",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 162,
       "goalsPer90": 0.6,
       "pointsPer90": 0.6
     },
@@ -1407,6 +1407,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "player": "Marcus Rashford",
       "team": "England",
       "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
+      "minutes": 203,
+      "goalsPer90": 0.4,
+      "pointsPer90": 0.4
+    },
+    {
+      "rank": 103,
+      "player": "Ibrahim Mbaye",
+      "team": "Senegal",
+      "position": "FW",
       "goals": 1,
       "assists": 0,
       "points": 1,
@@ -1950,19 +1963,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 137,
-      "player": "Youri Tielemans",
-      "team": "Belgium",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 396,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.2
-    },
-    {
-      "rank": 138,
       "player": "Gonzalo Plata",
       "team": "Ecuador",
       "position": "FW",
@@ -1975,7 +1975,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.2
     },
     {
-      "rank": 139,
+      "rank": 138,
       "player": "Jan Paul van Hecke",
       "team": "Netherlands",
       "position": "DEF",

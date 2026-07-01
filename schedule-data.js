@@ -2684,7 +2684,7 @@ window.WORLD_CUP_DATA = {
       "time": "16:00",
       "home": "Belgium",
       "away": "Senegal",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "seattle",
       "offset": "-04:00",
@@ -2692,8 +2692,22 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760493",
       "homeSource": "Winner Group G",
       "awaySource": "Best 3rd Group A/E/H/I/J",
-      "homeScore": 2,
-      "awayScore": 2
+      "homeScore": 3,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-01T23:44:15+00:00",
+          "title": "Belgium vs Senegal Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=OJ84ZgReAsE",
+          "channel": "FOX Sports",
+          "durationText": "19 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-01T23:44:15+00:00"
+      }
     },
     {
       "id": 83,
@@ -2887,13 +2901,14 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-06",
       "time": "20:00",
       "home": "Winner Match 81",
-      "away": "Winner Match 82",
+      "away": "Belgium",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "seattle",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760507"
+      "espnEventId": "760507",
+      "awaySource": "Winner Match 82"
     },
     {
       "id": 95,
@@ -3210,6 +3225,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-01T22:06:37+00:00",
+  "bracketUpdatedAt": "2026-07-01T23:40:52+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

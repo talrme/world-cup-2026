@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-01T22:12:24+00:00",
+  "generatedAt": "2026-07-01T23:45:40+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -62,21 +62,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "38": {
-      "headline": "Belgium and Iran finish in scoreless stalemate",
-      "summary": "Belgium and Iran played to a 0-0 draw in their Group G matchup, leaving both sides searching for more clinical finishing.",
+      "headline": "Belgium and Iran play to scoreless stalemate",
+      "summary": "Belgium and Iran battled to a 0-0 draw in their Group G encounter, leaving both sides searching for more clinical finishing.",
       "story": [
-        "The tactical battle between Belgium and Iran resulted in a defensive deadlock, with neither side able to break the deadlock throughout the 90 minutes. Both teams struggled to convert their opportunities, ultimately sharing the points in a result that kept the group standings tight.",
-        "For Belgium, the draw was their second consecutive stalemate in the group stage, following their opening 1-1 result against Egypt. The team eventually found their offensive rhythm later in the tournament, securing a dominant 5-1 victory over New Zealand to help solidify their standing.",
-        "Iran also found themselves in a series of tight contests, as this 0-0 draw followed their 2-2 opening match against New Zealand. Their defensive resilience was a consistent theme throughout the group phase, culminating in another scoreless draw against Egypt in their final group fixture.",
-        "Ultimately, the point earned in this match contributed to Belgium finishing at the top of Group G with 5 points. Iran concluded their group campaign with 3 points, remaining competitive but unable to secure the win needed to climb higher in the table."
+        "The match between Belgium and Iran ended in a 0-0 deadlock, a result that tightened the competition within Group G. Neither side was able to break the defensive lines, resulting in a frustrating evening for both teams as they looked to secure crucial points.",
+        "For Belgium, the draw followed an opening match stalemate against Egypt, putting early pressure on them to find their rhythm in the group stage. The lack of goals here meant they had to look toward their final fixture against New Zealand to truly assert their dominance and secure a path forward.",
+        "Iran, meanwhile, proved difficult to break down after their high-scoring draw with New Zealand in Matchday 1. By holding Belgium scoreless, they kept their own tournament hopes alive, though the inability to find a winner meant their fate remained precarious heading into the final group games."
       ],
       "bullets": [
-        "The 0-0 draw was part of a trend of tight, low-scoring defensive performances for Iran in the group stage.",
-        "Belgium used this result as a building block, eventually advancing to the knockout rounds as Group G winners."
+        "The 0-0 result left both teams without a win in their second group match.",
+        "Belgium's inability to score here contrasted with their later offensive outburst against New Zealand.",
+        "This draw was a key factor in keeping Group G competitive until the final matchday."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T22:11:05+00:00",
-      "sourceHash": "aaa6bc625ebe5e0a",
+      "updatedAt": "2026-07-01T23:45:25+00:00",
+      "sourceHash": "0d2fefe170494ead",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -165,19 +165,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "43": {
       "headline": "Norway Edges Senegal in Five-Goal Thriller",
-      "summary": "Norway secured a vital 3-2 victory over Senegal in their Group I encounter, keeping their momentum strong in the early stages of the tournament.",
+      "summary": "Norway secured a vital 3-2 victory over Senegal, a result that proved instrumental in their successful navigation through Group I.",
       "story": [
-        "Norway claimed a narrow 3-2 win against Senegal, a result that proved instrumental in their successful navigation of Group I. By securing these three points, Norway established a solid foundation that eventually propelled them to a second-place finish in the group standings with six points.",
-        "For Senegal, the defeat was a challenging hurdle in a group dominated by France. Despite the loss, Senegal continued to fight throughout the group stage, eventually finishing with three points and demonstrating their offensive capabilities with a dominant 5-0 win over Iraq in their final group fixture.",
-        "The outcome of this match helped clarify the pecking order in Group I, where France ultimately took the top spot. Norway's ability to edge out Senegal ensured they remained ahead of their opponents in the final table, setting the stage for their subsequent progression into the knockout rounds."
+        "The match was a high-scoring affair that saw Norway narrowly overcome Senegal 3-2. This result was a key turning point in Group I, providing Norway with the points necessary to eventually secure their place in the knockout stages.",
+        "For Senegal, the defeat added significant pressure to their final group match against Iraq. While they responded emphatically in that subsequent game with a 5-0 win, the loss to Norway ultimately left them vulnerable in the final group standings.",
+        "Norway's campaign continued to evolve after this result, leading them to a Round of 32 victory over Ivory Coast. Their journey eventually set up a high-stakes Round of 16 meeting with Brazil.",
+        "Senegal's tournament run concluded in the Round of 32, where they were narrowly defeated 3-2 by Belgium after advancing as one of the best third-placed teams."
       ],
       "bullets": [
-        "Norway finished second in Group I with six points, while Senegal ended their group campaign with three points.",
-        "This high-scoring match was a key factor in Norway's path to the Round of 32."
+        "Norway's win was the difference-maker in their group progression to the knockout rounds.",
+        "Senegal finished Group I with 3 points, eventually qualifying for the Round of 32 as a best third-placed team."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T22:10:54+00:00",
-      "sourceHash": "b3047bad5c4842ee",
+      "updatedAt": "2026-07-01T23:45:17+00:00",
+      "sourceHash": "7bb83ed7459ddf42",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -761,21 +762,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "62": {
       "headline": "Senegal Dominates Iraq in 5-0 Group Stage Finale",
-      "summary": "Senegal secured a commanding 5-0 victory over Iraq in their final Group I match, finishing their group campaign with three points.",
+      "summary": "Senegal secured a commanding 5-0 victory over Iraq to close out their Group I campaign.",
       "story": [
-        "Senegal delivered a clinical performance to close out their group stage, putting five goals past Iraq without conceding. The result provided a significant boost to their goal difference, which proved vital in keeping their tournament hopes alive.",
-        "While the win was comprehensive, it was Senegal's only victory of the group stage following earlier losses to France and Norway. Despite the difficult start, the three points earned here were enough to secure their path forward.",
-        "For Iraq, the match marked a difficult end to their tournament run. They finished at the bottom of Group I with zero points and a goal difference of -11, having struggled to find consistency against a competitive group field.",
-        "Following this result, Senegal successfully advanced to the Round of 32. Their momentum carried over immediately, as they went on to defeat Belgium 1-0 in their subsequent knockout round fixture."
+        "Senegal delivered a clinical performance in their final group match, overwhelming Iraq with a 5-0 scoreline. The result allowed Senegal to finish their group stage run with three points, providing a significant boost to their goal difference.",
+        "While the win was comprehensive, it was not enough to lift Senegal out of third place in Group I, as France and Norway claimed the top two spots. Despite the difficult start to the tournament, this performance showcased Senegal's offensive potential."
       ],
       "bullets": [
-        "Senegal finished Group I in third place with 3 points and a positive goal difference of 2.",
-        "The 5-0 scoreline represented the largest margin of victory for either team in Group I.",
-        "Senegal leveraged the momentum from this win to upset Belgium in the Round of 32."
+        "Senegal finished third in Group I with 3 points and a +2 goal difference.",
+        "Iraq concluded their tournament campaign with zero points and a -11 goal difference.",
+        "The 5-0 margin stands as the largest victory for either side in this group."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T20:31:58+00:00",
-      "sourceHash": "6eb9ee8f4ea7409f",
+      "updatedAt": "2026-07-01T23:45:09+00:00",
+      "sourceHash": "19c8fe295df2d319",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -822,22 +821,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "65": {
-      "headline": "Belgium Dominates New Zealand to Secure Top Spot",
-      "summary": "Final: New Zealand 1, Belgium 5. Belgium surged to a 5-1 victory over New Zealand to clinch first place in Group G.",
+      "headline": "Belgium Dominates New Zealand to Secure Group G Top Spot",
+      "summary": "Final: New Zealand 1, Belgium 5. Belgium surged to a decisive 5-1 victory over New Zealand, clinching first place in Group G and advancing to the knockout stages.",
       "story": [
-        "Belgium finally found their attacking rhythm in the final match of the group stage, dismantling New Zealand with a convincing 5-1 win. After playing to frustrating draws against Egypt and Iran in their opening two fixtures, the Belgian side showcased their offensive potential when it mattered most, effectively securing their path forward.",
-        "The result moved Belgium to 5 points, placing them level with Egypt but ahead on goal difference to claim the top spot in Group G. This decisive performance was a stark contrast to their earlier defensive-minded matches, providing a much-needed confidence boost as they transitioned into the knockout stages.",
-        "For New Zealand, the loss concluded a difficult tournament run. Despite showing resilience in their opening 2-2 draw against Iran, the team struggled to contain opponents in subsequent matches, finishing at the bottom of the group with 1 point.",
-        "With the group stage now complete, Belgium advanced to the Round of 32 to face Senegal. Their ability to convert chances in this match will be critical as the level of competition intensifies in the knockout bracket."
+        "Belgium entered their final group match needing a result to separate themselves from a tight field, and they delivered with a clinical performance. By putting five goals past New Zealand, they turned a previously congested group table into a clear victory, finishing with five points and a superior goal difference.",
+        "For New Zealand, the tournament concludes after a difficult group stage. Despite showing resilience in their opening 2-2 draw with Iran, they struggled to contain opponents in their subsequent matches, ultimately finishing at the bottom of the group with one point.",
+        "Belgium's emphatic win proved vital, as it allowed them to edge out Egypt for the top spot in Group G. This momentum carried them forward, as they subsequently navigated a high-stakes 3-2 victory against Senegal in the Round of 32 to keep their tournament run alive.",
+        "With the group stage now firmly in the rearview mirror, Belgium looks ahead to the Round of 16. Their consistent form and ability to find the back of the net in this final group fixture have provided a strong foundation for their continued progression in the knockout rounds."
       ],
       "bullets": [
-        "Belgium finished atop Group G with 5 points and a +4 goal difference.",
-        "The 5-1 scoreline marked the highest-scoring output for Belgium in the group stage.",
-        "New Zealand ended their tournament campaign with 1 point from three matches."
+        "Belgium finished atop Group G with 5 points, edging out Egypt on goal difference.",
+        "The 5-1 result marked the highest-scoring performance of the group for Belgium.",
+        "New Zealand finished their campaign with 1 point from three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T22:09:58+00:00",
-      "sourceHash": "ddfc961638d585d3",
+      "updatedAt": "2026-07-01T23:45:01+00:00",
+      "sourceHash": "0e3f3b0596df7a6f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1130,21 +1129,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "17": {
-      "headline": "France Opens Group I with Decisive Win Over Senegal",
-      "summary": "France secured a strong start to their tournament campaign by defeating Senegal 3-1 in their opening Group I fixture.",
+      "headline": "France Opens Group I Campaign With Decisive Win Over Senegal",
+      "summary": "France secured an opening 3-1 victory against Senegal, setting the tone for a dominant group stage performance.",
       "story": [
-        "France asserted their dominance early in Group I, using a clinical performance to overcome Senegal 3-1. The result set the tone for a perfect group stage run, as France went on to win all three of their matches to finish at the top of the table with 9 points.",
-        "For Senegal, the loss served as an early challenge in a competitive group. Despite the setback, they remained resilient throughout the group stage, eventually finding their rhythm in a 5-0 victory over Iraq later in the tournament.",
-        "This opening match proved pivotal for the group dynamics, as France leveraged the momentum to build a significant goal difference of +8. The win provided the foundation for their advancement into the knockout stages, where they continued to demonstrate their form."
+        "France began their World Cup journey with a clinical 3-1 win over Senegal, establishing early control in Group I. The victory provided the foundation for a perfect group stage campaign, during which France ultimately finished with nine points and a commanding +8 goal difference.",
+        "The result had long-term implications for both sides. France utilized the momentum from this opening win to sweep their group and eventually advance through the Round of 32 with a 3-0 victory over Sweden. Senegal's path was more challenging, as they concluded their tournament run following a narrow 3-2 defeat to Belgium in the Round of 32."
       ],
       "bullets": [
-        "France finished the group stage undefeated with a perfect 9-point record.",
-        "The 3-1 result helped France establish a commanding +8 goal difference in Group I.",
-        "Senegal bounced back from this opening defeat to secure a dominant 5-0 win against Iraq."
+        "France finished atop Group I with a perfect 3-0-0 record.",
+        "Senegal concluded their tournament run in the Round of 32 after a 3-2 loss to Belgium.",
+        "France advanced to the Round of 16 to face Paraguay."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T22:11:16+00:00",
-      "sourceHash": "b682b646fc826207",
+      "updatedAt": "2026-07-01T23:45:32+00:00",
+      "sourceHash": "e0abda1f0ea208a5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1190,22 +1188,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "14": {
-      "headline": "Belgium and Egypt deadlock in Group G opener",
-      "summary": "Belgium and Egypt played to a 1-1 draw in their opening match of the 2026 tournament.",
+      "headline": "Belgium and Egypt Play to 1-1 Draw in Group G Opener",
+      "summary": "Belgium and Egypt opened their Group G campaigns with a hard-fought 1-1 draw.",
       "story": [
-        "The opening match between Belgium and Egypt ended in a 1-1 stalemate, setting a competitive tone for Group G. Neither side could find a decisive edge, forcing both teams to look toward their subsequent fixtures to build momentum.",
-        "This draw proved to be a foundational result for both squads. By the conclusion of the group stage, both Belgium and Egypt finished level on 5 points, with Belgium narrowly taking the top spot in the group on goal difference.",
-        "Following this result, Belgium went on to secure a dominant victory over New Zealand and navigated a challenging path through the group. Egypt remained resilient throughout the opening phase, eventually advancing to the knockout rounds alongside their Group G counterparts.",
-        "Both teams successfully moved past the group stage, with Belgium advancing to face Senegal in the Round of 32 and Egypt preparing for a matchup against Australia."
+        "The opening match for both sides in Group G ended in a stalemate, with Belgium and Egypt sharing the points in a 1-1 result. This draw set the tone for a tightly contested group that remained competitive through all three matchdays.",
+        "For both teams, this result was the beginning of a journey that saw them finish level on points at the top of the group standings. While both finished with five points, Belgium eventually secured the top spot on goal difference, while Egypt advanced as the group runner-up.",
+        "Following this initial draw, Belgium went on to navigate the group stage with a win over New Zealand and a draw against Iran, eventually advancing to the Round of 16. Egypt also remained unbeaten in group play, following up this result with a victory against New Zealand and a draw against Iran to secure their knockout stage position."
       ],
       "bullets": [
-        "The 1-1 result was the first of two draws for Egypt in the group stage.",
-        "Belgium finished atop Group G with a +4 goal difference, while Egypt followed with a +2 goal difference.",
-        "Both teams remained undefeated throughout their three group stage matches."
+        "The 1-1 draw was the first of three matches for both teams in a closely fought Group G.",
+        "Both nations finished the group stage with identical 5-point records.",
+        "Belgium ultimately edged out Egypt for the top spot in the group based on goal difference."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T22:11:43+00:00",
-      "sourceHash": "270d048af451bd7e",
+      "updatedAt": "2026-07-01T23:45:40+00:00",
+      "sourceHash": "d91722970c1e8a7d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1617,20 +1614,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "82": {
-      "headline": "Belgium and Senegal Battle to Dramatic Draw",
-      "summary": "Belgium and Senegal played to a 2-2 draw in their Round of 32 knockout matchup.",
+      "headline": "Belgium Edges Senegal in Five-Goal Thriller",
+      "summary": "Belgium secured a spot in the Round of 16 after a hard-fought 3-2 victory over Senegal in their Round of 32 clash.",
       "story": [
-        "The Round of 32 clash between Belgium and Senegal ended in a 2-2 stalemate, forcing both sides to navigate the high-pressure environment of knockout football. Belgium entered the match as the winners of Group G, while Senegal secured their spot as one of the best third-placed teams from the group stage.",
-        "Belgium's path to this stage was marked by a slow start with draws against Egypt and Iran, followed by a dominant 5-1 victory over New Zealand to clinch their group. Their ability to find the back of the net was on display again here, though they were matched by a resilient Senegal side.",
-        "With the match ending in a draw, the teams were left to contend with the immediate consequences of a deadlock in a knockout setting. This result reflects the competitive balance of the tournament as both nations fought for survival in the bracket."
+        "Belgium continued their momentum from a dominant group stage finale to overcome a resilient Senegal side. Entering the match as the winners of Group G, Belgium maintained their composure to navigate this high-stakes knockout fixture.",
+        "Senegal pushed hard throughout the contest, but ultimately fell just short in a back-and-forth battle that saw five goals scored. The result concludes Senegal's tournament run after they had previously advanced as one of the best third-place teams.",
+        "With this win, Belgium advances to the Round of 16, where they are scheduled to face the winner of Match 81. They will look to build on this narrow victory as they continue their path deeper into the knockout bracket."
       ],
       "bullets": [
-        "Belgium advanced to the Round of 32 after topping Group G with a strong finish against New Zealand.",
-        "Senegal reached the knockout phase as one of the best third-placed teams, bolstered by a 5-0 win over Iraq in their group finale."
+        "Belgium advances to the Round of 16 to face the winner of Match 81.",
+        "The 3-2 result marks the end of Senegal's tournament campaign."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T22:09:48+00:00",
-      "sourceHash": "4cc5a308ce9aa95a",
+      "updatedAt": "2026-07-01T23:44:53+00:00",
+      "sourceHash": "f949e2dded708c6e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
