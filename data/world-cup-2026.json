@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30",
+  "generatedAt": "2026-07-01",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2612,17 +2612,33 @@
       "stage": "Round of 32",
       "round": "Knockout",
       "date": "2026-06-30",
-      "time": "21:00",
+      "time": "22:00",
       "home": "Mexico",
       "away": "Ecuador",
-      "status": "scheduled",
+      "status": "completed",
       "network": "TBD",
       "venueId": "mexico-city",
       "homeSource": "Winner Group A",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760491",
-      "awaySource": "Best 3rd Group C/E/F/H/I"
+      "awaySource": "Best 3rd Group C/E/F/H/I",
+      "homeScore": 2,
+      "awayScore": 0,
+      "videos": {
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-01T04:51:34+00:00",
+          "title": "Mexico vs Ecuador Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=UDH9nQPl67k",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-01T04:51:34+00:00"
+      }
     },
     {
       "id": 80,
@@ -2834,14 +2850,15 @@
       "round": "Knockout",
       "date": "2026-07-05",
       "time": "20:00",
-      "home": "Winner Match 79",
+      "home": "Mexico",
       "away": "Winner Match 80",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "mexico-city",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760505"
+      "espnEventId": "760505",
+      "homeSource": "Winner Match 79"
     },
     {
       "id": 93,
@@ -3188,6 +3205,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-06-30T23:54:10+00:00",
+  "bracketUpdatedAt": "2026-07-01T04:49:16+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }

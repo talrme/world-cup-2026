@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T23:57:01+00:00",
+  "generatedAt": "2026-07-01T04:52:54+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -208,19 +208,19 @@
     },
     "35": {
       "headline": "Ecuador and Curacao Play to Scoreless Draw",
-      "summary": "Ecuador and Curacao finished in a 0-0 stalemate, leaving both sides searching for more offensive production in Group E.",
+      "summary": "Ecuador and Curacao finished in a 0-0 stalemate during their Group E match.",
       "story": [
-        "The match ended in a 0-0 draw, a result that proved costly for Ecuador's momentum early in the group stage. Despite the defensive effort from both sides, neither team could break the deadlock, resulting in a frustrating point share.",
-        "For Ecuador, the draw was a significant hurdle after their opening loss to Ivory Coast. It forced them to play with high stakes in their final group match against Germany, where they eventually secured a 2-1 victory to keep their tournament hopes alive.",
-        "Following the conclusion of group play, Ecuador successfully advanced to the knockout stages, setting up a Round of 32 clash against Mexico. Meanwhile, the tournament run for Curacao concluded after their three group matches."
+        "The match between Ecuador and Curacao ended in a 0-0 draw, leaving both sides unable to find the back of the net. For Ecuador, this result was a frustrating hurdle in their group campaign, as they sought to build momentum after an opening loss.",
+        "Curacao managed to secure their only point of the group stage in this match. Despite the defensive effort required to hold Ecuador scoreless, the draw ultimately left them at the bottom of the Group E standings.",
+        "Following this result, Ecuador went on to secure a pivotal 2-1 victory over Germany in their final group match. That win proved essential, as it helped them finish with four points and advance to the Round of 32, where they eventually faced Mexico."
       ],
       "bullets": [
-        "The 0-0 result marked the only point Curacao earned in their 2026 World Cup campaign.",
-        "Ecuador's inability to score in this match added pressure to their final group fixture against Germany."
+        "The 0-0 result marked the only point earned by Curacao throughout their group stage participation.",
+        "Ecuador's ability to remain competitive after this draw allowed them to eventually qualify for the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:36:26+00:00",
-      "sourceHash": "b8e7d7d09751a42a",
+      "updatedAt": "2026-07-01T04:52:21+00:00",
+      "sourceHash": "b7c22dc8ea7a9e1e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -347,21 +347,19 @@
       "refreshReason": "source or prompt changed"
     },
     "28": {
-      "headline": "Mexico Edges South Korea to Tighten Grip on Group A",
-      "summary": "Mexico secured a narrow 1-0 victory over South Korea, maintaining their perfect start to the group stage.",
+      "headline": "Mexico Edges Past South Korea to Secure Group A Control",
+      "summary": "Mexico claimed a narrow 1-0 victory over South Korea, a result that proved pivotal in their march toward the top of Group A.",
       "story": [
-        "Mexico continued their dominant form in Group A by holding off South Korea in a disciplined 1-0 win. This result proved crucial for Mexico, who built on their opening victory to firmly establish themselves at the top of the table.",
-        "For South Korea, the loss meant they had to look toward their final group fixture to secure their path forward. The match was a defensive battle that ultimately favored the home side's ability to protect their lead.",
-        "Following this result, Mexico went on to complete a perfect group campaign with nine points and zero goals conceded. Their consistency throughout the group stage set them up for a Round of 32 clash against Ecuador."
+        "Mexico maintained their defensive discipline and tactical composure to secure a hard-fought 1-0 win against South Korea. This result was a critical turning point in the group stage, effectively building the momentum that eventually propelled Mexico to a perfect nine-point finish in Group A.",
+        "Following this match, Mexico continued their dominant form, eventually advancing through the knockout rounds. The victory over South Korea served as a testament to their ability to grind out results when the pressure was at its highest."
       ],
       "bullets": [
-        "Mexico finished the group stage with a perfect 9 points and a +6 goal difference.",
-        "The 1-0 result was the second of three clean sheets for Mexico in the group phase.",
-        "South Korea finished third in Group A with 3 points after their final match against South Africa."
+        "Mexico finished the group stage with a perfect record and zero goals conceded.",
+        "The 1-0 result kept South Korea's group standing precarious, ultimately contributing to their third-place finish."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:37:21+00:00",
-      "sourceHash": "c59654981086e99b",
+      "updatedAt": "2026-07-01T04:52:30+00:00",
+      "sourceHash": "b34e3603c21a5c42",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -604,30 +602,21 @@
       "refreshReason": "source or prompt changed"
     },
     "54": {
-      "headline": "Mexico Sweeps Group A After Dominant Win Over Czechia",
-      "summary": "Final: Czechia 0, Mexico 3. Mexico secured a perfect group stage record with a commanding 3-0 victory over Czechia to finish at the top of Group A.",
+      "headline": "Mexico Dominates Group A with Perfect Record",
+      "summary": "Final: Czechia 0, Mexico 3. Mexico secured a commanding 3-0 victory over Czechia to finish their group stage campaign with a perfect nine points.",
       "story": [
-        "Mexico asserted their dominance in the final group match, shutting out Czechia 3-0 to confirm their status as the group winners. This result capped off a flawless group stage performance where Mexico finished with nine points and a perfect defensive record, having conceded zero goals across their three matches.",
-        "For Czechia, the defeat confirmed their exit from the tournament. After managing a draw against South Africa and a narrow loss to South Korea earlier in the group stage, they were unable to find a breakthrough against a disciplined Mexican side, finishing at the bottom of the table with one point.",
-        "With this victory, Mexico advances to the Round of 32 with significant momentum. They are now set to face Ecuador on June 30, carrying the confidence of a team that has not yet allowed a single goal in the competition."
+        "Mexico asserted their dominance in Group A, putting in a clinical performance to dismantle Czechia. The 3-0 win confirmed their status as group winners, capping off a flawless opening phase where they scored six goals and conceded none.",
+        "For Czechia, the result was a disappointing end to their tournament, as they finished at the bottom of the group with just a single point from their three matches. They struggled to find defensive stability throughout the group stage, ultimately allowing six goals against their opponents.",
+        "With this victory, Mexico maintained their momentum and successfully transitioned into the knockout stages. Their defensive record remains a standout feature of the tournament, providing a solid foundation as they advance deeper into the competition."
       ],
       "bullets": [
-        "Mexico finished Group A with a perfect 3-0-0 record and a +6 goal difference.",
-        "The Mexican defense remained impenetrable, keeping clean sheets in all three group matches.",
-        "Czechia concluded their campaign with one point, following a draw with South Africa and two defeats."
+        "Mexico finished the group stage with a perfect 3-0-0 record and a +6 goal difference.",
+        "Czechia concluded their campaign with one draw and two losses.",
+        "Mexico did not concede a single goal during their three group stage matches."
       ],
-      "sections": [
-        {
-          "title": "Group A Final Standings",
-          "body": "Mexico led the group with nine points, followed by South Africa with four points and South Korea with three. Czechia rounded out the group in fourth place with a single point from their draw against South Africa."
-        },
-        {
-          "title": "Looking Ahead",
-          "body": "Mexico moves on to the knockout stage to play Ecuador on June 30. This upcoming match will test whether their defensive stability can hold up against new opposition in the Round of 32."
-        }
-      ],
-      "updatedAt": "2026-06-30T18:34:02+00:00",
-      "sourceHash": "4f13a54b7502f3bb",
+      "sections": [],
+      "updatedAt": "2026-07-01T04:52:08+00:00",
+      "sourceHash": "d508492aff1a699b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -653,24 +642,23 @@
       "refreshReason": "source or prompt changed"
     },
     "56": {
-      "headline": "Ecuador Upsets Germany to Secure Knockout Spot",
-      "summary": "Ecuador defeated Germany 2-1 in their final Group E match, earning a crucial result that propelled them into the Round of 32.",
+      "headline": "Ecuador Upsets Germany in Group E Finale",
+      "summary": "Ecuador secured a 2-1 victory over Germany in their final group stage match, though both teams ultimately advanced to the knockout rounds.",
       "story": [
-        "Ecuador pulled off a significant victory against Germany, finishing their group stage campaign with a 2-1 win. Despite a challenging start to the tournament, this result allowed them to secure four points and advance to the knockout phase.",
-        "For Germany, the loss did not prevent them from topping Group E, as they finished with six points and a strong goal difference. Having already secured victories against Curacao and Ivory Coast earlier in the group, they maintained their position at the top of the table despite the setback.",
-        "Ecuador's path forward now leads to a Round of 32 matchup against Mexico. After navigating a competitive group that included Ivory Coast and Curacao, Ecuador will look to carry the momentum from this upset into their next challenge."
+        "Ecuador pulled off a significant result in their final group match, taking down Germany 2-1. Despite the loss, Germany maintained their position at the top of Group E, finishing with six points and a strong goal difference built on their earlier performances.",
+        "For Ecuador, the win was a vital response after a challenging start to the tournament. Having opened with a loss to Ivory Coast and a scoreless draw against Curacao, the three points against Germany provided the necessary momentum to secure their place in the Round of 32.",
+        "While Germany's tournament campaign continued with a draw in their subsequent knockout match, Ecuador's journey concluded following a 2-0 defeat to Mexico. This final group fixture remains a standout moment for Ecuador's resilience against a powerhouse opponent."
       ],
       "bullets": [
-        "Ecuador finished third in Group E with four points, enough to qualify for the next round.",
-        "Germany topped the group with six points despite the defeat.",
-        "Ecuador is set to face Mexico in the Round of 32."
+        "Ecuador finished third in Group E with 4 points, successfully advancing to the knockout stage.",
+        "Germany topped the group with 6 points despite the loss, finishing ahead of Ivory Coast on goal difference."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:19:52+00:00",
-      "sourceHash": "d183898eb5110c53",
+      "updatedAt": "2026-07-01T04:52:01+00:00",
+      "sourceHash": "f30bcb48a4f9b9f5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match recap target"
+      "refreshReason": "source or prompt changed"
     },
     "57": {
       "headline": "Netherlands secure top spot in Group F with victory over Tunisia",
@@ -1246,16 +1234,19 @@
       "headline": "Ivory Coast Edges Ecuador in Group E Opener",
       "summary": "Ivory Coast secured a narrow 1-0 victory over Ecuador to kick off their Group E campaign.",
       "story": [
-        "The opening match of Group E proved to be a tight affair, with Ivory Coast claiming all three points through a solitary goal. The result provided a crucial foundation for their tournament run, setting the tone for a competitive group stage.",
-        "For Ecuador, the loss meant they had to chase points in their subsequent fixtures against Curacao and Germany. This early setback added immediate pressure to their schedule, though they eventually managed to navigate their way into the knockout stages."
+        "Ivory Coast claimed all three points in this tightly contested Group E opener, setting an early tone for their tournament run. The 1-0 result proved vital as the group stage unfolded, providing the foundation for Ivory Coast to eventually advance to the knockout rounds.",
+        "For Ecuador, the loss meant they had to play catch-up for the remainder of the group stage. Despite the defeat, they remained competitive throughout their fixtures, eventually securing a notable 2-1 win against Germany in their final group match.",
+        "Both teams navigated a challenging group that also featured Germany and Curacao. While Ivory Coast finished level on points with Germany, their head-to-head result and goal difference ultimately shaped the final standings.",
+        "Both sides eventually reached the Round of 32, though their journeys ended there. Ivory Coast fell to Norway, while Ecuador was eliminated by Mexico, concluding their respective campaigns after promising group-stage performances."
       ],
       "bullets": [
-        "Ivory Coast's victory proved essential for their progression, as they ultimately finished second in Group E.",
-        "Ecuador's narrow defeat left them with a 4-point total after three group matches, enough to advance to the Round of 32."
+        "The 1-0 result was the difference-maker for Ivory Coast in a group where they finished tied on points with Germany.",
+        "This victory helped Ivory Coast secure a spot in the Round of 32, where they were eventually defeated by Norway.",
+        "Ecuador recovered from this opening loss to finish with four points, enough to advance as one of the best third-placed teams."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T21:13:11+00:00",
-      "sourceHash": "67ff92e30b1a9896",
+      "updatedAt": "2026-07-01T04:52:38+00:00",
+      "sourceHash": "158cb2026039abdc",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1444,21 +1435,21 @@
       "refreshReason": "source or prompt changed"
     },
     "1": {
-      "headline": "Mexico Opens Group A with 2-0 Win Over South Africa",
-      "summary": "Mexico secured a decisive 2-0 victory against South Africa to kick off their Group A campaign.",
+      "headline": "Mexico Opens Campaign with Clinical Win Over South Africa",
+      "summary": "Mexico secured a comfortable 2-0 victory over South Africa to kick off their Group A journey.",
       "story": [
-        "Mexico established early control in Group A by defeating South Africa 2-0. This result set the tone for their dominant group stage performance, as they eventually finished at the top of the table with a perfect nine points and zero goals conceded.",
-        "For South Africa, the opening loss created an immediate challenge in a competitive group. Despite the setback, they showed resilience in their remaining fixtures, managing a draw against Czechia and a vital win over South Korea to secure their spot in the knockout rounds.",
-        "Mexico's strong start provided the momentum needed to sweep the group, culminating in a 3-0 win against Czechia in their final group match. This consistency allowed them to advance as the group winner, while South Africa moved forward as the runner-up."
+        "Mexico asserted their dominance early in Group A, utilizing a disciplined performance to shut out South Africa 2-0. The result set a positive tone for the hosts, establishing the defensive foundation that would eventually help them finish the group stage with a perfect record and zero goals conceded.",
+        "For South Africa, the opening loss forced them to play catch-up immediately. Despite the setback, they showed resilience in their subsequent group matches, eventually securing a crucial 1-0 win against South Korea to advance to the Round of 32 as the group runner-up.",
+        "The trajectory for both teams diverged significantly following this match. While Mexico cruised through the group stage with nine points and eventually reached the Round of 16, South Africa saw their tournament run conclude in the Round of 32 after a narrow 1-0 defeat to Canada."
       ],
       "bullets": [
-        "Mexico finished the group stage with a perfect record of 3 wins and 0 losses.",
-        "South Africa advanced to the Round of 32 as the Group A runner-up with 4 points.",
-        "Mexico maintained a clean sheet throughout all three of their group stage matches."
+        "Mexico finished Group A with a perfect 9-point record and a +6 goal difference.",
+        "South Africa qualified for the knockout stage as the second-place team in Group A with 4 points.",
+        "This match marked the beginning of a dominant defensive run for Mexico, who did not concede a single goal in their three group stage fixtures."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T21:13:27+00:00",
-      "sourceHash": "e0db765b8bac7fac",
+      "updatedAt": "2026-07-01T04:52:46+00:00",
+      "sourceHash": "4d40ea5aa64bcaa1",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1580,6 +1571,26 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "79": {
+      "headline": "Mexico Advances to Round of 16 After Shutout Victory",
+      "summary": "Mexico secured a 2-0 victory over Ecuador to move forward in the tournament.",
+      "story": [
+        "Mexico continued their impressive run in the tournament with a clinical 2-0 win against Ecuador in the Round of 32. By maintaining their defensive discipline, they successfully neutralized Ecuador's attack to punch their ticket to the next stage.",
+        "For Ecuador, the tournament concludes here following a resilient group stage campaign that included a notable win over Germany. Despite their efforts, they could not find a way past the Mexican defense in this decisive matchup.",
+        "Mexico now shifts their focus to the Round of 16, where they are scheduled to play the winner of the upcoming match between the victors of Match 80. They will look to carry this momentum into their next challenge on July 5."
+      ],
+      "bullets": [
+        "Mexico remains undefeated in the tournament after winning all three group stage matches and their Round of 32 clash.",
+        "Ecuador exits the competition after a hard-fought run that saw them take points from Germany in the group stage.",
+        "Mexico advances to face the winner of Match 80 in the Round of 16 on July 5."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-01T04:52:54+00:00",
+      "sourceHash": "19187a2519f238e0",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "past 5 days"
     }
   },
   "groups": {
