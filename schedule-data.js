@@ -2684,14 +2684,16 @@ window.WORLD_CUP_DATA = {
       "time": "16:00",
       "home": "Belgium",
       "away": "Senegal",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "seattle",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760493",
       "homeSource": "Winner Group G",
-      "awaySource": "Best 3rd Group A/E/H/I/J"
+      "awaySource": "Best 3rd Group A/E/H/I/J",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "id": 83,
@@ -3208,6 +3210,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-01T18:29:19+00:00",
+  "bracketUpdatedAt": "2026-07-01T20:27:25+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
