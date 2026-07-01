@@ -2692,8 +2692,8 @@
       "espnEventId": "760493",
       "homeSource": "Winner Group G",
       "awaySource": "Best 3rd Group A/E/H/I/J",
-      "homeScore": 0,
-      "awayScore": 1
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "id": 83,
@@ -3210,6 +3210,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-01T20:27:25+00:00",
+  "bracketUpdatedAt": "2026-07-01T22:06:37+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
