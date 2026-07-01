@@ -2648,7 +2648,7 @@ window.WORLD_CUP_DATA = {
       "time": "12:00",
       "home": "England",
       "away": "Congo DR",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "atlanta",
       "offset": "-04:00",
@@ -2656,7 +2656,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760495",
       "homeSource": "Winner Group L",
       "awaySource": "Best 3rd Group E/H/I/J/K",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1
     },
     {
@@ -2853,14 +2853,15 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-05",
       "time": "20:00",
       "home": "Mexico",
-      "away": "Winner Match 80",
+      "away": "England",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "mexico-city",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760505",
-      "homeSource": "Winner Match 79"
+      "homeSource": "Winner Match 79",
+      "awaySource": "Winner Match 80"
     },
     {
       "id": 93,
@@ -3207,6 +3208,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-01T16:36:06+00:00",
+  "bracketUpdatedAt": "2026-07-01T18:29:19+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
