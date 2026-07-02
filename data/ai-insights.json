@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T23:45:40+00:00",
+  "generatedAt": "2026-07-02T01:56:53+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -324,22 +324,20 @@
       "refreshReason": "source or prompt changed"
     },
     "29": {
-      "headline": "United States Secures Victory Over Australia",
-      "summary": "The United States defeated Australia 2-0 in their Group D match, strengthening their position at the top of the table.",
+      "headline": "United States Secures Crucial 2-0 Victory Over Australia",
+      "summary": "The United States defeated Australia 2-0 in their Group D matchup, a result that proved pivotal in shaping the final group standings.",
       "story": [
-        "The United States controlled this Group D encounter, securing a clean sheet and a 2-0 win against Australia. The result was a pivotal moment in the group stage, helping the U.S. build momentum early in the tournament.",
-        "Following this victory, the United States eventually finished at the top of Group D with 6 points from their three matches. Their campaign included a strong opening win against Paraguay and a final group stage match against Turkey.",
-        "Australia, meanwhile, finished as the group runner-up with 4 points. Despite the loss to the U.S., they managed to hold steady throughout the group phase, including a scoreless draw against Paraguay in their final fixture.",
-        "Both teams successfully navigated their group to reach the knockout stages. The United States moved on to a Round of 32 matchup against Bosnia-Herzegovina, while Australia prepared for a Round of 32 clash with Egypt."
+        "The United States controlled this Matchday 2 encounter, effectively shutting down Australia to claim a clean sheet and a vital three points. By securing the 2-0 win, the U.S. gained significant momentum in Group D.",
+        "This result was a major factor in the final group dynamics. The United States ultimately finished at the top of the group with 6 points, while Australia concluded their group stage campaign in second place with 4 points.",
+        "Following this match, both nations successfully navigated their way out of the group stage. The United States moved on to face Bosnia-Herzegovina in the Round of 32, while Australia prepared for a knockout round fixture against Egypt."
       ],
       "bullets": [
         "The United States finished first in Group D with 6 points.",
-        "Australia secured the runner-up spot in the group with 4 points.",
-        "Both teams advanced to the Round of 32 following their group stage performances."
+        "Australia advanced to the knockout stage as the group runner-up with 4 points."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:37:13+00:00",
-      "sourceHash": "4ff232751c838030",
+      "updatedAt": "2026-07-02T01:56:22+00:00",
+      "sourceHash": "100b46d02d470a21",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -704,21 +702,22 @@
       "headline": "Turkey Edges United States in Group D Finale",
       "summary": "Turkey secured a 3-2 victory over the United States in their final group stage match, though the result did not displace the U.S. from the top of the standings.",
       "story": [
-        "Despite the narrow 3-2 defeat to Turkey, the United States maintained their position at the summit of Group D. Having already secured two clean-sheet victories against Paraguay and Australia earlier in the tournament, the U.S. entered this final matchday with enough cushion to absorb the loss and advance as group winners.",
-        "For Turkey, the win provided a spirited conclusion to their campaign. After struggling to find their footing in their opening matches against Australia and Paraguay, this high-scoring performance against the group leaders offered a positive note, even though it was not enough to propel them into the knockout rounds.",
-        "The United States now shifts their focus toward the Round of 32. As winners of Group D, they are scheduled to face Bosnia-Herzegovina on July 1, looking to regain the defensive form that defined their early group stage success."
+        "In a high-scoring conclusion to Group D, Turkey claimed their first win of the tournament by defeating the United States 3-2. Despite the loss, the United States finished the group stage at the top of the table with six points, having already secured their position through earlier victories against Paraguay and Australia.",
+        "The United States entered the match with momentum, having maintained a strong defensive record in their previous outings. While this defeat marks their first loss of the group stage, the team successfully navigated the initial round and moved forward to the knockout phase.",
+        "For Turkey, the win provided a positive end to their campaign, finishing with three points. Although they were unable to advance, their offensive performance against the group leaders served as a competitive closing statement to their tournament run.",
+        "The United States now shifts focus to the Round of 32, where they have already successfully advanced to face Bosnia-Herzegovina. The group stage results confirm the U.S. as the winners of Group D, setting up their next challenge in the knockout bracket."
       ],
       "bullets": [
-        "The United States finished atop Group D with 6 points despite the loss to Turkey.",
-        "Turkey concluded their tournament run with a 3-point tally after this final victory.",
-        "The U.S. will move on to face Bosnia-Herzegovina in the Round of 32 on July 1."
+        "The United States finished first in Group D with 6 points despite the 3-2 loss to Turkey.",
+        "Turkey earned their only win of the group stage in this final matchday fixture.",
+        "The United States advanced to the Round of 32 to face Bosnia-Herzegovina."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:19:11+00:00",
-      "sourceHash": "1b5048a445c5961f",
+      "updatedAt": "2026-07-02T01:56:15+00:00",
+      "sourceHash": "e321fe6b3cfe75b6",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match recap target"
+      "refreshReason": "source or prompt changed"
     },
     "60": {
       "headline": "Stalemate in Group D as Paraguay and Australia Draw",
@@ -1373,19 +1372,17 @@
       "headline": "United States Dominates Paraguay in Group D Opener",
       "summary": "The United States opened their tournament campaign with a decisive 4-1 victory over Paraguay.",
       "story": [
-        "The United States set an aggressive tone for Group D by securing a convincing 4-1 win against Paraguay in their opening match. This result provided the U.S. with a significant early advantage in goal difference, which proved vital as the group stage progressed.",
-        "For Paraguay, the heavy defeat in the opener forced them to recalibrate their defensive approach for the remainder of the group stage. They managed to stabilize their form in subsequent matches, eventually securing a spot in the knockout rounds.",
-        "The U.S. continued their strong group performance with a 2-0 win over Australia, though they ultimately fell 3-2 to Turkey in their final group fixture. Despite that late loss, the Americans finished at the top of Group D with 6 points.",
-        "Paraguay's path through the tournament saw them navigate a challenging bracket. After their initial loss to the U.S., they showed resilience to advance and eventually earned a place in the Round of 16 against France."
+        "The United States made a statement in their opening match of Group D, overwhelming Paraguay with a 4-1 win. The result immediately put the U.S. in a strong position within the group, setting a high bar for their subsequent performances.",
+        "For Paraguay, the heavy defeat in the opening match created immediate pressure to recover. They ultimately managed to navigate the rest of the group stage, finishing with 4 points after a win against Turkey and a draw with Australia.",
+        "Following this match, the United States continued their momentum to top Group D, while Paraguay advanced to the knockout stages. The U.S. eventually progressed to face Bosnia-Herzegovina in the Round of 32, while Paraguay moved on to a Round of 16 clash against France."
       ],
       "bullets": [
-        "The United States finished first in Group D with 6 points and a +4 goal difference.",
-        "Paraguay rebounded from the opening loss to advance to the knockout stages.",
-        "The 4-1 scoreline remains the highest-scoring match involving either team during the group phase."
+        "The 4-1 victory provided the United States with a significant goal difference advantage early in the group stage.",
+        "Paraguay recovered from this opening loss to eventually secure a spot in the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:57:01+00:00",
-      "sourceHash": "b600f875fb956003",
+      "updatedAt": "2026-07-02T01:56:30+00:00",
+      "sourceHash": "bed7b597d41afbe5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1456,20 +1453,21 @@
       "headline": "Germany and Paraguay deadlock in Round of 32",
       "summary": "Germany and Paraguay played to a 1-1 draw in their Round of 32 knockout match.",
       "story": [
-        "Germany entered this Round of 32 clash as the winners of Group E, but they found themselves locked in a tight battle against a resilient Paraguay side. Despite Germany's strong start to the tournament, including a commanding 7-1 victory over Curacao, they were unable to break down their opponents to secure a regulation-time win.",
-        "Paraguay showed defensive grit throughout the match, building on a group stage performance that saw them keep a clean sheet against Australia and secure a narrow win over Turkey. Their ability to hold firm against a high-caliber German attack forced the match into a stalemate.",
-        "For Paraguay, the draw sets up a challenging path forward as they look toward their next fixture. The team will need to carry this momentum into their upcoming Round of 16 match against France, where they will face another stern test on the global stage."
+        "The Round of 32 clash between Germany and Paraguay ended in a 1-1 stalemate, forcing both sides to navigate the tension of a knockout fixture that offered no clear winner in regulation time.",
+        "Germany entered the knockout phase as winners of Group E, having navigated a group stage that included a dominant 7-1 victory over Curacao alongside a narrow win against Ivory Coast and a loss to Ecuador.",
+        "Paraguay reached this stage as one of the best third-placed teams from the group phase, showing defensive resilience in their final group match against Australia and a victory over Turkey to keep their tournament hopes alive.",
+        "With the match concluded, the focus shifts immediately to the next phase of the tournament bracket as teams look to secure their progression through the knockout rounds."
       ],
       "bullets": [
-        "Germany and Paraguay finished level at 1-1 after regulation time.",
-        "Paraguay advances to face France in the Round of 16 on July 4."
+        "The match ended in a 1-1 draw, testing the resolve of both nations in the knockout format.",
+        "Germany advanced to this stage after topping Group E, while Paraguay qualified as a best third-placed team."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:55:48+00:00",
+      "updatedAt": "2026-07-02T01:56:53+00:00",
       "sourceHash": "ae2c29e9a863c3b9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "76": {
       "headline": "Brazil Edges Past Japan in Round of 32",
@@ -1553,24 +1551,23 @@
       "refreshReason": "past 5 days"
     },
     "77": {
-      "headline": "France Cruises Past Sweden to Reach Round of 16",
-      "summary": "France secured a dominant 3-0 victory over Sweden in the Round of 32 to extend their unbeaten run in the tournament.",
+      "headline": "France Cruises Past Sweden in Round of 32",
+      "summary": "France secured a dominant 3-0 victory over Sweden to advance to the next stage of the tournament.",
       "story": [
-        "France continued their impressive form in this World Cup, dispatching Sweden with a clinical 3-0 performance. Entering the match as the winners of Group I, the French side maintained their high-scoring momentum, having scored 13 goals across their four tournament matches to date.",
-        "For Sweden, the loss brings an end to their campaign after a challenging path through the group stage. Despite a strong opening win against Tunisia, they struggled to find consistency against top-tier opposition, ultimately falling short against a disciplined French squad.",
-        "With this victory, France advances to the Round of 16 where they are set to face Paraguay. The French team has looked formidable throughout the group stage and this knockout opener, proving they are a major force to be reckoned with as the tournament progresses."
+        "France continued their impressive tournament form with a comprehensive 3-0 win against Sweden. Entering the match as the winner of Group I, France maintained the momentum they built throughout the group stage, where they remained undefeated and showcased a potent attack.",
+        "Sweden, who reached this stage as one of the best third-place finishers, struggled to contain the French side. Despite their earlier efforts in Group F, Sweden could not find a way to break through the French defense or match their clinical finishing on this occasion.",
+        "With this victory, France moves forward to the Round of 16, where they are set to face Paraguay. This result marks the end of Sweden's campaign in the tournament, while France remains a team to watch as they progress deeper into the knockout bracket."
       ],
       "bullets": [
-        "France has maintained a perfect record in the tournament with four consecutive wins.",
-        "The French attack has been prolific, scoring 13 goals while conceding only two in their four matches.",
-        "France will move on to play Paraguay in the next round of the knockout stage."
+        "France has now scored 13 goals across four tournament matches while conceding only two.",
+        "This win sets up a Round of 16 matchup between France and Paraguay on July 4."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:55:40+00:00",
+      "updatedAt": "2026-07-02T01:56:45+00:00",
       "sourceHash": "4cdae272277d5cbc",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "79": {
       "headline": "Mexico Advances to Round of 16 After Shutout Win",
@@ -1631,6 +1628,27 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "81": {
+      "headline": "United States Advances Past Bosnia-Herzegovina",
+      "summary": "The United States secured a 2-0 victory over Bosnia-Herzegovina in the Round of 32 to continue their tournament run.",
+      "story": [
+        "The United States successfully navigated their Round of 32 matchup, defeating Bosnia-Herzegovina 2-0 to punch their ticket to the next stage of the knockout bracket.",
+        "Coming off a narrow 3-2 group stage loss to Turkey, the U.S. squad regained their defensive composure to shut out their opponents and maintain control throughout the match.",
+        "Bosnia-Herzegovina entered the knockout stage as one of the best third-place finishers from the group phase, but they were unable to break down the American defense in this decisive fixture.",
+        "With this result, the United States moves forward in the tournament, building on the momentum established during their group stage campaign where they previously secured wins against Paraguay and Australia."
+      ],
+      "bullets": [
+        "The United States kept a clean sheet in their 2-0 win to eliminate Bosnia-Herzegovina.",
+        "The victory marks a successful return to form for the U.S. following their final group stage defeat.",
+        "The U.S. now advances deeper into the knockout bracket after emerging as the winner of Group D."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-02T01:56:37+00:00",
+      "sourceHash": "71c609f45b17ccba",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

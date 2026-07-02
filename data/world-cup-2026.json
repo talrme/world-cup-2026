@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01",
+  "generatedAt": "2026-07-02",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2667,14 +2667,16 @@
       "time": "20:00",
       "home": "United States",
       "away": "Bosnia-Herzegovina",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "sf-bay",
       "homeSource": "Winner Group D",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760494",
-      "awaySource": "Best 3rd Group B/E/F/I/J"
+      "awaySource": "Best 3rd Group B/E/F/I/J",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "id": 82,
@@ -3225,6 +3227,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-01T23:40:52+00:00",
+  "bracketUpdatedAt": "2026-07-02T01:52:29+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
