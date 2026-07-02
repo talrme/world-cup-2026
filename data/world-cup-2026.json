@@ -2745,7 +2745,21 @@
       "homeSource": "Winner Group H",
       "awaySource": "Runner-up Group J",
       "homeScore": 3,
-      "awayScore": 0
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-02T22:35:35+00:00",
+          "title": "Spain vs Austria Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=J9SxUH5VCSU",
+          "channel": "FOX Sports",
+          "durationText": "14 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-02T22:35:35+00:00"
+      }
     },
     {
       "id": 85,

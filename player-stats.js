@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-02T21:20:05+00:00",
+  "generatedAt": "2026-07-02T22:32:29+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -539,7 +539,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 2,
       "assists": 0,
       "points": 2,
-      "matches": 3,
+      "matches": 4,
       "minutes": 301,
       "goalsPer90": 0.6,
       "pointsPer90": 0.6
@@ -760,7 +760,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 1,
       "points": 2,
-      "matches": 3,
+      "matches": 4,
       "minutes": 226,
       "goalsPer90": 0.4,
       "pointsPer90": 0.8
@@ -1020,7 +1020,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 63,
       "goalsPer90": 1.4,
       "pointsPer90": 1.4
@@ -1215,7 +1215,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 109,
       "goalsPer90": 0.8,
       "pointsPer90": 0.8
@@ -1228,7 +1228,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 116,
       "goalsPer90": 0.8,
       "pointsPer90": 0.8
@@ -1241,7 +1241,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 119,
       "goalsPer90": 0.8,
       "pointsPer90": 0.8
@@ -1514,7 +1514,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 233,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
@@ -1696,7 +1696,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 272,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
@@ -1709,7 +1709,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 273,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
