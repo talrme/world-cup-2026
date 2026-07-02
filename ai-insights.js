@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-02T20:02:35+00:00",
+  "generatedAt": "2026-07-02T21:24:24+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -42,21 +42,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "37": {
       "headline": "Spain Dominates Saudi Arabia in 4-0 Victory",
-      "summary": "Spain secured a commanding 4-0 win over Saudi Arabia, marking a pivotal moment in their Group H campaign.",
+      "summary": "Spain secured a decisive 4-0 win over Saudi Arabia, marking a significant turning point in their Group H campaign.",
       "story": [
-        "Spain asserted their authority in Group H with a decisive 4-0 victory against Saudi Arabia. After a scoreless draw in their opening match, this performance provided the spark needed to propel them to the top of the group standings.",
-        "For Saudi Arabia, the result proved difficult, leaving them with just two points from their three group matches. Despite a competitive draw against Uruguay earlier in the tournament, they were unable to contain the Spanish attack in this fixture.",
-        "This win served as a springboard for Spain, who went on to finish the group stage with seven points and an impressive goal difference of plus-five. Their momentum continued into the knockout rounds, where they eventually secured a victory over Austria.",
-        "The result ultimately helped define the group hierarchy, as Spain finished as winners of Group H, while Saudi Arabia concluded their tournament run at the bottom of the table."
+        "Spain asserted their authority in Group H with a commanding 4-0 victory against Saudi Arabia. After a scoreless draw in their opening match, this result provided the offensive spark Spain needed to take control of the group standings.",
+        "The win proved crucial for Spain's progression, as they ultimately finished at the top of the group with seven points. By keeping a clean sheet and putting four goals past the Saudi defense, Spain significantly bolstered their goal difference, which helped solidify their path through the tournament.",
+        "For Saudi Arabia, the defeat placed them in a difficult position within a competitive group. Despite their efforts, they finished the group stage with two points and were unable to secure a win, eventually concluding their campaign at the bottom of the table.",
+        "This match served as a catalyst for Spain, who went on to maintain their momentum through the group stage and into the knockout rounds, including a subsequent victory over Austria in the Round of 32."
       ],
       "bullets": [
-        "Spain finished the group stage undefeated with 7 points.",
-        "The 4-0 margin significantly bolstered Spain's goal difference, finishing at +5.",
-        "Saudi Arabia exited the group stage with 2 points and a -4 goal difference."
+        "Spain finished atop Group H with 7 points and an impressive +5 goal difference.",
+        "The 4-0 margin was the largest victory for Spain in the group stage.",
+        "Saudi Arabia concluded their tournament run with 2 points after failing to find a win in three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:00:53+00:00",
-      "sourceHash": "18f51e1ca15546c7",
+      "updatedAt": "2026-07-02T21:23:52+00:00",
+      "sourceHash": "52b6d6e950b3c0b7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -122,22 +122,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "41": {
-      "headline": "Argentina Dominates Austria in Group J Showdown",
-      "summary": "Argentina secured a commanding 2-0 victory over Austria, solidifying their position at the top of Group J.",
+      "headline": "Argentina Secures Control of Group J with Win Over Austria",
+      "summary": "Argentina defeated Austria 2-0 in their second group stage match, effectively tightening their grip on the top spot in Group J.",
       "story": [
-        "Argentina maintained their perfect form in the group stage with a clinical 2-0 win against Austria. The result reinforced their status as the team to beat in Group J, having navigated the fixture with defensive discipline and offensive efficiency.",
-        "For Austria, the loss meant they had to fight hard in their remaining group matches to secure their path forward. The defeat left them battling for points against Algeria and Jordan to ensure they didn't slip out of contention for the knockout stages.",
-        "This win was a crucial step in Argentina's dominant group campaign, which saw them finish with a perfect nine points and an impressive plus-seven goal difference. Their performance throughout the group stage set a high bar for the competition as they moved into the knockout rounds.",
-        "Austria eventually advanced to the Round of 32 as the runner-up of Group J, though their journey ended there following a narrow 1-0 loss to Spain. Argentina continued their momentum into the knockout phase, where they were slated to face Cabo Verde."
+        "Argentina continued their dominant form in the group stage by shutting out Austria in a clinical 2-0 victory. The result allowed them to maintain a perfect record early in the tournament, building on their opening win against Algeria.",
+        "For Austria, the loss served as a significant test against one of the group's favorites. Despite the defeat, the match provided critical data for their tactical adjustments heading into the final round of group fixtures.",
+        "This victory proved pivotal in the broader context of Group J, as it helped Argentina create separation at the top of the table. By keeping a clean sheet, Argentina showcased the defensive discipline that would eventually help them finish the group stage with a perfect nine points.",
+        "Following this match, both teams looked toward their final group games to solidify their standing. While Argentina marched toward a perfect group record, Austria remained in the mix for qualification, eventually securing their place in the knockout rounds."
       ],
       "bullets": [
-        "Argentina finished atop Group J with a perfect 3-0-0 record.",
-        "The 2-0 result was part of a dominant group stage run where Argentina outscored opponents 8-1.",
-        "Austria successfully navigated the group despite this loss, eventually finishing second with four points."
+        "Argentina finished the group stage with a perfect 9 points and a +7 goal difference.",
+        "The 2-0 win was a key part of Argentina's defensive run, conceding only one goal across their three group matches.",
+        "Austria advanced to the knockout stage despite this setback, though they eventually exited in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:00:45+00:00",
-      "sourceHash": "264a988809e0618c",
+      "updatedAt": "2026-07-02T21:23:44+00:00",
+      "sourceHash": "c5b6e5700ac3935f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -800,21 +800,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "64": {
       "headline": "Spain Secures Group H Top Spot with Narrow Win Over Uruguay",
-      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 to finish at the top of Group H and advance to the knockout stage.",
+      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 in their final group match, cementing their position at the top of Group H and eliminating Uruguay from the tournament.",
       "story": [
-        "Spain closed out their group stage campaign with a clinical 1-0 victory over Uruguay, confirming their dominance in Group H. The result ensured Spain finished the opening phase with seven points and an unblemished defensive record, having conceded zero goals across their three group matches.",
-        "For Uruguay, the defeat marked a disappointing end to their tournament run. Despite competitive draws against Saudi Arabia and Cabo Verde earlier in the group, they were unable to find a breakthrough against a disciplined Spanish side, ultimately finishing third in the group with two points.",
-        "Spain's path forward is already underway, as they successfully transitioned into the Round of 32. Their momentum from this group-topping performance carried into their subsequent knockout fixture against Austria, where they continued their winning form.",
-        "The final Group H standings saw Spain comfortably clear of the pack, while Cabo Verde secured second place with three points. Uruguay and Saudi Arabia were left to exit the competition, both finishing with two points apiece."
+        "Spain closed out their group stage campaign with a clinical 1-0 victory against Uruguay. The result ensured Spain finished at the summit of Group H with seven points, maintaining an impressive defensive record by conceding zero goals throughout their three group matches.",
+        "For Uruguay, the defeat proved costly as they finished the group stage with two points, failing to secure a win in any of their three fixtures. After draws against Saudi Arabia and Cabo Verde, Uruguay needed a result to challenge for a knockout spot but ultimately fell short.",
+        "Spain's dominance in the group was evident, having scored five goals while keeping their own net untouched. This victory propelled them into the knockout stages with significant momentum, where they later continued their strong form with a 3-0 win over Austria in the Round of 32.",
+        "With the group stage concluded, Spain now looks ahead to the Round of 16. Their consistent performance in the group phase establishes them as a formidable side as they advance deeper into the tournament bracket."
       ],
       "bullets": [
-        "Spain finished the group stage undefeated with 7 points and 0 goals conceded.",
-        "Uruguay concluded their tournament with 2 points after failing to secure a win in three group matches.",
-        "Spain's victory confirmed their advancement as the winner of Group H."
+        "Spain finished atop Group H with 7 points and a perfect defensive record of zero goals conceded.",
+        "Uruguay concluded their tournament run with 2 points, following draws against Saudi Arabia and Cabo Verde.",
+        "Spain successfully advanced to the knockout stages, eventually defeating Austria 3-0 in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:00:37+00:00",
-      "sourceHash": "c3572e7098e2c1af",
+      "updatedAt": "2026-07-02T21:23:35+00:00",
+      "sourceHash": "ce6e07e02b42e7db",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -940,19 +940,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "71": {
-      "headline": "Algeria and Austria battle to high-scoring draw",
-      "summary": "Algeria and Austria played to a 3-3 draw in their final Group J match, leaving both teams to navigate their paths into the knockout stage.",
+      "headline": "Algeria and Austria Finish Level in High-Scoring Draw",
+      "summary": "Algeria and Austria played to a 3-3 draw in their final Group J match, leaving both teams to navigate their respective paths out of the group stage.",
       "story": [
-        "With this result, Austria finished second in the group with 4 points and a neutral goal difference, while Algeria also tallied 4 points but landed in third place due to a -2 goal difference. The point was vital for both teams to maintain their tournament survival.",
-        "Austria moved on to face Spain in the Round of 32, while Algeria's path forward led to a matchup against Switzerland. The draw ensured that both squads remained in the competition as they shifted their focus to the knockout bracket."
+        "The 3-3 stalemate between Algeria and Austria served as a dramatic conclusion to their group stage efforts. Both sides showed offensive intent throughout the match, resulting in a back-and-forth affair that ultimately saw the points shared.",
+        "For Austria, the result helped them secure a spot in the Round of 32 as the runner-up in Group J, finishing with 4 points and a neutral goal difference. Their tournament journey continued into the knockout phase, where they eventually faced Spain.",
+        "Algeria also finished their group campaign with 4 points, though their goal difference of -2 placed them behind Austria in the final standings. Despite the draw, Algeria advanced to the Round of 32 to take on Switzerland.",
+        "Argentina dominated the group with a perfect 9 points, leaving the rest of the table to fight for position. This high-scoring encounter provided a final test for both Algeria and Austria before they transitioned into the high-stakes environment of the knockout rounds."
       ],
       "bullets": [
-        "Austria secured the runner-up spot in Group J on goal difference over Algeria.",
-        "Both teams finished the group stage with 4 points after three matches."
+        "The 3-3 draw ensured both Algeria and Austria finished with 4 points in Group J.",
+        "Austria advanced as the group runner-up, while Algeria moved forward as a third-place qualifier."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:00:18+00:00",
-      "sourceHash": "517a9e761faf73e8",
+      "updatedAt": "2026-07-02T21:23:27+00:00",
+      "sourceHash": "3f80be7c96f36ccb",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1061,22 +1063,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "20": {
-      "headline": "Austria Opens Group J with 3-1 Win Over Jordan",
-      "summary": "Austria secured a crucial 3-1 victory against Jordan in their opening match of Group J.",
+      "headline": "Austria Opens Group J with Win Over Jordan",
+      "summary": "Austria secured a 3-1 victory over Jordan in their opening match of the group stage.",
       "story": [
-        "Austria kicked off their campaign with a decisive 3-1 win, setting the tone for their group stage journey. This result proved vital as it provided the foundation for their eventual progression to the Round of 32.",
-        "For Jordan, the match marked the beginning of a difficult group stage where they ultimately finished at the bottom of the table without a point. Despite the loss, they remained competitive throughout their subsequent fixtures.",
-        "Austria went on to navigate a challenging group that included Argentina and Algeria. Following this opening win, they drew with Algeria and fell to Argentina, but their four-point total was enough to secure a spot in the knockout stage as the runner-up of Group J.",
-        "Their tournament run concluded in the Round of 32, where they were narrowly defeated 1-0 by Spain."
+        "Austria kicked off their campaign in Group J with a decisive 3-1 win against Jordan. This result proved vital for their tournament trajectory, providing the momentum needed to navigate a challenging group that also included Argentina and Algeria.",
+        "Following this opening victory, Austria went on to finish second in the group standings with four points, trailing only Argentina. Their group stage journey included a loss to Argentina and a high-scoring 3-3 draw against Algeria, which helped them secure a spot in the knockout rounds.",
+        "For Jordan, the loss in this opening fixture set a difficult tone for the rest of their group stage. Despite their efforts, they were unable to secure points in their subsequent matches against Algeria and Argentina, ultimately finishing at the bottom of the group.",
+        "Austria's progression from the group stage led them to a Round of 32 matchup against Spain, where their tournament run concluded with a 3-0 defeat."
       ],
       "bullets": [
-        "Austria finished second in Group J with 4 points, trailing only Argentina.",
-        "Jordan finished the group stage with 0 points, scoring 3 goals and conceding 8.",
-        "This victory was the only win Austria recorded during the group stage."
+        "Austria finished second in Group J with a 1-1-1 record.",
+        "Jordan concluded their group stage campaign with three losses."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:01:01+00:00",
-      "sourceHash": "f74c8fad7fb383a5",
+      "updatedAt": "2026-07-02T21:24:00+00:00",
+      "sourceHash": "2a155d8919997453",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1204,21 +1205,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "13": {
       "headline": "Spain and Cabo Verde Open Group H with Stalemate",
-      "summary": "Spain and Cabo Verde played to a 0-0 draw in their opening match of Group H.",
+      "summary": "Spain and Cabo Verde played to a 0-0 draw in their opening Group H match.",
       "story": [
-        "The opening match for both sides in Group H ended in a scoreless draw, setting a cautious tone for the rest of the group stage. Neither team was able to find the back of the net, forcing them to share the points to begin their tournament campaigns.",
-        "For Spain, this result was the first step in a group stage run that eventually saw them finish at the top of the table with 7 points. Following this draw, Spain went on to secure victories against Saudi Arabia and Uruguay, maintaining a clean sheet throughout their group matches.",
-        "Cabo Verde proved to be a resilient opponent, as this draw was the first of three consecutive stalemates in their group. They finished the group stage with 3 points, successfully navigating their path to the knockout rounds.",
-        "The implications of this result were felt throughout Group H, as it kept the standings tight early on. While Spain eventually pulled away to secure the top spot, Cabo Verde's ability to hold firm against top-tier competition helped them advance to a Round of 32 matchup against Argentina."
+        "Spain and Cabo Verde kicked off their tournament campaigns with a scoreless draw, a result that left both sides searching for rhythm in their first match of Group H.",
+        "The stalemate set the tone for a tightly contested group, as Spain eventually found their footing to top the standings with seven points, while Cabo Verde secured their own path forward by remaining difficult to beat.",
+        "Following this opening result, Spain went on to dominate their remaining group fixtures, including a 4-0 win over Saudi Arabia and a 1-0 victory against Uruguay, ultimately securing a spot in the Round of 32.",
+        "Cabo Verde also navigated their way through the group stage, earning draws against both Uruguay and Saudi Arabia to finish with three points and advance to the knockout rounds."
       ],
       "bullets": [
-        "The match concluded in a 0-0 draw, providing both teams with a single point to start their group stage.",
-        "Spain eventually finished first in Group H with 7 points, while Cabo Verde advanced with 3 points.",
-        "This result was the first of three consecutive draws for Cabo Verde during the group stage."
+        "The 0-0 draw served as the opening match for both nations in Group H.",
+        "Spain finished at the top of the group with 7 points, while Cabo Verde advanced as the runner-up with 3 points.",
+        "Both teams successfully navigated the group stage to reach the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:01:09+00:00",
-      "sourceHash": "647f71ce4573aa6e",
+      "updatedAt": "2026-07-02T21:24:16+00:00",
+      "sourceHash": "eaa302e700528f89",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1468,20 +1469,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "76": {
-      "headline": "Brazil Edges Past Japan in Round of 32",
-      "summary": "Brazil secured a 2-1 victory over Japan to advance to the Round of 16.",
+      "headline": "Brazil Advances to Round of 16 After Tight Win Over Japan",
+      "summary": "Brazil secured their spot in the next round with a 2-1 victory over Japan in the Round of 32.",
       "story": [
-        "Brazil continued their strong tournament form by narrowly defeating Japan 2-1 in a tense Round of 32 encounter. After finishing at the top of Group C, the Brazilians were tested by a resilient Japanese side that had progressed as the runner-up from Group F.",
-        "The win keeps Brazil's momentum alive following an impressive group stage campaign where they remained unbeaten, including dominant wins over Haiti and Scotland. Their ability to find a result in this knockout fixture demonstrates the composure needed to navigate the tournament's later stages.",
-        "With this victory, Brazil moves forward to the Round of 16. They are now set to face Norway in their next match, continuing their quest for the title."
+        "Brazil continued their strong form in the tournament by navigating a challenging Round of 32 encounter against Japan. The 2-1 result proved enough to keep their momentum alive after a dominant group stage performance where they finished atop Group C.",
+        "For Japan, the loss brings an end to their tournament run. Despite a resilient showing throughout the group stage, including a draw against the Netherlands and a commanding 4-0 win over Tunisia, they were unable to overcome the Brazilian side in this knockout clash.",
+        "With this win, Brazil now shifts their focus to the Round of 16. They are set to face Norway on July 5, as the tournament bracket continues to narrow down toward the final stages."
       ],
       "bullets": [
-        "Brazil advanced to the Round of 16 with a 2-1 win over Japan.",
-        "Brazil remains unbeaten in the 2026 tournament following their group stage success.",
-        "Brazil will face Norway in the next round on July 5."
+        "Brazil remains undefeated in the tournament following this 2-1 victory.",
+        "The win sets up a Round of 16 showdown against Norway."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T20:32:45+00:00",
+      "updatedAt": "2026-07-02T21:24:24+00:00",
       "sourceHash": "919cd9cd14384bdf",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1646,25 +1646,24 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "84": {
-      "headline": "Spain Edges Past Austria to Secure Round of 16 Berth",
-      "summary": "Spain narrowly defeated Austria 1-0 in their Round of 32 clash to continue their tournament run.",
+      "headline": "Spain Dominates Austria to Advance to Round of 16",
+      "summary": "Spain secured a decisive 3-0 victory over Austria in the Round of 32 to continue their unbeaten run in the tournament.",
       "story": [
-        "Spain successfully navigated a tight Round of 32 encounter against Austria, securing a 1-0 victory that keeps their campaign alive. Entering the match as the winners of Group H, Spain maintained the defensive discipline that characterized their group stage performance.",
-        "Austria, who advanced as the runners-up from Group J, proved to be a stubborn opponent throughout the match. Despite their efforts to break through, they were unable to find an equalizer after falling behind early.",
-        "This result marks a continuation of Spain's strong form, building on their group stage success where they remained unbeaten after victories over Saudi Arabia and Uruguay, and an opening draw against Cabo Verde.",
-        "For Austria, the tournament concludes after a challenging group campaign that included a win against Jordan, a loss to Argentina, and a high-scoring draw with Algeria."
+        "Spain demonstrated their tournament credentials with a clinical 3-0 win against Austria, effectively shutting down their opponent to move into the next phase of the knockout stage. Coming off a strong group stage performance where they finished atop Group H, Spain maintained their defensive discipline and offensive efficiency.",
+        "Austria, who entered the match as the runner-up from Group J, struggled to find a rhythm against a Spanish side that has now kept clean sheets in three of their four tournament matches. The result confirms Spain's status as a formidable contender as they move deeper into the bracket.",
+        "With this victory, Spain advances to the Round of 16, where they are scheduled to face the winner of Match 83 on July 6. For Austria, the tournament concludes after a campaign that saw them navigate a challenging group stage."
       ],
       "bullets": [
-        "Spain advances to the next round after finishing their group stage campaign unbeaten.",
-        "Austria exits the tournament following a hard-fought Round of 32 performance.",
-        "The 1-0 scoreline reflects Spain's ability to grind out results in high-pressure knockout matches."
+        "Spain remains undefeated in the tournament, having conceded zero goals in their last three matches.",
+        "The 3-0 victory marks Spain's second shutout win of the tournament, following their 4-0 defeat of Saudi Arabia in the group stage.",
+        "Spain now moves on to face the winner of Match 83 in the Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:01:18+00:00",
-      "sourceHash": "efefd268eaf0baa8",
+      "updatedAt": "2026-07-02T21:23:18+00:00",
+      "sourceHash": "0419242556851d23",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "live or in-progress match"
+      "refreshReason": "source or prompt changed"
     }
   },
   "groups": {

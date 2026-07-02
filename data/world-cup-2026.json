@@ -2736,7 +2736,7 @@
       "time": "15:00",
       "home": "Spain",
       "away": "Austria",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "los-angeles",
       "offset": "-04:00",
@@ -2744,7 +2744,7 @@
       "espnEventId": "760497",
       "homeSource": "Winner Group H",
       "awaySource": "Runner-up Group J",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -2890,13 +2890,14 @@
       "date": "2026-07-06",
       "time": "15:00",
       "home": "Winner Match 83",
-      "away": "Winner Match 84",
+      "away": "Spain",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760506"
+      "espnEventId": "760506",
+      "awaySource": "Winner Match 84"
     },
     {
       "id": 94,
@@ -3230,6 +3231,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-02T19:56:56+00:00",
+  "bracketUpdatedAt": "2026-07-02T21:20:04+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
