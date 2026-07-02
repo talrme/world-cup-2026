@@ -2667,7 +2667,7 @@ window.WORLD_CUP_DATA = {
       "time": "20:00",
       "home": "United States",
       "away": "Bosnia-Herzegovina",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "sf-bay",
       "homeSource": "Winner Group D",
@@ -2902,7 +2902,7 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-07-06",
       "time": "20:00",
-      "home": "Winner Match 81",
+      "home": "United States",
       "away": "Belgium",
       "status": "scheduled",
       "network": "TBD",
@@ -2910,7 +2910,8 @@ window.WORLD_CUP_DATA = {
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760507",
-      "awaySource": "Winner Match 82"
+      "awaySource": "Winner Match 82",
+      "homeSource": "Winner Match 81"
     },
     {
       "id": 95,
@@ -3227,6 +3228,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-02T01:52:29+00:00",
+  "bracketUpdatedAt": "2026-07-02T06:07:42+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
