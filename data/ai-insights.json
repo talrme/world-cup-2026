@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T22:37:10+00:00",
+  "generatedAt": "2026-07-02T23:46:30+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -421,20 +421,21 @@
       "refreshReason": "source or prompt changed"
     },
     "45": {
-      "headline": "Portugal Dominates Uzbekistan in 5-0 Group K Victory",
-      "summary": "Portugal secured a commanding 5-0 victory over Uzbekistan, significantly bolstering their goal difference in Group K.",
+      "headline": "Portugal Dominates Uzbekistan in 5-0 Group K Rout",
+      "summary": "Portugal secured a commanding 5-0 victory over Uzbekistan, significantly boosting their goal difference and positioning themselves for a strong finish in Group K.",
       "story": [
-        "Portugal asserted their dominance in this Matchday 2 encounter, dismantling Uzbekistan with a clinical 5-0 performance. The result provided a crucial boost to Portugal's standing, allowing them to capitalize on their attacking potential after an opening draw.",
-        "For Uzbekistan, the match proved to be a difficult defensive challenge as they struggled to contain the Portuguese offensive pressure throughout the 90 minutes. The heavy defeat left them searching for answers as they navigated a tough group stage.",
-        "This win was instrumental in Portugal's path through Group K. Following this result and a subsequent draw against Colombia, Portugal finished the group stage with 5 points, securing their place in the Round of 32 where they are set to face Croatia."
+        "Portugal delivered an emphatic performance in their second match of the group stage, dismantling Uzbekistan with a 5-0 scoreline. This result was a crucial response following their opening draw against DR Congo, providing the team with much-needed momentum and a substantial advantage in goal difference.",
+        "For Uzbekistan, the match proved to be a difficult challenge as they struggled to contain the Portuguese attack. The heavy defeat left them at the bottom of the group, with the team ultimately finishing the group stage without a point after losses to Colombia and DR Congo as well.",
+        "The lopsided win proved vital for Portugal's progression. By the end of the group stage, Portugal finished second in Group K with 5 points, trailing group leaders Colombia by two points but maintaining a superior goal difference of +5. This performance helped secure their path into the knockout rounds."
       ],
       "bullets": [
-        "Portugal's 5-0 win provided a massive +5 goal difference, which proved vital for their group standing.",
-        "The victory helped Portugal maintain an unbeaten record in the group stage, leading to a knockout stage berth against Croatia."
+        "Portugal's 5-0 win was the largest margin of victory in their Group K campaign.",
+        "The result helped Portugal finish the group stage with a +5 goal difference, the highest in the group.",
+        "Uzbekistan concluded their tournament run at the bottom of Group K with zero points."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:35:04+00:00",
-      "sourceHash": "79da60e61764b0fa",
+      "updatedAt": "2026-07-02T23:46:02+00:00",
+      "sourceHash": "81f917b3bb3e4da0",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -459,21 +460,21 @@
       "refreshReason": "source or prompt changed"
     },
     "47": {
-      "headline": "Croatia Edges Past Panama to Keep Knockout Hopes Alive",
-      "summary": "Final: Panama 0, Croatia 1. Croatia secured a vital 1-0 victory over Panama, a result that proved essential in their successful campaign to advance out of Group L.",
+      "headline": "Croatia Edges Panama to Keep Group L Hopes Alive",
+      "summary": "Final: Panama 0, Croatia 1. Croatia secured a narrow 1-0 victory over Panama in their second group match, a result that proved vital for their progression.",
       "story": [
-        "Croatia claimed a narrow 1-0 win against Panama in Matchday 2, providing the necessary momentum to navigate a competitive group. This result was a critical bounce-back after their opening defeat to England, ensuring they remained in control of their own destiny.",
-        "For Panama, the loss was a difficult blow that left them struggling to find their footing in the tournament. Despite a resilient defensive effort throughout the match, they were unable to break through against a focused Croatian side.",
-        "The victory ultimately helped propel Croatia to a second-place finish in Group L with six points. This performance set the stage for their progression into the Round of 32, where they are now scheduled to face Portugal."
+        "Croatia entered this match looking to bounce back after a difficult opening loss to England. The 1-0 win over Panama provided the necessary spark to stabilize their campaign and keep them in contention for a spot in the knockout stages.",
+        "For Panama, the defeat was a tough blow, leaving them without a point in the group. Despite a disciplined effort, they were unable to find the back of the net, ultimately finishing their group campaign with zero goals scored.",
+        "The three points earned here were instrumental for Croatia, who eventually finished second in Group L with six points. This win set the foundation for their subsequent victory over Ghana and their eventual path to the Round of 32."
       ],
       "bullets": [
-        "Croatia finished Group L with six points, trailing only England in the final standings.",
-        "The win was the turning point for Croatia, who recovered from a Matchday 1 loss to finish the group stage with two consecutive victories.",
-        "Panama concluded their tournament run without securing a point or scoring a goal in their three group matches."
+        "Croatia finished group play with 6 points, securing second place in Group L.",
+        "Panama concluded their tournament run with zero points and no goals scored.",
+        "This result was the middle step in Croatia's successful three-match group stage recovery."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:34:49+00:00",
-      "sourceHash": "f04b470b071f53d7",
+      "updatedAt": "2026-07-02T23:45:53+00:00",
+      "sourceHash": "7c39a50fa89a2bbc",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -880,43 +881,45 @@
       "refreshReason": "past 5 days"
     },
     "68": {
-      "headline": "Croatia Edges Past Ghana to Secure Knockout Spot",
-      "summary": "Croatia defeated Ghana 2-1 in their final Group L match, punching their ticket to the Round of 32.",
+      "headline": "Croatia Edges Past Ghana to Secure Group L Spot",
+      "summary": "Croatia defeated Ghana 2-1 in their final Group L match, securing second place in the standings.",
       "story": [
-        "Croatia claimed a vital 2-1 victory over Ghana, ensuring they finished second in Group L with 6 points. The result was decisive for their tournament trajectory, allowing them to advance directly to the knockout stages.",
-        "For Ghana, the loss leaves them on 4 points. Despite the defeat, their campaign continues as they look ahead to a challenging Round of 32 matchup against Colombia.",
-        "Croatia now shifts their focus to a Round of 32 clash against Portugal. Having navigated a tough group that included England, they enter the knockout phase with momentum from this narrow win."
+        "Croatia clinched a vital 2-1 victory over Ghana, a result that ultimately finalized the Group L standings. With this win, Croatia finished their group stage campaign with 6 points, trailing only England, who topped the group with 7 points.",
+        "For Ghana, the loss left them on 4 points after three matches. Despite the defeat, their defensive efforts throughout the group stage\u2014notably holding England to a draw\u2014kept them in contention as they now look toward the Round of 32.",
+        "The win propels Croatia into a Round of 32 matchup against Portugal. Meanwhile, Ghana moves forward to face Colombia in their own knockout stage fixture."
       ],
       "bullets": [
-        "Croatia finished second in Group L, setting up a Round of 32 match against Portugal.",
-        "Ghana finished with 4 points and will face Colombia in the next round."
+        "Croatia finished second in Group L with 6 points.",
+        "Ghana concluded the group stage with 4 points.",
+        "Croatia advances to face Portugal in the Round of 32.",
+        "Ghana is set to play Colombia in the next round."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:02:35+00:00",
-      "sourceHash": "41d630062e3541bd",
+      "updatedAt": "2026-07-02T23:45:45+00:00",
+      "sourceHash": "e3c8b6435dabf46c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "69": {
-      "headline": "Colombia and Portugal play to scoreless stalemate",
-      "summary": "Colombia and Portugal finished their Group K campaign with a 0-0 draw, securing the top two spots in the group respectively.",
+      "headline": "Colombia and Portugal play to a stalemate in Group K finale",
+      "summary": "Colombia and Portugal finished in a 0-0 draw, securing Colombia the top spot in Group K and Portugal the runner-up position.",
       "story": [
-        "Colombia entered the final matchday with a narrow lead in Group K and successfully defended their position by holding Portugal to a 0-0 draw. The result allowed Colombia to finish at the top of the group standings with seven points, maintaining an unbeaten record throughout the group stage.",
-        "Portugal concluded their group schedule with five points, finishing as the runner-up. Despite the lack of goals in this encounter, Portugal's strong defensive performance throughout the group phase was notable, as they conceded only one goal across their three matches.",
-        "With the group stage now behind them, both teams shift their focus to the knockout rounds. Colombia advances to the Round of 32 where they are set to face Ghana. Meanwhile, Portugal will prepare for their own Round of 32 matchup against Croatia."
+        "The final match of Group K saw Colombia and Portugal battle to a scoreless draw. While neither side could find the back of the net, the result was sufficient for both teams to advance to the knockout stages of the tournament.",
+        "With this point, Colombia concluded the group stage with seven points, successfully holding onto first place. Portugal finished just behind them with five points, maintaining their unbeaten record through the group phase.",
+        "Colombia now looks ahead to their Round of 32 matchup against Ghana. Meanwhile, Portugal moves on to face Croatia in their own Round of 32 fixture as they continue their tournament journey."
       ],
       "bullets": [
-        "Colombia finished first in Group K with 7 points, while Portugal took second place with 5 points.",
-        "Both teams remained defensively disciplined, allowing only one goal each during their entire group stage campaign.",
-        "Colombia moves on to play Ghana in the Round of 32, and Portugal will face Croatia."
+        "Colombia finished at the top of Group K with 7 points.",
+        "Portugal advanced as the group runner-up with 5 points.",
+        "Both teams remained defensively sound, conceding only one goal each throughout the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T20:02:10+00:00",
-      "sourceHash": "7fb60662b20c830e",
+      "updatedAt": "2026-07-02T23:45:37+00:00",
+      "sourceHash": "3a8cad9039342abc",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "70": {
       "headline": "DR Congo secures victory to close out Group K",
@@ -1020,42 +1023,41 @@
       "refreshReason": "source or prompt changed"
     },
     "22": {
-      "headline": "England Opens Group L with High-Scoring Win Over Croatia",
+      "headline": "England Opens Group L with 4-2 Win Over Croatia",
       "summary": "England secured a decisive 4-2 victory over Croatia in their opening Group L match, setting the tone for their successful group stage campaign.",
       "story": [
-        "England kicked off their tournament in style by overcoming Croatia in a six-goal thriller. The 4-2 result provided an immediate statement of intent for the Three Lions, who ultimately finished at the top of Group L with seven points from their three matches.",
-        "For Croatia, the loss served as an early challenge in a competitive group. Despite the setback, they showed resilience throughout the opening phase, eventually securing second place in the group with six points after subsequent wins against Panama and Ghana.",
-        "This opening match proved pivotal for the group's final standings. By securing all three points early, England gained the momentum needed to navigate a draw against Ghana and a win over Panama, while Croatia had to fight back to ensure their progression to the knockout stages.",
-        "Following this match, both teams successfully advanced from the group. England moved on to defeat Congo DR in the Round of 32, while Croatia prepared for a challenging knockout fixture against Portugal."
+        "England kicked off their tournament in high-scoring fashion, overcoming Croatia 4-2 to claim three vital points in Matchday 1. This result proved foundational for the Three Lions, who eventually finished at the top of Group L with seven points from their three matches.",
+        "For Croatia, the loss was a difficult start to their group journey, though they showed resilience to bounce back later in the group stage. Despite the early setback, Croatia managed to secure six points in total, finishing as the runners-up in Group L behind England.",
+        "The outcome of this match had long-term implications for the bracket. England's top-place finish allowed them to advance through the Round of 32 with a win over Congo DR, while Croatia moved on to face Portugal in the knockout stages."
       ],
       "bullets": [
-        "England finished atop Group L with 7 points, while Croatia followed in second with 6 points.",
-        "The 4-2 scoreline was the highest-scoring match in Group L."
+        "England finished the group stage undefeated with 7 points, while Croatia followed in second place with 6 points.",
+        "This 4-2 result was the highest-scoring match in Group L, significantly boosting England's goal difference early on."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T18:34:38+00:00",
-      "sourceHash": "44743cb8c855a619",
+      "updatedAt": "2026-07-02T23:46:14+00:00",
+      "sourceHash": "dc7fd133d00a4532",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "21": {
-      "headline": "Portugal and DR Congo battle to opening draw",
-      "summary": "Portugal and DR Congo opened their Group K campaign with a hard-fought 1-1 draw.",
+      "headline": "Portugal and DR Congo battle to a stalemate",
+      "summary": "Portugal and DR Congo opened their Group K campaign with a 1-1 draw, setting the tone for a competitive group stage.",
       "story": [
-        "The opening match of Group K saw Portugal and DR Congo share the points in a 1-1 stalemate. This result set the tone for a competitive group stage where every point proved vital for advancement.",
-        "Following this draw, Portugal eventually secured their place in the knockout stages by finishing second in the group with five points, trailing Colombia. Their campaign included a dominant 5-0 victory over Uzbekistan and a scoreless draw against Colombia.",
-        "DR Congo finished third in the group with four points. Despite their efforts, they were unable to overcome the points deficit created by this opening draw and a narrow loss to Colombia, though they did finish their group play on a high note with a 3-1 win over Uzbekistan.",
-        "Portugal now looks ahead to the Round of 32, where they are scheduled to face Croatia as they continue their tournament journey."
+        "The opening match of Group K saw Portugal and DR Congo share the points in a 1-1 draw. This result immediately established a tight landscape for the group, forcing both teams to look for results in their subsequent fixtures against Colombia and Uzbekistan.",
+        "For Portugal, this draw was the first step in a group stage journey that eventually saw them finish second in the standings with five points. Following this match, they went on to secure a dominant 5-0 victory over Uzbekistan and a hard-fought 0-0 draw against group winners Colombia.",
+        "DR Congo showed resilience throughout the group stage, finishing with four points. While the draw against Portugal was a solid start, they narrowly fell to Colombia before rebounding with a 3-1 win against Uzbekistan in their final group match.",
+        "This initial point proved vital for both sides as they navigated the group. Portugal's performance here helped them advance to the knockout stages, where they moved on to face Croatia."
       ],
       "bullets": [
-        "The 1-1 draw was the only match in Group K that ended in a stalemate for either side.",
-        "Portugal advanced to the knockout phase as the runner-up of Group K.",
-        "DR Congo concluded their tournament run with a 3-1 victory in their final group match."
+        "The 1-1 draw left both teams with work to do in a group ultimately topped by Colombia.",
+        "Portugal concluded Group K in second place with a total of five points.",
+        "DR Congo finished third in the group with four points after their final win over Uzbekistan."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:38:15+00:00",
-      "sourceHash": "98f6af24f085e2a4",
+      "updatedAt": "2026-07-02T23:46:22+00:00",
+      "sourceHash": "69c070b01f319517",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1661,6 +1663,26 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "83": {
+      "headline": "Portugal and Croatia Deadlocked in Round of 32",
+      "summary": "Portugal and Croatia played to a 0-0 draw in their Round of 32 matchup, leaving the fate of the tie to be decided beyond regulation.",
+      "story": [
+        "The Round of 32 clash between Portugal and Croatia ended in a scoreless stalemate, reflecting the defensive discipline both sides brought to the pitch. Neither team was able to break the deadlock during regulation, forcing a tense continuation of the match.",
+        "Portugal entered this knockout fixture after a group stage campaign that saw them finish as the runners-up of Group K. Their path included a dominant 5-0 victory over Uzbekistan, balanced by draws against DR Congo and Colombia.",
+        "Croatia reached this stage as the runners-up from Group L. Their journey to the Round of 32 was marked by a high-scoring defeat to England followed by consecutive wins against Panama and Ghana, showing their ability to grind out results.",
+        "With the scoreline remaining 0-0, the pressure now shifts to the decisive moments required to determine which side will advance further in the tournament bracket."
+      ],
+      "bullets": [
+        "Portugal concluded their group stage with one win and two draws, remaining unbeaten throughout the opening round.",
+        "Croatia advanced to the knockout phase despite a difficult opening loss, bouncing back with two straight victories in Group L."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-02T23:46:30+00:00",
+      "sourceHash": "0e496e12d90576ba",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {
