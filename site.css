@@ -2624,6 +2624,8 @@ button.bracket-score-cell {
 .bracket-board-linear {
   --bracket-gap: 18px;
   --bracket-connector-half-gap: 9px;
+  --bracket-leaf-count: 16;
+  --bracket-row-height: 126px;
   align-items: stretch;
   display: grid;
   gap: var(--bracket-gap);
@@ -2642,16 +2644,19 @@ button.bracket-score-cell {
 }
 
 .bracket-board-linear .bracket-column-stack {
-  gap: clamp(8px, calc(84px / var(--bracket-count)), 18px);
+  align-content: stretch;
+  gap: 10px;
+  grid-template-rows: repeat(var(--bracket-leaf-count), var(--bracket-row-height));
   isolation: isolate;
   overflow: visible;
 }
 
 .bracket-board-linear .bracket-round-sf .bracket-column-stack {
-  align-content: space-around;
+  align-content: stretch;
 }
 
 .bracket-board-linear .bracket-match {
+  align-self: center;
   z-index: 2;
 }
 
@@ -2695,19 +2700,23 @@ button.bracket-score-cell {
 }
 
 .bracket-board-linear.is-start-r32 {
-  --bracket-stack-height: 1180px;
+  --bracket-row-height: 126px;
+  --bracket-stack-height: 2160px;
 }
 
 .bracket-board-linear.is-start-r16 {
-  --bracket-stack-height: 700px;
+  --bracket-row-height: 118px;
+  --bracket-stack-height: 1000px;
 }
 
 .bracket-board-linear.is-start-qf {
-  --bracket-stack-height: 430px;
+  --bracket-row-height: 112px;
+  --bracket-stack-height: 500px;
 }
 
 .bracket-board-linear.is-start-sf {
-  --bracket-stack-height: 280px;
+  --bracket-row-height: 112px;
+  --bracket-stack-height: 260px;
 }
 
 .bracket-board-linear.is-start-finals {
@@ -2810,6 +2819,7 @@ button.bracket-score-cell {
   .bracket-board-linear {
     --bracket-gap: 12px;
     --bracket-connector-half-gap: 6px;
+    --bracket-row-height: 116px;
     grid-template-columns: repeat(var(--bracket-rounds, 3), minmax(226px, 1fr));
     min-width: max(100%, calc(var(--bracket-min-width, 870px) - 120px));
   }
@@ -2842,18 +2852,22 @@ button.bracket-score-cell {
   }
 
   .bracket-board-linear.is-start-r32 {
-    --bracket-stack-height: 1030px;
+    --bracket-row-height: 116px;
+    --bracket-stack-height: 2010px;
   }
 
   .bracket-board-linear.is-start-r16 {
-    --bracket-stack-height: 610px;
+    --bracket-row-height: 112px;
+    --bracket-stack-height: 970px;
   }
 
   .bracket-board-linear.is-start-qf {
-    --bracket-stack-height: 360px;
+    --bracket-row-height: 108px;
+    --bracket-stack-height: 470px;
   }
 
   .bracket-board-linear.is-start-sf {
+    --bracket-row-height: 108px;
     --bracket-stack-height: 240px;
   }
 

@@ -1713,7 +1713,7 @@
   }
 
   function referencedMatchIds(match) {
-    return ["home", "away"]
+    return ["home", "away", "homeSource", "awaySource"]
       .flatMap((side) => [...String(match[side] || "").matchAll(/Match\s+(\d+)/gi)].map((item) => Number(item[1])))
       .filter(Boolean);
   }
@@ -1874,6 +1874,43 @@
     };
   }
 
+  function bracketSlotLayout(knockout, visibleStages, orderMap) {
+    const slotMap = new Map();
+    const firstStage = visibleStages[0]?.stage || "Round of 32";
+    const firstMatches = bracketStageMatches(firstStage, knockout, orderMap);
+
+    firstMatches.forEach((match, index) => {
+      slotMap.set(match.id, { start: index, span: 1 });
+    });
+
+    visibleStages.slice(1).forEach((stage) => {
+      bracketStageMatches(stage.stage, knockout, orderMap).forEach((match, index) => {
+        const childSlots = referencedMatchIds(match)
+          .map((id) => slotMap.get(id))
+          .filter(Boolean);
+
+        if (childSlots.length) {
+          const start = Math.min(...childSlots.map((slot) => slot.start));
+          const end = Math.max(...childSlots.map((slot) => slot.start + slot.span));
+          slotMap.set(match.id, { start, span: Math.max(1, end - start) });
+          return;
+        }
+
+        if (!slotMap.has(match.id)) {
+          slotMap.set(match.id, { start: index, span: 1 });
+        }
+      });
+    });
+
+    return { leafCount: Math.max(1, firstMatches.length), slotMap };
+  }
+
+  function bracketSlotStyle(match, slotMap) {
+    const slot = slotMap?.get(match.id);
+    if (!slot) return "";
+    return ` style="grid-row: ${slot.start + 1} / span ${Math.max(1, slot.span)}"`;
+  }
+
   function bracketScoreCell(match, side) {
     if (!hasScore(match)) return `<span class="bracket-score-cell">${isScorePending(match) ? "--" : ""}</span>`;
     const visible = isScoreVisible(match);
@@ -1893,14 +1930,14 @@
     `;
   }
 
-  function renderBracketMatch(match, tone = "") {
+  function renderBracketMatch(match, tone = "", slotMap = null) {
     const current = matchState(match);
     const roundTone = match.stage === "Final" ? "is-final" : match.stage === "Third Place" ? "is-third" : "";
     const matchLabel = match.stage === "Final" || match.stage === "Third Place" ? match.stage : formatCompactDateTime(match);
     const matchTime = match.stage === "Final" || match.stage === "Third Place" ? formatCompactDateTime(match) : "";
     const actions = renderBracketVideoLinks(match);
     return `
-      <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(match.home)} vs ${escapeHtml(match.away)}">
+      <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(match.home)} vs ${escapeHtml(match.away)}"${bracketSlotStyle(match, slotMap)}>
         <div class="bracket-match-meta">
           <span>${escapeHtml(matchLabel)}</span>
           ${matchTime ? `<em>${escapeHtml(matchTime)}</em>` : ""}
@@ -1937,7 +1974,7 @@
     `;
   }
 
-  function renderBracketRound(label, roundMatches, stageClass) {
+  function renderBracketRound(label, roundMatches, stageClass, slotMap = null) {
     if (stageClass === "finals") {
       const finalMatch = roundMatches.find((match) => match.stage === "Final");
       const thirdPlaceMatch = roundMatches.find((match) => match.stage === "Third Place");
@@ -1970,7 +2007,7 @@
         <div class="bracket-column-stack">
           ${
             roundMatches.length
-              ? roundMatches.map((match) => renderBracketMatch(match, `is-${stageClass}`)).join("")
+              ? roundMatches.map((match) => renderBracketMatch(match, `is-${stageClass}`, slotMap)).join("")
               : `<div class="bracket-empty-round">Not announced yet</div>`
           }
         </div>
@@ -2009,8 +2046,9 @@
     const bracketMinWidth = visibleStages.length * 230 + Math.max(0, visibleStages.length - 1) * 18;
     const firstStage = visibleStages[0] || bracketStages[0];
     const orderMap = bracketOrderMap(knockout);
+    const layout = bracketSlotLayout(knockout, visibleStages, orderMap);
     const columns = visibleStages
-      .map((stage) => renderBracketRound(stage.label, bracketStageMatches(stage.stage, knockout, orderMap), stage.className))
+      .map((stage) => renderBracketRound(stage.label, bracketStageMatches(stage.stage, knockout, orderMap), stage.className, layout.slotMap))
       .join("");
 
     return `
@@ -2018,7 +2056,7 @@
         ${renderBracketRoundPicker()}
         <div class="bracket-frame">
           <div class="bracket-scroll" aria-label="World Cup knockout bracket">
-            <div class="bracket-board bracket-board-linear is-full is-start-${escapeHtml(firstStage.className)} ${visibleStages.length === 1 ? "is-single-round" : ""}" style="--bracket-rounds: ${visibleStages.length}; --bracket-min-width: ${bracketMinWidth}px" data-bracket-window="full">
+            <div class="bracket-board bracket-board-linear is-full is-start-${escapeHtml(firstStage.className)} ${visibleStages.length === 1 ? "is-single-round" : ""}" style="--bracket-rounds: ${visibleStages.length}; --bracket-min-width: ${bracketMinWidth}px; --bracket-leaf-count: ${layout.leafCount}" data-bracket-window="full">
               <svg class="bracket-line-layer" data-bracket-line-layer aria-hidden="true"></svg>
               ${columns}
             </div>
