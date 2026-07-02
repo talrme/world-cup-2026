@@ -2736,14 +2736,16 @@ window.WORLD_CUP_DATA = {
       "time": "15:00",
       "home": "Spain",
       "away": "Austria",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "los-angeles",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760497",
       "homeSource": "Winner Group H",
-      "awaySource": "Runner-up Group J"
+      "awaySource": "Runner-up Group J",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "id": 85,
@@ -3228,6 +3230,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-02T06:07:42+00:00",
+  "bracketUpdatedAt": "2026-07-02T19:56:56+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

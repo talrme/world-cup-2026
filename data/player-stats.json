@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T18:17:12+00:00",
+  "generatedAt": "2026-07-02T19:56:56+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -130,6 +130,19 @@
     },
     {
       "rank": 10,
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "position": "FW",
+      "goals": 3,
+      "assists": 1,
+      "points": 4,
+      "matches": 4,
+      "minutes": 277,
+      "goalsPer90": 1.0,
+      "pointsPer90": 1.3
+    },
+    {
+      "rank": 11,
       "player": "Julian Quinones",
       "team": "Mexico",
       "position": "FW",
@@ -142,7 +155,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 11,
+      "rank": 12,
       "player": "Cody Gakpo",
       "team": "Netherlands",
       "position": "FW",
@@ -155,7 +168,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 12,
+      "rank": 13,
       "player": "Brian Brobbey",
       "team": "Netherlands",
       "position": "FW",
@@ -168,7 +181,7 @@
       "pointsPer90": 1.1
     },
     {
-      "rank": 13,
+      "rank": 14,
       "player": "Folarin Balogun",
       "team": "United States",
       "position": "FW",
@@ -181,7 +194,7 @@
       "pointsPer90": 1.1
     },
     {
-      "rank": 14,
+      "rank": 15,
       "player": "Matheus Cunha",
       "team": "Brazil",
       "position": "FW",
@@ -194,7 +207,7 @@
       "pointsPer90": 1.0
     },
     {
-      "rank": 15,
+      "rank": 16,
       "player": "Elijah Just",
       "team": "New Zealand",
       "position": "MID",
@@ -207,7 +220,7 @@
       "pointsPer90": 0.9
     },
     {
-      "rank": 16,
+      "rank": 17,
       "player": "Jonathan David",
       "team": "Canada",
       "position": "FW",
@@ -220,7 +233,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 17,
+      "rank": 18,
       "player": "Kai Havertz",
       "team": "Germany",
       "position": "FW",
@@ -233,7 +246,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 18,
+      "rank": 19,
       "player": "Ismael Saibari",
       "team": "Morocco",
       "position": "FW",
@@ -246,7 +259,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 19,
+      "rank": 20,
       "player": "Yoane Wissa",
       "team": "DR Congo",
       "position": "FW",
@@ -259,7 +272,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 20,
+      "rank": 21,
       "player": "Crysencio Summerville",
       "team": "Netherlands",
       "position": "FW",
@@ -272,7 +285,7 @@
       "pointsPer90": 1.3
     },
     {
-      "rank": 21,
+      "rank": 22,
       "player": "Ruben Vargas",
       "team": "Switzerland",
       "position": "MID",
@@ -285,7 +298,7 @@
       "pointsPer90": 1.4
     },
     {
-      "rank": 22,
+      "rank": 23,
       "player": "Riyad Mahrez",
       "team": "Algeria",
       "position": "MID",
@@ -298,7 +311,7 @@
       "pointsPer90": 1.3
     },
     {
-      "rank": 23,
+      "rank": 24,
       "player": "Romelu Lukaku",
       "team": "Belgium",
       "position": "FW",
@@ -309,19 +322,6 @@
       "minutes": 215,
       "goalsPer90": 0.8,
       "pointsPer90": 1.3
-    },
-    {
-      "rank": 24,
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
-      "position": "FW",
-      "goals": 2,
-      "assists": 1,
-      "points": 3,
-      "matches": 4,
-      "minutes": 228,
-      "goalsPer90": 0.8,
-      "pointsPer90": 1.2
     },
     {
       "rank": 25,
@@ -1274,19 +1274,6 @@
     },
     {
       "rank": 95,
-      "player": "Alex Baena",
-      "team": "Spain",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 140,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
-    },
-    {
-      "rank": 96,
       "player": "Leo Ostigard",
       "team": "Norway",
       "position": "DEF",
@@ -1299,7 +1286,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 97,
+      "rank": 96,
       "player": "Hyeon-Gyu Oh",
       "team": "South Korea",
       "position": "FW",
@@ -1312,7 +1299,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 97,
+      "rank": 96,
       "player": "Nico Schlotterbeck",
       "team": "Germany",
       "position": "DEF",
@@ -1325,20 +1312,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 98,
-      "player": "Lamine Yamal",
-      "team": "Spain",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 153,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
-    },
-    {
-      "rank": 99,
+      "rank": 97,
       "player": "Brian Cipenga",
       "team": "DR Congo",
       "position": "FW",
@@ -1351,7 +1325,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 100,
+      "rank": 98,
       "player": "Prado Mauricio",
       "team": "Paraguay",
       "position": "MID",
@@ -1364,7 +1338,20 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 101,
+      "rank": 99,
+      "player": "Alex Baena",
+      "team": "Spain",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
+      "minutes": 189,
+      "goalsPer90": 0.5,
+      "pointsPer90": 0.5
+    },
+    {
+      "rank": 100,
       "player": "Lautaro Martinez",
       "team": "Argentina",
       "position": "FW",
@@ -1377,7 +1364,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 102,
+      "rank": 101,
       "player": "Omar Rekik",
       "team": "Tunisia",
       "position": "DEF",
@@ -1390,7 +1377,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 102,
+      "rank": 101,
       "player": "Wilson Isidor",
       "team": "Haiti",
       "position": "FW",
@@ -1399,6 +1386,19 @@
       "points": 1,
       "matches": 3,
       "minutes": 201,
+      "goalsPer90": 0.4,
+      "pointsPer90": 0.4
+    },
+    {
+      "rank": 102,
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
+      "minutes": 202,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
     },
@@ -1469,19 +1469,6 @@
     },
     {
       "rank": 106,
-      "player": "Romano Schmid",
-      "team": "Austria",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 216,
-      "goalsPer90": 0.4,
-      "pointsPer90": 0.4
-    },
-    {
-      "rank": 107,
       "player": "Caleb Yirenkyi",
       "team": "Ghana",
       "position": "MID",
@@ -1494,7 +1481,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 108,
+      "rank": 107,
       "player": "Marcus Pedersen",
       "team": "Norway",
       "position": "DEF",
@@ -1507,7 +1494,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 109,
+      "rank": 108,
       "player": "Amine Gouiri",
       "team": "Algeria",
       "position": "FW",
@@ -1520,7 +1507,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 109,
+      "rank": 108,
       "player": "Joao Neves",
       "team": "Portugal",
       "position": "MID",
@@ -1533,7 +1520,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 110,
+      "rank": 109,
       "player": "Desire Doue",
       "team": "France",
       "position": "FW",
@@ -1546,7 +1533,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 111,
+      "rank": 110,
       "player": "Abbosbek Fayzullaev",
       "team": "Uzbekistan",
       "position": "FW",
@@ -1559,7 +1546,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 111,
+      "rank": 110,
       "player": "Nilson Angulo",
       "team": "Ecuador",
       "position": "MID",
@@ -1572,7 +1559,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 112,
+      "rank": 111,
       "player": "Antonio Nusa",
       "team": "Norway",
       "position": "FW",
@@ -1585,7 +1572,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 113,
+      "rank": 112,
       "player": "Junya Ito",
       "team": "Japan",
       "position": "FW",
@@ -1598,7 +1585,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 114,
+      "rank": 113,
       "player": "Livano Comenencia",
       "team": "Curacao",
       "position": "MID",
@@ -1611,7 +1598,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 115,
+      "rank": 114,
       "player": "Connor Metcalfe",
       "team": "Australia",
       "position": "FW",
@@ -1624,7 +1611,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 116,
+      "rank": 115,
       "player": "Thapelo Maseko",
       "team": "South Africa",
       "position": "MID",
@@ -1637,7 +1624,7 @@
       "pointsPer90": 0.4
     },
     {
-      "rank": 117,
+      "rank": 116,
       "player": "Agustin Canobbio",
       "team": "Uruguay",
       "position": "MID",
@@ -1646,6 +1633,19 @@
       "points": 1,
       "matches": 3,
       "minutes": 262,
+      "goalsPer90": 0.3,
+      "pointsPer90": 0.3
+    },
+    {
+      "rank": 117,
+      "player": "Romano Schmid",
+      "team": "Austria",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
+      "minutes": 266,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
     },
@@ -1859,19 +1859,6 @@
     },
     {
       "rank": 130,
-      "player": "Marcel Sabitzer",
-      "team": "Austria",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 312,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.3
-    },
-    {
-      "rank": 131,
       "player": "Kerim Alajbegovic",
       "team": "Bosnia and Herzegovina",
       "position": "MID",
@@ -1884,7 +1871,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 132,
+      "rank": 131,
       "player": "Arda Guler",
       "team": "Turkey",
       "position": "FW",
@@ -1897,7 +1884,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 132,
+      "rank": 131,
       "player": "Carlos Casemiro",
       "team": "Brazil",
       "position": "MID",
@@ -1910,7 +1897,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 133,
+      "rank": 132,
       "player": "Kevin De Bruyne",
       "team": "Belgium",
       "position": "MID",
@@ -1923,7 +1910,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 134,
+      "rank": 133,
       "player": "Antunes Stephen Eustaquio",
       "team": "Canada",
       "position": "MID",
@@ -1936,7 +1923,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 135,
+      "rank": 134,
       "player": "Issa Diop",
       "team": "Morocco",
       "position": "DEF",
@@ -1949,7 +1936,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 136,
+      "rank": 135,
       "player": "Leroy Sane",
       "team": "Germany",
       "position": "MID",
@@ -1962,7 +1949,20 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 137,
+      "rank": 135,
+      "player": "Marcel Sabitzer",
+      "team": "Austria",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
+      "minutes": 361,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 136,
       "player": "Franck Kessie",
       "team": "Ivory Coast",
       "position": "MID",
@@ -1975,7 +1975,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 138,
+      "rank": 137,
       "player": "Gonzalo Plata",
       "team": "Ecuador",
       "position": "FW",
@@ -1988,7 +1988,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 139,
+      "rank": 138,
       "player": "Jan Paul van Hecke",
       "team": "Netherlands",
       "position": "DEF",
