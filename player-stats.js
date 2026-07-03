@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-03T19:55:45+00:00",
+  "generatedAt": "2026-07-03T21:19:48+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -32,7 +32,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 6,
       "assists": 0,
       "points": 6,
-      "matches": 3,
+      "matches": 4,
       "minutes": 223,
       "goalsPer90": 2.4,
       "pointsPer90": 2.4
@@ -566,9 +566,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 2,
       "matches": 4,
-      "minutes": 306,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
+      "minutes": 340,
+      "goalsPer90": 0.5,
+      "pointsPer90": 0.5
     },
     {
       "rank": 44,
@@ -639,14 +639,14 @@ window.WORLD_CUP_PLAYER_STATS = {
       "rank": 49,
       "player": "Mohamed Salah",
       "team": "Egypt",
-      "position": "MID",
+      "position": "FW",
       "goals": 1,
       "assists": 2,
       "points": 3,
       "matches": 4,
-      "minutes": 329,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.8
+      "minutes": 362,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.7
     },
     {
       "rank": 50,
@@ -1072,7 +1072,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 65,
       "goalsPer90": 1.4,
       "pointsPer90": 1.4
@@ -1098,7 +1098,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 75,
       "goalsPer90": 1.2,
       "pointsPer90": 1.2
@@ -1300,19 +1300,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 98,
-      "player": "Mahmoud Trezeguet",
-      "team": "Egypt",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 4,
-      "minutes": 143,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
-    },
-    {
-      "rank": 99,
       "player": "Hyeon-Gyu Oh",
       "team": "South Korea",
       "position": "FW",
@@ -1325,7 +1312,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 99,
+      "rank": 98,
       "player": "Nico Schlotterbeck",
       "team": "Germany",
       "position": "DEF",
@@ -1338,7 +1325,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 100,
+      "rank": 99,
       "player": "Brian Cipenga",
       "team": "DR Congo",
       "position": "FW",
@@ -1351,7 +1338,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.6
     },
     {
-      "rank": 101,
+      "rank": 100,
       "player": "Ante Budimir",
       "team": "Croatia",
       "position": "FW",
@@ -1364,7 +1351,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.5
     },
     {
-      "rank": 102,
+      "rank": 101,
       "player": "Prado Mauricio",
       "team": "Paraguay",
       "position": "MID",
@@ -1377,6 +1364,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.5
     },
     {
+      "rank": 102,
+      "player": "Mahmoud Trezeguet",
+      "team": "Egypt",
+      "position": "FW",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 4,
+      "minutes": 176,
+      "goalsPer90": 0.5,
+      "pointsPer90": 0.5
+    },
+    {
       "rank": 103,
       "player": "Lautaro Martinez",
       "team": "Argentina",
@@ -1384,7 +1384,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 195,
       "goalsPer90": 0.5,
       "pointsPer90": 0.5
@@ -1709,7 +1709,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 279,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
@@ -1944,7 +1944,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 1,
       "matches": 4,
-      "minutes": 353,
+      "minutes": 355,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
     },

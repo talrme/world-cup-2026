@@ -2852,7 +2852,7 @@ window.WORLD_CUP_DATA = {
       "time": "14:00",
       "home": "Australia",
       "away": "Egypt",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
@@ -2972,13 +2972,14 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-07",
       "time": "12:00",
       "home": "Winner Match 86",
-      "away": "Winner Match 88",
+      "away": "Egypt",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "atlanta",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760509"
+      "espnEventId": "760509",
+      "awaySource": "Winner Match 88"
     },
     {
       "id": 96,
@@ -3281,6 +3282,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-03T19:55:44+00:00",
+  "bracketUpdatedAt": "2026-07-03T21:19:47+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
