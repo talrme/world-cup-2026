@@ -2860,7 +2860,7 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760499",
       "homeSource": "Runner-up Group D",
       "awaySource": "Runner-up Group G",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -3281,6 +3281,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-03T18:21:35+00:00",
+  "bracketUpdatedAt": "2026-07-03T19:55:44+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

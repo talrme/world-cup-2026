@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T18:26:15+00:00",
+  "generatedAt": "2026-07-03T19:59:20+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -102,22 +102,22 @@
       "refreshReason": "source or prompt changed"
     },
     "40": {
-      "headline": "Egypt Secures Vital Win Over New Zealand",
-      "summary": "Final: New Zealand 1, Egypt 3. Egypt defeated New Zealand 3-1 in a crucial Group G match, providing the momentum needed to eventually advance to the knockout stage.",
+      "headline": "Egypt secures crucial victory over New Zealand",
+      "summary": "Final: New Zealand 1, Egypt 3. Egypt defeated New Zealand 3-1 in their Group G matchup, significantly bolstering their standing in the group.",
       "story": [
-        "Egypt\u2019s 3-1 victory over New Zealand proved to be the defining result of their group campaign. By securing all three points, Egypt kept their tournament hopes firmly in their own hands after an opening draw against Belgium.",
-        "For New Zealand, the loss was a significant setback that left them struggling to keep pace in a competitive Group G. After an initial draw with Iran, the defeat to Egypt put them under immense pressure heading into their final group match against Belgium.",
-        "This win was instrumental for Egypt, who finished the group stage with 5 points, level with Belgium but trailing on goal difference. The victory provided the necessary cushion to navigate a scoreless draw in their final group game against Iran.",
-        "Egypt's successful group run eventually propelled them into the Round of 32, where they continued their momentum with a 1-0 win over Australia."
+        "Egypt delivered a clinical performance to earn a 3-1 victory against New Zealand, a result that proved pivotal in their progression through the group stage. By securing all three points, Egypt kept their momentum alive in a competitive Group G.",
+        "For New Zealand, the loss made their path to the knockout rounds difficult, as they struggled to contain Egypt's attack throughout the match. This result left them with only a single point from their opening two fixtures.",
+        "Following this match, Egypt continued their campaign by drawing with Iran in their final group game, ultimately finishing with five points. This performance was enough to see them advance to the Round of 32, where they faced Australia.",
+        "New Zealand concluded their tournament run after a challenging group stage, finishing with one point after a heavy defeat to Belgium in their final match."
       ],
       "bullets": [
-        "Egypt finished Group G with 5 points, securing second place behind Belgium.",
-        "The 3-1 result marked Egypt's only win during the group stage.",
-        "New Zealand concluded their group campaign with 1 point from three matches."
+        "Egypt's 3-1 win provided the necessary cushion to eventually qualify for the knockout phase.",
+        "New Zealand finished the group stage with one point, having drawn with Iran and lost to Egypt and Belgium.",
+        "Egypt advanced to the Round of 32 as the runner-up of Group G."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T18:25:44+00:00",
-      "sourceHash": "6a6baca70bc1d5a0",
+      "updatedAt": "2026-07-03T19:58:56+00:00",
+      "sourceHash": "b9ef2949de88f839",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -324,20 +324,20 @@
       "refreshReason": "source or prompt changed"
     },
     "29": {
-      "headline": "United States Secures Crucial 2-0 Victory Over Australia",
-      "summary": "The United States defeated Australia 2-0 in this Group D encounter, strengthening their position at the top of the table.",
+      "headline": "United States Secures Victory Over Australia",
+      "summary": "The United States defeated Australia 2-0 in their Group D matchup, strengthening their position in the tournament.",
       "story": [
-        "The United States controlled this Matchday 2 fixture, effectively neutralizing the Australian attack to walk away with a clean sheet and three points. This result was pivotal for the U.S. in Group D, helping them establish a cushion that eventually led to a first-place finish in the group standings.",
-        "For Australia, the loss forced them to battle for points in their final group match against Paraguay. While they managed a 0-0 draw in that subsequent game, the defeat to the U.S. remained a significant hurdle in their attempt to secure the top spot in the group.",
-        "Following this match, the United States continued their momentum through the group stage and eventually advanced to the Round of 16. Australia ultimately concluded their tournament run in the Round of 32 after a narrow loss to Egypt."
+        "The United States controlled this Group D encounter, securing a 2-0 win that proved pivotal for their progression through the group stage. By shutting out Australia, the U.S. demonstrated defensive discipline while capitalizing on their scoring opportunities.",
+        "This result was a significant turning point in Group D, helping the United States eventually finish at the top of the table with 6 points. For Australia, the loss forced them to battle through their remaining fixtures to secure a runner-up spot with 4 points.",
+        "Following this match, both teams successfully navigated the group phase. The United States moved on to defeat Bosnia-Herzegovina in the Round of 32, while Australia faced Egypt in their own knockout stage journey."
       ],
       "bullets": [
-        "The United States finished atop Group D with 6 points, while Australia advanced as the runner-up with 4 points.",
-        "This win was the second of three group matches for the United States, providing the necessary points to navigate the group successfully."
+        "The United States finished atop Group D with 6 points.",
+        "Australia advanced from the group stage as the runner-up with 4 points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T18:25:51+00:00",
-      "sourceHash": "1685080f7949669e",
+      "updatedAt": "2026-07-03T19:59:04+00:00",
+      "sourceHash": "75641e1e1f9adac5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -721,20 +721,20 @@
       "refreshReason": "source or prompt changed"
     },
     "60": {
-      "headline": "Paraguay and Australia play to scoreless draw",
-      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 draw, leaving both teams to navigate the complexities of the Group D standings.",
+      "headline": "Paraguay and Australia play to scoreless draw in Group D finale",
+      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 draw, leaving both sides to navigate their paths into the knockout rounds.",
       "story": [
-        "The match between Paraguay and Australia ended in a stalemate, with neither side able to break the deadlock. The result meant both teams concluded their group stage fixtures with four points, forcing them to rely on tiebreakers and the outcomes of other matches to determine their path forward.",
-        "For Australia, the draw secured them second place in Group D with a goal difference of zero. This placement set them up for a Round of 32 matchup against Egypt, a game they ultimately lost 1-0.",
-        "Paraguay finished third in the group with a goal difference of -2. Despite the group stage result, they advanced to the Round of 32 where they drew 1-1 with Germany, eventually moving on to a Round of 16 clash against France."
+        "The match between Paraguay and Australia ended in a stalemate, with neither side able to break the deadlock during their final group stage fixture. The result meant that both teams concluded their group play with 4 points apiece, though Australia finished ahead in the final Group D standings due to a superior goal difference.",
+        "This draw was a defining moment for the group dynamic, as it solidified Australia's position as the runner-up behind the United States. For Paraguay, the point was enough to secure their advancement, setting up a challenging Round of 32 matchup against Germany.",
+        "Australia's journey continues into the knockout stages with a fixture against Egypt, following a group campaign that saw them earn one win, one draw, and one loss. Both teams will look to sharpen their offensive efforts as they transition from the group phase into the intensity of single-elimination play."
       ],
       "bullets": [
-        "The 0-0 result left both nations level on four points after three group matches.",
-        "Australia secured second place in Group D on goal difference, while Paraguay finished third."
+        "Australia secured second place in Group D with 4 points and a 0 goal difference.",
+        "Paraguay advanced to the Round of 32 to face Germany after finishing third in the group."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T18:25:36+00:00",
-      "sourceHash": "758876cc7f85d89b",
+      "updatedAt": "2026-07-03T19:58:49+00:00",
+      "sourceHash": "ceac3d634593f865",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -842,22 +842,21 @@
       "refreshReason": "source or prompt changed"
     },
     "66": {
-      "headline": "Egypt and Iran Play to Stalemate in Group G Finale",
-      "summary": "Egypt and Iran finished their Group G campaign with a 0-0 draw, a result that secured Egypt a spot in the knockout stages.",
+      "headline": "Egypt and Iran Play to Scoreless Draw in Group G Finale",
+      "summary": "Egypt and Iran finished their group stage campaign with a 0-0 stalemate, a result that secured Egypt's progression to the knockout rounds.",
       "story": [
-        "The 0-0 draw between Egypt and Iran brought a tense conclusion to Group G action. While both sides fought for control, neither could break the deadlock, leaving them to share the points in their final group fixture.",
-        "For Egypt, the point was enough to solidify their standing in the group. Finishing with 5 points, they successfully navigated a difficult path to advance into the Round of 32, where they eventually moved on to face Australia.",
-        "Iran concluded their tournament run with this result, finishing third in the group with 3 points. Despite remaining unbeaten in their final two matches, including a scoreless draw against Belgium, they were unable to secure the win needed to climb higher in the standings.",
-        "The group ultimately saw Belgium take the top spot, with Egypt following closely behind in second. New Zealand rounded out the group, leaving the final table tightly contested but ultimately favoring the consistency shown by the top two sides."
+        "The final matchday in Group G saw Egypt and Iran battle to a 0-0 draw, leaving both sides unable to break the deadlock despite the high stakes of the group standings.",
+        "Iran concluded their tournament run with 3 points, having drawn all three of their group stage matches. While they remained undefeated throughout their time in the competition, the inability to secure a win proved costly in a tightly contested group.",
+        "With the group stage now complete, Egypt moves forward to face Australia in the Round of 32. Belgium topped the group with 5 points, edging out Egypt on goal difference, while New Zealand finished at the bottom of the table."
       ],
       "bullets": [
-        "Egypt finished second in Group G with 5 points, securing their place in the knockout rounds.",
-        "Iran ended their group stage campaign with 3 points, remaining undefeated in their final two matches.",
-        "The result ensured Egypt advanced to a Round of 32 matchup against Australia."
+        "Egypt advanced to the Round of 32 with 5 points, finishing second in Group G.",
+        "Iran finished their group campaign undefeated but with three consecutive draws.",
+        "Egypt is set to take on Australia in the next stage of the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T18:25:28+00:00",
-      "sourceHash": "0127a8d4dc051105",
+      "updatedAt": "2026-07-03T19:58:41+00:00",
+      "sourceHash": "ac4b8b5ac68eb9b2",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1186,18 +1185,22 @@
     },
     "14": {
       "headline": "Belgium and Egypt Open Group G with a Draw",
-      "summary": "Belgium and Egypt played to a 1-1 draw in their opening Group G match of the tournament.",
+      "summary": "Belgium and Egypt played to a 1-1 draw in their opening Matchday 1 encounter, setting a competitive tone for Group G.",
       "story": [
-        "The opening match for both sides in Group G ended in a 1-1 stalemate, setting a competitive tone for the group stage. Neither team could find the decisive goal to claim all three points, resulting in a shared point that left both squads looking for better results in their subsequent fixtures.",
-        "Following this opening match, both teams navigated their respective paths through the group stage and into the knockout rounds. Belgium went on to secure a Round of 32 victory against Senegal, while Egypt advanced past Australia to continue their journey."
+        "The opening match between Belgium and Egypt ended in a 1-1 stalemate, a result that immediately signaled how tightly contested Group G would be throughout the tournament.",
+        "Both teams struggled to break the deadlock decisively, splitting the points and forcing each side to look toward their subsequent fixtures to secure a path to the knockout stages.",
+        "This draw proved to be a pivotal moment in the group's narrative, as Belgium and Egypt finished their group campaigns tied on 5 points, with Belgium ultimately securing the top spot based on goal difference.",
+        "Following this result, both nations navigated the rest of the group stage with varying degrees of success, eventually advancing to the knockout rounds where their journeys continued against new opponents."
       ],
       "bullets": [
-        "The match finished as a 1-1 draw, with each team earning a single point to begin their group campaign.",
-        "Both Belgium and Egypt finished the group stage with identical 5-point records, though Belgium took the top spot on goal difference."
+        "The 1-1 draw was the first of several close results in a highly competitive Group G.",
+        "Belgium finished the group stage at the top of the table with 5 points and a +4 goal difference.",
+        "Egypt also finished with 5 points, trailing Belgium only on goal difference.",
+        "Both teams successfully advanced out of the group stage following their initial meeting."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T18:25:59+00:00",
-      "sourceHash": "a436fbb9fa223c48",
+      "updatedAt": "2026-07-03T19:59:12+00:00",
+      "sourceHash": "6bc37a4285b09844",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1288,18 +1291,18 @@
       "headline": "Australia Opens Group D Campaign with Shutout Win Over Turkey",
       "summary": "Australia secured a strong start to their tournament with a 2-0 victory over Turkey in their opening Group D match.",
       "story": [
-        "Australia kicked off their group stage journey on a high note, effectively neutralizing Turkey to take all three points. The 2-0 result provided the team with a crucial cushion early in the group phase.",
-        "This opening win proved vital for Australia's progression, as they eventually navigated through a tight Group D that included the United States and Paraguay. By securing this clean sheet victory, they set a defensive tone that helped them finish second in the group standings with four points.",
-        "While Australia went on to face challenges in their subsequent group matches, including a loss to the United States and a draw with Paraguay, the points earned in this opening fixture remained a cornerstone of their qualification for the knockout rounds.",
-        "Turkey, meanwhile, found themselves in an uphill battle following this result. Despite a spirited 3-2 comeback win against the United States in their final group match, the early loss to Australia left them with too much ground to make up, ultimately finishing at the bottom of the group."
+        "Australia kicked off their Group D journey on the front foot, utilizing a disciplined defensive display to keep Turkey scoreless while finding the back of the net twice. This result provided an immediate boost to their goal difference and set the tone for a competitive group stage.",
+        "For Turkey, the opening loss created early pressure in a tight group. The team was forced to navigate the remainder of the group stage with limited margin for error, eventually fighting back in their final match against the United States despite the initial setback.",
+        "Australia's performance in this match proved vital for their progression. By securing three points early, they maintained a stable position in the standings, ultimately finishing second in the group with four points and advancing to the knockout rounds."
       ],
       "bullets": [
-        "Australia's 2-0 win established a defensive foundation that helped them secure second place in Group D.",
-        "The result left Turkey with a difficult path, ultimately leading to their exit despite a late-group victory over the United States."
+        "Australia's 2-0 victory provided a critical three points that helped them secure second place in Group D.",
+        "The clean sheet performance was a cornerstone of Australia's group stage strategy.",
+        "Turkey faced an uphill battle following the defeat, though they remained competitive throughout the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T18:26:08+00:00",
-      "sourceHash": "34c51b67007505e6",
+      "updatedAt": "2026-07-03T19:59:20+00:00",
+      "sourceHash": "c33c0971d49b361b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1700,25 +1703,24 @@
       "refreshReason": "source or prompt changed"
     },
     "88": {
-      "headline": "Egypt Advances Past Australia in Round of 32",
-      "summary": "Final: Australia 0, Egypt 1. Egypt secured a narrow 1-0 victory over Australia to punch their ticket to the next round of the tournament.",
+      "headline": "Australia and Egypt Deadlocked in Round of 32",
+      "summary": "Australia and Egypt played to a 1-1 draw in their Round of 32 knockout matchup.",
       "story": [
-        "In a tightly contested Round of 32 matchup, Egypt managed to edge out Australia with a single goal to decide the outcome. The result brings an end to Australia's tournament run after they navigated a challenging Group D campaign that included a win against Turkey and a draw with Paraguay.",
-        "Egypt proved resilient in this knockout fixture, building on a group stage performance where they remained unbeaten, including a notable 3-1 victory over New Zealand. Their defensive discipline, which held firm against Iran in their final group match, was once again on display as they kept a clean sheet to seal the win.",
-        "For Australia, the loss marks a disappointing exit in the first knockout stage. Despite showing flashes of quality throughout the tournament, they were unable to break down the Egyptian defense when it mattered most.",
-        "With this victory, Egypt moves forward in the bracket, continuing their momentum as they look toward their next opponent in the tournament."
+        "Australia and Egypt proved difficult to separate in their Round of 32 encounter, finishing the match in a 1-1 stalemate. Both sides entered the knockout stage after navigating challenging group campaigns, with Australia advancing as the runner-up from Group D and Egypt qualifying as the runner-up from Group G.",
+        "For Australia, the result followed a group stage that saw them secure a win against Turkey, a loss to the United States, and a scoreless draw with Paraguay. Their ability to remain disciplined in high-stakes knockout football was on display once again as they fought to keep pace with an organized Egyptian side.",
+        "Egypt arrived at this stage with a resilient tournament record, having drawn with Belgium and Iran while securing a decisive victory over New Zealand. Their performance in this match mirrored their group stage consistency, where they proved capable of holding their own against tough international opposition.",
+        "With the match ending in a draw, the pressure now shifts to the next phase of the tournament. Both teams demonstrated their defensive resolve, but the inability to break the deadlock leaves the path forward uncertain as the knockout bracket continues to take shape."
       ],
       "bullets": [
-        "Egypt secured a 1-0 win to eliminate Australia in the Round of 32.",
-        "Australia exits the tournament after a group stage that saw them finish as runners-up in Group D.",
-        "Egypt continues their journey after an unbeaten group stage run and this critical knockout victory."
+        "Australia and Egypt finished level at 1-1 in their Round of 32 knockout match.",
+        "Both teams entered the knockout stage as runners-up from their respective groups, Group D and Group G."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T18:26:15+00:00",
-      "sourceHash": "c47d39cf7c18d8b2",
+      "updatedAt": "2026-07-03T19:58:33+00:00",
+      "sourceHash": "abce186983eaf02f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "live or in-progress match"
+      "refreshReason": "source or prompt changed"
     }
   },
   "groups": {
