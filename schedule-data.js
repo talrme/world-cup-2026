@@ -2728,7 +2728,21 @@ window.WORLD_CUP_DATA = {
       "awaySource": "Runner-up Group L",
       "homeSource": "Runner-up Group K",
       "homeScore": 2,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-03T05:09:18+00:00",
+          "title": "Portugal vs Croatia Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=J9yS7PsoEck",
+          "channel": "FOX Sports",
+          "durationText": "18 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-03T05:09:18+00:00"
+      }
     },
     {
       "id": 84,
@@ -2771,14 +2785,16 @@ window.WORLD_CUP_DATA = {
       "time": "23:00",
       "home": "Switzerland",
       "away": "Algeria",
-      "status": "scheduled",
+      "status": "completed",
       "network": "TBD",
       "venueId": "vancouver",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760498",
       "homeSource": "Winner Group B",
-      "awaySource": "Best 3rd Group E/F/G/I/J"
+      "awaySource": "Best 3rd Group E/F/G/I/J",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "id": 86,
@@ -2954,14 +2970,15 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-07-07",
       "time": "16:00",
-      "home": "Winner Match 85",
+      "home": "Switzerland",
       "away": "Winner Match 87",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "vancouver",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760508"
+      "espnEventId": "760508",
+      "homeSource": "Winner Match 85"
     },
     {
       "id": 97,
@@ -3248,6 +3265,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-03T01:21:26+00:00",
+  "bracketUpdatedAt": "2026-07-03T05:07:03+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
