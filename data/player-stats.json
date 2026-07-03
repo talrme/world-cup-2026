@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T05:07:04+00:00",
+  "generatedAt": "2026-07-03T17:00:51+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -630,7 +630,7 @@
       "goals": 1,
       "assists": 2,
       "points": 3,
-      "matches": 3,
+      "matches": 4,
       "minutes": 231,
       "goalsPer90": 0.4,
       "pointsPer90": 1.2
@@ -786,7 +786,7 @@
       "goals": 1,
       "assists": 1,
       "points": 2,
-      "matches": 3,
+      "matches": 4,
       "minutes": 241,
       "goalsPer90": 0.4,
       "pointsPer90": 0.7
@@ -1007,7 +1007,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 45,
       "goalsPer90": 2.0,
       "pointsPer90": 2.0
@@ -1280,7 +1280,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 129,
       "goalsPer90": 0.7,
       "pointsPer90": 0.7
@@ -1475,7 +1475,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 208,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
@@ -1488,7 +1488,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 208,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
@@ -1631,7 +1631,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 3,
+      "matches": 4,
       "minutes": 255,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
