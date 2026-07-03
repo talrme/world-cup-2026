@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-03T05:13:20+00:00",
+  "generatedAt": "2026-07-03T08:30:15+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -182,21 +182,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "44": {
-      "headline": "Algeria secures vital 2-1 victory over Jordan",
-      "summary": "Final: Jordan 1, Algeria 2. Algeria claimed a crucial 2-1 win against Jordan in Group J, keeping their tournament hopes alive.",
+      "headline": "Algeria Secures Vital Win Over Jordan",
+      "summary": "Final: Jordan 1, Algeria 2. Algeria claimed a 2-1 victory over Jordan in their second Group J match, keeping their knockout stage hopes alive.",
       "story": [
-        "Algeria's 2-1 victory over Jordan was a pivotal moment in Group J, providing them with the necessary momentum to stay competitive in the standings. After an opening loss to Argentina, this result was essential for Algeria to keep pace with Austria in the battle for the group's secondary qualification spots.",
-        "For Jordan, the loss marked a difficult stretch in their campaign. Despite finding the back of the net, they were unable to overcome the Algerian side, leaving them without points through their first two matches.",
-        "The implications of this result rippled through the group, as it set the stage for a dramatic final matchday. Algeria eventually finished with four points, tied with Austria, which helped them secure a path to the knockout stages as one of the best third-placed teams."
+        "Algeria's 2-1 win over Jordan provided the team with a crucial three points after their opening loss to Argentina. This result proved essential for their progression, as it allowed them to stay competitive in a difficult group alongside Austria and Argentina.",
+        "For Jordan, the defeat marked a difficult start to the tournament, leaving them without points after two matches. Despite their efforts, they struggled to contain the Algerian attack throughout the game.",
+        "The outcome of this match played a significant role in the final Group J standings. Algeria ultimately finished with four points, level with Austria, which was enough to see them advance to the Round of 32 as one of the best third-placed teams.",
+        "Following this victory, Algeria eventually faced Switzerland in the knockout stage, where their journey concluded with a 2-0 loss."
       ],
       "bullets": [
-        "Algeria's victory proved decisive in their eventual qualification for the knockout rounds.",
-        "Jordan fought hard but concluded their group stage campaign without a win.",
-        "The result kept Group J competitive until the final matchday between Algeria and Austria."
+        "Algeria finished Group J with 4 points, securing a spot in the Round of 32.",
+        "Jordan concluded the group stage without a point, finishing at the bottom of the table.",
+        "The win over Jordan was the only victory for Algeria in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:11:49+00:00",
-      "sourceHash": "c5405168e4900a16",
+      "updatedAt": "2026-07-03T08:29:36+00:00",
+      "sourceHash": "017ca11676d039f4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -381,20 +382,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "26": {
       "headline": "Switzerland Dominates Bosnia and Herzegovina in Group B",
-      "summary": "Switzerland secured a decisive 4-1 victory over Bosnia and Herzegovina, significantly boosting their standing in Group B.",
+      "summary": "Switzerland secured a decisive 4-1 victory over Bosnia and Herzegovina, significantly boosting their position in Group B.",
       "story": [
-        "Switzerland delivered a clinical performance to dismantle Bosnia and Herzegovina 4-1, marking a major turning point in their group stage campaign. After an opening draw against Qatar, this result provided the necessary momentum to eventually top the group.",
-        "For Bosnia and Herzegovina, the heavy defeat made their path to the knockout stages significantly more difficult. Despite a later win against Qatar, the goal difference impact from this match proved costly in the final group standings.",
-        "This win was the catalyst for Switzerland's successful run through the group, as they went on to defeat Canada in their final matchday to secure seven points total. Their consistent form eventually propelled them into the Round of 32."
+        "Switzerland delivered a clinical performance to dismantle Bosnia and Herzegovina, effectively taking control of their destiny in Group B. The 4-1 result provided the Swiss with a vital cushion after their opening draw against Qatar.",
+        "For Bosnia and Herzegovina, the loss proved to be a difficult hurdle in their group campaign. Despite their efforts, they struggled to contain the Swiss attack throughout the match.",
+        "This win served as a springboard for Switzerland, who ultimately finished at the top of Group B with seven points. Their momentum carried them through the group stage, eventually leading to a successful Round of 32 victory over Algeria.",
+        "Bosnia and Herzegovina finished their group run with four points, trailing Switzerland and Canada. While they managed a win in their final group match against Qatar, the result against Switzerland ultimately defined their standing in the group."
       ],
       "bullets": [
-        "Switzerland finished at the top of Group B with 7 points.",
+        "Switzerland finished top of Group B with an unbeaten record of two wins and one draw.",
         "The 4-1 margin was the largest victory for Switzerland in the group stage.",
-        "Bosnia and Herzegovina finished the group with 4 points and a negative goal difference."
+        "Bosnia and Herzegovina concluded their tournament run with four points from three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:11:59+00:00",
-      "sourceHash": "35aeeb1255c2d25b",
+      "updatedAt": "2026-07-03T08:29:44+00:00",
+      "sourceHash": "789ae6b8d4757b4b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -498,20 +500,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "49": {
       "headline": "Switzerland Secures Group B Top Spot with Win Over Canada",
-      "summary": "Switzerland defeated Canada 2-1 to claim first place in Group B and maintain their unbeaten run in the group stage.",
+      "summary": "Switzerland finished their group campaign strong with a 2-1 victory over Canada to claim the top spot in Group B.",
       "story": [
-        "Switzerland entered this final group stage match needing a result to solidify their position at the top of the table. By overcoming Canada 2-1, they successfully navigated a challenging group to finish with seven points from three matches.",
-        "For Canada, the loss meant finishing second in the group with four points. Despite the defeat, Canada's strong goal difference, bolstered by their earlier 6-0 victory over Qatar, ensured they remained safely through to the knockout stages.",
-        "This result dictated the path for both nations in the tournament bracket. Switzerland moved forward as the group winner to face Algeria in the Round of 32, while Canada advanced as the runner-up to meet South Africa in their next knockout fixture."
+        "Switzerland entered this final group match looking to solidify their position, and they delivered a clinical performance to edge past Canada. The 2-1 result ensured the Swiss finished their group stage unbeaten with seven points, successfully navigating a competitive bracket.",
+        "For Canada, the loss meant finishing second in the group with four points. Despite the defeat, they maintained a strong goal difference of plus-five, a testament to their offensive output earlier in the tournament, particularly during their dominant showing against Qatar.",
+        "Both teams successfully advanced to the knockout stages. Switzerland moved on to defeat Algeria in the Round of 32, while Canada secured a narrow 1-0 victory over South Africa to continue their journey in the tournament.",
+        "With the group stage concluded, Switzerland moved forward to face their next opponent in the Round of 16, while Canada prepared for a high-stakes encounter against Morocco."
       ],
       "bullets": [
-        "Switzerland finished atop Group B with an unbeaten record of two wins and one draw.",
-        "Canada advanced to the knockout phase as the group runner-up despite the Matchday 3 loss.",
-        "Switzerland's victory set up a Round of 32 clash against Algeria, while Canada moved on to face South Africa."
+        "Switzerland topped Group B with 7 points, while Canada finished as runners-up with 4 points.",
+        "Both nations successfully advanced through the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:11:02+00:00",
-      "sourceHash": "029eb7b0f253b835",
+      "updatedAt": "2026-07-03T08:29:27+00:00",
+      "sourceHash": "63a9194123959d22",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -941,21 +943,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "71": {
       "headline": "Algeria and Austria battle to high-scoring draw",
-      "summary": "Algeria and Austria played to a 3-3 draw in their final Group J match, a result that ultimately helped both teams secure their spots in the next round.",
+      "summary": "Algeria and Austria played to a 3-3 draw in their final Group J match, a result that ultimately locked their positions in the standings.",
       "story": [
-        "The match between Algeria and Austria was an offensive showcase, ending in a 3-3 stalemate that kept fans on the edge of their seats. Both sides showed significant attacking intent, trading goals throughout the encounter in a high-stakes Group J finale.",
-        "For Austria, the point was enough to secure second place in the group standings. Their performance throughout the group stage, including a victory over Jordan, allowed them to advance to the Round of 32, where they eventually faced Spain.",
-        "Algeria finished their group campaign with 4 points, identical to Austria but behind on goal difference. Their resilience in this draw was a key factor in their progression, though they were later eliminated by Switzerland in the knockout stage.",
-        "The competitive nature of this match reflected the overall intensity of Group J, where Argentina dominated the top spot. By finishing with a draw, both Algeria and Austria ensured they remained in the tournament conversation beyond the group phase."
+        "The 3-3 stalemate between Algeria and Austria provided a frantic conclusion to Group J. Both sides traded goals in an end-to-end affair that reflected the desperation of teams looking to secure their standing before the knockout phase.",
+        "For Austria, the point was enough to hold onto second place in the group with 4 points, though their goal difference of zero kept them just ahead of Algeria. Algeria finished with 4 points as well, but their -2 goal difference placed them third, forcing them to rely on their standing to advance.",
+        "Both teams eventually moved on to the Round of 32, where their campaigns concluded against strong opposition. Austria faced Spain, while Algeria matched up against Switzerland, marking the end of their respective tournament journeys."
       ],
       "bullets": [
-        "Austria secured second place in Group J with 4 points and a 0 goal difference.",
-        "Algeria also finished with 4 points, advancing as a result of their group stage efforts.",
-        "The 3-3 draw marked the highest-scoring game for both teams in the group stage."
+        "The 3-3 scoreline was the highest-scoring match in Group J.",
+        "Austria secured second place in the group on goal difference over Algeria.",
+        "Both teams finished the group stage with 4 points apiece."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:10:31+00:00",
-      "sourceHash": "aef3e1004db510e3",
+      "updatedAt": "2026-07-03T08:29:20+00:00",
+      "sourceHash": "62fcbe56017886c9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1084,20 +1085,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "19": {
       "headline": "Argentina Dominates Algeria in Group J Opener",
-      "summary": "Argentina secured a decisive 3-0 victory over Algeria to kick off their Group J campaign.",
+      "summary": "Argentina opened their tournament campaign with a commanding 3-0 victory over Algeria.",
       "story": [
-        "Argentina opened their tournament account with a commanding performance, putting three goals past Algeria without conceding. This result immediately established Argentina as the team to beat in Group J, setting the tone for their successful run through the group stage.",
-        "The win provided Argentina with a crucial three points and a significant goal difference advantage early on. This momentum carried them through their subsequent group matches against Austria and Jordan, ultimately allowing them to finish at the top of the table with a perfect nine-point record.",
-        "For Algeria, the loss forced them to play catch-up for the remainder of the group stage. Despite the difficult start, they managed to secure four points from their next two matches, including a high-scoring 3-3 draw with Austria, which eventually helped them advance to the knockout rounds.",
-        "Following this match, Argentina continued their strong form into the Round of 32, while Algeria's tournament journey concluded after a subsequent match against Switzerland."
+        "Argentina set the tone for Group J immediately, securing a decisive 3-0 win against Algeria. The result provided the perfect foundation for an undefeated group stage run that saw them finish at the top of the table with nine points.",
+        "For Algeria, the loss in the opening match created immediate pressure. While they managed to bounce back with a win against Jordan and a high-scoring draw with Austria, the early goal-difference deficit proved difficult to overcome.",
+        "Argentina's clinical performance in this match showcased the form that eventually carried them into the knockout rounds, where they finished with a dominant goal difference of plus-seven. Algeria's tournament journey ultimately concluded in the Round of 32 following a defeat to Switzerland."
       ],
       "bullets": [
-        "Argentina finished Group J undefeated with 9 points and a +7 goal difference.",
-        "Algeria advanced to the knockout phase despite the opening-match setback."
+        "Argentina finished atop Group J with a perfect 3-0-0 record.",
+        "The 3-0 result established an early goal-difference advantage that helped Argentina control the group.",
+        "Algeria advanced to the knockout stage despite the opening loss, eventually exiting in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:12:27+00:00",
-      "sourceHash": "2a8ea94c37d5cf17",
+      "updatedAt": "2026-07-03T08:29:51+00:00",
+      "sourceHash": "056b53001ab4c72b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1346,21 +1347,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "5": {
       "headline": "Switzerland and Qatar Open Group B with a Draw",
-      "summary": "Switzerland and Qatar played to a 1-1 draw in their opening Group B match.",
+      "summary": "Switzerland and Qatar played to a 1-1 draw in their opening match of Group B.",
       "story": [
-        "The opening match for both sides ended in a stalemate, with Switzerland and Qatar sharing the points in a 1-1 draw. This result set the tone for a competitive Group B, where every point proved vital as the group stage progressed.",
-        "For Switzerland, this draw was the start of a successful group campaign. They eventually finished at the top of the table with 7 points, following subsequent victories over Bosnia and Herzegovina and Canada.",
-        "Qatar found the going tougher throughout the group stage, finishing with 1 point from their three matches. While they managed to hold Switzerland early on, they were unable to secure a win in their later fixtures against Canada and Bosnia and Herzegovina.",
-        "Switzerland moved on to the knockout stages, eventually defeating Algeria in the Round of 32 to continue their tournament journey."
+        "The opening match for both sides ended in a stalemate, with Switzerland and Qatar splitting the points in a 1-1 result. This initial draw set the tone for a competitive Group B, where every point proved vital as the tournament progressed.",
+        "For Switzerland, this result was the beginning of a successful group stage campaign. They eventually secured the top spot in the group with 7 points, following subsequent victories over Bosnia and Herzegovina and Canada.",
+        "Qatar struggled to find momentum after this opening performance, ultimately finishing at the bottom of the group standings with 1 point from their three matches. While they were unable to advance, the draw against the eventual group winners remained their only point of the tournament.",
+        "Switzerland's path continued well beyond this match, as they went on to defeat Algeria in the Round of 32 to secure a place in the Round of 16."
       ],
       "bullets": [
-        "The 1-1 draw was the only point Qatar earned during the group stage.",
-        "Switzerland used this result as a foundation to win Group B with a 2-0-1 record.",
-        "This match was the first of three group stage fixtures for both nations."
+        "Switzerland finished at the top of Group B with 7 points.",
+        "Qatar concluded their group stage run with 1 point and a -8 goal difference.",
+        "This was the only point earned by Qatar during the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:12:44+00:00",
-      "sourceHash": "2664bcfc7ba99635",
+      "updatedAt": "2026-07-03T08:29:59+00:00",
+      "sourceHash": "427ba7dc3542422d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1604,44 +1605,42 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "82": {
-      "headline": "Belgium Edges Senegal in Five-Goal Thriller",
-      "summary": "Belgium secured their spot in the Round of 16 with a hard-fought 3-2 victory over Senegal in the Round of 32.",
+      "headline": "Belgium Edges Senegal in Thrilling Round of 32 Finale",
+      "summary": "Belgium secured a hard-fought 3-2 victory over Senegal to advance to the Round of 16.",
       "story": [
-        "Belgium continued their momentum from a dominant group stage finale to narrowly overcome a resilient Senegal side. After a shaky start to their tournament, Belgium's attack proved the difference in this high-scoring knockout clash.",
-        "Senegal pushed hard throughout the match, but ultimately fell short against the Group G winners. Despite the exit, Senegal showed significant offensive capability, having also put five goals past Iraq in their previous outing.",
-        "With this victory, Belgium advances to the Round of 16 where they are set to face the United States. The upcoming fixture represents a major test for the Belgians as they look to build on the offensive form they displayed in their last two matches."
+        "Senegal, who arrived as a best third-place qualifier after a dominant 5-0 win over Iraq, pushed Belgium to the limit throughout the match. Despite their earlier group stage challenges against France and Norway, Senegal proved they could compete with top-tier opposition, though they ultimately fell just short of the upset.",
+        "With this result, Belgium now prepares for a significant test in the Round of 16. They are scheduled to face the United States on July 6, a match that promises to be a major hurdle as they continue their pursuit of the trophy."
       ],
       "bullets": [
-        "Belgium advances to the Round of 16 to face the United States.",
-        "The 3-2 result marks Belgium's second consecutive multi-goal performance.",
-        "Senegal exits the tournament after a competitive showing in the Round of 32."
+        "Belgium narrowly avoided an upset, edging out Senegal 3-2 to keep their tournament run alive.",
+        "The victory sets up a high-profile Round of 16 showdown between Belgium and the United States.",
+        "Senegal exits the competition after a spirited knockout effort following their impressive 5-0 group stage win over Iraq."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T06:11:49+00:00",
+      "updatedAt": "2026-07-03T08:30:15+00:00",
       "sourceHash": "251277091ff8721c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "81": {
       "headline": "United States Advances to Round of 16 After Shutout Win",
-      "summary": "The United States secured their place in the next round with a clinical 2-0 victory over Bosnia-Herzegovina in the Round of 32.",
+      "summary": "The United States secured a spot in the next round by defeating Bosnia-Herzegovina 2-0 in their Round of 32 matchup.",
       "story": [
-        "The United States successfully navigated their Round of 32 matchup, defeating Bosnia-Herzegovina 2-0 to keep their tournament run alive. By controlling the pace and keeping a clean sheet, the U.S. side effectively neutralized the threat posed by their opponents, who had entered the knockout stage as one of the best third-place finishers.",
-        "This win serves as a vital rebound for the United States following their narrow 3-2 loss to Turkey in the final match of the group stage. After finishing top of Group D, the team showed resilience in this elimination match, proving they could handle the pressure of a single-elimination format.",
-        "With this result, the United States now turns its attention to the Round of 16. They are scheduled to face Belgium on July 6, a match that will test their defensive discipline and attacking depth as the competition intensifies."
+        "The United States successfully navigated their Round of 32 clash, overcoming Bosnia-Herzegovina with a clean sheet and a 2-0 victory. By winning this knockout stage match, the team maintained their momentum following a competitive group stage campaign.",
+        "This win marks a significant step forward for the squad, who had previously finished their group stage run with a 2-1 record. The victory over Bosnia-Herzegovina validates their position as a top-seeded team coming out of Group D.",
+        "Looking ahead, the United States now turns its attention to the Round of 16. They are scheduled to face Belgium on July 6, with a spot in the quarter-finals on the line."
       ],
       "bullets": [
-        "The United States advanced to the Round of 16 with a 2-0 victory over Bosnia-Herzegovina.",
-        "The team will face Belgium in the next round on July 6.",
-        "The win follows a group stage campaign where the U.S. finished first in Group D."
+        "The United States kept a clean sheet while scoring two goals to secure the win.",
+        "This victory sets up a high-stakes Round of 16 matchup against Belgium."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T06:11:41+00:00",
+      "updatedAt": "2026-07-03T08:30:07+00:00",
       "sourceHash": "fdfd4150457461db",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "84": {
       "headline": "Spain Cruises Past Austria into Round of 16",
@@ -1684,23 +1683,24 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "85": {
       "headline": "Switzerland Advances to Round of 16 After Shutout Win",
-      "summary": "Switzerland secured a 2-0 victory over Algeria in the Round of 32 to continue their unbeaten tournament run.",
+      "summary": "Switzerland secured a 2-0 victory over Algeria in the Round of 32, effectively ending Algeria's tournament run.",
       "story": [
-        "Switzerland maintained their strong form by dispatching Algeria 2-0, successfully navigating the first hurdle of the knockout stage. Coming off a successful group campaign where they topped Group B with wins over Bosnia and Herzegovina and Canada, the Swiss side demonstrated the defensive discipline necessary to progress deep into the bracket.",
-        "For Algeria, the loss concludes a tournament journey that saw them battle through a challenging group stage, including a hard-fought 3-3 draw against Austria and a victory over Jordan. Despite their efforts to find a breakthrough, they were unable to overcome the organized Swiss defense.",
-        "With this result, Switzerland advances to the Round of 16. They are set to face the winner of Match 87 on July 7, continuing their quest to build on the momentum generated throughout their group stage performances."
+        "Switzerland continued their strong form in this tournament by dispatching Algeria 2-0. Having entered the knockout phase as the winners of Group B, the Swiss side maintained their composure and defensive discipline to keep a clean sheet against a challenging opponent.",
+        "For Algeria, the result marks the end of their campaign. After navigating a difficult group stage that included a win against Jordan and a high-scoring draw with Austria, they were unable to find the breakthrough against a resolute Swiss defense.",
+        "The victory propels Switzerland into the Round of 16, where they are scheduled to play the winner of Match 87 on July 7. The Swiss team has remained unbeaten throughout their tournament journey, building momentum with wins over Bosnia and Herzegovina and Canada in the group stage.",
+        "With this win, Switzerland solidifies their status as a team to watch in the knockout bracket. They will now look to carry this defensive solidity and clinical edge into their next fixture as they aim for a deep run in the tournament."
       ],
       "bullets": [
-        "Switzerland remains undefeated in the tournament, building on their Group B success.",
-        "The 2-0 result marks a clean sheet for the Swiss defense in a high-stakes knockout environment.",
-        "Switzerland now moves on to face the winner of Match 87 in the next round."
+        "Switzerland remains undefeated in the tournament, moving to the Round of 16 with a 2-0 win.",
+        "Algeria exits the competition following the Round of 32 loss.",
+        "Switzerland will face the winner of Match 87 on July 7."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:12:53+00:00",
-      "sourceHash": "6609c9d10bb87561",
+      "updatedAt": "2026-07-03T08:29:11+00:00",
+      "sourceHash": "e2d8de04c4b9b3fc",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     }
   },
   "groups": {

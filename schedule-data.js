@@ -2794,7 +2794,21 @@ window.WORLD_CUP_DATA = {
       "homeSource": "Winner Group B",
       "awaySource": "Best 3rd Group E/F/G/I/J",
       "homeScore": 2,
-      "awayScore": 0
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-03T08:29:08+00:00",
+          "title": "Switzerland vs Algeria Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=bSZEbYXssBI",
+          "channel": "FOX Sports",
+          "durationText": "11 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-03T08:29:08+00:00"
+      }
     },
     {
       "id": 86,
