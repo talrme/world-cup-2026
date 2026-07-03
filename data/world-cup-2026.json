@@ -2827,7 +2827,7 @@
       "espnEventId": "760500",
       "awaySource": "Runner-up Group H",
       "homeScore": 1,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "id": 87,
@@ -3298,6 +3298,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-03T22:29:46+00:00",
+  "bracketUpdatedAt": "2026-07-03T23:38:28+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }

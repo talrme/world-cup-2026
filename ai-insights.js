@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-03T22:34:56+00:00",
+  "generatedAt": "2026-07-03T23:42:41+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -82,20 +82,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "39": {
       "headline": "Uruguay and Cabo Verde Trade Goals in Thrilling Draw",
-      "summary": "Uruguay and Cabo Verde played to a 2-2 draw in a high-stakes Group H encounter.",
+      "summary": "Uruguay and Cabo Verde played to a 2-2 draw in a high-scoring Group H encounter.",
       "story": [
-        "The match between Uruguay and Cabo Verde proved to be one of the most competitive fixtures in Group H, ending in a 2-2 stalemate. Both sides pushed for the win, but neither could find the decisive goal to break the deadlock.",
-        "For Cabo Verde, this point was vital in their group stage campaign, ultimately helping them secure a path to the knockout rounds. The result kept them in a position to advance, finishing second in the group behind Spain.",
-        "Uruguay, meanwhile, found themselves in a difficult spot following this result. Despite a spirited performance, they were unable to secure the three points needed to climb higher in the standings, eventually finishing third in the group."
+        "The match between Uruguay and Cabo Verde ended in a 2-2 stalemate, providing a rare burst of offense in a group otherwise defined by defensive struggles. Both sides pushed forward throughout the evening, resulting in a back-and-forth affair that kept the group standings tight.",
+        "For Cabo Verde, the point was a vital building block in their group campaign. Having opened with a scoreless draw against Spain, this result helped them maintain their composure and eventually secure a path to the knockout stages.",
+        "Uruguay, meanwhile, found themselves in a difficult position following this result. Despite the offensive output in this match, they struggled to find consistency across their three group fixtures, ultimately finishing behind Cabo Verde in the final standings.",
+        "This draw was a defining moment for Group H, as it forced both teams to fight for every point in their final group matches. Cabo Verde's ability to remain unbeaten through the group stage served as a springboard for their subsequent knockout round appearance."
       ],
       "bullets": [
-        "The 2-2 result was the only match in Group H to feature four total goals.",
+        "The 2-2 result was the highest-scoring match in Group H.",
         "Cabo Verde finished the group stage with 3 points, securing their spot in the Round of 32.",
-        "Uruguay concluded their group campaign with 2 points, falling just short of advancement."
+        "Uruguay concluded their tournament run with 2 points after failing to secure a win in the group phase."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:34:01+00:00",
-      "sourceHash": "e5e0480e79e41dc3",
+      "updatedAt": "2026-07-03T23:42:18+00:00",
+      "sourceHash": "ab3a6b6568deed38",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -121,20 +122,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "41": {
       "headline": "Argentina Dominates Austria to Secure Group J Control",
-      "summary": "Argentina claimed a decisive 2-0 victory over Austria in their second group match, solidifying their path toward the top of Group J.",
+      "summary": "Argentina defeated Austria 2-0 in a clinical performance that cemented their position at the top of Group J.",
       "story": [
-        "Argentina maintained their perfect form in the group stage with a clinical 2-0 win against Austria. The result proved critical, as it allowed Argentina to establish a firm grip on the group standings early in the tournament.",
-        "For Austria, the loss meant they had to fight for their survival in the remaining group fixtures. While they eventually advanced to the knockout rounds, this setback forced them to navigate a tighter path through the group stage.",
-        "This match was a key indicator of Argentina's strength, as they ultimately swept their group with nine points and a +7 goal difference. Their ability to shut out Austria was a testament to a defensive performance that conceded only one goal throughout the entire group phase."
+        "Argentina continued their strong form in Group J with a controlled 2-0 victory over Austria. The win was a critical moment for the group, effectively establishing Argentina as the team to beat while forcing Austria to battle for the remaining qualification spots.",
+        "The result allowed Argentina to maintain their momentum throughout the group stage, eventually finishing with a perfect record of nine points from three matches. Their defense was particularly impressive, conceding only one goal across the entire group phase.",
+        "For Austria, the loss was a setback that left them navigating a tighter path through the group. Despite the defeat, they remained competitive in the standings, eventually securing a spot in the knockout rounds after a high-scoring draw against Algeria in their final group fixture.",
+        "Following this match, both teams moved toward the knockout stages with different trajectories. Argentina advanced as the group winner, while Austria moved forward as the runner-up, setting up their respective challenges in the Round of 32."
       ],
       "bullets": [
-        "Argentina finished atop Group J with a perfect 9-point record.",
-        "The 2-0 victory served as the foundation for Argentina's dominant group stage performance.",
-        "Austria eventually moved on to the Round of 32 despite this loss."
+        "Argentina finished atop Group J with a perfect 9-point record and a +7 goal difference.",
+        "Austria successfully navigated the group despite this loss, finishing with 4 points to secure second place."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:33:45+00:00",
-      "sourceHash": "e00041433f8fc205",
+      "updatedAt": "2026-07-03T23:42:10+00:00",
+      "sourceHash": "f58c534af52873bc",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -776,22 +777,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "63": {
-      "headline": "Cabo Verde and Saudi Arabia play to a scoreless stalemate",
-      "summary": "Cabo Verde and Saudi Arabia finished their group campaign with a 0-0 draw, a result that ultimately helped Cabo Verde secure a spot in the knockout stages.",
+      "headline": "Stalemate in Group H Finale",
+      "summary": "Cabo Verde and Saudi Arabia played to a 0-0 draw in their final Group H match.",
       "story": [
-        "The final matchday in Group H saw Cabo Verde and Saudi Arabia fail to break the deadlock, resulting in a 0-0 draw. Despite the lack of goals, the point was significant for Cabo Verde, who finished the group stage with 3 points and successfully advanced to the Round of 32.",
-        "For Saudi Arabia, the draw brought their tournament to a close with 2 points from three matches. They struggled to find the back of the net throughout the group stage, finishing with only a single goal scored across their three fixtures.",
-        "Cabo Verde's progression was confirmed by their consistency, having drawn all three of their group matches against Spain, Uruguay, and Saudi Arabia. Their defensive resilience served them well, as they conceded only two goals in the group phase.",
-        "Following this result, Cabo Verde advanced to face Argentina in the Round of 32, where they were eventually eliminated in a narrow 1-0 defeat."
+        "The scoreless draw between Cabo Verde and Saudi Arabia concluded both teams' group stage campaigns. Neither side could find a breakthrough, resulting in a point apiece that left both teams looking for more in a tight Group H.",
+        "For Cabo Verde, the result was enough to secure a spot in the knockout stages, finishing second in the group with three points. Their defensive resilience throughout the group stage proved vital in navigating a challenging path forward.",
+        "Saudi Arabia finished at the bottom of the group with two points, ending their tournament run. Despite the competitive nature of their matches, they were unable to secure the win needed to advance.",
+        "With the group stage now complete, Cabo Verde turns their attention toward their next challenge in the Round of 32, where they face Argentina."
       ],
       "bullets": [
-        "Cabo Verde finished second in Group H with 3 points, remaining undefeated in group play despite not winning a match.",
-        "Saudi Arabia concluded their World Cup run in fourth place with 2 points.",
-        "The 0-0 result was Cabo Verde's second scoreless draw of the group stage."
+        "Cabo Verde advanced to the Round of 32 as the Group H runner-up.",
+        "Saudi Arabia concluded their World Cup journey with two points from three matches.",
+        "The draw marked the second time Cabo Verde held an opponent scoreless in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:33:29+00:00",
-      "sourceHash": "a4f825535f3ebdef",
+      "updatedAt": "2026-07-03T23:42:02+00:00",
+      "sourceHash": "f7bdddd62ce1dd3f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -960,19 +961,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "72": {
       "headline": "Argentina Sweeps Group J with Victory Over Jordan",
-      "summary": "Final: Jordan 1, Argentina 3. Argentina concluded their group stage campaign with a 3-1 win over Jordan, finishing at the top of the table with a perfect record.",
+      "summary": "Final: Jordan 1, Argentina 3. Argentina secured a perfect group stage record by defeating Jordan 3-1 in their final Group J fixture.",
       "story": [
-        "Argentina maintained their dominance in Group J by dispatching Jordan 3-1, securing nine points from three matches. This victory solidified their position at the top of the group, having conceded only one goal throughout the opening stage.",
-        "For Jordan, the result marked the end of a challenging group stage where they finished with three losses. Despite the defeat, they managed to find the back of the net in this final fixture, though they were unable to overcome the clinical performance of the Argentine side."
+        "Argentina concluded their group stage campaign with a dominant 3-1 result against Jordan, maintaining their momentum as they advanced to the knockout rounds. The win ensured Argentina finished at the top of Group J with a clean sweep of nine points from their three matches.",
+        "For Jordan, the match marked the end of a challenging tournament run. Despite their efforts throughout the group stage, they finished at the bottom of the table without a point, having previously fallen to both Austria and Algeria.",
+        "Argentina's performance throughout the group was clinical, scoring eight goals while conceding only once. This defensive solidity and offensive efficiency provided them with a significant +7 goal difference, positioning them strongly as they moved into the Round of 32 to face Cabo Verde.",
+        "The final standings confirmed Argentina's dominance in the group, while Austria and Algeria finished with four points apiece to round out the competitive landscape of Group J."
       ],
       "bullets": [
-        "Argentina finished Group J with a perfect 3-0-0 record and a +7 goal differential.",
-        "Jordan concluded their tournament run with three losses in Group J.",
-        "Argentina advanced to the Round of 32 following their clean sweep of the group stage."
+        "Argentina finished atop Group J with a perfect 3-0-0 record.",
+        "Jordan concluded their tournament campaign with three losses.",
+        "Argentina outscored their group opponents by a total of 8-1."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:33:14+00:00",
-      "sourceHash": "5a3ee56389a2562f",
+      "updatedAt": "2026-07-03T23:41:54+00:00",
+      "sourceHash": "b17f2c5037d04152",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1083,18 +1086,18 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Argentina Dominates Algeria in Group J Opener",
       "summary": "Argentina secured a commanding 3-0 victory over Algeria to kick off their Group J campaign.",
       "story": [
-        "Argentina opened their tournament with a statement performance, clinical in front of goal while keeping Algeria scoreless throughout the match. The 3-0 result set the tone for a dominant group stage run, where they eventually finished at the top of the table with a perfect 9 points.",
-        "For Algeria, the loss created an immediate uphill battle in a competitive group. Despite the setback, they showed resilience in their later group matches, including a high-scoring 3-3 draw against Austria, which ultimately helped them advance to the knockout rounds.",
-        "This match proved to be the foundation for Argentina's successful group campaign, as they maintained a strong defensive record, conceding only one goal across their three group fixtures. While Algeria's tournament journey concluded in the Round of 32 against Switzerland, their opening match against a powerhouse like Argentina provided an early test of their defensive resolve."
+        "Argentina opened their tournament with a statement performance, comfortably dispatching Algeria 3-0. This result set the tone for a dominant group stage run, where they eventually finished at the top of Group J with a perfect nine points.",
+        "For Algeria, the loss in the opening match created an uphill battle. Despite the setback, they remained competitive throughout the group stage, eventually securing a spot in the Round of 32 as one of the best third-placed teams.",
+        "Argentina's clinical form in this match provided the foundation for their advancement, as they conceded only one goal across their three group fixtures. Their momentum carried them into the knockout rounds, while Algeria's tournament journey concluded following a subsequent defeat to Switzerland."
       ],
       "bullets": [
-        "Argentina finished atop Group J with a perfect record, scoring 8 goals and conceding just 1.",
-        "The 3-0 scoreline marked the beginning of a dominant group stage for Argentina, who went on to reach the Round of 32.",
-        "Algeria's group stage campaign was defined by high-scoring drama, including a 3-3 draw with Austria that helped them secure a knockout spot."
+        "Argentina finished atop Group J with a perfect 3-0-0 record and a +7 goal differential.",
+        "Algeria advanced to the Round of 32 as a best third-placed team before being eliminated by Switzerland.",
+        "Argentina maintained a stingy defense throughout the group stage, allowing only one goal in three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:34:16+00:00",
-      "sourceHash": "06536a05311d0279",
+      "updatedAt": "2026-07-03T23:42:26+00:00",
+      "sourceHash": "613c7e49c2f65351",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1202,19 +1205,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "13": {
       "headline": "Spain and Cabo Verde play to scoreless stalemate",
-      "summary": "Spain and Cabo Verde opened their Group H campaigns with a 0-0 draw.",
+      "summary": "Spain and Cabo Verde opened their Group H campaign with a 0-0 draw.",
       "story": [
-        "The opening match of Group H ended in a deadlock as neither Spain nor Cabo Verde could find the back of the net. The 0-0 result meant both sides walked away with a single point to start their tournament journey.",
-        "This result set the tone for a competitive group stage. While Spain eventually found their stride to top the group with seven points, Cabo Verde remained resilient throughout the opening round, securing three draws in their group matches.",
-        "Following this draw, Spain went on to win their next two group games against Saudi Arabia and Uruguay, eventually advancing through the knockout rounds. Cabo Verde also navigated the group stage successfully, though their path eventually concluded in the Round of 32 against Argentina."
+        "The opening match of Group H saw Spain and Cabo Verde finish deadlocked at 0-0. Neither side could find a breakthrough, resulting in a point shared between the two teams to start the tournament.",
+        "For Spain, the result was a slow start to a group stage that they would eventually dominate. Following this draw, they went on to secure victories against Saudi Arabia and Uruguay, finishing at the top of the group with seven points and zero goals conceded throughout the group stage.",
+        "Cabo Verde proved to be a resilient side throughout the group phase. Despite the scoreless opening, they remained competitive, drawing their subsequent matches against Uruguay and Saudi Arabia to advance to the knockout rounds, where they eventually faced Argentina."
       ],
       "bullets": [
-        "The draw provided both teams with a foundational point in a tightly contested Group H.",
-        "Spain finished the group stage undefeated with seven points, while Cabo Verde finished second with three points from three draws."
+        "Spain finished top of Group H with 7 points, while Cabo Verde advanced with 3 points.",
+        "This was the only match in the group stage where Spain failed to score."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:34:32+00:00",
-      "sourceHash": "29f70a136fbd4098",
+      "updatedAt": "2026-07-03T23:42:34+00:00",
+      "sourceHash": "7c8a84249d296bde",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1523,16 +1526,16 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Norway Advances Past Ivory Coast in Round of 32",
       "summary": "Final: Ivory Coast 1, Norway 2. Norway secured a 2-1 victory over Ivory Coast to move forward in the knockout stage.",
       "story": [
-        "Norway successfully navigated the Round of 32, overcoming Ivory Coast with a narrow 2-1 win. The result brings an end to Ivory Coast's tournament run after they had previously finished as the runner-up in Group E.",
-        "For Norway, the win serves as a crucial rebound following their final group stage match against France. Having navigated a challenging path through Group I, they demonstrated resilience to edge out the Ivorians in this high-stakes knockout fixture.",
-        "With this victory, Norway now shifts their focus to the Round of 16. They are set to face Brazil in their next match, a significant test that will determine their continued progression in the tournament."
+        "Norway successfully navigated the Round of 32, narrowly defeating Ivory Coast 2-1 to keep their tournament run alive. The result brings an end to Ivory Coast's campaign after they had successfully advanced as runners-up from Group E.",
+        "For Norway, the win validates a resilient performance throughout the group stage, where they managed to overcome high-scoring affairs against Senegal and Iraq. Despite a difficult final group match against France, they regained their footing to secure this crucial knockout victory.",
+        "With this result, Norway now turns their attention to the Round of 16. They are set to face Brazil in what promises to be a significant test for the squad as they continue their path deeper into the tournament bracket."
       ],
       "bullets": [
-        "Norway moves on to face Brazil in the Round of 16.",
-        "Ivory Coast exits the tournament following the 2-1 defeat."
+        "Norway claimed a 2-1 win to eliminate Ivory Coast in the Round of 32.",
+        "Norway advances to face Brazil in the Round of 16 on July 5."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T22:37:10+00:00",
+      "updatedAt": "2026-07-03T23:42:41+00:00",
       "sourceHash": "19dc9b5191f85902",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1716,24 +1719,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "86": {
-      "headline": "Argentina Edges Past Cabo Verde to Advance",
-      "summary": "Argentina secured a narrow 1-0 victory over Cabo Verde in their Round of 32 matchup to keep their tournament run alive.",
+      "headline": "Cabo Verde Stuns Argentina in Round of 32 Draw",
+      "summary": "Argentina and Cabo Verde played to a 1-1 draw in their Round of 32 knockout stage match.",
       "story": [
-        "Argentina continued their momentum in the tournament by overcoming a resilient Cabo Verde side. The 1-0 result was enough to push them through the Round of 32, maintaining the form they showed throughout the group stage where they finished at the top of Group J.",
-        "For Cabo Verde, the defeat marks the end of a campaign defined by defensive discipline. Having navigated a challenging Group H that included draws against Spain, Uruguay, and Saudi Arabia, they ultimately lacked the offensive spark needed to break down the Argentine defense in this knockout fixture.",
-        "Argentina now moves forward in the bracket, carrying the confidence of an undefeated run through the group stage and this hard-fought knockout win. They will look to carry this defensive stability into their next match as the field continues to narrow."
+        "Argentina entered the knockout stage with significant momentum, having swept their Group J matches against Algeria, Austria, and Jordan with a perfect record. Their offensive consistency throughout the group phase made them heavy favorites heading into this meeting with the Group H runners-up.",
+        "Cabo Verde proved to be a resilient opponent, continuing a trend of defensive toughness that characterized their group stage performance. Having secured three consecutive draws against Spain, Uruguay, and Saudi Arabia, they arrived at this match as a team that is notoriously difficult to break down.",
+        "The 1-1 result marks a significant hurdle for Argentina, who had previously looked like a dominant force in the tournament. By forcing a draw, Cabo Verde successfully disrupted the rhythm of a high-scoring side and pushed the match into a high-stakes scenario.",
+        "With the match ending in a deadlock, both teams now face the immediate pressure of the knockout format. This stalemate forces a critical evaluation of their path forward in the tournament as they look to survive and advance."
       ],
       "bullets": [
-        "Argentina maintains their perfect tournament record with a 1-0 win.",
-        "Cabo Verde exits after a defensive-minded tournament run that featured three draws in the group stage.",
-        "Argentina advances to the next round of the knockout bracket."
+        "Argentina concluded their group stage with a perfect 3-0-0 record before this draw.",
+        "Cabo Verde remained undefeated through their group stage, securing three consecutive draws before this result.",
+        "The 1-1 scoreline represents a major defensive success for Cabo Verde against a prolific Argentina attack."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:34:48+00:00",
-      "sourceHash": "a716f3b2c5974dc4",
+      "updatedAt": "2026-07-03T23:41:46+00:00",
+      "sourceHash": "8576b0047b18b612",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "live or in-progress match"
+      "refreshReason": "source or prompt changed"
     }
   },
   "groups": {
