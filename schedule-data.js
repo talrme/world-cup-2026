@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-07-02",
+  "generatedAt": "2026-07-03",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2719,7 +2719,7 @@ window.WORLD_CUP_DATA = {
       "time": "19:00",
       "home": "Portugal",
       "away": "Croatia",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "toronto",
       "offset": "-04:00",
@@ -2727,8 +2727,8 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760496",
       "awaySource": "Runner-up Group L",
       "homeSource": "Runner-up Group K",
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "id": 84,
@@ -2905,7 +2905,7 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-07-06",
       "time": "15:00",
-      "home": "Winner Match 83",
+      "home": "Portugal",
       "away": "Spain",
       "status": "scheduled",
       "network": "TBD",
@@ -2913,7 +2913,8 @@ window.WORLD_CUP_DATA = {
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760506",
-      "awaySource": "Winner Match 84"
+      "awaySource": "Winner Match 84",
+      "homeSource": "Winner Match 83"
     },
     {
       "id": 94,
@@ -3247,6 +3248,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-02T23:42:09+00:00",
+  "bracketUpdatedAt": "2026-07-03T01:21:26+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
