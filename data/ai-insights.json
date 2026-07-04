@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T05:06:27+00:00",
+  "generatedAt": "2026-07-04T08:02:48+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1447,17 +1447,18 @@
     },
     "74": {
       "headline": "Germany and Paraguay Deadlocked in Round of 32",
-      "summary": "Germany and Paraguay played to a 1-1 draw in their Round of 32 matchup, forcing the contest beyond regulation.",
+      "summary": "Germany and Paraguay played to a 1-1 draw in their Round of 32 knockout match.",
       "story": [
-        "Germany entered this knockout fixture as the winners of Group E, looking to regain momentum after a narrow loss to Ecuador in their final group stage match. Paraguay, meanwhile, arrived as one of the best third-placed teams, having navigated a challenging path through Group D.",
-        "The match proved to be a tight affair, with neither side able to secure a decisive advantage during regulation time. Both teams displayed defensive resilience, resulting in a 1-1 stalemate that left the outcome of the tie to be determined by further play."
+        "Germany entered the Round of 32 as winners of Group E, but they found themselves unable to break through against a resilient Paraguay side in a tightly contested match that ended 1-1.",
+        "Paraguay, who advanced as one of the best third-place teams from the group stage, managed to hold firm against the German attack. This result forces both teams into the high-pressure environment of a knockout fixture where every moment carries significant weight.",
+        "For Germany, the draw marks a departure from their high-scoring group stage form, where they opened with a dominant 7-1 victory over Curacao. Paraguay continues to show defensive grit, having kept a clean sheet in their previous group match against Australia."
       ],
       "bullets": [
-        "Germany and Paraguay finished tied at 1-1 after regulation.",
-        "The match was a Round of 32 knockout fixture."
+        "The match finished 1-1, requiring a resolution to determine who advances further in the tournament.",
+        "Germany arrived here after topping Group E, while Paraguay qualified as a best third-place finisher."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:13:20+00:00",
+      "updatedAt": "2026-07-04T08:02:48+00:00",
       "sourceHash": "ae2c29e9a863c3b9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1540,20 +1541,20 @@
       "refreshReason": "past 5 days"
     },
     "77": {
-      "headline": "France Dominates Sweden to Advance",
-      "summary": "France secured a convincing 3-0 victory over Sweden in the Round of 32 to move forward in the tournament.",
+      "headline": "France Cruises Past Sweden to Reach Round of 16",
+      "summary": "France secured a dominant 3-0 victory over Sweden to advance in the knockout stage.",
       "story": [
-        "France continued their impressive form by comfortably dispatching Sweden, maintaining a clean sheet while showcasing their offensive efficiency. The win solidifies their position as a serious contender after a dominant run through Group I, where they remained undefeated and scored freely in every match.",
-        "For Sweden, the tournament ends here after a challenging knockout fixture. While they managed to navigate the group stage as one of the best third-placed teams, they were unable to find an answer for the tactical discipline and clinical finishing displayed by the French side.",
-        "With this victory, France moves on to the Round of 16. They are now set to face Paraguay on July 4, as they continue their pursuit of the trophy."
+        "France continued their impressive tournament form by dispatching Sweden with a clean 3-0 result. Coming into the match as the winners of Group I, the French side maintained their momentum, having scored 13 goals across their four matches so far in the tournament.",
+        "For Sweden, the loss brings an end to their campaign. After a strong start to the tournament with a 5-1 win over Tunisia, they struggled to find consistency against top-tier opposition, ultimately bowing out in the Round of 32.",
+        "With this victory, France moves forward to the Round of 16. They are now set to face Paraguay on July 4, as they continue their pursuit of the title."
       ],
       "bullets": [
-        "France has now won four consecutive matches in the tournament, scoring at least three goals in every game.",
-        "The 3-0 result marks France's second clean-sheet victory of the tournament, following their group-stage win over Iraq.",
-        "France will advance to meet Paraguay in the next round."
+        "France maintained a perfect defensive record in this match, keeping Sweden scoreless while netting three of their own.",
+        "France has now scored 13 total goals in their four tournament matches.",
+        "France advances to play Paraguay in the next round on July 4."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:13:02+00:00",
+      "updatedAt": "2026-07-04T08:02:41+00:00",
       "sourceHash": "4cdae272277d5cbc",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1657,24 +1658,24 @@
       "refreshReason": "past 5 days"
     },
     "83": {
-      "headline": "Portugal Advances Past Croatia in Round of 32",
-      "summary": "Portugal defeated Croatia 2-1 to secure their spot in the next stage of the tournament.",
+      "headline": "Portugal Edges Past Croatia to Reach Round of 16",
+      "summary": "Portugal secured a 2-1 victory over Croatia in the Round of 32 to advance in the tournament.",
       "story": [
-        "Portugal navigated a tight Round of 32 encounter against Croatia, emerging with a 2-1 victory to keep their tournament run alive. The result rewarded Portugal for their consistency throughout the group stage, where they remained unbeaten across three matches.",
-        "For Croatia, the loss brings an end to their campaign after a resilient effort in Group L. Having bounced back from an opening defeat to England with consecutive wins against Panama and Ghana, they pushed Portugal to the limit in this knockout fixture.",
-        "With this victory, Portugal moves on to the Round of 16. They are now set for a high-stakes matchup against Spain, who also advanced from their respective bracket."
+        "Portugal navigated a tight contest against Croatia, ultimately coming out on top with a 2-1 scoreline. The win allows them to progress further in the knockout bracket after a solid run through Group K where they remained unbeaten.",
+        "For Croatia, the loss ends their campaign after they had fought their way out of Group L with victories over Panama and Ghana. Despite a challenging start against England in their opener, they showed resilience to reach this stage.",
+        "With this victory, Portugal now looks ahead to a significant challenge in the Round of 16. They are scheduled to face Spain on July 6, setting up a high-stakes encounter between the two European sides."
       ],
       "bullets": [
-        "Portugal maintained their unbeaten tournament form by overcoming Croatia in regulation time.",
-        "The win sets up a Round of 16 clash between Portugal and Spain.",
-        "Croatia exits the tournament after a hard-fought knockout performance."
+        "Portugal advanced to the Round of 16 with a narrow 2-1 win.",
+        "Portugal will face Spain in their next match on July 6.",
+        "Croatia bows out of the tournament after reaching the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:10:21+00:00",
+      "updatedAt": "2026-07-04T08:02:33+00:00",
       "sourceHash": "c15db3128acd2893",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "85": {
       "headline": "Switzerland Advances Past Algeria to Reach Round of 16",
