@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-07-03",
+  "generatedAt": "2026-07-04",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2818,7 +2818,7 @@ window.WORLD_CUP_DATA = {
       "time": "18:00",
       "home": "Argentina",
       "away": "Cabo Verde",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "miami",
       "homeSource": "Winner Group J",
@@ -2826,8 +2826,22 @@ window.WORLD_CUP_DATA = {
       "timezoneLabel": "ET",
       "espnEventId": "760500",
       "awaySource": "Runner-up Group H",
-      "homeScore": 1,
-      "awayScore": 1
+      "homeScore": 3,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-04T01:22:48+00:00",
+          "title": "Argentina vs Cape Verde Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=EC2jOKluGRI",
+          "channel": "FOX Sports",
+          "durationText": "26 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-04T01:22:48+00:00"
+      }
     },
     {
       "id": 87,
@@ -2987,7 +3001,7 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-07-07",
       "time": "12:00",
-      "home": "Winner Match 86",
+      "home": "Argentina",
       "away": "Egypt",
       "status": "scheduled",
       "network": "TBD",
@@ -2995,7 +3009,8 @@ window.WORLD_CUP_DATA = {
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760509",
-      "awaySource": "Winner Match 88"
+      "awaySource": "Winner Match 88",
+      "homeSource": "Winner Match 86"
     },
     {
       "id": 96,
@@ -3298,6 +3313,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-03T23:38:28+00:00",
+  "bracketUpdatedAt": "2026-07-04T01:21:44+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
