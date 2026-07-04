@@ -2961,7 +2961,7 @@
       "time": "17:00",
       "home": "Paraguay",
       "away": "France",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "philadelphia",
       "offset": "-04:00",
@@ -2970,7 +2970,7 @@
       "homeSource": "Winner Match 74",
       "awaySource": "Winner Match 77",
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "id": 91,
@@ -3080,7 +3080,7 @@
       "round": "Knockout",
       "date": "2026-07-09",
       "time": "16:00",
-      "home": "Winner Match 89",
+      "home": "France",
       "away": "Morocco",
       "status": "scheduled",
       "network": "TBD",
@@ -3088,7 +3088,8 @@
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760510",
-      "awaySource": "Winner Match 90"
+      "awaySource": "Winner Match 90",
+      "homeSource": "Winner Match 89"
     },
     {
       "id": 98,
@@ -3360,6 +3361,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-04T21:11:20+00:00",
+  "bracketUpdatedAt": "2026-07-04T23:26:08+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
