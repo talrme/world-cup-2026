@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-04T17:54:07+00:00",
+  "generatedAt": "2026-07-04T18:50:07+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -302,20 +302,18 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "30": {
       "headline": "Morocco secures vital win over Scotland",
-      "summary": "Final: Scotland 0, Morocco 1. Morocco defeated Scotland 1-0 in their Group C encounter, a result that proved pivotal in their path to the knockout stages.",
+      "summary": "Final: Scotland 0, Morocco 1. Morocco defeated Scotland 1-0 in their Group C encounter, a result that proved pivotal in their successful push for the knockout stages.",
       "story": [
-        "Morocco's narrow victory over Scotland was a defining moment in Group C, providing them with the momentum needed to eventually finish level on points with Brazil. By keeping a clean sheet and finding the lone goal, Morocco managed to navigate a tight defensive battle that left Scotland struggling to find an offensive rhythm.",
-        "For Scotland, the loss was a significant setback after their opening win against Haiti. Unable to break down the Moroccan defense, they found themselves under immense pressure heading into their final group match against Brazil, which ultimately ended in a difficult defeat.",
-        "This result helped solidify Morocco's standing in a competitive group. Their ability to secure all three points here allowed them to remain unbeaten in group play, eventually propelling them into the knockout stages where they continued their campaign against the Netherlands."
+        "Morocco\u2019s narrow 1-0 victory over Scotland was a defining moment in Group C, providing the momentum they needed to eventually navigate their way into the tournament's later rounds. By securing all three points, Morocco kept pace with Brazil at the top of the group standings.",
+        "For Scotland, the loss was a difficult setback that left them chasing points in their final group fixture. While they had opened their campaign with a 1-0 win against Haiti, this result against Morocco forced them into a high-pressure situation for their concluding match against Brazil."
       ],
       "bullets": [
-        "Morocco finished the group stage with 7 points, tied with Brazil.",
-        "The 1-0 result was the only time Scotland failed to score in their three group matches.",
-        "This win was instrumental in Morocco advancing as the runner-up in Group C."
+        "Morocco finished the group stage level on 7 points with Brazil.",
+        "The result left Scotland with 3 points, ultimately finishing third in Group C."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:53:36+00:00",
-      "sourceHash": "e0cced8fc803091c",
+      "updatedAt": "2026-07-04T18:49:43+00:00",
+      "sourceHash": "dfe9caba6f589468",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -363,18 +361,17 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Canada Dominates Qatar in 6-0 Group B Victory",
       "summary": "Canada secured a commanding 6-0 win over Qatar, significantly boosting their goal difference and positioning within Group B.",
       "story": [
-        "Canada delivered a clinical performance against Qatar, finding the back of the net six times without conceding. This lopsided result provided a massive lift to their goal difference, which proved vital as the group stage progressed.",
-        "The victory served as the centerpiece of Canada's group campaign, distinguishing them from a competitive field that included Switzerland and Bosnia and Herzegovina. By controlling the tempo, Canada ensured they remained in contention for the knockout rounds.",
-        "This result was a defining moment for Canada, helping them navigate a challenging Group B. Their ability to capitalize on scoring opportunities in this match set the tone for their subsequent advancement into the knockout stages."
+        "Canada delivered a clinical performance to dismantle Qatar, finding the back of the net six times without conceding. This lopsided result provided a massive boost to their goal difference, which proved vital as the group stage progressed.",
+        "This victory served as the centerpiece of Canada's group stage campaign. While they later fell to Switzerland in their final group match, the points and goal cushion earned against Qatar helped secure their advancement to the knockout rounds."
       ],
       "bullets": [
-        "Canada's 6-0 margin provided a significant advantage in goal difference, finishing the group stage with a +5 GD.",
-        "The result moved Canada to 4 points after two matches, keeping them firmly in the mix for a top-two finish.",
-        "Qatar concluded their group campaign with 1 point, struggling to contain opponents throughout their three fixtures."
+        "Canada's 6-0 margin remains the most decisive result in their 2026 group stage run.",
+        "The win helped Canada finish with a +5 goal difference, ultimately securing second place in Group B.",
+        "Qatar struggled throughout the group, conceding 10 goals across their three fixtures."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:53:44+00:00",
-      "sourceHash": "7535d38655d0e16b",
+      "updatedAt": "2026-07-04T18:49:51+00:00",
+      "sourceHash": "530897ef00b20788",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -498,22 +495,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "49": {
-      "headline": "Switzerland Secures Group B Top Spot with Victory Over Canada",
-      "summary": "Switzerland defeated Canada 2-1 to finish at the top of Group B with seven points.",
+      "headline": "Switzerland Secures Group B Top Spot with Win Over Canada",
+      "summary": "Switzerland claimed a 2-1 victory over Canada in their final group stage match to finish at the top of the Group B standings.",
       "story": [
-        "Switzerland claimed a crucial 2-1 win over Canada in their final group stage match, effectively clinching the top position in Group B. The result allowed the Swiss to finish their group campaign undefeated with two wins and a draw.",
-        "For Canada, the loss meant they finished the group stage in second place with four points. Despite the defeat, they maintained a strong goal difference of +5, having previously secured a dominant 6-0 win against Qatar in the second matchday.",
-        "This victory propelled Switzerland into the Round of 32 where they eventually faced Algeria, while Canada moved forward to meet South Africa in the opening knockout round.",
-        "The competitive nature of Group B was evident throughout the tournament, with Switzerland's consistency proving to be the deciding factor in their successful progression through the bracket."
+        "Switzerland cemented their position at the summit of Group B by edging out Canada in a tightly contested 2-1 result. The win allowed the Swiss to finish the group stage undefeated with seven points from three matches, successfully navigating a difficult group that included Canada, Bosnia and Herzegovina, and Qatar.",
+        "For Canada, the loss meant finishing as the group runner-up with four points. Despite the defeat, Canada maintained a strong goal difference of +5, bolstered by their dominant 6-0 performance against Qatar earlier in the tournament.",
+        "Both teams successfully advanced to the knockout stages following the conclusion of Matchday 3. Switzerland moved on to face Algeria in the Round of 32, while Canada prepared for a matchup against South Africa."
       ],
       "bullets": [
-        "Switzerland finished atop Group B with 7 points from three matches.",
-        "Canada secured the second spot in the group with 4 points and a +5 goal difference.",
-        "The victory allowed Switzerland to advance as the group winner, setting up their subsequent knockout path."
+        "Switzerland finished atop Group B with an unbeaten record of two wins and one draw.",
+        "Canada secured the second-place spot in the group despite the narrow loss to the Swiss.",
+        "The result finalized the path for both nations into the knockout bracket."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:53:19+00:00",
-      "sourceHash": "714733231a9b89a2",
+      "updatedAt": "2026-07-04T18:49:36+00:00",
+      "sourceHash": "06b84386d24d95ed",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -539,20 +535,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "51": {
-      "headline": "Morocco secures victory in high-scoring Group C finale",
-      "summary": "Morocco defeated Haiti 4-2 to conclude their group stage campaign on a high note.",
+      "headline": "Morocco Clinches Group C Spot with 4-2 Win Over Haiti",
+      "summary": "Morocco secured a 4-2 victory over Haiti in their final group stage match, successfully advancing to the knockout rounds.",
       "story": [
-        "Morocco finished their group stage run with a decisive 4-2 win over Haiti, showcasing their offensive depth in a match that saw six total goals. The result solidified Morocco's standing in Group C, allowing them to advance with 7 points from their three matches.",
-        "With the group stage now complete, Morocco moved forward to the knockout rounds, carrying the momentum from this multi-goal performance. Their ability to capitalize on opportunities proved vital in securing their position near the top of the group standings alongside Brazil."
+        "Morocco finished their group campaign on a high note, putting four goals past Haiti to cement their position in the standings. The result ensured they moved forward with seven points, matching Brazil's total but finishing second in Group C on goal difference.",
+        "For Haiti, the match marked a difficult end to their tournament run. Despite finding the back of the net twice, they were unable to overcome the offensive pressure from a determined Moroccan side that controlled the tempo for much of the contest.",
+        "This win was the culmination of a strong group stage for Morocco, which included a draw against Brazil and a narrow victory over Scotland. By securing this result, they successfully navigated a competitive group to earn their place in the Round of 32.",
+        "Morocco's momentum continued well beyond this fixture, as they later navigated a challenging path through the knockout stages, including a tight battle against the Netherlands and a victory over Canada."
       ],
       "bullets": [
-        "Morocco finished second in Group C with 7 points, trailing Brazil only on goal difference.",
-        "The 4-2 result marked the highest-scoring match for both teams in the group stage.",
-        "Haiti ended their tournament run with 2 goals scored and 8 conceded."
+        "Morocco finished Group C in second place with 7 points, level with group winners Brazil.",
+        "Haiti concluded their group stage campaign with 0 points after three matches.",
+        "The 4-2 scoreline was the highest-scoring match for both teams in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:53:11+00:00",
-      "sourceHash": "624f696eb3bd874b",
+      "updatedAt": "2026-07-04T18:49:28+00:00",
+      "sourceHash": "8f818ed4e3248e4b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1322,21 +1320,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "6": {
-      "headline": "Brazil and Morocco Open Group C with a Stalemate",
-      "summary": "Brazil and Morocco played to a 1-1 draw in their opening Group C match.",
+      "headline": "Brazil and Morocco open Group C with a hard-fought draw",
+      "summary": "Brazil and Morocco played to a 1-1 draw in their opening Group C match, setting a competitive tone for the rest of the group stage.",
       "story": [
-        "The opening match of Group C saw Brazil and Morocco share the points in a hard-fought 1-1 draw. This result set the tone for a competitive group stage where both nations would ultimately prove their quality.",
-        "Following this initial stalemate, both teams found their rhythm in the tournament. Brazil went on to secure victories against Haiti and Scotland, finishing at the top of the group with 7 points and a strong goal difference.",
-        "Morocco also finished their group campaign with 7 points, matching Brazil's tally but finishing second due to goal difference. Their resilient performance in this opening match proved to be a vital foundation for their successful progression into the knockout rounds."
+        "The opening match between Brazil and Morocco ended in a 1-1 stalemate, a result that immediately signaled the high level of competition within Group C. Both teams showed tactical discipline, making it difficult for either side to pull away and secure all three points in their tournament debut.",
+        "Morocco also proved their mettle in this fixture, matching Brazil's intensity and establishing themselves as a serious contender. This point proved vital for their campaign, as they mirrored Brazil's seven-point haul in the group standings, eventually advancing to deep stages of the knockout bracket.",
+        "This match ultimately set the trajectory for both nations, who both navigated the group successfully. While neither team could find a winner on the day, the result provided a clear indication that both squads were well-prepared for the rigors of the tournament."
       ],
       "bullets": [
-        "Brazil and Morocco both finished the group stage with 7 points.",
-        "The draw was the only match in the group that Brazil did not win.",
-        "Both teams successfully navigated their way out of Group C into the knockout phase."
+        "The 1-1 result was the only match in Group C that did not end in a victory for either Brazil or Morocco.",
+        "Both teams finished the group stage tied on seven points, with Brazil taking the top spot on goal difference.",
+        "This draw was the first step for both teams in successful campaigns that saw them progress into the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:53:51+00:00",
-      "sourceHash": "bfb9d0e9371333a0",
+      "updatedAt": "2026-07-04T18:49:59+00:00",
+      "sourceHash": "12c112aad73a675c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1384,22 +1382,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "3": {
-      "headline": "Canada and Bosnia and Herzegovina open Group B with a stalemate",
-      "summary": "Canada and Bosnia and Herzegovina played to a 1-1 draw in their opening Group B match.",
+      "headline": "Canada and Bosnia and Herzegovina Open Group B with a Draw",
+      "summary": "Canada and Bosnia and Herzegovina finished their opening match in a 1-1 stalemate, setting a tense tone for the rest of Group B.",
       "story": [
-        "The opening match of Group B ended in a 1-1 draw between Canada and Bosnia and Herzegovina, setting a balanced tone for the group stage. Neither side was able to break the deadlock to secure all three points, resulting in a shared result that kept both teams on level footing early in the tournament.",
-        "This result proved significant as the group progressed. Canada eventually finished second in Group B with 4 points, while Bosnia and Herzegovina also concluded their campaign with 4 points but trailed on goal difference, ultimately missing out on the top two spots.",
-        "Following this draw, Canada went on to demonstrate their offensive potential with a dominant 6-0 victory over Qatar in their second match. Despite a subsequent 2-1 loss to Switzerland, Canada secured enough points to advance to the knockout rounds, where they continued their journey.",
-        "Bosnia and Herzegovina showed resilience throughout the group stage, following their opening draw with a loss to Switzerland before closing out their tournament with a 3-1 win against Qatar. While they finished level on points with Canada, the early draw remained a defining moment in their competitive group run."
+        "The opening match for both nations saw Canada and Bosnia and Herzegovina split the points in a 1-1 draw. This result immediately tightened the competitive landscape of Group B, forcing both teams to look for more decisive outcomes in their subsequent fixtures.",
+        "For Canada, the draw was the start of a rollercoaster group stage that eventually saw them finish with four points, level with Bosnia and Herzegovina. The point earned here proved vital in their ability to navigate the group and eventually advance to the knockout rounds.",
+        "Bosnia and Herzegovina also finished their group campaign with four points after later securing a win against Qatar. Despite the draw in their opener, they remained in contention throughout the group stage, though they ultimately finished behind Canada in the final standings due to goal difference."
       ],
       "bullets": [
-        "The 1-1 draw left Canada and Bosnia and Herzegovina tied on points early in the group stage.",
-        "Canada ultimately advanced to the knockout rounds, finishing second in Group B with a +5 goal difference.",
-        "Bosnia and Herzegovina finished their group campaign with 4 points, narrowly missing out on advancement due to goal difference."
+        "The 1-1 draw left both teams level on points to begin their tournament campaign.",
+        "Both Canada and Bosnia and Herzegovina concluded the group stage with four points each.",
+        "This match was the first of three group stage games for both sides in a highly competitive Group B."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:53:59+00:00",
-      "sourceHash": "e61a095ac13b9a96",
+      "updatedAt": "2026-07-04T18:50:07+00:00",
+      "sourceHash": "dd20d20ae81c1de7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1485,38 +1482,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "73": {
       "headline": "Canada Advances Past South Africa in Round of 32",
-      "summary": "Final: South Africa 0, Canada 1. Canada secured a narrow 1-0 victory over South Africa to move on to the Round of 16.",
+      "summary": "Final: South Africa 0, Canada 1. Canada secured a narrow 1-0 victory over South Africa to move on in the knockout stage.",
       "story": [
-        "Canada edged out South Africa in a tense Round of 32 encounter, clinching a 1-0 win that proved decisive in their tournament progression. The victory allowed Canada to maintain their momentum after a group stage campaign that saw them finish as runners-up in Group B.",
-        "For South Africa, the result marks the conclusion of their tournament run. Despite a resilient performance throughout the group stage, including a critical 1-0 win over South Korea, they were unable to break through the Canadian defense in this knockout fixture.",
-        "Canada's win set up a subsequent Round of 16 match against Morocco. Having navigated the pressure of a single-elimination game, Canada moved forward with the goal of building on their clinical attacking form shown earlier in the tournament."
+        "Canada successfully navigated a tense Round of 32 matchup against South Africa, claiming a 1-0 win to keep their tournament run alive. The result proved critical for Canada, who entered the knockout phase as the runner-up from Group B.",
+        "For South Africa, the defeat brings an end to a resilient campaign that saw them battle through Group A. After securing a hard-fought win against South Korea and a draw with Czechia to reach this stage, they ultimately could not find the breakthrough needed to overcome the Canadian defense.",
+        "The victory allowed Canada to progress further into the bracket, though their subsequent path proved difficult as they faced Morocco in the Round of 16. This win served as a testament to Canada's ability to grind out results in high-pressure knockout football."
       ],
       "bullets": [
-        "Canada advanced to the Round of 16 with a 1-0 win over South Africa.",
-        "South Africa exited the tournament following the loss in this Round of 32 fixture.",
-        "Canada moved on to face Morocco in the next stage of the knockout bracket."
+        "Canada advanced from the Round of 32 with a clean sheet and a single-goal margin.",
+        "South Africa concluded their tournament journey after a competitive group stage performance."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:53:03+00:00",
-      "sourceHash": "c32b1cb8a1c6502f",
+      "updatedAt": "2026-07-04T18:49:20+00:00",
+      "sourceHash": "bd9b2142d252053c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "75": {
-      "headline": "Netherlands and Morocco Deadlocked in Round of 32",
-      "summary": "The Netherlands and Morocco played to a 1-1 draw in their Round of 32 clash, forcing a tense conclusion to the knockout match.",
+      "headline": "Netherlands and Morocco deadlock in Round of 32",
+      "summary": "The Netherlands and Morocco played to a 1-1 draw in a tightly contested Round of 32 matchup.",
       "story": [
-        "The Netherlands entered this Round of 32 encounter as the winners of Group F, carrying momentum from a strong group stage performance that included a 5-1 victory over Sweden and a 3-1 win against Tunisia. Their high-scoring form was met with a resilient challenge from Morocco, who advanced as the runner-up from Group C.",
-        "Morocco arrived at this stage following an impressive group campaign that saw them hold Brazil to a draw and secure wins against Scotland and Haiti. Their defensive organization proved pivotal in neutralizing the Dutch attack throughout the match, keeping the scoreline tight."
+        "The Round of 32 clash between the Netherlands and Morocco ended in a 1-1 stalemate, forcing both sides to navigate the high-pressure environment of knockout football. Entering the match as the winner of Group F, the Netherlands looked to continue their strong tournament form, while Morocco arrived as the runner-up from Group C.",
+        "For the Netherlands, this result marked a departure from their high-scoring group stage performances, where they netted five goals against Sweden and three against Tunisia. Despite their offensive momentum, they were unable to find a decisive second goal against a resilient Moroccan defense.",
+        "Morocco continued their trend of competitive results, having navigated a difficult group that included a draw against Brazil and a victory over Scotland. Their ability to hold firm against the Dutch side showcased the defensive discipline that has defined their campaign thus far.",
+        "With the match concluded, the focus shifts to the subsequent stages of the tournament bracket. Morocco moved forward to face Canada in the Round of 16, where they secured a 1-0 victory to advance further in the competition."
       ],
       "bullets": [
-        "The 1-1 result ended in a draw, reflecting the defensive stability shown by both teams.",
-        "The Netherlands came into the game as Group F winners, while Morocco qualified as the runner-up from Group C."
+        "The match ended in a 1-1 draw, reflecting the balanced nature of this knockout fixture.",
+        "The Netherlands entered the game as the winner of Group F, while Morocco qualified as the runner-up from Group C."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:52:56+00:00",
-      "sourceHash": "66c037cda4e2733f",
+      "updatedAt": "2026-07-04T18:49:13+00:00",
+      "sourceHash": "5031d5ff7d98f8db",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1761,23 +1759,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "89": {
-      "headline": "Canada and Morocco locked in stalemate",
-      "summary": "Canada and Morocco finished their Round of 16 match in a 0-0 draw.",
+      "headline": "Morocco Edges Canada to Advance",
+      "summary": "Final: Canada 0, Morocco 1. Morocco secured a narrow 1-0 victory over Canada in the Round of 16 to move deeper into the knockout bracket.",
       "story": [
-        "Canada and Morocco played to a scoreless draw in their Round of 16 matchup, leaving the outcome to be decided beyond regulation time.",
-        "Both teams entered this knockout stage after navigating challenging paths. Canada advanced following a narrow 1-0 victory over South Africa, while Morocco arrived after a 1-1 draw against the Netherlands.",
-        "The defensive intensity remained high throughout the match as neither side could break the deadlock. With the scoreline tied at 0-0, the pressure now shifts to the subsequent phases of the tournament to determine who advances further."
+        "Morocco continued their resilient tournament run by defeating Canada 1-0 in a tightly contested Round of 16 fixture. The result brings an end to Canada's campaign, which saw them navigate a challenging group stage and a victory in the Round of 32.",
+        "For Morocco, the win serves as a testament to their defensive discipline and ability to grind out results in high-pressure knockout scenarios. Having navigated a group that included Brazil and a tough Round of 32 match against the Netherlands, they have proven to be a difficult side to break down.",
+        "Canada will look back on a tournament where they showed flashes of offensive brilliance, particularly in their dominant group-stage win over Qatar. Despite their exit here, their progression to the Round of 16 marks a significant chapter in their tournament journey."
       ],
       "bullets": [
-        "The match concluded with a 0-0 scoreline.",
-        "Both teams reached this stage after surviving tight knockout fixtures in the previous round."
+        "Morocco maintained their clinical form in the knockout stages to secure a clean sheet and the win.",
+        "Canada exits the tournament after a competitive run that included a Round of 32 victory over South Africa."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T17:54:07+00:00",
-      "sourceHash": "6f537532b47f826d",
+      "updatedAt": "2026-07-04T18:49:05+00:00",
+      "sourceHash": "4174ed1d79a2ee8c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "live or in-progress match"
+      "refreshReason": "source or prompt changed"
     }
   },
   "groups": {
