@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-04T20:04:44+00:00",
+  "generatedAt": "2026-07-04T21:15:47+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -142,22 +142,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "42": {
-      "headline": "France Dominates Iraq in Group I Victory",
-      "summary": "France secured a comfortable 3-0 victory over Iraq, maintaining their momentum in Group I.",
+      "headline": "France Cruises to 3-0 Victory Over Iraq",
+      "summary": "France secured a dominant 3-0 win against Iraq, effectively cementing their control over Group I.",
       "story": [
-        "France delivered a clinical performance to defeat Iraq 3-0, effectively tightening their grip on the top spot of Group I. The result reflected the disparity in form between the two sides throughout the group stage.",
-        "For France, this win was a key step in a perfect group campaign that saw them finish with nine points and a commanding +8 goal difference. Their dominance was consistent, as they followed up this result with a 4-1 win over Norway to secure their progression.",
-        "Iraq struggled to find their footing in the group, finishing at the bottom of the table without a point. Their campaign proved difficult, having conceded 12 goals across their three matches while managing only a single goal in return.",
-        "Following this victory, France successfully navigated the Round of 32 with a 3-0 win against Sweden. They now look ahead to a challenging Round of 16 matchup against Paraguay."
+        "France delivered a clinical performance in their second group stage match, dispatching Iraq with a clean sheet and three unanswered goals. The result underscored the gap in quality between the two sides and kept France on a perfect trajectory through the early stages of the tournament.",
+        "For Iraq, the loss proved difficult as they struggled to contain the French attack throughout the 90 minutes. The defeat left them searching for answers as they faced a steep climb in their remaining group fixtures.",
+        "This victory was a crucial step for France, who eventually finished the group stage with a perfect nine points and a commanding plus-eight goal difference. The momentum gained from this result helped propel them into the knockout rounds, where they continued their strong run."
       ],
       "bullets": [
-        "France finished the group stage with a perfect 9-point record.",
-        "Iraq concluded their tournament run with zero points and a -11 goal difference.",
-        "France's victory helped them secure a path to the Round of 16, where they are set to face Paraguay."
+        "France maintained a perfect record in Group I, finishing with three wins from three matches.",
+        "The 3-0 result contributed to a dominant group stage campaign where France outscored opponents 10-2."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:56:20+00:00",
-      "sourceHash": "e9f655636702013b",
+      "updatedAt": "2026-07-04T21:15:16+00:00",
+      "sourceHash": "b9b41b7c0a474530",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -262,20 +260,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "32": {
-      "headline": "Paraguay Edges Turkey in Crucial Group D Battle",
-      "summary": "Final: Turkey 0, Paraguay 1. Paraguay secured a narrow 1-0 victory over Turkey, significantly impacting the Group D standings and keeping their tournament hopes alive.",
+      "headline": "Paraguay Edges Turkey in Group D Battle",
+      "summary": "Final: Turkey 0, Paraguay 1. Paraguay secured a vital 1-0 victory over Turkey in their second Group D match, keeping their knockout stage hopes alive.",
       "story": [
-        "Paraguay claimed a vital three points in their second group match, handing Turkey a difficult 1-0 defeat. This result proved pivotal for the group dynamics, as it kept Paraguay in the hunt for a knockout stage berth while leaving Turkey with significant work to do in their final group fixture.",
-        "The defensive discipline shown by Paraguay was the difference in this encounter, as they managed to shut out a Turkish side that struggled to find the back of the net. By securing the win, Paraguay maintained their competitive standing against Australia and the United States in a tightly contested group.",
-        "Following this match, Turkey eventually finished their group campaign with a 3-2 win over the United States, but their early loss to Paraguay ultimately contributed to their exit from the tournament. Paraguay progressed through the group stage, eventually advancing to face Germany in the Round of 32."
+        "Paraguay claimed a narrow 1-0 win against Turkey, a result that proved essential for their progression through the group stage. After an opening loss to the United States, this victory provided the necessary momentum to keep Paraguay competitive in a tight Group D.",
+        "For Turkey, the defeat was a significant setback following their initial loss to Australia. The result left them with zero points after two matches, putting immense pressure on their final group fixture against the United States.",
+        "This match played a pivotal role in the eventual group standings, where Paraguay finished with four points, narrowly edging out Turkey on goal difference and points. The victory allowed Paraguay to advance and eventually challenge for a spot in the later rounds of the tournament."
       ],
       "bullets": [
-        "Paraguay's 1-0 win was essential in keeping them level on points with Australia at the conclusion of the group stage.",
-        "The result left Turkey in a precarious position, ultimately leading to their elimination despite a spirited final match against the United States."
+        "Paraguay's 1-0 win was their only victory in the group stage.",
+        "The result left Turkey at the bottom of the group after two matchdays."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:56:37+00:00",
-      "sourceHash": "edb6cdd3c44dda9f",
+      "updatedAt": "2026-07-04T21:15:24+00:00",
+      "sourceHash": "600d74e4beff88f5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -716,21 +714,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "60": {
-      "headline": "Paraguay and Australia play to scoreless draw in Group D finale",
-      "summary": "Paraguay and Australia finished their Group D campaign with a 0-0 stalemate, leaving both teams to navigate their respective paths to the knockout rounds.",
+      "headline": "Paraguay and Australia play to scoreless draw",
+      "summary": "Paraguay and Australia finished their group stage campaign with a 0-0 draw, leaving both teams level on four points in Group D.",
       "story": [
-        "The match concluded in a 0-0 draw, a result that saw both Paraguay and Australia struggle to break the deadlock. With neither side able to find the back of the net, the points were shared in a tightly contested final group stage fixture.",
-        "For Australia, the point was sufficient to solidify their standing in Group D, finishing with 4 points after three matches. Their campaign included a strong opening win against Turkey and a loss to the United States, ultimately securing them a spot in the Round of 32 where they later faced Egypt.",
-        "Paraguay also finished their group stage with 4 points, though they faced a more difficult path due to goal difference. After an opening defeat to the United States and a bounce-back victory over Turkey, the draw against Australia was enough to keep their tournament hopes alive, leading them into a Round of 32 matchup against Germany.",
-        "The result capped off a competitive Group D where margins were thin. With the group stage now in the rearview mirror, both nations shifted their focus to the knockout bracket, carrying the lessons from these three matches into their subsequent elimination games."
+        "The stalemate in the final matchday of Group D saw Paraguay and Australia unable to break the deadlock. With neither side finding the back of the net, the result confirmed a tight finish at the top of the group standings.",
+        "For Australia, the point was enough to secure second place in Group D, finishing with four points and an even goal difference. Their campaign included a strong opening win against Turkey and a loss to the United States.",
+        "Paraguay also concluded their group stage with four points, though they finished third due to a lower goal difference. Despite the draw, both teams successfully navigated their group to advance into the knockout rounds.",
+        "Looking ahead, Australia moved on to face Egypt in the Round of 32, while Paraguay advanced to meet Germany in their opening knockout fixture."
       ],
       "bullets": [
-        "Both teams concluded the group stage with 4 points, with Australia holding the edge on goal difference.",
-        "The draw ensured both nations advanced from Group D alongside the United States."
+        "Both teams finished the group stage with identical records of four points from three matches.",
+        "Australia secured second place in Group D, while Paraguay finished third.",
+        "The result kept both teams in contention as they transitioned into the knockout stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:33:38+00:00",
-      "sourceHash": "9acd88d8e090733c",
+      "updatedAt": "2026-07-04T21:15:08+00:00",
+      "sourceHash": "d827f4d95e4325ed",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -739,18 +738,18 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "France Dominates Norway to Sweep Group I",
       "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway to maintain their perfect record and finish at the top of Group I.",
       "story": [
-        "France asserted their dominance in the final match of the group stage, putting four goals past Norway to cement their position as the clear leaders of Group I. The result ensured France finished the group phase with nine points and a commanding plus-eight goal difference, having conceded only twice throughout their three matches.",
-        "For Norway, the defeat marked their first loss of the tournament, following hard-fought victories over Iraq and Senegal. Despite the setback, Norway finished second in the group with six points, successfully navigating their way into the knockout rounds.",
-        "The implications of this result were significant for the bracket, as France carried their momentum into the Round of 32 with a subsequent 3-0 win over Sweden. Norway also advanced, overcoming Ivory Coast 2-1 in their following fixture to set up a challenging Round of 16 meeting with Brazil."
+        "France asserted their dominance in the final matchday of the group stage, comfortably dispatching Norway with a 4-1 scoreline. The result cemented France's position at the summit of Group I, having secured maximum points across all three of their group fixtures.",
+        "For Norway, the defeat was a setback but not a disqualification. Despite the loss, they finished the group stage with 6 points, enough to secure their progression to the knockout rounds. Their campaign was defined by high-scoring affairs, including a tight 3-2 win against Senegal and an opening victory over Iraq.",
+        "Following this result, both teams moved into the knockout phase with momentum. France continued their strong form into the Round of 32 with a win over Sweden, while Norway successfully navigated their own Round of 32 challenge against Ivory Coast."
       ],
       "bullets": [
-        "France finished Group I with a perfect 3-0-0 record and 10 goals scored.",
-        "Norway secured second place in the group despite the loss, finishing with 6 points.",
-        "The victory allowed France to maintain defensive stability, allowing only 2 goals in group play."
+        "France finished the group stage with a perfect 9 points and a tournament-leading 10 goals scored.",
+        "Norway advanced as the group runner-up, finishing with 6 points after their two earlier wins.",
+        "The 4-1 result marked the highest-scoring match for France in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:55:56+00:00",
-      "sourceHash": "ade5c660e1df6c28",
+      "updatedAt": "2026-07-04T21:15:01+00:00",
+      "sourceHash": "8cc42ee0ae8b581b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1121,20 +1120,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "17": {
-      "headline": "France Opens Group I Campaign With Decisive Win Over Senegal",
-      "summary": "France secured an opening 3-1 victory against Senegal, setting the tone for a dominant group stage performance.",
+      "headline": "France Opens Group I Campaign with 3-1 Victory Over Senegal",
+      "summary": "France secured a 3-1 win over Senegal to kick off their Group I journey, setting a dominant tone for the remainder of the group stage.",
       "story": [
-        "France began their World Cup journey with a clinical 3-1 win over Senegal, establishing early control in Group I. The victory provided the foundation for a perfect group stage campaign, during which France ultimately finished with nine points and a commanding +8 goal difference.",
-        "The result had long-term implications for both sides. France utilized the momentum from this opening win to sweep their group and eventually advance through the Round of 32 with a 3-0 victory over Sweden. Senegal's path was more challenging, as they concluded their tournament run following a narrow 3-2 defeat to Belgium in the Round of 32."
+        "France asserted their authority in the opening match of Group I, defeating Senegal 3-1. The victory provided the foundation for a perfect group stage performance, as France went on to win all three of their matches to finish at the top of the table with nine points.",
+        "For Senegal, the result forced them to play catch-up immediately. Despite a strong 5-0 rebound victory against Iraq in their final group match, the early loss to France proved costly in a competitive group that also featured Norway.",
+        "This match ultimately helped define the trajectory of Group I. France's clinical performance against Senegal signaled their intent, while Senegal's path through the tournament eventually concluded in the Round of 32 following a narrow 3-2 defeat to Belgium."
       ],
       "bullets": [
-        "France finished atop Group I with a perfect 3-0-0 record.",
-        "Senegal concluded their tournament run in the Round of 32 after a 3-2 loss to Belgium.",
-        "France advanced to the Round of 16 to face Paraguay."
+        "France finished the group stage with a perfect 9-point record and a +8 goal difference.",
+        "Senegal bounced back from this opening loss with a dominant 5-0 win over Iraq later in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T23:45:32+00:00",
-      "sourceHash": "e0abda1f0ea208a5",
+      "updatedAt": "2026-07-04T21:15:31+00:00",
+      "sourceHash": "0b61e411740c8f4e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1361,21 +1360,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "4": {
       "headline": "United States Dominates Paraguay in Group D Opener",
-      "summary": "The United States opened their campaign with a decisive 4-1 victory over Paraguay, setting the tone for their successful run through the group stage.",
+      "summary": "The United States secured a decisive 4-1 victory over Paraguay to start their Group D campaign on a high note.",
       "story": [
-        "The United States asserted their control over Group D early, overwhelming Paraguay in a 4-1 win that provided a significant boost to their goal difference. This result served as the catalyst for the U.S. campaign, establishing them as the team to beat in the group.",
-        "For Paraguay, the heavy opening loss created immediate pressure. They were forced to grind out results in their remaining group fixtures, eventually securing a narrow win against Turkey and a draw with Australia to keep their tournament hopes alive.",
-        "The U.S. momentum from this match carried them through the group stage with six points, eventually leading to a Round of 32 victory over Bosnia-Herzegovina. Meanwhile, Paraguay's resilience earned them a spot in the knockout rounds, where they faced Germany in the Round of 32.",
-        "Both teams successfully navigated the group phase following this opening encounter, with the United States moving on to a Round of 16 clash against Belgium and Paraguay preparing for a meeting with France."
+        "The United States opened their tournament with a commanding 4-1 win against Paraguay, setting an early tone for their group stage run. This result immediately established the U.S. as a force in Group D, providing them with a crucial three-point cushion.",
+        "For Paraguay, the heavy defeat in the opening match forced an uphill climb for the remainder of the group stage. While they eventually stabilized, this initial loss significantly impacted their goal difference and put pressure on their subsequent fixtures against Turkey and Australia.",
+        "This victory served as the foundation for the United States to eventually top Group D. Their strong offensive performance in this match contributed to a group-leading 8 goals scored, which proved vital as they navigated through the knockout rounds.",
+        "Both teams followed very different paths after this match. The U.S. successfully advanced through the Round of 32 and into the Round of 16, while Paraguay also managed to navigate their way through the knockout bracket, demonstrating resilience after their difficult start."
       ],
       "bullets": [
-        "The 4-1 scoreline provided the United States with a critical goal difference advantage that helped secure their top spot in Group D.",
-        "Following this match, the U.S. went on to win two more group games before defeating Bosnia-Herzegovina in the Round of 32.",
-        "Paraguay recovered from the opening defeat to finish with four points, eventually advancing to the knockout stage."
+        "The United States finished the group stage at the top of Group D with 6 points.",
+        "Paraguay's 4-1 loss served as their only defeat in the group stage, as they later drew with Australia and defeated Turkey.",
+        "The match was part of a competitive Group D that saw the U.S. and Australia ultimately advance."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T06:12:36+00:00",
-      "sourceHash": "072d5f13f0771e43",
+      "updatedAt": "2026-07-04T21:15:39+00:00",
+      "sourceHash": "4666b4121891546f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1442,23 +1441,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "74": {
-      "headline": "Germany and Paraguay Deadlocked in Round of 32",
-      "summary": "Germany and Paraguay played to a 1-1 draw in their Round of 32 knockout match.",
+      "headline": "Germany and Paraguay deadlock in Round of 32",
+      "summary": "Germany and Paraguay played to a 1-1 draw in a tightly contested Round of 32 match.",
       "story": [
-        "Germany entered the Round of 32 as winners of Group E, but they found themselves unable to break through against a resilient Paraguay side in a tightly contested match that ended 1-1.",
-        "Paraguay, who advanced as one of the best third-place teams from the group stage, managed to hold firm against the German attack. This result forces both teams into the high-pressure environment of a knockout fixture where every moment carries significant weight.",
-        "For Germany, the draw marks a departure from their high-scoring group stage form, where they opened with a dominant 7-1 victory over Curacao. Paraguay continues to show defensive grit, having kept a clean sheet in their previous group match against Australia."
+        "Germany entered the knockout stage as the winners of Group E, looking to regain momentum after a narrow loss to Ecuador in their final group fixture. Paraguay, meanwhile, navigated their way into the bracket as one of the best third-placed teams after a challenging group stage campaign.",
+        "For Paraguay, the result was a testament to their resilience, having previously secured a clean sheet against Australia in their final group match. Their ability to hold a powerhouse like Germany demonstrates the competitive nature of this year's field."
       ],
       "bullets": [
-        "The match finished 1-1, requiring a resolution to determine who advances further in the tournament.",
-        "Germany arrived here after topping Group E, while Paraguay qualified as a best third-place finisher."
+        "Germany and Paraguay finished level at 1-1, forcing a tense conclusion to their Round of 32 encounter.",
+        "Germany advanced to this stage by topping Group E, while Paraguay qualified as one of the best third-placed teams."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T08:02:48+00:00",
-      "sourceHash": "ae2c29e9a863c3b9",
+      "updatedAt": "2026-07-04T21:14:52+00:00",
+      "sourceHash": "48fa31e26126b59d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "76": {
       "headline": "Brazil Edges Past Japan in Round of 32 Thriller",
@@ -1538,24 +1536,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "77": {
-      "headline": "France Cruises Past Sweden to Reach Round of 16",
-      "summary": "France secured a dominant 3-0 victory over Sweden to advance in the knockout stage.",
+      "headline": "France Dominates Sweden to Advance to Round of 16",
+      "summary": "France secured a convincing 3-0 victory over Sweden in the Round of 32 to continue their unbeaten run in the tournament.",
       "story": [
-        "France continued their impressive tournament form by dispatching Sweden with a clean 3-0 result. Coming into the match as the winners of Group I, the French side maintained their momentum, having scored 13 goals across their four matches so far in the tournament.",
-        "For Sweden, the loss brings an end to their campaign. After a strong start to the tournament with a 5-1 win over Tunisia, they struggled to find consistency against top-tier opposition, ultimately bowing out in the Round of 32.",
-        "With this victory, France moves forward to the Round of 16. They are now set to face Paraguay on July 4, as they continue their pursuit of the title."
+        "France maintained their clinical form in this knockout fixture, dispatching Sweden with a clean 3-0 scoreline. Having dominated Group I with a perfect record, France demonstrated why they are considered a major threat, showing both defensive discipline and offensive efficiency throughout the match.",
+        "For Sweden, the loss brings an end to their tournament campaign. After navigating a challenging group stage that included a high-scoring win against Tunisia and a difficult defeat to the Netherlands, they were unable to overcome the pressure of the knockout round against a disciplined French side.",
+        "This victory propelled France into the Round of 16, where they were set to face Paraguay. The win reinforced France's status as a top contender, as they continued to build on the momentum generated during their group stage performances against Senegal, Iraq, and Norway."
       ],
       "bullets": [
-        "France maintained a perfect defensive record in this match, keeping Sweden scoreless while netting three of their own.",
-        "France has now scored 13 total goals in their four tournament matches.",
-        "France advances to play Paraguay in the next round on July 4."
+        "France remained undefeated in the tournament, scoring 13 goals across their group stage and Round of 32 matches.",
+        "Sweden concluded their tournament run after advancing as one of the best third-place teams from the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T08:02:41+00:00",
-      "sourceHash": "4cdae272277d5cbc",
+      "updatedAt": "2026-07-04T21:14:45+00:00",
+      "sourceHash": "71f9c479a208f74d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "79": {
       "headline": "Mexico Advances to Round of 16 After Shutout Win",
@@ -1775,6 +1772,26 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "90": {
+      "headline": "Paraguay and France Battle to Scoreless Stalemate",
+      "summary": "Paraguay and France played to a 0-0 draw in their Round of 16 encounter.",
+      "story": [
+        "The Round of 16 clash between Paraguay and France ended in a tense 0-0 deadlock. Both sides struggled to find a breakthrough during regulation, resulting in a defensive stalemate that left the match outcome unresolved at the final whistle.",
+        "Paraguay entered this knockout fixture following a hard-fought 1-1 draw against Germany in the Round of 32. Their path to this stage was defined by defensive resilience, having previously navigated a group stage that included a win over Turkey and a scoreless draw against Australia.",
+        "France arrived at this match with significant momentum, having dominated Sweden 3-0 in their previous knockout round. Their group stage performance was equally impressive, featuring convincing victories over Senegal, Iraq, and Norway, which made this scoreless result a notable departure from their high-scoring form."
+      ],
+      "bullets": [
+        "The match concluded with a 0-0 scoreline after both teams failed to convert their chances.",
+        "France had previously maintained a potent attack throughout the tournament, scoring three or more goals in all four of their prior matches.",
+        "Paraguay continued their trend of low-scoring, defensive-minded affairs in the knockout stages."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-04T21:15:47+00:00",
+      "sourceHash": "7a87758e8e279231",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

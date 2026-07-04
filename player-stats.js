@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-04T20:00:16+00:00",
+  "generatedAt": "2026-07-04T21:11:20+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -33,7 +33,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 2,
       "points": 8,
       "matches": 5,
-      "minutes": 378,
+      "minutes": 384,
       "goalsPer90": 1.4,
       "pointsPer90": 1.9
     },
@@ -72,9 +72,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 2,
       "points": 6,
       "matches": 5,
-      "minutes": 304,
+      "minutes": 310,
       "goalsPer90": 1.2,
-      "pointsPer90": 1.8
+      "pointsPer90": 1.7
     },
     {
       "rank": 6,
@@ -345,9 +345,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 3,
       "matches": 5,
-      "minutes": 234,
+      "minutes": 239,
       "goalsPer90": 0.8,
-      "pointsPer90": 1.2
+      "pointsPer90": 1.1
     },
     {
       "rank": 27,
@@ -683,7 +683,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 2,
       "points": 3,
       "matches": 5,
-      "minutes": 368,
+      "minutes": 374,
       "goalsPer90": 0.2,
       "pointsPer90": 0.7
     },
@@ -930,7 +930,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 2,
       "matches": 5,
-      "minutes": 332,
+      "minutes": 337,
       "goalsPer90": 0.3,
       "pointsPer90": 0.5
     },

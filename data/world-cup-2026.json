@@ -2961,14 +2961,16 @@
       "time": "17:00",
       "home": "Paraguay",
       "away": "France",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "philadelphia",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760503",
       "homeSource": "Winner Match 74",
-      "awaySource": "Winner Match 77"
+      "awaySource": "Winner Match 77",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 91,
@@ -3358,6 +3360,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-04T20:00:16+00:00",
+  "bracketUpdatedAt": "2026-07-04T21:11:20+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
