@@ -2928,14 +2928,16 @@
       "time": "13:00",
       "home": "Canada",
       "away": "Morocco",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "houston",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760502",
       "homeSource": "Winner Match 73",
-      "awaySource": "Winner Match 75"
+      "awaySource": "Winner Match 75",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 90,
@@ -3341,6 +3343,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-04T05:01:19+00:00",
+  "bracketUpdatedAt": "2026-07-04T17:49:40+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }

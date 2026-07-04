@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T16:44:58+00:00",
+  "generatedAt": "2026-07-04T17:49:40+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -221,19 +221,6 @@
     },
     {
       "rank": 17,
-      "player": "Jonathan David",
-      "team": "Canada",
-      "position": "FW",
-      "goals": 3,
-      "assists": 0,
-      "points": 3,
-      "matches": 5,
-      "minutes": 371,
-      "goalsPer90": 0.7,
-      "pointsPer90": 0.7
-    },
-    {
-      "rank": 18,
       "player": "Cristiano Ronaldo",
       "team": "Portugal",
       "position": "FW",
@@ -246,7 +233,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 19,
+      "rank": 18,
       "player": "Kai Havertz",
       "team": "Germany",
       "position": "FW",
@@ -259,20 +246,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 20,
-      "player": "Ismael Saibari",
-      "team": "Morocco",
-      "position": "FW",
-      "goals": 3,
-      "assists": 0,
-      "points": 3,
-      "matches": 5,
-      "minutes": 390,
-      "goalsPer90": 0.7,
-      "pointsPer90": 0.7
-    },
-    {
-      "rank": 21,
+      "rank": 19,
       "player": "Yoane Wissa",
       "team": "DR Congo",
       "position": "FW",
@@ -283,6 +257,32 @@
       "minutes": 410,
       "goalsPer90": 0.7,
       "pointsPer90": 0.7
+    },
+    {
+      "rank": 20,
+      "player": "Ismael Saibari",
+      "team": "Morocco",
+      "position": "FW",
+      "goals": 3,
+      "assists": 0,
+      "points": 3,
+      "matches": 5,
+      "minutes": 411,
+      "goalsPer90": 0.7,
+      "pointsPer90": 0.7
+    },
+    {
+      "rank": 21,
+      "player": "Jonathan David",
+      "team": "Canada",
+      "position": "FW",
+      "goals": 3,
+      "assists": 0,
+      "points": 3,
+      "matches": 5,
+      "minutes": 418,
+      "goalsPer90": 0.6,
+      "pointsPer90": 0.6
     },
     {
       "rank": 22,
@@ -722,9 +722,9 @@
       "assists": 1,
       "points": 2,
       "matches": 5,
-      "minutes": 96,
-      "goalsPer90": 0.9,
-      "pointsPer90": 1.9
+      "minutes": 122,
+      "goalsPer90": 0.7,
+      "pointsPer90": 1.5
     },
     {
       "rank": 56,
@@ -982,7 +982,7 @@
       "assists": 1,
       "points": 2,
       "matches": 5,
-      "minutes": 443,
+      "minutes": 490,
       "goalsPer90": 0.2,
       "pointsPer90": 0.4
     },
@@ -1924,32 +1924,6 @@
     },
     {
       "rank": 133,
-      "player": "Antunes Stephen Eustaquio",
-      "team": "Canada",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 5,
-      "minutes": 339,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.3
-    },
-    {
-      "rank": 134,
-      "player": "Issa Diop",
-      "team": "Morocco",
-      "position": "DEF",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 5,
-      "minutes": 340,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.3
-    },
-    {
-      "rank": 135,
       "player": "Martin Baturina",
       "team": "Croatia",
       "position": "MID",
@@ -1962,7 +1936,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 136,
+      "rank": 134,
       "player": "Joao Neves",
       "team": "Portugal",
       "position": "MID",
@@ -1975,7 +1949,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 137,
+      "rank": 135,
       "player": "Connor Metcalfe",
       "team": "Australia",
       "position": "FW",
@@ -1988,7 +1962,7 @@
       "pointsPer90": 0.3
     },
     {
-      "rank": 138,
+      "rank": 136,
       "player": "Leroy Sane",
       "team": "Germany",
       "position": "MID",
@@ -2001,7 +1975,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 139,
+      "rank": 137,
       "player": "Rafik Belghali",
       "team": "Algeria",
       "position": "DEF",
@@ -2014,7 +1988,20 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 140,
+      "rank": 138,
+      "player": "Antunes Stephen Eustaquio",
+      "team": "Canada",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 5,
+      "minutes": 386,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 138,
       "player": "Alexandre Nuno Mendes",
       "team": "Portugal",
       "position": "DEF",
@@ -2027,7 +2014,20 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 141,
+      "rank": 139,
+      "player": "Issa Diop",
+      "team": "Morocco",
+      "position": "DEF",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 5,
+      "minutes": 387,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 140,
       "player": "Franck Kessie",
       "team": "Ivory Coast",
       "position": "MID",
@@ -2040,7 +2040,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 141,
+      "rank": 140,
       "player": "Kevin Lenini",
       "team": "Cape Verde",
       "position": "MID",
@@ -2053,7 +2053,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 142,
+      "rank": 141,
       "player": "Granit Xhaka",
       "team": "Switzerland",
       "position": "MID",
@@ -2066,7 +2066,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 143,
+      "rank": 142,
       "player": "Gonzalo Plata",
       "team": "Ecuador",
       "position": "FW",
@@ -2079,7 +2079,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 144,
+      "rank": 143,
       "player": "Marcel Sabitzer",
       "team": "Austria",
       "position": "MID",
@@ -2092,7 +2092,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 145,
+      "rank": 144,
       "player": "Jan Paul van Hecke",
       "team": "Netherlands",
       "position": "DEF",
