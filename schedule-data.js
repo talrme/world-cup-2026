@@ -2798,8 +2798,8 @@ window.WORLD_CUP_DATA = {
       "videos": {
         "extended": {
           "searchUrl": "https://www.youtube.com/@foxsports/videos",
-          "lastCheckedAt": "2026-07-03T08:29:08+00:00",
-          "title": "Switzerland vs Algeria Extended Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "lastCheckedAt": "2026-07-04T16:45:43+00:00",
+          "title": "Switzerland vs Algeria Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
           "url": "https://www.youtube.com/watch?v=bSZEbYXssBI",
           "channel": "FOX Sports",
           "durationText": "11 min",
@@ -2807,7 +2807,7 @@ window.WORLD_CUP_DATA = {
           "spoilerSafeTitle": true,
           "source": "foxsports-channel"
         },
-        "lastCheckedAt": "2026-07-04T05:02:23+00:00",
+        "lastCheckedAt": "2026-07-04T16:45:43+00:00",
         "short": {
           "searchUrl": "https://www.youtube.com/@foxsports/videos",
           "lastCheckedAt": "2026-07-04T05:02:23+00:00",
