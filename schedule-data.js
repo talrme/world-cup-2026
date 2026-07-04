@@ -2928,7 +2928,7 @@ window.WORLD_CUP_DATA = {
       "time": "13:00",
       "home": "Canada",
       "away": "Morocco",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "houston",
       "offset": "-04:00",
@@ -2937,7 +2937,21 @@ window.WORLD_CUP_DATA = {
       "homeSource": "Winner Match 73",
       "awaySource": "Winner Match 75",
       "homeScore": 0,
-      "awayScore": 1
+      "awayScore": 3,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-04T20:02:47+00:00",
+          "title": "Canada vs Morocco Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 16",
+          "url": "https://www.youtube.com/watch?v=QLFucR6SGr4",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-04T20:02:47+00:00"
+      }
     },
     {
       "id": 90,
@@ -3065,13 +3079,14 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-09",
       "time": "16:00",
       "home": "Winner Match 89",
-      "away": "Winner Match 90",
+      "away": "Morocco",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "boston",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760510"
+      "espnEventId": "760510",
+      "awaySource": "Winner Match 90"
     },
     {
       "id": 98,
@@ -3343,6 +3358,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-04T18:46:16+00:00",
+  "bracketUpdatedAt": "2026-07-04T20:00:16+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
