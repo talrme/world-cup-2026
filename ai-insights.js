@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-04T21:15:47+00:00",
+  "generatedAt": "2026-07-04T22:18:19+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1556,39 +1556,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "79": {
       "headline": "Mexico Advances to Round of 16 After Shutout Win",
-      "summary": "Mexico secured a 2-0 victory over Ecuador in the Round of 32 to move forward in the tournament.",
+      "summary": "Mexico secured their spot in the next round with a decisive 2-0 victory over Ecuador.",
       "story": [
-        "Mexico continued their strong form in the tournament by dispatching Ecuador 2-0, successfully navigating the first hurdle of the knockout stage. Having topped Group A with an impressive record that included a 3-0 win over Czechia, Mexico maintained their defensive discipline to keep a clean sheet against the Ecuadorian side.",
-        "For Ecuador, the loss marks the end of their campaign after a rollercoaster group stage. They showed resilience by defeating Germany 2-1 in their final group match to earn their spot in the Round of 32, but they were unable to replicate that offensive success against a disciplined Mexican defense.",
-        "With this result, Mexico punches their ticket to the Round of 16. They are now set to face England in their next match, a high-stakes encounter that will test their momentum as they progress deeper into the bracket."
+        "Mexico continued their strong tournament form by dispatching Ecuador 2-0 in the Round of 32. Having dominated Group A with three clean sheets, the hosts maintained their defensive discipline to keep Ecuador off the scoreboard throughout the match.",
+        "The victory marks a continuation of a perfect defensive run for Mexico, who have yet to concede a goal in the tournament. After finishing top of their group, they entered this knockout fixture as the favorites and successfully navigated the pressure of the home crowd.",
+        "For Ecuador, the loss ends their tournament run after they had shown resilience by defeating Germany in their final group stage match to reach this stage. Despite that momentum, they were unable to break through the Mexican backline.",
+        "With this result, Mexico now looks ahead to a high-stakes Round of 16 matchup against England. The hosts will aim to carry their defensive consistency into that encounter as they continue their pursuit of the title."
       ],
       "bullets": [
-        "Mexico remains undefeated in the tournament, having conceded zero goals in their four matches played so far.",
-        "Ecuador exits the competition following a hard-fought Round of 32 appearance.",
-        "Mexico advances to face England in the Round of 16."
+        "Mexico maintained their perfect defensive record, having not conceded a single goal in four tournament matches.",
+        "The win sets up a Round of 16 showdown between Mexico and England."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T21:25:15+00:00",
+      "updatedAt": "2026-07-04T22:18:19+00:00",
       "sourceHash": "049b4bc71b79c207",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "80": {
-      "headline": "England survive Congo DR test to reach Round of 16",
-      "summary": "England secured a narrow 2-1 victory over Congo DR to advance in the knockout stage.",
+      "headline": "England Edges Past Congo DR to Advance",
+      "summary": "England secured a narrow 2-1 victory over Congo DR in the Round of 32, moving them into the next stage of the tournament.",
       "story": [
-        "England moved past a resilient Congo DR side with a 2-1 win in the Round of 32, successfully navigating their first knockout fixture of the tournament. The result keeps England's campaign alive after a productive group stage run where they topped Group L.",
-        "Having entered the knockout phase as the winners of Group L, England faced a Congo DR team that qualified as one of the best third-placed finishers. The narrow margin reflects the high stakes of the knockout round, where England was forced to grind out a result to ensure their progression.",
-        "With this win secured, England now looks ahead to a Round of 16 matchup against Mexico. That fixture is scheduled for July 5, as England continues their pursuit of the title in the next stage of the bracket."
+        "England successfully navigated a challenging Round of 32 encounter against Congo DR, clinching a 2-1 win to keep their tournament hopes alive. After emerging as the winners of Group L, England entered this knockout fixture with momentum, having remained unbeaten through their group stage matches against Croatia, Ghana, and Panama.",
+        "The match proved to be a tight affair, but England's ability to capitalize on their opportunities ultimately made the difference. By overcoming this hurdle, the squad has now solidified their spot in the Round of 16.",
+        "Looking ahead, the path does not get any easier for England. They are now set to face Mexico on July 5, a match that promises to be a significant test as the competition intensifies in the knockout bracket."
       ],
       "bullets": [
-        "England advanced to the Round of 16 following their 2-1 win over Congo DR.",
-        "England will face Mexico in the next round on July 5.",
-        "England maintained their momentum after finishing at the top of Group L."
+        "England maintained their unbeaten tournament run with a 2-1 result.",
+        "The victory sets up a Round of 16 showdown against Mexico on July 5.",
+        "England arrived at this stage after finishing at the top of Group L."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T21:25:07+00:00",
+      "updatedAt": "2026-07-04T22:18:11+00:00",
       "sourceHash": "35fa9009ef9f00d7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1777,17 +1777,16 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Paraguay and France Battle to Scoreless Stalemate",
       "summary": "Paraguay and France played to a 0-0 draw in their Round of 16 encounter.",
       "story": [
-        "The Round of 16 clash between Paraguay and France ended in a tense 0-0 deadlock. Both sides struggled to find a breakthrough during regulation, resulting in a defensive stalemate that left the match outcome unresolved at the final whistle.",
-        "Paraguay entered this knockout fixture following a hard-fought 1-1 draw against Germany in the Round of 32. Their path to this stage was defined by defensive resilience, having previously navigated a group stage that included a win over Turkey and a scoreless draw against Australia.",
-        "France arrived at this match with significant momentum, having dominated Sweden 3-0 in their previous knockout round. Their group stage performance was equally impressive, featuring convincing victories over Senegal, Iraq, and Norway, which made this scoreless result a notable departure from their high-scoring form."
+        "Paraguay reached this round after a resilient performance against Germany in the Round of 32, which also ended in a 1-1 draw. Their path through the group stage was defined by low-scoring, disciplined affairs, including a clean sheet against Australia and a narrow win over Turkey.",
+        "France entered this match with significant momentum after a dominant 3-0 victory over Sweden in the previous round. Having navigated their group stage with convincing wins over Senegal, Iraq, and Norway, they were unable to replicate that offensive efficiency against a stubborn Paraguayan defense."
       ],
       "bullets": [
-        "The match concluded with a 0-0 scoreline after both teams failed to convert their chances.",
-        "France had previously maintained a potent attack throughout the tournament, scoring three or more goals in all four of their prior matches.",
-        "Paraguay continued their trend of low-scoring, defensive-minded affairs in the knockout stages."
+        "The match finished 0-0, marking a defensive stalemate between the two sides.",
+        "Paraguay continued their trend of tight knockout results following their 1-1 draw against Germany in the previous round.",
+        "France faced their first scoreless outing of the tournament after scoring 13 goals across their four previous matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T21:15:47+00:00",
+      "updatedAt": "2026-07-04T22:18:03+00:00",
       "sourceHash": "7a87758e8e279231",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
