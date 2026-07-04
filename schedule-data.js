@@ -2807,7 +2807,18 @@ window.WORLD_CUP_DATA = {
           "spoilerSafeTitle": true,
           "source": "foxsports-channel"
         },
-        "lastCheckedAt": "2026-07-03T08:29:08+00:00"
+        "lastCheckedAt": "2026-07-04T05:02:23+00:00",
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-04T05:02:23+00:00",
+          "title": "Switzerland vs Algeria Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=bSZEbYXssBI",
+          "channel": "FOX Sports",
+          "durationText": "11 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        }
       }
     },
     {
@@ -2851,14 +2862,30 @@ window.WORLD_CUP_DATA = {
       "time": "21:30",
       "home": "Colombia",
       "away": "Ghana",
-      "status": "scheduled",
+      "status": "completed",
       "network": "TBD",
       "venueId": "kansas-city",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760501",
       "awaySource": "Best 3rd Group D/E/I/J/L",
-      "homeSource": "Winner Group K"
+      "homeSource": "Winner Group K",
+      "homeScore": 1,
+      "awayScore": 0,
+      "videos": {
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-04T05:03:10+00:00",
+          "title": "Colombia vs Ghana Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 32",
+          "url": "https://www.youtube.com/watch?v=9TJRhuQOJuE",
+          "channel": "FOX Sports",
+          "durationText": "15 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-04T05:03:10+00:00"
+      }
     },
     {
       "id": 88,
@@ -3019,14 +3046,15 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-07",
       "time": "16:00",
       "home": "Switzerland",
-      "away": "Winner Match 87",
+      "away": "Colombia",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "vancouver",
       "offset": "-04:00",
       "timezoneLabel": "ET",
       "espnEventId": "760508",
-      "homeSource": "Winner Match 85"
+      "homeSource": "Winner Match 85",
+      "awaySource": "Winner Match 87"
     },
     {
       "id": 97,
@@ -3313,6 +3341,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-04T01:21:44+00:00",
+  "bracketUpdatedAt": "2026-07-04T05:01:19+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

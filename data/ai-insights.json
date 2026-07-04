@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T01:24:49+00:00",
+  "generatedAt": "2026-07-04T05:06:27+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -184,21 +184,20 @@
     },
     "44": {
       "headline": "Algeria Secures Vital Win Over Jordan",
-      "summary": "Final: Jordan 1, Algeria 2. Algeria claimed a 2-1 victory over Jordan in their second Group J match, keeping their knockout stage hopes alive.",
+      "summary": "Final: Jordan 1, Algeria 2. Algeria defeated Jordan 2-1 in their second group stage match, keeping their tournament hopes alive.",
       "story": [
-        "Algeria's 2-1 win over Jordan provided the team with a crucial three points after their opening loss to Argentina. This result proved essential for their progression, as it allowed them to stay competitive in a difficult group alongside Austria and Argentina.",
-        "For Jordan, the defeat marked a difficult start to the tournament, leaving them without points after two matches. Despite their efforts, they struggled to contain the Algerian attack throughout the game.",
-        "The outcome of this match played a significant role in the final Group J standings. Algeria ultimately finished with four points, level with Austria, which was enough to see them advance to the Round of 32 as one of the best third-placed teams.",
-        "Following this victory, Algeria eventually faced Switzerland in the knockout stage, where their journey concluded with a 2-0 loss."
+        "Algeria claimed a hard-fought 2-1 victory against Jordan, a result that proved essential for their progression through Group J. After falling to Argentina in their opening match, this win provided the necessary momentum to stay competitive in a challenging group.",
+        "For Jordan, the loss marked a difficult second outing following their initial defeat to Austria. Despite their efforts to find an equalizer, they were unable to overcome the deficit, ultimately finishing the group stage without a point.",
+        "The three points earned here were instrumental for Algeria, as they went on to draw with Austria in their final group match. This performance helped them secure a spot in the Round of 32 as one of the best third-placed teams, though they were eventually eliminated by Switzerland."
       ],
       "bullets": [
-        "Algeria finished Group J with 4 points, securing a spot in the Round of 32.",
-        "Jordan concluded the group stage without a point, finishing at the bottom of the table.",
-        "The win over Jordan was the only victory for Algeria in the group stage."
+        "Algeria's 2-1 win was their only victory in the group stage.",
+        "Jordan concluded their tournament campaign with three losses.",
+        "The result kept Algeria in contention for a knockout stage berth until their eventual exit in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T08:29:36+00:00",
-      "sourceHash": "017ca11676d039f4",
+      "updatedAt": "2026-07-04T05:05:21+00:00",
+      "sourceHash": "d0d0c41136f665d3",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -382,21 +381,20 @@
     },
     "26": {
       "headline": "Switzerland Dominates Bosnia and Herzegovina in Group B",
-      "summary": "Switzerland secured a decisive 4-1 victory over Bosnia and Herzegovina, significantly boosting their position in Group B.",
+      "summary": "Switzerland secured a decisive 4-1 victory over Bosnia and Herzegovina, effectively taking control of Group B.",
       "story": [
-        "Switzerland delivered a clinical performance to dismantle Bosnia and Herzegovina, effectively taking control of their destiny in Group B. The 4-1 result provided the Swiss with a vital cushion after their opening draw against Qatar.",
-        "For Bosnia and Herzegovina, the loss proved to be a difficult hurdle in their group campaign. Despite their efforts, they struggled to contain the Swiss attack throughout the match.",
-        "This win served as a springboard for Switzerland, who ultimately finished at the top of Group B with seven points. Their momentum carried them through the group stage, eventually leading to a successful Round of 32 victory over Algeria.",
-        "Bosnia and Herzegovina finished their group run with four points, trailing Switzerland and Canada. While they managed a win in their final group match against Qatar, the result against Switzerland ultimately defined their standing in the group."
+        "Switzerland delivered a clinical performance to dismantle Bosnia and Herzegovina, turning a tight group race into a statement win. By putting four goals past their opponents, the Swiss side demonstrated the offensive efficiency that would eventually help them secure the top spot in Group B.",
+        "For Bosnia and Herzegovina, the result was a significant setback that left them chasing points for the remainder of the group stage. While they managed to bounce back with a win against Qatar in their final match, the heavy loss to Switzerland proved difficult to overcome in the final standings.",
+        "This match served as a pivotal moment for Switzerland's tournament trajectory. Following the draw in their opening game against Qatar, this victory provided the momentum needed to eventually defeat Canada and advance through the knockout rounds."
       ],
       "bullets": [
-        "Switzerland finished top of Group B with an unbeaten record of two wins and one draw.",
-        "The 4-1 margin was the largest victory for Switzerland in the group stage.",
-        "Bosnia and Herzegovina concluded their tournament run with four points from three matches."
+        "Switzerland finished at the top of Group B with 7 points from their three group matches.",
+        "The 4-1 scoreline was the largest margin of defeat for Bosnia and Herzegovina during the group stage.",
+        "Switzerland leveraged this win to build a path that ultimately led them to the Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T08:29:44+00:00",
-      "sourceHash": "789ae6b8d4757b4b",
+      "updatedAt": "2026-07-04T05:05:34+00:00",
+      "sourceHash": "016c7d59f8efeb22",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -441,20 +439,21 @@
       "refreshReason": "source or prompt changed"
     },
     "46": {
-      "headline": "England and Ghana play to scoreless stalemate",
-      "summary": "England and Ghana finished in a 0-0 draw, a result that kept the group standings tight during the second matchday of Group L.",
+      "headline": "England and Ghana deadlock in scoreless draw",
+      "summary": "England and Ghana finished in a 0-0 stalemate during their Group L encounter, leaving both sides to look toward their final group stage fixtures.",
       "story": [
-        "The match between England and Ghana ended in a 0-0 draw, with neither side able to break the deadlock. While both teams pushed for an opening, the defensive efforts on both ends ensured that the points were shared.",
-        "This result played a significant role in the development of Group L. Following the conclusion of the group stage, England finished at the top of the table with 7 points, while Ghana secured 4 points, ultimately finishing third in the group.",
-        "For England, the draw was a brief pause in a successful group campaign that saw them advance to the Round of 32 and eventually defeat Congo DR. Ghana's path proved more challenging, as they moved on to face Colombia in the knockout stages."
+        "The match between England and Ghana ended in a hard-fought 0-0 draw, as neither side could find the breakthrough needed to secure all three points. Both defenses held firm throughout the contest, resulting in a frustrating afternoon for the attacking units of both teams.",
+        "This result played a significant role in the Group L standings, where England eventually finished at the top with 7 points, while Ghana concluded their group campaign with 4 points. The draw forced both teams to maintain focus heading into their final group matches to solidify their positions.",
+        "Following the conclusion of the group stage, England advanced to the knockout rounds, eventually defeating Congo DR in the Round of 32. Ghana's journey continued as well, though they were later eliminated in the Round of 32 by Colombia."
       ],
       "bullets": [
-        "England finished atop Group L with 7 points after three group matches.",
-        "Ghana earned 4 points in the group stage, securing their advancement to the knockout round."
+        "The 0-0 draw was the only match in Group L that did not feature a goal.",
+        "England secured the top spot in Group L with a total of 7 points after three matches.",
+        "Ghana finished third in the group with 4 points, eventually advancing to the knockout stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T18:34:22+00:00",
-      "sourceHash": "b1edb493b74f3fe4",
+      "updatedAt": "2026-07-04T05:05:13+00:00",
+      "sourceHash": "181ec929ab232471",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -480,40 +479,40 @@
       "refreshReason": "source or prompt changed"
     },
     "48": {
-      "headline": "Colombia Edges DR Congo to Secure Group K Lead",
-      "summary": "Colombia defeated DR Congo 1-0 in their second group match, a result that proved pivotal in their eventual path to winning the group.",
+      "headline": "Colombia Edges Past DR Congo in Group K Battle",
+      "summary": "Colombia secured a narrow 1-0 victory over DR Congo, a result that proved pivotal in their path to topping Group K.",
       "story": [
-        "This narrow 1-0 victory for Colombia was the decisive moment in their Group K campaign. By taking all three points against a resilient DR Congo side, Colombia solidified their position at the top of the table, eventually finishing with seven points.",
-        "For DR Congo, the loss forced them into a high-stakes scenario for their final group match against Uzbekistan. While they responded well in that subsequent game with a 3-1 win, the points dropped here ultimately left them in third place in the group standings."
+        "Colombia claimed all three points in this tightly contested Group K encounter, narrowly defeating DR Congo 1-0. The result was a crucial step for Colombia, helping them maintain their momentum through the group stage.",
+        "This victory ultimately helped propel Colombia to the top of Group K with 7 points, allowing them to advance to the knockout stages. Their successful group campaign eventually led to a Round of 32 win over Ghana and a spot in the Round of 16."
       ],
       "bullets": [
-        "The 1-0 win was essential for Colombia to maintain their unbeaten record in Group K.",
-        "DR Congo finished third in the group with four points after their final matchday victory.",
-        "Colombia advanced to the Round of 32 as the winners of Group K."
+        "Colombia finished at the top of Group K with 7 points from three matches.",
+        "The 1-0 result was the only goal conceded by Colombia in their entire three-match group stage performance.",
+        "DR Congo finished the group stage with 4 points, following this loss with a 3-1 victory over Uzbekistan."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:34:41+00:00",
-      "sourceHash": "0608d2c9af907654",
+      "updatedAt": "2026-07-04T05:05:03+00:00",
+      "sourceHash": "b5a1d117b373f2fb",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "49": {
-      "headline": "Switzerland Secures Group B Top Spot with Win Over Canada",
-      "summary": "Switzerland finished their group campaign strong with a 2-1 victory over Canada to claim the top spot in Group B.",
+      "headline": "Switzerland Secures Group B Top Spot",
+      "summary": "Switzerland defeated Canada 2-1 to finish at the top of Group B with seven points.",
       "story": [
-        "Switzerland entered this final group match looking to solidify their position, and they delivered a clinical performance to edge past Canada. The 2-1 result ensured the Swiss finished their group stage unbeaten with seven points, successfully navigating a competitive bracket.",
-        "For Canada, the loss meant finishing second in the group with four points. Despite the defeat, they maintained a strong goal difference of plus-five, a testament to their offensive output earlier in the tournament, particularly during their dominant showing against Qatar.",
-        "Both teams successfully advanced to the knockout stages. Switzerland moved on to defeat Algeria in the Round of 32, while Canada secured a narrow 1-0 victory over South Africa to continue their journey in the tournament.",
-        "With the group stage concluded, Switzerland moved forward to face their next opponent in the Round of 16, while Canada prepared for a high-stakes encounter against Morocco."
+        "Switzerland claimed a narrow 2-1 victory over Canada in their final group stage match, effectively clinching the top spot in Group B. The result ensured Switzerland finished the group phase unbeaten with two wins and a draw.",
+        "For Canada, the loss meant finishing second in the group with four points. Despite the defeat, Canada advanced to the knockout stages, where they later successfully navigated a Round of 32 matchup against South Africa.",
+        "Switzerland leveraged their momentum from this win to carry them through the Round of 32, where they defeated Algeria 2-0. They now look ahead to a Round of 16 encounter against Colombia.",
+        "Canada\u2019s journey continues in the Round of 16 as well, with a scheduled fixture against Morocco following their successful progression from the group."
       ],
       "bullets": [
-        "Switzerland topped Group B with 7 points, while Canada finished as runners-up with 4 points.",
-        "Both nations successfully advanced through the Round of 32."
+        "Switzerland finished Group B undefeated with 7 points, while Canada secured second place with 4 points.",
+        "Both teams successfully advanced out of the group and into the knockout rounds of the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T08:29:27+00:00",
-      "sourceHash": "63a9194123959d22",
+      "updatedAt": "2026-07-04T05:04:55+00:00",
+      "sourceHash": "ebb6068867555fd4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -882,42 +881,41 @@
       "refreshReason": "past 5 days"
     },
     "68": {
-      "headline": "Croatia secures second place in Group L with victory over Ghana",
-      "summary": "Croatia defeated Ghana 2-1 to finalize the Group L standings and move forward in the tournament.",
+      "headline": "Croatia Edges Ghana to Secure Second Place in Group L",
+      "summary": "Croatia defeated Ghana 2-1 in their final group stage match, a result that solidified their position in the standings.",
       "story": [
-        "Croatia finished their group stage campaign on a high note by edging past Ghana in a 2-1 result. The win allowed Croatia to solidify their position in Group L, ending the group stage with 6 points after three matches.",
-        "For Ghana, the loss leaves them with 4 points from their three fixtures. Despite the defeat, Ghana's tournament journey continues as they prepare for a Round of 32 matchup against Colombia.",
-        "Croatia's performance throughout the group stage was defined by resilience, bouncing back from an opening loss to England with consecutive wins against Panama and now Ghana. They move on to face Portugal in the next round.",
-        "The final Group L table sees England leading with 7 points, followed by Croatia with 6, Ghana with 4, and Panama with 0. The group stage concludes with both Croatia and Ghana shifting their focus to the knockout phase."
+        "Croatia claimed a vital 2-1 victory over Ghana, ensuring they finished their group campaign on a high note. The win was essential for Croatia, who entered the match looking to solidify their standing after a mixed start to the tournament.",
+        "For Ghana, the loss marked a frustrating conclusion to a group stage where they had shown resilience, including a notable draw against England. Despite the defeat, Ghana remained competitive throughout the match, though they ultimately could not overcome the Croatian attack.",
+        "The final Group L standings saw England take the top spot with 7 points, followed by Croatia with 6 points. Ghana finished third with 4 points, while Panama rounded out the group.",
+        "Following this result, both teams moved on to the Round of 32. Croatia faced Portugal in their next challenge, while Ghana moved on to play Colombia."
       ],
       "bullets": [
-        "Croatia finished second in Group L with a 2-1-0 record.",
-        "Ghana advances to the Round of 32 to face Colombia.",
-        "Croatia is set to meet Portugal in the Round of 32."
+        "Croatia finished the group stage with 6 points, securing second place behind England.",
+        "The 2-1 result pushed Ghana to 4 points, ending their group play in third place."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:10:53+00:00",
-      "sourceHash": "dca542453ece3772",
+      "updatedAt": "2026-07-04T05:04:45+00:00",
+      "sourceHash": "e05a2c461556ba4d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "69": {
-      "headline": "Colombia and Portugal play to scoreless stalemate",
-      "summary": "Colombia and Portugal finished their Group K campaign with a 0-0 draw, securing Colombia the top spot in the group.",
+      "headline": "Colombia and Portugal Play to Stalemate in Group K Finale",
+      "summary": "Colombia and Portugal finished in a 0-0 draw, securing Colombia the top spot in Group K and sending Portugal through as the runner-up.",
       "story": [
-        "The final group match between Colombia and Portugal ended in a 0-0 draw, a result that ultimately favored Colombia. By securing a point, Colombia finished at the top of Group K with 7 points, maintaining their unbeaten run through the group stage.",
-        "Portugal concluded their group stage in second place with 5 points. Their campaign saw a strong offensive showing earlier in the group, but they were unable to break through against a disciplined Colombian defense in this final fixture.",
-        "With the group stage concluded, both teams moved forward to the knockout rounds. Colombia advanced to face Ghana in the Round of 32, while Portugal moved on to a matchup against Croatia."
+        "The final match of Group K ended in a tactical deadlock as Colombia and Portugal played to a scoreless draw. With both teams already in a strong position to advance, the result ultimately favored Colombia, who finished the group stage with seven points to claim first place.",
+        "Portugal concluded their group campaign with five points, remaining undefeated but settling for second place behind the Colombian side. Despite the lack of goals in this specific fixture, Portugal's earlier 5-0 victory over Uzbekistan ensured they maintained a superior goal difference of +5, even if it wasn't enough to leapfrog Colombia in the final standings.",
+        "Both nations successfully transitioned into the knockout stages following this result. Colombia moved on to face Ghana in the Round of 32, while Portugal prepared for a matchup against Croatia. The draw provided a stable conclusion to a competitive group that also saw DR Congo push for qualification until the final whistle."
       ],
       "bullets": [
-        "Colombia finished first in Group K with 7 points, while Portugal finished second with 5 points.",
-        "Colombia conceded only one goal throughout their three group stage matches.",
-        "Portugal's path continues in the Round of 32 against Croatia, following their second-place finish."
+        "Colombia secured first place in Group K with 7 points.",
+        "Portugal finished as the group runner-up with 5 points.",
+        "Both teams remained undefeated throughout the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T05:10:41+00:00",
-      "sourceHash": "b18fce886c058102",
+      "updatedAt": "2026-07-04T05:04:37+00:00",
+      "sourceHash": "1caddda36a867c6b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -942,21 +940,21 @@
       "refreshReason": "past 5 days"
     },
     "71": {
-      "headline": "Algeria and Austria battle to high-scoring draw",
-      "summary": "Algeria and Austria played to a 3-3 draw in their final Group J match, a result that ultimately locked their positions in the standings.",
+      "headline": "Algeria and Austria Finish in Thrilling 3-3 Draw",
+      "summary": "Algeria and Austria played to a 3-3 draw in their final Group J match, leaving both teams level on four points in the standings.",
       "story": [
-        "The 3-3 stalemate between Algeria and Austria provided a frantic conclusion to Group J. Both sides traded goals in an end-to-end affair that reflected the desperation of teams looking to secure their standing before the knockout phase.",
-        "For Austria, the point was enough to hold onto second place in the group with 4 points, though their goal difference of zero kept them just ahead of Algeria. Algeria finished with 4 points as well, but their -2 goal difference placed them third, forcing them to rely on their standing to advance.",
-        "Both teams eventually moved on to the Round of 32, where their campaigns concluded against strong opposition. Austria faced Spain, while Algeria matched up against Switzerland, marking the end of their respective tournament journeys."
+        "The high-scoring stalemate between Algeria and Austria served as a dramatic conclusion to their group stage campaigns. With both sides eager to secure their standing, the match ended in a deadlock that saw each team walk away with a single point.",
+        "This result left Austria and Algeria tied on four points apiece after three matches. Austria managed to claim second place in Group J based on a superior goal difference of zero, compared to Algeria's -2, which ultimately determined their respective paths into the knockout rounds.",
+        "Following this draw, both teams moved on to the Round of 32. Austria faced Spain in their next outing, while Algeria matched up against Switzerland, marking the end of their group-stage journey in this tournament."
       ],
       "bullets": [
-        "The 3-3 scoreline was the highest-scoring match in Group J.",
-        "Austria secured second place in the group on goal difference over Algeria.",
-        "Both teams finished the group stage with 4 points apiece."
+        "Austria secured second place in Group J due to a better goal difference than Algeria.",
+        "Both teams finished the group stage with identical records of one win, one draw, and one loss.",
+        "The 3-3 result was the highest-scoring match for both teams in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T08:29:20+00:00",
-      "sourceHash": "62fcbe56017886c9",
+      "updatedAt": "2026-07-04T05:04:29+00:00",
+      "sourceHash": "46266b598b6c2754",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -982,22 +980,22 @@
       "refreshReason": "source or prompt changed"
     },
     "24": {
-      "headline": "Colombia Dominates Opener Against Uzbekistan",
-      "summary": "Final: Uzbekistan 1, Colombia 3. Colombia secured a strong start to their campaign with a 3-1 victory over Uzbekistan.",
+      "headline": "Colombia Opens Group K with Decisive Win Over Uzbekistan",
+      "summary": "Final: Uzbekistan 1, Colombia 3. Colombia secured a strong start to their tournament campaign with a 3-1 victory over Uzbekistan.",
       "story": [
-        "Colombia kicked off their Group K journey by asserting control early against Uzbekistan, ultimately securing a 3-1 win. This victory provided the foundation for a successful group stage campaign that saw them finish at the top of the table.",
-        "The result was a critical opening statement for Colombia, who went on to maintain an unbeaten record through their subsequent group matches, including a narrow 1-0 win over DR Congo and a scoreless draw against Portugal.",
-        "For Uzbekistan, the match marked the beginning of a difficult group stage. They were unable to secure a point in their three fixtures, finishing at the bottom of the group after subsequent losses to Portugal and DR Congo.",
-        "With seven points from their three group matches, Colombia advanced to the Round of 32 as the winners of Group K. They are now set to face Ghana in the next stage of the tournament."
+        "Colombia kicked off their Group K journey on the right foot, utilizing a clinical performance to overcome Uzbekistan 3-1. The result provided the necessary momentum for Colombia to navigate a competitive group that also featured Portugal and DR Congo.",
+        "For Uzbekistan, the match proved to be a difficult introduction to the group stage. Despite finding the back of the net, they were unable to contain the Colombian attack, eventually finishing their tournament run without a point after subsequent losses to Portugal and DR Congo.",
+        "The win served as a vital foundation for Colombia, who went on to top Group K with seven points. Their defensive resilience was a hallmark of their group stage performance, conceding only one goal across their three matches.",
+        "Following this opening victory, Colombia continued their successful run into the knockout stages, eventually securing a narrow 1-0 win against Ghana in the Round of 32 to advance to the Round of 16."
       ],
       "bullets": [
-        "Colombia finished at the top of Group K with a record of two wins and one draw.",
-        "The 3-1 opening victory set the tone for a defensive-minded Colombian side that conceded only one goal in the entire group stage.",
-        "Uzbekistan concluded their tournament run with three losses, finishing fourth in the group."
+        "Colombia finished at the top of Group K with an undefeated record of two wins and one draw.",
+        "The 3-1 opening victory helped Colombia maintain a goal difference of +3 throughout the group stage.",
+        "Uzbekistan struggled to find their footing in the tournament, concluding their group campaign with three consecutive defeats."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:37:52+00:00",
-      "sourceHash": "879bb320a1274183",
+      "updatedAt": "2026-07-04T05:05:42+00:00",
+      "sourceHash": "e5620dd7f18ae7a2",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1006,19 +1004,18 @@
       "headline": "Ghana Edges Past Panama in Group L Opener",
       "summary": "Ghana secured a narrow 1-0 victory over Panama to kick off their Group L campaign.",
       "story": [
-        "Ghana claimed all three points in their opening match against Panama, providing them with a vital foundation in a competitive group. The single-goal margin proved decisive in a tight contest where defensive discipline was at a premium.",
-        "For Panama, the result marked a difficult start to the tournament, as they were unable to find the back of the net despite a determined effort. This loss placed immediate pressure on their subsequent fixtures against heavyweights England and Croatia.",
-        "Following this match, Ghana navigated the remainder of the group stage with a draw against England and a loss to Croatia, ultimately finishing with four points. This performance was sufficient to advance them to the Round of 32, where they are set to face Colombia.",
-        "Panama struggled to gain momentum throughout the group phase, finishing at the bottom of the table without a point or a goal scored. Their campaign concluded after three matches, while Ghana moved forward to the knockout stages."
+        "Ghana claimed all three points in their opening match, relying on a disciplined defensive effort to hold off Panama. The solitary goal proved enough to separate the sides in a tightly contested fixture that set the tone for the group stage.",
+        "For Ghana, the win provided a vital foundation in a group featuring heavyweights England and Croatia. While they later drew with England and fell to Croatia, this opening victory was instrumental in helping them finish third in the group with four points.",
+        "Panama struggled to find their rhythm throughout the tournament, finishing at the bottom of the group without scoring a goal. Despite their defensive resilience in this opening match, they were unable to secure a result in their subsequent fixtures."
       ],
       "bullets": [
         "Ghana's 1-0 win was their only victory of the group stage.",
-        "The result helped Ghana finish third in Group L with four points, enough to secure a spot in the Round of 32.",
-        "Panama ended their tournament run at the bottom of the group after failing to score in all three of their matches."
+        "Panama concluded the group stage with zero goals scored and zero points.",
+        "The result helped Ghana secure a spot in the knockout rounds as a third-place qualifier."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:38:00+00:00",
-      "sourceHash": "eff202692dfbc5fe",
+      "updatedAt": "2026-07-04T05:05:55+00:00",
+      "sourceHash": "2d17e940538db8d0",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1085,20 +1082,21 @@
     },
     "19": {
       "headline": "Argentina Dominates Algeria in Group J Opener",
-      "summary": "Argentina secured a decisive 3-0 victory over Algeria to kick off their Group J campaign.",
+      "summary": "Argentina secured a decisive 3-0 victory over Algeria to start their Group J campaign with maximum points.",
       "story": [
-        "Argentina opened their tournament with a commanding 3-0 win against Algeria, setting a strong tone for their group stage performance. The victory provided the foundation for an undefeated run through the group, where they ultimately finished at the top of the table with a perfect 9 points.",
-        "For Algeria, the result was a difficult start to their campaign. Despite the loss, they remained competitive in the group, eventually securing 4 points through a win against Jordan and a high-scoring 3-3 draw with Austria.",
-        "Argentina's momentum from this match carried them deep into the tournament. After sweeping the group stage, they navigated a narrow 3-2 victory against Cabo Verde in the Round of 32 to advance to the Round of 16.",
-        "Algeria's tournament journey concluded in the Round of 32, where they were eliminated following a 2-0 defeat to Switzerland."
+        "Argentina kicked off their tournament with a commanding 3-0 win, signaling their intent early in Group J. By controlling the pace and stifling Algeria's attack, they set a high bar for the rest of the group.",
+        "This result proved vital for Argentina, who ultimately finished the group stage with a perfect nine points. Their defensive solidity was a hallmark of their performance, conceding only one goal across all three group matches.",
+        "For Algeria, the loss forced them to battle through the remainder of the group stage. They eventually secured four points from their subsequent matches against Jordan and Austria, which was enough to see them advance to the Round of 32 as one of the best third-placed teams.",
+        "Following this match, Argentina continued their momentum through the knockout rounds, while Algeria's journey concluded after a hard-fought Round of 32 exit against Switzerland."
       ],
       "bullets": [
-        "Argentina finished Group J in first place with a +7 goal difference.",
-        "Algeria advanced to the knockout stage as a third-place side before falling to Switzerland."
+        "Argentina finished atop Group J with a perfect 3-0-0 record and a +7 goal difference.",
+        "Algeria advanced to the knockout stage despite this opening loss, finishing with four points.",
+        "Argentina's dominance in this match helped them secure a favorable path into the Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T01:24:33+00:00",
-      "sourceHash": "580714adbeb88c44",
+      "updatedAt": "2026-07-04T05:06:03+00:00",
+      "sourceHash": "41cbb7a1b019a5ed",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1345,21 +1343,21 @@
     },
     "5": {
       "headline": "Switzerland and Qatar Open Group B with a Draw",
-      "summary": "Switzerland and Qatar played to a 1-1 draw in their opening match of Group B.",
+      "summary": "Switzerland and Qatar played to a 1-1 draw in their opening match of the tournament.",
       "story": [
-        "The opening match for both sides ended in a stalemate, with Switzerland and Qatar splitting the points in a 1-1 result. This initial draw set the tone for a competitive Group B, where every point proved vital as the tournament progressed.",
-        "For Switzerland, this result was the beginning of a successful group stage campaign. They eventually secured the top spot in the group with 7 points, following subsequent victories over Bosnia and Herzegovina and Canada.",
-        "Qatar struggled to find momentum after this opening performance, ultimately finishing at the bottom of the group standings with 1 point from their three matches. While they were unable to advance, the draw against the eventual group winners remained their only point of the tournament.",
-        "Switzerland's path continued well beyond this match, as they went on to defeat Algeria in the Round of 32 to secure a place in the Round of 16."
+        "The opening match for both sides in Group B ended in a stalemate, with Switzerland and Qatar sharing the points after a 1-1 result. This early draw set a competitive tone for a group that would eventually see Switzerland emerge as the clear leader.",
+        "For Switzerland, this result served as the starting point for a successful group stage campaign. They followed up this opening performance with strong victories against Bosnia and Herzegovina and Canada, ultimately finishing at the top of the group with seven points.",
+        "Qatar faced a more difficult path throughout the remainder of the group stage. Following this draw, they struggled to find their footing in subsequent matches, eventually concluding their tournament run at the bottom of the Group B standings.",
+        "Switzerland's momentum from this group stage carried them into the knockout rounds, where they secured a victory over Algeria in the Round of 32. They now look ahead to a Round of 16 matchup against Colombia."
       ],
       "bullets": [
         "Switzerland finished at the top of Group B with 7 points.",
-        "Qatar concluded their group stage run with 1 point and a -8 goal difference.",
-        "This was the only point earned by Qatar during the group stage."
+        "Qatar concluded their group stage campaign with 1 point from three matches.",
+        "Switzerland successfully advanced through the Round of 32 after topping their group."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T08:29:59+00:00",
-      "sourceHash": "427ba7dc3542422d",
+      "updatedAt": "2026-07-04T05:06:10+00:00",
+      "sourceHash": "305c609c6822928d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1643,20 +1641,20 @@
       "headline": "Spain Cruises Past Austria into Round of 16",
       "summary": "Spain secured a dominant 3-0 victory over Austria in the Round of 32 to advance in the tournament.",
       "story": [
-        "Coming off a solid group stage campaign where they finished as winners of Group H, Spain maintained their defensive discipline and attacking efficiency. By shutting out Austria, they reinforced the defensive stability that saw them concede very few goals throughout their group fixtures.",
-        "For Austria, the defeat marks the end of their tournament journey. Despite showing resilience in their group stage draw against Algeria, they were unable to contain a disciplined Spanish side in this knockout encounter.",
-        "With this win, Spain moves forward to the Round of 16. They are now set to face Portugal in what promises to be a high-stakes matchup as they continue their pursuit of the title."
+        "Spain asserted their authority in the knockout stage, putting together a clinical performance to dismantle Austria. The 3-0 result underscored the form that saw them emerge as the winners of Group H, maintaining their momentum after a successful group stage campaign.",
+        "For Austria, the loss ends their tournament run. Despite battling through a challenging Group J, they were unable to contain the Spanish attack, which has now kept three clean sheets in their last four matches.",
+        "With this victory, Spain moves on to the Round of 16. They are set to face Portugal in what promises to be a high-stakes encounter, as both teams look to continue their progression through the knockout bracket."
       ],
       "bullets": [
-        "Spain advances to the Round of 16 following a clean sheet victory.",
-        "The win sets up a Round of 16 clash against Portugal."
+        "Spain advanced to the Round of 16 with a clean sheet and a three-goal margin.",
+        "Spain will face Portugal in the next round of the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T01:25:44+00:00",
+      "updatedAt": "2026-07-04T05:06:27+00:00",
       "sourceHash": "9fdd7cfbb7f95e5e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "83": {
       "headline": "Portugal Advances Past Croatia in Round of 32",
@@ -1679,22 +1677,21 @@
       "refreshReason": "source or prompt changed"
     },
     "85": {
-      "headline": "Switzerland Advances to Round of 16 After Shutout Win",
-      "summary": "Switzerland secured a 2-0 victory over Algeria in the Round of 32, effectively ending Algeria's tournament run.",
+      "headline": "Switzerland Advances Past Algeria to Reach Round of 16",
+      "summary": "Switzerland secured a 2-0 victory over Algeria in the Round of 32 to continue their unbeaten run in the tournament.",
       "story": [
-        "Switzerland continued their strong form in this tournament by dispatching Algeria 2-0. Having entered the knockout phase as the winners of Group B, the Swiss side maintained their composure and defensive discipline to keep a clean sheet against a challenging opponent.",
-        "For Algeria, the result marks the end of their campaign. After navigating a difficult group stage that included a win against Jordan and a high-scoring draw with Austria, they were unable to find the breakthrough against a resolute Swiss defense.",
-        "The victory propels Switzerland into the Round of 16, where they are scheduled to play the winner of Match 87 on July 7. The Swiss team has remained unbeaten throughout their tournament journey, building momentum with wins over Bosnia and Herzegovina and Canada in the group stage.",
-        "With this win, Switzerland solidifies their status as a team to watch in the knockout bracket. They will now look to carry this defensive solidity and clinical edge into their next fixture as they aim for a deep run in the tournament."
+        "Switzerland maintained their strong form by dispatching Algeria 2-0, proving why they entered this knockout match as the winners of Group B. After a successful group stage campaign that included wins over Bosnia and Herzegovina and Canada, the Swiss side demonstrated the defensive discipline and clinical edge needed to navigate the pressure of a single-elimination fixture.",
+        "For Algeria, the tournament run concludes after a resilient effort throughout the group stage. Having navigated a challenging path as one of the best third-placed finishers, they were unable to break down a Swiss defense that has looked increasingly settled as the competition has progressed.",
+        "With this victory, Switzerland now shifts their focus to the Round of 16. They are set to face Colombia on July 7, a matchup that will test their ability to sustain this momentum against high-caliber knockout opposition."
       ],
       "bullets": [
-        "Switzerland remains undefeated in the tournament, moving to the Round of 16 with a 2-0 win.",
-        "Algeria exits the competition following the Round of 32 loss.",
-        "Switzerland will face the winner of Match 87 on July 7."
+        "Switzerland remains undefeated in the tournament following their 2-0 win.",
+        "The victory sets up a Round of 16 clash between Switzerland and Colombia.",
+        "Switzerland successfully transitioned from their Group B dominance into a clean-sheet victory in the opening knockout round."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T08:29:11+00:00",
-      "sourceHash": "e2d8de04c4b9b3fc",
+      "updatedAt": "2026-07-04T05:04:20+00:00",
+      "sourceHash": "016604e7da23cf42",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1739,6 +1736,27 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "87": {
+      "headline": "Colombia Edges Past Ghana to Reach Round of 16",
+      "summary": "Colombia secured their place in the next round with a hard-fought 1-0 victory over Ghana in their Round of 32 clash.",
+      "story": [
+        "Colombia continued their disciplined run in the tournament by overcoming Ghana in a tightly contested knockout match. The narrow 1-0 win was enough to see them through, maintaining the defensive resilience they displayed throughout the group stage.",
+        "Having topped Group K with an unbeaten record, Colombia proved once again that they are a difficult side to break down. Their ability to manage high-pressure moments was on full display as they successfully neutralized Ghana's efforts to keep their tournament hopes alive.",
+        "For Ghana, the loss concludes a resilient campaign that saw them advance as one of the best third-placed teams. Despite their best efforts to push for an equalizer, they were unable to find a way through the Colombian defense.",
+        "With this victory, Colombia now looks ahead to a Round of 16 matchup against Switzerland. They will carry the momentum of this clean sheet and narrow win into that next challenge as they look to progress further in the bracket."
+      ],
+      "bullets": [
+        "Colombia remains unbeaten in the tournament following this 1-0 knockout victory.",
+        "The win sets up a Round of 16 fixture between Colombia and Switzerland on July 7.",
+        "Ghana's tournament run ends after a competitive performance as a third-placed qualifier."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-04T05:06:19+00:00",
+      "sourceHash": "5cef1bb1076528f0",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "past 5 days"
     }
   },
   "groups": {
