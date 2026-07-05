@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-04T23:26:09+00:00",
+  "generatedAt": "2026-07-05T18:57:42+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -45,7 +45,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 5,
       "assists": 0,
       "points": 5,
-      "matches": 4,
+      "matches": 5,
       "minutes": 310,
       "goalsPer90": 1.5,
       "pointsPer90": 1.5
@@ -97,7 +97,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 4,
       "assists": 1,
       "points": 5,
-      "matches": 4,
+      "matches": 5,
       "minutes": 398,
       "goalsPer90": 0.9,
       "pointsPer90": 1.1
@@ -201,7 +201,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 3,
       "assists": 0,
       "points": 3,
-      "matches": 4,
+      "matches": 5,
       "minutes": 261,
       "goalsPer90": 1.0,
       "pointsPer90": 1.0
@@ -1215,7 +1215,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 99,
       "goalsPer90": 0.9,
       "pointsPer90": 0.9
@@ -1228,7 +1228,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 100,
       "goalsPer90": 0.9,
       "pointsPer90": 0.9
@@ -1306,7 +1306,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 142,
       "goalsPer90": 0.6,
       "pointsPer90": 0.6
@@ -1540,7 +1540,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 241,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
@@ -1891,7 +1891,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 314,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
