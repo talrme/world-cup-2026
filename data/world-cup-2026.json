@@ -2969,7 +2969,7 @@
       "time": "16:00",
       "home": "Brazil",
       "away": "Norway",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
@@ -2981,8 +2981,22 @@
       "bracketAwayTeam": "Norway",
       "homeRevealSource": "Winner Match 76",
       "awayRevealSource": "Winner Match 78",
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-05T22:37:52+00:00",
+          "title": "Brazil vs Norway Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 16",
+          "url": "https://www.youtube.com/watch?v=vpcukTVSD8Q",
+          "channel": "FOX Sports",
+          "durationText": "18 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-05T22:37:52+00:00"
+      }
     },
     {
       "id": 92,
@@ -3131,14 +3145,17 @@
       "round": "Knockout",
       "date": "2026-07-11",
       "time": "17:00",
-      "home": "Winner Match 91",
+      "home": "Norway",
       "away": "Winner Match 92",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "miami",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760512"
+      "espnEventId": "760512",
+      "homeSource": "Winner Match 91",
+      "bracketHomeTeam": "Norway",
+      "homeRevealSource": "Winner Match 91"
     },
     {
       "id": 100,
@@ -3380,6 +3397,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-05T20:20:07+00:00",
+  "bracketUpdatedAt": "2026-07-05T22:35:31+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }

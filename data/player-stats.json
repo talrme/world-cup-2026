@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T21:30:48+00:00",
+  "generatedAt": "2026-07-05T22:35:32+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -42,13 +42,13 @@
       "player": "Erling Braut Haaland",
       "team": "Norway",
       "position": "FW",
-      "goals": 5,
+      "goals": 7,
       "assists": 0,
-      "points": 5,
+      "points": 7,
       "matches": 5,
-      "minutes": 383,
-      "goalsPer90": 1.2,
-      "pointsPer90": 1.2
+      "minutes": 418,
+      "goalsPer90": 1.5,
+      "pointsPer90": 1.5
     },
     {
       "rank": 4,
@@ -111,9 +111,9 @@
       "assists": 1,
       "points": 5,
       "matches": 5,
-      "minutes": 472,
-      "goalsPer90": 0.8,
-      "pointsPer90": 1.0
+      "minutes": 506,
+      "goalsPer90": 0.7,
+      "pointsPer90": 0.9
     },
     {
       "rank": 9,
@@ -1078,6 +1078,19 @@
       "pointsPer90": 1.6
     },
     {
+      "rank": 81,
+      "player": "Junior Neymar",
+      "team": "Brazil",
+      "position": "FW",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 3,
+      "minutes": 56,
+      "goalsPer90": 1.6,
+      "pointsPer90": 1.6
+    },
+    {
       "rank": 82,
       "player": "Matias Goncalo Ramos",
       "team": "Portugal",
@@ -1287,19 +1300,6 @@
     },
     {
       "rank": 98,
-      "player": "Leo Ostigard",
-      "team": "Norway",
-      "position": "DEF",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 5,
-      "minutes": 142,
-      "goalsPer90": 0.6,
-      "pointsPer90": 0.6
-    },
-    {
-      "rank": 99,
       "player": "Hyeon-Gyu Oh",
       "team": "South Korea",
       "position": "FW",
@@ -1312,7 +1312,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 99,
+      "rank": 98,
       "player": "Nico Schlotterbeck",
       "team": "Germany",
       "position": "DEF",
@@ -1321,6 +1321,19 @@
       "points": 1,
       "matches": 2,
       "minutes": 145,
+      "goalsPer90": 0.6,
+      "pointsPer90": 0.6
+    },
+    {
+      "rank": 99,
+      "player": "Leo Ostigard",
+      "team": "Norway",
+      "position": "DEF",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 5,
+      "minutes": 149,
       "goalsPer90": 0.6,
       "pointsPer90": 0.6
     },
@@ -1354,7 +1367,7 @@
       "rank": 102,
       "player": "Gabriel Martinelli",
       "team": "Brazil",
-      "position": "FW",
+      "position": "MID",
       "goals": 1,
       "assists": 0,
       "points": 1,
@@ -2002,19 +2015,6 @@
     },
     {
       "rank": 138,
-      "player": "Carlos Casemiro",
-      "team": "Brazil",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 5,
-      "minutes": 387,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.2
-    },
-    {
-      "rank": 139,
       "player": "Franck Kessie",
       "team": "Ivory Coast",
       "position": "MID",
@@ -2027,7 +2027,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 139,
+      "rank": 138,
       "player": "Kevin Lenini",
       "team": "Cape Verde",
       "position": "MID",
@@ -2040,7 +2040,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 140,
+      "rank": 139,
       "player": "Granit Xhaka",
       "team": "Switzerland",
       "position": "MID",
@@ -2053,7 +2053,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 141,
+      "rank": 140,
       "player": "Gonzalo Plata",
       "team": "Ecuador",
       "position": "FW",
@@ -2066,7 +2066,7 @@
       "pointsPer90": 0.2
     },
     {
-      "rank": 142,
+      "rank": 141,
       "player": "Marcel Sabitzer",
       "team": "Austria",
       "position": "MID",
@@ -2075,6 +2075,19 @@
       "points": 1,
       "matches": 4,
       "minutes": 412,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 142,
+      "player": "Carlos Casemiro",
+      "team": "Brazil",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 5,
+      "minutes": 422,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
     },
