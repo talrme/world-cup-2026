@@ -238,8 +238,85 @@ def competitor_score(competitor: dict[str, Any] | None) -> int | None:
         return None
 
 
+def event_result_team(event: dict[str, Any] | None, want_winner: bool) -> str | None:
+    if not event:
+        return None
+
+    home, away = competitors_for(event)
+    competitors = [(competitor_label(home), home), (competitor_label(away), away)]
+    winner = next(
+        (label for label, competitor in competitors if label and competitor and competitor.get("winner") is True),
+        None,
+    )
+    if winner:
+        if want_winner:
+            return winner
+        return next((label for label, _ in competitors if label and label != winner), None)
+
+    home_score = competitor_score(home)
+    away_score = competitor_score(away)
+    if home_score is None or away_score is None or home_score == away_score:
+        return None
+
+    home_label = competitor_label(home)
+    away_label = competitor_label(away)
+    if not home_label or not away_label:
+        return None
+
+    home_won = home_score > away_score
+    return home_label if home_won == want_winner else away_label
+
+
+def match_result_team(match: dict[str, Any] | None, want_winner: bool) -> str | None:
+    if not match:
+        return None
+
+    home = match.get("home")
+    away = match.get("away")
+    home_score = match.get("homeScore")
+    away_score = match.get("awayScore")
+    if (
+        not home
+        or not away
+        or home_score is None
+        or away_score is None
+        or home_score == away_score
+    ):
+        return None
+
+    home_won = home_score > away_score
+    return home if home_won == want_winner else away
+
+
+def source_result_team(
+    source_label: Any,
+    by_id: dict[int, dict[str, Any]],
+    events_by_match_id: dict[int, dict[str, Any]],
+) -> str | None:
+    match_source = re.match(r"^(Winner|Loser) Match (\d+)$", str(source_label or ""), flags=re.IGNORECASE)
+    if not match_source:
+        return None
+
+    want_winner = match_source.group(1).lower() == "winner"
+    source_match_id = int(match_source.group(2))
+    return event_result_team(events_by_match_id.get(source_match_id), want_winner) or match_result_team(
+        by_id.get(source_match_id),
+        want_winner,
+    )
+
+
 def changed(match: dict[str, Any], key: str, value: Any) -> bool:
     return match.get(key) != value
+
+
+def set_optional(match: dict[str, Any], key: str, value: Any, changes: list[str], label: str) -> None:
+    if value:
+        if changed(match, key, value):
+            match[key] = value
+            changes.append(label)
+    elif key in match:
+        del match[key]
+        changes.append(label)
 
 
 def update_side(match: dict[str, Any], side: str, value: str, changes: list[str]) -> None:
@@ -306,6 +383,36 @@ def update_match_from_event(match: dict[str, Any], event: dict[str, Any]) -> lis
     return changes
 
 
+def update_bracket_slot_metadata(
+    match: dict[str, Any],
+    by_id: dict[int, dict[str, Any]],
+    events_by_match_id: dict[int, dict[str, Any]],
+) -> list[str]:
+    if match.get("stage") == "Group":
+        return []
+
+    changes: list[str] = []
+    for side, label in (("home", "bracket home team"), ("away", "bracket away team")):
+        team = source_result_team(match.get(f"{side}Source"), by_id, events_by_match_id)
+        set_optional(match, f"bracket{side.title()}Team", team, changes, label)
+
+    source_by_team = {
+        normalize_text(team): match.get(f"{side}Source")
+        for side, team in (
+            ("home", match.get("bracketHomeTeam")),
+            ("away", match.get("bracketAwayTeam")),
+        )
+        if team and match.get(f"{side}Source")
+    }
+
+    for side, label in (("home", "home reveal source"), ("away", "away reveal source")):
+        team = match.get(side)
+        source = source_by_team.get(normalize_text(team)) if team and not is_placeholder(team) else None
+        set_optional(match, f"{side}RevealSource", source, changes, label)
+
+    return changes
+
+
 def ensure_source(data: dict[str, Any]) -> None:
     sources = data.setdefault("sources", [])
     if not any(source.get("url") == ESPN_PAGE_URL for source in sources if isinstance(source, dict)):
@@ -334,7 +441,12 @@ def refresh_bracket(args: argparse.Namespace) -> tuple[int, int, list[str]]:
         current += dt.timedelta(days=1)
 
     changed_matches = 0
-    change_log: list[str] = []
+    changes_by_match: dict[int, list[str]] = {}
+    events_by_match_id = {
+        ESPN_EVENT_TO_MATCH_ID[event_id]: event
+        for event_id, event in seen_events.items()
+        if event_id in ESPN_EVENT_TO_MATCH_ID
+    }
     for event_id in sorted(seen_events):
         match_id = ESPN_EVENT_TO_MATCH_ID[event_id]
         match = by_id.get(match_id)
@@ -342,8 +454,18 @@ def refresh_bracket(args: argparse.Namespace) -> tuple[int, int, list[str]]:
             continue
         changes = update_match_from_event(match, seen_events[event_id])
         if changes:
-            changed_matches += 1
-            change_log.append(f"Match {match_id}: {', '.join(changes)}")
+            changes_by_match.setdefault(match_id, []).extend(changes)
+
+    for match in data["matches"]:
+        changes = update_bracket_slot_metadata(match, by_id, events_by_match_id)
+        if changes:
+            changes_by_match.setdefault(match["id"], []).extend(changes)
+
+    changed_matches = len(changes_by_match)
+    change_log = [
+        f"Match {match_id}: {', '.join(changes)}"
+        for match_id, changes in sorted(changes_by_match.items())
+    ]
 
     if not args.dry_run and changed_matches:
         ensure_source(data)

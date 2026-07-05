@@ -2951,7 +2951,11 @@
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-07-05T03:01:27+00:00"
-      }
+      },
+      "bracketHomeTeam": "Canada",
+      "bracketAwayTeam": "Morocco",
+      "homeRevealSource": "Winner Match 73",
+      "awayRevealSource": "Winner Match 75"
     },
     {
       "id": 90,
@@ -2984,7 +2988,11 @@
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-07-05T01:21:22+00:00"
-      }
+      },
+      "bracketHomeTeam": "Paraguay",
+      "bracketAwayTeam": "France",
+      "homeRevealSource": "Winner Match 74",
+      "awayRevealSource": "Winner Match 77"
     },
     {
       "id": 91,
@@ -3001,7 +3009,11 @@
       "timezoneLabel": "ET",
       "espnEventId": "760504",
       "homeSource": "Winner Match 76",
-      "awaySource": "Winner Match 78"
+      "awaySource": "Winner Match 78",
+      "bracketHomeTeam": "Brazil",
+      "bracketAwayTeam": "Norway",
+      "homeRevealSource": "Winner Match 76",
+      "awayRevealSource": "Winner Match 78"
     },
     {
       "id": 92,
@@ -3018,7 +3030,11 @@
       "timezoneLabel": "ET",
       "espnEventId": "760505",
       "homeSource": "Winner Match 79",
-      "awaySource": "Winner Match 80"
+      "awaySource": "Winner Match 80",
+      "bracketHomeTeam": "Mexico",
+      "bracketAwayTeam": "England",
+      "homeRevealSource": "Winner Match 79",
+      "awayRevealSource": "Winner Match 80"
     },
     {
       "id": 93,
@@ -3035,7 +3051,11 @@
       "timezoneLabel": "ET",
       "espnEventId": "760506",
       "awaySource": "Winner Match 84",
-      "homeSource": "Winner Match 83"
+      "homeSource": "Winner Match 83",
+      "bracketHomeTeam": "Portugal",
+      "bracketAwayTeam": "Spain",
+      "homeRevealSource": "Winner Match 83",
+      "awayRevealSource": "Winner Match 84"
     },
     {
       "id": 94,
@@ -3052,7 +3072,11 @@
       "timezoneLabel": "ET",
       "espnEventId": "760507",
       "awaySource": "Winner Match 82",
-      "homeSource": "Winner Match 81"
+      "homeSource": "Winner Match 81",
+      "bracketHomeTeam": "United States",
+      "bracketAwayTeam": "Belgium",
+      "homeRevealSource": "Winner Match 81",
+      "awayRevealSource": "Winner Match 82"
     },
     {
       "id": 95,
@@ -3069,7 +3093,11 @@
       "timezoneLabel": "ET",
       "espnEventId": "760509",
       "awaySource": "Winner Match 88",
-      "homeSource": "Winner Match 86"
+      "homeSource": "Winner Match 86",
+      "bracketHomeTeam": "Argentina",
+      "bracketAwayTeam": "Egypt",
+      "homeRevealSource": "Winner Match 86",
+      "awayRevealSource": "Winner Match 88"
     },
     {
       "id": 96,
@@ -3086,7 +3114,11 @@
       "timezoneLabel": "ET",
       "espnEventId": "760508",
       "homeSource": "Winner Match 85",
-      "awaySource": "Winner Match 87"
+      "awaySource": "Winner Match 87",
+      "bracketHomeTeam": "Switzerland",
+      "bracketAwayTeam": "Colombia",
+      "homeRevealSource": "Winner Match 85",
+      "awayRevealSource": "Winner Match 87"
     },
     {
       "id": 97,
@@ -3103,7 +3135,11 @@
       "timezoneLabel": "ET",
       "espnEventId": "760510",
       "awaySource": "Winner Match 90",
-      "homeSource": "Winner Match 89"
+      "homeSource": "Winner Match 89",
+      "bracketHomeTeam": "Morocco",
+      "bracketAwayTeam": "France",
+      "homeRevealSource": "Winner Match 90",
+      "awayRevealSource": "Winner Match 89"
     },
     {
       "id": 98,
@@ -3375,6 +3411,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-04T23:26:08+00:00",
+  "bracketUpdatedAt": "2026-07-05T03:32:18+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }

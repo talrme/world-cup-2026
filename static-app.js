@@ -1045,42 +1045,34 @@
     return `<span class="${escapeHtml(`${className}${placeholderClass}`)}">${flagHtml}<span class="team-label">${escapeHtml(team)}</span></span>`;
   }
 
-  function resolvedTeamFromMatchSource(sourceLabel) {
-    const source = String(sourceLabel || "");
-    const matchSource = source.match(/^(Winner|Loser) Match (\d+)$/i);
-    if (!matchSource) return "";
-
-    const sourceMatch = matches.find((match) => match.id === Number(matchSource[2]));
-    if (!sourceMatch || !hasScore(sourceMatch) || !isScoreVisible(sourceMatch)) return "";
-
-    if (sourceMatch.homeScore === sourceMatch.awayScore) {
-      return "";
-    }
-
-    const homeWon = sourceMatch.homeScore > sourceMatch.awayScore;
-    const winner = homeWon ? sourceMatch.home : sourceMatch.away;
-    const loser = homeWon ? sourceMatch.away : sourceMatch.home;
-    return matchSource[1].toLowerCase() === "winner" ? winner : loser;
+  function sourceForDisplaySide(match, side, context = "event") {
+    return context === "bracket"
+      ? match[`${side}Source`]
+      : match[`${side}RevealSource`] || match[`${side}Source`];
   }
 
-  function visibleTeamForMatch(match, side) {
-    const source = match[`${side}Source`];
+  function bracketSlotTeam(match, side) {
+    return match[`bracket${side[0].toUpperCase()}${side.slice(1)}Team`] || "";
+  }
+
+  function visibleTeamForMatch(match, side, context = "event") {
+    const source = sourceForDisplaySide(match, side, context);
     if (source && !bracketSourceVisible(source)) {
       return shouldUseBracketTbd(match, source) ? "TBD" : source;
     }
 
-    const resolvedTeam = resolvedTeamFromMatchSource(source);
-    if (resolvedTeam) {
-      return resolvedTeam;
+    if (context === "bracket") {
+      const slotTeam = bracketSlotTeam(match, side);
+      if (slotTeam) return slotTeam;
     }
 
     const team = match[side];
     return shouldUseBracketTbd(match, team) ? "TBD" : team;
   }
 
-  function matchHasHiddenDependentTeam(match) {
+  function matchHasHiddenDependentTeam(match, context = "event") {
     return ["home", "away"].some((side) => {
-      const source = match[`${side}Source`];
+      const source = sourceForDisplaySide(match, side, context);
       return Boolean(source && /^(Winner|Loser) Match \d+$/i.test(String(source)) && !bracketSourceVisible(source));
     });
   }
@@ -1873,7 +1865,7 @@
   }
 
   function bracketDisplayTeam(match, side) {
-    return visibleTeamForMatch(match, side);
+    return visibleTeamForMatch(match, side, "bracket");
   }
 
   function renderBracketClinchedHints(label) {
@@ -2005,8 +1997,8 @@
     const roundTone = match.stage === "Final" ? "is-final" : match.stage === "Third Place" ? "is-third" : "";
     const matchLabel = match.stage === "Final" || match.stage === "Third Place" ? match.stage : formatCompactDateTime(match);
     const matchTime = match.stage === "Final" || match.stage === "Third Place" ? formatCompactDateTime(match) : "";
-    const homeTeam = visibleTeamForMatch(match, "home");
-    const awayTeam = visibleTeamForMatch(match, "away");
+    const homeTeam = visibleTeamForMatch(match, "home", "bracket");
+    const awayTeam = visibleTeamForMatch(match, "away", "bracket");
     const actions = renderBracketVideoLinks(match);
     return `
       <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(homeTeam)} vs ${escapeHtml(awayTeam)}"${bracketSlotStyle(match, slotMap)}>
