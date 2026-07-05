@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T11:47:40+00:00",
+  "generatedAt": "2026-07-05T20:23:30+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -163,20 +163,20 @@
     },
     "43": {
       "headline": "Norway Edges Senegal in Five-Goal Thriller",
-      "summary": "Norway secured a vital 3-2 victory over Senegal, a result that proved instrumental in their successful navigation through Group I.",
+      "summary": "Norway secured a vital 3-2 victory over Senegal, a result that proved pivotal in shaping the final standings of Group I.",
       "story": [
-        "The match was a high-scoring affair that saw Norway narrowly overcome Senegal 3-2. This result was a key turning point in Group I, providing Norway with the points necessary to eventually secure their place in the knockout stages.",
-        "For Senegal, the defeat added significant pressure to their final group match against Iraq. While they responded emphatically in that subsequent game with a 5-0 win, the loss to Norway ultimately left them vulnerable in the final group standings.",
-        "Norway's campaign continued to evolve after this result, leading them to a Round of 32 victory over Ivory Coast. Their journey eventually set up a high-stakes Round of 16 meeting with Brazil.",
-        "Senegal's tournament run concluded in the Round of 32, where they were narrowly defeated 3-2 by Belgium after advancing as one of the best third-placed teams."
+        "In a high-scoring encounter, Norway narrowly defeated Senegal 3-2. The match was a back-and-forth affair that kept Group I competitive, forcing both sides to fight for every point as the group stage progressed.",
+        "This win was instrumental in Norway's qualification path, eventually helping them secure second place in the group with 6 points. Despite the loss, Senegal continued to show attacking intent throughout the tournament, scoring 8 goals across their group matches.",
+        "Following this result, Norway moved on to face Ivory Coast in the Round of 32, where they continued their momentum with a 2-1 victory. Senegal, meanwhile, finished third in the group and later faced a difficult 3-2 defeat against Belgium in the knockout rounds."
       ],
       "bullets": [
-        "Norway's win was the difference-maker in their group progression to the knockout rounds.",
-        "Senegal finished Group I with 3 points, eventually qualifying for the Round of 32 as a best third-placed team."
+        "Norway finished second in Group I with 6 points, while Senegal took third place with 3 points.",
+        "The match contributed to a high-scoring group dynamic, with Norway totaling 8 goals and Senegal matching that tally of 8 goals in group play.",
+        "Norway leveraged this win to advance through the knockout stages, eventually reaching the Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T23:45:17+00:00",
-      "sourceHash": "7bb83ed7459ddf42",
+      "updatedAt": "2026-07-05T20:22:59+00:00",
+      "sourceHash": "b889e02bfe3007b9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -282,21 +282,21 @@
       "refreshReason": "source or prompt changed"
     },
     "31": {
-      "headline": "Brazil cruises past Haiti to secure Group C control",
-      "summary": "Brazil dominated their Matchday 2 encounter against Haiti, securing a decisive 3-0 victory.",
+      "headline": "Brazil Dominates Haiti in Group C Victory",
+      "summary": "Brazil secured a comfortable 3-0 win over Haiti, moving them into a strong position within Group C.",
       "story": [
-        "Brazil asserted their authority in Group C with a clinical 3-0 win over Haiti. After an opening draw against Morocco, this performance provided the necessary momentum to climb the standings and solidify their position as group leaders.",
-        "For Haiti, the result marked a difficult outing as they struggled to contain a potent Brazilian attack. The defensive pressure proved too much to overcome, leaving them without points as they moved into the final round of the group stage.",
-        "This victory served as a crucial turning point for Brazil's tournament trajectory. By securing all three points, they effectively set the tone for their subsequent group success and eventual progression into the knockout rounds."
+        "Brazil asserted their authority in this Group C matchup, controlling the tempo to secure a decisive 3-0 victory against Haiti. The result provided Brazil with a much-needed boost after their opening draw, allowing them to climb the standings.",
+        "For Haiti, the match proved to be a difficult challenge as they struggled to contain the Brazilian attack. Despite the loss, the experience of competing against a top-tier side served as a significant test for the squad during their group stage campaign.",
+        "This win was a pivotal moment for Brazil, setting the tone for their subsequent successful run through the group stage and into the knockout rounds. The three-goal cushion also helped bolster their goal difference, which proved valuable as the group standings finalized."
       ],
       "bullets": [
-        "Brazil maintained a clean sheet while netting three goals to improve their goal difference significantly.",
-        "The win was a vital step in Brazil's eventual path to finishing first in Group C.",
-        "Haiti remained winless in the group, concluding their tournament run after three matches."
+        "Brazil's 3-0 victory marked their first win of the group stage.",
+        "The result helped Brazil eventually finish at the top of Group C with 7 points.",
+        "Haiti concluded their group stage run following this result, having faced tough competition throughout the round."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T19:14:46+00:00",
-      "sourceHash": "bfd32f4081dd0a45",
+      "updatedAt": "2026-07-05T20:23:06+00:00",
+      "sourceHash": "bd3816dd2b50daaf",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -554,21 +554,20 @@
       "refreshReason": "source or prompt changed"
     },
     "52": {
-      "headline": "Brazil Dominates Scotland to Clinch Group C",
-      "summary": "Final: Scotland 0, Brazil 3. Brazil secured a decisive 3-0 victory over Scotland to finish at the top of Group C.",
+      "headline": "Brazil Dominates Scotland to Clinch Group C Top Spot",
+      "summary": "Final: Scotland 0, Brazil 3. Brazil secured a convincing 3-0 victory over Scotland to finish at the summit of Group C.",
       "story": [
-        "Brazil asserted their authority in the final match of the group stage, putting three goals past Scotland to ensure they finished as the leaders of Group C. The result underscored Brazil's offensive efficiency, as they concluded the group phase with a strong goal difference of +6.",
-        "For Scotland, the defeat marked the end of their tournament run. Despite an opening win against Haiti, they were unable to find the back of the net in their subsequent two matches, finishing third in the group with three points.",
-        "With this victory, Brazil moved forward into the knockout stages with momentum. They successfully navigated their group with seven points, setting the stage for their Round of 32 matchup against Japan."
+        "Brazil asserted their authority in the final match of the group stage, comfortably defeating Scotland 3-0. The result ensured Brazil finished the group phase with 7 points, edging out Morocco on goal difference to claim the top spot.",
+        "For Scotland, the defeat marked the end of their tournament run. After opening with a narrow win against Haiti, consecutive losses to Morocco and Brazil left them with 3 points, ultimately placing them third in the group standings."
       ],
       "bullets": [
-        "Brazil finished atop Group C with 7 points and a +6 goal difference.",
-        "Scotland exited the tournament after finishing third in the group.",
-        "Brazil advanced to face Japan in the Round of 32."
+        "Brazil finished Group C with 7 points and a +6 goal difference.",
+        "Scotland concluded their campaign with 3 points after a 1-0-2 record.",
+        "The 3-0 result was Brazil's second multi-goal shutout in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T19:14:23+00:00",
-      "sourceHash": "2e766d8da6a00d44",
+      "updatedAt": "2026-07-05T20:22:51+00:00",
+      "sourceHash": "92ff83ff8da4c7af",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -734,20 +733,22 @@
       "refreshReason": "source or prompt changed"
     },
     "61": {
-      "headline": "France Dominates Norway to Clinch Group I",
-      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway to maintain their perfect record in Group I.",
+      "headline": "France Dominates Norway to Sweep Group I",
+      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway to maintain their perfect record and finish at the top of Group I.",
       "story": [
-        "France asserted their dominance in the final match of the group stage, comfortably defeating Norway 4-1. The result solidified France's position at the top of the table with a flawless nine points from three matches, showcasing both offensive efficiency and defensive stability throughout the group phase.",
-        "Following this result, France moved forward with significant momentum, eventually navigating through the Round of 32 and Round of 16 to secure a spot in the quarterfinals. Norway also progressed to the knockout bracket, where they faced a challenging path before their journey concluded."
+        "France delivered a commanding performance against Norway, putting four goals past their opponents to finish the group stage with a perfect nine points. The result underscored France's dominance in the group, as they concluded their three matches with an impressive goal difference of plus-eight.",
+        "For Norway, the defeat was a reality check after a strong start to the tournament. Despite the loss, they successfully navigated the group stage with six points, having secured crucial wins against Iraq and Senegal in their earlier fixtures.",
+        "The outcome solidified France's position as the group winner, while Norway advanced as the runner-up. This result set the stage for both teams to move into the knockout rounds, where they continued to test their mettle against international competition.",
+        "Both teams have since moved deep into the tournament bracket, reflecting the high quality of play seen during their group stage encounter. France's clinical finishing in this match served as a clear indicator of their offensive capabilities throughout their campaign."
       ],
       "bullets": [
-        "France finished the group stage undefeated with 10 goals scored and only 2 conceded.",
-        "Norway advanced to the knockout stage as the runner-up in Group I despite the Matchday 3 defeat.",
-        "The 4-1 victory ensured France maintained a superior goal difference of +8 in the group standings."
+        "France finished the group stage with a perfect 3-0-0 record.",
+        "Norway advanced to the knockout stages despite the loss, finishing second in Group I with six points.",
+        "France scored 10 total goals across their three group matches while conceding only two."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:22:32+00:00",
-      "sourceHash": "15b619e103ded6bd",
+      "updatedAt": "2026-07-05T20:22:43+00:00",
+      "sourceHash": "6644eba896454f9e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1097,21 +1098,21 @@
     },
     "18": {
       "headline": "Norway Dominates Iraq in Group I Opener",
-      "summary": "Final: Iraq 1, Norway 4. Norway secured a commanding 4-1 victory over Iraq to start their World Cup campaign on a high note.",
+      "summary": "Final: Iraq 1, Norway 4. Norway secured a convincing 4-1 victory over Iraq to start their World Cup campaign on a high note.",
       "story": [
-        "Norway opened their Group I account with a clinical performance, putting four goals past Iraq to immediately signal their intent in the tournament. The result provided Norway with the necessary momentum to navigate a challenging group that also featured France and Senegal.",
-        "For Iraq, the match proved to be a difficult introduction to the group stage. Despite finding the back of the net, they struggled to contain the Norwegian attack and ultimately finished the group phase without a point, conceding 12 goals across their three fixtures.",
-        "This victory was a crucial building block for Norway, who went on to finish second in Group I with six points. Their form carried them through the group stage and into the knockout rounds, where they eventually secured a victory over Ivory Coast to advance to the Round of 16.",
-        "Following this opening win, Norway\u2019s tournament path saw them battle through high-scoring affairs, including a 3-2 win against Senegal. Their successful group campaign set up a high-stakes Round of 16 encounter against Brazil."
+        "Norway opened their tournament account with a dominant 4-1 performance against Iraq, immediately signaling their intent in Group I. The victory provided the foundation for a successful group stage run, allowing them to finish second behind France with six points.",
+        "For Iraq, the result proved to be a difficult start to a challenging group stage. They struggled to find defensive stability throughout their three matches, ultimately finishing at the bottom of the table without a point.",
+        "Following this opening win, Norway went on to defeat Senegal 3-2, a crucial result that helped them secure a spot in the knockout rounds. Their journey continued with a 2-1 victory over Ivory Coast in the Round of 32.",
+        "This match set the trajectory for both sides, with Norway successfully navigating their way into the tournament's deeper stages while Iraq exited after the group phase."
       ],
       "bullets": [
-        "Norway finished second in Group I with a 6-point total, trailing only France.",
-        "The 4-1 win over Iraq served as Norway's highest-scoring performance in the group stage.",
-        "Norway\u2019s successful run continued into the knockout stages with a 2-1 victory over Ivory Coast."
+        "Norway finished the group stage with 6 points, trailing only group winners France.",
+        "Iraq concluded their campaign at the bottom of Group I with 0 points.",
+        "The 4-1 result was Norway's largest margin of victory during their group stage fixtures."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T21:12:46+00:00",
-      "sourceHash": "a556da42ead1cfcc",
+      "updatedAt": "2026-07-05T20:23:14+00:00",
+      "sourceHash": "d3e7ff13073c6c43",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1317,21 +1318,20 @@
       "refreshReason": "source or prompt changed"
     },
     "6": {
-      "headline": "Brazil and Morocco share points in Group C opener",
-      "summary": "Brazil and Morocco battled to a 1-1 draw in their opening Group C match, setting the tone for a competitive group stage.",
+      "headline": "Brazil and Morocco Open Group C with a Draw",
+      "summary": "Brazil and Morocco played to a 1-1 draw in their Group C opening match.",
       "story": [
-        "The opening match for both nations ended in a 1-1 stalemate, a result that forced both teams to fight for their positioning throughout the remainder of the group stage. Neither side could find a decisive edge, leaving them to split the points in a tense start to their tournament campaigns.",
-        "Following this result, both teams showed resilience in their subsequent matches. Brazil went on to secure victories over Haiti and Scotland, while Morocco bounced back with wins against Scotland and Haiti to secure their own path into the knockout bracket.",
-        "The competitive nature of this draw was a precursor to successful runs for both squads. Brazil advanced to the Round of 16 to face Norway, while Morocco navigated their way through the Round of 32 and Round of 16 to reach a quarterfinal showdown against France."
+        "Brazil and Morocco kicked off their tournament campaigns with a 1-1 stalemate. The result set the tone for a competitive Group C, where both sides ultimately finished level on seven points after three matches.",
+        "Following this opening draw, both teams demonstrated strong form throughout the group stage. Brazil went on to secure victories against Haiti and Scotland, while Morocco responded with wins over Scotland and Haiti to keep pace at the top of the table.",
+        "The competitive nature of this group match proved to be a harbinger of their respective tournament journeys. Both nations successfully navigated the group phase and pushed deep into the knockout rounds, with Morocco advancing to a quarterfinal matchup against France."
       ],
       "bullets": [
-        "The 1-1 draw was the only match in Group C that did not result in a win for either Brazil or Morocco.",
-        "Brazil and Morocco finished the group stage level on 7 points, with Brazil claiming first place due to a superior goal difference of +6 compared to Morocco's +3.",
-        "Both teams successfully advanced through the knockout rounds following this initial meeting."
+        "The match finished 1-1, leaving both teams with a single point to start their group campaign.",
+        "Both Brazil and Morocco finished the group stage with identical records of 7 points from 3 matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:19:01+00:00",
-      "sourceHash": "4b9e85de7082af27",
+      "updatedAt": "2026-07-05T20:23:22+00:00",
+      "sourceHash": "6bba11c529fbd2a0",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1461,20 +1461,21 @@
       "headline": "Brazil Edges Past Japan in Round of 32 Thriller",
       "summary": "Brazil secured a narrow 2-1 victory over Japan to advance to the Round of 16.",
       "story": [
-        "Brazil successfully navigated a challenging Round of 32 encounter against Japan, clinching a 2-1 win that keeps their tournament momentum alive. After topping Group C with a strong finish against Scotland, the Brazilians were tested by a resilient Japanese side that had proven their quality throughout the group stage.",
-        "For Japan, the tournament concludes after a campaign that saw them hold their own against strong European opposition like the Netherlands and Sweden, alongside a commanding 4-0 win over Tunisia. Their exit marks the end of a competitive run where they consistently proved difficult to break down.",
-        "With this result, Brazil now looks ahead to the Round of 16. They are set to face Norway, who emerged as the winner of their respective bracket, in a match that promises to be a significant test of Brazil's title credentials."
+        "Brazil continued their strong tournament form by overcoming a resilient Japan side in this Round of 32 clash. The 2-1 result saw the Group C winners navigate a tough test against the Group F runners-up, proving their mettle in the knockout stage.",
+        "For Japan, the loss marks the end of a competitive campaign that saw them navigate a difficult group stage with draws against the Netherlands and Sweden, along with a dominant win over Tunisia. Their exit comes after a hard-fought battle where they pushed the eventual winners until the final whistle.",
+        "With this victory, Brazil moved on to the Round of 16, where they were set to face Norway. The win solidified Brazil's status as a serious contender, having successfully transitioned from their unbeaten group stage performance into the high-stakes pressure of knockout football."
       ],
       "bullets": [
-        "Brazil advances to the Round of 16 to face Norway on July 5.",
-        "The 2-1 result marks the end of Japan's tournament run after a solid group stage performance."
+        "Brazil maintained their momentum by winning this Round of 32 match 2-1.",
+        "The victory set up a subsequent Round of 16 matchup against Norway.",
+        "Japan bowed out of the tournament after a valiant effort against the Group C winners."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:34:56+00:00",
-      "sourceHash": "919cd9cd14384bdf",
+      "updatedAt": "2026-07-05T20:22:35+00:00",
+      "sourceHash": "e26f31dd26ddc8d6",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "73": {
       "headline": "Canada Advances Past South Africa in Round of 32",
@@ -1519,20 +1520,20 @@
       "headline": "Norway Advances Past Ivory Coast in Round of 32",
       "summary": "Final: Ivory Coast 1, Norway 2. Norway secured a 2-1 victory over Ivory Coast to move forward in the knockout stage.",
       "story": [
-        "Norway successfully navigated their Round of 32 matchup against Ivory Coast, clinching a 2-1 win to keep their tournament run alive. The result brings an end to Ivory Coast's campaign, while Norway moves on to face a significant challenge in the next phase.",
-        "Coming into this match, both teams had shown resilience during the group stage. Ivory Coast finished as the runner-up in Group E, having secured wins against Ecuador and Curacao, while Norway emerged from Group I with victories over Iraq and Senegal.",
-        "With this victory, Norway now shifts their focus to the Round of 16. They are scheduled to face Brazil on July 5, a high-stakes encounter that will test their ability to compete against one of the tournament's top contenders."
+        "Norway successfully navigated the Round of 32, narrowly edging out Ivory Coast with a 2-1 result. The win marks a significant step forward for the Norwegian squad as they continue their campaign in the knockout bracket.",
+        "For Ivory Coast, the loss concludes their tournament run. The team had shown promise throughout the group stage, including a solid victory against Ecuador and a win over Curacao, but they were unable to overcome the pressure in this elimination match.",
+        "Norway now moves on to face Brazil in the Round of 16. Having proven their ability to win tight matches, they will look to carry this momentum into their next challenge."
       ],
       "bullets": [
-        "Norway secured the 2-1 win to eliminate Ivory Coast from the tournament.",
-        "Norway advances to the Round of 16 to play Brazil on July 5."
+        "Norway claimed a 2-1 win to eliminate Ivory Coast.",
+        "Norway advances to the Round of 16 to play Brazil."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:24:05+00:00",
-      "sourceHash": "19dc9b5191f85902",
+      "updatedAt": "2026-07-05T20:22:27+00:00",
+      "sourceHash": "d62c67185ea1366c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "77": {
       "headline": "France Cruises Past Sweden in Round of 32",
@@ -1792,6 +1793,27 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "91": {
+      "headline": "Brazil and Norway Deadlocked in Round of 16",
+      "summary": "Brazil and Norway played to a 0-0 draw in their Round of 16 match, leaving the outcome to be decided beyond regulation.",
+      "story": [
+        "The Round of 16 clash between Brazil and Norway ended in a stalemate, with neither side able to break the deadlock through the duration of the match. Both teams entered this knockout fixture following successful campaigns in the Round of 32, where Brazil overcame Japan 2-1 and Norway secured a 2-1 victory over Ivory Coast.",
+        "Brazil arrived at this stage after an impressive group phase where they remained unbeaten, including a 3-0 win over Scotland and a 3-0 victory against Haiti. Their defensive consistency throughout the tournament was on display again as they kept a clean sheet against a challenging Norwegian side.",
+        "Norway, meanwhile, navigated a high-scoring group stage that saw them defeat Iraq 4-1 and Senegal 3-2 before a loss to France. Their ability to find the back of the net was a hallmark of their earlier performances, but they found the Brazilian defense a much tougher puzzle to solve in this encounter.",
+        "With the scoreline locked at 0-0, both teams now face the pressure of determining who moves forward in the tournament bracket. The result reflects the fine margins that define knockout football at this level, as both nations look to capitalize on their previous momentum to secure a path to the next round."
+      ],
+      "bullets": [
+        "Brazil entered the match following a strong run, including a 3-0 win over Scotland and a 2-1 victory against Japan in the previous round.",
+        "Norway displayed high-scoring form in their group stage, notably netting four goals against Iraq.",
+        "The 0-0 result marks a significant defensive effort from both sides in a high-stakes knockout environment."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-05T20:23:30+00:00",
+      "sourceHash": "797bcb9bff744b25",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

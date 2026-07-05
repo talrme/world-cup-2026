@@ -2969,7 +2969,7 @@ window.WORLD_CUP_DATA = {
       "time": "16:00",
       "home": "Brazil",
       "away": "Norway",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
@@ -2980,7 +2980,9 @@ window.WORLD_CUP_DATA = {
       "bracketHomeTeam": "Brazil",
       "bracketAwayTeam": "Norway",
       "homeRevealSource": "Winner Match 76",
-      "awayRevealSource": "Winner Match 78"
+      "awayRevealSource": "Winner Match 78",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 92,
@@ -3378,6 +3380,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-05T03:32:18+00:00",
+  "bracketUpdatedAt": "2026-07-05T20:20:07+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
