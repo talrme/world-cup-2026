@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-05T05:19:56+00:00",
+  "generatedAt": "2026-07-05T08:23:59+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1635,38 +1635,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "84": {
       "headline": "Spain Cruises Past Austria into Round of 16",
-      "summary": "Spain secured a dominant 3-0 victory over Austria in the Round of 32 to advance in the tournament.",
+      "summary": "Spain secured a dominant 3-0 victory over Austria in the Round of 32, effectively ending Austria's tournament run.",
       "story": [
-        "Spain asserted their authority in the knockout stage, putting together a clinical performance to dismantle Austria. The 3-0 result underscored the form that saw them emerge as the winners of Group H, maintaining their momentum after a successful group stage campaign.",
-        "For Austria, the loss ends their tournament run. Despite battling through a challenging Group J, they were unable to contain the Spanish attack, which has now kept three clean sheets in their last four matches.",
-        "With this victory, Spain moves on to the Round of 16. They are set to face Portugal in what promises to be a high-stakes encounter, as both teams look to continue their progression through the knockout bracket."
+        "Spain demonstrated their tournament credentials with a clinical performance, shutting out Austria to secure a comfortable path forward. By controlling the tempo, Spain ensured they never looked vulnerable against an Austrian side that struggled to find a response throughout the match.",
+        "The victory marks a continuation of Spain's strong form, having navigated their group stage campaign with notable defensive discipline and efficiency. After topping Group H, Spain proved once again why they are considered a serious contender in the knockout phase.",
+        "For Austria, the loss concludes a challenging tournament journey that saw them battle through a tough group stage. Despite their efforts to remain competitive, they were unable to overcome the tactical precision displayed by the Spanish side in this knockout encounter.",
+        "With this result, Spain advances to the Round of 16, where they are set to face Portugal. This upcoming fixture promises to be a high-stakes test for the Spanish squad as they look to maintain their momentum deeper into the bracket."
       ],
       "bullets": [
-        "Spain advanced to the Round of 16 with a clean sheet and a three-goal margin.",
-        "Spain will face Portugal in the next round of the tournament."
+        "Spain advances to the Round of 16 to face Portugal.",
+        "Austria's tournament run concludes following the Round of 32 loss."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T05:06:27+00:00",
+      "updatedAt": "2026-07-05T08:23:59+00:00",
       "sourceHash": "9fdd7cfbb7f95e5e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "83": {
-      "headline": "Portugal Edges Past Croatia to Reach Round of 16",
-      "summary": "Portugal secured a 2-1 victory over Croatia in the Round of 32 to advance in the tournament.",
+      "headline": "Portugal Advances Past Croatia in Round of 32",
+      "summary": "Portugal secured their spot in the Round of 16 with a hard-fought 2-1 victory over Croatia.",
       "story": [
-        "Portugal navigated a tight contest against Croatia, ultimately coming out on top with a 2-1 scoreline. The win allows them to progress further in the knockout bracket after a solid run through Group K where they remained unbeaten.",
-        "For Croatia, the loss ends their campaign after they had fought their way out of Group L with victories over Panama and Ghana. Despite a challenging start against England in their opener, they showed resilience to reach this stage.",
-        "With this victory, Portugal now looks ahead to a significant challenge in the Round of 16. They are scheduled to face Spain on July 6, setting up a high-stakes encounter between the two European sides."
+        "Portugal navigated a tense Round of 32 matchup against Croatia, ultimately coming out on top with a 2-1 result. The win allows them to continue their journey in the knockout stage after a group campaign that saw them finish as the runner-up in Group K.",
+        "For Croatia, the loss marks the end of their tournament run. They had managed to battle their way out of Group L as runners-up, showing resilience in their group stage wins against Panama and Ghana, but they were unable to overcome the Portuguese side in this decisive knockout fixture.",
+        "With this victory, Portugal now looks ahead to a high-stakes Round of 16 match against Spain. The challenge will be significant as they aim to build on the momentum gained from this narrow win and progress further in the tournament bracket."
       ],
       "bullets": [
-        "Portugal advanced to the Round of 16 with a narrow 2-1 win.",
-        "Portugal will face Spain in their next match on July 6.",
-        "Croatia bows out of the tournament after reaching the Round of 32."
+        "Portugal advances to face Spain in the Round of 16.",
+        "The 2-1 result eliminates Croatia from the competition.",
+        "Portugal remains unbeaten in the tournament following their group stage performance."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T08:02:33+00:00",
+      "updatedAt": "2026-07-05T08:23:51+00:00",
       "sourceHash": "c15db3128acd2893",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
