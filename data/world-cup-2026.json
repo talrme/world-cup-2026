@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2950,7 +2950,18 @@
           "spoilerSafeTitle": true,
           "source": "foxsports-channel"
         },
-        "lastCheckedAt": "2026-07-04T20:02:47+00:00"
+        "lastCheckedAt": "2026-07-05T01:21:06+00:00",
+        "short": {
+          "searchUrl": "https://www.youtube.com/results?search_query=Canada+vs+Morocco+highlights+FOX+Sports+World+Cup",
+          "lastCheckedAt": "2026-07-05T01:21:06+00:00",
+          "title": "Canada vs. Morocco Highlights | 2022 FIFA World Cup",
+          "url": "https://www.youtube.com/watch?v=yO-_MsCBMcU",
+          "channel": "FOX Soccer",
+          "durationText": "4 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "youtube-search"
+        }
       }
     },
     {
@@ -2970,7 +2981,21 @@
       "homeSource": "Winner Match 74",
       "awaySource": "Winner Match 77",
       "homeScore": 0,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-05T01:21:22+00:00",
+          "title": "Paraguay vs France Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 16",
+          "url": "https://www.youtube.com/watch?v=2ANrnnZEE6c",
+          "channel": "FOX Sports",
+          "durationText": "18 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-05T01:21:22+00:00"
+      }
     },
     {
       "id": 91,
