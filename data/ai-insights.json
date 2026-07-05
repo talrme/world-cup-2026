@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T10:36:50+00:00",
+  "generatedAt": "2026-07-05T11:47:40+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -6374,6 +6374,124 @@
       "sections": [],
       "updatedAt": "2026-06-30T18:18:07+00:00",
       "sourceHash": "00bcdd4cf7f8636a",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "92": {
+      "headline": "Mexico and England Collide in Round of 16",
+      "summary": "Mexico and England meet at Estadio Azteca for a high-stakes Round of 16 knockout match.",
+      "story": [
+        "Mexico enters this Round of 16 encounter following a strong run through their group stage and a decisive victory over Ecuador in the previous knockout round. Having maintained a consistent defensive structure throughout their opening matches, they arrive at this stage with significant momentum and the support of the home crowd at Estadio Azteca.",
+        "England navigated their path to this matchup with a mix of high-scoring performances and tactical discipline. After finishing their group stage campaign and securing a hard-fought win against Congo DR in the Round of 32, they have demonstrated an ability to adapt to different styles of play and find results under pressure.",
+        "This matchup brings together two sides that have shown resilience in the tournament so far. With both teams having successfully navigated the challenges of the knockout format to reach this point, the focus shifts to how these squads will handle the intensity of a Round of 16 fixture where every decision carries increased weight."
+      ],
+      "bullets": [
+        "Mexico has remained undefeated in their tournament run leading up to this match.",
+        "England demonstrated both offensive firepower and defensive stability during their group stage and Round of 32 appearances.",
+        "The match takes place at the historic Estadio Azteca in Mexico City."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-05T11:47:00+00:00",
+      "sourceHash": "edee403468604903",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "93": {
+      "headline": "Iberian Rivals Face Off in Round of 16",
+      "summary": "Portugal and Spain meet in the Round of 16 following successful campaigns through the group stage and the Round of 32.",
+      "story": [
+        "Portugal enters this knockout fixture after a hard-fought path through the tournament. Their journey included a draw against DR Congo, a dominant 5-0 victory over Uzbekistan, and a scoreless stalemate with Colombia. They secured their spot here by overcoming Croatia in the Round of 32 with a 2-1 result.",
+        "Spain arrives in the Round of 16 with significant momentum. After opening their group stage with a scoreless draw against Cabo Verde, they found their form with a 4-0 win over Saudi Arabia and a narrow 1-0 victory against Uruguay. They continued their progress by defeating Austria 3-0 in the Round of 32.",
+        "This matchup brings together two sides that have shown defensive discipline throughout their previous matches. With both teams having navigated the initial group challenges and the first knockout round, this encounter represents a significant test of their respective strategies as they look to advance further in the competition."
+      ],
+      "bullets": [
+        "Spain has maintained a strong defensive record, keeping clean sheets in all four of their tournament matches leading up to this point.",
+        "Both teams arrive with confidence after winning their respective Round of 32 matches."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-05T11:47:08+00:00",
+      "sourceHash": "8b662371074ccb8e",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "94": {
+      "headline": "United States and Belgium collide in Round of 16",
+      "summary": "The United States and Belgium face off in a high-stakes Round of 16 knockout match to determine who advances further in the tournament.",
+      "story": [
+        "Belgium arrives at this stage after a hard-fought 3-2 victory against Senegal in their own Round of 16 opener. Their journey to this point included a mix of defensive resilience and offensive outbursts, notably a 5-1 win over New Zealand in the final group match, alongside draws against Egypt and Iran.",
+        "Both teams have navigated challenging paths to reach this point in the tournament. With a spot in the next round on the line, the tactical approach from both sides will be under scrutiny as they look to capitalize on their momentum from the previous knockout fixtures."
+      ],
+      "bullets": [
+        "The United States maintained a clean sheet in their recent 2-0 Round of 16 win.",
+        "Belgium displayed strong attacking form in their last match, scoring three goals against Senegal.",
+        "Both teams enter this fixture coming off successful results in their respective Round of 16 games."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-05T11:47:16+00:00",
+      "sourceHash": "10ccb829b4e796ae",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "95": {
+      "headline": "Argentina and Egypt Clash in Round of 16",
+      "summary": "Argentina and Egypt meet in the Round of 16 following their respective journeys through the group stage and the opening knockout round.",
+      "story": [
+        "Argentina enters this Round of 16 matchup after a strong run through Group J, where they secured victories against Algeria, Austria, and Jordan. They continued their momentum into the knockout phase by overcoming Cabo Verde in a narrow result during the Round of 32.",
+        "Egypt navigated a competitive path to reach this stage, having opened their tournament with a draw against Belgium and a win over New Zealand. After a scoreless draw with Iran to close out their group play, they faced a difficult test against Australia in the Round of 32, which also ended in a draw.",
+        "Both teams have demonstrated resilience in high-pressure situations leading up to this point. As they face off in the Round of 16, the focus shifts to which side can maintain their tactical discipline and capitalize on their opportunities to keep their tournament run alive."
+      ],
+      "bullets": [
+        "Argentina maintained an undefeated record throughout their group stage campaign.",
+        "Egypt has proven difficult to break down, recording two draws in their last three matches.",
+        "This match marks a significant hurdle for both nations as they look to secure a spot in the next phase of the knockout bracket."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-05T11:47:24+00:00",
+      "sourceHash": "d2903ca1ccc8ecd2",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "96": {
+      "headline": "Switzerland and Colombia Clash in Round of 16",
+      "summary": "Switzerland and Colombia meet in the Round of 16 following successful runs through their respective group and knockout stages.",
+      "story": [
+        "Switzerland enters this match with momentum, having navigated through Group B and a successful Round of 32 victory against Algeria. Their path to this stage included wins over Bosnia and Herzegovina and Canada, showcasing an ability to find the back of the net consistently throughout the tournament.",
+        "Colombia arrives at this matchup after a disciplined group phase in Group K and a tight victory over Ghana in the Round of 32. Their defensive organization has been a hallmark of their performance, having kept clean sheets in both their final group match against Portugal and their recent knockout encounter.",
+        "This Round of 16 fixture pits two teams with distinct styles against one another. While Switzerland has demonstrated a high-scoring capacity in several of their previous outings, Colombia has proven difficult to break down, setting up a tactical battle for control in this knockout round."
+      ],
+      "bullets": [
+        "Switzerland has remained unbeaten through their group matches and their Round of 32 win.",
+        "Colombia successfully advanced through Group K without conceding a defeat.",
+        "Both teams enter this fixture coming off victories in the Round of 32."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-05T11:47:32+00:00",
+      "sourceHash": "61094182692bf3f6",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "manual spoiler-free preview target"
+    },
+    "97": {
+      "headline": "France and Morocco Meet in Quarterfinal Showdown",
+      "summary": "France and Morocco face off in the Quarterfinals after successful campaigns through the knockout rounds.",
+      "story": [
+        "France enters this Quarterfinal matchup following a consistent run through the tournament. Their path included group stage victories over Senegal, Iraq, and Norway, followed by knockout wins against Sweden and Paraguay. Throughout these matches, they have demonstrated an ability to maintain defensive discipline while finding ways to secure results.",
+        "Morocco arrives at this stage after navigating a challenging path that began with a draw against Brazil and a victory over Scotland. Their momentum continued with a win against Haiti and a hard-fought result against the Netherlands, capped by a decisive performance against Canada in the Round of 16.",
+        "Both teams have shown resilience in high-pressure situations leading up to this match. As they transition into the Quarterfinals, the focus shifts to how these two sides will manage the tactical demands of a knockout environment where every decision carries significant weight."
+      ],
+      "bullets": [
+        "France has maintained a strong defensive record, conceding only one goal across their five tournament matches.",
+        "Morocco demonstrated offensive versatility in their group stage and knockout performances, scoring multiple goals in three of their five matches.",
+        "This match marks the first time these two nations meet in this tournament, with both sides seeking to secure a place in the next round."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-05T11:47:40+00:00",
+      "sourceHash": "7f7869af918bb21f",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "manual spoiler-free preview target"
