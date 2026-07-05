@@ -669,6 +669,25 @@ def comparable_video(value: dict[str, Any] | None) -> dict[str, Any]:
     return {key: item for key, item in value.items() if key != "lastCheckedAt"}
 
 
+def prune_duplicate_video_slots(match: dict[str, Any], checked: str, dry_run: bool) -> int:
+    videos = match.get("videos") if isinstance(match.get("videos"), dict) else {}
+    short = videos.get("short")
+    extended = videos.get("extended")
+    if (
+        not isinstance(short, dict)
+        or not isinstance(extended, dict)
+        or not short.get("url")
+        or short.get("url") != extended.get("url")
+    ):
+        return 0
+
+    if not dry_run:
+        stored_videos = match.setdefault("videos", {})
+        stored_videos.pop("short", None)
+        stored_videos["lastCheckedAt"] = checked
+    return 1
+
+
 def refresh_match(
     match: dict[str, Any],
     force: bool,
@@ -740,6 +759,7 @@ def refresh_match(
         if delay:
             time.sleep(delay)
 
+    updated += prune_duplicate_video_slots(match, checked, dry_run)
     return checked_count, found, updated
 
 

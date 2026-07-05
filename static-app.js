@@ -1317,17 +1317,23 @@
     return `<a aria-label="Open ${escapeHtml(label)} on YouTube" class="tile-video-link tile-video-link-${kind}" href="${escapeHtml(video.url)}" rel="noreferrer" target="_blank" title="Open ${escapeHtml(label)} on YouTube"><span class="yt-mark" aria-hidden="true"></span>${chipMarkup}</a>`;
   }
 
+  function directVideoEntries(match) {
+    const seenUrls = new Set();
+    return ["short", "extended"]
+      .map((kind) => ({ kind, video: match.videos?.[kind] || null }))
+      .filter(({ video }) => {
+        if (!video?.url || seenUrls.has(video.url)) return false;
+        seenUrls.add(video.url);
+        return true;
+      });
+  }
+
   function compactVideoLinksFor(match) {
     if (matchHasHiddenDependentTeam(match)) {
       return [];
     }
 
-    const links = [];
-    const short = match.videos?.short || null;
-    const extended = match.videos?.extended || null;
-    if (short?.url) links.push(renderTileVideoLink("short", short));
-    if (extended?.url) links.push(renderTileVideoLink("extended", extended));
-    return links;
+    return directVideoEntries(match).map(({ kind, video }) => renderTileVideoLink(kind, video));
   }
 
   function renderTileVideoLinks(match) {
@@ -1355,15 +1361,9 @@
       return "";
     }
 
-    const extended = match.videos?.extended || null;
-    const short = match.videos?.short || null;
-
-    if (short?.url) {
-      links.push(renderVideoLink("short", short));
-    }
-    if (extended?.url) {
-      links.push(renderVideoLink("extended", extended));
-    }
+    directVideoEntries(match).forEach(({ kind, video }) => {
+      links.push(renderVideoLink(kind, video));
+    });
 
     if (!links.length && canSearchVideo(match)) {
       links.push(renderVideoSearchLink(match));
