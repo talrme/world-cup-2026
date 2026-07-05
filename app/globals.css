@@ -1806,6 +1806,19 @@ h1 {
   padding: 8px;
 }
 
+.auto-round-control {
+  cursor: pointer;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
+}
+
+.auto-round-control em {
+  color: rgba(16, 18, 15, 0.62);
+  font-size: 0.78rem;
+  font-style: normal;
+  line-height: 1.25;
+}
+
 .settings-panel .score-date-toggle {
   color: #102016;
   font-size: 0.9rem;

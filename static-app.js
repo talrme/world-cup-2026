@@ -38,6 +38,7 @@
     videoStyle: "compact",
     timelineStart: "today",
     scoreStartupMode: "previous",
+    autoRevealPreviousRounds: true,
     visibleViews: [...defaultVisibleViewIds],
   };
   const settingGroups = [
@@ -366,6 +367,7 @@
     { stage: "Semifinals", label: "Semifinals", shortLabel: "Semis", className: "sf" },
     { stage: "Finals", label: "Finals", shortLabel: "Finals", className: "finals" },
   ];
+  const spoilerRoundOrder = ["Group", "Round of 32", "Round of 16", "Quarterfinals", "Semifinals", "Finals"];
 
   function normalizeBracketStageValue(value) {
     return String(value || "")
@@ -391,6 +393,33 @@
 
   function stageMatchNames(stage) {
     return stage === "Finals" ? ["Third Place", "Final"] : [stage];
+  }
+
+  function spoilerRoundForMatch(match) {
+    if (match.stage === "Third Place" || match.stage === "Final") return "Finals";
+    return match.stage || "";
+  }
+
+  function spoilerRoundIndex(round) {
+    return spoilerRoundOrder.indexOf(round);
+  }
+
+  function currentStartedSpoilerRound(now = state.now) {
+    const nowTime = now instanceof Date ? now.getTime() : Date.parse(now);
+    const validNow = Number.isFinite(nowTime) ? nowTime : Date.now();
+    const startedRounds = spoilerRoundOrder
+      .map((round) => {
+        const firstKickoff = matches
+          .filter((match) => spoilerRoundForMatch(match) === round)
+          .map((match) => kickoffDate(match).getTime())
+          .filter(Number.isFinite)
+          .sort((a, b) => a - b)[0];
+        return { round, firstKickoff };
+      })
+      .filter((item) => Number.isFinite(item.firstKickoff) && item.firstKickoff <= validNow)
+      .sort((a, b) => a.firstKickoff - b.firstKickoff);
+
+    return startedRounds[startedRounds.length - 1]?.round || null;
   }
 
   function defaultBracketStartStage(now = state.now) {
@@ -477,6 +506,16 @@
     state.revealedGroups.clear();
     state.hiddenGroups.clear();
     setScoreIdsVisible(scoredMatchIds((match) => localDateKey(match) <= state.scoreCutoffDate), true);
+  }
+
+  function previousRoundAutoReveals(match) {
+    if (!state.settings.autoRevealPreviousRounds || state.settings.scoreStartupMode === "hidden") return false;
+
+    const currentRound = currentStartedSpoilerRound();
+    const currentIndex = spoilerRoundIndex(currentRound);
+    const roundIndex = spoilerRoundIndex(spoilerRoundForMatch(match));
+
+    return currentIndex > 0 && roundIndex >= 0 && roundIndex < currentIndex;
   }
 
   function migrateScoreVisibilityState() {
@@ -1246,7 +1285,7 @@
     if (!hasScore(match) || state.hiddenScores.has(match.id)) return false;
     if (state.revealedScores.has(match.id)) return true;
     if (forceHidden) return false;
-    return Boolean(forceVisible || scoreCutoffReveals(match));
+    return Boolean(forceVisible || previousRoundAutoReveals(match) || scoreCutoffReveals(match));
   }
 
   function spoilerText(match, forceVisible = false, forceHidden = false) {
@@ -2715,6 +2754,13 @@
           </section>
           <section class="settings-section settings-score-section">
             <span>Score reveal</span>
+            <label class="settings-score-card auto-round-control">
+              <span class="score-date-toggle">
+                <input data-control="auto-reveal-previous-rounds" type="checkbox" ${state.settings.autoRevealPreviousRounds ? "checked" : ""} />
+                <span>Reveal previous rounds automatically</span>
+              </span>
+              <em>When a new round starts, earlier completed rounds are treated as already known.</em>
+            </label>
             <div class="settings-score-card score-date-control" data-score-date-open>
               <label class="score-date-toggle">
                 <input data-control="score-cutoff-enabled" type="checkbox" ${state.scoreCutoffEnabled ? "checked" : ""} />
@@ -3731,6 +3777,14 @@
   });
 
   document.addEventListener("change", (event) => {
+    if (event.target.dataset.control === "auto-reveal-previous-rounds") {
+      state.settings = {
+        ...state.settings,
+        autoRevealPreviousRounds: event.target.checked,
+      };
+      saveSettings();
+      render();
+    }
     if (event.target.dataset.control === "score-cutoff-enabled") {
       state.scoreCutoffEnabled = event.target.checked;
       if (state.scoreCutoffEnabled) {
