@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T08:23:59+00:00",
+  "generatedAt": "2026-07-05T10:36:50+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1595,39 +1595,40 @@
       "refreshReason": "past 5 days"
     },
     "82": {
-      "headline": "Belgium Edges Senegal in Thrilling Round of 32 Encounter",
-      "summary": "Belgium secured a hard-fought 3-2 victory over Senegal to advance in the tournament.",
+      "headline": "Belgium Edges Senegal in Five-Goal Thriller",
+      "summary": "Belgium secured a hard-fought 3-2 victory over Senegal in the Round of 32 to move on in the tournament.",
       "story": [
-        "Belgium successfully navigated a high-pressure Round of 32 matchup, overcoming a resilient Senegal side in a 3-2 thriller. After a somewhat inconsistent group stage that saw them draw against Egypt and Iran before finding their rhythm against New Zealand, Belgium proved they could handle the intensity of knockout football.",
-        "With this victory, Belgium moves forward to a high-stakes Round of 16 clash against the United States. Having survived a narrow margin in this round, the Belgian squad will need to maintain their offensive momentum as they prepare to face the tournament hosts in their next fixture."
+        "Belgium continued their momentum from a dominant group stage finish by narrowly overcoming Senegal in a high-scoring knockout clash. After a shaky start to their campaign, the Belgians demonstrated their attacking depth to edge out a resilient Senegalese side.",
+        "Senegal pushed Belgium to the limit, but ultimately fell short in their bid to extend their tournament run. Having entered the knockout phase as one of the best third-place teams, they showed significant offensive spark but could not contain the Belgian response.",
+        "With this result, Belgium advances to the Round of 16 where they are set to face the United States. The victory solidifies Belgium as a serious contender as they head into a high-stakes matchup against the hosts."
       ],
       "bullets": [
-        "Belgium continues their journey after a narrow one-goal margin victory.",
-        "Senegal exits the tournament after a spirited performance that pushed Belgium to the limit.",
-        "Belgium will face the United States in the Round of 16 on July 6."
+        "Belgium advances to face the United States in the Round of 16.",
+        "The 3-2 result marks a continuation of Belgium's offensive resurgence after their 5-0 win over New Zealand in the final group match.",
+        "Senegal's tournament run concludes after a competitive display in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T10:25:05+00:00",
+      "updatedAt": "2026-07-05T10:36:50+00:00",
       "sourceHash": "251277091ff8721c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "81": {
-      "headline": "United States advances to Round of 16 with clean sheet victory",
-      "summary": "The United States secured a 2-0 win over Bosnia-Herzegovina to move past the Round of 32.",
+      "headline": "United States Advances to Round of 16 After Shutout Win",
+      "summary": "The United States secured a 2-0 victory over Bosnia-Herzegovina in the Round of 32 to move forward in the tournament.",
       "story": [
-        "The United States successfully navigated their Round of 32 knockout match, defeating Bosnia-Herzegovina 2-0. By maintaining a clean sheet and finding the back of the net twice, the U.S. squad proved their resilience after a narrow loss to Turkey in their final group stage fixture.",
-        "This victory validates the team's position as a top contender, having entered the knockout phase as the winner of Group D. The win marks a significant step forward in their tournament journey, allowing them to bypass the uncertainty of a potential penalty shootout or an early exit.",
-        "With this result, the United States now turns its attention to the Round of 16. They are set to face Belgium on July 6, a match that will test their defensive discipline and attacking depth as the tournament field continues to narrow."
+        "The United States successfully navigated their Round of 32 matchup, dispatching Bosnia-Herzegovina with a clean 2-0 scoreline. By winning this knockout fixture, the U.S. proved their resilience after a narrow loss to Turkey in their final group stage game.",
+        "This victory holds significant weight for the U.S. campaign, as it confirms their place in the Round of 16. The team entered this match as the winners of Group D, having previously defeated Paraguay and Australia during their group stage run.",
+        "Looking ahead, the path forward is set. The United States will now face Belgium in the next round, a high-stakes encounter scheduled for July 6. The team will look to build on this defensive performance as they continue their pursuit in the knockout bracket."
       ],
       "bullets": [
-        "The 2-0 victory ensures the United States continues their campaign in the Round of 16.",
-        "The U.S. will face Belgium on July 6 for a spot in the next stage of the tournament.",
-        "Bosnia-Herzegovina exits the tournament following the loss in this Round of 32 matchup."
+        "The United States earned a clean sheet, winning 2-0 to advance to the Round of 16.",
+        "The U.S. will face Belgium on July 6 in the next stage of the tournament.",
+        "This win follows a strong group stage performance where the U.S. finished at the top of Group D."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T10:24:57+00:00",
+      "updatedAt": "2026-07-05T10:36:42+00:00",
       "sourceHash": "fdfd4150457461db",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
