@@ -64,7 +64,7 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-3.1-flash-lite
       GEMINI_SLEEP_SECONDS: "6"
-      SCHEDULED_AI_MAX_CALLS: "25"
+      SCHEDULED_AI_MAX_CALLS: "30"
       SCHEDULED_VIDEO_MAX_SEARCHES: "8"
       SCHEDULED_VIDEO_RECENT_HOURS: "48"
 
@@ -103,7 +103,7 @@ jobs:
             args+=(--video-max-searches "$SCHEDULED_VIDEO_MAX_SEARCHES")
             args+=(--video-recent-hours "$SCHEDULED_VIDEO_RECENT_HOURS")
             args+=(--ai-max-calls "$SCHEDULED_AI_MAX_CALLS")
-            args+=(--ai-match-content recaps)
+            args+=(--ai-match-content all)
             args+=(--ai-max-groups 0)
             args+=(--ai-max-players 0)
           fi

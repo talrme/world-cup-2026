@@ -228,7 +228,7 @@ Cost-control rules:
 
 Implemented generation cadence:
 
-- Scheduled GitHub runs use `--mode standard`, spaced by `GEMINI_SLEEP_SECONDS=10`, with a 40-call cap.
+- Scheduled GitHub runs use `--mode standard`, `--match-content all`, `--max-groups 0`, and `--max-players 0`, spaced by `GEMINI_SLEEP_SECONDS=6`, with a 30-call cap. That keeps frequent jobs focused on match previews and match recaps while leaving broader group/player backfills for manual runs.
 - Future matches with at least one real team are always considered for population. Bracket matches with exactly one known team use `prompts/match_partial.md`. They refresh immediately if source data or prompts change, otherwise only when weekly stale. Knockout matches with zero real teams are skipped until a team appears.
 - Matches from the past five days are eligible once daily. Any meaningful source change, including status/result/video changes, jumps the match to the front of the next run.
 - `seed` mode is for manual backfill before deployment or after large prompt changes. It considers every planned-team match, every group, and the top 30 players, then still respects `--max-calls` and `--max-estimated-cost`. At `GEMINI_SLEEP_SECONDS=10`, a full 120-call seed can take about 20 minutes, so the workflow timeout is intentionally longer than normal scheduled work needs.

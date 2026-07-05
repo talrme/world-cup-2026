@@ -244,8 +244,8 @@ What it does:
 Frequent scheduled runs are intentionally lean:
 
 - Video search is capped at 8 video-slot searches and limited to matches from the last 48 hours. Use manual `all_videos` or local `python3 scripts/update_highlights.py --all` for a slower full sweep.
-- AI is capped at 25 Gemini calls per scheduled run and refreshes match recaps only, with group and player AI disabled for frequent jobs. Broader preview/group/player backfills should be run manually or locally when needed.
-- `GEMINI_SLEEP_SECONDS` is 6 seconds in Actions, so even four AI calls stay comfortably below the workflow timeout.
+- AI is capped at 30 Gemini calls per scheduled run and refreshes match previews plus match recaps, with group and player AI disabled for frequent jobs. Broader group/player backfills should be run manually or locally when needed.
+- `GEMINI_SLEEP_SECONDS` is 6 seconds in Actions, so the scheduled AI cap adds roughly three minutes of intentional spacing before API response time.
 
 AI insight automation rules:
 
