@@ -2950,18 +2950,7 @@ window.WORLD_CUP_DATA = {
           "spoilerSafeTitle": true,
           "source": "foxsports-channel"
         },
-        "lastCheckedAt": "2026-07-05T01:21:06+00:00",
-        "short": {
-          "searchUrl": "https://www.youtube.com/results?search_query=Canada+vs+Morocco+highlights+FOX+Sports+World+Cup",
-          "lastCheckedAt": "2026-07-05T01:21:06+00:00",
-          "title": "Canada vs. Morocco Highlights | 2022 FIFA World Cup",
-          "url": "https://www.youtube.com/watch?v=yO-_MsCBMcU",
-          "channel": "FOX Soccer",
-          "durationText": "4 min",
-          "channelVerified": true,
-          "spoilerSafeTitle": true,
-          "source": "youtube-search"
-        }
+        "lastCheckedAt": "2026-07-05T03:01:27+00:00"
       }
     },
     {

@@ -27,6 +27,7 @@ DEFAULT_STATIC_DATA = ROOT / "schedule-data.js"
 YOUTUBE_RESULTS = "https://www.youtube.com/results?search_query={query}"
 YOUTUBE_OEMBED = "https://www.youtube.com/oembed?{query}"
 FOX_SPORTS_VIDEOS = "https://www.youtube.com/@foxsports/videos"
+TOURNAMENT_YEAR = "2026"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
@@ -242,15 +243,29 @@ def is_fox_channel(value: str) -> bool:
     return channel in {"fox sports", "fox soccer"} or channel.startswith("fox sports ")
 
 
+def title_matches_tournament(title: str) -> bool:
+    normalized = title.lower()
+    years = re.findall(r"\b20\d{2}\b", title)
+    if "world cup" not in normalized:
+        return False
+    if years and any(year != TOURNAMENT_YEAR for year in years):
+        return False
+    return TOURNAMENT_YEAR in years or TOURNAMENT_YEAR in normalized
+
+
 def existing_video_is_safe(video: dict[str, str] | None) -> bool:
     if not video or not video.get("url"):
+        return False
+
+    title = video.get("title", "")
+    if not title_matches_tournament(title):
         return False
 
     if video.get("channelVerified") and video.get("spoilerSafeTitle"):
         return True
 
     return is_fox_channel(video.get("channel", "")) and not title_has_spoiler(
-        video.get("title", "")
+        title
     )
 
 
@@ -263,6 +278,9 @@ def verified_existing_video(video: dict[str, Any], checked: str) -> dict[str, An
     title = metadata.get("title") or video.get("title", "")
     channel = metadata.get("channel") or video.get("channel", "")
     duration = metadata.get("durationText") or video.get("durationText", "")
+    if not title_matches_tournament(title):
+        return None
+
     verified = dict(video)
     verified.update(
         {
@@ -492,11 +510,15 @@ def score_candidate(
         return -999
     if title_has_spoiler(candidate["title"]):
         return -999
+    if not title_matches_tournament(candidate["title"]):
+        return -999
 
     if "fox soccer" in combined:
         score += 70
     if "fox sports" in combined:
         score += 55
+    if TOURNAMENT_YEAR in title:
+        score += 35
     if "fifa world cup" in title or "world cup" in title:
         score += 20
 
@@ -583,7 +605,7 @@ def search_queries(match: dict[str, Any], kind: str) -> list[str]:
             [
                 f"Fox Soccer {pair} {label} 2026 FIFA World Cup",
                 f"FOX Sports {pair} {label} 2026 FIFA World Cup",
-                f"{pair} {label} FOX Sports World Cup",
+                f"{pair} {label} FOX Sports 2026 FIFA World Cup",
             ]
         )
 
@@ -683,6 +705,7 @@ def refresh_match(
         if existing_video_is_safe(existing) and not force:
             continue
 
+        remove_existing = bool(existing and existing.get("url") and not existing_video_is_safe(existing))
         checked_count += 1
         candidate, url = best_video(match, kind)
         next_value: dict[str, Any] | None = None
@@ -707,6 +730,12 @@ def refresh_match(
                 stored_videos = match.setdefault("videos", {})
                 stored_videos[kind] = next_value
                 stored_videos["lastCheckedAt"] = checked
+        elif remove_existing:
+            updated += 1
+            if not dry_run:
+                stored_videos = match.setdefault("videos", {})
+                stored_videos.pop(kind, None)
+                stored_videos["lastCheckedAt"] = checked
 
         if delay:
             time.sleep(delay)
@@ -729,6 +758,12 @@ def main() -> int:
     parser.add_argument("--sync-only", action="store_true", help="Only regenerate schedule-data.js")
     parser.add_argument("--sleep", type=float, default=1.2, help="Seconds to wait between YouTube requests")
     parser.add_argument(
+        "--match-id",
+        action="append",
+        default=[],
+        help="Only refresh this match id. May be passed multiple times.",
+    )
+    parser.add_argument(
         "--recent-hours",
         type=float,
         default=72,
@@ -747,8 +782,12 @@ def main() -> int:
     found = 0
     updated = 0
     eligible = 0
+    match_ids = {int(value) for value in args.match_id}
 
     for match in data["matches"]:
+        if match_ids and match.get("id") not in match_ids:
+            continue
+
         if not is_video_eligible(match, args.all, args.recent_hours):
             continue
 

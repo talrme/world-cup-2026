@@ -729,6 +729,7 @@
   }
 
   function renderInsightsButton(match, compact = false) {
+    if (matchHasHiddenDependentTeam(match)) return "";
     if (!matchPreviewFor(match) && !matchRecapFor(match)) return "";
     return `
       <button class="${compact ? "tile-insights-button" : "insights-button"}" data-match-insights="${match.id}" type="button" title="Open match insights">
@@ -1044,21 +1045,44 @@
     return `<span class="${escapeHtml(`${className}${placeholderClass}`)}">${flagHtml}<span class="team-label">${escapeHtml(team)}</span></span>`;
   }
 
+  function visibleTeamForMatch(match, side) {
+    const source = match[`${side}Source`];
+    if (source && !bracketSourceVisible(source)) {
+      return shouldUseBracketTbd(match, source) ? "TBD" : source;
+    }
+
+    const team = match[side];
+    return shouldUseBracketTbd(match, team) ? "TBD" : team;
+  }
+
+  function matchHasHiddenDependentTeam(match) {
+    return ["home", "away"].some((side) => {
+      const source = match[`${side}Source`];
+      return Boolean(source && /^(Winner|Loser) Match \d+$/i.test(String(source)) && !bracketSourceVisible(source));
+    });
+  }
+
   function teamRank(team) {
     return teamFifaRanks[team] || null;
   }
 
   function renderRankingRow(match) {
-    const homeRank = teamRank(match.home);
-    const awayRank = teamRank(match.away);
+    const homeTeam = visibleTeamForMatch(match, "home");
+    const awayTeam = visibleTeamForMatch(match, "away");
+    if (!isRealTeam(homeTeam) || !isRealTeam(awayTeam)) {
+      return "";
+    }
+
+    const homeRank = teamRank(homeTeam);
+    const awayRank = teamRank(awayTeam);
 
     if (!homeRank || !awayRank) {
       return "";
     }
 
     const rankings = [
-      { team: match.home, rank: homeRank, order: 0 },
-      { team: match.away, rank: awayRank, order: 1 },
+      { team: homeTeam, rank: homeRank, order: 0 },
+      { team: awayTeam, rank: awayRank, order: 1 },
     ].sort((a, b) => a.rank - b.rank || a.order - b.order);
 
     return `
@@ -1122,6 +1146,8 @@
   }
 
   function renderOddsProbability(match) {
+    if (matchHasHiddenDependentTeam(match)) return "";
+
     const odds = oddsForMatch(match);
     const probabilities = oddsProbabilities(odds);
     if (!odds || !probabilities) return "";
@@ -1247,7 +1273,11 @@
   }
 
   function youtubeSearchUrl(match) {
-    const query = `Fox Sports ${match.home} vs ${match.away} Highlights`;
+    const homeTeam = visibleTeamForMatch(match, "home");
+    const awayTeam = visibleTeamForMatch(match, "away");
+    const query = isRealTeam(homeTeam) && isRealTeam(awayTeam)
+      ? `Fox Sports ${homeTeam} vs ${awayTeam} Highlights 2026 FIFA World Cup`
+      : "Fox Sports 2026 FIFA World Cup Highlights";
     return `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`;
   }
 
@@ -1277,6 +1307,10 @@
   }
 
   function compactVideoLinksFor(match) {
+    if (matchHasHiddenDependentTeam(match)) {
+      return [];
+    }
+
     const links = [];
     const short = match.videos?.short || null;
     const extended = match.videos?.extended || null;
@@ -1306,6 +1340,10 @@
 
   function renderInlineVideoLinks(match) {
     const links = [];
+    if (matchHasHiddenDependentTeam(match)) {
+      return "";
+    }
+
     const extended = match.videos?.extended || null;
     const short = match.videos?.short || null;
 
@@ -1410,10 +1448,12 @@
 
   function filteredMatches() {
     return matches.filter((match) => {
+      const homeTeam = visibleTeamForMatch(match, "home");
+      const awayTeam = visibleTeamForMatch(match, "away");
       const countryMatches =
         state.countryMode === "all" ||
-        state.selectedCountries.has(match.home) ||
-        state.selectedCountries.has(match.away);
+        state.selectedCountries.has(homeTeam) ||
+        state.selectedCountries.has(awayTeam);
 
       if (!countryMatches) return false;
       return true;
@@ -1471,6 +1511,10 @@
 
   function renderVideoActions(match) {
     const current = matchState(match);
+    if (matchHasHiddenDependentTeam(match)) {
+      return "";
+    }
+
     const extended = match.videos?.extended || null;
     const short = match.videos?.short || null;
     const actions = [];
@@ -1504,6 +1548,8 @@
     const videoClass = hasDirectVideo(match) ? "video-ready" : "";
     const notice = matchNotice(match, current);
     const videoLinks = renderInlineVideoLinks(match);
+    const homeTeam = visibleTeamForMatch(match, "home");
+    const awayTeam = visibleTeamForMatch(match, "away");
     const footer = notice || videoLinks
       ? `<span class="card-footer">
             ${notice ? `<span class="match-notice">${escapeHtml(notice)}</span>` : "<span></span>"}
@@ -1519,9 +1565,9 @@
             <span>${escapeHtml(formatTime(match))}</span>
           </span>
           <span class="teams">
-            ${renderTeamName(match.home, `team-name ${teamResultClass(match, "home")}`)}
+            ${renderTeamName(homeTeam, `team-name ${teamResultClass(match, "home")}`)}
             ${renderScorePill(match)}
-            ${renderTeamName(match.away, `team-name team-away ${teamResultClass(match, "away")}`)}
+            ${renderTeamName(awayTeam, `team-name team-away ${teamResultClass(match, "away")}`)}
           </span>
           ${footer}
         </div>
@@ -1531,6 +1577,9 @@
 
   function renderDetailPanel(match) {
     const current = matchState(match);
+    const homeTeam = visibleTeamForMatch(match, "home");
+    const awayTeam = visibleTeamForMatch(match, "away");
+    const hiddenDependentTeam = matchHasHiddenDependentTeam(match);
     const checked = match.videos?.lastCheckedAt
       ? `<p class="last-checked">Checked ${escapeHtml(new Date(match.videos.lastCheckedAt).toLocaleString())}</p>`
       : "";
@@ -1538,8 +1587,8 @@
       hasScore(match) || ["completed", "final", "live", "in_progress", "in-progress"].includes(String(match.status || "").toLowerCase())
     );
     const scoreRevealed = hasScore(match) && isScoreVisible(match);
-    const preview = matchPreviewFor(match);
-    const recap = matchRecapFor(match);
+    const preview = hiddenDependentTeam ? null : matchPreviewFor(match);
+    const recap = hiddenDependentTeam ? null : matchRecapFor(match);
     const previewOpen = Boolean(preview && (!recap || !scoreRevealed));
     const recapOpen = Boolean(recap && scoreRevealed);
 
@@ -1550,9 +1599,9 @@
           <button aria-label="Minimize match details" class="icon-button" data-detail-close title="Minimize match details" type="button">×</button>
         </div>
         <h2 class="detail-title-teams">
-          ${renderTeamName(match.home, `detail-team-name ${teamResultClass(match, "home")}`)}
+          ${renderTeamName(homeTeam, `detail-team-name ${teamResultClass(match, "home")}`)}
           <span class="detail-vs">vs</span>
-          ${renderTeamName(match.away, `detail-team-name ${teamResultClass(match, "away")}`)}
+          ${renderTeamName(awayTeam, `detail-team-name ${teamResultClass(match, "away")}`)}
         </h2>
         <div class="detail-score">${renderScorePill(match)}</div>
         ${videoStatus(match) ? `<div class="detail-video-state">${escapeHtml(videoStatus(match))}</div>` : ""}
@@ -1589,10 +1638,12 @@
   }
 
   function renderDetailHandle(match) {
+    const homeTeam = visibleTeamForMatch(match, "home");
+    const awayTeam = visibleTeamForMatch(match, "away");
     return `
       <button aria-label="Show match details" class="detail-mini" data-detail-open title="Show match details" type="button">
         <span>Match details</span>
-        <strong>${renderTeamName(match.home, "mini-team-name")} vs ${renderTeamName(match.away, "mini-team-name")}</strong>
+        <strong>${renderTeamName(homeTeam, "mini-team-name")} vs ${renderTeamName(awayTeam, "mini-team-name")}</strong>
       </button>
     `;
   }
@@ -1668,14 +1719,16 @@
         const fixtureRows = visibleGroupMatches
           .map((match) => {
             const current = matchState(match);
+            const homeTeam = visibleTeamForMatch(match, "home");
+            const awayTeam = visibleTeamForMatch(match, "away");
             return `
               <article class="fixture-row is-${current}">
                 <div class="fixture-select" data-match-id="${match.id}" role="button" tabindex="0">
                   <span class="fixture-time">${escapeHtml(formatCompactDateTime(match))}</span>
                   <span class="fixture-teams">
-                    ${renderTeamName(match.home, `fixture-team fixture-home ${teamResultClass(match, "home")}`)}
+                    ${renderTeamName(homeTeam, `fixture-team fixture-home ${teamResultClass(match, "home")}`)}
                     ${renderScorePill(match)}
-                    ${renderTeamName(match.away, `fixture-team fixture-away ${teamResultClass(match, "away")}`)}
+                    ${renderTeamName(awayTeam, `fixture-team fixture-away ${teamResultClass(match, "away")}`)}
                   </span>
                 </div>
               </article>
@@ -1797,13 +1850,7 @@
   }
 
   function bracketDisplayTeam(match, side) {
-    const source = match[`${side}Source`];
-    if (source && !bracketSourceVisible(source)) {
-      return shouldUseBracketTbd(match, source) ? "TBD" : source;
-    }
-
-    const team = match[side];
-    return shouldUseBracketTbd(match, team) ? "TBD" : team;
+    return visibleTeamForMatch(match, side);
   }
 
   function renderBracketClinchedHints(label) {
@@ -1935,9 +1982,11 @@
     const roundTone = match.stage === "Final" ? "is-final" : match.stage === "Third Place" ? "is-third" : "";
     const matchLabel = match.stage === "Final" || match.stage === "Third Place" ? match.stage : formatCompactDateTime(match);
     const matchTime = match.stage === "Final" || match.stage === "Third Place" ? formatCompactDateTime(match) : "";
+    const homeTeam = visibleTeamForMatch(match, "home");
+    const awayTeam = visibleTeamForMatch(match, "away");
     const actions = renderBracketVideoLinks(match);
     return `
-      <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(match.home)} vs ${escapeHtml(match.away)}"${bracketSlotStyle(match, slotMap)}>
+      <article class="bracket-match ${tone} ${roundTone} is-${current}" data-match-id="${match.id}" role="button" tabindex="0" aria-label="Open match details for ${escapeHtml(homeTeam)} vs ${escapeHtml(awayTeam)}"${bracketSlotStyle(match, slotMap)}>
         <div class="bracket-match-meta">
           <span>${escapeHtml(matchLabel)}</span>
           ${matchTime ? `<em>${escapeHtml(matchTime)}</em>` : ""}
@@ -2162,14 +2211,16 @@
         ${list
           .map((match) => {
             const current = matchState(match);
+            const homeTeam = visibleTeamForMatch(match, "home");
+            const awayTeam = visibleTeamForMatch(match, "away");
             return `
               <article class="star-node is-${current}">
                 <div class="star-select" data-match-id="${match.id}" role="button" tabindex="0">
                   <span class="tile-time">${escapeHtml(formatCompactDateTime(match))}</span>
                   <div class="tile-teams">
-                    <strong>${renderTeamName(match.home, `star-team-name ${teamResultClass(match, "home")}`)}</strong>
+                    <strong>${renderTeamName(homeTeam, `star-team-name ${teamResultClass(match, "home")}`)}</strong>
                     <span class="tile-score">${renderScorePill(match)}</span>
-                    <strong>${renderTeamName(match.away, `star-team-name ${teamResultClass(match, "away")}`)}</strong>
+                    <strong>${renderTeamName(awayTeam, `star-team-name ${teamResultClass(match, "away")}`)}</strong>
                   </div>
                 </div>
                 ${renderTileVideoLinks(match)}
