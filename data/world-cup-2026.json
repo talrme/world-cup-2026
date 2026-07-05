@@ -3003,7 +3003,7 @@
       "stage": "Round of 16",
       "round": "Knockout",
       "date": "2026-07-05",
-      "time": "20:00",
+      "time": "21:00",
       "home": "Mexico",
       "away": "England",
       "status": "scheduled",
@@ -3397,6 +3397,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-05T22:35:31+00:00",
+  "bracketUpdatedAt": "2026-07-05T23:41:36+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
