@@ -1270,15 +1270,11 @@
     const current = matchState(match);
     if (hasDirectVideo(match)) return "";
     if (current === "live") return "Game In Progress";
-    if (current === "completed" || current === "needs-result") return "Game Completed, highlights not ready yet";
     return "";
   }
 
   function matchNotice(match, current = matchState(match)) {
     if (current === "live") return "Game In Progress";
-    if ((current === "completed" || current === "needs-result") && !hasDirectVideo(match)) {
-      return "Game Completed, highlights not ready yet";
-    }
     return "";
   }
 
