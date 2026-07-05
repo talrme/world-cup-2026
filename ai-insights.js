@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-05T20:23:30+00:00",
+  "generatedAt": "2026-07-05T21:37:25+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1798,18 +1798,17 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Brazil and Norway Deadlocked in Round of 16",
       "summary": "Brazil and Norway played to a 0-0 draw in their Round of 16 match, leaving the outcome to be decided beyond regulation.",
       "story": [
-        "The Round of 16 clash between Brazil and Norway ended in a stalemate, with neither side able to break the deadlock through the duration of the match. Both teams entered this knockout fixture following successful campaigns in the Round of 32, where Brazil overcame Japan 2-1 and Norway secured a 2-1 victory over Ivory Coast.",
-        "Brazil arrived at this stage after an impressive group phase where they remained unbeaten, including a 3-0 win over Scotland and a 3-0 victory against Haiti. Their defensive consistency throughout the tournament was on display again as they kept a clean sheet against a challenging Norwegian side.",
-        "Norway, meanwhile, navigated a high-scoring group stage that saw them defeat Iraq 4-1 and Senegal 3-2 before a loss to France. Their ability to find the back of the net was a hallmark of their earlier performances, but they found the Brazilian defense a much tougher puzzle to solve in this encounter.",
-        "With the scoreline locked at 0-0, both teams now face the pressure of determining who moves forward in the tournament bracket. The result reflects the fine margins that define knockout football at this level, as both nations look to capitalize on their previous momentum to secure a path to the next round."
+        "Brazil and Norway remained scoreless through the duration of their Round of 16 encounter, resulting in a 0-0 stalemate. The match proved to be a defensive battle as neither side could break the deadlock to secure a path forward in the knockout bracket.",
+        "Brazil arrived at this stage after a strong run, including a 2-1 victory over Japan in the Round of 32 and an undefeated group stage performance. Their offense, which had been productive throughout the tournament, faced a stern test against the Norwegian backline.",
+        "Norway entered this match following a hard-fought 2-1 win against Ivory Coast in the previous round. Despite showing offensive flashes earlier in the tournament, including a 4-1 win over Iraq and a 3-2 victory against Senegal, they were unable to find the back of the net in this high-stakes fixture."
       ],
       "bullets": [
-        "Brazil entered the match following a strong run, including a 3-0 win over Scotland and a 2-1 victory against Japan in the previous round.",
-        "Norway displayed high-scoring form in their group stage, notably netting four goals against Iraq.",
-        "The 0-0 result marks a significant defensive effort from both sides in a high-stakes knockout environment."
+        "The match finished 0-0, requiring further action to determine which team advances to the next stage.",
+        "Brazil maintained their unbeaten run in the tournament despite failing to score in this fixture.",
+        "Norway displayed defensive resilience to hold a potent Brazilian attack scoreless for the duration of the match."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T20:23:30+00:00",
+      "updatedAt": "2026-07-05T21:33:41+00:00",
       "sourceHash": "797bcb9bff744b25",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -4419,23 +4418,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "73": {
       "headline": "South Africa and Canada Clash in Round of 32",
-      "summary": "South Africa and Canada meet in the Round of 32 after both nations secured runner-up spots in their respective groups.",
+      "summary": "South Africa and Canada meet in the Round of 32 after navigating their respective groups to reach the knockout stage.",
       "story": [
-        "South Africa enters this knockout match following a resilient group stage campaign in Group A. After facing a difficult start against Mexico, they stabilized with a draw against Czechia and ultimately clinched their spot in the next round by defeating South Korea.",
-        "This matchup represents a significant opportunity for both teams to extend their tournament life. As runners-up, both sides have demonstrated the ability to navigate high-pressure moments throughout the group phase.",
-        "With the stakes now elevated to a single-elimination format, the focus shifts entirely to how these squads manage the transition from group play to the intensity of the knockout rounds."
+        "South Africa enters this knockout encounter following a resilient group stage performance. After an opening defeat to Mexico and a draw with Czechia, they secured their place in this round with a narrow victory over South Korea. Their ability to tighten up defensively as the tournament progressed will be a key factor as they transition into the high-stakes environment of the Round of 32.",
+        "Canada arrives at this matchup after a varied group stage campaign that showcased both their offensive potential and defensive challenges. They opened with a draw against Bosnia and Herzegovina, followed by a dominant six-goal performance against Qatar. Despite a loss to Switzerland in their final group match, they demonstrated they can be a dangerous attacking side when they find their rhythm.",
+        "This matchup pits the runner-up of Group A against the runner-up of Group B, with both teams looking to prove their consistency on the world stage. With the tournament shifting into a single-elimination format, the pressure is on both squads to execute their game plans precisely to keep their tournament hopes alive."
       ],
       "bullets": [
-        "South Africa's defensive organization was tested throughout Group A, culminating in a clean sheet in their final group match.",
-        "Canada showcased explosive attacking potential in their second group fixture, demonstrating their capacity to capitalize on scoring opportunities.",
-        "Both teams enter this fixture having navigated three distinct tactical challenges during the group stage."
+        "South Africa demonstrated defensive growth by keeping a clean sheet in their final group match against South Korea.",
+        "Both teams enter this knockout match having finished as runners-up in their respective groups."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:15:28+00:00",
-      "sourceHash": "ed33b8a47e48e342",
+      "updatedAt": "2026-07-05T21:34:12+00:00",
+      "sourceHash": "629c1ff25ebc5df0",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "74": {
       "headline": "Germany and Paraguay Face Off in Round of 32",
@@ -4460,22 +4458,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "79": {
       "headline": "Mexico and Ecuador Clash in Round of 32",
-      "summary": "Mexico enters the knockout stage as the winner of Group A to face Ecuador in a high-stakes Round of 32 match.",
+      "summary": "Mexico enters the knockout stage as a group winner to face Ecuador in a high-stakes Round of 32 matchup.",
       "story": [
-        "Mexico arrives at this Round of 32 encounter following a dominant group stage performance where they finished atop Group A. Their path included clean sheets against South Africa and South Korea, followed by a convincing three-goal victory over Czechia to secure their spot in the knockout bracket.",
-        "Ecuador navigated a challenging path to reach this stage, ultimately securing their place as one of the best third-place finishers. After a narrow loss to Ivory Coast and a scoreless draw with Curacao, they demonstrated resilience by defeating Germany in their final group match to keep their tournament hopes alive.",
-        "This matchup brings together two teams with contrasting group stage experiences. Mexico enters with momentum and defensive solidity, while Ecuador arrives battle-tested after a high-pressure win against a major European side. With no second chances in the knockout format, both squads must adapt quickly to the intensity of the Round of 32."
+        "Mexico arrives at this Round of 32 encounter following a dominant performance in Group A, where they secured the top spot. Their group stage campaign was marked by consistent defensive stability and an effective attack that allowed them to navigate through three matches without conceding a single goal.",
+        "This matchup presents a test of momentum as Mexico looks to maintain the form that saw them finish their group stage with a perfect record. Meanwhile, Ecuador will aim to carry the confidence gained from their decisive final group win into this opening knockout battle at Estadio Azteca."
       ],
       "bullets": [
-        "Mexico maintained a perfect defensive record in the group stage, conceding zero goals across three matches.",
-        "Ecuador's group stage concluded with a significant 2-1 victory over Germany, providing them with momentum heading into this knockout fixture."
+        "Mexico maintained a clean sheet throughout all three of their group stage matches.",
+        "Ecuador secured their spot in the Round of 32 with a hard-fought 2-1 victory against Germany in their final group game."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:16:30+00:00",
-      "sourceHash": "fb946d963e208322",
+      "updatedAt": "2026-07-05T21:34:05+00:00",
+      "sourceHash": "4085045eed09471a",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "81": {
       "headline": "United States Faces Bosnia-Herzegovina in Round of 32",
@@ -4536,687 +4533,467 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "manual spoiler-free preview target"
     },
     "53": {
-      "headline": "Group A Showdown: South Africa Faces South Korea",
-      "summary": "South Africa and South Korea meet at Estadio BBVA for their final Group A match of the tournament. Both teams look to make a significant impact in this pivotal Matchday 3 encounter.",
+      "headline": "Group A Stakes: South Africa Meets South Korea",
+      "summary": "South Africa and South Korea face off in their final group stage match with both teams looking to improve their standing in Group A.",
       "story": [
-        "The stage is set in Guadalupe, Mexico, as South Africa and South Korea prepare to clash at Estadio BBVA. This Matchday 3 fixture serves as a critical junction for both squads as they navigate the complexities of Group A.",
-        "South Africa enters the match looking to build on their recent performance, having secured a point in their previous outing against Czechia. After an opening match against Mexico, the team has shown resilience and will be eager to translate that effort into a complete performance on the pitch.",
-        "South Korea arrives at this fixture with three points from their first two matches. Following a victory against Czechia and a hard-fought contest against Mexico, they bring a balanced approach to this final group stage challenge.",
-        "Tactically, this matchup promises to be an intriguing battle. South Korea has demonstrated an ability to find the back of the net, while South Africa will be focused on maintaining defensive discipline while seeking opportunities to break through.",
-        "With the group standings currently tight, every moment in this match will be scrutinized. Fans can catch all the action live on FS1 as both teams aim to leave their mark on the tournament before the group phase concludes."
+        "South Korea enters this final group match with 3 points, having secured a victory against Czechia before a narrow defeat to Mexico. Their performance so far has kept them firmly in the mix as they look to capitalize on their current standing.",
+        "South Africa arrives at this fixture with 1 point from their first two matches. After an opening loss to Mexico, they managed to earn a draw against Czechia, providing them with a foundation to build upon for this decisive encounter.",
+        "The group dynamics are tight, with Mexico currently leading the table. Both South Korea and South Africa are aware of the importance of this Matchday 3 fixture as they aim to secure their best possible position before the group concludes."
       ],
       "bullets": [
-        "Watch how South Africa manages the transition game after their draw with Czechia.",
-        "Observe if South Korea can regain the offensive form they displayed in their opening victory.",
-        "Monitor the atmosphere at Estadio BBVA as the Group A standings reach a climax."
+        "South Korea holds 3 points with a goal difference of 0.",
+        "South Africa enters with 1 point and a goal difference of -2.",
+        "Both teams are playing their third and final match of the group stage."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "This is the final round of Group A play, with Mexico currently leading the group. South Korea sits in second place, followed by Czechia and South Africa, making this a high-stakes environment for the participants."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at the iconic Estadio BBVA in Guadalupe, Nuevo Leon. This venue has been a central hub for the tournament, providing a vibrant backdrop for this crucial international showdown."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:26:38+00:00",
-      "sourceHash": "570effc5a428125e",
-      "promptHash": "58c0eceedbff748a",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:34:20+00:00",
+      "sourceHash": "984fcc302915e011",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "54": {
-      "headline": "Group A Finale: Czechia Faces Mexico at Estadio Azteca",
-      "summary": "Czechia and Mexico meet on June 24, 2026, for the final matchday of Group A. This pivotal clash takes place at the historic Estadio Azteca in Mexico City, with both teams looking to make their mark on the tournament. Coverage is available on FOX as the group stage reaches its conclusion.",
+      "headline": "Czechia and Mexico face off in Group A finale",
+      "summary": "Czechia looks for a result against a perfect Mexico side to keep their tournament hopes alive in the final match of the group stage.",
       "story": [
-        "The stage is set in Mexico City for a high-stakes encounter as Group A concludes its preliminary round. Czechia travels to the iconic Estadio Azteca to face the host nation, Mexico, in a match that carries significant weight for the final group standings. The atmosphere in one of the world\u2019s most storied football cathedrals promises to be electric as these two sides square off.",
-        "Mexico enters this fixture with momentum, having secured 6 points from their first two matches. Their defensive discipline has been a hallmark of their performance thus far, as they have yet to concede a goal while maintaining a clean sheet record across their opening games against South Africa and South Korea.",
-        "On the other side, Czechia arrives at this matchday with 1 point from their first two outings. Following a narrow defeat to South Korea and a hard-fought draw against South Africa, they find themselves in a position where every minute on the pitch is critical. The team will be looking to capitalize on their opportunities and find the back of the net against a formidable Mexican defense.",
-        "Tactically, this matchup presents a fascinating contrast. Mexico has shown an ability to control the tempo and secure results, while Czechia\u2019s path through the group has been defined by close, competitive contests. As both teams take the field at 21:00 ET, the focus will be on how Czechia\u2019s attack navigates the pressure of the Azteca crowd and whether Mexico can maintain their perfect defensive start to the tournament."
+        "Mexico enters this final group match in strong form, having secured six points from their first two outings without conceding a single goal. Their defensive discipline has been a hallmark of their campaign, providing a solid foundation as they look to maintain their position at the top of the standings.",
+        "For Czechia, the situation is more urgent. With one point from two matches, they find themselves needing a strong performance to challenge for a spot in the next round. Their previous outings resulted in a narrow loss to South Korea and a draw against South Africa, leaving them with work to do to improve their goal difference.",
+        "This encounter at Estadio Azteca carries significant weight for both sides. While Mexico aims to solidify their standing, Czechia must push forward aggressively to find the goals that have been elusive in their opening fixtures. The tactical battle between Mexico's organized defense and Czechia's need for an offensive breakthrough will define the flow of the match."
       ],
       "bullets": [
-        "Watch for Mexico's defensive structure, which has kept the team undefeated and un-scored upon through two matches.",
-        "Observe how Czechia adjusts their offensive approach after securing 1 point in their previous two group fixtures.",
-        "The historic setting of Estadio Azteca in Mexico City adds a unique layer of pressure and intensity to this Group A finale."
+        "Mexico has maintained a clean sheet in both of their group matches so far.",
+        "Czechia enters the match with one point, trailing South Korea by two points in the group standings.",
+        "Mexico currently leads Group A with a goal difference of plus-three."
       ],
-      "sections": [
-        {
-          "title": "Group A Context",
-          "body": "Heading into this match, Mexico sits at the top of the group with 6 points. Czechia currently holds 1 point, placing them alongside South Africa in the standings as the group stage reaches its final round."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:26:46+00:00",
-      "sourceHash": "760f077bbe2a954f",
-      "promptHash": "58c0eceedbff748a",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:34:28+00:00",
+      "sourceHash": "910a795853e51753",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "51": {
-      "headline": "Group C Showdown: Morocco Faces Haiti in Atlanta",
-      "summary": "Morocco and Haiti meet at Mercedes-Benz Stadium for their final Group C matchday. With the group stage reaching its conclusion, both teams prepare for a pivotal encounter in Atlanta. Tune in on FS1 at 18:00 ET to see how this matchup unfolds.",
+      "headline": "Morocco and Haiti Conclude Group C Play",
+      "summary": "Morocco enters the final group match with four points while Haiti looks to secure their first result of the tournament.",
       "story": [
-        "The stage is set in Atlanta as Mercedes-Benz Stadium hosts a critical Group C fixture between Morocco and Haiti. As the tournament reaches Matchday 3, every moment on the pitch carries significant weight for the teams involved.",
-        "Morocco enters this match with momentum, having secured a draw against Brazil and a victory over Scotland in their previous outings. Their defensive organization and ability to find the back of the net have positioned them as a formidable side in this group.",
-        "Haiti, meanwhile, is looking to make a strong statement in their final group stage appearance. Despite facing tough challenges against Scotland and Brazil, they come into this encounter aiming to leave their mark on the competition and test their opponents.",
-        "The atmosphere in Georgia will be electric as these two nations clash. With the group standings tightly contested, both squads will be looking to execute their tactical plans with precision to ensure they finish their group campaign on a high note."
+        "Morocco arrives at this final group fixture in a strong position, having navigated their first two matches with a draw against Brazil and a victory over Scotland. With four points to their name, they have demonstrated defensive stability, conceding only a single goal throughout the competition thus far.",
+        "Haiti faces a difficult challenge in their third match, searching for their first points after narrow encounters against Scotland and Brazil. Despite the results in their opening two games, the team has gained valuable experience against high-level opposition and will look to finish their group campaign on a positive note.",
+        "The implications of this match are significant for the final Group C standings. With Brazil and Morocco currently tied on four points and Scotland trailing closely with three, every goal and point in this final round of fixtures carries weight for the teams aiming to secure their path forward."
       ],
       "bullets": [
-        "Watch how Morocco's defensive structure holds up against Haiti's attacking intent.",
-        "Observe the tactical adjustments both managers make for this high-stakes final group match.",
-        "Keep an eye on the midfield battle as both sides look to control the tempo at Mercedes-Benz Stadium."
+        "Morocco has maintained a solid defensive record, allowing only one goal in two matches.",
+        "Haiti is looking to break through and find the back of the net for the first time in the tournament.",
+        "Group C remains tight, with three teams currently separated by only one point."
       ],
-      "sections": [
-        {
-          "title": "Group C Context",
-          "body": "Heading into this match, Brazil and Morocco sit at the top of the table with 4 points each. Scotland follows closely with 3 points, while Haiti looks to challenge the group dynamics in their final appearance."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at the iconic Mercedes-Benz Stadium in Atlanta, Georgia. This venue is known for its incredible atmosphere and will provide a grand stage for this decisive Group C encounter."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:26:53+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:34:36+00:00",
       "sourceHash": "b52e2b58198cd398",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "52": {
-      "headline": "Scotland and Brazil Clash in High-Stakes Group C Finale",
-      "summary": "Scotland and Brazil meet at Hard Rock Stadium for a pivotal Matchday 3 encounter in Group C. With the group standings tightly packed, both teams look to secure their position in the tournament. Kickoff is set for 18:00 ET, with the match broadcast on FOX.",
+      "headline": "Scotland and Brazil Face Off in Group C Finale",
+      "summary": "Scotland and Brazil meet in their final group stage match with significant implications for the Group C standings.",
       "story": [
-        "The atmosphere at Hard Rock Stadium in Miami Gardens is set to be electric as Scotland and Brazil face off in a critical Matchday 3 fixture. As the group stage reaches its conclusion, every moment on the pitch carries significant weight for both sides as they fight for their future in the competition.",
-        "Brazil enters this encounter with 4 points from their first two matches. After a draw against Morocco and a convincing victory over Haiti, they have demonstrated a potent attack, having scored 4 goals while conceding only once. Their performance thus far has placed them at the top of the group standings heading into this final group stage game.",
-        "Scotland arrives in Miami with 3 points, having experienced a mixed start to their campaign. Their tournament began with a hard-fought win against Haiti, followed by a narrow encounter against Morocco. Currently sitting on 3 points, Scotland knows the importance of this matchup as they look to navigate the complexities of a competitive Group C.",
-        "Tactically, this match presents an intriguing contrast in styles. Brazil will look to maintain the momentum they built in their recent outing, while Scotland will be focused on defensive discipline and capitalizing on opportunities to break through. The stakes are clear, and both teams will need to be at their absolute best to navigate this final hurdle in the group stage.",
-        "The venue, Hard Rock Stadium, provides a world-class stage for this showdown. With the group standings showing Brazil on 4 points, Morocco on 4 points, Scotland on 3 points, and Haiti on 0 points, the math is complex and the pressure is palpable. Fans can expect a high-intensity battle as both nations strive to leave their mark on this tournament."
+        "Group C reaches a pivotal moment as Scotland and Brazil take the pitch for their third match of the group stage. With the standings tight, both teams enter this contest looking to secure their position in the tournament.",
+        "Brazil arrives with 4 points from their first two matches, having earned a draw against Morocco and a victory over Haiti. Their offensive output has been notable, contributing to a goal difference of 3 heading into this final group fixture.",
+        "Scotland currently holds 3 points after a win against Haiti and a narrow defeat to Morocco. This match serves as a crucial opportunity for the squad to navigate their path forward in the competition."
       ],
       "bullets": [
-        "Watch how Brazil's attack, which has already produced 4 goals, manages to break down a resilient Scottish defensive structure.",
-        "Observe how Scotland approaches this match knowing they need a result to keep their tournament aspirations alive.",
-        "Keep an eye on the midfield battle, which will likely dictate the tempo of the game in the Florida heat."
+        "Brazil leads Group C with 4 points and a goal difference of 3.",
+        "Scotland enters the match with 3 points, sitting just one point behind the leaders.",
+        "Both teams have played two matches, with this being the final fixture of the group stage."
       ],
-      "sections": [
-        {
-          "title": "Group C Context",
-          "body": "The group is currently led by Brazil and Morocco, both sitting on 4 points, while Scotland follows closely with 3 points. With Haiti currently at 0 points, the race for the top spots remains wide open. This final round of matches will determine the ultimate hierarchy of the group."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:27:09+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:34:43+00:00",
       "sourceHash": "67393411263596d3",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "49": {
-      "headline": "Group B Showdown: Switzerland Meets Canada in Vancouver",
-      "summary": "Switzerland and Canada face off in a high-stakes Matchday 3 encounter at BC Place. Both teams enter the match with 4 points, setting the stage for a critical battle to determine the final group standings. You can catch all the action live on FOX at 15:00 ET.",
+      "headline": "Group B Leaders Square Off",
+      "summary": "Switzerland and Canada meet in the final matchday of the group stage, with both teams currently tied at 4 points.",
       "story": [
-        "The atmosphere at BC Place in Vancouver is set to be electric as Group B reaches its conclusion. Both Switzerland and Canada arrive at this final group stage fixture with 4 points apiece, following two hard-fought matches each. With the group standings tightly packed, this encounter serves as the pivotal moment for both squads to solidify their position.",
-        "Canada enters the match with significant momentum after a dominant performance in their second outing. Having secured a total of 7 goals across their first two matches while conceding only once, they have demonstrated a potent attacking threat that will be a primary focus for the Swiss defense. The home crowd will undoubtedly look to provide a massive boost as they aim to build on their current goal difference of 6.",
-        "Switzerland has proven to be equally resilient, matching their opponent's 4-point tally. After an initial draw, they showed their offensive capabilities in their second match, finding the back of the net four times. With 5 goals scored and 2 conceded so far, the Swiss have shown they can adapt to different challenges and will be looking to impose their tactical discipline on the pitch.",
-        "This matchup is particularly intriguing given the current group dynamics. With both Canada and Switzerland sitting at the top of the table, the tactical approach from both managers will be under the microscope. Whether they choose to play conservatively to secure a result or push for an aggressive opening, every decision will carry weight in this decisive Group B finale.",
-        "As the teams take the field in Vancouver, the focus will be on how each side manages the pressure of a final group match. With both teams having demonstrated their ability to score, fans can expect a competitive display of football. All eyes will be on BC Place to see which team manages to navigate this challenge successfully."
+        "Switzerland and Canada enter this final group stage encounter with identical records of 4 points from two matches. Both sides have shown resilience and offensive capabilities throughout their opening fixtures, setting up a compelling showdown to determine the final standings in Group B.",
+        "Canada arrives with momentum after a high-scoring performance in their second match, which bolstered their goal difference to 6. Having opened the tournament with a draw against Bosnia and Herzegovina, they have demonstrated an ability to find the back of the net consistently.",
+        "Switzerland also holds 4 points, following a steady start that included a draw against Qatar and a strong offensive display against Bosnia and Herzegovina. Their ability to adapt their tactical approach will be a primary focus as they look to secure their position in the group.",
+        "With both teams level on points, this match serves as the deciding factor for their standing. The tactical battle between these two sides will be central to how the group concludes, as both look to build on their previous performances."
       ],
       "bullets": [
-        "Watch how the Swiss defense handles the high-scoring Canadian attack.",
-        "Observe the tactical adjustments made by both sides to break the deadlock in the group.",
-        "Note the impact of the home crowd support for Canada at BC Place."
+        "Canada leads the group on goal difference with a +6 rating.",
+        "Switzerland enters the match with a +3 goal difference.",
+        "Both teams have secured one win and one draw in their first two tournament appearances."
       ],
-      "sections": [
-        {
-          "title": "Group B Context",
-          "body": "Canada leads the group with 4 points and a +6 goal difference, while Switzerland also holds 4 points with a +3 goal difference. Bosnia and Herzegovina and Qatar follow with 1 point each, making this match between the top two teams the defining fixture of the group."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will be hosted at BC Place in Vancouver, British Columbia. This iconic stadium will provide a vibrant backdrop for what promises to be a tense and exciting conclusion to Group B play."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:41:28+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:34:51+00:00",
       "sourceHash": "ac290fb02a4750ee",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "50": {
-      "headline": "Group B Finale: Bosnia and Herzegovina Meets Qatar in Seattle",
-      "summary": "Bosnia and Herzegovina and Qatar face off at Lumen Field in Seattle for their final Group B match. Both teams enter the contest looking to secure their first victory of the tournament as they conclude their group stage campaign.",
+      "headline": "Bosnia and Herzegovina vs. Qatar: Group B Finale",
+      "summary": "Bosnia and Herzegovina and Qatar meet in their final Group B match, both looking to secure their first victory of the tournament.",
       "story": [
-        "The stage is set in Seattle as Lumen Field prepares to host a pivotal Matchday 3 encounter between Bosnia and Herzegovina and Qatar. With the group stage reaching its conclusion, both sides are eager to make a final statement in what has been a challenging tournament run for both nations.",
-        "Bosnia and Herzegovina opened their campaign with a hard-fought draw against Canada, showing resilience on the pitch. However, they faced a difficult outing in their second match against Switzerland, and they will be looking to regain their defensive composure and attacking rhythm as they take the field for this final group fixture.",
-        "Qatar arrives at this match following a resilient opening draw against Switzerland, where they demonstrated their ability to compete at this level. After a tough result against Canada in their second outing, the team will be focused on tightening their defensive structure and finding the back of the net to end their group stage on a positive note.",
-        "As the final match in Group B for both teams, the atmosphere in Seattle promises to be intense. Both squads know that every moment on the field counts as they look to finish their tournament appearance with a strong performance in front of the fans at Lumen Field."
+        "Bosnia and Herzegovina enters this match with one point from their previous two outings. They opened their campaign with a 1-1 draw against Canada before falling 4-1 to Switzerland in their second match.",
+        "Qatar also holds one point in the group standings after two games. They began with a 1-1 draw against Switzerland but faced a difficult 6-0 result against Canada in their most recent appearance.",
+        "Both teams currently sit at the bottom of Group B, trailing Canada and Switzerland. This matchup serves as the final opportunity for both sides to make an impact on the group table."
       ],
       "bullets": [
-        "Venue: Lumen Field, Seattle, Washington.",
-        "Kickoff is scheduled for 15:00 ET on June 24, 2026.",
-        "The match will be broadcast on FS1."
+        "Bosnia and Herzegovina has scored 2 goals and conceded 5 across their first two matches.",
+        "Qatar enters the match with 1 goal scored and 7 conceded.",
+        "Both teams are searching for their first win of the tournament."
       ],
-      "sections": [
-        {
-          "title": "Tournament Context",
-          "body": "Heading into this final group match, both Bosnia and Herzegovina and Qatar are searching for their first win of the tournament. With Canada and Switzerland currently leading the group standings, this match serves as a crucial opportunity for both teams to improve their standing and leave an impact before the group stage concludes."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:27:32+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:34:58+00:00",
       "sourceHash": "7f8ad05a73e59053",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "48": {
-      "headline": "Group K Clash: Colombia Meets DR Congo in Zapopan",
-      "summary": "Colombia and DR Congo face off in a pivotal Group K encounter at Estadio Akron. Both teams are looking to assert their dominance in the group standings as the tournament intensity ramps up. This Matchday 2 fixture promises to be a tactical battle in the heart of Jalisco.",
+      "headline": "Group K Stakes Rise for Colombia and DR Congo",
+      "summary": "Colombia and DR Congo face off in a pivotal Group K matchup as both teams look to solidify their standing in the tournament.",
       "story": [
-        "The stage is set in Zapopan as Colombia prepares to take on DR Congo in a crucial Group K matchup. As the tournament progresses, every point becomes vital, and this encounter at Estadio Akron offers both sides a significant opportunity to improve their standing within the group.",
-        "Colombia enters this match with momentum following their opening performance against Uzbekistan. Having secured an initial victory, they will be looking to maintain their offensive rhythm and solidify their position at the top end of the table. Their ability to control the tempo will be a key factor to watch as they face a resilient opponent.",
-        "On the other side, DR Congo arrives in Jalisco looking to build upon their hard-fought draw against Portugal in their opening match. That result demonstrated their defensive discipline and ability to compete against high-caliber opposition. They will be eager to translate that defensive stability into a more clinical attacking display here.",
-        "The atmosphere at Estadio Guadalajara is expected to be electric as these two nations clash. With Portugal having already played their second match, the pressure is on both Colombia and DR Congo to secure a positive result to stay firmly in the mix for the next stage of the competition.",
-        "Tactically, this game presents an interesting contrast in styles. Colombia will likely look to exploit space and push forward, while DR Congo will aim to remain compact and transition quickly. How each side manages the tactical adjustments required for this high-stakes environment will define the flow of the match."
+        "Colombia enters this match with momentum following their opening victory against Uzbekistan. Having secured three points in their first outing, they will look to maintain their offensive efficiency and build upon the positive start to their campaign.",
+        "DR Congo arrives at this fixture after a hard-fought draw against Portugal. That result demonstrated their defensive resilience and ability to compete against top-tier opposition, providing a solid foundation as they seek their first win of the group stage.",
+        "The group dynamics add significant weight to this encounter. With Portugal having already played two matches, the points available in this game are crucial for both Colombia and DR Congo to position themselves effectively for the remainder of the group phase."
       ],
       "bullets": [
-        "Watch how Colombia\u2019s attacking unit navigates the disciplined defensive structure displayed by DR Congo in their opener.",
-        "Observe the midfield battle, as control of the center of the pitch will be essential for both teams to dictate the pace of the game.",
-        "Keep an eye on how the early group dynamics influence the risk-taking behavior of both managers as they navigate the second matchday."
+        "Colombia looks to build on a strong offensive performance from their Matchday 1 victory.",
+        "DR Congo aims to leverage the defensive discipline shown in their draw against Portugal.",
+        "Both teams are competing for critical points to challenge the current group standings."
       ],
-      "sections": [
-        {
-          "title": "Group K Context",
-          "body": "Group K is heating up with Portugal having already completed two matches. Colombia and DR Congo are now looking to make their mark in this second round of fixtures to keep pace with the group leaders. Every movement on the pitch today carries significant weight for the final group standings."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at the Estadio Akron in Zapopan, Mexico. This venue in the Jalisco region provides a vibrant backdrop for what is expected to be a highly competitive international fixture. Fans can catch the broadcast live on FS1."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:27:39+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:35:06+00:00",
       "sourceHash": "1a7857f3214bd2e3",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "47": {
-      "headline": "Group L Crossroads: Panama Meets Croatia in Toronto",
-      "summary": "Panama and Croatia face off at BMO Field in a pivotal Group L clash. Both teams enter this Matchday 2 encounter looking to secure their first points of the tournament.",
+      "headline": "Panama and Croatia Seek First Points in Group L",
+      "summary": "Panama and Croatia face off in a critical Group L matchup as both teams look to secure their first points of the tournament.",
       "story": [
-        "The 2026 World Cup stage shifts to Toronto Stadium, where Panama and Croatia are set to battle in a high-stakes Group L fixture. As the tournament progresses, the pressure intensifies for both squads, each aiming to establish a foothold in the group standings after their respective opening matches.",
-        "Panama arrives at this matchup following a tightly contested opener against Ghana. Despite a disciplined defensive effort that kept the match narrow, they are now tasked with finding a breakthrough in the final third to ignite their campaign. The team will be looking to build on the organizational structure they displayed in their debut.",
-        "On the other side, Croatia enters the pitch looking to stabilize their defensive approach after a high-scoring encounter against England. Known for their technical proficiency and ability to control the tempo, the Croatian side will be eager to impose their style of play early and dictate the rhythm of this crucial meeting.",
-        "The atmosphere at BMO Field is expected to be electric as both nations recognize the importance of this fixture. With the group landscape beginning to take shape, every possession and tactical adjustment will carry significant weight in determining which team can seize the momentum heading into the final round of group play.",
-        "Tactically, the battle in the midfield will likely define the outcome. Panama will need to navigate the creative threats posed by their opponents, while Croatia must remain vigilant against quick transitions. Fans can tune in to FOX at 19:00 ET to witness how these two sides adapt to the unique challenges of this Group L showdown."
+        "Both Panama and Croatia enter this contest looking to bounce back from narrow defeats in their opening Group L fixtures. Panama struggled to find the back of the net in their first outing, while Croatia showed offensive potential despite a challenging result against England.",
+        "With England and Ghana having already played their second match, the group table is beginning to take shape. This encounter provides a vital opportunity for either side to climb the standings and keep their hopes for the knockout stage firmly in their own hands.",
+        "Tactical discipline will be at a premium as both teams adjust to the pressure of a must-win scenario. Croatia will look to build on the two goals they managed in their opener, while Panama aims to tighten their defensive structure to neutralize the opposition's attack."
       ],
       "bullets": [
-        "Watch for Panama's defensive discipline as they attempt to stifle the Croatian attack.",
-        "Observe how Croatia adjusts their tactical setup following their high-scoring debut.",
-        "Midfield control will be the primary battleground for both teams aiming to dictate the pace of the match."
+        "Panama is looking to record their first goal of the tournament after a scoreless outing in Matchday 1.",
+        "Croatia aims to stabilize their defense after conceding four goals in their opening match against England.",
+        "Both teams sit at zero points, making this a pivotal fixture for their progression prospects in Group L."
       ],
-      "sections": [
-        {
-          "title": "Group L Context",
-          "body": "The group remains wide open as teams jockey for position. With England and Ghana having already completed their second matches, the urgency for both Panama and Croatia to secure a result has never been higher."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at BMO Field in Toronto, Ontario. This iconic venue provides a classic stadium setting that promises an intense environment for this critical World Cup fixture."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:27:46+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:35:14+00:00",
       "sourceHash": "6fb4b27023e1386c",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "46": {
-      "headline": "Group L Clash: England Meets Ghana in Foxborough",
-      "summary": "England and Ghana face off at Gillette Stadium for a pivotal Matchday 2 encounter in Group L. Both sides enter the contest with three points, making this meeting a crucial test for positioning in the group standings.",
+      "headline": "England and Ghana Clash for Group L Control",
+      "summary": "England and Ghana meet in their second Group L fixture, with both teams looking to build on opening-match victories.",
       "story": [
-        "The 2026 World Cup action continues as England prepares to take on Ghana at Gillette Stadium in Foxborough. With the group stage in full swing, this Matchday 2 fixture carries significant weight for both nations as they look to build upon their opening performances.",
-        "England arrives at this encounter following an active start to their campaign, having demonstrated a potent attacking presence in their previous outing. They currently sit at the top of the Group L table, and the squad will be eager to maintain their momentum against a disciplined Ghanaian side.",
-        "Ghana enters the match with a solid foundation after securing a clean sheet and a victory in their opening game. Their defensive organization will be tested against the English attack, and their ability to control the tempo of the game will be a primary storyline to watch throughout the ninety minutes.",
-        "The atmosphere in Massachusetts is set to be electric as these two teams clash on June 23. With both sides currently tied on points, the tactical battle on the pitch will be intense, as each manager looks to secure a result that would solidify their standing within the group.",
-        "Fans tuning in on FOX will witness a high-stakes matchup that serves as a benchmark for where both teams stand in the tournament hierarchy. As the group phase progresses, every point becomes vital, and this encounter promises to be a defining moment for both England and Ghana."
+        "England enters this encounter following a high-scoring opening performance against Croatia, where they demonstrated significant offensive capability. Having secured three points in their first outing, they will look to maintain that momentum as they face a disciplined Ghana side.",
+        "Ghana arrives at this matchday with a solid defensive foundation, having kept a clean sheet in their narrow victory over Panama. Their ability to stifle opponents will be tested against an England attack that has already shown it can find the back of the net consistently.",
+        "With both teams tied on three points at the top of Group L, this matchup serves as a pivotal point in the group stage. The winner will gain a distinct advantage in the standings, making this a critical encounter for both squads as they navigate the second round of group play."
       ],
       "bullets": [
-        "Watch how England's attacking unit navigates Ghana's disciplined defensive structure.",
-        "Observe the midfield battle, as control of the center of the pitch will likely dictate the flow of the match.",
-        "Keep an eye on how both teams manage the pressure of a high-stakes Matchday 2 environment."
+        "England leads Group L on goal difference with a +2 margin.",
+        "Ghana enters the match with a +1 goal difference following their shutout victory.",
+        "Both teams are looking to secure their second win of the tournament to solidify their position at the top of the table."
       ],
-      "sections": [
-        {
-          "title": "Group L Context",
-          "body": "England and Ghana currently lead the group with three points each, while Panama and Croatia look to recover from their opening defeats. This match is a direct head-to-head between the current table leaders, making it a critical fixture for determining the group's trajectory."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:27:55+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:35:22+00:00",
       "sourceHash": "11fa49b7dd515576",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "44": {
-      "headline": "Group J Crossroads: Jordan Faces Algeria in Santa Clara",
-      "summary": "Jordan and Algeria meet at Levi's Stadium in a pivotal Group J matchup on June 22. Both sides are looking to secure their first points of the tournament as they navigate the intensity of the group stage.",
+      "headline": "Jordan and Algeria Seek First Points in Group J",
+      "summary": "Jordan and Algeria face off in their second Group J match, with both teams looking to secure their first points of the tournament.",
       "story": [
-        "The stage is set in the San Francisco Bay Area as Jordan and Algeria prepare to clash at Levi's Stadium. With both teams entering this Matchday 2 fixture eager to make their mark on the standings, the atmosphere in Santa Clara promises to be charged with anticipation.",
-        "Jordan arrives at this contest following their opening experience against Austria. Having already tasted the speed and physicality of the tournament, they will be looking to refine their approach and find more consistency in their play as they aim to challenge their opponents across the pitch.",
-        "Algeria faces a similar mission after their initial encounter with Argentina. The squad will be focused on tightening their defensive structure and finding the clinical edge required to compete at this level. A strong performance here is essential for their progression hopes within the group.",
-        "Group J has already seen significant action, with other teams establishing their positions early on. This match represents a critical opportunity for both Jordan and Algeria to shift the momentum in their favor and prove their resilience in front of a global audience.",
-        "Fans tuning in on FS1 at 23:00 ET can expect a tactical battle. Both managers will be acutely aware that every possession and every challenge could prove decisive in a group where every point is fought for with immense intensity."
+        "Jordan and Algeria enter this Matchday 2 encounter searching for momentum after difficult starts to their respective campaigns. Both sides are currently at the bottom of Group J and will view this match as a vital opportunity to get their tournament back on track.",
+        "In their opening fixture, Jordan faced a tough test against Austria, while Algeria opened their tournament against Argentina. Both teams were unable to secure a result in those initial matches, leaving them with zero points as they head into this meeting.",
+        "With Argentina currently leading the group standings, the pressure is on both Jordan and Algeria to find their rhythm. A win here would be a significant boost for either side as they look to climb the table and keep their hopes alive in a competitive group."
       ],
       "bullets": [
-        "Watch for how each side adjusts their defensive shape after their respective opening matches.",
-        "Keep an eye on midfield transitions, as both teams will be looking to control the tempo in the California heat.",
-        "Observe which team manages to settle into their rhythm earlier to dictate the flow of the game."
+        "Both Jordan and Algeria are looking to earn their first points of the group stage.",
+        "The match is part of the Group J schedule in the second round of play.",
+        "Argentina currently holds the top spot in the group with six points."
       ],
-      "sections": [
-        {
-          "title": "The Venue",
-          "body": "The match takes place at Levi's Stadium in Santa Clara, California. This iconic venue in the San Francisco Bay Area is ready to host a high-stakes encounter under the lights."
-        },
-        {
-          "title": "Group Context",
-          "body": "With Argentina and Austria having already completed their second group matches, the pressure is on for both Jordan and Algeria. A result in this fixture is vital for either team to keep their ambitions alive in Group J."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:28:21+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:35:37+00:00",
       "sourceHash": "eae4bfb4df53589d",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "43": {
-      "headline": "Norway and Senegal Clash in Crucial Group I Showdown",
-      "summary": "Norway and Senegal meet at MetLife Stadium for a pivotal Matchday 2 encounter in Group I. Both teams look to make a statement in this high-stakes fixture held in East Rutherford. The match is scheduled for June 22, 2026, at 20:00 ET on FOX.",
+      "headline": "Norway and Senegal clash in pivotal Group I matchup",
+      "summary": "Norway looks to build on their opening victory while Senegal aims to secure their first points of the tournament in this critical Group I encounter.",
       "story": [
-        "The World Cup atmosphere intensifies as Norway and Senegal prepare to face off at MetLife Stadium in East Rutherford. This Group I matchup serves as a critical juncture for both sides as they navigate their respective paths through the group stage.",
-        "Norway enters the contest following a strong performance in their opening match against Iraq. Their ability to find the back of the net effectively has set a high bar for their attacking unit, and they will look to maintain that momentum in this second outing.",
-        "Senegal, meanwhile, is eager to bounce back after a challenging opener against France. The team will be focused on tightening their defensive structure and finding more consistency in their build-up play to challenge the Norwegian side.",
-        "The venue, New York New Jersey Stadium, provides a grand stage for this encounter. As the tournament progresses, the pressure to secure points becomes increasingly significant, making this fixture a must-watch for those tracking the developments in Group I.",
-        "Tactically, the match promises to be an intriguing battle of styles. Norway will aim to leverage the confidence gained from their previous match, while Senegal will be looking to disrupt that rhythm and assert their own presence on the pitch."
+        "Norway enters this match with momentum following a convincing 4-1 performance against Iraq in their opening game. Their offensive output in that match demonstrated a clear ability to capitalize on opportunities, placing them in a strong position within the group standings.",
+        "Senegal finds themselves in a different situation after facing a difficult opening test against France. Despite the challenge, they are looking to regroup and find their rhythm as they compete for vital points to keep their tournament aspirations on track.",
+        "With France having already played two matches, the landscape of Group I is beginning to take shape. This matchup represents a significant opportunity for both sides to influence their standing as the group stage progresses, making every tactical decision on the field highly impactful."
       ],
       "bullets": [
-        "Watch how Norway manages the transition from their high-scoring opening match to this second challenge.",
-        "Observe Senegal's defensive adjustments as they look to neutralize Norwegian attacking threats.",
-        "Pay attention to the midfield battle, which will likely dictate the pace and control of the game at MetLife Stadium."
+        "Norway enters the match with 3 points and a +3 goal difference after their opening victory.",
+        "Senegal is seeking their first points of the tournament following their initial group match.",
+        "The outcome of this game will significantly impact the positioning within Group I behind France."
       ],
-      "sections": [
-        {
-          "title": "Group I Context",
-          "body": "France currently leads the group, creating a competitive environment for the remaining teams. Norway and Senegal are both looking to position themselves favorably as the group stage reaches its middle phase."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:28:28+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:35:44+00:00",
       "sourceHash": "96a80b02ffe9b5ca",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "41": {
-      "headline": "Group J Showdown: Argentina Meets Austria in Arlington",
-      "summary": "Argentina and Austria face off at AT&T Stadium in a critical Group J encounter. Both teams enter the match with momentum following successful opening performances. This clash serves as a pivotal moment for both sides as they look to solidify their standing in the group.",
+      "headline": "Group J Leaders Face Off",
+      "summary": "Argentina and Austria meet in their second Group J match after both teams secured opening victories.",
       "story": [
-        "The 2026 World Cup action continues as Argentina and Austria prepare to meet on the pitch at AT&T Stadium in Arlington, Texas. As part of the Group J schedule, this Matchday 2 fixture carries significant weight for both squads as they aim to build on the foundations laid during their tournament openers.",
-        "Argentina arrives in Dallas following a strong start to their campaign. Their opening performance demonstrated a clinical approach, setting a high bar for their tactical execution moving forward. With three points already secured, the team will look to maintain their rhythm against a challenging European opponent.",
-        "The atmosphere at AT&T Stadium is expected to be electric as these two teams vie for control of the group. With both sides currently level on points, the tactical battle on the field will be the defining factor in determining who gains the upper hand in the race for the top spot in Group J.",
-        "Fans tuning in on FOX will witness a matchup between two teams that have shown they can perform under pressure. As the tournament progresses, the importance of efficiency in the final third and disciplined defensive organization becomes paramount, and both Argentina and Austria will be looking to prove their credentials in this high-stakes environment."
+        "Austria arrives at this contest having also collected three points in their first outing. They demonstrated offensive efficiency by putting three past Jordan, though they will be looking to tighten up defensively after conceding a goal in that match.",
+        "With both teams currently tied on points at the top of Group J, this encounter serves as a pivotal moment for control of the group standings. The winner will put themselves in an ideal position to secure a top spot as the group stage progresses."
       ],
       "bullets": [
-        "Both teams enter the match with 3 points from their opening fixtures.",
-        "The match takes place at the iconic AT&T Stadium in Arlington, Texas.",
-        "This is a crucial Group J encounter that could define the path forward for both nations."
+        "Argentina and Austria both enter the match with 3 points from their opening games.",
+        "Argentina holds a goal difference of plus-three, while Austria sits at plus-two.",
+        "Both teams scored 3 goals in their respective Matchday 1 victories."
       ],
-      "sections": [
-        {
-          "title": "Group J Context",
-          "body": "Argentina and Austria currently lead the group standings, each having played one match. With Jordan and Algeria also in the mix, this head-to-head battle is essential for establishing dominance in the group table."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will be hosted at AT&T Stadium in Arlington, Texas. This world-class facility is set to provide a grand stage for what promises to be a compelling tactical display between two confident sides."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:28:41+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:00+00:00",
       "sourceHash": "52a01c715e5f2d0e",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "40": {
-      "headline": "Group G Stakes Rise as New Zealand Meets Egypt in Vancouver",
-      "summary": "New Zealand and Egypt face off at BC Place in a pivotal Group G Matchday 2 encounter. Both teams enter the contest looking to build momentum after hard-fought performances in their respective opening matches.",
+      "headline": "New Zealand and Egypt Seek Breakthrough in Group G",
+      "summary": "Both teams enter their second match of the tournament looking for their first win after opening with draws.",
       "story": [
-        "The atmosphere at BC Place in Vancouver is set to be electric as New Zealand and Egypt take the pitch for this crucial Group G showdown. With the group standings currently tight, every point carries significant weight as teams look to solidify their position heading into the final round of the group stage.",
-        "New Zealand arrives in Vancouver following an intense opening match against Iran. Their ability to find the back of the net twice in that encounter showed a resilient attacking spirit that they will look to replicate against an organized Egyptian side.",
-        "On the other side, Egypt enters this match after holding their own against Belgium in their tournament opener. That performance proved they are capable of going toe-to-toe with high-level competition, and they will be eager to translate that defensive discipline into a strong offensive showing here.",
-        "Tactically, this matchup presents an intriguing clash of styles. Both squads have shown they can manage pressure, and the mid-field battle will likely dictate the tempo of the game. With the group being so evenly balanced, both managers will be emphasizing the importance of composure and tactical execution.",
-        "As the tournament progresses, the pressure only intensifies. For both New Zealand and Egypt, this match represents a golden opportunity to take control of their own destiny in Group G. Fans tuning in on FS1 can expect a high-stakes battle where every possession and defensive transition could prove decisive."
+        "New Zealand and Egypt meet in Matchday 2 of Group G, with both sides aiming to build on their initial performances. New Zealand enters this encounter following a 2-2 draw against Iran, while Egypt arrives after securing a 1-1 result against Belgium in their opening match.",
+        "The current state of Group G is remarkably tight, as all four teams have played at least once and remain separated by very slim margins. With Iran and Belgium having already played their second match to a scoreless draw, the path is open for either New Zealand or Egypt to gain a significant advantage in the standings.",
+        "Both teams demonstrated an ability to find the back of the net in their first outings, but defensive stability will be a major focus here. Securing three points in this match is essential for either side to gain control of their destiny as the group stage progresses."
       ],
       "bullets": [
-        "Watch how New Zealand\u2019s attack adapts after their high-scoring opener against Iran.",
-        "Keep an eye on Egypt\u2019s defensive shape, which proved effective in their tight match against Belgium.",
-        "Monitor the midfield transition play, as both teams will look to exploit gaps in what is expected to be a tightly contested match."
+        "New Zealand scored two goals in their opening match against Iran.",
+        "Egypt held Belgium to a 1-1 draw in their first tournament appearance.",
+        "Group G remains wide open with all four teams fighting for position."
       ],
-      "sections": [
-        {
-          "title": "Group G Context",
-          "body": "The group remains incredibly competitive with all four teams fighting for separation. With Belgium and Iran already having played their second match, the pressure is on both New Zealand and Egypt to secure a result that keeps them firmly in the hunt for the next round."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at the iconic BC Place in Vancouver, British Columbia. This venue is known for its vibrant atmosphere and will provide a spectacular backdrop for what promises to be a pivotal evening of World Cup action."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:28:48+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:07+00:00",
       "sourceHash": "d3316e606a50f928",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "39": {
-      "headline": "Uruguay and Cabo Verde Clash in Pivotal Group H Showdown",
-      "summary": "Uruguay and Cabo Verde meet at Hard Rock Stadium for a crucial Matchday 2 encounter in Group H. Both teams enter the match looking to build on their opening points and gain momentum in a tightly contested group.",
+      "headline": "Uruguay and Cabo Verde Seek First Group H Win",
+      "summary": "Uruguay and Cabo Verde face off in their second group match, both looking to secure their first victory of the tournament.",
       "story": [
-        "The stage is set in Miami Gardens as Uruguay and Cabo Verde prepare to face off on June 21, 2026. With the tournament progressing rapidly, this Group H fixture represents a significant opportunity for both sides to assert their presence in the standings.",
-        "Uruguay arrives at Hard Rock Stadium following their opening match against Saudi Arabia. Having secured a point in that initial outing, they will be looking to refine their approach and capitalize on their opportunities in this second round of group play.",
-        "Cabo Verde enters this match with a solid defensive foundation, having held their own in a scoreless opening draw against Spain. Their ability to remain disciplined under pressure will be a key factor to watch as they face a new tactical challenge against the Uruguayan side.",
-        "The atmosphere at Miami Stadium is expected to be electric as these two teams navigate the complexities of Group H. With the group standings currently showing a narrow margin between the contenders, every possession and tactical decision will carry added weight."
+        "Uruguay enters this match following a 1-1 draw against Saudi Arabia in their tournament opener. They are looking to build momentum in Group H as they aim to improve their standing.",
+        "Cabo Verde arrives after a resilient 0-0 draw against Spain. Their ability to hold a strong opponent scoreless in their first match suggests they will be a difficult team to break down defensively.",
+        "With Spain currently leading the group, both Uruguay and Cabo Verde understand the importance of this fixture. Securing points here is vital for both sides to remain in a strong position as the group stage progresses."
       ],
       "bullets": [
-        "Watch how Uruguay adjusts their offensive strategy after their opening draw.",
-        "Observe if Cabo Verde can maintain their defensive resilience against a different style of play.",
-        "Monitor the midfield battle as both teams fight for control in the heat of Miami."
+        "Uruguay drew 1-1 with Saudi Arabia in their first match.",
+        "Cabo Verde held Spain to a 0-0 draw in their opening game.",
+        "Both teams currently sit on 1 point in Group H."
       ],
-      "sections": [
-        {
-          "title": "Group H Context",
-          "body": "The group remains highly competitive following the completion of other Matchday 2 fixtures. With Spain currently leading the group, both Uruguay and Cabo Verde understand the importance of securing points to improve their standing."
-        },
-        {
-          "title": "Venue Details",
-          "body": "The match will be hosted at the iconic Hard Rock Stadium in Miami Gardens, Florida. This venue provides a world-class setting for what promises to be an intense and tactical battle between these two determined teams."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:28:59+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:15+00:00",
       "sourceHash": "da8bc903f910f30c",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "38": {
-      "headline": "Group G Showdown: Belgium Meets Iran at SoFi Stadium",
-      "summary": "Belgium and Iran face off in a critical Group G Matchday 2 encounter at SoFi Stadium. With the group currently deadlocked, both teams are looking to secure their first victory of the tournament. The match kicks off on June 21, 2026, at 15:00 ET.",
+      "headline": "Group G deadlock: Belgium meets Iran",
+      "summary": "Belgium and Iran face off in their second match of Group G, with both teams looking to break a four-way tie in the standings.",
       "story": [
-        "The stage is set in Inglewood, California, as SoFi Stadium hosts a pivotal clash between Belgium and Iran. Following the opening round of Group G action, the landscape of the group remains incredibly tight, with all four teams currently sitting on a single point. This match represents a significant opportunity for both squads to break the deadlock and establish momentum heading into the final group stage fixtures.",
-        "Belgium arrives in Los Angeles after their opening match against Egypt. That encounter served as a stern test, and the squad will be looking to build on those initial minutes to find more fluidity in their attacking play. Managing the pressure of a high-stakes tournament environment will be key as they look to assert their presence in the group.",
-        "The group standings illustrate just how fine the margins are in this pool. With every team level on points, the tactical approach from both managers will likely be balanced between the necessity of chasing a win and the caution required to avoid a setback. The atmosphere at SoFi Stadium is expected to be electric as these two sides compete for control of Group G.",
-        "As the tournament progresses, Matchday 2 often serves as a defining moment for teams looking to solidify their standing. For both Belgium and Iran, the path forward requires a composed performance on the pitch. Fans tuning in on FS1 can expect a tactical battle as both teams aim to claim the three points that would provide a massive boost to their qualification hopes."
+        "Group G is currently wide open after a series of draws on the opening matchday. Belgium enters this contest following a 1-1 result against Egypt, while Iran arrives after a high-scoring 2-2 draw with New Zealand.",
+        "With every team in the group sitting on exactly one point and an identical goal difference of zero, this match serves as a pivotal opportunity to gain separation in the table. Neither side has managed to secure a win yet, making the points available here vital for their progression prospects.",
+        "Both squads demonstrated an ability to find the back of the net in their first outings, but defensive consistency will be a primary focus for both managers. As they look to navigate the complexities of the group stage, the tactical approach to this second match will be telling for their momentum."
       ],
       "bullets": [
-        "Watch for how Belgium adjusts their tactical setup after their opening draw to better break down the opposition.",
-        "Observe if Iran can maintain their offensive efficiency after netting two goals in their first group stage appearance.",
-        "Monitor the midfield battle, as control of the center of the pitch will likely dictate the flow of the game."
+        "All four teams in Group G currently have one point and a zero goal difference.",
+        "Belgium is coming off a 1-1 draw with Egypt.",
+        "Iran enters the match after a 2-2 draw against New Zealand."
       ],
-      "sections": [
-        {
-          "title": "Group G Context",
-          "body": "The group is currently in a rare state of total parity, with Belgium, Iran, Egypt, and New Zealand all holding one point apiece. This makes every remaining match crucial for determining who will move closer to the next stage. The outcome of this specific fixture will be instrumental in shifting the balance of power within the group."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at the state-of-the-art SoFi Stadium in Inglewood, California. Known for its modern design, the venue provides a world-class stage for this international showdown. Players will need to adapt quickly to the environment as they compete in one of the most prominent stadiums in the United States."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:29:16+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:23+00:00",
       "sourceHash": "9b7c317fcbab9423",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "37": {
-      "headline": "Spain and Saudi Arabia Clash in Pivotal Group H Showdown",
-      "summary": "Spain and Saudi Arabia meet at Mercedes-Benz Stadium for their second match of the group stage. Both teams enter this encounter looking to build momentum after opening their campaigns with draws. The atmosphere in Atlanta is set for a high-stakes battle as the group remains wide open.",
+      "headline": "Spain and Saudi Arabia Seek Breakthrough in Group H",
+      "summary": "Spain and Saudi Arabia meet in their second group match following opening draws that left the entire Group H table deadlocked.",
       "story": [
-        "The stage is set in Atlanta as Spain prepares to face Saudi Arabia in a crucial Matchday 2 fixture of Group H. Both squads arrive at Mercedes-Benz Stadium with a single point to their name, following a series of closely contested opening matches that have left the group standings perfectly balanced.",
-        "Spain comes into this matchup following a scoreless draw against Cabo Verde in their tournament opener. The Spanish side will be looking to find their rhythm and clinical edge in front of goal as they aim to assert their influence on the group. Their ability to control possession and dictate the tempo will be a primary focus for observers watching this tactical chess match.",
-        "On the other side, Saudi Arabia enters the pitch with confidence after securing a hard-fought draw against Uruguay in their first outing. The Saudi squad demonstrated resilience and tactical discipline in that opening performance, proving they are capable of competing with high-caliber opponents. This match represents another significant test for them as they look to navigate a challenging group.",
-        "The Group H table is currently locked in a stalemate, with all four teams\u2014Spain, Saudi Arabia, Uruguay, and Cabo Verde\u2014sitting on one point apiece. Because every team is currently level on points, the pressure is mounting for both Spain and Saudi Arabia to secure a positive result to improve their standing before the final round of group play.",
-        "Fans tuning in on June 21 at 12:00 PM ET can expect a compelling tactical battle at the Mercedes-Benz Stadium. As the tournament progresses, every minute of play becomes increasingly vital, and this encounter serves as a definitive moment for both teams to separate themselves from the pack."
+        "Group H enters its second matchday with a unique level of parity, as all four teams currently sit on a single point. Spain arrives here looking to find their rhythm after a scoreless opening performance against Cabo Verde. Their ability to convert possession into tangible threats will be the primary focus as they aim to separate themselves from the rest of the pack.",
+        "Saudi Arabia enters this encounter with momentum from a resilient performance against Uruguay. Having already secured a point in their tournament opener, they have shown they can compete against high-level opposition. Their tactical discipline will be tested as they face a Spanish side eager to establish dominance in the group.",
+        "With the group standings currently showing every team tied on points, goal difference, and games played, this match carries significant weight for the trajectory of the group. Neither side can afford a passive approach if they hope to gain an advantage before the final round of group fixtures."
       ],
       "bullets": [
-        "Watch for how Spain adjusts their offensive approach after a scoreless opening match.",
-        "Observe the tactical discipline of Saudi Arabia as they look to build on their resilient performance against Uruguay.",
-        "Monitor the midfield battle, as control of the center of the pitch will be essential for both sides in this balanced group."
+        "Group H is currently in a four-way tie, with every team holding one point after the first round of matches.",
+        "Spain is searching for their first goal of the tournament following a 0-0 draw in their opener.",
+        "Saudi Arabia enters the match with one point after earning a 1-1 result against Uruguay."
       ],
-      "sections": [
-        {
-          "title": "The Group H Landscape",
-          "body": "The group is currently defined by parity, with all teams holding one point after the first round of matches. With the standings so tight, this fixture in Atlanta is critical for both Spain and Saudi Arabia to establish a clear path forward."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at the iconic Mercedes-Benz Stadium in Atlanta, Georgia. This world-class venue will provide a high-energy backdrop for what promises to be a pivotal afternoon of World Cup action."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:29:24+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:31+00:00",
       "sourceHash": "1d68a2d65f657adf",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "36": {
-      "headline": "Group F Stakes: Tunisia Meets Japan in Monterrey",
-      "summary": "Tunisia and Japan face off at Estadio BBVA in a pivotal Group F encounter. Both sides are looking to establish their footing in the tournament as the group stage progresses.",
+      "headline": "Tunisia and Japan seek momentum in Group F",
+      "summary": "Tunisia and Japan meet in Matchday 2 looking to secure their first victory of the tournament.",
       "story": [
-        "The 2026 World Cup action continues in Guadalupe, Mexico, as Tunisia and Japan prepare for their Matchday 2 clash at Estadio BBVA. Situated in the heart of Nuevo Leon, the venue is set to host a critical fixture that carries significant weight for both nations as they navigate the complexities of Group F.",
-        "Tunisia enters this match looking to reset their campaign following an opening encounter against Sweden. The squad faces the task of regrouping and finding a tactical rhythm that allows them to compete effectively against a disciplined Japanese side. Every minute on the pitch in Monterrey represents an opportunity to adjust and demonstrate their resilience on the world stage.",
-        "Japan arrives at this match having already tested their mettle against the Netherlands in their tournament opener. That initial outing provided a baseline for their current form, showcasing their ability to engage in high-intensity play. Maintaining that level of focus will be essential as they look to secure a positive result in this second round of group matches.",
-        "The atmosphere at Estadio Monterrey promises to be electric as these two teams meet for the first time in this tournament. With the group standings beginning to take shape, the pressure is on for both Tunisia and Japan to execute their game plans with precision. Fans can catch the broadcast on FS1 as the action unfolds on June 21."
+        "Group F enters a critical phase as Tunisia and Japan face off in their second match of the tournament. Both teams are searching for their first win after challenging opening fixtures that tested their defensive structures and offensive capabilities.",
+        "Japan enters this match with a single point from their draw against the Netherlands. Their ability to hold a strong opponent to a 2-2 result suggests they have the tactical discipline to compete, but they will need to convert that resilience into a full three points to improve their standing in the group.",
+        "Tunisia is looking to rebound after a difficult opening match against Sweden. With zero points currently on the board, this encounter serves as a vital opportunity for them to stabilize their campaign and demonstrate their potential against a Japanese side that has shown it can be difficult to break down.",
+        "The group dynamics have been shaped by the performance of the Netherlands, who currently sit at the top of the table. With the other teams jockeying for position, both Tunisia and Japan know that every point earned here will be instrumental in determining who remains in contention as the group stage progresses."
       ],
       "bullets": [
-        "Watch how Tunisia adjusts their defensive shape to handle the pace of the match.",
-        "Observe the midfield battle as Japan attempts to control the tempo of play.",
-        "Monitor the tactical shifts from both managers as they aim to maximize their squad's impact in the second half."
+        "Japan aims to build on the momentum of their 2-2 draw in their opening match.",
+        "Tunisia seeks to address defensive gaps following their result against Sweden.",
+        "Both teams are fighting to climb from the bottom half of Group F."
       ],
-      "sections": [
-        {
-          "title": "Group F Context",
-          "body": "Group F is currently led by the Netherlands, who have completed two matches. Sweden has also played twice, while both Tunisia and Japan are looking to capitalize on their remaining opportunities to climb the table."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at Estadio BBVA, located in Guadalupe, Nuevo Leon, Mexico. This stadium serves as a iconic backdrop for this Group F showdown."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:29:32+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:38+00:00",
       "sourceHash": "a6e387321fcf2120",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "35": {
-      "headline": "Ecuador and Curacao Meet in Crucial Group E Clash",
-      "summary": "Ecuador and Curacao face off at Arrowhead Stadium on June 20th in a pivotal Group E encounter. Both teams are looking to secure their first points of the tournament as they battle for position in the group standings.",
+      "headline": "Ecuador and Curacao Seek First Points in Group E",
+      "summary": "Ecuador and Curacao meet in Matchday 2 looking to secure their first points of the tournament.",
       "story": [
-        "The stage is set in Kansas City as Ecuador prepares to take on Curacao at Arrowhead Stadium. With the group stage intensity ramping up, this Matchday 2 fixture carries significant weight for both sides as they look to establish their footing in the tournament.",
-        "Ecuador enters this match following their opening contest against Ivory Coast. Having navigated a tightly contested match in their first outing, they will be looking to sharpen their attacking precision and capitalize on opportunities to find the back of the net.",
-        "Curacao arrives in Missouri aiming to regroup after their initial challenge against Germany. The team will be focused on defensive organization and finding ways to disrupt their opponent's rhythm as they strive to make their mark on the international stage.",
-        "The atmosphere at Arrowhead Stadium is expected to be electric, providing a fitting backdrop for a match where both teams are determined to demonstrate their quality. Fans tuning in on FS1 at 20:00 ET can expect a hard-fought battle as both nations push for a positive result.",
-        "Tactically, this matchup will be a test of resilience and adaptability. Ecuador will likely look to control the tempo, while Curacao will aim to utilize quick transitions to challenge the Ecuadorian defense. Every possession will be vital in this high-stakes Group E environment."
+        "Both Ecuador and Curacao enter this Matchday 2 encounter searching for their first points of the group stage. Ecuador began their campaign with a narrow 1-0 defeat against Ivory Coast, while Curacao faced a difficult opening challenge against Germany.",
+        "The current Group E standings show Germany leading with 6 points, followed by Ivory Coast with 3. With Ecuador and Curacao both sitting on 0 points, this match is a pivotal moment for both sides to gain traction and keep their tournament hopes alive.",
+        "Ecuador will look to build on a defensive effort that limited Ivory Coast to a single goal in their opener. Conversely, Curacao aims to stabilize their performance after a challenging start to the competition.",
+        "This matchup represents a significant opportunity for either team to change their trajectory in the group. With the group dynamics beginning to take shape, securing a positive result here is essential for both squads."
       ],
       "bullets": [
-        "Watch how Ecuador adjusts their offensive strategy to break down the defensive lines.",
-        "Observe how Curacao responds to the pressure and whether they can find consistency in their play.",
-        "Keep an eye on the midfield battle, as control of the center of the pitch will be essential for both teams."
+        "Ecuador enters the match with a goal difference of -1.",
+        "Curacao is looking to improve their defensive record after their opening fixture.",
+        "Both teams are currently chasing Ivory Coast and Germany in the Group E table."
       ],
-      "sections": [
-        {
-          "title": "Venue Context",
-          "body": "The match will be held at Arrowhead Stadium in Kansas City, Missouri. This iconic venue is set to host an intense evening of football action under the lights."
-        },
-        {
-          "title": "Group E Dynamics",
-          "body": "With Germany and Ivory Coast having already played their second matches, the pressure is on for both Ecuador and Curacao to perform. Securing points here is essential for maintaining momentum within the group."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:29:39+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:46+00:00",
       "sourceHash": "90d69f4c2a39780e",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "34": {
-      "headline": "Germany and Ivory Coast Clash in Group E Showdown",
-      "summary": "Germany and Ivory Coast face off at BMO Field in Toronto for a pivotal Matchday 2 encounter. Both teams enter the contest with three points, setting the stage for a high-stakes battle to take control of Group E.",
+      "headline": "Germany and Ivory Coast square off in Group E battle",
+      "summary": "Both Germany and Ivory Coast enter this Matchday 2 encounter with three points, looking to secure their standing in Group E.",
       "story": [
-        "The 2026 World Cup action shifts to Toronto Stadium on June 20, where Germany and Ivory Coast are set to meet in a crucial Group E fixture. With both nations having secured victories in their opening matches, this encounter serves as a significant test for each side as they look to solidify their standing in the group.",
-        "Germany enters the match following a high-scoring performance in their first outing against Curacao. Their offensive display has set a high bar, and they will be looking to maintain that momentum as they face a more defensive challenge in their second group game.",
-        "Ivory Coast arrives in Toronto with confidence after a disciplined performance against Ecuador. Having kept a clean sheet in their opener, they will likely look to lean on that defensive structure to contain the German attack and find opportunities to transition quickly.",
-        "The atmosphere at BMO Field is expected to be electric as these two teams meet for the first time in this tournament. With both sides sitting on three points, the tactical approach from both managers will be under the microscope as they balance the need for points with the reality of a long group stage ahead.",
-        "As the tournament progresses, every match becomes a vital building block. For Germany and Ivory Coast, this 16:00 ET kickoff represents a chance to separate themselves from the rest of the group and move closer to their ultimate goals in this competition."
+        "Germany arrives at this match following a dominant opening performance where they put seven goals past Curacao. Their high-scoring start has placed them at the top of the group standings with a significant goal difference, establishing them as a formidable offensive force early in the tournament.",
+        "Ivory Coast enters the contest on the back of a disciplined 1-0 victory against Ecuador. While their opening win was more modest in terms of scoreline, the defensive solidity required to keep a clean sheet provides a sturdy foundation as they prepare to face the group's current leaders.",
+        "With both teams sitting on three points, this match serves as a pivotal moment for control of the group. The outcome will be instrumental in determining which side positions itself most effectively for the final round of the group stage."
       ],
       "bullets": [
-        "Watch how Germany\u2019s high-powered attack adapts to the defensive organization shown by Ivory Coast in their opening match.",
-        "Observe the midfield battle as both teams look to control the tempo in the middle of the pitch at BMO Field.",
-        "Monitor how both squads manage their intensity levels during this critical Matchday 2 fixture."
+        "Germany leads Group E with a +6 goal difference following their opening match.",
+        "Ivory Coast enters the game with momentum after securing a shutout victory in their first appearance.",
+        "This match features the two teams currently tied for the lead in the Group E standings."
       ],
-      "sections": [
-        {
-          "title": "Group E Landscape",
-          "body": "Germany currently leads the group on goal difference, followed closely by Ivory Coast. With Ecuador and Curacao also in the mix, this match is essential for both teams to maintain their position at the top of the table."
-        },
-        {
-          "title": "Venue Spotlight",
-          "body": "The match takes place at BMO Field in Toronto, Ontario. This iconic venue provides a fantastic backdrop for what promises to be a compelling tactical encounter between two teams with winning momentum."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:29:47+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:36:54+00:00",
       "sourceHash": "b4f395e56a98dc89",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "33": {
-      "headline": "Group F Clash: Netherlands and Sweden Meet in Houston",
-      "summary": "The Netherlands and Sweden face off in a pivotal Group F encounter at NRG Stadium. Both teams look to build on their opening performances as they navigate the second matchday of the tournament.",
+      "headline": "Group F Leaders Face Off in Houston",
+      "summary": "The Netherlands and Sweden meet in their second group match as both sides look to solidify their position in the standings.",
       "story": [
-        "The stage is set in Houston as the Netherlands and Sweden prepare to square off on June 20, 2026. Taking place at NRG Stadium, this Group F matchup serves as a critical juncture for both sides as they seek to solidify their positions in the group standings.",
-        "The Netherlands enters this contest following a hard-fought opening match against Japan that ended in a draw. Having secured one point from their first outing, the Dutch squad will be looking to refine their approach and find a clinical edge against a formidable Swedish side.",
-        "Sweden arrives in Texas with momentum after an emphatic performance in their opening match against Tunisia. Their high-scoring start has placed them at the top of the group, and they will aim to maintain that offensive intensity as they face a Dutch team eager to make their mark.",
-        "Tactically, this match presents a compelling contrast in form. While Sweden demonstrated significant attacking prowess in their tournament debut, the Netherlands will be focused on defensive stability and tactical adjustments to contain the Swedish momentum while creating their own opportunities.",
-        "As the tournament progresses, every point becomes increasingly vital. With the group standings currently showing Sweden with three points and the Netherlands with one, this fixture carries significant weight for the trajectory of both nations in the competition.",
-        "Fans tuning in on FOX will witness a matchup between two teams with distinct goals for this second matchday. Whether the Netherlands can bounce back to claim their first win or Sweden can extend their lead at the top of the group, the atmosphere at NRG Stadium promises to be electric."
+        "Sweden enters this matchup with momentum after a high-scoring opening performance where they secured three points against Tunisia. Their attack looked clinical in that first outing, putting them at the top of Group F with a significant goal difference advantage.",
+        "The Netherlands arrives at this match looking to build on their opening draw against Japan. Having shared the points in a 2-2 result, they are currently level with Japan in the group standings and will be eager to find a rhythm that secures a win.",
+        "This encounter serves as a pivotal moment for both teams as they navigate the second round of group play. With Sweden leading the group and the Netherlands looking to climb, the tactical approach from both sides will be essential in determining who controls the pace of the match."
       ],
       "bullets": [
-        "Sweden's offensive efficiency following their five-goal performance in the opening round.",
-        "The Netherlands' tactical response after a balanced draw against Japan.",
-        "The impact of the Houston environment at NRG Stadium on both teams' physical play."
+        "Sweden sits at the top of Group F with 3 points after their opening 5-1 victory.",
+        "The Netherlands holds 1 point following a 2-2 draw with Japan in their first match.",
+        "Both teams are looking to improve their standing within a competitive Group F."
       ],
-      "sections": [
-        {
-          "title": "Group F Context",
-          "body": "Sweden currently leads the group with three points, while the Netherlands sits with one point alongside Japan. This match represents a key opportunity for the Netherlands to climb the table and for Sweden to cement their standing."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match takes place at NRG Stadium in Houston, Texas. This venue will host the teams on June 20 at 13:00 ET as they compete for crucial group stage points."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:29:56+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:37:02+00:00",
       "sourceHash": "dc81c0978017cbd1",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "32": {
-      "headline": "Turkey and Paraguay Clash in Crucial Group D Battle",
-      "summary": "Turkey and Paraguay meet at Levi's Stadium for a pivotal Matchday 2 encounter in Group D. Both teams are looking to secure their first points of the tournament as they face off in the San Francisco Bay Area. The match will be broadcast on FS1 at 23:00 ET on June 19, 2026.",
+      "headline": "Turkey and Paraguay Clash in Group D Battle",
+      "summary": "Turkey and Paraguay face off in a critical Group D encounter as both teams look to secure their first points of the tournament.",
       "story": [
-        "The stage is set in Santa Clara, California, as Turkey and Paraguay prepare for a high-stakes showdown. With the group landscape becoming increasingly defined, this fixture represents a vital opportunity for both sides to gain momentum and keep their tournament aspirations firmly on track.",
-        "Turkey enters this match following their opening fixture against Australia. Seeking to bounce back and establish a foothold in the standings, they will need to sharpen their offensive execution to break through in a competitive Group D environment.",
-        "Paraguay arrives at Levi's Stadium aiming to recalibrate after their initial outing against the United States. The challenge ahead requires a disciplined performance as they look to capitalize on their opportunities and secure a positive result in this second round of group play.",
-        "Levi's Stadium in the San Francisco Bay Area provides the backdrop for this encounter. The atmosphere is expected to be intense as both teams understand the importance of this matchup in determining their path forward within the group.",
-        "Fans tuning in on FS1 at 23:00 ET can expect a tactical battle between two sides eager to prove their quality on the world stage. Every possession will be contested as Turkey and Paraguay fight to claim their first points of the 2026 tournament."
+        "Turkey and Paraguay enter this match looking to reset their campaigns after difficult opening results. Both teams are currently sitting at zero points in Group D, making this fixture a pivotal moment for their hopes of remaining in contention.",
+        "In their first match, Turkey faced a challenging outing against Australia, falling 2-0. They will be aiming to find their rhythm and sharpen their attack to put pressure on the Paraguayan defense early on.",
+        "Paraguay is also looking to bounce back following a tough opening loss to the United States. With a goal difference of -3, they will need to tighten their defensive structure while seeking to capitalize on any opportunities that arise.",
+        "As the group standings currently show the United States leading with six points and Australia holding three, both Turkey and Paraguay know that a positive result here is essential to keep their tournament aspirations alive."
       ],
       "bullets": [
-        "Watch how Turkey adjusts their attacking shape after their opening match.",
-        "Observe the defensive organization of Paraguay as they look to contain their opponents.",
-        "Monitor the midfield battle, which will likely dictate the tempo of the game."
+        "Both teams are seeking their first points of the group stage.",
+        "Turkey enters the match with a -2 goal difference, while Paraguay sits at -3.",
+        "The match is a key opportunity for both sides to climb the Group D standings."
       ],
-      "sections": [
-        {
-          "title": "Group D Context",
-          "body": "Group D has been highly competitive, with the United States currently leading the standings. Both Turkey and Paraguay are eager to climb the table and improve their goal difference in this second matchday. A strong performance here is essential for both teams to remain in contention for the next stage."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:30:11+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:37:09+00:00",
       "sourceHash": "3781f7c3e32018bb",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "31": {
-      "headline": "Brazil and Haiti Clash in Crucial Group C Matchup",
-      "summary": "Brazil and Haiti meet at Lincoln Financial Field for a vital Group C encounter. Both teams look to make a significant impact on the standings as they face off in Philadelphia on June 19th. This match represents a pivotal moment for both sides as they navigate the intensity of the group stage.",
+      "headline": "Brazil and Haiti Look to Gain Ground in Group C",
+      "summary": "Brazil and Haiti meet in Matchday 2 of Group C, with both teams seeking their first victory of the tournament.",
       "story": [
-        "The stage is set in Philadelphia as Brazil prepares to take on Haiti in a highly anticipated Group C fixture. Taking place at Lincoln Financial Field, this match brings together two nations eager to assert their presence in the tournament. With the atmosphere building in Pennsylvania, fans are looking forward to a compelling tactical battle under the lights.",
-        "Brazil enters this match following their opening performance against Morocco, where the two sides played to a draw. That initial result has set a specific tone for Brazil's campaign, and they will be looking to build momentum as they step onto the pitch for their second group outing. The pressure is on to find their rhythm and secure a positive result in this competitive group.",
-        "Haiti arrives in Philadelphia after a narrow opening match against Scotland. Despite the challenge of their first outing, the team remains focused on the task at hand. Every match in the group stage carries immense weight, and Haiti will be looking to capitalize on this opportunity to make their mark against a formidable opponent.",
-        "The group standings add another layer of intrigue to this fixture. With Morocco and Scotland having already played their second matches, the table is beginning to take shape, making this encounter essential for both Brazil and Haiti. The tactical approach from both managers will be under the microscope as they look to navigate the specific challenges posed by their opposition.",
-        "As the kickoff time of 20:30 ET approaches, all eyes will be on Lincoln Financial Field. This venue, known for its vibrant energy, provides the perfect backdrop for what promises to be an intense display of international football. Whether you are a supporter of either team or a neutral observer, this match offers a fascinating look at the evolving dynamics of Group C."
+        "Brazil enters this encounter looking to build on their opening draw against Morocco. Having finished their first match in a 1-1 stalemate, the team is aiming to find more rhythm and secure three points to improve their standing in a tightly contested group.",
+        "Haiti faces a significant challenge after a narrow 1-0 defeat to Scotland in their tournament opener. Despite the result, their defensive organization was tested, and they will need to show resilience against a Brazilian side looking to assert control.",
+        "With Morocco currently leading the group standings, the pressure is on both Brazil and Haiti to produce a result. A win here would be vital for either side to keep their progression hopes firmly in their own hands as the group stage progresses."
       ],
       "bullets": [
-        "Watch how Brazil adjusts their offensive strategy following their opening draw.",
-        "Observe how Haiti organizes their defensive structure to contain Brazil's attack.",
-        "Keep an eye on the midfield battle as both teams fight for control in the center of the pitch."
+        "Brazil is searching for their first win of the tournament following a 1-1 draw in their opener.",
+        "Haiti aims to bounce back and secure their first points after a narrow loss to Scotland.",
+        "Group C remains highly competitive, with Morocco currently holding the top spot in the standings."
       ],
-      "sections": [
-        {
-          "title": "Group C Context",
-          "body": "The group is currently led by Morocco, who have played two matches. Scotland has also completed two matches, while Brazil and Haiti are preparing for their second appearance. The points accumulated in this round will be critical for determining the final standings."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will be hosted at Lincoln Financial Field in Philadelphia, Pennsylvania. This stadium is a prominent venue for the tournament and is expected to provide a high-energy environment for the players."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:30:18+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:37:17+00:00",
       "sourceHash": "41c32fc0f6611c97",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "30": {
-      "headline": "Scotland and Morocco Clash in Pivotal Group C Encounter",
-      "summary": "Scotland and Morocco meet at Gillette Stadium for a critical Matchday 2 showdown in Group C. Both teams enter the contest looking to build on their opening performances in the tournament. The match is set for June 19 at 18:00 ET.",
+      "headline": "Scotland and Morocco Clash in Group C",
+      "summary": "Scotland and Morocco face off in Matchday 2 of Group C with both teams looking to build on their opening performances.",
       "story": [
-        "The atmosphere in Foxborough, Massachusetts, is set to be electric as Scotland faces Morocco in a high-stakes Group C battle. With the group stage moving into its second round, every point becomes increasingly valuable for teams looking to secure their path forward in the competition.",
-        "Scotland arrives at Gillette Stadium following a disciplined opening performance where they successfully navigated their first challenge against Haiti. That victory provided them with a strong start, and they will be looking to maintain that momentum as they face a formidable Moroccan side.",
-        "Morocco enters this fixture after a hard-fought draw against Brazil in their tournament opener. That result demonstrated their ability to compete against top-tier opposition, and they will be eager to translate that resilience into a positive result against the Scots.",
-        "Tactically, this matchup presents an intriguing contrast in styles. Scotland will look to build upon the defensive organization that kept a clean sheet in their first outing, while Morocco will aim to utilize the confidence gained from their opening draw to dictate the tempo of the game.",
-        "As the sun sets over Boston Stadium, the stakes are clear for both nations. With the group standings currently tight, this encounter serves as a defining moment for both squads to assert their authority and stake a claim for the top spots in Group C."
+        "Scotland enters this matchup with three points after a narrow victory over Haiti in their opening game. Their disciplined defensive performance in that match allowed them to secure a win without conceding a goal, putting them in a strong position early in the group stage.",
+        "Morocco arrives at this fixture following a hard-fought draw against Brazil. By holding a team of Brazil's caliber to a 1-1 result, Morocco demonstrated their ability to compete at a high level and will look to carry that momentum into this encounter.",
+        "With Scotland currently leading the group and Morocco sitting on one point alongside Brazil, the stakes are clear for both sides. This meeting serves as a pivotal moment in Group C, as both teams aim to solidify their standing before the final round of group matches."
       ],
       "bullets": [
-        "Scotland enters the match with 3 points, while Morocco holds 1 point after their opening draw.",
-        "The match takes place at Gillette Stadium in Foxborough, a venue known for its intense atmosphere.",
-        "Both teams are looking to capitalize on their Matchday 1 performances to gain an advantage in the group standings."
+        "Scotland currently leads Group C with 3 points and a +1 goal difference.",
+        "Morocco enters the match with 1 point after a 1-1 draw against Brazil in their opening fixture.",
+        "This is the second match for both teams in the group stage."
       ],
-      "sections": [
-        {
-          "title": "Group C Context",
-          "body": "Scotland currently leads the group with 3 points, followed by Brazil and Morocco, who each have 1 point. Haiti rounds out the group as they look to recover from their opening loss. This match is crucial for both sides to solidify their standing before the final round of group play."
-        },
-        {
-          "title": "Venue Information",
-          "body": "The match will be hosted at Gillette Stadium in Foxborough, Massachusetts. This venue is a key site for the tournament and is expected to host a passionate crowd. Fans can tune in to the broadcast on FOX at 18:00 ET."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:30:31+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:37:25+00:00",
       "sourceHash": "8a2fe32442cfa62c",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "seed spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     },
     "29": {
       "headline": "Group D Clash: United States Faces Australia in Seattle",
@@ -6084,62 +5861,44 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "seed spoiler-free preview"
     },
     "45": {
-      "headline": "Group K Stakes: Portugal Meets Uzbekistan in Houston",
-      "summary": "Portugal and Uzbekistan face off at NRG Stadium in Houston for their second match of the group stage. Both teams are looking to make a significant impact in Group K as the tournament progresses. This encounter serves as a pivotal moment for both sides to establish their momentum.",
+      "headline": "Portugal and Uzbekistan Seek First Group K Win",
+      "summary": "Portugal and Uzbekistan meet in Group K looking to improve their standing after both teams failed to secure a victory in their opening matches.",
       "story": [
-        "The 2026 World Cup action continues in Houston as Portugal prepares to take on Uzbekistan at NRG Stadium. With the group stage intensity ramping up, this Matchday 2 fixture represents a critical opportunity for both squads to assert themselves within the competitive landscape of Group K.",
-        "Portugal enters this contest following their opening match against DR Congo. Having experienced the pressure of the tournament's initial phase, they will be looking to refine their approach and capitalize on their tactical setup in Texas. The atmosphere in Houston is expected to be electric as fans gather to witness this clash.",
-        "Uzbekistan arrives at this match after their first outing against Colombia. Despite the challenges faced in their tournament opener, the team remains focused on the task at hand. Their performance here will be essential as they aim to navigate the complexities of their group and keep their ambitions alive.",
-        "The tactical battle between these two sides will be a key storyline to watch. Both teams have had time to analyze their previous performances and adjust their strategies accordingly. As they step onto the pitch at NRG Stadium, the focus will be on execution, discipline, and the ability to adapt to the opponent's style of play.",
-        "As the tournament schedule progresses, every point becomes increasingly valuable. This match provides a platform for players to shine on the world stage and for their respective nations to demonstrate their quality. Supporters can tune in to FOX at 13:00 ET to follow all the action live from the venue."
+        "Portugal enters this second matchday following a draw against DR Congo. Having earned a single point in their opening performance, they will look to stabilize their position in the group standings.",
+        "Uzbekistan faces a different challenge after dropping their first match against Colombia. With zero points currently on the board, they need a strong response to keep their tournament aspirations on track.",
+        "The dynamics of Group K remain fluid as Colombia currently leads the table with three points. Both Portugal and Uzbekistan are aware that points in this encounter are vital to keeping pace with the group leaders."
       ],
       "bullets": [
-        "Watch for how Portugal adjusts their offensive rhythm after their opening draw.",
-        "Observe how Uzbekistan responds defensively to the challenges presented by their second group opponent.",
-        "The match takes place in the climate-controlled environment of NRG Stadium, which may influence the pace of play."
+        "Portugal currently sits tied with DR Congo on one point in the group standings.",
+        "Uzbekistan is looking to bounce back after a difficult opening match against Colombia.",
+        "Colombia leads Group K with three points, placing pressure on both sides to secure a result here."
       ],
-      "sections": [
-        {
-          "title": "Group K Context",
-          "body": "Group K is currently led by Colombia, who secured three points in their first match. Portugal and DR Congo sit level with one point each, while Uzbekistan is seeking their first points of the tournament. The outcome of this match will significantly influence the standings heading into the final round of group play."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:35:37+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:35:29+00:00",
       "sourceHash": "5b200d65a9d0e594",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "42": {
-      "headline": "France and Iraq Clash in Crucial Group I Showdown",
-      "summary": "France and Iraq meet at Lincoln Financial Field for their second match of the group stage. Both teams look to build momentum in a competitive Group I after their respective opening performances. Kickoff is set for 17:00 ET, with the match broadcast on FOX.",
+      "headline": "France and Iraq seek momentum in Group I",
+      "summary": "France looks to build on their opening victory while Iraq aims to rebound in this second matchday of Group I.",
       "story": [
-        "The stage is set in Philadelphia as France prepares to face Iraq in a pivotal Group I encounter. Following the opening round of matches, both sides are looking to establish their footing and assert control within a group that also features Norway and Senegal.",
-        "France enters this match with confidence after a strong start to their tournament campaign. Having secured their first points on Matchday 1, they will be looking to maintain their tactical discipline and offensive rhythm against an Iraq side that is eager to bounce back and prove their resilience on the world stage.",
-        "For Iraq, this match represents a significant opportunity to reset and challenge one of the tournament's prominent sides. Their performance in the upcoming fixture will be critical as they aim to navigate the pressures of Group I and keep their ambitions alive in the competition.",
-        "The atmosphere at Lincoln Financial Field is expected to be electric as these two nations collide. With the group standings currently tight, every minute of play carries weight, making this encounter a must-watch for fans following the developments in Group I.",
-        "Tactically, both managers will be focused on maximizing their squad's strengths while addressing the vulnerabilities exposed in their opening matches. As the second round of group play progresses, the ability to adapt and execute under pressure will be the defining factor for both France and Iraq."
+        "France enters this match with confidence after a successful start to their campaign. Their opening performance demonstrated a clinical ability to find the back of the net, which they will look to replicate as they navigate the complexities of group play.",
+        "For Iraq, this match serves as a pivotal opportunity to reset their trajectory. After facing a difficult result in their first outing, the team will need to tighten their defensive structure and find a way to challenge a formidable French side.",
+        "The stakes are clear for both teams as they look to secure points in a competitive Group I. With Norway currently leading the group on goal difference, both France and Iraq understand the importance of this encounter in determining their path forward."
       ],
       "bullets": [
-        "Watch how France manages their defensive structure after their opening win.",
-        "Observe Iraq's tactical adjustments as they look to tighten their formation.",
-        "Monitor the midfield battle, which will likely dictate the tempo of the match."
+        "France enters with 3 points and a +2 goal difference.",
+        "Iraq is looking to earn their first points of the tournament.",
+        "Group I remains tight, with Norway and France currently tied on points at the top of the table."
       ],
-      "sections": [
-        {
-          "title": "Group I Context",
-          "body": "Group I remains highly competitive following the initial round of fixtures. With Norway and France currently leading the points tally, Iraq and Senegal are under pressure to secure results to remain in contention for the next phase."
-        },
-        {
-          "title": "Venue Details",
-          "body": "The match will be hosted at the historic Lincoln Financial Field in Philadelphia, Pennsylvania. This venue is set to provide a vibrant backdrop for what promises to be a high-stakes battle between two determined teams."
-        }
-      ],
-      "updatedAt": "2026-06-25T07:35:46+00:00",
+      "sections": [],
+      "updatedAt": "2026-07-05T21:35:52+00:00",
       "sourceHash": "280e2992cfe4df96",
-      "promptHash": "58c0eceedbff748a",
+      "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "76": {
       "headline": "Brazil and Japan Collide in Round of 32",
@@ -6361,44 +6120,45 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "manual spoiler-free preview target"
     },
     "90": {
-      "headline": "Paraguay Enters the Round of 16",
-      "summary": "Paraguay faces the winner of Match 77 as they look to continue their journey in the knockout stage.",
+      "headline": "Paraguay and France Clash in Round of 16",
+      "summary": "Paraguay and France meet in the Round of 16 with both teams aiming to secure their path further into the tournament.",
       "story": [
-        "Paraguay arrives at this Round of 16 matchup after a resilient path through the tournament. Their journey has been defined by defensive grit and the ability to navigate high-pressure knockout situations, most recently demonstrated in their hard-fought contest against Germany.",
-        "While one side of the bracket is set, the identity of their opponent remains to be determined by the outcome of Match 77. This uncertainty adds a layer of tactical intrigue, as Paraguay must prepare for a challenge against an opponent that has also survived the rigors of the group stage and initial knockout rounds.",
-        "Having faced a diverse range of opponents including the United States, Turkey, and Australia, Paraguay has shown they can adapt to different styles of play. Their ability to keep games tight and remain disciplined will be essential as they look to secure a spot further into the competition."
+        "Paraguay enters this Round of 16 matchup after a resilient run through their previous fixtures. Their path has been defined by defensive grit, including a hard-fought draw against Australia and a tight contest against Germany in the previous round.",
+        "France arrives at this stage following a dominant group phase and a convincing victory over Sweden in the Round of 32. Their offensive consistency has been a hallmark of their performance thus far, consistently finding the back of the net against varied opposition.",
+        "This encounter presents a classic contrast in styles. Paraguay has demonstrated an ability to grind out results and stay competitive in high-pressure situations, while France has showcased the firepower necessary to break down organized defensive units.",
+        "As the tournament moves deeper into the knockout phase, the stakes are at their highest. Both squads will need to rely on the tactical discipline that brought them to this point to navigate the challenges posed by their opponent."
       ],
       "bullets": [
-        "Paraguay advanced to the Round of 16 following a competitive draw against Germany in the previous knockout round.",
-        "The team maintains a focus on defensive stability, having navigated group play and the Round of 32 with varied results.",
-        "The upcoming opponent is the winner of Match 77, creating a dynamic preparation period for the Paraguayan squad."
+        "Paraguay has shown significant defensive stability, having navigated multiple low-scoring, high-stakes matches in the knockout and group stages.",
+        "France enters the match with high offensive momentum, having scored three or more goals in three of their four tournament appearances so far.",
+        "The tactical battle between Paraguay's defensive organization and France's attacking depth will be the primary factor to watch."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:18:00+00:00",
-      "sourceHash": "649ee877e25db55e",
+      "updatedAt": "2026-07-05T21:33:57+00:00",
+      "sourceHash": "14987622474339bb",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "91": {
-      "headline": "Brazil Advances to Round of 16 Knockout Stage",
-      "summary": "Brazil continues their tournament journey in the Round of 16, awaiting the winner of Match 78 to determine their next opponent.",
+      "headline": "Brazil and Norway Clash in Round of 16",
+      "summary": "Brazil and Norway face off in the Round of 16, with both teams looking to keep their tournament momentum alive.",
       "story": [
-        "Brazil enters this Round of 16 matchup following a successful run through the group stage and a victory in the Round of 32. Their path included a draw against Morocco, followed by clean-sheet victories over Haiti and Scotland, and a narrow win against Japan to secure their current position.",
-        "The identity of Brazil's opponent remains to be determined, as the slot is reserved for the winner of Match 78. This uncertainty adds a layer of intrigue to the preparation, as Brazil must be ready to adapt to the specific tactical profile of whoever emerges from that contest.",
-        "Having navigated a variety of opponents already, Brazil has shown both offensive consistency and the ability to manage tight knockout games. As they move deeper into the tournament, the focus shifts to maintaining that momentum against a fresh challenger in this high-stakes knockout round."
+        "Brazil enters this knockout match following a hard-fought victory over Japan in the Round of 32. Their path to this stage included a steady group campaign where they remained unbeaten, showcasing their ability to control matches against diverse opponents.",
+        "Norway arrives at this stage after navigating a competitive group and overcoming Ivory Coast in a narrow Round of 32 victory. Having displayed a high-scoring potential throughout their previous matches, they have proven they can find the back of the net under pressure.",
+        "This matchup presents a test of styles as both nations look to secure a spot in the next phase. With the tournament stakes rising, both sides will need to rely on the form that carried them through their opening rounds to gain an advantage in this high-pressure environment."
       ],
       "bullets": [
-        "Brazil remains undefeated across their group stage and Round of 32 appearances.",
-        "The opponent for this match is currently unconfirmed, pending the outcome of Match 78.",
-        "Brazil enters the Round of 16 after a 2-1 victory over Japan in the previous knockout round."
+        "Brazil has maintained a strong defensive and offensive balance throughout their journey to the Round of 16.",
+        "Norway has demonstrated resilience in close contests, including a high-scoring win against Senegal and a tight victory over Ivory Coast.",
+        "Both teams have successfully navigated the transition from group play to the intensity of the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:18:07+00:00",
-      "sourceHash": "00bcdd4cf7f8636a",
+      "updatedAt": "2026-07-05T21:33:49+00:00",
+      "sourceHash": "9122450df2fea709",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "92": {
       "headline": "Mexico and England Collide in Round of 16",
