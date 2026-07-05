@@ -1045,10 +1045,33 @@
     return `<span class="${escapeHtml(`${className}${placeholderClass}`)}">${flagHtml}<span class="team-label">${escapeHtml(team)}</span></span>`;
   }
 
+  function resolvedTeamFromMatchSource(sourceLabel) {
+    const source = String(sourceLabel || "");
+    const matchSource = source.match(/^(Winner|Loser) Match (\d+)$/i);
+    if (!matchSource) return "";
+
+    const sourceMatch = matches.find((match) => match.id === Number(matchSource[2]));
+    if (!sourceMatch || !hasScore(sourceMatch) || !isScoreVisible(sourceMatch)) return "";
+
+    if (sourceMatch.homeScore === sourceMatch.awayScore) {
+      return "";
+    }
+
+    const homeWon = sourceMatch.homeScore > sourceMatch.awayScore;
+    const winner = homeWon ? sourceMatch.home : sourceMatch.away;
+    const loser = homeWon ? sourceMatch.away : sourceMatch.home;
+    return matchSource[1].toLowerCase() === "winner" ? winner : loser;
+  }
+
   function visibleTeamForMatch(match, side) {
     const source = match[`${side}Source`];
     if (source && !bracketSourceVisible(source)) {
       return shouldUseBracketTbd(match, source) ? "TBD" : source;
+    }
+
+    const resolvedTeam = resolvedTeamFromMatchSource(source);
+    if (resolvedTeam) {
+      return resolvedTeam;
     }
 
     const team = match[side];
