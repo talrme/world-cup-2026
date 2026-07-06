@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-05T22:35:32+00:00",
+  "generatedAt": "2026-07-06T01:28:44+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -58,8 +58,8 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 5,
       "assists": 0,
       "points": 5,
-      "matches": 4,
-      "minutes": 394,
+      "matches": 5,
+      "minutes": 421,
       "goalsPer90": 1.1,
       "pointsPer90": 1.1
     },
@@ -149,10 +149,10 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 3,
       "assists": 1,
       "points": 4,
-      "matches": 4,
-      "minutes": 354,
-      "goalsPer90": 0.8,
-      "pointsPer90": 1.0
+      "matches": 5,
+      "minutes": 381,
+      "goalsPer90": 0.7,
+      "pointsPer90": 0.9
     },
     {
       "rank": 12,
@@ -429,19 +429,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 33,
-      "player": "Jude Bellingham",
-      "team": "England",
-      "position": "MID",
-      "goals": 2,
-      "assists": 1,
-      "points": 3,
-      "matches": 4,
-      "minutes": 341,
-      "goalsPer90": 0.5,
-      "pointsPer90": 0.8
-    },
-    {
-      "rank": 34,
       "player": "Ayase Ueda",
       "team": "Japan",
       "position": "FW",
@@ -452,6 +439,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "minutes": 350,
       "goalsPer90": 0.5,
       "pointsPer90": 0.8
+    },
+    {
+      "rank": 34,
+      "player": "Jude Bellingham",
+      "team": "England",
+      "position": "MID",
+      "goals": 2,
+      "assists": 1,
+      "points": 3,
+      "matches": 5,
+      "minutes": 367,
+      "goalsPer90": 0.5,
+      "pointsPer90": 0.7
     },
     {
       "rank": 35,
@@ -533,19 +533,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 41,
-      "player": "Raul Jimenez",
-      "team": "Mexico",
-      "position": "FW",
-      "goals": 2,
-      "assists": 0,
-      "points": 2,
-      "matches": 4,
-      "minutes": 242,
-      "goalsPer90": 0.7,
-      "pointsPer90": 0.7
-    },
-    {
-      "rank": 42,
       "player": "Anthony Elanga",
       "team": "Sweden",
       "position": "MID",
@@ -554,6 +541,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 2,
       "matches": 4,
       "minutes": 247,
+      "goalsPer90": 0.7,
+      "pointsPer90": 0.7
+    },
+    {
+      "rank": 42,
+      "player": "Raul Jimenez",
+      "team": "Mexico",
+      "position": "FW",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "matches": 5,
+      "minutes": 268,
       "goalsPer90": 0.7,
       "pointsPer90": 0.7
     },
@@ -806,19 +806,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 61,
-      "player": "Luis Romo",
-      "team": "Mexico",
-      "position": "MID",
-      "goals": 1,
-      "assists": 1,
-      "points": 2,
-      "matches": 4,
-      "minutes": 219,
-      "goalsPer90": 0.4,
-      "pointsPer90": 0.8
-    },
-    {
-      "rank": 62,
       "player": "Mousa Tamari",
       "team": "Jordan",
       "position": "FW",
@@ -829,6 +816,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "minutes": 230,
       "goalsPer90": 0.4,
       "pointsPer90": 0.8
+    },
+    {
+      "rank": 62,
+      "player": "Luis Romo",
+      "team": "Mexico",
+      "position": "MID",
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "matches": 5,
+      "minutes": 245,
+      "goalsPer90": 0.4,
+      "pointsPer90": 0.7
     },
     {
       "rank": 63,
@@ -1163,7 +1163,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 82,
       "goalsPer90": 1.1,
       "pointsPer90": 1.1
@@ -1215,7 +1215,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 94,
       "goalsPer90": 1.0,
       "pointsPer90": 1.0
@@ -1423,7 +1423,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 203,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4

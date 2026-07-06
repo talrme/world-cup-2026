@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T23:46:07+00:00",
+  "generatedAt": "2026-07-06T01:32:18+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -340,22 +340,22 @@
       "refreshReason": "source or prompt changed"
     },
     "28": {
-      "headline": "Mexico edges South Korea to tighten grip on Group A",
-      "summary": "Mexico secured a narrow 1-0 victory over South Korea, maintaining their perfect start to the group stage.",
+      "headline": "Mexico Edges South Korea to Maintain Group A Control",
+      "summary": "Mexico secured a narrow 1-0 victory over South Korea, keeping their perfect record in Group A intact.",
       "story": [
-        "Mexico continued their dominant run in Group A with a hard-fought 1-0 win against South Korea. This result proved pivotal in establishing their command over the group, keeping them on track for a deep tournament run.",
-        "For South Korea, the loss created significant pressure heading into their final group fixture. While they entered the match with momentum from their opening win against Czechia, the defeat left them fighting to recover their standing in a tightly contested group.",
-        "This victory was part of a flawless group campaign for Mexico, who finished at the top of the table with nine points and zero goals conceded. Their defensive consistency provided the foundation for their eventual progression into the knockout stages.",
-        "Following this match, Mexico went on to sweep their remaining group games before successfully navigating their Round of 32 clash against Ecuador. South Korea ultimately finished third in the group, concluding their participation after a narrow loss to South Africa in their final match."
+        "Mexico continued their strong form in the group stage by defeating South Korea 1-0. This result was a pivotal moment in Group A, as it solidified Mexico's position at the top of the table and forced South Korea to fight for their tournament life in their final group match.",
+        "The match was a tight, defensive affair where Mexico's ability to find a breakthrough proved to be the difference. By keeping a clean sheet, Mexico demonstrated the defensive discipline that would eventually help them sweep the group stage with nine points and zero goals conceded.",
+        "For South Korea, the loss meant they entered their final group match against South Africa under significant pressure. The defeat left them with three points, ultimately impacting their ability to secure a favorable path out of the group stage.",
+        "Following this match, Mexico went on to dominate their group, eventually advancing to the knockout rounds. The win served as the cornerstone of their successful group campaign."
       ],
       "bullets": [
-        "Mexico finished the group stage with a perfect record of 9 points and 6 goals scored without conceding.",
-        "The 1-0 result marked a critical defensive stand for Mexico, who kept a clean sheet throughout all three group matches.",
-        "South Korea finished third in Group A with 3 points, following a win against Czechia and losses to Mexico and South Africa."
+        "Mexico maintained their perfect defensive record in the group stage with this 1-0 victory.",
+        "The result left South Korea with three points, intensifying the stakes for their final group match against South Africa.",
+        "Mexico finished the group stage with a flawless 9 points and a +6 goal difference."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:44:26+00:00",
-      "sourceHash": "3b13074abe8cc72c",
+      "updatedAt": "2026-07-06T01:31:47+00:00",
+      "sourceHash": "04d13231900cec4b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -439,21 +439,19 @@
     },
     "46": {
       "headline": "England and Ghana play to scoreless stalemate",
-      "summary": "England and Ghana finished in a 0-0 draw, a result that kept the Group L standings tight during the second matchday.",
+      "summary": "England and Ghana finished in a 0-0 draw, leaving both sides to battle for position in a tight Group L.",
       "story": [
-        "England and Ghana battled to a 0-0 draw in their second group stage fixture, a match that saw both sides struggle to find a breakthrough. The defensive effort on both ends neutralized attacking threats, leaving both teams to share the points.",
-        "For England, the draw was a slight speed bump in an otherwise successful group campaign. They eventually finished at the top of Group L with 7 points, having secured wins against Croatia and Panama to move into the knockout rounds.",
-        "Ghana fought hard throughout the group stage, finishing with 4 points. While they managed a win over Panama, the draw against England and a subsequent loss to Croatia meant they had to rely on their performance to advance as one of the best third-placed teams.",
-        "Following this result, both nations continued their tournament journeys. England went on to defeat Congo DR in the Round of 32, while Ghana's run ended in a narrow 1-0 defeat to Colombia."
+        "The Matchday 2 encounter between England and Ghana ended in a 0-0 draw, a result that kept the group standings narrow and increased the pressure for the final round of fixtures.",
+        "For England, the point was a departure from their high-scoring opener against Croatia, while Ghana successfully frustrated their opponents to secure a vital point in their pursuit of qualification.",
+        "Following this result, England eventually topped Group L with 7 points, while Ghana finished third with 4 points, ultimately leading to their respective paths in the knockout stages."
       ],
       "bullets": [
-        "The 0-0 draw was the only match in Group L that did not feature a goal.",
-        "England secured the top spot in the group despite the stalemate, finishing with 6 goals scored and 2 conceded.",
-        "Ghana finished third in the group with 4 points, eventually advancing to the Round of 32."
+        "The 0-0 result forced both teams to rely on their final group matches to secure their standing.",
+        "England moved forward to win the group, while Ghana advanced to the Round of 32 as one of the best third-placed teams."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:44:18+00:00",
-      "sourceHash": "fc23d78bebbc6188",
+      "updatedAt": "2026-07-06T01:31:39+00:00",
+      "sourceHash": "e09cb94145954c35",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -599,20 +597,21 @@
     },
     "54": {
       "headline": "Mexico Sweeps Group A with Dominant Win Over Czechia",
-      "summary": "Final: Czechia 0, Mexico 3. Mexico secured a perfect group stage record with a 3-0 victory over Czechia to finish at the top of Group A.",
+      "summary": "Final: Czechia 0, Mexico 3. Mexico secured a perfect group stage record by defeating Czechia 3-0 to finish at the top of Group A.",
       "story": [
-        "Mexico asserted their dominance in the final match of the group stage, comfortably defeating Czechia 3-0. This result solidified Mexico's position at the top of Group A, capping off an impressive run where they finished with nine points and a clean sheet in every match.",
-        "For Czechia, the loss marked the end of a difficult group campaign. They struggled to find momentum throughout the tournament, finishing at the bottom of the table with only a single point earned from their draw against South Africa.",
-        "With this victory, Mexico maintained their momentum heading into the knockout rounds. Their defensive discipline and offensive efficiency proved to be the defining factors of their group stage performance, setting a high standard as they advanced to the next phase of the competition."
+        "Mexico asserted their dominance in the final matchday of Group A, cruising to a 3-0 victory against Czechia. This result cemented Mexico's position at the top of the group standings, finishing with a flawless nine points from three matches and an impressive goal difference of plus six.",
+        "The win underscored Mexico's defensive solidity throughout the group phase, as they concluded their three matches without conceding a single goal. By keeping Czechia scoreless, they maintained their unblemished defensive record while continuing to find success in the attacking third.",
+        "For Czechia, the loss marked the end of a difficult group campaign. Having managed only one point from their three fixtures\u2014a draw against South Africa\u2014they were unable to find the form needed to advance, ultimately finishing at the bottom of the group table.",
+        "With this victory, Mexico moved forward into the knockout stages with significant momentum. Their performance in this match served as a statement of intent, proving their readiness for the challenges of the tournament's later rounds."
       ],
       "bullets": [
-        "Mexico finished the group stage with a perfect 9 points and 6 goals scored while conceding zero.",
+        "Mexico finished the group stage with a perfect 9-point record and zero goals conceded.",
         "Czechia concluded their tournament run with 1 point and a -4 goal difference.",
-        "Mexico's result ensured they finished at the top of Group A, clearing the way for their subsequent knockout stage fixtures."
+        "The 3-0 result allowed Mexico to comfortably secure the top spot in Group A."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:44:10+00:00",
-      "sourceHash": "40c63cabc091f3da",
+      "updatedAt": "2026-07-06T01:31:31+00:00",
+      "sourceHash": "89c8c63de7c3480f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -860,20 +859,21 @@
       "refreshReason": "source or prompt changed"
     },
     "67": {
-      "headline": "England seals top spot in Group L with win over Panama",
-      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama to finish their group stage campaign undefeated and at the top of the table.",
+      "headline": "England Clinches Group L Top Spot With Win Over Panama",
+      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama to finish at the top of Group L.",
       "story": [
-        "England controlled the tempo in their final group match, dispatching Panama 2-0 to solidify their position at the summit of Group L. The result capped off a strong group stage performance where England finished with seven points, having navigated their fixtures without a single loss.",
-        "With this victory, England advanced to the Round of 32, where they eventually defeated Congo DR 2-1 to move into the Round of 16. Their successful group campaign provided the necessary momentum to navigate the knockout stages, setting up a high-stakes meeting with Mexico."
+        "England closed out their group stage campaign with a professional 2-0 win against Panama, ensuring they finished at the summit of Group L with seven points. The result solidified their position as group winners, confirming their form after an earlier draw against Ghana and a high-scoring win over Croatia.",
+        "For Panama, the match marked the end of a difficult tournament run. Despite their efforts, they finished the group stage without a point or a goal, having also suffered narrow defeats to Ghana and Croatia in their previous fixtures.",
+        "With the group stage concluded, England successfully advanced to the knockout rounds. Their path forward saw them continue their momentum into the Round of 32, where they eventually faced Congo DR before moving on to further tournament challenges."
       ],
       "bullets": [
-        "England finished Group L in first place with 7 points, while Panama concluded their campaign in fourth.",
-        "England maintained a solid defensive record in the group, conceding only 2 goals across three matches.",
-        "The victory ensured England carried a winning streak into the knockout rounds."
+        "England finished Group L undefeated with two wins and one draw.",
+        "Panama exited the tournament after three matches, conceding four goals without finding the back of the net.",
+        "England's group-winning performance set up a successful progression into the knockout phase."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:44:02+00:00",
-      "sourceHash": "c55bb7a77617fe77",
+      "updatedAt": "2026-07-06T01:31:23+00:00",
+      "sourceHash": "b9167e6b4c550fe1",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1020,21 +1020,19 @@
     },
     "22": {
       "headline": "England Opens Group L with High-Scoring Win Over Croatia",
-      "summary": "England secured a decisive 4-2 victory over Croatia in their opening match of the tournament.",
+      "summary": "England secured a 4-2 victory over Croatia in their opening match of Group L, setting the tone for their group stage campaign.",
       "story": [
-        "England kicked off their Group L campaign with an offensive display, putting four goals past Croatia in a 4-2 win. This result immediately established England as a force in the group, providing them with a crucial cushion in goal difference early on.",
-        "For Croatia, the loss forced an immediate adjustment in their approach for the remainder of the group stage. While they managed to bounce back in subsequent matches against Panama and Ghana, the defensive lapses against England proved costly to their overall group standing.",
-        "The win served as the foundation for England's successful group run, where they eventually finished at the top of the table with 7 points. Following this victory, England maintained their momentum through the group stage and into the knockout rounds.",
-        "Croatia finished as the runner-up in Group L with 6 points, ultimately seeing their tournament journey conclude after a 2-1 defeat to Portugal in the Round of 32."
+        "England kicked off their tournament on the front foot, putting four goals past Croatia in a decisive 4-2 result. The win provided a critical three points that helped England eventually top Group L with a total of seven points.",
+        "For Croatia, the loss in the opening match proved to be a significant hurdle. Despite the setback, they rebounded to finish second in the group with six points, though their tournament run ultimately concluded in the Round of 32 following a 2-1 defeat to Portugal.",
+        "England's strong start in this fixture proved foundational to their progression. After this opening win, they remained unbeaten through the rest of the group stage, including a draw against Ghana and a victory over Panama, before advancing into the knockout rounds."
       ],
       "bullets": [
-        "England finished atop Group L with 7 points, while Croatia took second place with 6 points.",
-        "The 4-2 scoreline provided England with a significant +4 goal difference, which helped secure their top spot in the group.",
-        "Following this match, England successfully navigated through the Round of 32, while Croatia was eliminated in the same round."
+        "England finished at the top of Group L with 7 points, while Croatia followed in second with 6 points.",
+        "This match was the highest-scoring encounter in Group L, featuring six total goals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:44:34+00:00",
-      "sourceHash": "7e6474a855a7566a",
+      "updatedAt": "2026-07-06T01:31:55+00:00",
+      "sourceHash": "59d4fea4a0fc9122",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1421,22 +1419,21 @@
       "refreshReason": "source or prompt changed"
     },
     "1": {
-      "headline": "Mexico Opens Group A with Dominant Win Over South Africa",
-      "summary": "Mexico secured a comfortable 2-0 victory over South Africa in their opening Group A match.",
+      "headline": "Mexico Opens Campaign with Decisive Win Over South Africa",
+      "summary": "Mexico secured a clean 2-0 victory over South Africa in their Group A opener to set the tone for a dominant tournament run.",
       "story": [
-        "Mexico asserted their authority early in the tournament with a clean 2-0 result against South Africa. By controlling the pace of the match, they set the tone for a dominant group stage campaign that would eventually see them finish at the top of the table with nine points and zero goals conceded.",
-        "For South Africa, the loss represented a difficult start to their group schedule. Despite the setback, they remained competitive throughout the opening phase, eventually earning a draw against Czechia and a narrow win over South Korea to secure a spot in the knockout rounds.",
-        "This opening match proved pivotal for the group dynamics. Mexico's victory provided the cushion they needed to navigate their subsequent matches against South Korea and Czechia with confidence, while South Africa was forced to fight for points in their remaining fixtures to keep their tournament hopes alive.",
-        "Following the conclusion of the group stage, both teams advanced to the Round of 32. Mexico continued their strong form into the knockout phase, while South Africa's journey concluded after a hard-fought match against Canada."
+        "Mexico asserted their authority early in Group A, dispatching South Africa 2-0 to claim all three points. This opening victory served as the foundation for a perfect group stage performance, where Mexico ultimately finished at the top of the table with nine points and zero goals conceded.",
+        "For South Africa, the result made for a challenging start to their tournament journey. Despite the opening loss, they showed resilience in their subsequent group matches, eventually securing a crucial 1-0 win against South Korea to finish second in the group and advance to the knockout stages.",
+        "The trajectory of both teams diverged significantly following this match. Mexico carried their momentum all the way through the group phase and into the knockout rounds, while South Africa's tournament run concluded in the Round of 32 following a narrow loss to Canada."
       ],
       "bullets": [
-        "Mexico finished the group stage with a perfect 9-point record and a +6 goal difference.",
+        "Mexico finished the group stage with a perfect record of 3 wins and 0 losses.",
         "South Africa advanced to the knockout stage as the Group A runner-up with 4 points.",
-        "Mexico did not concede a single goal during their three group stage matches."
+        "Mexico did not concede a single goal throughout their three group stage matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:44:42+00:00",
-      "sourceHash": "49954c8f61f56a55",
+      "updatedAt": "2026-07-06T01:32:02+00:00",
+      "sourceHash": "8fab8e2ce00a3c3e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1562,40 +1559,40 @@
       "refreshReason": "source or prompt changed"
     },
     "79": {
-      "headline": "Mexico Advances to Round of 16 After Shutout Win",
-      "summary": "Mexico secured a clean 2-0 victory over Ecuador in the Round of 32 to extend their unbeaten tournament run.",
+      "headline": "Mexico Advances Past Ecuador in Round of 32",
+      "summary": "Mexico secured their spot in the Round of 16 with a decisive 2-0 victory over Ecuador.",
       "story": [
-        "Mexico continued their dominant form by dispatching Ecuador 2-0 in the Round of 32. Having entered the knockout stage as the winners of Group A, Mexico maintained the defensive discipline that characterized their group stage campaign, where they conceded zero goals across three matches.",
-        "For Ecuador, the loss marks the end of their tournament journey. Despite a resilient 2-1 victory over Germany in their final group match to qualify as one of the best third-place teams, they were unable to break through against a resolute Mexican side.",
-        "The victory sets up a high-stakes Round of 16 matchup for Mexico against England. Having now navigated the group stage and the opening knockout round without a single blemish on their record, the hosts will look to carry this momentum into their next challenge."
+        "Mexico continued their impressive form in the tournament, moving past Ecuador with a clean sheet and a two-goal cushion. Having entered the knockout stage as the winners of Group A, the hosts maintained their momentum by effectively neutralizing the Ecuadorian attack.",
+        "For Ecuador, the loss marks the end of their campaign. They reached this stage as one of the best third-placed teams, following a resilient group stage performance that included a notable win against Germany. However, they were unable to replicate that success against a disciplined Mexican side.",
+        "This victory propels Mexico into the next phase of the competition, where they are set to face England. The win reinforces Mexico's status as a serious contender, having now navigated both the group stage and the opening knockout round without conceding a goal in this match."
       ],
       "bullets": [
-        "Mexico remains undefeated and has yet to concede a goal in the tournament.",
-        "The result confirms Mexico's place in the Round of 16 against England.",
-        "Ecuador exits the competition following their Round of 32 appearance."
+        "Mexico maintained their defensive consistency, keeping a clean sheet in the 2-0 win.",
+        "The result eliminates Ecuador, who had advanced as one of the best third-placed teams.",
+        "Mexico advances to the Round of 16 to face England."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:43:54+00:00",
-      "sourceHash": "2325396006f40710",
+      "updatedAt": "2026-07-06T01:31:16+00:00",
+      "sourceHash": "e4bbbd3c2f74f7fd",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "80": {
-      "headline": "England Edges Past Congo DR to Reach Round of 16",
-      "summary": "England secured a hard-fought 2-1 victory over Congo DR in their Round of 32 matchup to advance in the tournament.",
+      "headline": "England survives Congo DR challenge to reach Round of 16",
+      "summary": "England secured their place in the next round with a hard-fought 2-1 victory over Congo DR.",
       "story": [
-        "England continued their tournament progression with a narrow 2-1 win against Congo DR. After finishing at the top of Group L, England entered the knockout stage with momentum, and this result ensures they remain in the hunt for the trophy.",
-        "The match was a tight affair that tested England's resolve, as Congo DR pushed them until the final whistle. By securing the win, England avoided an early exit and confirmed their place in the next phase of the competition.",
-        "With this victory, England now turns their attention to the Round of 16. They are scheduled to face Mexico on July 5, a high-stakes encounter that will determine who moves on to the quarter-finals."
+        "England moved past a resilient Congo DR side in the Round of 32, clinching a 2-1 win that keeps their tournament campaign alive. As winners of Group L, England entered the knockout stage with momentum, but they were pushed to the limit by an opponent that fought to remain in the competition.",
+        "With this win, England now advances to the Round of 16 to face Mexico. This path forward requires them to maintain their composure as they shift focus to their upcoming match on July 5, where they will look to build on the grit shown in this narrow victory."
       ],
       "bullets": [
-        "England finished their Group L campaign undefeated before taking down Congo DR in this opening knockout match.",
-        "The 2-1 result sets up a Round of 16 showdown against Mexico on July 5."
+        "England maintained their tournament momentum by overcoming Congo DR with a 2-1 scoreline.",
+        "The victory sets up a high-stakes Round of 16 encounter against Mexico.",
+        "England remains undefeated in the tournament, having successfully navigated both their group stage and this opening knockout match."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:43:46+00:00",
-      "sourceHash": "61aa6d40cb9a2d62",
+      "updatedAt": "2026-07-06T01:31:08+00:00",
+      "sourceHash": "2591f1aaa56d1090",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1781,23 +1778,22 @@
     },
     "90": {
       "headline": "France Edges Past Paraguay to Secure Quarterfinal Spot",
-      "summary": "Final: Paraguay 0, France 1. France advanced to the quarterfinals with a narrow 1-0 victory over Paraguay in the Round of 16.",
+      "summary": "Final: Paraguay 0, France 1. France advanced in the tournament with a narrow 1-0 victory over Paraguay in the Round of 16.",
       "story": [
-        "France continued their strong tournament run by overcoming a resilient Paraguay side, securing a 1-0 win that keeps their title ambitions alive. The result brings an end to Paraguay's campaign, which saw them battle through a challenging group stage and a tough Round of 32 encounter against Germany.",
-        "For France, the victory serves as another statement of their consistency. Having dominated their group and dispatched Sweden in the previous round, they once again proved difficult to break down while finding the necessary breakthrough to progress.",
-        "Looking ahead, France now shifts their focus to the quarterfinal stage. They are set to face Morocco, who also successfully navigated their own path through the bracket to reach this elite final eight."
+        "France continued their strong run in the competition by overcoming a resilient Paraguay side in a tight knockout encounter. The 1-0 result was enough to send the French through to the next stage, ending Paraguay's tournament campaign after they had navigated a challenging path through the group stage and a tough Round of 32 matchup.",
+        "For Paraguay, the loss concludes a tournament defined by defensive grit. They previously managed a draw against Australia and fought Germany to a stalemate in the Round of 32, but they ultimately could not find the breakthrough required to overcome the French defense.",
+        "France now shifts their focus to the Quarterfinals, where they are scheduled to face Morocco on July 9. Having maintained high offensive production throughout the group stage and a dominant 3-0 win over Sweden in the previous round, France enters the final eight as a formidable contender."
       ],
       "bullets": [
-        "France maintained their winning momentum with a clean sheet and a decisive single-goal margin.",
-        "Paraguay exits the tournament after a hard-fought knockout run that included a draw against Germany.",
-        "France will move on to meet Morocco in the quarterfinal round."
+        "France secured their place in the Quarterfinals with a clean sheet and a single goal.",
+        "France will move on to face Morocco in the next round."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:21:46+00:00",
+      "updatedAt": "2026-07-06T01:32:18+00:00",
       "sourceHash": "a15428dca3c47a5b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "91": {
       "headline": "Norway Stuns Brazil to Advance to Quarterfinals",
@@ -1818,6 +1814,26 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "92": {
+      "headline": "Mexico and England Deadlocked in Round of 16",
+      "summary": "Mexico and England played to a 0-0 draw in their Round of 16 encounter.",
+      "story": [
+        "The Round of 16 clash between Mexico and England ended in a tense stalemate, with neither side able to break the deadlock after regulation time. Both teams entered the knockout stage with momentum from their previous fixtures, but defensive discipline ultimately dictated the flow of this match.",
+        "Mexico arrived at this stage following a dominant run through Group A and a clean-sheet victory over Ecuador in the Round of 32. Their defensive stability was on display once again, as they successfully neutralized the English attack throughout the duration of the match.",
+        "England, who navigated Group L before narrowly defeating Congo DR in the previous round, struggled to find a breakthrough against a disciplined Mexican side. The result leaves both teams looking toward the next phase of the tournament as they continue their quest for the title."
+      ],
+      "bullets": [
+        "The match concluded with a 0-0 scoreline, forcing a defensive stalemate between the two sides.",
+        "Mexico continued their strong defensive form, having conceded very few goals throughout their tournament campaign.",
+        "England remained unbeaten in the knockout rounds following their previous victory over Congo DR."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-06T01:32:10+00:00",
+      "sourceHash": "21281571ba190c95",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {
