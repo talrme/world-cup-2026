@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-06T21:07:11+00:00",
+  "generatedAt": "2026-07-06T22:35:08+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -782,7 +782,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "rank": 59,
       "player": "Rafael Leao",
       "team": "Portugal",
-      "position": "MID",
+      "position": "FW",
       "goals": 1,
       "assists": 1,
       "points": 2,

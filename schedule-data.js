@@ -3056,7 +3056,21 @@ window.WORLD_CUP_DATA = {
       "homeRevealSource": "Winner Match 83",
       "awayRevealSource": "Winner Match 84",
       "homeScore": 0,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-06T22:36:30+00:00",
+          "title": "Portugal vs Spain Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 16",
+          "url": "https://www.youtube.com/watch?v=xINJD9fo6BM",
+          "channel": "FOX Sports",
+          "durationText": "11 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-06T22:36:30+00:00"
+      }
     },
     {
       "id": 94,

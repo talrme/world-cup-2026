@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T21:09:40+00:00",
+  "generatedAt": "2026-07-06T22:38:18+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -41,22 +41,22 @@
       "refreshReason": "source or prompt changed"
     },
     "37": {
-      "headline": "Spain Dominates Saudi Arabia in 4-0 Group H Victory",
-      "summary": "Spain secured a decisive 4-0 win over Saudi Arabia to seize control of Group H.",
+      "headline": "Spain Dominates Saudi Arabia in Four-Goal Victory",
+      "summary": "Spain secured a decisive 4-0 victory over Saudi Arabia, marking a pivotal moment in their Group H campaign.",
       "story": [
-        "Spain asserted their dominance in this Group H encounter, putting four goals past Saudi Arabia without conceding. The result was a significant turning point for the Spanish side, who had opened their tournament with a scoreless draw against Cabo Verde.",
-        "The victory provided Spain with the momentum needed to eventually top the group standings with seven points. By finding their offensive rhythm, they set the tone for the remainder of their campaign, which saw them successfully navigate through the knockout stages.",
-        "For Saudi Arabia, the match proved to be a difficult hurdle in a challenging group. Despite earning draws against Uruguay and Cabo Verde, they were unable to overcome the gap in this fixture, ultimately finishing at the bottom of the group table.",
-        "Spain's performance in this match served as a springboard for their progression, leading them to subsequent knockout wins over Austria and Portugal. The team maintained defensive consistency throughout the group stage, finishing with five goals scored and zero conceded."
+        "Spain asserted their authority in Group H with a commanding 4-0 win against Saudi Arabia. After a scoreless draw in their opening match against Cabo Verde, this result provided the offensive spark Spain needed to take control of the group standings.",
+        "For Saudi Arabia, the loss proved difficult to overcome. Following a 1-1 draw with Uruguay in their first match, they were unable to find their footing against a clinical Spanish side, eventually finishing the group stage with two points.",
+        "This victory served as the catalyst for Spain's successful run through the tournament. By finishing at the top of Group H with seven points, they set themselves up for a deep knockout stage journey that included victories over Austria and Portugal.",
+        "While Saudi Arabia's tournament ended in the group stage following a subsequent draw with Cabo Verde, Spain continued their momentum, eventually advancing to the quarterfinals."
       ],
       "bullets": [
-        "Spain's 4-0 result was their largest margin of victory during the group stage.",
-        "The win propelled Spain to the top of Group H with a final record of two wins and one draw.",
-        "Saudi Arabia concluded their tournament run with two points from three matches."
+        "Spain finished atop Group H with 7 points and a +5 goal difference.",
+        "The 4-0 margin was Spain's largest victory of the group stage.",
+        "Saudi Arabia concluded their tournament campaign with 2 points from three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:09:15+00:00",
-      "sourceHash": "0ec2adac09b33aae",
+      "updatedAt": "2026-07-06T22:37:55+00:00",
+      "sourceHash": "6e53e9a4bb88eeb7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -418,21 +418,21 @@
       "refreshReason": "source or prompt changed"
     },
     "45": {
-      "headline": "Portugal Dominates Uzbekistan in 5-0 Group Stage Win",
-      "summary": "Portugal secured a decisive 5-0 victory over Uzbekistan, significantly boosting their goal difference in Group K.",
+      "headline": "Portugal Dominates Uzbekistan in 5-0 Group K Rout",
+      "summary": "Portugal secured a commanding 5-0 victory over Uzbekistan, significantly bolstering their goal difference and group standing.",
       "story": [
-        "Portugal delivered a comprehensive performance in their second group match, dismantling Uzbekistan with five unanswered goals. The result was a crucial response after their opening draw against DR Congo, providing the momentum needed to navigate a competitive group.",
-        "For Uzbekistan, the match proved to be a difficult challenge, as they struggled to contain the Portuguese attack throughout the 90 minutes. The loss left them at the bottom of the group standings, having conceded 11 goals across their three group fixtures.",
-        "This victory proved vital for Portugal's progression, helping them secure a second-place finish in Group K with 5 points. Their strong goal difference ultimately provided a solid foundation for their eventual run to the Round of 16, where they faced Spain."
+        "Portugal delivered a clinical performance against Uzbekistan, finding the back of the net five times without conceding. This lopsided result provided a massive boost to their goal difference, which proved vital as they navigated a tight Group K campaign.",
+        "This win was a pivotal turning point for Portugal, helping them stabilize their position in the group after an opening draw against DR Congo. The three points put them in a strong position to eventually advance to the knockout stages, where they later faced Croatia and Spain.",
+        "While Portugal eventually concluded their tournament run in the Round of 16, this emphatic victory remained one of their most impressive displays of offensive efficiency during the group stage."
       ],
       "bullets": [
-        "Portugal's 5-0 win was the largest margin of victory in their group stage campaign.",
-        "The result helped Portugal finish group play with a +5 goal difference.",
-        "Uzbekistan concluded their tournament run with 0 points from three matches."
+        "Portugal's 5-0 win was the largest margin of victory in Group K.",
+        "The result helped Portugal finish second in the group with 5 points.",
+        "Uzbekistan concluded their group campaign without a point."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:09:07+00:00",
-      "sourceHash": "8aa7668008169352",
+      "updatedAt": "2026-07-06T22:37:47+00:00",
+      "sourceHash": "eebd446e2e229ab7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -794,21 +794,21 @@
       "refreshReason": "source or prompt changed"
     },
     "64": {
-      "headline": "Spain Secures Top Spot in Group H with Win Over Uruguay",
-      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 to finish at the top of Group H with seven points.",
+      "headline": "Spain Secures Group H Top Spot with Narrow Victory Over Uruguay",
+      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 in their final group stage match to cement their position at the top of Group H.",
       "story": [
-        "Spain solidified their dominance in Group H by edging out Uruguay 1-0 in their final group stage match. The result ensured Spain finished the group phase undefeated, having accumulated seven points from three matches while maintaining a clean sheet throughout the opening round.",
-        "For Uruguay, the loss marked a difficult end to their group campaign. After drawing their first two matches against Saudi Arabia and Cabo Verde, they were unable to find a breakthrough against a disciplined Spanish side, ultimately finishing third in the group standings with two points.",
-        "Spain's victory allowed them to advance as the group winner, setting them on a successful path that led through subsequent knockout victories against Austria and Portugal. This win served as a vital foundation for their progression into the quarterfinal stages of the tournament."
+        "Spain navigated a tight contest against Uruguay to finish their group campaign with a perfect defensive record. The 1-0 result ensured Spain finished at the summit of Group H with seven points, having conceded zero goals across their three opening matches.",
+        "For Uruguay, the loss marked a difficult end to their tournament run. Despite battling to draws against Saudi Arabia and Cabo Verde earlier in the group, they were unable to find a breakthrough against a disciplined Spanish side, ultimately finishing the group stage with two points.",
+        "This victory served as a springboard for Spain's knockout stage journey. Following this win, Spain successfully navigated through the Round of 32 against Austria and a tense Round of 16 match against Portugal to reach the quarterfinals."
       ],
       "bullets": [
-        "Spain finished Group H undefeated with 7 points and a +5 goal difference.",
-        "Uruguay concluded their group stage run in third place with 2 points.",
-        "Spain did not concede a single goal during their three group stage matches."
+        "Spain finished the group stage undefeated with 7 points and a +5 goal differential.",
+        "Uruguay concluded their campaign in third place with 2 points from three matches.",
+        "Spain maintained a clean sheet throughout the entire group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:08:59+00:00",
-      "sourceHash": "f685f3be6eb47912",
+      "updatedAt": "2026-07-06T22:37:39+00:00",
+      "sourceHash": "ade9696be6d1f306",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -897,22 +897,22 @@
       "refreshReason": "source or prompt changed"
     },
     "69": {
-      "headline": "Colombia and Portugal play to a scoreless draw",
-      "summary": "Colombia and Portugal finished in a 0-0 stalemate, a result that secured Colombia the top spot in Group K.",
+      "headline": "Colombia and Portugal Play to Stalemate in Group K Finale",
+      "summary": "Colombia and Portugal finished in a 0-0 draw, a result that secured the top spot in Group K for Colombia.",
       "story": [
-        "The final matchday in Group K saw Colombia and Portugal battle to a 0-0 draw. While neither side could find the back of the net, the point was enough to solidify Colombia's position at the top of the group standings with 7 points.",
-        "Portugal finished the group stage in second place with 5 points, having secured one win and two draws across their three fixtures. Their campaign included a dominant 5-0 victory over Uzbekistan earlier in the tournament, which bolstered their goal difference significantly.",
-        "By finishing first in Group K, Colombia advanced to the Round of 32 where they successfully defeated Ghana 1-0. Portugal, as the group runner-up, moved on to face Croatia, winning that match 2-1 before eventually exiting the tournament in the Round of 16 against Spain.",
-        "Colombia's defensive consistency was a hallmark of their group stage performance, as they conceded only one goal across their three opening matches. This solidity provided the foundation for their progression through the knockout stages."
+        "The 0-0 draw between Colombia and Portugal served as the final act of Group K, effectively locking in the standings for both sides. With the point earned, Colombia finished at the top of the group with 7 points, while Portugal secured second place with 5 points.",
+        "The defensive nature of the match prevented either side from breaking the deadlock. Colombia relied on the momentum from their earlier wins against Uzbekistan and DR Congo to maintain their unbeaten group stage record, ultimately conceding only one goal throughout their three group matches.",
+        "For Portugal, the draw followed a dominant 5-0 victory over Uzbekistan and a competitive opening match against DR Congo. Despite the lack of goals in this specific fixture, their campaign remained strong enough to advance comfortably into the knockout rounds.",
+        "This result dictated the path for both nations in the tournament bracket. Colombia moved forward as the group winner, while Portugal advanced as the runner-up, each carrying the lessons of a tightly contested group phase into their subsequent knockout stage challenges."
       ],
       "bullets": [
-        "Colombia finished Group K unbeaten with 7 points, while Portugal followed in second with 5 points.",
-        "The result ensured Colombia avoided a defeat that could have shifted the group hierarchy.",
-        "Both teams successfully navigated their way out of the group stage and into the knockout rounds."
+        "Colombia finished Group K undefeated, accumulating 7 points from three matches.",
+        "The result secured the top position in the group for Colombia, while Portugal finished as the runner-up.",
+        "Both teams demonstrated defensive discipline, with neither side managing to find the back of the net in this encounter."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:08:51+00:00",
-      "sourceHash": "fb119c9cc45d1f5d",
+      "updatedAt": "2026-07-06T22:37:32+00:00",
+      "sourceHash": "08a5bd62527e3f22",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1039,20 +1039,20 @@
       "refreshReason": "source or prompt changed"
     },
     "21": {
-      "headline": "Portugal and DR Congo battle to a stalemate",
+      "headline": "Portugal and DR Congo Share the Points in Group K Opener",
       "summary": "Portugal and DR Congo played to a 1-1 draw in their opening Group K match.",
       "story": [
-        "The tournament opener for both sides ended in a deadlock, with Portugal and DR Congo splitting the points in a tightly contested 1-1 draw. This result set the tone for a competitive Group K, where every point proved vital as the group stage progressed.",
-        "For Portugal, this draw was the first step in a campaign that eventually saw them advance to the knockout stages. After this result, they went on to secure a dominant 5-0 victory over Uzbekistan and a hard-fought draw against Colombia, ultimately finishing second in the group.",
-        "DR Congo showed resilience in this match, though they ultimately finished third in the group with four points. Despite their strong effort in the opener, they fell just short of the top two spots after a narrow loss to Colombia and a subsequent win against Uzbekistan."
+        "The opening match of Group K saw Portugal and DR Congo battle to a 1-1 stalemate. Both sides were unable to find a decisive edge, leaving the group wide open from the very first day of competition.",
+        "This result proved significant as the group stage progressed. Portugal eventually finished second in the group with 5 points, while DR Congo finished third with 4 points, narrowly missing out on the automatic qualification spots after their three matches.",
+        "Portugal's tournament journey continued beyond the group stage, where they later secured a victory over Croatia in the Round of 32 before ultimately exiting the competition in the Round of 16 against Spain."
       ],
       "bullets": [
-        "Portugal finished second in Group K with 5 points, while DR Congo placed third with 4 points.",
-        "This draw was one of two stalemates Portugal recorded during their successful group stage campaign."
+        "The draw left Portugal and DR Congo level in the early group standings.",
+        "Portugal finished the group stage with 5 points, while DR Congo finished with 4."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:09:23+00:00",
-      "sourceHash": "b4bf9dbd10ebdd10",
+      "updatedAt": "2026-07-06T22:38:02+00:00",
+      "sourceHash": "31c50dfca3f60839",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1198,21 +1198,21 @@
       "refreshReason": "source or prompt changed"
     },
     "13": {
-      "headline": "Spain and Cabo Verde battle to scoreless stalemate",
-      "summary": "Spain and Cabo Verde opened their Group H campaign with a hard-fought 0-0 draw.",
+      "headline": "Spain and Cabo Verde Open Group H with Stalemate",
+      "summary": "Spain and Cabo Verde played to a 0-0 draw in their opening match of Group H.",
       "story": [
-        "The opening match of Group H saw Spain and Cabo Verde play to a scoreless draw, a result that left both sides searching for rhythm in their tournament debut. While Spain entered as a favorite, they were unable to break down a disciplined Cabo Verde defense throughout the 90 minutes.",
-        "This stalemate set the tone for a competitive group stage. For Cabo Verde, the point was a significant result that kept them in contention early on, while Spain was forced to regroup quickly before their subsequent matches against Saudi Arabia and Uruguay.",
-        "Looking back at the group's conclusion, this draw proved to be a pivotal moment for both teams. Spain eventually surged to the top of the table with seven points, while Cabo Verde finished second with three points, ultimately advancing to the Round of 32 where they faced Argentina."
+        "The opening match for both sides ended in a scoreless draw, leaving both teams to search for their offensive rhythm early in the tournament. While Spain was expected to dominate possession, Cabo Verde managed to hold firm defensively to secure a valuable point.",
+        "This result set the tone for a competitive Group H, where every point proved critical as the group progressed. For Spain, this draw was their only dropped points in the group stage, as they went on to win their next two matches against Saudi Arabia and Uruguay to top the group.",
+        "Cabo Verde used this momentum to remain difficult to beat throughout their group campaign, eventually finishing second in the table with three points. Their resilience in this opening fixture provided the foundation for their advancement to the knockout stages."
       ],
       "bullets": [
-        "The 0-0 result was the only match in Group H that did not feature a goal.",
-        "Spain eventually secured the top spot in the group with 7 points.",
-        "Cabo Verde finished as the group runner-up, earning their place in the knockout stages."
+        "Spain finished top of Group H with 7 points, while Cabo Verde finished second with 3 points.",
+        "The draw was the only match in the group stage where Spain failed to score.",
+        "Both teams successfully navigated the group stage to reach the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:09:31+00:00",
-      "sourceHash": "d76a9f4688796e1e",
+      "updatedAt": "2026-07-06T22:38:10+00:00",
+      "sourceHash": "88967153a1da90b5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1637,42 +1637,37 @@
       "refreshReason": "past 5 days"
     },
     "84": {
-      "headline": "Spain cruises past Austria in Round of 32",
-      "summary": "Spain secured a dominant 3-0 victory over Austria to advance in the knockout stage.",
+      "headline": "Spain Cruises Past Austria into Round of 16",
+      "summary": "Spain secured a dominant 3-0 victory over Austria in the Round of 32 to advance in the tournament.",
       "story": [
-        "Spain continued their impressive tournament form with a convincing 3-0 win against Austria in the Round of 32. Having topped Group H, the Spanish side demonstrated clinical efficiency to dismantle the Group J runners-up and secure their place in the next round.",
-        "For Austria, the tournament concludes after a campaign that saw them battle through a competitive group. While they managed to secure points against Jordan and Algeria, they were unable to overcome the high-pressing intensity Spain brought to this match.",
-        "With this win, Spain moved forward to face Portugal in the Round of 16, where they ultimately continued their winning streak with another 1-0 result."
+        "Spain demonstrated their tournament credentials with a convincing 3-0 win, effectively silencing Austria and moving forward in the knockout stage. Entering as the winners of Group H, Spain maintained the momentum they built throughout their group stage campaign.",
+        "For Austria, the loss marks the end of their run after a challenging group stage in Group J. Despite a spirited effort to reach the knockout phase, they were unable to overcome the clinical performance displayed by the Spanish side."
       ],
       "bullets": [
-        "Spain maintained their momentum after finishing first in Group H.",
-        "The 3-0 scoreline marked one of Spain's most decisive victories of the tournament.",
-        "Austria's exit follows a group stage run that included a high-scoring 3-3 draw with Algeria."
+        "Spain advanced to the Round of 16 with a clean sheet and a three-goal margin.",
+        "The win followed a successful group stage campaign where Spain remained undefeated."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:08:43+00:00",
-      "sourceHash": "14ac7257fd5ba914",
+      "updatedAt": "2026-07-06T22:37:24+00:00",
+      "sourceHash": "11ef2d46857bbd79",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "83": {
-      "headline": "Portugal Advances Past Croatia in Round of 32",
-      "summary": "Portugal secured their spot in the next stage of the tournament with a hard-fought 2-1 victory over Croatia.",
+      "headline": "Portugal Edges Past Croatia in Round of 32",
+      "summary": "Portugal secured a 2-1 victory over Croatia to advance in the knockout stage.",
       "story": [
-        "Portugal navigated a challenging Round of 32 matchup against Croatia, ultimately coming out on top with a 2-1 scoreline. The win allowed Portugal to progress further in the knockout bracket after a competitive group stage campaign.",
-        "Coming into this fixture as the runner-up from Group K, Portugal demonstrated the resilience needed to survive the single-elimination format. Their path to this stage included a dominant 5-0 win over Uzbekistan and draws against DR Congo and Colombia.",
-        "Croatia entered the match as the runner-up from Group L, having fought through a group that included England, Panama, and Ghana. Despite their efforts to stay in the tournament, the narrow loss to Portugal concluded their run.",
-        "With this victory, Portugal moved on to face Spain in the Round of 16. That subsequent match proved to be a difficult test, resulting in a 0-1 defeat that ended their tournament journey."
+        "Portugal successfully navigated a challenging Round of 32 matchup, narrowly defeating Croatia 2-1. The result allowed Portugal to move forward in the tournament bracket after a hard-fought performance against their European counterparts.",
+        "Coming into this fixture, both teams had proven their resilience during the group stage. Portugal had finished as the runner-up in Group K, while Croatia arrived as the runner-up from Group L, setting the stage for a competitive knockout encounter."
       ],
       "bullets": [
-        "Portugal advanced to the Round of 16 with a 2-1 win over Croatia.",
-        "The victory set up a subsequent knockout match against Spain.",
-        "Croatia exited the competition following this Round of 32 defeat."
+        "Portugal advanced to the Round of 16 following the 2-1 win.",
+        "Both teams entered the match as runners-up from their respective groups, K and L."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:08:35+00:00",
-      "sourceHash": "fa8b3ca97c1c10f8",
+      "updatedAt": "2026-07-06T22:37:16+00:00",
+      "sourceHash": "4912432ffa9583fe",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1833,21 +1828,21 @@
       "refreshReason": "source or prompt changed"
     },
     "93": {
-      "headline": "Spain Edges Past Portugal to Advance",
-      "summary": "Final: Portugal 0, Spain 1. Spain secured a narrow 1-0 victory over Portugal in the Round of 16 to keep their tournament run alive.",
+      "headline": "Spain advances past Portugal in Round of 16",
+      "summary": "Final: Portugal 0, Spain 1. Spain secured a narrow 1-0 victory over Portugal to move into the quarterfinals of the tournament.",
       "story": [
-        "Spain continued their impressive defensive form in this tournament by shutting out Portugal in a tense Round of 16 encounter. The 1-0 result was enough to push them through to the next stage, ending Portugal's journey after they had successfully navigated a challenging group stage and a victory over Croatia in the previous round.",
-        "For Spain, this win builds on a consistent campaign that saw them finish their group stage with a clean sheet against Uruguay and a dominant 3-0 performance against Austria in the Round of 32. Their ability to remain disciplined under pressure proved decisive in this tight knockout match.",
-        "With this victory, Spain now looks ahead to the Quarterfinals, where they are scheduled to play the winner of Match 94 on July 10. Portugal departs the competition having shown resilience throughout their matches, including a hard-fought draw against Colombia and their earlier win against Croatia."
+        "Spain continued their strong form in the knockout stages with a hard-fought 1-0 win against Portugal. This result brings an end to Portugal's run in the competition after they had previously navigated a challenging path through the group stage and a Round of 32 victory over Croatia.",
+        "For Spain, the win serves as a testament to their defensive consistency and efficiency in front of goal. Having topped their group and dispatched Austria in the previous round, they have now firmly established themselves as a side capable of grinding out results when it matters most.",
+        "With this victory, Spain now looks ahead to the quarterfinals, where they are scheduled to face the winner of Match 94 on July 10. Portugal departs the tournament after a campaign that saw them remain competitive throughout their group matches and their opening knockout fixture."
       ],
       "bullets": [
-        "Spain maintained their momentum with a 1-0 win, building on their 3-0 victory over Austria in the previous round.",
-        "Portugal exits the tournament after a competitive run that included a 2-1 win against Croatia in the Round of 32.",
-        "Spain advances to the Quarterfinals, where they will face the winner of Match 94."
+        "Spain remains undefeated in the knockout rounds following their 3-0 win against Austria and this latest result.",
+        "Portugal exits the tournament after a resilient run that included a 2-1 win over Croatia in the Round of 32.",
+        "Spain advances to the quarterfinals to face the winner of Match 94."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:08:27+00:00",
-      "sourceHash": "aa7f788ed2a5385c",
+      "updatedAt": "2026-07-06T22:37:08+00:00",
+      "sourceHash": "1dcb77e4d9cee2e2",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -6049,24 +6044,24 @@
       "refreshReason": "preview source or prompt changed"
     },
     "98": {
-      "headline": "Spain Continues Quarterfinal Journey",
-      "summary": "Spain prepares for a high-stakes Quarterfinal matchup against the winner of Match 94.",
+      "headline": "Spain Advances to Quarterfinal Showdown",
+      "summary": "Spain prepares for a high-stakes Quarterfinal match as they await the winner of the contest between their potential opponents in Match 94.",
       "story": [
-        "Spain has navigated a challenging path to reach the Quarterfinals, demonstrating defensive resilience and tactical discipline throughout their tournament run. Their journey began with a scoreless draw against Cabo Verde, followed by a dominant 4-0 victory over Saudi Arabia and a narrow 1-0 win against Uruguay to close out the group stage.",
-        "The momentum continued into the knockout rounds, where Spain secured a 3-0 victory over Austria in the Round of 32. Most recently, they proved their ability to perform under pressure by edging out Portugal 1-0 in the Round of 16, solidifying their spot in this next phase of the competition.",
-        "As they await the outcome of Match 94 to determine their next opponent, Spain enters this Quarterfinal contest with a clear sense of purpose. The team has shown they can adapt to different styles of play, making them a formidable presence as the tournament field narrows."
+        "Spain has navigated a challenging path to reach the Quarterfinals, demonstrating defensive consistency throughout the tournament. Their journey included a hard-fought victory over Portugal in the Round of 16 and a dominant performance against Austria in the Round of 32, showcasing their ability to handle pressure in knockout scenarios.",
+        "The team's form has been characterized by a disciplined approach, having secured clean sheets in every match since their opening draw against Cabo Verde. This defensive stability has been the backbone of their campaign, allowing them to remain composed while grinding out narrow results against tough opposition like Uruguay.",
+        "As they look ahead to this Quarterfinal, Spain must now wait to see who emerges from Match 94 to challenge them. Regardless of the opponent, the focus will remain on maintaining the tactical discipline that has defined their play throughout the knockout rounds."
       ],
       "bullets": [
-        "Spain has maintained a clean sheet in every match of the tournament so far.",
-        "The team has demonstrated offensive versatility, scoring a combined 9 goals across their previous five matches.",
-        "Spain enters this match off the back of two consecutive 1-0 victories in the knockout stage."
+        "Spain has maintained a perfect defensive record in the knockout stages, conceding zero goals across their matches against Austria and Portugal.",
+        "The team successfully navigated a difficult Group H campaign before overcoming European rivals in the Round of 32 and Round of 16.",
+        "Spain enters this Quarterfinal with significant momentum, having won four of their five matches played in the tournament so far."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T21:09:40+00:00",
-      "sourceHash": "acc9637cc00b322f",
+      "updatedAt": "2026-07-06T22:38:18+00:00",
+      "sourceHash": "b1ee63b28deeaa00",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "future spoiler-free preview"
+      "refreshReason": "preview source or prompt changed"
     }
   }
 }
