@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-06T06:12:43+00:00",
+  "generatedAt": "2026-07-06T11:10:48+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1596,60 +1596,60 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "82": {
-      "headline": "Belgium Edges Senegal in Five-Goal Thriller",
-      "summary": "Belgium secured a hard-fought 3-2 victory over Senegal in the Round of 32 to move on in the tournament.",
+      "headline": "Belgium Edges Senegal in Thrilling Round of 32 Encounter",
+      "summary": "Belgium secured a hard-fought 3-2 victory over Senegal to advance to the Round of 16.",
       "story": [
-        "Belgium continued their momentum from a dominant group stage finish by narrowly overcoming Senegal in a high-scoring knockout clash. After a shaky start to their campaign, the Belgians demonstrated their attacking depth to edge out a resilient Senegalese side.",
-        "Senegal pushed Belgium to the limit, but ultimately fell short in their bid to extend their tournament run. Having entered the knockout phase as one of the best third-place teams, they showed significant offensive spark but could not contain the Belgian response.",
-        "With this result, Belgium advances to the Round of 16 where they are set to face the United States. The victory solidifies Belgium as a serious contender as they head into a high-stakes matchup against the hosts."
+        "Belgium continued their momentum from the group stage with a narrow 3-2 win against Senegal in the Round of 32. After a somewhat sluggish start to their tournament campaign, Belgium found their attacking rhythm late in the group phase and carried that offensive pressure into this knockout clash.",
+        "Senegal proved to be a formidable opponent, pushing the match to the limit and forcing Belgium to work for every inch. Despite Senegal's resilience, Belgium's ability to capitalize on their opportunities proved the difference in a match that remained competitive until the final whistle.",
+        "With this result, Belgium moves forward to face the United States in the Round of 16. The victory validates their status as Group G winners and sets up a high-stakes showdown against the hosts in the next stage of the tournament."
       ],
       "bullets": [
-        "Belgium advances to face the United States in the Round of 16.",
-        "The 3-2 result marks a continuation of Belgium's offensive resurgence after their 5-0 win over New Zealand in the final group match.",
-        "Senegal's tournament run concludes after a competitive display in the Round of 32."
+        "Belgium advances to the Round of 16 to face the United States.",
+        "The 3-2 result reflects a high-scoring and competitive knockout fixture.",
+        "Belgium maintains their tournament run after winning Group G."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T10:36:50+00:00",
+      "updatedAt": "2026-07-06T11:10:48+00:00",
       "sourceHash": "251277091ff8721c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "81": {
-      "headline": "United States Advances to Round of 16 After Shutout Win",
-      "summary": "The United States secured a 2-0 victory over Bosnia-Herzegovina in the Round of 32 to move forward in the tournament.",
+      "headline": "United States advances to Round of 16",
+      "summary": "The United States secured a 2-0 victory over Bosnia-Herzegovina to move forward in the knockout stage.",
       "story": [
-        "The United States successfully navigated their Round of 32 matchup, dispatching Bosnia-Herzegovina with a clean 2-0 scoreline. By winning this knockout fixture, the U.S. proved their resilience after a narrow loss to Turkey in their final group stage game.",
-        "This victory holds significant weight for the U.S. campaign, as it confirms their place in the Round of 16. The team entered this match as the winners of Group D, having previously defeated Paraguay and Australia during their group stage run.",
-        "Looking ahead, the path forward is set. The United States will now face Belgium in the next round, a high-stakes encounter scheduled for July 6. The team will look to build on this defensive performance as they continue their pursuit in the knockout bracket."
+        "The United States successfully navigated their Round of 32 matchup, defeating Bosnia-Herzegovina 2-0 to keep their tournament run alive. By winning this fixture, the U.S. proved they could rebound from their final group stage loss to Turkey and maintain composure in a high-stakes knockout environment.",
+        "This victory solidifies the team's path forward as they transition into the next phase of the competition. Having entered the bracket as the winners of Group D, the squad showed the necessary defensive discipline to shut out their opponents and secure the clean sheet.",
+        "Looking ahead, the United States now turns its attention to a challenging Round of 16 encounter. They are scheduled to face Belgium on July 6, with a spot in the next round of the knockout bracket on the line."
       ],
       "bullets": [
-        "The United States earned a clean sheet, winning 2-0 to advance to the Round of 16.",
-        "The U.S. will face Belgium on July 6 in the next stage of the tournament.",
-        "This win follows a strong group stage performance where the U.S. finished at the top of Group D."
+        "The United States earned a 2-0 win to eliminate Bosnia-Herzegovina from the tournament.",
+        "The victory sets up a Round of 16 match against Belgium on July 6.",
+        "The U.S. successfully bounced back from their previous 3-2 group stage defeat against Turkey."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T10:36:42+00:00",
+      "updatedAt": "2026-07-06T11:10:41+00:00",
       "sourceHash": "fdfd4150457461db",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "84": {
-      "headline": "Spain Cruises Past Austria into Round of 16",
-      "summary": "Spain secured a dominant 3-0 victory over Austria in the Round of 32, effectively ending Austria's tournament run.",
+      "headline": "Spain Dominates Austria to Advance to Round of 16",
+      "summary": "Spain secured a convincing 3-0 victory over Austria in the Round of 32 to extend their tournament run.",
       "story": [
-        "Spain demonstrated their tournament credentials with a clinical performance, shutting out Austria to secure a comfortable path forward. By controlling the tempo, Spain ensured they never looked vulnerable against an Austrian side that struggled to find a response throughout the match.",
-        "The victory marks a continuation of Spain's strong form, having navigated their group stage campaign with notable defensive discipline and efficiency. After topping Group H, Spain proved once again why they are considered a serious contender in the knockout phase.",
-        "For Austria, the loss concludes a challenging tournament journey that saw them battle through a tough group stage. Despite their efforts to remain competitive, they were unable to overcome the tactical precision displayed by the Spanish side in this knockout encounter.",
-        "With this result, Spain advances to the Round of 16, where they are set to face Portugal. This upcoming fixture promises to be a high-stakes test for the Spanish squad as they look to maintain their momentum deeper into the bracket."
+        "Spain continued their impressive form by comfortably dispatching Austria in the Round of 32. After emerging as the winners of Group H, the Spanish side demonstrated their quality and composure, keeping a clean sheet while finding the back of the net three times to seal the result.",
+        "For Austria, the loss marks the end of their 2026 campaign. Despite navigating a challenging group stage that included a high-scoring draw against Algeria and a tough outing against Argentina, they were unable to contain the Spanish attack in this knockout fixture.",
+        "This victory sets up a high-stakes Round of 16 encounter for Spain. They are now scheduled to face Portugal on July 6, with a spot in the next stage of the tournament on the line."
       ],
       "bullets": [
-        "Spain advances to the Round of 16 to face Portugal.",
-        "Austria's tournament run concludes following the Round of 32 loss."
+        "Spain maintained their defensive solidity, having conceded very few goals throughout their group and knockout progression.",
+        "The 3-0 win marks Spain's second shutout victory of the tournament, following their 4-0 group stage win over Saudi Arabia.",
+        "Spain advances to face Portugal in the Round of 16 on July 6."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T08:23:59+00:00",
+      "updatedAt": "2026-07-06T11:10:33+00:00",
       "sourceHash": "9fdd7cfbb7f95e5e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1657,19 +1657,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "83": {
       "headline": "Portugal Advances Past Croatia in Round of 32",
-      "summary": "Portugal secured their spot in the Round of 16 with a hard-fought 2-1 victory over Croatia.",
+      "summary": "Portugal secured their place in the Round of 16 with a hard-fought 2-1 victory over Croatia.",
       "story": [
-        "Portugal navigated a tense Round of 32 matchup against Croatia, ultimately coming out on top with a 2-1 result. The win allows them to continue their journey in the knockout stage after a group campaign that saw them finish as the runner-up in Group K.",
-        "For Croatia, the loss marks the end of their tournament run. They had managed to battle their way out of Group L as runners-up, showing resilience in their group stage wins against Panama and Ghana, but they were unable to overcome the Portuguese side in this decisive knockout fixture.",
-        "With this victory, Portugal now looks ahead to a high-stakes Round of 16 match against Spain. The challenge will be significant as they aim to build on the momentum gained from this narrow win and progress further in the tournament bracket."
+        "Portugal navigated a tense Round of 32 encounter to defeat Croatia 2-1, continuing their momentum in the knockout stage. After a group phase that included a dominant 5-0 win over Uzbekistan and two draws, Portugal proved they could handle the pressure of a single-elimination match.",
+        "For Croatia, the loss brings an end to their tournament run. They had shown resilience in Group L, rebounding from an opening defeat to England by securing consecutive wins against Panama and Ghana to reach this stage.",
+        "With this victory, Portugal moves forward to a highly anticipated Round of 16 matchup against Spain. The two Iberian neighbors will now prepare for a showdown on July 6 to determine who advances to the next phase of the competition."
       ],
       "bullets": [
-        "Portugal advances to face Spain in the Round of 16.",
-        "The 2-1 result eliminates Croatia from the competition.",
-        "Portugal remains unbeaten in the tournament following their group stage performance."
+        "Portugal remains unbeaten in the tournament following their 2-1 win.",
+        "The victory sets up a Round of 16 clash between Portugal and Spain.",
+        "Croatia exits the tournament after a competitive run that saw them win two of their three group matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T08:23:51+00:00",
+      "updatedAt": "2026-07-06T11:10:25+00:00",
       "sourceHash": "c15db3128acd2893",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
