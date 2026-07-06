@@ -3006,7 +3006,7 @@
       "time": "21:00",
       "home": "Mexico",
       "away": "England",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "mexico-city",
       "offset": "-04:00",
@@ -3018,8 +3018,22 @@
       "bracketAwayTeam": "England",
       "homeRevealSource": "Winner Match 79",
       "awayRevealSource": "Winner Match 80",
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 2,
+      "awayScore": 3,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-06T06:09:47+00:00",
+          "title": "Mexico vs England Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 16",
+          "url": "https://www.youtube.com/watch?v=n7cA4k6TJbs",
+          "channel": "FOX Sports",
+          "durationText": "18 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-06T06:09:47+00:00"
+      }
     },
     {
       "id": 93,
@@ -3148,7 +3162,7 @@
       "date": "2026-07-11",
       "time": "17:00",
       "home": "Norway",
-      "away": "Winner Match 92",
+      "away": "England",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "miami",
@@ -3157,7 +3171,10 @@
       "espnEventId": "760512",
       "homeSource": "Winner Match 91",
       "bracketHomeTeam": "Norway",
-      "homeRevealSource": "Winner Match 91"
+      "homeRevealSource": "Winner Match 91",
+      "awaySource": "Winner Match 92",
+      "bracketAwayTeam": "England",
+      "awayRevealSource": "Winner Match 92"
     },
     {
       "id": 100,
@@ -3399,6 +3416,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-06T01:28:43+00:00",
+  "bracketUpdatedAt": "2026-07-06T06:08:35+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
