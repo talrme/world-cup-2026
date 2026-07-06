@@ -3043,7 +3043,7 @@
       "time": "15:00",
       "home": "Portugal",
       "away": "Spain",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
@@ -3056,7 +3056,7 @@
       "homeRevealSource": "Winner Match 83",
       "awayRevealSource": "Winner Match 84",
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "id": 94,
@@ -3148,14 +3148,17 @@
       "round": "Knockout",
       "date": "2026-07-10",
       "time": "15:00",
-      "home": "Winner Match 93",
+      "home": "Spain",
       "away": "Winner Match 94",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "los-angeles",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760511"
+      "espnEventId": "760511",
+      "homeSource": "Winner Match 93",
+      "bracketHomeTeam": "Spain",
+      "homeRevealSource": "Winner Match 93"
     },
     {
       "id": 99,
@@ -3418,6 +3421,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-06T19:20:43+00:00",
+  "bracketUpdatedAt": "2026-07-06T21:07:11+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
