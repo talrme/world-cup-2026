@@ -3154,7 +3154,7 @@ window.WORLD_CUP_DATA = {
       "time": "16:00",
       "home": "Switzerland",
       "away": "Colombia",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "vancouver",
       "offset": "-04:00",
@@ -3165,7 +3165,9 @@ window.WORLD_CUP_DATA = {
       "bracketHomeTeam": "Switzerland",
       "bracketAwayTeam": "Colombia",
       "homeRevealSource": "Winner Match 85",
-      "awayRevealSource": "Winner Match 87"
+      "awayRevealSource": "Winner Match 87",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 97,
@@ -3473,6 +3475,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-07T19:23:35+00:00",
+  "bracketUpdatedAt": "2026-07-07T21:09:04+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
