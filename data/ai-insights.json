@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T09:00:23+00:00",
+  "generatedAt": "2026-07-07T17:33:58+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -102,41 +102,40 @@
       "refreshReason": "source or prompt changed"
     },
     "40": {
-      "headline": "Egypt Secures Crucial 3-1 Victory Over New Zealand",
-      "summary": "Final: New Zealand 1, Egypt 3. Egypt earned a vital 3-1 win against New Zealand, putting them in a strong position to advance from Group G.",
+      "headline": "Egypt secures vital victory over New Zealand",
+      "summary": "Final: New Zealand 1, Egypt 3. Egypt defeated New Zealand 3-1 in their Group G matchup, significantly boosting their standing in the tournament.",
       "story": [
-        "Egypt took control of their Group G destiny with a decisive 3-1 victory over New Zealand. The win provided a much-needed boost after their opening draw, allowing them to climb the table and keep pace with Belgium.",
-        "For New Zealand, the result proved difficult, leaving them with only a single point from their first two matches. The loss put significant pressure on their final group stage fixture against Belgium, where they ultimately struggled to keep pace.",
-        "This result was a cornerstone of Egypt's group stage campaign. By securing three points here, they maintained their unbeaten record through the group phase, eventually finishing level on points with Belgium and successfully navigating their way into the knockout stages."
+        "Egypt delivered a clinical performance to earn a 3-1 win against New Zealand, a result that proved pivotal for their progression through the group stage. The victory provided Egypt with the necessary momentum to navigate a competitive Group G.",
+        "For New Zealand, the loss made their path forward increasingly difficult. After opening their campaign with a 2-2 draw against Iran, they struggled to contain Egypt's attack and ultimately finished the group stage with only one point.",
+        "This win helped propel Egypt toward a successful knockout run. Following this result, Egypt remained undefeated in the group stage, eventually advancing to the knockout rounds where they continued to demonstrate their resilience on the international stage."
       ],
       "bullets": [
-        "Egypt's victory was instrumental in their second-place finish in Group G.",
-        "New Zealand finished the group stage with one point after failing to recover from this defeat.",
-        "The match was part of a competitive Group G where Egypt remained undefeated."
+        "Egypt's 3-1 win was their only victory in the group stage, complementing two draws.",
+        "The result left New Zealand at the bottom of Group G with a single point.",
+        "Egypt used this momentum to eventually reach the Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T01:24:17+00:00",
-      "sourceHash": "fb3b623da472f0a3",
+      "updatedAt": "2026-07-07T17:33:33+00:00",
+      "sourceHash": "cf5dbf8d71f01400",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "41": {
-      "headline": "Argentina Secures Dominant Win Over Austria",
-      "summary": "Argentina defeated Austria 2-0 in their Group J matchup, solidifying their control over the group standings.",
+      "headline": "Argentina Dominates Austria in Group J Showdown",
+      "summary": "Argentina secured a commanding 2-0 victory over Austria to solidify their position at the top of Group J.",
       "story": [
-        "Argentina continued their strong form in Group J with a clean 2-0 victory over Austria. The result kept Argentina on a perfect trajectory through the group stage, building on their opening win against Algeria.",
-        "For Austria, the loss served as a challenging test against one of the tournament favorites. While they were unable to break through the Argentine defense, the match provided valuable experience as they navigated the complexities of group play.",
-        "This win was a pivotal moment for Argentina, helping them eventually secure the top spot in Group J with nine points. Following this match, Argentina maintained their momentum through the group stage and into the knockout rounds.",
-        "Austria eventually concluded their group campaign with a draw against Algeria, finishing with four points. While the defeat to Argentina was a setback, it remained a key fixture in determining the final group hierarchy."
+        "Argentina continued their strong form in the group stage with a clinical 2-0 win against Austria. By controlling the tempo and limiting Austria's offensive opportunities, they effectively neutralized the threat posed by their opponents.",
+        "This result proved pivotal for the group standings, as Argentina maintained their perfect record early in the tournament. The win provided them with the necessary momentum to eventually sweep the group with nine points and a plus-seven goal difference.",
+        "For Austria, the loss forced them to battle through the remainder of the group stage to secure their path forward. Despite the setback in this match, they managed to stay competitive, eventually advancing to the knockout rounds where they faced Spain."
       ],
       "bullets": [
-        "Argentina finished atop Group J with a perfect record of three wins.",
-        "Austria advanced to the knockout stage as the group runner-up with four points."
+        "Argentina finished the group stage undefeated with three wins in three matches.",
+        "The 2-0 result was a key component of Argentina's dominant defensive performance, conceding only one goal throughout the entire group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T01:24:09+00:00",
-      "sourceHash": "9e048aa0ffc06449",
+      "updatedAt": "2026-07-07T17:33:25+00:00",
+      "sourceHash": "9377e513a3198133",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -836,22 +835,21 @@
       "refreshReason": "source or prompt changed"
     },
     "66": {
-      "headline": "Egypt and Iran play to scoreless stalemate",
-      "summary": "Egypt and Iran finished their group stage campaign in a 0-0 draw, a result that ultimately confirmed Egypt's progression to the knockout rounds.",
+      "headline": "Egypt and Iran play to a scoreless stalemate",
+      "summary": "Egypt and Iran finished their group stage campaign with a 0-0 draw, leaving Egypt to advance to the knockout rounds.",
       "story": [
-        "The 0-0 draw between Egypt and Iran on the final day of Group G action saw both sides struggle to find a breakthrough. Despite the intensity of the final group matchday, neither team could capitalize on their opportunities, leading to a defensive deadlock that defined the match.",
-        "For Egypt, the single point was enough to secure their advancement. Finishing the group stage with 5 points, they successfully navigated a competitive group that included Belgium and New Zealand, earning their spot in the Round of 32.",
-        "Iran concluded their tournament run with this result, finishing third in Group G with 3 points. While they remained unbeaten throughout their group fixtures, the inability to secure a win left them just short of the points required to move forward in the competition.",
-        "With the group stage now closed, Egypt moves on to face Australia in the Round of 32. Having shown resilience in their group matches, they will look to carry that momentum into the high-stakes knockout phase."
+        "The final matchday in Group G saw Egypt and Iran battle to a 0-0 draw. Despite both sides pushing for a breakthrough, neither could find the back of the net, resulting in a defensive deadlock that ultimately shaped the final group standings.",
+        "For Egypt, the point was enough to secure their progression. Finishing with five points from three matches, they successfully navigated a competitive group that included Belgium and New Zealand, setting them up for a Round of 32 matchup against Australia.",
+        "Iran concluded their tournament run with three points, having drawn all three of their group stage fixtures. While they remained undefeated throughout their time in the group, the inability to secure a win proved costly in their pursuit of a knockout stage berth.",
+        "With Group G now complete, Belgium claimed the top spot on goal difference, while Egypt advanced in second place. Iran and New Zealand were eliminated from the competition."
       ],
       "bullets": [
-        "Egypt finished second in Group G with 5 points, trailing Belgium only on goal difference.",
-        "Iran ended their tournament campaign with 3 points, having drawn all three of their group stage matches.",
-        "Egypt's path continues with a Round of 32 matchup against Australia."
+        "Egypt finished second in Group G with five points, trailing Belgium only on goal difference.",
+        "Iran remained unbeaten in the group stage but exited the tournament after three consecutive draws."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T01:23:53+00:00",
-      "sourceHash": "cd12f2f935843c6d",
+      "updatedAt": "2026-07-07T17:33:17+00:00",
+      "sourceHash": "289c9305df36cf15",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -958,21 +956,21 @@
       "refreshReason": "source or prompt changed"
     },
     "72": {
-      "headline": "Argentina Sweeps Group J with Win Over Jordan",
-      "summary": "Final: Jordan 1, Argentina 3. Argentina defeated Jordan 3-1 to conclude their group stage campaign with a perfect record.",
+      "headline": "Argentina Dominates Jordan to Secure Perfect Group J Finish",
+      "summary": "Final: Jordan 1, Argentina 3. Argentina concluded their group stage campaign with a convincing 3-1 victory over Jordan to maintain their perfect record.",
       "story": [
-        "Argentina maintained their dominance in Group J by securing a 3-1 victory over Jordan in their final group stage match. The win cemented Argentina's place at the top of the table, finishing with a flawless nine points from three matches and a commanding plus-seven goal difference.",
-        "For Jordan, the result marked the end of a challenging tournament run. Despite finding the back of the net, they were unable to overcome the offensive pressure from an Argentine side that proved difficult to contain throughout the group stage.",
-        "With this victory, Argentina successfully transitioned into the knockout phase. They have since built on this momentum, having already navigated through a high-scoring 3-2 Round of 32 win against Cabo Verde to secure their spot in the Round of 16."
+        "Argentina entered this final group match already in a position of strength, and they capitalized on that momentum by dispatching Jordan 3-1. The result ensured Argentina finished at the top of Group J with a clean sweep of nine points from three matches.",
+        "For Jordan, the defeat marked a difficult end to their tournament run, as they finished at the bottom of the group with zero points. Despite the loss, they managed to find the back of the net, bringing their total goal tally to three across their three group fixtures.",
+        "Argentina's performance throughout the group stage was clinical, conceding only one goal while netting eight. This victory served as the final step in their dominant group phase, setting them up for a successful progression into the knockout stages of the tournament."
       ],
       "bullets": [
-        "Argentina finished Group J undefeated, scoring 8 goals while conceding only 1.",
-        "Jordan concluded their tournament campaign with 0 points after three group matches.",
-        "Argentina advanced to the Round of 16 following a subsequent victory over Cabo Verde."
+        "Argentina finished Group J with a perfect 9 points and a +7 goal difference.",
+        "Jordan concluded their tournament campaign with 0 points after three group stage matches.",
+        "Argentina successfully advanced to the knockout rounds following this win."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T01:23:45+00:00",
-      "sourceHash": "18f970aa6d988b2a",
+      "updatedAt": "2026-07-07T17:33:09+00:00",
+      "sourceHash": "f7623ca47d44067b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1080,20 +1078,20 @@
     },
     "19": {
       "headline": "Argentina Dominates Algeria in Group J Opener",
-      "summary": "Argentina secured a commanding 3-0 victory over Algeria to kick off their Group J campaign.",
+      "summary": "Argentina secured a decisive 3-0 victory over Algeria to kick off their Group J campaign.",
       "story": [
-        "Argentina opened their tournament with a statement performance, comfortably dispatching Algeria 3-0. The result set a dominant tone for their group stage run, establishing them as the team to beat in Group J early on.",
-        "For Algeria, the loss forced an immediate uphill battle in the group. While they managed to find their footing later in the group stage, this initial defeat put significant pressure on their subsequent fixtures against Jordan and Austria.",
-        "Argentina's victory served as the foundation for a perfect group stage, as they went on to finish with nine points and a plus-seven goal difference. This momentum carried them through the group and eventually into the knockout rounds."
+        "Argentina opened their tournament with a commanding performance, effectively neutralizing Algeria to claim all three points. The 3-0 result allowed them to immediately establish control over the group standings.",
+        "This match served as the foundation for Argentina's perfect group stage run, where they eventually finished with 9 points and a +7 goal difference. By shutting out Algeria, they set a defensive tone that carried them through their subsequent victories against Austria and Jordan.",
+        "For Algeria, the loss forced them into a difficult position early on. Despite the setback, they managed to scrape together 4 points across their three group matches, eventually advancing to the knockout stage as one of the best third-placed teams.",
+        "Following this result, both teams navigated different paths through the bracket. Argentina continued their momentum into the Round of 32 before their tournament run concluded, while Algeria saw their journey end in the Round of 32 against Switzerland."
       ],
       "bullets": [
         "Argentina finished atop Group J with a perfect 3-0-0 record.",
-        "The 3-0 win provided Argentina with a vital goal-difference cushion early in the tournament.",
-        "Algeria eventually advanced to the Round of 32 as one of the best third-placed teams."
+        "Algeria advanced to the knockout rounds despite this opening-match defeat."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:18:53+00:00",
-      "sourceHash": "580714adbeb88c44",
+      "updatedAt": "2026-07-07T17:33:41+00:00",
+      "sourceHash": "6ae2098a770fd892",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1180,19 +1178,20 @@
     },
     "14": {
       "headline": "Belgium and Egypt Open Group G with a Stalemate",
-      "summary": "Belgium and Egypt played to a 1-1 draw in their opening Group G match, setting the tone for a tightly contested group stage.",
+      "summary": "Belgium and Egypt played to a 1-1 draw in their opening Group G match, setting a competitive tone for the group stage.",
       "story": [
-        "The opening fixture of Group G saw Belgium and Egypt share the spoils in a 1-1 draw. Both teams struggled to find a decisive edge, resulting in a balanced affair that left the group standings wide open from the start.",
-        "This result proved to be a harbinger for the competitive nature of the group, as both sides navigated a challenging path through the opening round. The point gained here was vital for both nations as they looked to secure their standing against Iran and New Zealand.",
-        "Following this draw, both Belgium and Egypt eventually finished the group stage level on 5 points. Belgium ultimately topped the group on goal difference, while Egypt advanced as the runners-up, both successfully navigating their way into the knockout rounds."
+        "The opening match of Group G saw Belgium and Egypt share the spoils in a hard-fought 1-1 draw. Both sides struggled to find a decisive edge, resulting in a point apiece that left the group wide open from the very first day.",
+        "This draw proved to be a significant indicator of the parity within the group. Both teams ultimately finished their group campaigns with identical records of five points from three matches, with Belgium narrowly edging out Egypt for the top spot in the standings based on goal difference.",
+        "Following this result, both nations navigated the remainder of the tournament with varying degrees of success. Belgium eventually advanced through the knockout stages to reach the quarterfinals, while Egypt's journey saw them pull off an impressive victory over Argentina in the Round of 16."
       ],
       "bullets": [
-        "Belgium and Egypt finished the group stage tied on 5 points, with Belgium taking the top spot via goal difference.",
-        "Both teams successfully advanced from Group G to the knockout phase of the tournament."
+        "The 1-1 draw was the first of two points-sharing results for both teams in the group stage.",
+        "Belgium finished atop Group G with 5 points and a +4 goal difference, while Egypt followed with 5 points and a +2 goal difference.",
+        "Both teams successfully advanced out of the group, with Belgium progressing as far as the quarterfinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T05:52:58+00:00",
-      "sourceHash": "3156799fa0bb8abc",
+      "updatedAt": "2026-07-07T17:33:49+00:00",
+      "sourceHash": "4964bc9f90eb9bdf",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1692,42 +1691,43 @@
     },
     "88": {
       "headline": "Australia and Egypt deadlock in Round of 32",
-      "summary": "Australia and Egypt played to a 1-1 draw in their Round of 32 knockout match, leaving the path forward to be determined.",
+      "summary": "Australia and Egypt played to a 1-1 draw in their Round of 32 encounter.",
       "story": [
-        "For Australia, this draw follows a group stage campaign where they secured a win against Turkey, suffered a defeat to the United States, and earned a scoreless draw with Paraguay. Their ability to remain competitive in high-pressure knockout environments was on full display as they pushed to advance.",
-        "Egypt arrived at this match after a group stage run that included a draw with Belgium, a victory over New Zealand, and a draw against Iran. Their resilience in avoiding defeat across the group stage carried over into this knockout fixture.",
-        "The result leaves both teams looking ahead to the next stage of the bracket, as the tournament continues to narrow down the field toward the final rounds."
+        "The Round of 32 clash between Australia and Egypt ended in a 1-1 stalemate, reflecting the closely matched nature of both sides throughout the tournament.",
+        "Australia entered the knockout phase as the runner-up from Group D, having navigated a group that included a win over Turkey and a challenging match against the United States.",
+        "Egypt arrived in the knockout round after a solid group stage performance in Group G, which featured a victory against New Zealand and draws with Belgium and Iran.",
+        "Following this result, Egypt moved forward to face Argentina in the Round of 16, where they secured a 1-0 victory to continue their progression in the tournament."
       ],
       "bullets": [
-        "Australia and Egypt finished level at 1-1 in their knockout encounter.",
-        "Both teams advanced to this stage as runners-up from Groups D and G, respectively."
+        "The match finished 1-1 after regulation time.",
+        "Egypt successfully advanced past the Round of 32 to defeat Argentina in the next stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T09:00:15+00:00",
-      "sourceHash": "a9a47dd5f25fd971",
+      "updatedAt": "2026-07-07T17:33:01+00:00",
+      "sourceHash": "8af97f9644621799",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "86": {
-      "headline": "Argentina Survives Cabo Verde Scare to Advance",
-      "summary": "Argentina secured a narrow 3-2 victory over Cabo Verde in the Round of 32 to keep their tournament run alive.",
+      "headline": "Argentina Edges Cabo Verde in Thrilling Round of 32 Encounter",
+      "summary": "Argentina secured a narrow 3-2 victory over Cabo Verde to advance through the Round of 32.",
       "story": [
-        "Argentina continued their winning ways in this tournament, but they were pushed to the limit by a resilient Cabo Verde side. Coming off a perfect group stage performance where they topped Group J with three consecutive wins, Argentina looked to maintain their momentum in the knockout rounds.",
-        "Cabo Verde, who reached this stage after a series of hard-fought draws in Group H, proved to be a difficult opponent. Despite their defensive discipline throughout the group phase, they could not hold off the Argentine attack long enough to force a different result in this high-stakes encounter.",
-        "With this victory, Argentina moves forward to the Round of 16. They are now set to face Egypt on July 7, continuing their path through the knockout bracket as they look to build on their impressive form."
+        "For Cabo Verde, the defeat marked the end of a tournament run defined by defensive discipline. Despite holding opponents like Spain and Saudi Arabia to scoreless draws during the group stage, they were unable to contain the Argentine attack in this knockout fixture.",
+        "This victory propelled Argentina into the Round of 16, where they faced Egypt. While the team showed their ability to win tight games against Cabo Verde, the subsequent tournament path proved challenging as they looked to build upon their early success.",
+        "The match served as a reminder of the volatility of knockout football, where even teams with strong defensive records can be undone by high-intensity attacking play. Argentina's ability to navigate this pressure was a defining moment in their tournament journey."
       ],
       "bullets": [
-        "Argentina maintained their undefeated status in the tournament with this win.",
-        "Cabo Verde exits after a competitive display, having remained difficult to beat throughout their campaign.",
-        "Argentina advances to play Egypt in the next round of the knockout stage."
+        "Argentina extended their winning streak by overcoming a determined Cabo Verde defense.",
+        "Cabo Verde exited the tournament after a hard-fought performance that challenged the group winners.",
+        "The 3-2 scoreline represents the highest-scoring match for both teams in the 2026 tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T09:00:06+00:00",
-      "sourceHash": "c29ebca04d388922",
+      "updatedAt": "2026-07-07T17:32:53+00:00",
+      "sourceHash": "b92059a7c6e13076",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "87": {
       "headline": "Colombia Edges Past Ghana to Reach Round of 16",
@@ -1866,6 +1866,26 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "95": {
+      "headline": "Egypt Stuns Argentina in Round of 16 Upset",
+      "summary": "Final: Argentina 0, Egypt 1. Egypt secured a narrow 1-0 victory over Argentina to advance in the knockout stage.",
+      "story": [
+        "In a major upset during the Round of 16, Egypt managed to shut down Argentina's attack and claim a 1-0 victory. The result marks a significant shift in the tournament bracket, ending Argentina's run after they had navigated through Group J and a tight Round of 32 win against Cabo Verde.",
+        "Argentina entered this match with strong momentum, having won all three of their group stage matches before overcoming Cabo Verde 3-2. Despite their prolific scoring form in previous rounds, they were unable to find the back of the net against a disciplined Egyptian side.",
+        "For Egypt, this win represents a massive achievement in their 2026 campaign. After a steady group stage that included a draw with Belgium and a victory over New Zealand, they showed resilience to eliminate one of the tournament's top contenders."
+      ],
+      "bullets": [
+        "Egypt held Argentina scoreless, marking the first time Argentina failed to score in this tournament.",
+        "Argentina's exit follows a successful group stage campaign where they finished top of Group J.",
+        "Egypt continues their journey after previously navigating a path that included a Round of 32 stalemate against Australia."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-07T17:33:58+00:00",
+      "sourceHash": "0780bf0eb5361a8e",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

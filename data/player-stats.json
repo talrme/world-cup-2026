@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T15:20:24+00:00",
+  "generatedAt": "2026-07-07T17:29:57+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -26,19 +26,6 @@
     },
     {
       "rank": 2,
-      "player": "Lionel Messi",
-      "team": "Argentina",
-      "position": "FW",
-      "goals": 7,
-      "assists": 0,
-      "points": 7,
-      "matches": 5,
-      "minutes": 358,
-      "goalsPer90": 1.8,
-      "pointsPer90": 1.8
-    },
-    {
-      "rank": 3,
       "player": "Erling Braut Haaland",
       "team": "Norway",
       "position": "FW",
@@ -47,6 +34,19 @@
       "points": 7,
       "matches": 5,
       "minutes": 418,
+      "goalsPer90": 1.5,
+      "pointsPer90": 1.5
+    },
+    {
+      "rank": 3,
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "position": "FW",
+      "goals": 7,
+      "assists": 0,
+      "points": 7,
+      "matches": 5,
+      "minutes": 429,
       "goalsPer90": 1.5,
       "pointsPer90": 1.5
     },
@@ -598,19 +598,6 @@
     },
     {
       "rank": 46,
-      "player": "Emam Ashour",
-      "team": "Egypt",
-      "position": "MID",
-      "goals": 2,
-      "assists": 0,
-      "points": 2,
-      "matches": 5,
-      "minutes": 340,
-      "goalsPer90": 0.5,
-      "pointsPer90": 0.5
-    },
-    {
-      "rank": 47,
       "player": "Daichi Kamada",
       "team": "Japan",
       "position": "MID",
@@ -623,7 +610,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 48,
+      "rank": 47,
       "player": "Yasin Ayari",
       "team": "Sweden",
       "position": "MID",
@@ -636,7 +623,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 49,
+      "rank": 48,
       "player": "Azz-Eddine Ounahi",
       "team": "Morocco",
       "position": "MID",
@@ -645,6 +632,19 @@
       "points": 2,
       "matches": 5,
       "minutes": 376,
+      "goalsPer90": 0.5,
+      "pointsPer90": 0.5
+    },
+    {
+      "rank": 49,
+      "player": "Emam Ashour",
+      "team": "Egypt",
+      "position": "MID",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "matches": 5,
+      "minutes": 385,
       "goalsPer90": 0.5,
       "pointsPer90": 0.5
     },
@@ -689,19 +689,6 @@
     },
     {
       "rank": 53,
-      "player": "Mohamed Salah",
-      "team": "Egypt",
-      "position": "FW",
-      "goals": 1,
-      "assists": 2,
-      "points": 3,
-      "matches": 5,
-      "minutes": 362,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.7
-    },
-    {
-      "rank": 54,
       "player": "Alexander Isak",
       "team": "Sweden",
       "position": "FW",
@@ -714,7 +701,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 55,
+      "rank": 54,
       "player": "Luis Diaz",
       "team": "Colombia",
       "position": "FW",
@@ -727,7 +714,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 56,
+      "rank": 55,
       "player": "Viktor Gyokeres",
       "team": "Sweden",
       "position": "FW",
@@ -740,7 +727,7 @@
       "pointsPer90": 0.7
     },
     {
-      "rank": 57,
+      "rank": 56,
       "player": "Julio Enciso",
       "team": "Paraguay",
       "position": "FW",
@@ -749,6 +736,19 @@
       "points": 3,
       "matches": 5,
       "minutes": 432,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.6
+    },
+    {
+      "rank": 57,
+      "player": "Mohamed Salah",
+      "team": "Egypt",
+      "position": "FW",
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "matches": 5,
+      "minutes": 433,
       "goalsPer90": 0.2,
       "pointsPer90": 0.6
     },
@@ -897,19 +897,6 @@
     },
     {
       "rank": 68,
-      "player": "Mostafa Ziko",
-      "team": "Egypt",
-      "position": "FW",
-      "goals": 1,
-      "assists": 1,
-      "points": 2,
-      "matches": 5,
-      "minutes": 313,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.6
-    },
-    {
-      "rank": 69,
       "player": "Nathaniel Brown",
       "team": "Germany",
       "position": "DEF",
@@ -922,7 +909,7 @@
       "pointsPer90": 0.6
     },
     {
-      "rank": 70,
+      "rank": 69,
       "player": "Keito Nakamura",
       "team": "Japan",
       "position": "MID",
@@ -935,7 +922,7 @@
       "pointsPer90": 0.5
     },
     {
-      "rank": 71,
+      "rank": 70,
       "player": "Petar Sucic",
       "team": "Croatia",
       "position": "MID",
@@ -948,6 +935,19 @@
       "pointsPer90": 0.5
     },
     {
+      "rank": 71,
+      "player": "Mostafa Ziko",
+      "team": "Egypt",
+      "position": "FW",
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "matches": 5,
+      "minutes": 384,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.5
+    },
+    {
       "rank": 72,
       "player": "Lisandro Martinez",
       "team": "Argentina",
@@ -956,9 +956,9 @@
       "assists": 1,
       "points": 2,
       "matches": 5,
-      "minutes": 340,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.5
+      "minutes": 411,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.4
     },
     {
       "rank": 73,
@@ -2166,6 +2166,19 @@
       "points": 1,
       "matches": 5,
       "minutes": 451,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 149,
+      "player": "Yasser Ibrahim",
+      "team": "Egypt",
+      "position": "DEF",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 5,
+      "minutes": 497,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
     }
