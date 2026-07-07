@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-07T21:12:29+00:00",
+  "generatedAt": "2026-07-07T22:37:17+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1890,19 +1890,18 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "96": {
       "headline": "Switzerland and Colombia Deadlocked in Round of 16",
-      "summary": "Switzerland and Colombia played to a 0-0 draw in their Round of 16 match.",
+      "summary": "Switzerland and Colombia played to a 0-0 draw in their Round of 16 encounter.",
       "story": [
-        "Switzerland and Colombia finished their Round of 16 encounter in a scoreless stalemate, leaving the result to be decided beyond regulation play. Neither side was able to break the deadlock during the match, maintaining the tension as the tournament progresses into the deeper knockout stages.",
-        "Switzerland arrived at this stage following a strong run, including a 2-0 victory over Algeria in the Round of 32. Their path through the tournament had been marked by consistent scoring, but they found the Colombian defense difficult to penetrate in this fixture.",
-        "Colombia reached this match after a tight 1-0 win against Ghana in the previous round. Having navigated a group stage that included a clean sheet against Portugal, they once again demonstrated their defensive resilience by keeping Switzerland off the scoreboard.",
-        "With this result, both teams faced the high-pressure reality of knockout football where a single mistake or moment of brilliance determines survival. The outcome forces both sides to look toward the next phase of the tournament as they continue their pursuit of the title."
+        "The Round of 16 clash between Switzerland and Colombia ended in a scoreless stalemate, leaving both sides unable to find a breakthrough during regulation time. Both teams entered this knockout stage with momentum, having navigated their respective group stages and Round of 32 matches with defensive discipline.",
+        "Switzerland arrived at this stage following a solid 2-0 victory over Algeria in the previous round, capping off a strong run that included group wins over Bosnia and Herzegovina and Canada. Their ability to manage high-pressure knockout fixtures was tested thoroughly by a resilient Colombian side.",
+        "Colombia maintained their own defensive consistency, having kept a clean sheet in their 1-0 win over Ghana in the Round of 32. Their path to this match was defined by tight margins, including a 0-0 draw against Portugal and a narrow victory over DR Congo, reflecting a team that prioritizes structural integrity."
       ],
       "bullets": [
-        "The match concluded with a 0-0 scoreline, extending the defensive intensity both teams displayed throughout their respective paths to the Round of 16.",
-        "Switzerland entered this match on the back of a 2-0 win over Algeria, while Colombia advanced after narrowly defeating Ghana 1-0."
+        "The match ended in a 0-0 draw, forcing both teams to look toward the next phase of the knockout tournament.",
+        "Both Switzerland and Colombia entered this match off the back of clean-sheet victories in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T21:12:29+00:00",
+      "updatedAt": "2026-07-07T22:37:17+00:00",
       "sourceHash": "1f33b19ae5bf615e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
