@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-07T22:33:46+00:00",
+  "generatedAt": "2026-07-07T23:32:44+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -449,7 +449,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 3,
       "matches": 5,
-      "minutes": 300,
+      "minutes": 302,
       "goalsPer90": 0.6,
       "pointsPer90": 0.9
     },
@@ -657,7 +657,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 2,
       "matches": 5,
-      "minutes": 447,
+      "minutes": 449,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
     },
@@ -756,12 +756,12 @@ window.WORLD_CUP_PLAYER_STATS = {
       "rank": 58,
       "player": "Luis Diaz",
       "team": "Colombia",
-      "position": "FW",
+      "position": "MID",
       "goals": 1,
       "assists": 2,
       "points": 3,
       "matches": 5,
-      "minutes": 520,
+      "minutes": 523,
       "goalsPer90": 0.2,
       "pointsPer90": 0.5
     },
@@ -1209,19 +1209,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 91,
-      "player": "Jaminton Campaz",
-      "team": "Colombia",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 5,
-      "minutes": 94,
-      "goalsPer90": 1.0,
-      "pointsPer90": 1.0
-    },
-    {
-      "rank": 92,
       "player": "Alexis Saelemaekers",
       "team": "Belgium",
       "position": "FW",
@@ -1230,6 +1217,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 1,
       "matches": 5,
       "minutes": 95,
+      "goalsPer90": 0.9,
+      "pointsPer90": 0.9
+    },
+    {
+      "rank": 92,
+      "player": "Jaminton Campaz",
+      "team": "Colombia",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 5,
+      "minutes": 97,
       "goalsPer90": 0.9,
       "pointsPer90": 0.9
     },
@@ -2191,12 +2191,12 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 1,
       "matches": 5,
-      "minutes": 530,
+      "minutes": 533,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
     },
     {
-      "rank": 151,
+      "rank": 150,
       "player": "Yasser Ibrahim",
       "team": "Egypt",
       "position": "DEF",

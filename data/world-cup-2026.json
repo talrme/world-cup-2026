@@ -3154,7 +3154,7 @@
       "time": "16:00",
       "home": "Switzerland",
       "away": "Colombia",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "vancouver",
       "offset": "-04:00",
@@ -3167,7 +3167,21 @@
       "homeRevealSource": "Winner Match 85",
       "awayRevealSource": "Winner Match 87",
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-07T23:34:52+00:00",
+          "title": "Switzerland vs Colombia Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 16",
+          "url": "https://www.youtube.com/watch?v=_uEzppRKcd0",
+          "channel": "FOX Sports",
+          "durationText": "20 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-07T23:34:52+00:00"
+      }
     },
     {
       "id": 97,
@@ -3239,7 +3253,7 @@
       "date": "2026-07-11",
       "time": "21:00",
       "home": "Argentina",
-      "away": "Winner Match 96",
+      "away": "Switzerland",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "kansas-city",
@@ -3248,7 +3262,10 @@
       "espnEventId": "760513",
       "homeSource": "Winner Match 95",
       "bracketHomeTeam": "Argentina",
-      "homeRevealSource": "Winner Match 95"
+      "homeRevealSource": "Winner Match 95",
+      "awaySource": "Winner Match 96",
+      "bracketAwayTeam": "Switzerland",
+      "awayRevealSource": "Winner Match 96"
     },
     {
       "id": 101,
@@ -3475,6 +3492,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-07T21:09:04+00:00",
+  "bracketUpdatedAt": "2026-07-07T23:32:43+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
