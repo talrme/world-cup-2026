@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06",
+  "generatedAt": "2026-07-07",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -3080,7 +3080,7 @@
       "time": "20:00",
       "home": "United States",
       "away": "Belgium",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "seattle",
       "offset": "-04:00",
@@ -3091,7 +3091,9 @@
       "bracketHomeTeam": "United States",
       "bracketAwayTeam": "Belgium",
       "homeRevealSource": "Winner Match 81",
-      "awayRevealSource": "Winner Match 82"
+      "awayRevealSource": "Winner Match 82",
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "id": 95,
@@ -3435,6 +3437,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-06T21:07:11+00:00",
+  "bracketUpdatedAt": "2026-07-07T01:28:33+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T22:38:18+00:00",
+  "generatedAt": "2026-07-07T01:31:23+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -62,21 +62,20 @@
       "refreshReason": "source or prompt changed"
     },
     "38": {
-      "headline": "Belgium and Iran finish in scoreless stalemate",
-      "summary": "Belgium and Iran played to a 0-0 draw, leaving both teams searching for their first win of the group stage.",
+      "headline": "Belgium and Iran finish in scoreless deadlock",
+      "summary": "Belgium and Iran played to a 0-0 draw in their Group G matchup, leaving both sides searching for more in their subsequent fixtures.",
       "story": [
-        "The match between Belgium and Iran ended in a 0-0 draw, a result that tightened the competition in Group G. Neither side was able to break the deadlock, forcing both teams to look toward their final group matches to secure a path to the knockout stages.",
-        "For Belgium, the draw represented a frustrating second consecutive result after their opening match against Egypt also ended in a stalemate. The team struggled to find a clinical edge in the final third, failing to convert their possession into a decisive goal.",
-        "Iran proved to be a resilient opponent, successfully neutralizing Belgium's attack throughout the 90 minutes. Having also drawn their opening match against New Zealand, Iran maintained their unbeaten record in the group but remained under pressure to find a victory in their third fixture.",
-        "This result left Group G wide open, as every point became vital for the teams involved. Both Belgium and Iran were forced to regroup quickly following the draw, knowing that their tournament fate would ultimately be decided in the final round of group play."
+        "The match between Belgium and Iran ended in a 0-0 stalemate, a result that tightened the competition within Group G. Neither side was able to break the deadlock, forcing both teams to look toward their final group stage matches to secure their path forward.",
+        "For Belgium, this draw was their second consecutive point in the group, following an opening 1-1 result against Egypt. The team eventually found their rhythm later in the tournament, finishing at the top of the group with 5 points and advancing through the knockout rounds.",
+        "Iran also found themselves in a series of tight contests, as this scoreless draw followed their 2-2 opener against New Zealand and preceded another 0-0 result against Egypt. Despite their defensive resilience, they finished the group stage with 3 points."
       ],
       "bullets": [
-        "The 0-0 result marked the second consecutive draw for both Belgium and Iran in the group stage.",
-        "Belgium's inability to find the net kept the group standings highly competitive as teams approached the final matchday."
+        "The 0-0 result was part of a trend of tight defensive performances for Iran in Group G.",
+        "Belgium utilized this point as a building block, eventually topping the group with 5 points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T06:12:13+00:00",
-      "sourceHash": "6db2c664b7d8bb33",
+      "updatedAt": "2026-07-07T01:30:51+00:00",
+      "sourceHash": "f8b268a7e9d0bb0f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -323,19 +322,20 @@
       "refreshReason": "source or prompt changed"
     },
     "29": {
-      "headline": "United States Secures Crucial Win Over Australia",
-      "summary": "The United States defeated Australia 2-0 in their Group D matchup, strengthening their position at the top of the table.",
+      "headline": "United States Secures Control of Group D with Win Over Australia",
+      "summary": "The United States defeated Australia 2-0 in their second group stage match, moving closer to the top of the standings.",
       "story": [
-        "The United States maintained their momentum in the group stage by taking down Australia with a clean 2-0 victory. This result was pivotal for the U.S. campaign, allowing them to exert control over Group D early on.",
-        "For Australia, the loss forced them to battle for points in their subsequent matches to remain in contention for the knockout rounds. The defensive pressure from the U.S. proved too much to overcome on this occasion.",
-        "Following this match, both teams continued their tournament journeys. The U.S. eventually advanced through the bracket, while Australia navigated their own path through the group stage and into the Round of 32."
+        "The United States maintained their momentum in Group D by dispatching Australia with a clean 2-0 victory. This result was pivotal, as it allowed the U.S. to solidify their position at the top of the group table early in the tournament.",
+        "For Australia, the loss marked a difficult hurdle after their opening win against Turkey. The defensive solidity they showed in other matches was tested throughout this encounter, ultimately leaving them to fight for points in their final group fixture against Paraguay.",
+        "Following this match, the United States eventually concluded their group campaign with six points, while Australia finished with four. Both nations advanced to the knockout stages, with the U.S. moving into the Round of 32 as the group winner."
       ],
       "bullets": [
-        "The 2-0 result gave the United States a significant advantage in the Group D standings."
+        "The 2-0 win helped the United States finish at the top of Group D with 6 points.",
+        "Australia remained competitive in the group, finishing with 4 points to secure their path to the knockout stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:34:09+00:00",
-      "sourceHash": "4d9ed4ce592d7ea1",
+      "updatedAt": "2026-07-07T01:30:59+00:00",
+      "sourceHash": "92256b5e66e3414a",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -696,21 +696,21 @@
       "refreshReason": "source or prompt changed"
     },
     "59": {
-      "headline": "Turkey Edges United States in Group D Finale",
-      "summary": "Turkey secured a 3-2 victory over the United States in their final Group D match.",
+      "headline": "Turkey Edges United States in Five-Goal Thriller",
+      "summary": "Turkey secured a 3-2 victory over the United States in their final Group D fixture.",
       "story": [
-        "Despite the high-scoring loss, the United States finished at the top of Group D with 6 points, successfully navigating their way through the group stage. The result marked Turkey's first win of the tournament, though it was not enough to overcome their previous losses to Australia and Paraguay.",
-        "The match proved to be an offensive battle, with Turkey finding the back of the net three times to edge out the American side. For the United States, the defeat served as a rare stumble after a strong start to their campaign, where they had previously defeated both Paraguay and Australia.",
-        "With the group stage concluded, the United States turned their attention toward the knockout rounds. Their performance in Group D was sufficient to secure their path forward, setting them up for a Round of 32 clash against Bosnia-Herzegovina."
+        "Despite the narrow loss, the United States finished at the top of Group D with six points, successfully navigating their way through the group stage. Turkey fought hard to earn their first win of the tournament, though the result was not enough to lift them out of the bottom spot in the group standings.",
+        "The match provided an offensive spark for Turkey, who had struggled to find the back of the net in their previous two group outings. By scoring three goals against the group leaders, they ended their campaign on a high note, even as their tournament run concluded.",
+        "For the United States, the focus shifted quickly to the knockout stages following this result. Having secured their place as group winners, they moved on to face Bosnia-Herzegovina in the Round of 32, where they continued their momentum."
       ],
       "bullets": [
-        "The United States finished first in Group D with 6 points, despite the 3-2 loss to Turkey.",
-        "Turkey concluded their tournament run with 3 points, finishing fourth in the group standings.",
-        "The United States advanced to the Round of 32 to face Bosnia-Herzegovina."
+        "The United States finished first in Group D with 6 points despite the loss.",
+        "Turkey recorded their only win of the group stage in this match.",
+        "The 3-2 scoreline marked the highest-scoring game for both teams in the group."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T06:12:05+00:00",
-      "sourceHash": "b344e7474e7f3e95",
+      "updatedAt": "2026-07-07T01:30:43+00:00",
+      "sourceHash": "a913d2a7a6e12b36",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -814,22 +814,21 @@
       "refreshReason": "source or prompt changed"
     },
     "65": {
-      "headline": "Belgium Dominates New Zealand to Secure Top Spot",
-      "summary": "Final: New Zealand 1, Belgium 5. Belgium defeated New Zealand 5-1 in their final group stage match, effectively clinching the top position in Group G.",
+      "headline": "Belgium Dominates New Zealand to Secure Group G Top Spot",
+      "summary": "Final: New Zealand 1, Belgium 5. Belgium surged to a decisive 5-1 victory over New Zealand in their final group stage match, successfully clinching first place in Group G.",
       "story": [
-        "Belgium delivered a clinical performance in their final group match, dismantling New Zealand with a convincing 5-1 victory. After struggling to find the back of the net in their opening two draws against Egypt and Iran, the Belgian attack finally clicked to ensure they finished at the summit of the group standings.",
-        "The result proved decisive for the group dynamics, allowing Belgium to finish with 5 points and a superior goal difference of +4. This win provided the necessary momentum to carry them into the knockout stages, where they subsequently defeated Senegal 3-2 in the Round of 32.",
-        "For New Zealand, the loss concluded a difficult group campaign where they finished at the bottom of the table with 1 point. While they showed resilience in their opening 2-2 draw with Iran, the defensive challenges faced against Belgium and Egypt proved too significant to overcome.",
-        "Belgium now looks ahead to a high-stakes Round of 16 matchup against the United States. Having navigated a tight group and a challenging knockout opener, they will aim to maintain their offensive form as they continue their tournament run."
+        "Belgium entered the final matchday of the group stage needing a result to solidify their standing, and they delivered a clinical performance to dismantle New Zealand. The 5-1 scoreline reflected a significant offensive breakthrough for a side that had struggled to find the back of the net in their previous two group matches, which both ended in draws.",
+        "For New Zealand, the defeat marked the end of a challenging campaign. Despite showing resilience in their opening 2-2 draw against Iran, the team ultimately finished at the bottom of the group, conceding 10 goals across their three matches.",
+        "The win proved vital for Belgium's tournament trajectory, as it propelled them to the top of the group standings with five points. This momentum served them well as they advanced into the knockout rounds, where they continued their run with a victory over Senegal in the Round of 32 and a subsequent win against the United States in the Round of 16."
       ],
       "bullets": [
-        "Belgium finished atop Group G with 5 points, edging out Egypt on goal difference.",
-        "The 5-1 victory marked Belgium's highest-scoring performance of the group stage.",
-        "Belgium successfully parlayed this group win into a 3-2 victory over Senegal in the Round of 32."
+        "Belgium finished the group stage undefeated with one win and two draws.",
+        "The 5-1 result was Belgium\u2019s highest-scoring performance of the group phase.",
+        "New Zealand concluded their tournament run with one point from three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T06:11:57+00:00",
-      "sourceHash": "ac88b9fdc4104421",
+      "updatedAt": "2026-07-07T01:30:35+00:00",
+      "sourceHash": "5cd23eee536b6bd6",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1179,20 +1178,20 @@
     },
     "14": {
       "headline": "Belgium and Egypt Open Group G with a Stalemate",
-      "summary": "Belgium and Egypt played to a 1-1 draw to kick off their 2026 World Cup campaigns.",
+      "summary": "Belgium and Egypt played to a 1-1 draw in their opening Group G match.",
       "story": [
-        "The opening match of Group G saw Belgium and Egypt share the points in a hard-fought 1-1 draw. Both sides struggled to find a decisive edge, setting the tone for a competitive group stage where every result would prove vital.",
-        "This result was the first of several tight encounters for both nations in the group. Belgium eventually found their rhythm later in the tournament, finishing at the top of Group G with five points, while Egypt matched that point total but finished second on goal difference.",
-        "Following this draw, both teams navigated the remainder of their group fixtures successfully to advance. Belgium went on to secure a spot in the Round of 16 after a win against Senegal, while Egypt advanced to face Argentina in their own knockout stage journey."
+        "Belgium and Egypt kicked off their tournament campaigns with a hard-fought 1-1 draw, a result that set the tone for a competitive Group G. Both sides struggled to find a decisive edge, ultimately splitting the points in a match where defensive discipline proved paramount.",
+        "This opening result proved to be a significant indicator of how tight the group would remain throughout the opening stage. Both teams finished their group campaigns with identical records of 5 points, though Belgium ultimately secured the top spot on goal difference.",
+        "Following this draw, both nations navigated their remaining group fixtures to eventually reach the knockout rounds. Belgium progressed through the bracket to face the United States in the Round of 16, while Egypt moved on to a challenging matchup against Argentina."
       ],
       "bullets": [
-        "The 1-1 draw served as the opening point for both teams in Group G.",
-        "Both Belgium and Egypt finished the group stage with identical 5-point records.",
-        "Belgium eventually advanced as the group winner, while Egypt progressed as the runner-up."
+        "The 1-1 result left both teams level on points early in the group stage.",
+        "Belgium eventually finished first in Group G with a +4 goal difference.",
+        "Both teams successfully advanced out of the group to reach the knockout phase."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T01:24:41+00:00",
-      "sourceHash": "9a51d50301f94ffa",
+      "updatedAt": "2026-07-07T01:31:07+00:00",
+      "sourceHash": "0830851236a54e17",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1360,21 +1359,21 @@
       "refreshReason": "source or prompt changed"
     },
     "4": {
-      "headline": "United States Dominates Paraguay in Opening Group D Clash",
-      "summary": "The United States opened their tournament campaign with a decisive 4-1 victory over Paraguay.",
+      "headline": "United States Dominates Paraguay in Opening Group D Match",
+      "summary": "The United States opened their tournament campaign with a commanding 4-1 victory over Paraguay.",
       "story": [
-        "The United States set an aggressive tone for Group D by securing a convincing 4-1 win against Paraguay in their opening match. This result provided the U.S. with a significant early advantage in goal difference, which proved vital as the group stage progressed.",
-        "Following this victory, the U.S. maintained their momentum throughout the group stage, ultimately finishing at the top of the table with 6 points. Their campaign included a win against Australia and a narrow loss to Turkey, but their strong start against Paraguay remained a cornerstone of their progression.",
-        "For Paraguay, the loss created an immediate uphill battle in a competitive group. Despite the setback, they managed to secure points in subsequent matches, finishing the group stage with 4 points and advancing to the knockout rounds before eventually exiting against France."
+        "The United States set an aggressive tone for Group D by securing a decisive 4-1 win against Paraguay in their opening match. This high-scoring performance provided the team with an early advantage in the group standings, establishing a goal difference that proved valuable as the tournament progressed.",
+        "For Paraguay, the result forced an immediate adjustment in strategy for their subsequent group fixtures against Turkey and Australia. While the loss was a difficult start, it did not define their tournament, as they later navigated through to the knockout stages.",
+        "This match served as the catalyst for the United States' group-winning run. By securing three points early, they built the momentum necessary to finish at the top of Group D with six points, eventually advancing through the Round of 32 before their tournament concluded in the Round of 16."
       ],
       "bullets": [
-        "The United States finished atop Group D with 6 points and a +4 goal difference.",
-        "Paraguay advanced from the group stage with 4 points before their eventual elimination in the Round of 16.",
-        "This match was the first of three group fixtures for both nations."
+        "The United States finished atop Group D with 6 points.",
+        "Paraguay advanced from the group stage with 4 points and a 0-0-0 record in their final group match.",
+        "The 4-1 scoreline provided the United States with a critical early goal difference advantage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:23:50+00:00",
-      "sourceHash": "159741f9d7d126a1",
+      "updatedAt": "2026-07-07T01:31:15+00:00",
+      "sourceHash": "eb5f40446082cb95",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1597,44 +1596,41 @@
       "refreshReason": "source or prompt changed"
     },
     "82": {
-      "headline": "Belgium Edges Senegal in Thrilling Round of 32 Encounter",
-      "summary": "Belgium secured a hard-fought 3-2 victory over Senegal to advance to the Round of 16.",
+      "headline": "Belgium Survives High-Scoring Thriller Against Senegal",
+      "summary": "Belgium edged past Senegal in a 3-2 victory to secure their place in the Round of 16.",
       "story": [
-        "Belgium continued their momentum from the group stage with a narrow 3-2 win against Senegal in the Round of 32. After a somewhat sluggish start to their tournament campaign, Belgium found their attacking rhythm late in the group phase and carried that offensive pressure into this knockout clash.",
-        "Senegal proved to be a formidable opponent, pushing the match to the limit and forcing Belgium to work for every inch. Despite Senegal's resilience, Belgium's ability to capitalize on their opportunities proved the difference in a match that remained competitive until the final whistle.",
-        "With this result, Belgium moves forward to face the United States in the Round of 16. The victory validates their status as Group G winners and sets up a high-stakes showdown against the hosts in the next stage of the tournament."
+        "Belgium continued their tournament journey by narrowly defeating Senegal 3-2 in a back-and-forth Round of 32 clash. After a somewhat inconsistent group stage that included draws against Egypt and Iran, Belgium found their offensive rhythm to overcome a resilient Senegal side.",
+        "This victory proved vital for Belgium, as it propelled them into a Round of 16 matchup against the United States. Having navigated this high-pressure knockout fixture, Belgium demonstrated the offensive capability required to remain a threat in the tournament bracket."
       ],
       "bullets": [
-        "Belgium advances to the Round of 16 to face the United States.",
-        "The 3-2 result reflects a high-scoring and competitive knockout fixture.",
-        "Belgium maintains their tournament run after winning Group G."
+        "Belgium advanced to the Round of 16 following the 3-2 win.",
+        "Senegal concluded their tournament run after a hard-fought performance."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T11:10:48+00:00",
-      "sourceHash": "251277091ff8721c",
+      "updatedAt": "2026-07-07T01:30:27+00:00",
+      "sourceHash": "07a936c8b67076db",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "81": {
-      "headline": "United States advances to Round of 16",
-      "summary": "The United States secured a 2-0 victory over Bosnia-Herzegovina to move forward in the knockout stage.",
+      "headline": "United States Advances Past Bosnia-Herzegovina",
+      "summary": "The United States secured a 2-0 victory over Bosnia-Herzegovina in the Round of 32 to move forward in the tournament.",
       "story": [
-        "The United States successfully navigated their Round of 32 matchup, defeating Bosnia-Herzegovina 2-0 to keep their tournament run alive. By winning this fixture, the U.S. proved they could rebound from their final group stage loss to Turkey and maintain composure in a high-stakes knockout environment.",
-        "This victory solidifies the team's path forward as they transition into the next phase of the competition. Having entered the bracket as the winners of Group D, the squad showed the necessary defensive discipline to shut out their opponents and secure the clean sheet.",
-        "Looking ahead, the United States now turns its attention to a challenging Round of 16 encounter. They are scheduled to face Belgium on July 6, with a spot in the next round of the knockout bracket on the line."
+        "The United States successfully navigated their Round of 32 matchup, dispatching Bosnia-Herzegovina with a clean 2-0 result. By winning their group earlier in the tournament, the U.S. entered this knockout phase with momentum, and this result confirmed their ability to handle the pressure of single-elimination football.",
+        "For Bosnia-Herzegovina, the loss ends their campaign after they qualified as one of the best third-placed teams from their respective groups. They struggled to break down the American defense, ultimately failing to find the back of the net as the U.S. controlled the tempo."
       ],
       "bullets": [
-        "The United States earned a 2-0 win to eliminate Bosnia-Herzegovina from the tournament.",
-        "The victory sets up a Round of 16 match against Belgium on July 6.",
-        "The U.S. successfully bounced back from their previous 3-2 group stage defeat against Turkey."
+        "The United States maintained a clean sheet in their 2-0 win to progress from the Round of 32.",
+        "Bosnia-Herzegovina exited the tournament after reaching the knockout stage as a top third-place finisher.",
+        "The victory set up a subsequent Round of 16 meeting between the United States and Belgium."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T11:10:41+00:00",
-      "sourceHash": "fdfd4150457461db",
+      "updatedAt": "2026-07-07T01:30:19+00:00",
+      "sourceHash": "386ba4dbbff2f183",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "84": {
       "headline": "Spain Cruises Past Austria into Round of 16",
@@ -1846,6 +1842,27 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "94": {
+      "headline": "Belgium Advances Past United States in Round of 16",
+      "summary": "Final: United States 1, Belgium 3. Belgium secured a 3-1 victory over the United States to move on in the knockout stage.",
+      "story": [
+        "Belgium proved too strong for the United States in their Round of 16 matchup, ending the American campaign with a 3-1 result. The victory propels the Belgian side deeper into the tournament bracket as they continue their pursuit of the title.",
+        "The United States entered this knockout fixture following a solid 2-0 win over Bosnia-Herzegovina in the previous round. Despite their earlier group stage successes against Paraguay and Australia, the U.S. side could not overcome the clinical performance delivered by Belgium.",
+        "Belgium arrived at this stage after surviving a high-scoring 3-2 thriller against Senegal in the Round of 32. Their momentum from that win carried over, allowing them to control the tempo and capitalize on their scoring opportunities throughout the match.",
+        "With this result, the United States concludes their tournament run, while Belgium prepares for the next phase of the knockout competition."
+      ],
+      "bullets": [
+        "Belgium secured a decisive 3-1 win to eliminate the United States.",
+        "The U.S. finishes their tournament journey after a Round of 16 exit.",
+        "Belgium continues their momentum following a narrow 3-2 win against Senegal in the previous round."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-07T01:31:23+00:00",
+      "sourceHash": "fb7880ed9fb75fbd",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {
