@@ -3117,7 +3117,7 @@ window.WORLD_CUP_DATA = {
       "time": "12:00",
       "home": "Argentina",
       "away": "Egypt",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "atlanta",
       "offset": "-04:00",
@@ -3129,8 +3129,22 @@ window.WORLD_CUP_DATA = {
       "bracketAwayTeam": "Egypt",
       "homeRevealSource": "Winner Match 86",
       "awayRevealSource": "Winner Match 88",
-      "homeScore": 0,
-      "awayScore": 1
+      "homeScore": 3,
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-07T19:25:53+00:00",
+          "title": "Argentina vs Egypt Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Round of 16",
+          "url": "https://www.youtube.com/watch?v=XO3x8vm0Ijc",
+          "channel": "FOX Sports",
+          "durationText": "18 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-07T19:25:53+00:00"
+      }
     },
     {
       "id": 96,
@@ -3222,14 +3236,17 @@ window.WORLD_CUP_DATA = {
       "round": "Knockout",
       "date": "2026-07-11",
       "time": "21:00",
-      "home": "Winner Match 95",
+      "home": "Argentina",
       "away": "Winner Match 96",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "kansas-city",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760513"
+      "espnEventId": "760513",
+      "homeSource": "Winner Match 95",
+      "bracketHomeTeam": "Argentina",
+      "homeRevealSource": "Winner Match 95"
     },
     {
       "id": 101,
@@ -3456,6 +3473,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-07T17:29:56+00:00",
+  "bracketUpdatedAt": "2026-07-07T19:23:35+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
