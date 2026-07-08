@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-08T09:43:38+00:00",
+  "generatedAt": "2026-07-08T23:56:29+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1725,24 +1725,24 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "87": {
-      "headline": "Colombia Advances Past Ghana in Tight Round of 32 Battle",
-      "summary": "Colombia secured a narrow 1-0 victory over Ghana to punch their ticket to the Round of 16.",
+      "headline": "Colombia Advances Past Ghana in Tight Round of 32 Duel",
+      "summary": "Colombia secured their place in the Round of 16 with a narrow 1-0 victory over Ghana.",
       "story": [
-        "Colombia maintained their defensive discipline to overcome Ghana in a tense Round of 32 encounter. By holding firm for the clean sheet, Colombia ensured that a single goal was enough to decide the outcome and keep their tournament run alive.",
-        "For Ghana, the loss marks the end of their campaign after a challenging path through the group stages. Despite their efforts to break down the Colombian backline, they were unable to find an equalizer, resulting in their elimination from the knockout bracket.",
-        "With this result, Colombia moves forward to face Switzerland in the next round. Having navigated a group stage that included a win against Uzbekistan and draws with DR Congo and Portugal, Colombia will look to carry this momentum into their upcoming matchup."
+        "Colombia continued their disciplined tournament run by edging out Ghana 1-0 in this Round of 32 knockout fixture. Having entered the match as the winners of Group K, Colombia maintained the composure that saw them navigate the group stage undefeated.",
+        "For Ghana, the loss marks the end of their campaign after a challenging path through the tournament. They had previously shown resilience in the group stage, including a notable draw against England, but were unable to break through the Colombian defensive structure in this decisive encounter.",
+        "This victory propels Colombia into the next phase of the competition. They now look ahead to a Round of 16 matchup against Switzerland, where they will aim to continue their momentum in the knockout bracket."
       ],
       "bullets": [
-        "Colombia's 1-0 win eliminates Ghana from the tournament.",
-        "Colombia advances to the Round of 16 to face Switzerland.",
-        "The victory continues Colombia's strong defensive form, having kept multiple clean sheets throughout the competition."
+        "Colombia remained clinical in the knockout stage, building on a group campaign where they conceded very little.",
+        "The 1-0 result marks the end of Ghana's tournament journey.",
+        "Colombia advances to face Switzerland in the Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:35:48+00:00",
+      "updatedAt": "2026-07-08T23:56:29+00:00",
       "sourceHash": "afe1619b4390c252",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "89": {
       "headline": "Morocco Dominates Canada to Advance to Quarterfinals",
@@ -1862,41 +1862,43 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "95": {
-      "headline": "Argentina Edges Past Egypt in Thrilling Round of 16",
-      "summary": "Argentina secured a narrow 3-2 victory over Egypt to advance to the quarterfinals of the World Cup.",
+      "headline": "Argentina Edges Egypt to Advance to Quarterfinals",
+      "summary": "Argentina secured a hard-fought 3-2 victory over Egypt in the Round of 16 to keep their tournament run alive.",
       "story": [
-        "Argentina continued their momentum in the knockout stages with a hard-fought 3-2 win against Egypt. This result marks another high-scoring performance for the team, who have consistently found the back of the net throughout their campaign.",
-        "For Egypt, the loss ends a resilient run that saw them navigate through the group stage and a tough Round of 32 matchup. Despite their best efforts to keep pace, Argentina's offensive pressure proved to be the deciding factor in this Round of 16 encounter.",
-        "With this victory, Argentina moves on to the quarterfinals, where they are scheduled to face Switzerland. The upcoming match on July 11 will test whether Argentina can maintain their current form as they push deeper into the tournament bracket."
+        "Argentina continued their winning momentum in the knockout stage, narrowly overcoming Egypt in a high-scoring 3-2 thriller. The match proved to be a stern test for the Argentines, who have remained unbeaten throughout their group stage and Round of 32 fixtures.",
+        "This victory marks Argentina's second consecutive narrow win in the knockout rounds, following their 3-2 triumph over Cabo Verde in the Round of 32. Their ability to consistently find the back of the net has been the hallmark of their campaign so far.",
+        "For Egypt, the loss ends a resilient tournament run that included a draw against Belgium and a victory over New Zealand in the group stage, followed by a tight battle against Australia in the previous round.",
+        "With this result, Argentina moves on to the Quarterfinals, where they are scheduled to face Switzerland on July 11. They will look to maintain their offensive form as they push deeper into the bracket."
       ],
       "bullets": [
-        "Argentina has now won consecutive knockout matches by a one-goal margin."
+        "Argentina has now won five consecutive matches in the tournament.",
+        "The 3-2 scoreline reflects Argentina's second straight one-goal victory in the knockout phase."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:35:40+00:00",
+      "updatedAt": "2026-07-08T23:56:21+00:00",
       "sourceHash": "2c91dcfdfabfd8b2",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "96": {
       "headline": "Switzerland and Colombia Battle to Stalemate",
       "summary": "Switzerland and Colombia played to a 0-0 draw in their Round of 16 encounter.",
       "story": [
-        "Switzerland and Colombia locked horns in a tense Round of 16 match that ultimately ended in a scoreless draw. Both sides struggled to find a breakthrough throughout the regulation period, leading to a defensive stalemate that defined the contest.",
-        "For Switzerland, this result follows a strong run through the group stage and a victory over Algeria in the Round of 32. Their path forward is now set, as they prepare for a high-stakes Quarterfinal matchup against Argentina.",
-        "Colombia exits the tournament after a resilient campaign that saw them navigate a challenging group and a narrow win against Ghana in the previous round. While they were unable to find the back of the net in this final outing, their defensive efforts remained a hallmark of their performance throughout the competition."
+        "Switzerland and Colombia fought to a scoreless draw in a tight Round of 16 matchup that left nothing to separate the two sides on the scoreboard.",
+        "The result marks a significant turning point in the tournament bracket, as both teams pushed hard to break the deadlock but ultimately could not find a breakthrough.",
+        "Following this result, Switzerland advances to the quarterfinals, where they are scheduled to face Argentina on July 11th. Colombia concludes their tournament run after a hard-fought effort in the knockout stages."
       ],
       "bullets": [
-        "Switzerland advances to face Argentina in the Quarterfinals.",
-        "The match concluded 0-0, marking a defensive deadlock between the two sides."
+        "Switzerland moves on to face Argentina in the quarterfinal round.",
+        "The match ended 0-0 after regulation, forcing the teams to decide the outcome through further competition."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:35:32+00:00",
+      "updatedAt": "2026-07-08T23:56:14+00:00",
       "sourceHash": "df0fffb2fcb3d0c5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     }
   },
   "groups": {
