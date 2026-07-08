@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T07:12:29+00:00",
+  "generatedAt": "2026-07-08T09:43:38+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1746,19 +1746,19 @@
     },
     "89": {
       "headline": "Morocco Dominates Canada to Advance to Quarterfinals",
-      "summary": "Final: Canada 0, Morocco 3. Morocco secured a convincing 3-0 victory over Canada in the Round of 16 to punch their ticket to the next stage.",
+      "summary": "Final: Canada 0, Morocco 3. Morocco secured a commanding 3-0 victory over Canada in their Round of 16 match to move forward in the tournament.",
       "story": [
-        "Morocco delivered a clinical performance to dismantle Canada in their Round of 16 encounter. By keeping a clean sheet and finding the back of the net three times, they effectively neutralized Canada's momentum following their narrow win over South Africa in the previous round.",
-        "This result marks the end of Canada's tournament run, concluding a campaign that saw them navigate a challenging group stage before falling in the knockout rounds. Morocco, meanwhile, maintained their unbeaten streak in the tournament, building on their hard-fought draw against the Netherlands in the Round of 32.",
-        "With this victory, Morocco advances to the Quarterfinals where they are set to face France. The win underscores their tactical discipline and ability to perform under the pressure of a knockout environment."
+        "Morocco put on a clinical display in the Round of 16, shutting out Canada with a decisive 3-0 win. By controlling the tempo and capitalizing on their opportunities, they effectively ended Canada's tournament run while showcasing their own strength as a serious contender.",
+        "This victory marks a significant milestone for Morocco, who previously navigated a tough path that included a draw against the Netherlands in the Round of 32. Their ability to step up in the knockout rounds has been a hallmark of their performance throughout this competition.",
+        "With this win, Morocco moves on to face France in the Quarterfinals. They will carry the momentum of this clean-sheet victory into that high-stakes matchup as they look to continue their deep run in the tournament."
       ],
       "bullets": [
-        "Morocco remains undefeated in the tournament after four group matches and two knockout fixtures.",
-        "The 3-0 scoreline represents Morocco's most decisive victory of the 2026 competition.",
-        "Morocco will move on to play France in the Quarterfinals on July 9."
+        "Morocco kept a clean sheet while scoring three unanswered goals to secure the win.",
+        "Canada's tournament journey concludes after a hard-fought Round of 16 appearance.",
+        "Morocco is set to face France in the upcoming Quarterfinal match."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T08:59:51+00:00",
+      "updatedAt": "2026-07-08T09:43:38+00:00",
       "sourceHash": "f3b85e008ef53d10",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1786,37 +1786,37 @@
     },
     "91": {
       "headline": "Norway Advances to Quarterfinals After Upsetting Brazil",
-      "summary": "Final: Brazil 1, Norway 2. Norway secured a 2-1 victory over Brazil in the Round of 16, ending Brazil's tournament run.",
+      "summary": "Final: Brazil 1, Norway 2. Norway secured a 2-1 victory over Brazil in the Round of 16 to move on in the tournament.",
       "story": [
-        "Norway continued their impressive knockout stage form by eliminating Brazil in a tightly contested Round of 16 match. After navigating a challenging group stage and a victory over Ivory Coast in the previous round, Norway demonstrated resilience to overcome the Brazilian side.",
-        "The result brings an end to Brazil's campaign, which included strong performances in the group stage and a narrow win against Japan in the Round of 32. Brazil had entered the knockout rounds with momentum, but they were unable to contain the Norwegian attack in this decisive fixture.",
-        "With this victory, Norway moves forward to the quarterfinals, where they are scheduled to face England. This upcoming match on July 11 will be a significant test for the Norwegian squad as they look to maintain their momentum in the tournament."
+        "Norway continued their impressive knockout stage run by eliminating Brazil in a tightly contested 2-1 match. After navigating through a challenging group stage and defeating Ivory Coast in the Round of 32, Norway showed resilience once again to overcome the Brazilian side.",
+        "For Brazil, the defeat brings an end to a campaign that saw them top Group C and secure a narrow victory over Japan in the previous knockout round. Despite their strong form leading into this fixture, they were unable to contain the Norwegian attack.",
+        "With this result, Norway punches their ticket to the quarterfinals. They are now set to face England on July 11 as they continue their pursuit of the title."
       ],
       "bullets": [
-        "Norway defeated Brazil 2-1 to reach the quarterfinals.",
-        "Norway will face England in the next round on July 11."
+        "Norway secured a 2-1 win to eliminate Brazil.",
+        "Norway advances to face England in the quarterfinals on July 11."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T08:59:43+00:00",
+      "updatedAt": "2026-07-08T09:43:30+00:00",
       "sourceHash": "b37ed3e7ce35753e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "92": {
-      "headline": "England Edges Past Mexico in Thrilling Round of 16 Match",
-      "summary": "Final: Mexico 2, England 3. England secured a hard-fought 3-2 victory over Mexico to advance in the tournament.",
+      "headline": "England edges Mexico in Round of 16 thriller",
+      "summary": "Final: Mexico 2, England 3. England secured a narrow 3-2 victory over Mexico in the Round of 16, ending the host nation's tournament run.",
       "story": [
-        "England emerged victorious in a high-scoring Round of 16 encounter, defeating Mexico 3-2. The result brings an end to Mexico's impressive run through the group stage and the Round of 32, where they had previously maintained a clean sheet against Ecuador.",
-        "For England, this victory continues a strong campaign that saw them navigate Group L undefeated before edging past Congo DR in the previous knockout round. The team has demonstrated resilience, having now successfully navigated two consecutive high-pressure knockout matches.",
-        "With this result, England secures their place in the quarterfinals. They are now set to face Norway, who advanced through their own path in the knockout bracket, as the tournament intensity continues to ramp up."
+        "England emerged victorious in a high-stakes Round of 16 clash, defeating Mexico 3-2 to advance deeper into the knockout stage. The result brought a dramatic conclusion to Mexico's campaign, which had seen the hosts navigate through the group stage and a Round of 32 win against Ecuador with perfect defensive form.",
+        "For England, the win serves as a testament to their resilience in the knockout rounds. After a steady group stage performance and a narrow 2-1 victory over Congo DR in the previous round, they demonstrated the offensive firepower needed to overcome a passionate home crowd.",
+        "With this victory, England moves on to the quarterfinals where they are set to face Norway. The path forward remains challenging, but the squad has now proven they can handle the pressure of tournament football away from home."
       ],
       "bullets": [
-        "England moves on to the quarterfinals to face Norway on July 11.",
-        "The 3-2 result marks the first time Mexico has conceded more than one goal in a single match during this tournament."
+        "England's 3-2 win marks the end of Mexico's 2026 World Cup journey.",
+        "England will now advance to the quarterfinals to play Norway on July 11."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T08:59:35+00:00",
+      "updatedAt": "2026-07-08T09:43:23+00:00",
       "sourceHash": "0b4fc53843d317e8",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
