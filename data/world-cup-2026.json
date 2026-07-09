@@ -3191,7 +3191,7 @@
       "time": "16:00",
       "home": "France",
       "away": "Morocco",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "boston",
       "offset": "-04:00",
@@ -3203,7 +3203,7 @@
       "bracketAwayTeam": "France",
       "homeRevealSource": "Winner Match 90",
       "awayRevealSource": "Winner Match 89",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0
     },
     {
@@ -3275,14 +3275,17 @@
       "round": "Knockout",
       "date": "2026-07-14",
       "time": "15:00",
-      "home": "Winner Match 97",
+      "home": "France",
       "away": "Winner Match 98",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760514"
+      "espnEventId": "760514",
+      "homeSource": "Winner Match 97",
+      "bracketHomeTeam": "France",
+      "homeRevealSource": "Winner Match 97"
     },
     {
       "id": 102,
@@ -3494,6 +3497,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-09T20:26:59+00:00",
+  "bracketUpdatedAt": "2026-07-09T22:05:45+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
