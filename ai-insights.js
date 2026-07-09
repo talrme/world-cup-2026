@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-08T23:56:29+00:00",
+  "generatedAt": "2026-07-09T07:57:26+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1766,19 +1766,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "90": {
       "headline": "France Edges Past Paraguay to Secure Quarterfinal Spot",
-      "summary": "Final: Paraguay 0, France 1. France advanced to the quarterfinals with a narrow 1-0 victory over Paraguay in the Round of 16.",
+      "summary": "Final: Paraguay 0, France 1. France advanced to the next round of the tournament with a narrow 1-0 victory over Paraguay.",
       "story": [
-        "France continued their strong form in the tournament by overcoming a resilient Paraguay side in a tight knockout contest. The single goal proved to be the difference, ending Paraguay's run after they had navigated a challenging path through the group stage and a previous knockout round.",
-        "For Paraguay, the result marks a difficult exit following a tournament where they proved difficult to break down, including a hard-fought draw against Germany in the previous round. Despite their defensive efforts, they were unable to keep the French attack at bay for the full duration of the match.",
-        "With this victory, France maintains their momentum and now turns their attention to the next stage of the competition. They are scheduled to face Morocco in the quarterfinals, where they will look to build on this narrow win and continue their pursuit of the title."
+        "France continued their strong form in the knockout stages, narrowly defeating Paraguay 1-0 to secure their place in the quarterfinals. The result brings an end to Paraguay's resilient run, which included a hard-fought Round of 32 match against Germany.",
+        "For France, the victory maintains their momentum following a dominant 3-0 win over Sweden in the previous round. Having navigated the group stage and the Round of 32 successfully, they have proven to be a formidable force throughout the tournament.",
+        "With this result, France now looks ahead to a quarterfinal matchup against Morocco. Paraguay exits the competition after a campaign that saw them battle through a challenging group and a tight knockout fixture."
       ],
       "bullets": [
-        "France secured a 1-0 win to keep their tournament hopes alive.",
-        "The result sets up a quarterfinal matchup between France and Morocco.",
-        "Paraguay exits the competition after a campaign defined by defensive grit."
+        "France secured a 1-0 win to eliminate Paraguay from the tournament.",
+        "France is set to face Morocco in the upcoming quarterfinal match.",
+        "Paraguay concludes their tournament run after a series of competitive matches in the group and knockout stages."
       ],
       "sections": [],
-      "updatedAt": "2026-07-08T07:12:29+00:00",
+      "updatedAt": "2026-07-09T07:57:26+00:00",
       "sourceHash": "a15428dca3c47a5b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1824,18 +1824,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "93": {
       "headline": "Spain Edges Portugal to Advance to Quarterfinals",
-      "summary": "Final: Portugal 0, Spain 1. Spain defeated Portugal 1-0 in their Round of 16 matchup to secure a spot in the next stage of the tournament.",
+      "summary": "Final: Portugal 0, Spain 1. Spain defeated Portugal 1-0 in their Round of 16 match to secure a spot in the next stage of the tournament.",
       "story": [
-        "Spain continued their strong run in the knockout rounds with a narrow 1-0 victory over Portugal. The result brings an end to Portugal's campaign after they had successfully navigated their way through a challenging group stage and a Round of 32 win against Croatia.",
-        "For Spain, this win builds on their momentum from a dominant 3-0 performance against Austria in the previous round. Having topped Group H earlier in the tournament, they have now proven their ability to grind out results in high-pressure knockout fixtures.",
-        "With this victory, Spain moves forward to the quarterfinals, where they are scheduled to face Belgium on July 10. Portugal departs the tournament after a resilient run that included a 5-0 win over Uzbekistan and a hard-fought draw against Colombia."
+        "Spain continued their strong run in the knockout phase with a narrow 1-0 victory over Portugal. The win effectively ended Portugal's campaign after they had successfully navigated a challenging path through the group stage and a tight Round of 32 win against Croatia.",
+        "For Spain, the result serves as a continuation of their defensive solidity and clinical edge. Having kept clean sheets in three of their four previous matches, including a 3-0 win over Austria in the Round of 32, they once again proved difficult to break down in this high-stakes encounter.",
+        "With this victory, Spain moves forward to the Quarterfinals where they are scheduled to face Belgium. Portugal exits the competition after a resilient tournament run that included a dominant 5-0 win over Uzbekistan and a hard-fought draw against Colombia."
       ],
       "bullets": [
-        "Spain secured a 1-0 win to eliminate Portugal in the Round of 16.",
-        "Spain will advance to the quarterfinals to play Belgium."
+        "Spain secured a 1-0 victory to eliminate Portugal from the Round of 16.",
+        "Spain advances to the Quarterfinals to play Belgium on July 10.",
+        "The match victory marks Spain's fourth clean sheet of the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-08T07:12:20+00:00",
+      "updatedAt": "2026-07-09T07:57:19+00:00",
       "sourceHash": "0965edd116afb2b3",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1843,19 +1844,18 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "94": {
       "headline": "Belgium Dominates United States to Advance to Quarterfinals",
-      "summary": "Final: United States 1, Belgium 4. Belgium secured a decisive 4-1 victory over the United States in their Round of 16 matchup, ending the host nation's tournament run.",
+      "summary": "Final: United States 1, Belgium 4. Belgium defeated the United States 4-1 in their Round of 16 matchup to secure a spot in the next stage of the tournament.",
       "story": [
-        "Belgium proved too clinical for the United States, controlling the pace and capitalizing on their opportunities to secure a comfortable 4-1 win. The result brings an end to the American campaign, which saw them navigate through a challenging group stage and a Round of 32 victory against Bosnia-Herzegovina before meeting their match in this knockout fixture.",
-        "For Belgium, the victory serves as a strong statement of intent following their earlier tournament form. After a mixed start in the group stage, they have found their rhythm in the knockout rounds, building on their hard-fought 3-2 win against Senegal to dismantle the hosts in Seattle.",
-        "With this win, Belgium moves forward to the Quarterfinals, where they are scheduled to face Spain on July 10. The victory confirms their status as a serious contender as they prepare for a high-stakes encounter against the Spanish side."
+        "For the United States, the loss concludes a campaign that saw them navigate through Group D and a Round of 32 victory over Bosnia-Herzegovina. Despite their earlier successes, they were unable to contain the Belgian attack in this knockout encounter.",
+        "With this win, Belgium advances to the quarterfinals, where they are set to meet Spain on July 10. The victory serves as a strong statement of intent from the Belgian squad as they move deeper into the knockout bracket."
       ],
       "bullets": [
-        "Belgium's 4-1 win over the United States sends them to the Quarterfinals.",
-        "The United States exits the tournament after a successful run that included wins against Paraguay, Australia, and Bosnia-Herzegovina.",
-        "Belgium will now prepare for a Quarterfinal showdown against Spain."
+        "Belgium secured a comfortable 4-1 win to eliminate the host nation.",
+        "The victory sets up a high-stakes quarterfinal clash between Belgium and Spain.",
+        "The United States exits the tournament after a Round of 16 appearance."
       ],
       "sections": [],
-      "updatedAt": "2026-07-08T07:12:10+00:00",
+      "updatedAt": "2026-07-09T07:57:11+00:00",
       "sourceHash": "861f028cd29d8e44",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
