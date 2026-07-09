@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-09T11:22:04+00:00",
+  "generatedAt": "2026-07-09T20:28:18+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -141,21 +141,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "42": {
-      "headline": "France cruises past Iraq in Group I",
-      "summary": "France secured a dominant 3-0 victory over Iraq, maintaining their momentum in the group stage.",
+      "headline": "France cruises past Iraq to maintain perfect group form",
+      "summary": "France secured a dominant 3-0 victory over Iraq, solidifying their position at the top of Group I.",
       "story": [
-        "France asserted their authority in Group I with a clinical 3-0 win against Iraq. The victory showcased the team's efficiency, as they controlled the tempo and limited Iraq's opportunities throughout the match.",
-        "This result was a pivotal moment in France's group campaign, helping them build the foundation for a perfect three-win finish in the group stage. By securing all three points, they kept their defensive record strong and continued to build confidence heading into the knockout rounds.",
-        "Following this match, France went on to complete a perfect group stage and successfully navigated their way through the Round of 32 and Round of 16, setting up a quarterfinal showdown against Morocco."
+        "France continued their strong run in Group I by dispatching Iraq 3-0. The result was never in doubt, as the French side controlled the tempo and effectively neutralized any threat from the Iraqi attack.",
+        "This win served as a vital step in France's campaign, helping them maintain a perfect record in the group stage. By securing all three points, they kept their momentum high before moving on to their final group fixture against Norway.",
+        "France eventually finished the group stage with nine points, boasting a strong goal difference of plus-eight. Their clinical performance against Iraq set the tone for their successful progression into the knockout rounds."
       ],
       "bullets": [
-        "France finished the group stage with a perfect 9 points and a +8 goal difference.",
-        "The 3-0 victory marked the second of three consecutive wins for France in Group I.",
-        "Iraq concluded their tournament campaign without a point after three group matches."
+        "France finished the group stage with a perfect 3-0-0 record.",
+        "The 3-0 victory contributed to France's impressive 10 goals scored across three group matches.",
+        "Iraq concluded their tournament campaign without a point in Group I."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:23:03+00:00",
-      "sourceHash": "a8be9ef220846b86",
+      "updatedAt": "2026-07-09T20:27:48+00:00",
+      "sourceHash": "c4d11219d0cb3b86",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -301,21 +301,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "30": {
-      "headline": "Morocco Edges Past Scotland in Group C",
+      "headline": "Morocco Edges Scotland in Crucial Group C Win",
       "summary": "Final: Scotland 0, Morocco 1. Morocco secured a vital 1-0 victory over Scotland, shifting the balance of power in Group C.",
       "story": [
-        "Morocco claimed a narrow 1-0 win against Scotland in this Matchday 2 encounter, a result that proved instrumental in their progression through the tournament. The victory allowed Morocco to keep pace with Brazil at the top of the group standings, eventually finishing level on seven points.",
-        "For Scotland, the defeat was a significant setback that left them with three points from their three group matches. While they managed a win against Haiti in their opener, the loss to Morocco and a subsequent defeat to Brazil ultimately curtailed their campaign.",
-        "This match served as a pivotal moment for Morocco, who used the momentum from this result to navigate a successful path through the group stage. Following this win, they went on to defeat Haiti and eventually advanced through the knockout rounds, setting up a high-stakes quarterfinal matchup against France."
+        "Morocco's narrow 1-0 win over Scotland proved to be a defining moment in Group C, providing them with the momentum needed to eventually challenge for the top of the table. The result forced Scotland into a difficult position, as they struggled to find their offensive rhythm against a disciplined Moroccan side.",
+        "This victory was instrumental for Morocco, who finished their group stage campaign level on points with Brazil. By taking all three points here, they successfully navigated a competitive group, setting themselves up for a deep run into the knockout stages.",
+        "The implications of this match rippled through the rest of the tournament, as Morocco's successful group campaign propelled them toward a Round of 32 matchup against the Netherlands and beyond."
       ],
       "bullets": [
-        "Morocco finished the group stage with 7 points, tied with Brazil.",
-        "The result helped propel Morocco to a deep tournament run, reaching the quarterfinals.",
-        "Scotland concluded their group campaign with 3 points, following this loss and a defeat to Brazil."
+        "Morocco's victory helped them finish level on 7 points with group winners Brazil.",
+        "The result left Scotland with only 3 points, ultimately eliminating them from contention after the group stage.",
+        "This win served as a springboard for Morocco, who continued their tournament journey into the quarterfinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:18:13+00:00",
-      "sourceHash": "4fbce0462eff61da",
+      "updatedAt": "2026-07-09T20:27:55+00:00",
+      "sourceHash": "5abc4ae8f09f3d78",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -535,21 +535,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "51": {
-      "headline": "Morocco Clinches Group C Spot with 4-2 Win Over Haiti",
-      "summary": "Morocco secured a 4-2 victory over Haiti in their final group match, cementing their place in the knockout stages.",
+      "headline": "Morocco secures victory over Haiti in high-scoring finale",
+      "summary": "Morocco defeated Haiti 4-2 in their final Group C match to solidify their standing in the tournament.",
       "story": [
-        "Morocco finished their group campaign on a high note, putting four goals past Haiti to ensure they advanced from Group C. The result allowed them to finish level on seven points with Brazil, though they ultimately took second place in the group on goal difference.",
-        "For Haiti, the match marked the end of their tournament run. Despite finding the back of the net twice in this contest, they were unable to secure a point in their three group matches, finishing at the bottom of the table.",
-        "Morocco\u2019s performance in this fixture was a continuation of their solid form, having previously kept clean sheets against Scotland and Brazil. This win provided the momentum they needed to carry into the Round of 32, where they continued their journey through the knockout bracket."
+        "Morocco capped off their group stage campaign with a convincing 4-2 win against Haiti. The result allowed Morocco to finish the group phase with 7 points, level with Brazil, though they ultimately placed second in Group C due to goal difference.",
+        "For Haiti, the match marked the conclusion of their tournament run. Despite finding the back of the net twice, they were unable to overcome a potent Moroccan attack that had been building momentum throughout the group stage.",
+        "This victory served as a springboard for Morocco, who carried their form into the knockout rounds. Following this result, they successfully navigated through the Round of 32 against the Netherlands and a Round of 16 clash with Canada to reach the quarterfinals."
       ],
       "bullets": [
-        "Morocco finished second in Group C with seven points, trailing Brazil only on goal difference.",
-        "The 4-2 scoreline represents the highest-scoring match for both teams during the group stage.",
-        "Haiti concluded their tournament with three losses, despite showing offensive life in their final outing."
+        "Morocco finished Group C with 7 points, securing a spot in the knockout stages.",
+        "The 4-2 scoreline represents the highest-scoring match for both teams in the group stage.",
+        "Haiti concluded their campaign with 0 points after three hard-fought matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:17:43+00:00",
-      "sourceHash": "bcc760ed7bfd8e3f",
+      "updatedAt": "2026-07-09T20:27:40+00:00",
+      "sourceHash": "c870385e0eb7ea31",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -736,20 +736,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "61": {
-      "headline": "France Dominates Group I with Convincing Win Over Norway",
-      "summary": "Final: Norway 1, France 4. France secured a 4-1 victory over Norway to maintain their perfect record in Group I.",
+      "headline": "France Dominates Norway to Secure Group I Top Spot",
+      "summary": "Final: Norway 1, France 4. France cruised to a 4-1 victory over Norway to maintain their perfect record in Group I.",
       "story": [
-        "Despite the loss, Norway managed to advance from the group as the runner-up with six points. Their path to this stage included hard-fought wins against Iraq and Senegal, which proved sufficient to secure their spot in the knockout rounds.",
-        "Both nations successfully navigated their way through the tournament bracket following this match. France continued their momentum by defeating Sweden and Paraguay to reach the quarterfinals, while Norway overcame challenges from Ivory Coast and Brazil to set up a quarterfinal date with England."
+        "France demonstrated their dominance in Group I by dismantling Norway 4-1, effectively sealing their position at the top of the table. The victory underscored France's offensive efficiency throughout the group stage, where they finished with a commanding 10 goals scored.",
+        "For Norway, the result served as a reality check after their earlier narrow wins against Iraq and Senegal. Despite the defeat, Norway successfully advanced from the group with 6 points, proving their resilience in a challenging bracket.",
+        "Following this match, both teams transitioned into the knockout stages with momentum. France continued their strong form deep into the tournament, while Norway navigated through high-stakes matches against Ivory Coast and Brazil to earn a spot in the quarterfinals."
       ],
       "bullets": [
-        "France finished the group stage undefeated with a perfect nine points.",
-        "Norway advanced as the group runner-up despite the Matchday 3 defeat.",
-        "France advanced to a quarterfinal matchup against Morocco, while Norway moved on to face England."
+        "France finished the group stage with a perfect 9 points and a +8 goal difference.",
+        "Norway advanced as the group runner-up, securing 6 points from their three matches.",
+        "The 4-1 scoreline marked the highest-scoring match for France in the group phase."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T06:11:00+00:00",
-      "sourceHash": "0377862d32465600",
+      "updatedAt": "2026-07-09T20:27:32+00:00",
+      "sourceHash": "f13e4e3f0d730808",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1117,21 +1118,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "17": {
-      "headline": "France Opens Group I Campaign with Convincing Win over Senegal",
-      "summary": "France secured a strong start to their tournament with a 3-1 victory over Senegal in their opening Group I match.",
+      "headline": "France Opens Group I with Decisive Win Over Senegal",
+      "summary": "France secured a strong start to their campaign with a 3-1 victory over Senegal in their opening Group I match.",
       "story": [
-        "France asserted their dominance early in Group I, utilizing a clinical performance to overcome Senegal 3-1. This result set the tone for a commanding group stage run, as France ultimately finished at the top of the table with a perfect nine points from three matches.",
-        "For Senegal, the defeat forced an immediate uphill battle in the group. Despite the setback, they showed offensive potential throughout their group fixtures, including a dominant 5-0 win over Iraq later in the tournament, though they were eventually eliminated following a narrow 3-2 loss to Belgium in the Round of 32.",
-        "France used this momentum to navigate the knockout stages successfully. After sweeping through the group, they continued their progress by defeating Sweden and Paraguay, ultimately advancing to a quarterfinal showdown against Morocco."
+        "France asserted their dominance early in the group stage, taking all three points against Senegal in a 3-1 result. The win set the tone for a perfect group performance where France finished with nine points and a plus-eight goal difference.",
+        "For Senegal, the opening loss forced them into a difficult path through the rest of the group stage. Despite a commanding 5-0 win over Iraq later in the group, they ultimately finished third with three points and were eliminated in the Round of 32 by Belgium.",
+        "France continued their momentum well beyond this opening fixture, sweeping the group before navigating through the knockout stages. Their path included victories over Sweden and Paraguay, eventually leading them to a quarterfinal matchup against Morocco."
       ],
       "bullets": [
-        "France finished the group stage with a perfect 3-0-0 record and a +8 goal difference.",
-        "Senegal bounced back from this opening loss with a high-scoring 5-0 victory against Iraq.",
-        "France's victory served as the foundation for their eventual path to the tournament quarterfinals."
+        "France finished atop Group I with a perfect 3-0-0 record.",
+        "Senegal concluded their tournament run after a 3-2 defeat to Belgium in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:23:34+00:00",
-      "sourceHash": "50091a42fc5fb9c4",
+      "updatedAt": "2026-07-09T20:28:03+00:00",
+      "sourceHash": "e29391ad34b3c0a4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1318,21 +1318,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "6": {
-      "headline": "Brazil and Morocco share points in Group C opener",
-      "summary": "Brazil and Morocco played to a 1-1 draw in their opening match of the tournament.",
+      "headline": "Brazil and Morocco Split Points in Group C Opener",
+      "summary": "Brazil and Morocco played to a 1-1 draw in their opening Group C match, setting a competitive tone for the group stage.",
       "story": [
-        "The opening match for both sides in Group C ended in a 1-1 stalemate, setting a competitive tone for the rest of the group stage. Neither team could find a decisive edge, resulting in a point apiece that left the group standings wide open early on.",
-        "This result served as the foundation for a tight race in Group C. Both Brazil and Morocco eventually finished the group stage with 7 points each, with Brazil narrowly taking the top spot on goal difference. Their early draw proved to be a significant indicator of how evenly matched these two sides were throughout the initial phase.",
-        "Following this draw, both teams demonstrated resilience as they navigated their respective paths through the knockout rounds. Morocco\u2019s journey eventually led them to a quarterfinal matchup against France, while Brazil\u2019s campaign concluded in the Round of 16."
+        "The opening match between Brazil and Morocco ended in a 1-1 stalemate, a result that signaled early on that Group C would be tightly contested. Both sides showed resilience, sharing the spoils and forcing each team to look toward their subsequent fixtures to secure their standing.",
+        "This draw proved to be a significant moment in the group's trajectory. Both Brazil and Morocco eventually finished level on 7 points after their three group matches, with Brazil taking the top spot on goal difference. The point earned here was essential for both nations as they navigated a group that also included Scotland and Haiti.",
+        "Following this result, both teams embarked on successful campaigns through the group stage and into the knockout rounds. While Brazil eventually saw their tournament run conclude in the Round of 16, Morocco continued their momentum deep into the competition, eventually reaching the quarterfinal stage."
       ],
       "bullets": [
-        "Brazil and Morocco both finished the group stage with identical 7-point records.",
-        "The 1-1 draw was the only match in the group that Brazil did not win.",
-        "Both teams successfully advanced to the knockout stages of the tournament."
+        "The 1-1 draw was the only match in Group C that did not result in a win for either Brazil or Morocco."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:39:26+00:00",
-      "sourceHash": "89d7a21c15307089",
+      "updatedAt": "2026-07-09T20:28:11+00:00",
+      "sourceHash": "2f5ff7de950cc2af",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1498,20 +1496,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "75": {
-      "headline": "Netherlands and Morocco Deadlocked in Round of 32",
-      "summary": "The Netherlands and Morocco played to a 1-1 draw in their Round of 32 encounter.",
+      "headline": "Netherlands and Morocco deadlocked in Round of 32",
+      "summary": "The Netherlands and Morocco played to a 1-1 draw in their Round of 32 knockout match.",
       "story": [
-        "The Round of 32 clash between the Netherlands and Morocco ended in a 1-1 stalemate, forcing both teams to navigate the pressure of a knockout fixture that offered no immediate separation.",
-        "The Netherlands entered this stage as the winners of Group F, having displayed strong form in their group stage campaign with notable wins against Sweden and Tunisia. Morocco arrived as the runners-up from Group C, carrying momentum from a solid group phase that included a resilient draw against Brazil and a victory over Scotland.",
-        "Following this result, Morocco moved forward in the tournament bracket, eventually securing a decisive 3-0 victory over Canada in the Round of 16. This progression set them up for a high-stakes quarterfinal matchup against France."
+        "The Round of 32 clash between the Netherlands and Morocco ended in a 1-1 stalemate, forcing both teams to navigate the high-stakes pressure of a knockout environment. As the winner of Group F and the runner-up of Group C, both sides entered the match with momentum from their respective group stages.",
+        "Following this result, Morocco continued their journey in the tournament, eventually advancing to face Canada in the Round of 16. The match serves as a pivotal moment in the knockout bracket, reflecting the fine margins that define competition at this level."
       ],
       "bullets": [
-        "The match finished 1-1, reflecting the competitive balance between the two sides.",
-        "Morocco successfully advanced through the subsequent Round of 16 after this result."
+        "The match finished 1-1 after regulation, marking a tense stalemate in the Round of 32.",
+        "Morocco successfully moved past this round to eventually compete in the Round of 16 and beyond."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:16:58+00:00",
-      "sourceHash": "cce9ec459252d3fa",
+      "updatedAt": "2026-07-09T20:27:25+00:00",
+      "sourceHash": "32e63f243a90d75d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1537,21 +1534,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "77": {
-      "headline": "France Cruises Past Sweden in Round of 32",
-      "summary": "France secured a dominant 3-0 victory over Sweden to advance to the Round of 16.",
+      "headline": "France Dominates Sweden in Round of 32",
+      "summary": "France secured a convincing 3-0 victory over Sweden to advance to the Round of 16.",
       "story": [
-        "France continued their impressive form in the tournament by comfortably dispatching Sweden 3-0. Entering the knockout stage as the winners of Group I, the French side maintained their clinical efficiency, having already scored 14 goals across their group stage campaign.",
-        "For Sweden, the defeat marked the end of their tournament run. After navigating a challenging group stage that included a high-scoring win against Tunisia and a draw with Japan, they were unable to contain the French attack in this knockout fixture.",
-        "This victory propelled France into the Round of 16, where they subsequently faced and defeated Paraguay. Their path continues into the Quarterfinals, where they are scheduled to meet Morocco."
+        "France continued their impressive form in the tournament by dispatching Sweden with a clean 3-0 scoreline. Coming off a dominant group stage performance where they finished atop Group I, France demonstrated their efficiency and control throughout this knockout match.",
+        "For Sweden, the loss marked the end of their tournament run. Having qualified for the Round of 32 as one of the best third-placed teams, they struggled to contain the French attack that had already proven its potency in previous matches against Senegal, Iraq, and Norway.",
+        "This result propelled France into the next stage, where they were eventually set to meet Paraguay. The win underscored France's status as a formidable contender, maintaining a high standard of play that characterized their entire path through the bracket."
       ],
       "bullets": [
-        "France remained undefeated throughout their group stage and Round of 32 matches.",
-        "The 3-0 result extended France's streak of multi-goal performances in the tournament.",
-        "Sweden exited the competition following this Round of 32 loss."
+        "France maintained their undefeated tournament momentum with a decisive 3-0 shutout.",
+        "The victory moved France into the Round of 16 to face Paraguay."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:22:01+00:00",
-      "sourceHash": "b474237ddb24e151",
+      "updatedAt": "2026-07-09T20:27:17+00:00",
+      "sourceHash": "2287243da2559a96",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1745,44 +1741,43 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "89": {
-      "headline": "Morocco Dominates Canada to Advance to Quarterfinals",
-      "summary": "Final: Canada 0, Morocco 3. Morocco secured a convincing 3-0 victory over Canada in the Round of 16 to move on in the tournament.",
+      "headline": "Morocco Dominates Canada to Secure Quarterfinal Spot",
+      "summary": "Final: Canada 0, Morocco 3. Morocco advanced to the next stage of the tournament with a convincing 3-0 victory over Canada in the Round of 16.",
       "story": [
-        "Morocco delivered a clinical performance to shut out Canada 3-0, effectively ending Canada's tournament run in the Round of 16. The result showcased Morocco's ability to control high-stakes knockout matches after navigating a challenging path through the group stage and their previous round.",
-        "For Canada, the defeat marks the end of a campaign that saw them earn a gritty 1-0 win over South Africa in the Round of 32. Despite a strong showing in group play, including a dominant 6-0 win against Qatar, they were unable to find an answer for the Moroccan attack.",
-        "With this win, Morocco moves forward to the Quarterfinals where they are scheduled to face France on July 9. Having already navigated tough tests against Brazil and the Netherlands earlier in the tournament, Morocco enters the next round with significant momentum."
+        "Morocco delivered a clinical performance to shut down Canada, securing a 3-0 win that leaves no doubt about their form in the knockout stages. After a challenging path that included a draw against the Netherlands in the Round of 32, Morocco found their rhythm and controlled the tempo throughout this encounter.",
+        "For Canada, the result marks the end of a resilient tournament run. After scraping past South Africa in the previous round, they struggled to contain the Moroccan attack, which proved too organized and efficient on the day.",
+        "With this victory, Morocco moves forward to face France in the Quarterfinals. This upcoming test will be a significant step up in competition, as they look to build on the momentum generated by this clean-sheet performance."
       ],
       "bullets": [
-        "Morocco kept a clean sheet while scoring three goals to secure a dominant knockout win.",
-        "Canada exits the tournament after a successful run that included a Round of 32 victory.",
-        "Morocco advances to a Quarterfinal matchup against France."
+        "Morocco kept a clean sheet while scoring three goals to comfortably eliminate Canada.",
+        "The victory earns Morocco a high-stakes Quarterfinal matchup against France."
       ],
       "sections": [],
-      "updatedAt": "2026-07-09T11:22:04+00:00",
-      "sourceHash": "f3b85e008ef53d10",
+      "updatedAt": "2026-07-09T20:27:10+00:00",
+      "sourceHash": "c0ae4ddecfcdc893",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "90": {
-      "headline": "France Edges Past Paraguay to Secure Quarterfinal Spot",
-      "summary": "Final: Paraguay 0, France 1. France advanced to the next round of the tournament with a narrow 1-0 victory over Paraguay.",
+      "headline": "France Advances After Narrow Victory Over Paraguay",
+      "summary": "Final: Paraguay 0, France 1. France secured a 1-0 win over Paraguay in the Round of 16 to move forward in the tournament.",
       "story": [
-        "France continued their strong form in the knockout stages, narrowly defeating Paraguay 1-0 to secure their place in the quarterfinals. The result brings an end to Paraguay's resilient run, which included a hard-fought Round of 32 match against Germany.",
-        "For France, the victory maintains their momentum following a dominant 3-0 win over Sweden in the previous round. Having navigated the group stage and the Round of 32 successfully, they have proven to be a formidable force throughout the tournament.",
-        "With this result, France now looks ahead to a quarterfinal matchup against Morocco. Paraguay exits the competition after a campaign that saw them battle through a challenging group and a tight knockout fixture."
+        "France continued their strong run in the tournament with a hard-fought 1-0 victory against Paraguay. The result proved decisive in the Round of 16, ending Paraguay's campaign after they had navigated a challenging path through the group stage and a tight Round of 32 matchup against Germany.",
+        "For France, the win reinforces their status as a formidable contender. Having dominated their group and dispatched Sweden in the previous round, they maintained their composure to break down a resilient Paraguayan side that had proven difficult to beat throughout the competition.",
+        "With this victory, France moves on to the Quarterfinals. They are set to face Morocco, who also emerged from their own bracket, as the tournament intensity shifts toward the final stages."
       ],
       "bullets": [
-        "France secured a 1-0 win to eliminate Paraguay from the tournament.",
-        "France is set to face Morocco in the upcoming quarterfinal match.",
-        "Paraguay concludes their tournament run after a series of competitive matches in the group and knockout stages."
+        "France extended their tournament winning streak with this 1-0 result.",
+        "Paraguay exits the competition following a resilient defensive effort.",
+        "France now advances to a Quarterfinal matchup against Morocco."
       ],
       "sections": [],
-      "updatedAt": "2026-07-09T07:57:26+00:00",
-      "sourceHash": "a15428dca3c47a5b",
+      "updatedAt": "2026-07-09T20:27:02+00:00",
+      "sourceHash": "83ed7bb6847ba07c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "91": {
       "headline": "Norway Advances to Quarterfinals After Upsetting Brazil",
@@ -1901,6 +1896,27 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
+    },
+    "97": {
+      "headline": "France and Morocco Deadlocked in Quarterfinal Stalemate",
+      "summary": "France and Morocco played to a 0-0 draw in their Quarterfinal matchup.",
+      "story": [
+        "The Quarterfinal clash between France and Morocco ended in a scoreless stalemate, leaving both sides to battle through a tense defensive encounter. Neither team could find the breakthrough needed to break the deadlock during regulation time.",
+        "France arrived at this stage following a string of impressive performances, including a narrow 1-0 victory over Paraguay in the Round of 16. Their path through the tournament had been defined by high-scoring group stage wins against Senegal, Iraq, and Norway before tightening up in the knockout rounds.",
+        "Morocco entered this match with significant momentum after a dominant 3-0 win against Canada in the previous round. Having navigated a challenging group that included Brazil and the Netherlands, their defensive resilience was on full display once again against the French attack.",
+        "With the match finishing level, both teams now face the uncertainty of what comes next as they look to advance further in the tournament bracket."
+      ],
+      "bullets": [
+        "The match concluded with a 0-0 scoreline, forcing a deadlock in the Quarterfinals.",
+        "France maintained their defensive consistency, having conceded very few goals throughout their tournament run.",
+        "Morocco continued their strong form, building on their Round of 16 victory over Canada."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-09T20:28:18+00:00",
+      "sourceHash": "77feb7e6801a82ff",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

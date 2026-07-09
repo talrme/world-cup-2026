@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07",
+  "generatedAt": "2026-07-09",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -3191,7 +3191,7 @@
       "time": "16:00",
       "home": "France",
       "away": "Morocco",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "boston",
       "offset": "-04:00",
@@ -3202,7 +3202,9 @@
       "bracketHomeTeam": "Morocco",
       "bracketAwayTeam": "France",
       "homeRevealSource": "Winner Match 90",
-      "awayRevealSource": "Winner Match 89"
+      "awayRevealSource": "Winner Match 89",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 98,
@@ -3492,6 +3494,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-07T23:32:43+00:00",
+  "bracketUpdatedAt": "2026-07-09T20:26:59+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
