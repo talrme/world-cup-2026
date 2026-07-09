@@ -3204,7 +3204,21 @@ window.WORLD_CUP_DATA = {
       "homeRevealSource": "Winner Match 90",
       "awayRevealSource": "Winner Match 89",
       "homeScore": 2,
-      "awayScore": 0
+      "awayScore": 0,
+      "videos": {
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-09T23:34:19+00:00",
+          "title": "France vs Morocco Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Quarterfinals",
+          "url": "https://www.youtube.com/watch?v=J_1iFnRsHG0",
+          "channel": "FOX Sports",
+          "durationText": "14 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-09T23:34:19+00:00"
+      }
     },
     {
       "id": 98,
