@@ -1,5 +1,5 @@
 window.WORLD_CUP_MATCH_ODDS = {
-  "generatedAt": "2026-07-10T02:20:27+00:00",
+  "generatedAt": "2026-07-10T08:44:49+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -12,31 +12,31 @@ window.WORLD_CUP_MATCH_ODDS = {
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760511/",
-      "asOf": "2026-07-10T02:20:27+00:00",
+      "asOf": "2026-07-10T08:44:49+00:00",
       "espnEventId": "760511",
       "outcomes": [
         {
           "key": "home",
           "label": "Spain",
-          "american": -155,
-          "rawProbability": 0.6078431372549019,
-          "advanceProbability": 0.7614035087719299
+          "american": -160,
+          "rawProbability": 0.6153846153846154,
+          "advanceProbability": 0.7719298245614035
         },
         {
           "key": "away",
           "label": "Belgium",
-          "american": 425,
-          "rawProbability": 0.19047619047619047,
-          "advanceProbability": 0.23859649122807017
+          "american": 450,
+          "rawProbability": 0.18181818181818182,
+          "advanceProbability": 0.22807017543859648
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 290,
-        "rawProbability": 0.2564102564102564
+        "american": 295,
+        "rawProbability": 0.25316455696202533
       },
-      "rawTeamTotal": 0.7983193277310924,
-      "rawMarketTotal": 1.0547295841413487
+      "rawTeamTotal": 0.7972027972027973,
+      "rawMarketTotal": 1.0503673541648226
     },
     "99": {
       "market": "Chance to advance",
