@@ -1198,62 +1198,84 @@
   }
 
   function oddsProbabilities(odds) {
-    const outcomes = Array.isArray(odds?.outcomes) ? odds.outcomes : [];
-    const raw = outcomes
+    const allOutcomes = Array.isArray(odds?.outcomes) ? odds.outcomes : [];
+    const drawSource = odds?.draw || allOutcomes.find((outcome) => outcome.key === "draw") || null;
+    const raw = allOutcomes
+      .filter((outcome) => outcome.key !== "draw")
       .map((outcome) => ({
         ...outcome,
-        rawProbability: americanToRawImpliedProbability(outcome.american),
+        rawProbability: Number.isFinite(Number(outcome.rawProbability))
+          ? Number(outcome.rawProbability)
+          : americanToRawImpliedProbability(outcome.american),
       }))
       .filter((outcome) => outcome.label && Number.isFinite(outcome.rawProbability));
-    const overround = raw.reduce((sum, outcome) => sum + outcome.rawProbability, 0);
-    if (!raw.length || !overround) return null;
+    const teamRawTotal = Number.isFinite(Number(odds?.rawTeamTotal))
+      ? Number(odds.rawTeamTotal)
+      : raw.reduce((sum, outcome) => sum + outcome.rawProbability, 0);
+    const draw = drawSource
+      ? {
+          ...drawSource,
+          rawProbability: Number.isFinite(Number(drawSource.rawProbability))
+            ? Number(drawSource.rawProbability)
+            : americanToRawImpliedProbability(drawSource.american),
+        }
+      : null;
+    const rawMarketTotal = Number.isFinite(Number(odds?.rawMarketTotal))
+      ? Number(odds.rawMarketTotal)
+      : teamRawTotal + (Number.isFinite(draw?.rawProbability) ? draw.rawProbability : 0);
+    if (!raw.length || !teamRawTotal) return null;
     return {
-      overround,
-      vig: Math.max(0, overround - 1),
+      teamRawTotal,
+      rawMarketTotal,
+      draw,
       outcomes: raw.map((outcome) => ({
         ...outcome,
-        fairProbability: outcome.rawProbability / overround,
+        advanceProbability: Number.isFinite(Number(outcome.advanceProbability))
+          ? Number(outcome.advanceProbability)
+          : outcome.rawProbability / teamRawTotal,
       })),
     };
   }
 
   function renderOddsProbability(match) {
     if (matchHasHiddenDependentTeam(match)) return "";
+    if (hasScore(match) || matchState(match) === "completed") return "";
+    if (!isRealTeam(match.home) || !isRealTeam(match.away)) return "";
 
     const odds = oddsForMatch(match);
     const probabilities = oddsProbabilities(odds);
     if (!odds || !probabilities) return "";
 
-    const teamOutcomes = probabilities.outcomes.filter((outcome) => outcome.key !== "draw");
-    const drawOutcome = probabilities.outcomes.find((outcome) => outcome.key === "draw");
-    const favorite = [...teamOutcomes].sort((a, b) => b.fairProbability - a.fairProbability)[0];
-    const sourceLabel = odds.sourceLabel || odds.book || matchOddsData.source?.label || "Odds source";
+    const teamOutcomes = probabilities.outcomes;
+    const sourceLabel = odds.sourceLabel || matchOddsData.source?.label || "Odds source";
     const sourceUrl = odds.sourceUrl || matchOddsData.source?.url || "";
     const sourceMarkup = sourceUrl
       ? `<a href="${escapeHtml(sourceUrl)}" rel="noreferrer" target="_blank">${escapeHtml(sourceLabel)}</a>`
       : escapeHtml(sourceLabel);
-    const asOf = odds.asOf ? formatDataTimestamp(odds.asOf) : "";
-    const mathRows = probabilities.outcomes
+    const mathRows = [
+      ...probabilities.outcomes.map((outcome) => ({ ...outcome, calculationLabel: percentLabel(outcome.advanceProbability, 1) })),
+      ...(probabilities.draw && Number.isFinite(probabilities.draw.rawProbability)
+        ? [{ ...probabilities.draw, calculationLabel: "--" }]
+        : []),
+    ]
       .map(
         (outcome) => `
           <tr>
             <th scope="row">${escapeHtml(outcome.label)}</th>
             <td>${escapeHtml(americanOddsLabel(outcome.american))}</td>
             <td>${escapeHtml(percentLabel(outcome.rawProbability, 1))}</td>
-            <td>${escapeHtml(percentLabel(outcome.fairProbability, 1))}</td>
+            <td>${escapeHtml(outcome.calculationLabel)}</td>
           </tr>
         `,
       )
       .join("");
 
     return `
-      <section class="odds-card" aria-label="Betting odds implied probabilities">
+      <section class="odds-card" aria-label="Winning chances">
         <div class="odds-card-header">
           <span>
-            <b>Win chance</b>
-            <small>${escapeHtml(odds.market || "Moneyline")}</small>
+            <b>Winning Chances</b>
           </span>
-          ${favorite ? `<strong>${escapeHtml(favorite.label)} ${escapeHtml(percentLabel(favorite.fairProbability))}</strong>` : ""}
         </div>
         <div class="odds-probabilities">
           ${teamOutcomes
@@ -1261,35 +1283,25 @@
               (outcome) => `
                 <span class="odds-probability">
                   <em>${escapeHtml(outcome.label)}</em>
-                  <b>${escapeHtml(percentLabel(outcome.fairProbability))}</b>
+                  ${
+                    sourceUrl
+                      ? `<a href="${escapeHtml(sourceUrl)}" rel="noreferrer" target="_blank">${escapeHtml(percentLabel(outcome.advanceProbability))}</a>`
+                      : `<b>${escapeHtml(percentLabel(outcome.advanceProbability))}</b>`
+                  }
                 </span>
               `,
             )
             .join("")}
-          ${
-            drawOutcome
-              ? `<span class="odds-probability odds-probability-draw"><em>Draw</em><b>${escapeHtml(percentLabel(drawOutcome.fairProbability))}</b></span>`
-              : ""
-          }
         </div>
         <details class="odds-math">
           <summary>Show math</summary>
-          <p>
-            American odds become raw implied probabilities, then each raw probability is divided by the total market probability to remove the sportsbook margin.
-          </p>
-          <div class="odds-math-grid">
-            <span>Raw market total</span>
-            <b>${escapeHtml(percentLabel(probabilities.overround, 1))}</b>
-            <span>Estimated margin</span>
-            <b>${escapeHtml(percentLabel(probabilities.vig, 1))}</b>
-          </div>
           <table>
             <thead>
-              <tr><th>Outcome</th><th>Odds</th><th>Raw</th><th>No-vig</th></tr>
+              <tr><th>Outcome</th><th>Odds</th><th>Raw</th><th>Advance calc</th></tr>
             </thead>
             <tbody>${mathRows}</tbody>
           </table>
-          <p class="odds-source">${sourceMarkup}${asOf ? ` as of ${escapeHtml(asOf)}` : ""}. POC only, not betting advice.</p>
+          <p class="odds-source">${sourceMarkup}</p>
         </details>
       </section>
     `;

@@ -1,46 +1,106 @@
 {
-  "generatedAt": "2026-06-26T12:00:00-07:00",
+  "generatedAt": "2026-07-10T02:20:27+00:00",
   "source": {
-    "label": "Manual POC odds",
-    "url": "",
-    "note": "Static proof-of-concept data copied from published betting previews. Replace with a real odds feed for automatic refreshes."
+    "label": "ESPN odds",
+    "url": "https://www.espn.com/soccer/",
+    "note": "Chance to advance is derived from ESPN-listed team moneylines. It is an estimate, not betting advice."
   },
   "matches": {
-    "56": {
-      "market": "90-minute result",
-      "book": "Published article line",
-      "sourceLabel": "Bavarian Football Works",
-      "sourceUrl": "https://www.bavarianfootballworks.com/fifa-world-cup/220374/ecuador-vs-germany-match-discussion-game-time-thread-odds-prediction-how-to-watch",
-      "asOf": "2026-06-25T16:00:00-04:00",
+    "98": {
+      "market": "Chance to advance",
+      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
+      "book": "DraftKings",
+      "sourceLabel": "ESPN",
+      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760511/",
+      "asOf": "2026-07-10T02:20:27+00:00",
+      "espnEventId": "760511",
       "outcomes": [
-        { "key": "home", "label": "Ecuador", "american": 260 },
-        { "key": "draw", "label": "Draw", "american": 310 },
-        { "key": "away", "label": "Germany", "american": -110 }
-      ]
+        {
+          "key": "home",
+          "label": "Spain",
+          "american": -155,
+          "rawProbability": 0.6078431372549019,
+          "advanceProbability": 0.7614035087719299
+        },
+        {
+          "key": "away",
+          "label": "Belgium",
+          "american": 425,
+          "rawProbability": 0.19047619047619047,
+          "advanceProbability": 0.23859649122807017
+        }
+      ],
+      "draw": {
+        "label": "Draw after 90 minutes",
+        "american": 290,
+        "rawProbability": 0.2564102564102564
+      },
+      "rawTeamTotal": 0.7983193277310924,
+      "rawMarketTotal": 1.0547295841413487
     },
-    "61": {
-      "market": "90-minute result",
-      "book": "Published article line",
-      "sourceLabel": "New York Post",
-      "sourceUrl": "https://nypost.com/2026/06/26/betting/france-vs-norway-prediction-2026-world-cup-picks-odds-bets/",
-      "asOf": "2026-06-26T15:00:00-04:00",
+    "99": {
+      "market": "Chance to advance",
+      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
+      "book": "DraftKings",
+      "sourceLabel": "ESPN",
+      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760512/",
+      "asOf": "2026-07-10T02:20:27+00:00",
+      "espnEventId": "760512",
       "outcomes": [
-        { "key": "home", "label": "Norway", "american": 310 },
-        { "key": "draw", "label": "Draw", "american": 410 },
-        { "key": "away", "label": "France", "american": -160 }
-      ]
+        {
+          "key": "home",
+          "label": "Norway",
+          "american": 310,
+          "rawProbability": 0.24390243902439024,
+          "advanceProbability": 0.31318281136198106
+        },
+        {
+          "key": "away",
+          "label": "England",
+          "american": -115,
+          "rawProbability": 0.5348837209302325,
+          "advanceProbability": 0.6868171886380189
+        }
+      ],
+      "draw": {
+        "label": "Draw after 90 minutes",
+        "american": 270,
+        "rawProbability": 0.2702702702702703
+      },
+      "rawTeamTotal": 0.7787861599546227,
+      "rawMarketTotal": 1.049056430224893
     },
-    "66": {
-      "market": "90-minute result",
-      "book": "Published article line",
-      "sourceLabel": "New York Post",
-      "sourceUrl": "https://nypost.com/2026/06/26/betting/iran-vs-egypt-world-cup-prediction-preview-odds-picks-best-bet/",
-      "asOf": "2026-06-26T23:00:00-04:00",
+    "100": {
+      "market": "Chance to advance",
+      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
+      "book": "DraftKings",
+      "sourceLabel": "ESPN",
+      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760513/",
+      "asOf": "2026-07-10T02:20:27+00:00",
+      "espnEventId": "760513",
       "outcomes": [
-        { "key": "home", "label": "Egypt", "american": 145 },
-        { "key": "draw", "label": "Draw", "american": 160 },
-        { "key": "away", "label": "Iran", "american": 280 }
-      ]
+        {
+          "key": "home",
+          "label": "Argentina",
+          "american": -145,
+          "rawProbability": 0.5918367346938775,
+          "advanceProbability": 0.764988009592326
+        },
+        {
+          "key": "away",
+          "label": "Switzerland",
+          "american": 450,
+          "rawProbability": 0.18181818181818182,
+          "advanceProbability": 0.23501199040767384
+        }
+      ],
+      "draw": {
+        "label": "Draw after 90 minutes",
+        "american": 255,
+        "rawProbability": 0.28169014084507044
+      },
+      "rawTeamTotal": 0.7736549165120594,
+      "rawMarketTotal": 1.05534505735713
     }
   }
 }

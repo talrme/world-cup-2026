@@ -99,6 +99,10 @@ def main() -> int:
     if player_stats_status != 0:
         return player_stats_status
 
+    odds_status = run([sys.executable, "scripts/update_odds.py"])
+    if odds_status != 0:
+        return odds_status
+
     video_command = [sys.executable, "scripts/update_highlights.py"]
     if args.all_videos:
         video_command.append("--all")

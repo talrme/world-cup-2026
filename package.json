@@ -12,6 +12,7 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "refresh:schedule": "python3 scripts/update_schedule.py",
     "refresh:players": "python3 scripts/update_player_stats.py",
+    "refresh:odds": "python3 scripts/update_odds.py",
     "refresh:ai": "python3 scripts/update_ai_insights.py",
     "refresh:ai:dry": "python3 scripts/update_ai_insights.py --dry-run",
     "refresh:ai:previews": "python3 scripts/update_ai_insights.py --mode seed --match-content previews --max-groups 0 --max-players 0 --sleep 10",

@@ -158,12 +158,12 @@ jobs:
             echo
             echo "### Changed files"
             echo '```text'
-            git status --short -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js
+            git status --short -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/match-odds.json match-odds.js data/ai-insights.json ai-insights.js
             echo '```'
             echo
             echo "### Diff summary"
             echo '```text'
-            git diff --stat -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js || true
+            git diff --stat -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/match-odds.json match-odds.js data/ai-insights.json ai-insights.js || true
             echo '```'
           } | tee refresh-output/summary.md >> "$GITHUB_STEP_SUMMARY"
 
@@ -173,7 +173,7 @@ jobs:
         run: |
           mkdir -p refresh-output
 
-          if git diff --quiet -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js; then
+          if git diff --quiet -- data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/match-odds.json match-odds.js data/ai-insights.json ai-insights.js; then
             echo "No data changes to commit."
             echo "No commit: data files did not change" > refresh-output/commit-label.txt
             exit 0
@@ -181,7 +181,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/ai-insights.json ai-insights.js
+          git add data/world-cup-2026.json schedule-data.js data/player-stats.json player-stats.js data/match-odds.json match-odds.js data/ai-insights.json ai-insights.js
           git commit -m "Refresh World Cup data"
           commit_sha=$(git rev-parse --short HEAD)
           echo "Committed refreshed data: $commit_sha" > refresh-output/commit-label.txt

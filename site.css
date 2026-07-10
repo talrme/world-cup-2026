@@ -231,9 +231,9 @@ h1 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
-  grid-template-columns: minmax(360px, 1fr) auto minmax(220px, 0.42fr) auto auto auto;
   margin-top: 18px;
   padding: 10px;
   position: relative;
@@ -241,7 +241,7 @@ h1 {
 }
 
 .app-shell[data-view="timeline"] .control-deck {
-  grid-template-columns: minmax(360px, 1fr) auto auto minmax(220px, 0.42fr) auto auto auto;
+  gap: 16px;
 }
 
 .mobile-nav-row,
@@ -365,8 +365,10 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 8px;
   display: grid;
+  flex: 1 1 520px;
   gap: 6px;
   grid-template-columns: repeat(5, minmax(0, 1fr));
+  min-width: min(100%, 340px);
   padding: 6px;
 }
 
@@ -406,6 +408,7 @@ h1 {
 .spoiler-control {
   background: var(--accent-3);
   color: var(--ink);
+  flex: 0 0 auto;
   min-width: 146px;
 }
 
@@ -503,8 +506,10 @@ h1 {
 
 .filters {
   display: grid;
+  flex: 1 1 230px;
   gap: 10px;
   grid-template-columns: 1fr;
+  max-width: 360px;
   min-width: 0;
 }
 
@@ -1340,15 +1345,18 @@ h1 {
   white-space: nowrap;
 }
 
-.odds-probability b {
+.odds-probability b,
+.odds-probability a {
   color: #102016;
   font-size: 1.25rem;
   font-weight: 950;
   line-height: 1;
 }
 
-.odds-probability-draw {
-  opacity: 0.78;
+.odds-probability a {
+  text-decoration-color: rgba(19, 130, 80, 0.36);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
 }
 
 .odds-math {
@@ -2218,15 +2226,15 @@ h1 {
   color: var(--fg);
   cursor: pointer;
   display: grid;
-  gap: 9px;
-  min-height: 94px;
-  padding: 10px;
+  gap: 10px;
+  min-height: 108px;
+  padding: 12px;
   position: relative;
   transition: border-color 180ms ease, transform 180ms ease, background 180ms ease;
 }
 
 .bracket-match.is-r32 {
-  min-height: 86px;
+  min-height: 104px;
 }
 
 .bracket-match:hover,
@@ -2316,18 +2324,21 @@ h1 {
 
 .bracket-team-list {
   display: grid;
-  gap: 7px;
+  gap: 8px;
 }
 
 .bracket-match-actions {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-top: auto;
   min-width: 0;
+  padding-top: 2px;
 }
 
 .bracket-match-actions .tile-video-links {
-  gap: 5px;
+  gap: 4px;
+  row-gap: 4px;
 }
 
 .bracket-video-links .video-link-label,
@@ -2337,9 +2348,25 @@ h1 {
 
 .bracket-match-actions .tile-video-link,
 .bracket-match-actions .tile-insights-button {
-  min-height: 24px;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  font-size: 0.7rem;
+  min-height: 22px;
+  padding: 2px 7px 2px 4px;
+}
+
+.bracket-match-actions .tile-video-link .yt-mark {
+  height: 12px;
+  width: 18px;
+}
+
+.bracket-match-actions .tile-video-link .yt-mark::before {
+  border-bottom-width: 3px;
+  border-left-width: 5px;
+  border-top-width: 3px;
+}
+
+.bracket-match-actions .insights-mark {
+  height: 15px;
+  width: 15px;
 }
 
 .bracket-team-row {
@@ -2733,22 +2760,22 @@ button.bracket-score-cell {
 }
 
 .bracket-board-linear.is-start-r32 {
-  --bracket-row-height: 126px;
+  --bracket-row-height: 138px;
   --bracket-stack-height: 2160px;
 }
 
 .bracket-board-linear.is-start-r16 {
-  --bracket-row-height: 118px;
+  --bracket-row-height: 134px;
   --bracket-stack-height: 1000px;
 }
 
 .bracket-board-linear.is-start-qf {
-  --bracket-row-height: 112px;
+  --bracket-row-height: 142px;
   --bracket-stack-height: 500px;
 }
 
 .bracket-board-linear.is-start-sf {
-  --bracket-row-height: 112px;
+  --bracket-row-height: 126px;
   --bracket-stack-height: 260px;
 }
 
@@ -2885,22 +2912,22 @@ button.bracket-score-cell {
   }
 
   .bracket-board-linear.is-start-r32 {
-    --bracket-row-height: 116px;
+    --bracket-row-height: 132px;
     --bracket-stack-height: 2010px;
   }
 
   .bracket-board-linear.is-start-r16 {
-    --bracket-row-height: 112px;
+    --bracket-row-height: 128px;
     --bracket-stack-height: 970px;
   }
 
   .bracket-board-linear.is-start-qf {
-    --bracket-row-height: 108px;
+    --bracket-row-height: 132px;
     --bracket-stack-height: 470px;
   }
 
   .bracket-board-linear.is-start-sf {
-    --bracket-row-height: 108px;
+    --bracket-row-height: 120px;
     --bracket-stack-height: 240px;
   }
 
