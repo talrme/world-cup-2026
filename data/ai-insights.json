@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T01:13:48+00:00",
+  "generatedAt": "2026-07-10T02:07:21+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1439,24 +1439,24 @@
       "refreshReason": "source or prompt changed"
     },
     "74": {
-      "headline": "Germany and Paraguay Deadlocked in Round of 32",
-      "summary": "Germany and Paraguay played to a 1-1 draw in their Round of 32 knockout matchup.",
+      "headline": "Paraguay Stuns Germany in Penalty Shootout",
+      "summary": "Paraguay advanced to the Round of 16 after defeating Germany 1-1 (4-3 on penalties) in a tense Round of 32 knockout match.",
       "story": [
-        "Germany entered this Round of 32 fixture as the winners of Group E, looking to assert their dominance after a mixed group stage performance that included a high-scoring win over Curacao and a narrow loss to Ecuador.",
-        "Paraguay arrived as one of the best third-place finishers, having navigated a challenging group that saw them bounce back from an opening defeat to the United States with a win over Turkey and a gritty draw against Australia.",
-        "Following this match, the path forward for the participants was clearly defined, as the winner of this fixture was set to move on to a challenging Round of 16 encounter against France."
+        "In a dramatic Round of 32 clash, Paraguay pulled off a major upset by knocking out Germany. After the two sides remained deadlocked at 1-1 through regulation and extra time, the match was decided from the penalty spot.",
+        "Paraguay held their nerve under pressure, converting four of their spot-kicks to secure a 4-3 victory in the shootout. The result marks a significant achievement for the side, who navigated a difficult path to reach the knockout stages.",
+        "Paraguay\u2019s victory earned them a spot in the Round of 16, where they subsequently faced France. This match remains a standout moment for their tournament campaign, proving their defensive resilience against top-tier opposition."
       ],
       "bullets": [
-        "Germany advanced to the knockout stage after topping Group E.",
-        "Paraguay qualified for the Round of 32 as one of the tournament's best third-place teams.",
-        "The winner of this match was bracketed to face France in the Round of 16."
+        "Paraguay secured the win with a 4-3 penalty shootout score after a 1-1 draw.",
+        "Germany was eliminated from the tournament despite winning Group E earlier in the competition.",
+        "The victory propelled Paraguay into a Round of 16 matchup against France."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:22:16+00:00",
-      "sourceHash": "0adf6f97f725e07c",
+      "updatedAt": "2026-07-10T02:07:21+00:00",
+      "sourceHash": "63494595681b9ba8",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "76": {
       "headline": "Brazil Edges Past Japan in Round of 32",
@@ -1499,23 +1499,23 @@
       "refreshReason": "source or prompt changed"
     },
     "75": {
-      "headline": "Netherlands and Morocco Deadlocked in Round of 32",
-      "summary": "The Netherlands and Morocco played to a 1-1 draw in their Round of 32 knockout match.",
+      "headline": "Morocco Edges Netherlands in Penalty Shootout Thriller",
+      "summary": "Morocco advanced to the Round of 16 after defeating the Netherlands 3-2 on penalties following a 1-1 draw in regulation.",
       "story": [
-        "The Round of 32 clash between the Netherlands and Morocco ended in a 1-1 stalemate, forcing both teams to navigate the high-pressure environment of knockout football. Both sides entered the match with strong momentum from their respective group stages, but neither could find the decisive goal to secure a victory in regulation.",
-        "The Netherlands reached this stage as the winners of Group F, where they demonstrated significant offensive capability, including a 5-1 victory over Sweden and a 3-1 win against Tunisia. Their path through the group was defined by high-scoring affairs, making the tight defensive battle against Morocco a notable shift in their tournament narrative.",
-        "Morocco arrived at this fixture as the runners-up from Group C, having navigated a challenging group that included a 1-1 draw with Brazil and a 4-0 win over Haiti. Their resilience throughout the group stage set the tone for this competitive encounter, which ultimately required further resolution beyond the initial 90 minutes."
+        "The Round of 32 clash between the Netherlands and Morocco proved to be an intense defensive battle that required a penalty shootout to decide a winner. Both sides remained locked at 1-1 through the end of regulation, forcing the match into the high-pressure environment of spot-kicks.",
+        "Morocco demonstrated composure under pressure, converting three of their attempts to secure a 3-2 victory in the shootout. This result halted the Netherlands' tournament run, as the Dutch were unable to find the decisive edge despite their strong performance throughout the group stage.",
+        "For Morocco, this win served as a springboard for their knockout stage momentum. Following this victory, they went on to defeat Canada in the Round of 16 before eventually concluding their tournament campaign in the quarterfinals against France."
       ],
       "bullets": [
-        "The match concluded with a 1-1 scoreline, reflecting the competitive balance between the two sides.",
-        "The Netherlands entered the knockout stage after topping Group F with an undefeated record."
+        "Morocco prevailed 3-2 in the penalty shootout after a 1-1 deadlock.",
+        "The victory propelled Morocco into a Round of 16 matchup against Canada."
       ],
       "sections": [],
-      "updatedAt": "2026-07-09T23:35:30+00:00",
-      "sourceHash": "806acd58ed43a083",
+      "updatedAt": "2026-07-10T02:07:13+00:00",
+      "sourceHash": "89f216699bf0374b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "78": {
       "headline": "Norway Advances Past Ivory Coast in Round of 32",
@@ -1687,23 +1687,24 @@
       "refreshReason": "source or prompt changed"
     },
     "88": {
-      "headline": "Australia and Egypt deadlock in Round of 32",
-      "summary": "Australia and Egypt played to a 1-1 draw in their Round of 32 knockout encounter.",
+      "headline": "Egypt Advances Past Australia in Penalty Shootout Thriller",
+      "summary": "Egypt secured a spot in the Round of 16 after playing to a 1-1 draw with Australia and winning the subsequent penalty shootout 4-2.",
       "story": [
-        "The Round of 32 clash between Australia and Egypt proved to be a tightly contested affair, ending in a 1-1 stalemate. Both sides entered the knockout stage after navigating their respective group campaigns as runners-up, and the parity between the two teams was evident throughout the match.",
-        "Australia arrived at this stage following a mixed group performance that included a victory over Turkey, a loss to the United States, and a scoreless draw against Paraguay. Their defensive resilience remained a key theme, a trait they carried into this knockout fixture.",
-        "While the match concluded in a draw, the tournament path for Egypt continued shortly after, as they moved on to face Argentina in the Round of 16."
+        "The Round of 32 clash between Australia and Egypt proved to be a grueling test of nerves, ending 1-1 after regulation and extra time. Both sides struggled to find a decisive breakthrough during the match, leading to the high-stakes penalty shootout.",
+        "In the shootout, Egypt demonstrated superior composure from the spot, converting four of their attempts to Australia's two. This victory allowed Egypt to progress deeper into the tournament bracket, ending Australia's campaign in the knockout stage.",
+        "For Egypt, the result was a hard-fought reward for their resilience throughout the tournament. Having navigated a challenging group stage that included draws against Belgium and Iran, they proved once again that they could remain competitive under immense pressure."
       ],
       "bullets": [
-        "The match finished 1-1, reflecting the competitive nature of the Round of 32 bracket.",
-        "Both teams qualified for this knockout round by finishing as runners-up in their respective groups."
+        "Egypt triumphed 4-2 on penalties after the match finished 1-1.",
+        "The victory propelled Egypt into a Round of 16 matchup against Argentina.",
+        "Australia's tournament run concluded following the shootout defeat."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T19:26:29+00:00",
-      "sourceHash": "333ea10653532e9d",
+      "updatedAt": "2026-07-10T02:07:06+00:00",
+      "sourceHash": "0dd0a733ed03c5c4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "manual match recap target"
     },
     "86": {
       "headline": "Argentina Survives Cabo Verde Scare in Round of 32",
@@ -1881,20 +1882,24 @@
       "refreshReason": "past 5 days"
     },
     "96": {
-      "headline": "Switzerland and Colombia Battle to Stalemate in Round of 16",
-      "summary": "Switzerland and Colombia played to a 0-0 draw in their Round of 16 knockout match.",
+      "headline": "Switzerland Advance Past Colombia in Penalty Shootout",
+      "summary": "Switzerland secured a spot in the quarterfinals after playing to a 0-0 draw against Colombia and winning the penalty shootout 4-3.",
       "story": [
-        "Switzerland and Colombia faced off in a tense defensive struggle that ended in a scoreless draw. With neither side able to break the deadlock during regulation, the match required a decisive outcome to determine who would advance in the tournament bracket.",
-        "Switzerland entered the knockout stage after a strong run through Group B, including a 2-0 victory over Algeria in the previous round. Colombia arrived with a solid defensive record, having navigated their group and a narrow 1-0 win against Ghana to reach this stage.",
-        "Following this result, Switzerland now shifts their focus to a high-stakes Quarterfinal matchup against Argentina. The path forward remains demanding as they look to build on their tournament performance thus far."
+        "Switzerland survived a tense defensive battle in their Round of 16 clash, ultimately prevailing over Colombia from the penalty spot. With neither side able to break the deadlock during regulation or extra time, the match was decided by a 4-3 shootout victory for the Swiss.",
+        "The result brings an end to Colombia's tournament run, while Switzerland maintains their momentum after a strong showing in Group B and a Round of 32 win over Algeria. The Swiss have proven difficult to break down throughout the competition, and this result further cements their resilience in high-pressure knockout scenarios.",
+        "Looking ahead, Switzerland faces a significant challenge in the quarterfinals. They are set to take on Argentina, who advanced as winners of their own bracket, in what promises to be a demanding test for the Swiss squad."
       ],
-      "bullets": [],
+      "bullets": [
+        "Switzerland won the penalty shootout 4-3 after 120 minutes of scoreless football.",
+        "The victory sends Switzerland to the quarterfinals to face Argentina.",
+        "Switzerland remains unbeaten in the knockout stages of this tournament."
+      ],
       "sections": [],
-      "updatedAt": "2026-07-10T01:13:41+00:00",
-      "sourceHash": "df0fffb2fcb3d0c5",
+      "updatedAt": "2026-07-10T02:06:58+00:00",
+      "sourceHash": "276ba7abee9efff9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "manual match recap target"
     },
     "97": {
       "headline": "France Advances to Semifinals with Shutout Win Over Morocco",

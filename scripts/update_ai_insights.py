@@ -185,10 +185,17 @@ def has_score(match: dict[str, Any]) -> bool:
     return match.get("homeScore") is not None and match.get("awayScore") is not None
 
 
+def has_penalty_shootout(match: dict[str, Any]) -> bool:
+    return match.get("homePenaltyScore") is not None and match.get("awayPenaltyScore") is not None
+
+
 def match_result_text(match: dict[str, Any]) -> str | None:
     if not has_score(match):
         return None
-    return f"{match['home']} {match['homeScore']}, {match['away']} {match['awayScore']}"
+    result = f"{match['home']} {match['homeScore']}, {match['away']} {match['awayScore']}"
+    if has_penalty_shootout(match):
+        result += f" ({match['homePenaltyScore']}-{match['awayPenaltyScore']} on penalties)"
+    return result
 
 
 def match_insight_focus(match: dict[str, Any]) -> str:
@@ -258,6 +265,8 @@ def compact_match(match: dict[str, Any]) -> dict[str, Any]:
         "result": match_result_text(match),
         "homeScore": match.get("homeScore"),
         "awayScore": match.get("awayScore"),
+        "homePenaltyScore": match.get("homePenaltyScore"),
+        "awayPenaltyScore": match.get("awayPenaltyScore"),
         "network": match.get("network"),
         "hasHighlights": bool(match.get("videos", {}).get("short", {}).get("url")),
         "hasExtendedHighlights": bool(match.get("videos", {}).get("extended", {}).get("url")),
@@ -899,7 +908,10 @@ def completed_match_final_sentence(target: Target) -> str | None:
     match = target.context.get("match", {})
     if match.get("homeScore") is None or match.get("awayScore") is None:
         return None
-    return f"Final: {match.get('home')} {match.get('homeScore')}, {match.get('away')} {match.get('awayScore')}."
+    final = f"Final: {match.get('home')} {match.get('homeScore')}, {match.get('away')} {match.get('awayScore')}"
+    if has_penalty_shootout(match):
+        final += f" ({match.get('homePenaltyScore')}-{match.get('awayPenaltyScore')} on penalties)"
+    return f"{final}."
 
 
 def completed_match_preview_framing(text: str) -> bool:

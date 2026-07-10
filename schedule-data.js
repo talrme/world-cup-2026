@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-07-09",
+  "generatedAt": "2026-07-10",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -2451,7 +2451,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-30T16:24:57+00:00"
-      }
+      },
+      "homePenaltyScore": 3,
+      "awayPenaltyScore": 4
     },
     {
       "id": 75,
@@ -2484,7 +2486,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-06-30T16:25:21+00:00"
-      }
+      },
+      "homePenaltyScore": 2,
+      "awayPenaltyScore": 3
     },
     {
       "id": 76,
@@ -2885,7 +2889,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-07-03T22:32:29+00:00"
-      }
+      },
+      "homePenaltyScore": 2,
+      "awayPenaltyScore": 4
     },
     {
       "id": 89,
@@ -3181,7 +3187,9 @@ window.WORLD_CUP_DATA = {
           "source": "foxsports-channel"
         },
         "lastCheckedAt": "2026-07-07T23:34:52+00:00"
-      }
+      },
+      "homePenaltyScore": 4,
+      "awayPenaltyScore": 3
     },
     {
       "id": 97,
@@ -3511,6 +3519,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-09T22:05:45+00:00",
+  "bracketUpdatedAt": "2026-07-10T02:04:43+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

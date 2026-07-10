@@ -238,6 +238,15 @@ def competitor_score(competitor: dict[str, Any] | None) -> int | None:
         return None
 
 
+def competitor_shootout_score(competitor: dict[str, Any] | None) -> int | None:
+    if not competitor:
+        return None
+    try:
+        return int(float(competitor.get("shootoutScore")))
+    except (TypeError, ValueError):
+        return None
+
+
 def event_result_team(event: dict[str, Any] | None, want_winner: bool) -> str | None:
     if not event:
         return None
@@ -379,6 +388,25 @@ def update_match_from_event(match: dict[str, Any], event: dict[str, Any]) -> lis
         if away_score is not None and changed(match, "awayScore", away_score):
             match["awayScore"] = away_score
             changes.append("away score")
+
+        home_penalty_score = competitor_shootout_score(home)
+        away_penalty_score = competitor_shootout_score(away)
+        has_shootout = home_penalty_score is not None and away_penalty_score is not None
+        if has_shootout:
+            if changed(match, "homePenaltyScore", home_penalty_score):
+                match["homePenaltyScore"] = home_penalty_score
+                changes.append("home penalty score")
+            if changed(match, "awayPenaltyScore", away_penalty_score):
+                match["awayPenaltyScore"] = away_penalty_score
+                changes.append("away penalty score")
+        else:
+            for key, label in (
+                ("homePenaltyScore", "home penalty score"),
+                ("awayPenaltyScore", "away penalty score"),
+            ):
+                if key in match:
+                    del match[key]
+                    changes.append(label)
 
     return changes
 

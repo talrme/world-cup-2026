@@ -939,6 +939,12 @@ h1 {
   display: inline-block;
 }
 
+.score-pill.score-with-penalties {
+  font-size: 0.9em;
+  min-width: 128px;
+  white-space: nowrap;
+}
+
 .score-hidden .score-hidden-text {
   filter: blur(4px);
   text-shadow: 0 0 14px var(--accent-3);
@@ -2429,6 +2435,7 @@ h1 {
   justify-content: center;
   min-width: 32px;
   padding: 0 8px;
+  white-space: nowrap;
 }
 
 button.bracket-score-cell {

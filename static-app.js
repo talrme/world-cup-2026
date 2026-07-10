@@ -1028,7 +1028,10 @@
 
   function scoreText(match) {
     if (typeof match.homeScore === "number" && typeof match.awayScore === "number") {
-      return `${match.homeScore} - ${match.awayScore}`;
+      const base = `${match.homeScore} - ${match.awayScore}`;
+      return hasPenaltyShootout(match)
+        ? `${base} (${match.homePenaltyScore}-${match.awayPenaltyScore} PKs)`
+        : base;
     }
 
     return "vs";
@@ -1036,6 +1039,21 @@
 
   function hasScore(match) {
     return typeof match.homeScore === "number" && typeof match.awayScore === "number";
+  }
+
+  function hasPenaltyShootout(match) {
+    return typeof match.homePenaltyScore === "number" && typeof match.awayPenaltyScore === "number";
+  }
+
+  function winningSide(match) {
+    if (!hasScore(match)) return null;
+    if (match.homeScore > match.awayScore) return "home";
+    if (match.awayScore > match.homeScore) return "away";
+    if (hasPenaltyShootout(match)) {
+      if (match.homePenaltyScore > match.awayPenaltyScore) return "home";
+      if (match.awayPenaltyScore > match.homePenaltyScore) return "away";
+    }
+    return null;
   }
 
   function hasDirectVideo(match) {
@@ -1069,12 +1087,12 @@
   }
 
   function teamResultClass(match, side, forceVisible = false, forceHidden = false) {
-    if (!hasScore(match) || !isScoreVisible(match, forceVisible, forceHidden) || match.homeScore === match.awayScore) {
+    const winner = winningSide(match);
+    if (!winner || !isScoreVisible(match, forceVisible, forceHidden)) {
       return "";
     }
 
-    const homeWon = match.homeScore > match.awayScore;
-    return (side === "home" && homeWon) || (side === "away" && !homeWon) ? "is-winner" : "is-loser";
+    return side === winner ? "is-winner" : "is-loser";
   }
 
   function renderTeamName(team, className = "team-name") {
@@ -1316,7 +1334,8 @@
     const visible = isScoreVisible(match, forceVisible, forceHidden);
     const label = visible ? "Hide score" : "Reveal score";
     const tooltip = visible ? "Click to hide" : "Click to reveal";
-    return `<button aria-label="${label}" class="score-pill ${visible ? "score-revealed" : "score-hidden"}" data-score-id="${match.id}" data-score-tooltip="${escapeHtml(tooltip)}" type="button"><span class="score-hidden-text">${escapeHtml(spoilerText(match, forceVisible, forceHidden))}</span></button>`;
+    const penaltyClass = visible && hasPenaltyShootout(match) ? " score-with-penalties" : "";
+    return `<button aria-label="${label}" class="score-pill${penaltyClass} ${visible ? "score-revealed" : "score-hidden"}" data-score-id="${match.id}" data-score-tooltip="${escapeHtml(tooltip)}" type="button"><span class="score-hidden-text">${escapeHtml(spoilerText(match, forceVisible, forceHidden))}</span></button>`;
   }
 
   function videoStatus(match) {
@@ -2026,7 +2045,13 @@
   function bracketScoreCell(match, side) {
     if (!hasScore(match)) return `<span class="bracket-score-cell">${isScorePending(match) ? "--" : ""}</span>`;
     const visible = isScoreVisible(match);
-    const value = visible ? String(side === "home" ? match.homeScore : match.awayScore) : "??";
+    const score = side === "home" ? match.homeScore : match.awayScore;
+    const penaltyScore = side === "home" ? match.homePenaltyScore : match.awayPenaltyScore;
+    const value = visible
+      ? hasPenaltyShootout(match)
+        ? `${score} (${penaltyScore})`
+        : String(score)
+      : "??";
     const label = visible ? "Hide score" : "Reveal score";
     return `<button aria-label="${label}" class="bracket-score-cell ${visible ? "is-revealed" : "is-hidden"}" data-score-id="${match.id}" type="button"><span class="${visible ? "" : "score-hidden-text"}">${escapeHtml(value)}</span></button>`;
   }
