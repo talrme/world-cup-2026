@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-09T23:36:25+00:00",
+  "generatedAt": "2026-07-10T01:13:48+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Group F Opener",
@@ -1862,39 +1862,35 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "95": {
-      "headline": "Argentina Edges Egypt to Advance to Quarterfinals",
-      "summary": "Argentina secured a hard-fought 3-2 victory over Egypt in the Round of 16 to keep their tournament run alive.",
+      "headline": "Argentina Edges Egypt in Thrilling Round of 16 Encounter",
+      "summary": "Argentina secured a hard-fought 3-2 victory over Egypt to advance in the knockout stage.",
       "story": [
-        "Argentina continued their winning momentum in the knockout stage, narrowly overcoming Egypt in a high-scoring 3-2 thriller. The match proved to be a stern test for the Argentines, who have remained unbeaten throughout their group stage and Round of 32 fixtures.",
-        "This victory marks Argentina's second consecutive narrow win in the knockout rounds, following their 3-2 triumph over Cabo Verde in the Round of 32. Their ability to consistently find the back of the net has been the hallmark of their campaign so far.",
-        "For Egypt, the loss ends a resilient tournament run that included a draw against Belgium and a victory over New Zealand in the group stage, followed by a tight battle against Australia in the previous round.",
-        "With this result, Argentina moves on to the Quarterfinals, where they are scheduled to face Switzerland on July 11. They will look to maintain their offensive form as they push deeper into the bracket."
+        "Argentina continued their momentum in the knockout rounds by overcoming a resilient Egypt side in a high-scoring 3-2 contest. The win keeps Argentina's tournament run alive following their successful navigation of the group stage and a tight victory over Cabo Verde in the Round of 32.",
+        "For Egypt, the loss marks the end of a campaign that saw them remain competitive throughout their group matches and a tough battle against Australia in the previous round. Despite their efforts, they were unable to contain the Argentine attack in this decisive fixture.",
+        "With this result, Argentina moves forward to the Quarterfinals. They are now set to face Switzerland in their next match, continuing their pursuit of the title."
       ],
       "bullets": [
-        "Argentina has now won five consecutive matches in the tournament.",
-        "The 3-2 scoreline reflects Argentina's second straight one-goal victory in the knockout phase."
+        "Argentina maintained their winning streak in the knockout stage with a 3-2 scoreline.",
+        "The victory sets up a Quarterfinal matchup between Argentina and Switzerland."
       ],
       "sections": [],
-      "updatedAt": "2026-07-08T23:56:21+00:00",
+      "updatedAt": "2026-07-10T01:13:48+00:00",
       "sourceHash": "2c91dcfdfabfd8b2",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "96": {
-      "headline": "Switzerland and Colombia Battle to Stalemate",
-      "summary": "Switzerland and Colombia played to a 0-0 draw in their Round of 16 encounter.",
+      "headline": "Switzerland and Colombia Battle to Stalemate in Round of 16",
+      "summary": "Switzerland and Colombia played to a 0-0 draw in their Round of 16 knockout match.",
       "story": [
-        "Switzerland and Colombia fought to a scoreless draw in a tight Round of 16 matchup that left nothing to separate the two sides on the scoreboard.",
-        "The result marks a significant turning point in the tournament bracket, as both teams pushed hard to break the deadlock but ultimately could not find a breakthrough.",
-        "Following this result, Switzerland advances to the quarterfinals, where they are scheduled to face Argentina on July 11th. Colombia concludes their tournament run after a hard-fought effort in the knockout stages."
+        "Switzerland and Colombia faced off in a tense defensive struggle that ended in a scoreless draw. With neither side able to break the deadlock during regulation, the match required a decisive outcome to determine who would advance in the tournament bracket.",
+        "Switzerland entered the knockout stage after a strong run through Group B, including a 2-0 victory over Algeria in the previous round. Colombia arrived with a solid defensive record, having navigated their group and a narrow 1-0 win against Ghana to reach this stage.",
+        "Following this result, Switzerland now shifts their focus to a high-stakes Quarterfinal matchup against Argentina. The path forward remains demanding as they look to build on their tournament performance thus far."
       ],
-      "bullets": [
-        "Switzerland moves on to face Argentina in the quarterfinal round.",
-        "The match ended 0-0 after regulation, forcing the teams to decide the outcome through further competition."
-      ],
+      "bullets": [],
       "sections": [],
-      "updatedAt": "2026-07-08T23:56:14+00:00",
+      "updatedAt": "2026-07-10T01:13:41+00:00",
       "sourceHash": "df0fffb2fcb3d0c5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
