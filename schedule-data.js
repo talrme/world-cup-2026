@@ -3236,7 +3236,7 @@ window.WORLD_CUP_DATA = {
       "time": "15:00",
       "home": "Spain",
       "away": "Belgium",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "los-angeles",
       "offset": "-04:00",
@@ -3247,7 +3247,9 @@ window.WORLD_CUP_DATA = {
       "homeRevealSource": "Winner Match 93",
       "awaySource": "Winner Match 94",
       "bracketAwayTeam": "Belgium",
-      "awayRevealSource": "Winner Match 94"
+      "awayRevealSource": "Winner Match 94",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": 99,
@@ -3519,6 +3521,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-10T02:04:43+00:00",
+  "bracketUpdatedAt": "2026-07-10T19:47:23+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
