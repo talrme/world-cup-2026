@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T16:06:42+00:00",
+  "generatedAt": "2026-07-10T18:01:00+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -4856,420 +4856,422 @@
     },
     "44": {
       "headline": "Jordan and Algeria Seek First Points in Group J",
-      "summary": "Jordan and Algeria face off in their second Group J match, with both teams looking to secure their first points of the tournament.",
+      "summary": "Jordan and Algeria face off in a critical Group J encounter as both teams look to secure their first points of the tournament.",
       "story": [
-        "Jordan and Algeria enter this Matchday 2 encounter searching for momentum after difficult starts to their respective campaigns. Both sides are currently at the bottom of Group J and will view this match as a vital opportunity to get their tournament back on track.",
-        "In their opening fixture, Jordan faced a tough test against Austria, while Algeria opened their tournament against Argentina. Both teams were unable to secure a result in those initial matches, leaving them with zero points as they head into this meeting.",
-        "With Argentina currently leading the group standings, the pressure is on both Jordan and Algeria to find their rhythm. A win here would be a significant boost for either side as they look to climb the table and keep their hopes alive in a competitive group."
+        "Jordan and Algeria enter this Matchday 2 fixture looking to rebound after difficult starts to their group campaigns. Both teams are currently searching for their first points after falling in their respective opening matches against Austria and Argentina.",
+        "The Group J landscape has shifted following Argentina's recent victory over Austria, which leaves Jordan and Algeria at the bottom of the table. With Argentina sitting at six points, this matchup serves as a vital opportunity for either side to gain traction and keep their tournament hopes alive.",
+        "Jordan showed flashes of offensive potential in their opener, finding the back of the net against Austria, while Algeria will be aiming to sharpen their attack after being held scoreless in their first outing. Defensive discipline will be a primary focus for both squads as they attempt to stabilize their goal differentials.",
+        "This encounter is a pivotal moment for both nations to establish momentum. A win here would provide a much-needed boost in the standings and set the tone for their final group stage appearances."
       ],
       "bullets": [
-        "Both Jordan and Algeria are looking to earn their first points of the group stage.",
-        "The match is part of the Group J schedule in the second round of play.",
-        "Argentina currently holds the top spot in the group with six points."
+        "Both teams are currently at zero points in Group J.",
+        "Jordan scored one goal in their opening match, while Algeria is looking for their first goal of the tournament.",
+        "Argentina currently leads the group with six points after two matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:35:37+00:00",
-      "sourceHash": "eae4bfb4df53589d",
+      "updatedAt": "2026-07-10T17:57:19+00:00",
+      "sourceHash": "44b440e01525b273",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "43": {
-      "headline": "Norway and Senegal clash in pivotal Group I matchup",
-      "summary": "Norway looks to build on their opening victory while Senegal aims to secure their first points of the tournament in this critical Group I encounter.",
+      "headline": "Norway and Senegal Clash in Group I",
+      "summary": "Norway and Senegal meet for their second match of the group stage with crucial points on the line.",
       "story": [
-        "Norway enters this match with momentum following a convincing 4-1 performance against Iraq in their opening game. Their offensive output in that match demonstrated a clear ability to capitalize on opportunities, placing them in a strong position within the group standings.",
-        "Senegal finds themselves in a different situation after facing a difficult opening test against France. Despite the challenge, they are looking to regroup and find their rhythm as they compete for vital points to keep their tournament aspirations on track.",
-        "With France having already played two matches, the landscape of Group I is beginning to take shape. This matchup represents a significant opportunity for both sides to influence their standing as the group stage progresses, making every tactical decision on the field highly impactful."
+        "Norway enters this match with momentum following a strong performance in their opening fixture against Iraq. Having secured three points in their first outing, they will look to maintain their offensive form and solidify their position in Group I.",
+        "Senegal faces a different challenge as they look to bounce back from their initial group stage match against France. With zero points currently on the board, this encounter represents a vital opportunity for them to find their rhythm and climb the standings.",
+        "The group landscape is beginning to take shape, with France currently leading after two matches. For both Norway and Senegal, this game serves as a pivotal moment to influence their path forward in the tournament."
       ],
       "bullets": [
-        "Norway enters the match with 3 points and a +3 goal difference after their opening victory.",
-        "Senegal is seeking their first points of the tournament following their initial group match.",
-        "The outcome of this game will significantly impact the positioning within Group I behind France."
+        "Norway enters the match with 3 points and a goal difference of +3.",
+        "Senegal is seeking their first points of the tournament after their opening fixture.",
+        "Group I standings are currently led by France, who have completed two matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:35:44+00:00",
-      "sourceHash": "96a80b02ffe9b5ca",
+      "updatedAt": "2026-07-10T17:57:26+00:00",
+      "sourceHash": "23769f7cde948b5a",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "41": {
-      "headline": "Group J Leaders Face Off",
-      "summary": "Argentina and Austria meet in their second Group J match after both teams secured opening victories.",
+      "headline": "Group J Leaders Clash in Arlington",
+      "summary": "Argentina and Austria meet in their second group stage match, both looking to build on successful tournament openers.",
       "story": [
-        "Austria arrives at this contest having also collected three points in their first outing. They demonstrated offensive efficiency by putting three past Jordan, though they will be looking to tighten up defensively after conceding a goal in that match.",
-        "With both teams currently tied on points at the top of Group J, this encounter serves as a pivotal moment for control of the group standings. The winner will put themselves in an ideal position to secure a top spot as the group stage progresses."
+        "Argentina enters this encounter following a commanding performance in their first match, where they secured three points while keeping a clean sheet. Their ability to control the game defensively will be tested as they face an Austrian side that also demonstrated offensive efficiency in their own debut.",
+        "Austria arrives at this fixture with three points of their own, having navigated their opening match with a victory. Their attack proved effective, and they will look to maintain that momentum against an Argentine defense that has yet to concede a goal in the tournament.",
+        "With both teams tied on three points at the top of Group J, this match serves as a pivotal moment for positioning within the group. The outcome will clarify the hierarchy as the teams push toward the next stage of the competition."
       ],
       "bullets": [
-        "Argentina and Austria both enter the match with 3 points from their opening games.",
-        "Argentina holds a goal difference of plus-three, while Austria sits at plus-two.",
-        "Both teams scored 3 goals in their respective Matchday 1 victories."
+        "Argentina leads Group J with a goal difference of +3.",
+        "Austria holds a goal difference of +2 after their opening win.",
+        "Both teams are currently undefeated in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:00+00:00",
-      "sourceHash": "52a01c715e5f2d0e",
+      "updatedAt": "2026-07-10T17:57:41+00:00",
+      "sourceHash": "3ec5c9166e22d530",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "40": {
-      "headline": "New Zealand and Egypt Seek Breakthrough in Group G",
-      "summary": "Both teams enter their second match of the tournament looking for their first win after opening with draws.",
+      "headline": "New Zealand and Egypt Look to Break Group G Deadlock",
+      "summary": "Both teams enter their second match of the tournament seeking their first win after opening with draws.",
       "story": [
-        "New Zealand and Egypt meet in Matchday 2 of Group G, with both sides aiming to build on their initial performances. New Zealand enters this encounter following a 2-2 draw against Iran, while Egypt arrives after securing a 1-1 result against Belgium in their opening match.",
-        "The current state of Group G is remarkably tight, as all four teams have played at least once and remain separated by very slim margins. With Iran and Belgium having already played their second match to a scoreless draw, the path is open for either New Zealand or Egypt to gain a significant advantage in the standings.",
-        "Both teams demonstrated an ability to find the back of the net in their first outings, but defensive stability will be a major focus here. Securing three points in this match is essential for either side to gain control of their destiny as the group stage progresses."
+        "New Zealand and Egypt meet in Group G with both sides looking to build on hard-fought results from their tournament openers. New Zealand arrives following a high-scoring draw against Iran, while Egypt secured a point in their own opening contest against Belgium.",
+        "The group remains wide open as the competition progresses. With Iran and Belgium having already played their second match to a stalemate, the door is open for either New Zealand or Egypt to seize momentum and climb the standings.",
+        "Both teams demonstrated resilience in their first appearances, showing an ability to compete against tough opposition. This encounter will test which side can better capitalize on their opportunities and find the breakthrough needed to secure three points."
       ],
       "bullets": [
-        "New Zealand scored two goals in their opening match against Iran.",
-        "Egypt held Belgium to a 1-1 draw in their first tournament appearance.",
-        "Group G remains wide open with all four teams fighting for position."
+        "New Zealand enters the match with one point after a 2-2 draw in their opening game.",
+        "Egypt also carries one point into this fixture following a 1-1 result in their first match.",
+        "The outcome of this match will significantly impact the tight Group G table, where every team is currently separated by a narrow margin."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:07+00:00",
-      "sourceHash": "d3316e606a50f928",
+      "updatedAt": "2026-07-10T17:57:49+00:00",
+      "sourceHash": "4b90dbd167a73588",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "39": {
       "headline": "Uruguay and Cabo Verde Seek First Group H Win",
-      "summary": "Uruguay and Cabo Verde face off in their second group match, both looking to secure their first victory of the tournament.",
+      "summary": "Uruguay and Cabo Verde meet in Matchday 2 looking to secure their first victory of the tournament after both sides opened with draws.",
       "story": [
-        "Uruguay enters this match following a 1-1 draw against Saudi Arabia in their tournament opener. They are looking to build momentum in Group H as they aim to improve their standing.",
-        "Cabo Verde arrives after a resilient 0-0 draw against Spain. Their ability to hold a strong opponent scoreless in their first match suggests they will be a difficult team to break down defensively.",
-        "With Spain currently leading the group, both Uruguay and Cabo Verde understand the importance of this fixture. Securing points here is vital for both sides to remain in a strong position as the group stage progresses."
+        "Group H remains wide open as Uruguay and Cabo Verde take the field for their second match of the tournament. Both teams enter this contest with a single point from their opening fixtures, making this a pivotal moment to gain ground in the standings.",
+        "Uruguay arrives following a 1-1 draw against Saudi Arabia in their tournament opener. They will be looking to find more consistency in their attack as they aim to improve their position within the group.",
+        "Cabo Verde showed defensive resilience in their first match, holding Spain to a 0-0 stalemate. Maintaining that defensive shape will be a priority as they look to build on that clean sheet and challenge for a result against a tough Uruguayan side.",
+        "With Spain currently leading the group, both Uruguay and Cabo Verde know that securing points here is essential for their progression prospects. The tactical battle between Uruguay's offensive ambition and Cabo Verde's disciplined backline will be the key narrative to watch."
       ],
       "bullets": [
-        "Uruguay drew 1-1 with Saudi Arabia in their first match.",
-        "Cabo Verde held Spain to a 0-0 draw in their opening game.",
-        "Both teams currently sit on 1 point in Group H."
+        "Uruguay enters the match with 1 point from their opening draw.",
+        "Cabo Verde also holds 1 point following a scoreless draw against Spain.",
+        "Both teams are chasing Spain, who currently sits at the top of Group H."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:15+00:00",
-      "sourceHash": "da8bc903f910f30c",
+      "updatedAt": "2026-07-10T17:57:56+00:00",
+      "sourceHash": "e830b6c9ef1019ad",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "38": {
       "headline": "Group G deadlock: Belgium meets Iran",
-      "summary": "Belgium and Iran face off in their second match of Group G, with both teams looking to break a four-way tie in the standings.",
+      "summary": "Belgium and Iran face off in their second Group G match, with both teams looking to break a four-way tie in the standings.",
       "story": [
-        "Group G is currently wide open after a series of draws on the opening matchday. Belgium enters this contest following a 1-1 result against Egypt, while Iran arrives after a high-scoring 2-2 draw with New Zealand.",
-        "With every team in the group sitting on exactly one point and an identical goal difference of zero, this match serves as a pivotal opportunity to gain separation in the table. Neither side has managed to secure a win yet, making the points available here vital for their progression prospects.",
-        "Both squads demonstrated an ability to find the back of the net in their first outings, but defensive consistency will be a primary focus for both managers. As they look to navigate the complexities of the group stage, the tactical approach to this second match will be telling for their momentum."
+        "Group G is currently wide open, with all four teams sitting on one point after their opening matches. Belgium enters this contest following a 1-1 draw against Egypt, while Iran arrives after a high-scoring 2-2 stalemate with New Zealand.",
+        "The parity in the group standings means that every point is vital for positioning. With Belgium and Iran both having identical goal differences of zero, this encounter serves as a pivotal opportunity for either side to gain momentum and separate themselves from the rest of the pack.",
+        "Both teams demonstrated an ability to find the back of the net in their first outings, but defensive stability will be a major focus here. As they look to secure their first win of the tournament, the tactical approach from both sides will be crucial in determining who takes control of the group."
       ],
       "bullets": [
-        "All four teams in Group G currently have one point and a zero goal difference.",
-        "Belgium is coming off a 1-1 draw with Egypt.",
-        "Iran enters the match after a 2-2 draw against New Zealand."
+        "Both teams enter the match with 1 point after drawing their opening fixtures.",
+        "Belgium and Iran are currently tied with New Zealand and Egypt in the Group G standings.",
+        "Iran showed offensive potential by scoring 2 goals in their first match."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:23+00:00",
-      "sourceHash": "9b7c317fcbab9423",
+      "updatedAt": "2026-07-10T17:58:04+00:00",
+      "sourceHash": "06e5d64ea372b391",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "37": {
-      "headline": "Spain and Saudi Arabia Seek Breakthrough in Group H",
-      "summary": "Spain and Saudi Arabia meet in their second group match following opening draws that left the entire Group H table deadlocked.",
+      "headline": "Group H Wide Open as Spain Meets Saudi Arabia",
+      "summary": "Spain and Saudi Arabia face off in a critical Group H encounter with every team in the group currently tied on points.",
       "story": [
-        "Group H enters its second matchday with a unique level of parity, as all four teams currently sit on a single point. Spain arrives here looking to find their rhythm after a scoreless opening performance against Cabo Verde. Their ability to convert possession into tangible threats will be the primary focus as they aim to separate themselves from the rest of the pack.",
-        "Saudi Arabia enters this encounter with momentum from a resilient performance against Uruguay. Having already secured a point in their tournament opener, they have shown they can compete against high-level opposition. Their tactical discipline will be tested as they face a Spanish side eager to establish dominance in the group.",
-        "With the group standings currently showing every team tied on points, goal difference, and games played, this match carries significant weight for the trajectory of the group. Neither side can afford a passive approach if they hope to gain an advantage before the final round of group fixtures."
+        "Group H is currently defined by absolute parity. Following the opening round of matches, all four teams\u2014Spain, Saudi Arabia, Uruguay, and Cabo Verde\u2014sit level with one point each. This makes the second matchday particularly significant for establishing momentum before the final group fixtures.",
+        "Spain enters this match looking to find their rhythm after a scoreless draw against Cabo Verde in their opener. Their ability to break down defensive structures will be a primary focus as they aim to secure their first points of the tournament.",
+        "Saudi Arabia comes into this fixture following a hard-fought 1-1 draw against Uruguay. Having already demonstrated their capacity to compete against high-level opposition, they will look to build on that performance to challenge Spain's control of the game."
       ],
       "bullets": [
-        "Group H is currently in a four-way tie, with every team holding one point after the first round of matches.",
-        "Spain is searching for their first goal of the tournament following a 0-0 draw in their opener.",
-        "Saudi Arabia enters the match with one point after earning a 1-1 result against Uruguay."
+        "All four teams in Group H currently hold exactly one point.",
+        "Spain is seeking their first goal of the tournament after a 0-0 opening result.",
+        "Saudi Arabia arrives with confidence after holding Uruguay to a 1-1 draw."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:31+00:00",
-      "sourceHash": "1d68a2d65f657adf",
+      "updatedAt": "2026-07-10T17:58:12+00:00",
+      "sourceHash": "3886a74fef2b6aed",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "36": {
-      "headline": "Tunisia and Japan seek momentum in Group F",
-      "summary": "Tunisia and Japan meet in Matchday 2 looking to secure their first victory of the tournament.",
+      "headline": "Tunisia and Japan seek Group F momentum",
+      "summary": "Tunisia and Japan meet in their second group match looking to gain ground in a competitive Group F.",
       "story": [
-        "Group F enters a critical phase as Tunisia and Japan face off in their second match of the tournament. Both teams are searching for their first win after challenging opening fixtures that tested their defensive structures and offensive capabilities.",
-        "Japan enters this match with a single point from their draw against the Netherlands. Their ability to hold a strong opponent to a 2-2 result suggests they have the tactical discipline to compete, but they will need to convert that resilience into a full three points to improve their standing in the group.",
-        "Tunisia is looking to rebound after a difficult opening match against Sweden. With zero points currently on the board, this encounter serves as a vital opportunity for them to stabilize their campaign and demonstrate their potential against a Japanese side that has shown it can be difficult to break down.",
-        "The group dynamics have been shaped by the performance of the Netherlands, who currently sit at the top of the table. With the other teams jockeying for position, both Tunisia and Japan know that every point earned here will be instrumental in determining who remains in contention as the group stage progresses."
+        "Tunisia enters this match looking to reset after a difficult opening performance against Sweden. With zero points currently on the board, the team needs to find defensive stability and a more effective attacking rhythm to stay in contention within the group.",
+        "Japan arrives with one point after an intense draw against the Netherlands in their opening match. That result showed their ability to compete against top-tier opposition, and they will look to build on that foundation to secure their first victory of the tournament.",
+        "The current group standings place significant pressure on both sides. With the Netherlands and Sweden having already played their second matches, the path forward in Group F is becoming clearer, making this encounter vital for both teams to keep their tournament hopes firmly in their own hands."
       ],
       "bullets": [
-        "Japan aims to build on the momentum of their 2-2 draw in their opening match.",
-        "Tunisia seeks to address defensive gaps following their result against Sweden.",
-        "Both teams are fighting to climb from the bottom half of Group F."
+        "Tunisia is searching for their first points of the tournament after an opening defeat.",
+        "Japan earned a draw in their first outing and aims to capitalize on that momentum.",
+        "Both teams are looking to improve their standing in a group currently led by the Netherlands."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:38+00:00",
-      "sourceHash": "a6e387321fcf2120",
+      "updatedAt": "2026-07-10T17:58:19+00:00",
+      "sourceHash": "93809faa67039c05",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "35": {
       "headline": "Ecuador and Curacao Seek First Points in Group E",
-      "summary": "Ecuador and Curacao meet in Matchday 2 looking to secure their first points of the tournament.",
+      "summary": "Both Ecuador and Curacao enter this Matchday 2 encounter looking to secure their first points of the tournament after opening defeats.",
       "story": [
-        "Both Ecuador and Curacao enter this Matchday 2 encounter searching for their first points of the group stage. Ecuador began their campaign with a narrow 1-0 defeat against Ivory Coast, while Curacao faced a difficult opening challenge against Germany.",
-        "The current Group E standings show Germany leading with 6 points, followed by Ivory Coast with 3. With Ecuador and Curacao both sitting on 0 points, this match is a pivotal moment for both sides to gain traction and keep their tournament hopes alive.",
-        "Ecuador will look to build on a defensive effort that limited Ivory Coast to a single goal in their opener. Conversely, Curacao aims to stabilize their performance after a challenging start to the competition.",
-        "This matchup represents a significant opportunity for either team to change their trajectory in the group. With the group dynamics beginning to take shape, securing a positive result here is essential for both squads."
+        "Ecuador and Curacao meet in a critical Group E matchup, with both sides searching for a turnaround following difficult results in their opening games. For Ecuador, the focus is on finding an offensive spark after a narrow loss to Ivory Coast in their first outing.",
+        "Curacao faces the challenge of regrouping after a demanding opening match against Germany. The team will be looking to stabilize their defensive structure and build on the goal they managed to find in their tournament debut.",
+        "With Germany currently leading the group, this match represents a significant opportunity for both teams to climb the standings. A win here would provide a much-needed boost and keep their aspirations alive as the group stage progresses."
       ],
       "bullets": [
-        "Ecuador enters the match with a goal difference of -1.",
-        "Curacao is looking to improve their defensive record after their opening fixture.",
-        "Both teams are currently chasing Ivory Coast and Germany in the Group E table."
+        "Ecuador is aiming to bounce back after a 1-0 defeat to Ivory Coast.",
+        "Curacao is looking to improve their defensive performance following their first match.",
+        "Both teams currently sit on zero points, making this a pivotal game for their tournament trajectory."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:46+00:00",
-      "sourceHash": "90d69f4c2a39780e",
+      "updatedAt": "2026-07-10T17:58:27+00:00",
+      "sourceHash": "b1d1378d780047d3",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "34": {
-      "headline": "Germany and Ivory Coast square off in Group E battle",
-      "summary": "Both Germany and Ivory Coast enter this Matchday 2 encounter with three points, looking to secure their standing in Group E.",
+      "headline": "Germany and Ivory Coast Clash for Group E Control",
+      "summary": "Both teams enter their second group match with three points, looking to secure a dominant position in the Group E standings.",
       "story": [
-        "Germany arrives at this match following a dominant opening performance where they put seven goals past Curacao. Their high-scoring start has placed them at the top of the group standings with a significant goal difference, establishing them as a formidable offensive force early in the tournament.",
-        "Ivory Coast enters the contest on the back of a disciplined 1-0 victory against Ecuador. While their opening win was more modest in terms of scoreline, the defensive solidity required to keep a clean sheet provides a sturdy foundation as they prepare to face the group's current leaders.",
-        "With both teams sitting on three points, this match serves as a pivotal moment for control of the group. The outcome will be instrumental in determining which side positions itself most effectively for the final round of the group stage."
+        "Germany arrives at this matchup following a high-scoring opening performance where they demonstrated significant attacking efficiency. With seven goals in their first outing, they currently sit at the top of the group table with a plus-six goal difference.",
+        "Ivory Coast also enters this contest with momentum after securing a narrow victory in their tournament opener. Their ability to keep a clean sheet in that initial match provides a solid defensive foundation as they prepare to face a potent German attack.",
+        "This match serves as a pivotal moment for both sides to establish leadership within Group E. With both teams holding three points, the outcome will significantly influence the trajectory of the group as they look toward the final matchday."
       ],
       "bullets": [
-        "Germany leads Group E with a +6 goal difference following their opening match.",
-        "Ivory Coast enters the game with momentum after securing a shutout victory in their first appearance.",
-        "This match features the two teams currently tied for the lead in the Group E standings."
+        "Germany leads the group with 3 points and a +6 goal difference.",
+        "Ivory Coast holds 3 points after a clean-sheet victory in their opening match.",
+        "The winner of this fixture will take sole possession of first place in Group E."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:36:54+00:00",
-      "sourceHash": "b4f395e56a98dc89",
+      "updatedAt": "2026-07-10T17:58:34+00:00",
+      "sourceHash": "ff087e58cf0cffdf",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "33": {
-      "headline": "Group F Leaders Face Off in Houston",
-      "summary": "The Netherlands and Sweden meet in their second group match as both sides look to solidify their position in the standings.",
+      "headline": "Group F Leaders Face Off",
+      "summary": "Netherlands and Sweden meet in Group F to determine the early control of the standings.",
       "story": [
-        "Sweden enters this matchup with momentum after a high-scoring opening performance where they secured three points against Tunisia. Their attack looked clinical in that first outing, putting them at the top of Group F with a significant goal difference advantage.",
-        "The Netherlands arrives at this match looking to build on their opening draw against Japan. Having shared the points in a 2-2 result, they are currently level with Japan in the group standings and will be eager to find a rhythm that secures a win.",
-        "This encounter serves as a pivotal moment for both teams as they navigate the second round of group play. With Sweden leading the group and the Netherlands looking to climb, the tactical approach from both sides will be essential in determining who controls the pace of the match."
+        "Sweden enters this match with momentum after a dominant 5-1 victory over Tunisia in their opening fixture. That performance placed them at the top of Group F with three points and a significant goal difference advantage.",
+        "The Netherlands arrives looking to build on their opening 2-2 draw against Japan. While they secured a point in that high-scoring affair, they will need to tighten their defensive structure to contain a Swedish attack that showed clinical form in their first outing.",
+        "This matchup is pivotal for the group dynamics, as Sweden aims to solidify their position at the top while the Netherlands fights to climb out of the current three-way tie for second place. Both teams are looking to establish consistency as they navigate the second matchday of the group stage."
       ],
       "bullets": [
-        "Sweden sits at the top of Group F with 3 points after their opening 5-1 victory.",
-        "The Netherlands holds 1 point following a 2-2 draw with Japan in their first match.",
-        "Both teams are looking to improve their standing within a competitive Group F."
+        "Sweden currently leads Group F with 3 points and a +4 goal difference.",
+        "Netherlands sits in a tie for second place with 1 point following their opening draw.",
+        "Both teams are looking to maintain their unbeaten status in the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:37:02+00:00",
-      "sourceHash": "dc81c0978017cbd1",
+      "updatedAt": "2026-07-10T17:58:42+00:00",
+      "sourceHash": "3668c2c149a66a21",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "32": {
-      "headline": "Turkey and Paraguay Clash in Group D Battle",
+      "headline": "Turkey and Paraguay seek first points in Group D",
       "summary": "Turkey and Paraguay face off in a critical Group D encounter as both teams look to secure their first points of the tournament.",
       "story": [
-        "Turkey and Paraguay enter this match looking to reset their campaigns after difficult opening results. Both teams are currently sitting at zero points in Group D, making this fixture a pivotal moment for their hopes of remaining in contention.",
-        "In their first match, Turkey faced a challenging outing against Australia, falling 2-0. They will be aiming to find their rhythm and sharpen their attack to put pressure on the Paraguayan defense early on.",
-        "Paraguay is also looking to bounce back following a tough opening loss to the United States. With a goal difference of -3, they will need to tighten their defensive structure while seeking to capitalize on any opportunities that arise.",
-        "As the group standings currently show the United States leading with six points and Australia holding three, both Turkey and Paraguay know that a positive result here is essential to keep their tournament aspirations alive."
+        "Turkey and Paraguay enter this match looking to rebound after difficult starts to their Group D campaigns. Both sides are currently searching for their first points, making this a pivotal fixture for their hopes of remaining in contention.",
+        "In their opening matches, Turkey faced a tough challenge against Australia, while Paraguay met the United States. With the United States currently leading the group, the pressure is on both Turkey and Paraguay to find their rhythm and capitalize on this opportunity to climb the standings.",
+        "This matchup serves as a significant turning point for both squads. A positive result here is essential for either team to keep their progression prospects alive as the group stage moves toward its conclusion."
       ],
       "bullets": [
-        "Both teams are seeking their first points of the group stage.",
-        "Turkey enters the match with a -2 goal difference, while Paraguay sits at -3.",
-        "The match is a key opportunity for both sides to climb the Group D standings."
+        "Both Turkey and Paraguay are looking to bounce back from opening-match defeats.",
+        "The United States currently sits at the top of Group D with 6 points.",
+        "This is the second matchday for both teams in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:37:09+00:00",
-      "sourceHash": "3781f7c3e32018bb",
+      "updatedAt": "2026-07-10T17:58:50+00:00",
+      "sourceHash": "395a9e38de32cd01",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "31": {
-      "headline": "Brazil and Haiti Look to Gain Ground in Group C",
-      "summary": "Brazil and Haiti meet in Matchday 2 of Group C, with both teams seeking their first victory of the tournament.",
+      "headline": "Brazil and Haiti Seek Crucial Group C Points",
+      "summary": "Brazil and Haiti meet in Matchday 2 of Group C, both looking to improve their standing in a tightly contested group.",
       "story": [
-        "Brazil enters this encounter looking to build on their opening draw against Morocco. Having finished their first match in a 1-1 stalemate, the team is aiming to find more rhythm and secure three points to improve their standing in a tightly contested group.",
-        "Haiti faces a significant challenge after a narrow 1-0 defeat to Scotland in their tournament opener. Despite the result, their defensive organization was tested, and they will need to show resilience against a Brazilian side looking to assert control.",
-        "With Morocco currently leading the group standings, the pressure is on both Brazil and Haiti to produce a result. A win here would be vital for either side to keep their progression hopes firmly in their own hands as the group stage progresses."
+        "Brazil enters this encounter following a draw in their opening match against Morocco. With one point from that initial outing, they are looking to establish momentum and secure their first win of the tournament to keep pace in the group standings.",
+        "Haiti arrives at this match after a narrow result against Scotland in their first appearance. Despite the outcome of that opening game, they remain in the hunt and will be focused on finding their offensive rhythm against a Brazilian side that has shown it can be tested.",
+        "The current Group C landscape is competitive, with Morocco and Scotland having already played their second matches. This context makes the result of this particular fixture significant for both Brazil and Haiti as they navigate the remainder of the group stage."
       ],
       "bullets": [
-        "Brazil is searching for their first win of the tournament following a 1-1 draw in their opener.",
-        "Haiti aims to bounce back and secure their first points after a narrow loss to Scotland.",
-        "Group C remains highly competitive, with Morocco currently holding the top spot in the standings."
+        "Brazil is searching for their first victory after a 1-1 draw with Morocco.",
+        "Haiti looks to bounce back following a narrow 1-0 defeat to Scotland.",
+        "Group C remains fluid, with Morocco currently leading the table with 4 points from 2 matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:37:17+00:00",
-      "sourceHash": "41c32fc0f6611c97",
+      "updatedAt": "2026-07-10T17:58:57+00:00",
+      "sourceHash": "0d0fb8c841d811b5",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "30": {
       "headline": "Scotland and Morocco Clash in Group C",
-      "summary": "Scotland and Morocco face off in Matchday 2 of Group C with both teams looking to build on their opening performances.",
+      "summary": "Scotland enters Matchday 2 looking to build on their opening victory, while Morocco aims to capitalize on the momentum from their draw against Brazil.",
       "story": [
-        "Scotland enters this matchup with three points after a narrow victory over Haiti in their opening game. Their disciplined defensive performance in that match allowed them to secure a win without conceding a goal, putting them in a strong position early in the group stage.",
-        "Morocco arrives at this fixture following a hard-fought draw against Brazil. By holding a team of Brazil's caliber to a 1-1 result, Morocco demonstrated their ability to compete at a high level and will look to carry that momentum into this encounter.",
-        "With Scotland currently leading the group and Morocco sitting on one point alongside Brazil, the stakes are clear for both sides. This meeting serves as a pivotal moment in Group C, as both teams aim to solidify their standing before the final round of group matches."
+        "Scotland sits at the top of Group C following a narrow 1-0 win over Haiti in their opening match. Having secured three points, they enter this contest with a chance to solidify their position in the group standings.",
+        "Morocco enters this match with one point after holding Brazil to a 1-1 draw. That result against a powerhouse like Brazil demonstrates their ability to compete at a high level and sets up an intriguing tactical battle against the Scottish side.",
+        "With only one match played in the group stage so far, the points table remains tight. Both teams are looking to establish control in Group C as the tournament progresses toward the final group fixtures."
       ],
       "bullets": [
-        "Scotland currently leads Group C with 3 points and a +1 goal difference.",
-        "Morocco enters the match with 1 point after a 1-1 draw against Brazil in their opening fixture.",
-        "This is the second match for both teams in the group stage."
+        "Scotland currently leads the group with 3 points and a +1 goal difference.",
+        "Morocco enters the match with 1 point, tied with Brazil in the current group standings."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:37:25+00:00",
-      "sourceHash": "8a2fe32442cfa62c",
+      "updatedAt": "2026-07-10T17:59:05+00:00",
+      "sourceHash": "9d11668367618a9f",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "29": {
-      "headline": "United States and Australia face off in Group D showdown",
-      "summary": "The United States and Australia meet in their second Group D match, with both teams looking to build on their opening victories.",
+      "headline": "Group D Leaders Clash in Seattle",
+      "summary": "The United States and Australia meet in their second Group D match, with both teams looking to build on successful tournament openers.",
       "story": [
-        "The United States enters this matchup following a strong start to their campaign, having secured three points in their opening fixture. They currently sit at the top of Group D with a goal difference of plus three, providing a solid foundation as they look to maintain their momentum.",
-        "Australia arrives at this encounter with equal confidence, also holding three points after a clean sheet in their first match. With a goal difference of plus two, they are positioned right behind the United States in the group standings, making this a pivotal contest for control of the table.",
-        "Both sides displayed clinical finishing in their respective openers, setting up a compelling tactical battle. With Turkey and Paraguay still searching for their first points in the group, the result here will significantly influence the trajectory for both teams as they aim to solidify their position in the tournament."
+        "The United States enters this match following a strong start to their campaign, having secured a victory over Paraguay in their opening fixture. Their offensive performance in that match demonstrated a clinical edge, providing them with three points and a positive goal difference as they look to maintain their momentum in Group D.",
+        "Australia arrives in Seattle after a clean-sheet victory against Turkey. By keeping their defensive record spotless in their first outing, the squad proved they are well-organized and capable of stifling opposition attacks, which will be a key factor as they face a high-scoring American side.",
+        "With both nations sitting on three points, this encounter serves as a pivotal moment for control of the group. The winner will put themselves in a commanding position to secure a top spot, while both teams will be focused on refining their tactical approach to handle the specific challenges posed by their opponent."
       ],
       "bullets": [
-        "The United States leads Group D on goal difference after a high-scoring opening performance.",
-        "Australia enters the match with defensive confidence after keeping a clean sheet in their first outing.",
-        "Both teams currently hold 3 points, making this a direct fight for the top spot in the group."
+        "The United States currently leads Group D on goal difference with a +3 rating.",
+        "Australia enters the match with a solid defensive foundation, having conceded zero goals in their opening game.",
+        "Both teams are looking to secure their second win of the group stage to distance themselves from Turkey and Paraguay."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:39:42+00:00",
-      "sourceHash": "40a7b9257476b9e7",
+      "updatedAt": "2026-07-10T17:59:12+00:00",
+      "sourceHash": "97137fccc2c101be",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "28": {
-      "headline": "Mexico and South Korea Clash for Group A Control",
-      "summary": "Both teams enter this Matchday 2 encounter with three points, looking to solidify their standing in Group A.",
+      "headline": "Mexico and South Korea clash for Group A control",
+      "summary": "Mexico and South Korea meet in their second group match with both teams looking to build on opening victory momentum.",
       "story": [
-        "Mexico and South Korea arrive at this fixture with identical records, each having secured three points in their opening match of the tournament. With both sides coming off successful starts, this meeting carries significant weight for the top of the Group A table.",
-        "Mexico enters the match with a clean sheet record, having demonstrated defensive discipline in their first outing. Their ability to maintain that structure will be tested against a South Korean side that showed clinical efficiency in their own debut victory.",
-        "South Korea proved their resilience in their previous match, managing to find the necessary breakthrough to secure a win. Their performance suggests a team capable of navigating high-pressure moments, which will be essential as they face a formidable opponent in this second round of group play."
+        "Mexico and South Korea head into this Matchday 2 encounter as the frontrunners of Group A. Both sides secured three points in their opening fixtures, setting the stage for a pivotal battle that could define the top of the group standings.",
+        "Mexico enters the match with a clean defensive record, having kept their opposition scoreless in their first outing. Their ability to maintain that defensive discipline will be tested against a South Korean attack that showed its efficiency by finding the net twice in their own opening victory.",
+        "With Czechia and South Africa already having completed their second match of the group stage, the pressure is on both Mexico and South Korea to capitalize on this opportunity. A result here would significantly strengthen either team's position as they look toward the final round of the group phase."
       ],
       "bullets": [
-        "Both teams currently hold 3 points after winning their respective opening matches.",
-        "Mexico enters with a goal difference of +2, while South Korea holds a goal difference of +1.",
-        "The outcome of this match will heavily influence the path forward for both teams in the Group A standings."
+        "Mexico currently leads Group A on goal difference (+2).",
+        "South Korea enters the match with 3 points after a narrow victory in their tournament opener.",
+        "Both teams are aiming to maintain their perfect start to the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:39:50+00:00",
-      "sourceHash": "5b84671d0eac8111",
+      "updatedAt": "2026-07-10T17:59:20+00:00",
+      "sourceHash": "2434ed2aff871a13",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "27": {
-      "headline": "Canada and Qatar seek momentum in Group B",
-      "summary": "Canada and Qatar face off in their second group match, both looking to build on opening draws.",
+      "headline": "Canada and Qatar Face Off in Group B",
+      "summary": "Canada and Qatar meet in Vancouver with both teams looking to secure their first victory of the tournament.",
       "story": [
-        "Canada and Qatar both enter this matchup with one point from their opening fixtures. After playing to a 1-1 draw against Bosnia and Herzegovina, Canada looks to find a breakthrough in their second appearance of the tournament.",
-        "Qatar arrives with a similar objective following their 1-1 result against Switzerland. Both sides are currently level on points and goal difference, making this a pivotal encounter for positioning within Group B.",
-        "With Switzerland having already played their second match, the group landscape is beginning to take shape. Both Canada and Qatar will be eager to secure a result that keeps them firmly in contention as the group stage progresses."
+        "Canada and Qatar enter this Matchday 2 encounter with identical records, each having earned a single point from their opening fixtures. Both sides opened their campaigns with 1-1 draws, leaving them level in the Group B standings.",
+        "For Canada, this match represents a chance to build momentum on home soil after their initial stalemate against Bosnia and Herzegovina. The squad will be looking to capitalize on their opportunities and find a breakthrough to climb the table.",
+        "Qatar arrives with similar objectives following their hard-fought draw against Switzerland. Having proven they can hold their own against strong opposition, they will aim to refine their attack and secure a result that puts them in a strong position within the group.",
+        "With Switzerland having already played their second match, the pressure is on both Canada and Qatar to maximize their performance here. A positive result in this meeting is essential for both teams to keep their advancement hopes firmly in their own hands."
       ],
       "bullets": [
-        "Both teams enter the match with an identical record of one draw and one point.",
-        "Canada and Qatar are both aiming to improve their standing in Group B after opening with 1-1 results."
+        "Both teams enter the match with 1 point and a 0 goal difference.",
+        "Canada and Qatar are both chasing their first win after drawing their respective openers 1-1.",
+        "The outcome of this match will significantly impact the race for the top spots in Group B."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:39:57+00:00",
-      "sourceHash": "021ace006a68f280",
+      "updatedAt": "2026-07-10T17:59:28+00:00",
+      "sourceHash": "d4a7dd47c585558e",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "26": {
       "headline": "Group B Deadlock: Switzerland Meets Bosnia and Herzegovina",
-      "summary": "Switzerland and Bosnia and Herzegovina face off in Group B after both teams opened their campaigns with identical draws.",
+      "summary": "Switzerland and Bosnia and Herzegovina face off in Matchday 2 with both teams looking to break their identical group standings.",
       "story": [
-        "Group B is currently wide open, with all four teams sitting level on one point after their opening matches. Switzerland enters this second matchday looking to build on their performance against Qatar, while Bosnia and Herzegovina aim to capitalize on their momentum following their draw with Canada.",
-        "Both sides arrive at this fixture with identical records, having each scored one goal and conceded one in their respective openers. This symmetry makes the upcoming encounter particularly significant as both squads seek to break the deadlock and secure their first win of the tournament.",
-        "With the group standings showing no separation, the tactical approach from both managers will be under the microscope. Finding a way to convert opportunities into a decisive advantage will be the primary objective for both Switzerland and Bosnia and Herzegovina as they look to distance themselves from the rest of the pack."
+        "Group B is currently defined by absolute parity, as all four teams enter this round with exactly one point and an identical goal difference following their opening fixtures. Switzerland arrives here after a hard-fought draw against Qatar, while Bosnia and Herzegovina also split the points in their initial encounter with Canada.",
+        "Because every team in the group is currently locked at one point, this matchup carries significant weight for positioning. Both sides have shown they are capable of defensive resilience, but the pressure to find a breakthrough in this second round will be palpable as they look to separate themselves from the pack.",
+        "Switzerland will be aiming to build on their tournament opener, looking for more clinical execution in the final third. Meanwhile, Bosnia and Herzegovina will be focused on maintaining their composure as they navigate their second consecutive match against a high-level opponent in this tightly contested group."
       ],
       "bullets": [
-        "All four teams in Group B currently hold one point after the opening round of matches.",
-        "Switzerland and Bosnia and Herzegovina both finished their first matches with 1-1 results.",
-        "This is the second matchday for both teams in the group stage."
+        "Both teams enter the match with 1 point and a 0 goal difference.",
+        "Switzerland and Bosnia and Herzegovina both recorded 1-1 draws in their respective opening matches.",
+        "This is a pivotal Matchday 2 fixture that could define the trajectory for the remainder of Group B."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:40:05+00:00",
-      "sourceHash": "50d63b43b3073c43",
+      "updatedAt": "2026-07-10T17:59:35+00:00",
+      "sourceHash": "52ba271d0b942d35",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "25": {
-      "headline": "Group A Stakes: Czechia and South Africa Seek First Points",
-      "summary": "Both Czechia and South Africa enter this second group match looking to recover from opening losses and secure their first points of the tournament.",
+      "headline": "Czechia and South Africa Seek Crucial Points in Group A",
+      "summary": "Both teams enter their second group stage match looking to secure their first points of the tournament.",
       "story": [
-        "Czechia and South Africa meet in a pivotal Group A matchup, with both sides aiming to bounce back after challenging starts. Following their respective opening games, both teams currently sit at zero points, making this encounter vital for their progression hopes.",
-        "Czechia showed offensive intent in their first match, managing to find the back of the net despite a narrow defeat. They will look to build on that momentum and sharpen their defensive structure to contain South Africa's attack.",
-        "South Africa faces a different challenge after being held scoreless in their tournament opener. They will be focused on finding their rhythm in the final third while maintaining the defensive discipline required to keep their campaign alive."
+        "Czechia and South Africa meet in Group A with both sides aiming to bounce back from opening match defeats. After falling to South Korea in their first outing, Czechia will look to sharpen their attack and find more consistency across the pitch.",
+        "South Africa faces a similar challenge following their initial loss to Mexico. The team is currently searching for their first goal of the tournament, making offensive efficiency a primary focus for this matchup.",
+        "With Mexico and South Korea currently holding three points each at the top of the group, this fixture is pivotal for both Czechia and South Africa to stay competitive in the standings. A positive result here is essential for either team to keep their ambitions for the next round alive."
       ],
       "bullets": [
-        "Both teams are currently tied at zero points in Group A.",
-        "Czechia aims to improve upon a one-goal performance in their opening match.",
-        "South Africa is looking for their first goal of the tournament after an opening defeat."
+        "Both teams are currently at zero points in Group A.",
+        "Czechia scored one goal in their opening match, while South Africa is looking for their first goal of the tournament.",
+        "This is the second matchday for both teams in the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:40:13+00:00",
-      "sourceHash": "081a912196e51990",
+      "updatedAt": "2026-07-10T17:59:43+00:00",
+      "sourceHash": "d79809f68fad8b4d",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "24": {
       "headline": "Uzbekistan and Colombia Open Group K Campaign",
-      "summary": "Uzbekistan and Colombia kick off their World Cup journey in Group K, looking to gain an early advantage in the standings.",
+      "summary": "Uzbekistan and Colombia face off in their tournament opener to establish early momentum in Group K.",
       "story": [
-        "Group K action continues as Uzbekistan and Colombia prepare for their first appearance of the tournament. With the other two teams in the group, Portugal and DR Congo, having already played to a draw, both sides have a clear opportunity to claim the top spot in the table with a strong start.",
-        "For Uzbekistan, this match serves as a chance to establish their presence on the world stage. Entering the tournament with a clean slate, they will look to navigate the pressure of an opening match against a competitive South American side.",
-        "Colombia enters the contest looking to capitalize on the current group dynamics. Since the earlier match between Portugal and DR Congo finished level, three points here would immediately put the winner in a favorable position to control their own destiny within the group."
+        "Group K enters its second phase of Matchday 1 action as Uzbekistan and Colombia take the pitch for the first time. With Portugal and DR Congo already having played to a draw, the path to the top of the group standings remains wide open for both sides.",
+        "For Colombia, this match represents a chance to set a strong tone in a competitive group. Entering the tournament with high expectations, they will look to navigate this initial test against an Uzbekistan squad that is eager to prove its capability on the global stage.",
+        "Uzbekistan arrives at this match with a clean slate, looking to secure points in a group where every result carries significant weight. Given the deadlock in the earlier group fixture, both teams understand that a positive performance here is crucial for their standing as the tournament progresses."
       ],
       "bullets": [
-        "Both teams enter the match with zero points, trailing the one-point total held by Portugal and DR Congo.",
-        "A win for either side would result in sole possession of first place in Group K."
+        "Group K is currently led by Portugal and DR Congo, who each hold one point following their opening draw.",
+        "This is the first tournament match for both Uzbekistan and Colombia.",
+        "Securing a result in this opening fixture provides an immediate advantage in a group where the margins are expected to be thin."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:40:20+00:00",
-      "sourceHash": "681d3cb480990c0f",
+      "updatedAt": "2026-07-10T17:59:51+00:00",
+      "sourceHash": "1824b9f0454efd5c",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "23": {
       "headline": "Ghana and Panama Open Group L Campaign",
-      "summary": "Ghana and Panama make their tournament debuts in a crucial opening Group L matchup.",
+      "summary": "Ghana and Panama face off in their tournament opener, looking to secure early points in a competitive Group L.",
       "story": [
-        "Ghana and Panama enter their first match of the tournament with a clean slate, looking to establish momentum in a competitive Group L. With England already securing three points in their opening fixture against Croatia, both teams understand the importance of securing a positive result to stay in contention within the group standings.",
-        "This matchup represents a fresh start for both sides as they have not yet played any matches in this tournament cycle. Without previous group results to lean on, both squads will be looking to settle into their rhythm early and impose their style of play on the opponent.",
-        "The pressure is on to keep pace with the early leaders in the group. As the second match of the day for Group L, both teams have the advantage of knowing exactly what the current table looks like, which adds a layer of tactical intrigue to how they approach their tournament opener."
+        "Ghana and Panama enter this opening match with a clean slate, both eager to establish momentum in Group L. With England and Croatia already having played their first fixture, both teams understand the importance of securing a positive start to keep pace in what promises to be a tight group race.",
+        "For Ghana, this match represents a chance to set the tone for their tournament run. The squad will be looking to capitalize on their first outing to demonstrate their readiness against a Panama side that is equally hungry to prove its capabilities on the world stage.",
+        "Panama arrives at this match looking to make a statement in a group that features strong European opposition. Navigating this initial test will be vital for their confidence as they look to build a foundation for the remainder of the group stage."
       ],
       "bullets": [
-        "Ghana and Panama are both making their first appearance in the tournament today.",
-        "England currently leads Group L with three points following their victory over Croatia.",
-        "Both teams are looking to secure their first points of the tournament to remain level with the group leaders."
+        "Both Ghana and Panama are playing their first match of the tournament.",
+        "England currently leads Group L with 3 points following their opening victory.",
+        "This match is the second fixture to take place in Group L."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:40:28+00:00",
-      "sourceHash": "8dbdc66dc6b3b802",
+      "updatedAt": "2026-07-10T17:59:58+00:00",
+      "sourceHash": "f0a89b38721b546a",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5315,20 +5317,20 @@
     },
     "20": {
       "headline": "Austria and Jordan Open Group J Campaign",
-      "summary": "Austria and Jordan make their tournament debuts in Group J, looking to secure early points in the standings.",
+      "summary": "Austria and Jordan make their tournament debuts in Group J, looking to secure an early foothold in the standings.",
       "story": [
-        "Austria and Jordan enter this Matchday 1 encounter with a clean slate as they begin their journey in Group J. Both teams are looking to establish their rhythm early in the tournament, knowing that a positive start is vital for navigating the group stage successfully.",
-        "The group landscape has already seen action, with Argentina establishing an early lead following their victory over Algeria. This context adds a layer of significance to the matchup, as both Austria and Jordan aim to keep pace and position themselves favorably within the group rankings.",
-        "As these two sides face off, the focus will be on how they adapt to the pressure of their first match of the tournament. With no previous group matches played by either team, this game serves as the primary indicator of their current form and tactical approach for the weeks ahead."
+        "Austria and Jordan step onto the pitch for their opening match of the tournament, marking the first time both teams appear in Group J action. With Argentina having already claimed three points in their opening fixture against Algeria, the pressure is on both sides to establish their form immediately.",
+        "For Austria, this match represents a chance to start their campaign on the front foot and keep pace with the early group leaders. A strong performance here is vital for any team hoping to navigate the complexities of the group stage effectively.",
+        "Jordan enters this contest looking to make a statement in their tournament opener. Navigating the initial nerves of the first matchday is often a defining factor, and how they handle the tactical demands of this encounter will be a primary indicator of their potential for the remainder of the group phase."
       ],
       "bullets": [
-        "Both Austria and Jordan are playing their first match of the tournament.",
-        "Argentina currently leads Group J with 3 points following their opening win.",
-        "This match represents the first opportunity for either team to secure points in the group standings."
+        "Group J is currently topped by Argentina following their victory over Algeria.",
+        "This is the first match of the tournament for both Austria and Jordan.",
+        "Both teams are looking to secure their first points to stay competitive in a group that already features a clear frontrunner."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:40:51+00:00",
-      "sourceHash": "ddd69b8f3891ddfd",
+      "updatedAt": "2026-07-10T18:00:06+00:00",
+      "sourceHash": "de6653f8c53cfa0f",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5355,20 +5357,20 @@
     },
     "18": {
       "headline": "Iraq and Norway Open Group I Campaign",
-      "summary": "Iraq and Norway face off in their opening match of Group I, looking to establish themselves early in the tournament standings.",
+      "summary": "Iraq and Norway face off in their opening match of Group I, looking to secure early points in a competitive bracket.",
       "story": [
-        "Iraq and Norway enter this match with a clean slate as they begin their Group I journey. With both teams yet to play a fixture in this tournament, this opening encounter serves as a critical opportunity to secure early points and build momentum.",
-        "The group landscape has already shifted following the earlier fixture between France and Senegal. Because France currently sits at the top of the table with three points, both Iraq and Norway understand the importance of a strong start to keep pace with the early leaders.",
-        "As this is the first outing for both squads, there is an element of tactical mystery regarding how these two sides will approach the pitch. Both teams will be looking to balance defensive discipline with the need to find the back of the net in what promises to be a high-stakes opening day battle."
+        "Iraq and Norway enter their first match of the tournament with a clean slate, both eager to establish themselves in Group I. With France already securing three points in their opening fixture against Senegal, the pressure is on both sides to keep pace early in the group stage.",
+        "This matchup serves as the debut for both nations in this tournament cycle. Without any prior matches played, both teams will be looking to settle into their rhythm quickly to avoid falling behind in the standings.",
+        "The result of this encounter will be significant for the group table, as France currently sits at the top with three points. A strong start here is essential for either team to challenge for a favorable position as the group stage progresses."
       ],
       "bullets": [
-        "Both teams are making their tournament debut in this match.",
-        "France currently leads Group I with three points, putting pressure on Iraq and Norway to secure a positive result.",
-        "This is the first of three group stage matches for both nations."
+        "Both teams are playing their first match of the tournament.",
+        "France currently leads Group I with three points after their win over Senegal.",
+        "A win for either side would pull them level with France in the group standings."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:41:06+00:00",
-      "sourceHash": "4f87ab67a141f489",
+      "updatedAt": "2026-07-10T18:00:13+00:00",
+      "sourceHash": "a12f98472e205a6d",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5394,42 +5396,40 @@
     },
     "16": {
       "headline": "Iran and New Zealand Open Group G Campaign",
-      "summary": "Iran and New Zealand face off in their tournament opener, looking to gain an early advantage in a competitive Group G.",
+      "summary": "Iran and New Zealand face off in their opening Group G match to determine early positioning in the table.",
       "story": [
-        "Group G enters the fray with both Iran and New Zealand making their tournament debuts. With Belgium and Egypt already having played to a draw earlier in the day, the path is clear for either side to seize the initiative in the group standings.",
-        "For Iran, this match represents a chance to establish their presence on the world stage early. They enter the tournament with a clean slate, aiming to capitalize on the tactical discipline that has defined their recent international preparations.",
-        "New Zealand arrives with the ambition of proving their quality against a seasoned opponent. As they look to navigate the group, securing a strong start is vital for their hopes of advancing beyond this initial phase.",
-        "The result of the earlier match between Belgium and Egypt ensures that the group remains wide open. Both teams know that a positive performance here will place them in a strong position as they prepare for their subsequent group stage encounters."
+        "Group G enters a new phase as Iran and New Zealand take the pitch for their first match of the tournament. With Belgium and Egypt already having played to a draw, both teams have a clear opportunity to claim the top spot in the group standings with a positive result.",
+        "Iran enters this match looking to establish their rhythm early in the competition. As they begin their campaign, they will be focused on securing points to keep pace with the rest of the group.",
+        "New Zealand arrives with the same objective, aiming to navigate the tactical challenges of their opening fixture. Both sides are starting from zero points, making this initial encounter a significant factor in how the group dynamics will unfold over the coming days."
       ],
       "bullets": [
-        "Group G is currently led by Belgium and Egypt, who each hold one point following their draw.",
-        "This is the opening match for both Iran and New Zealand in the 2026 tournament.",
-        "Both teams are looking to secure their first points to keep pace with the early group leaders."
+        "Both teams are making their first appearance of the tournament.",
+        "The winner of this match will move to the top of the Group G standings.",
+        "Belgium and Egypt currently hold one point each following their draw earlier today."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:41:22+00:00",
-      "sourceHash": "8ad8cc611c285f75",
+      "updatedAt": "2026-07-10T18:00:21+00:00",
+      "sourceHash": "0a9bab48d91b7dc4",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "15": {
       "headline": "Saudi Arabia and Uruguay Open Group H Campaign",
-      "summary": "Saudi Arabia and Uruguay take the pitch for their opening Group H match, looking to establish early momentum in the standings.",
+      "summary": "Saudi Arabia and Uruguay face off in their opening Group H match, looking to establish early momentum in a group where the other two teams recently finished in a draw.",
       "story": [
-        "Group H enters its first day of action with Saudi Arabia and Uruguay making their tournament debuts. With Spain and Cabo Verde already having played to a draw earlier today, both teams have a clear opportunity to seize an early advantage in the group table.",
-        "For Saudi Arabia, this match represents a chance to test their organization against a side known for high-intensity play. Establishing a rhythm early will be vital as they look to navigate a competitive group that includes established European opposition.",
-        "Uruguay arrives with a reputation for a physical and direct style of play. They will be looking to capitalize on this opening match to set the tone for their campaign and secure points before the group schedule intensifies.",
-        "With the other two teams in the group currently sitting on one point apiece, the winner of this contest will immediately move to the top of the standings. Both squads will be focused on executing their game plans to avoid the stalemate that defined the earlier fixture in this group."
+        "Group H enters the fray with both Saudi Arabia and Uruguay making their first appearances of the tournament. With Spain and Cabo Verde already having played to a scoreless draw earlier today, the door is wide open for either side to seize an early advantage in the standings.",
+        "Uruguay enters this matchup carrying the pedigree of a perennial contender, often relying on a blend of tactical discipline and high-intensity play. They will be looking to assert control early against a Saudi Arabian side that is aiming to prove its competitiveness on the global stage.",
+        "For Saudi Arabia, this match serves as a crucial test to determine their standing within the group. Managing the tempo against a technically proficient opponent will be essential as they look to secure points in their opening fixture."
       ],
       "bullets": [
-        "Group H is wide open following a scoreless draw between Spain and Cabo Verde.",
-        "Both Saudi Arabia and Uruguay are playing their first match of the tournament.",
-        "The winner of this match will claim the sole lead in the Group H standings."
+        "Both teams are playing their first match of the tournament.",
+        "Spain and Cabo Verde finished their opening match with 0 points each after a 0-0 draw.",
+        "A win for either side would immediately put them at the top of the Group H table."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:41:30+00:00",
-      "sourceHash": "ccaca1c5098e55a2",
+      "updatedAt": "2026-07-10T18:00:28+00:00",
+      "sourceHash": "e5329a57145d1394",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5475,41 +5475,40 @@
       "refreshReason": "preview source or prompt changed"
     },
     "12": {
-      "headline": "Sweden and Tunisia open their Group F campaign",
-      "summary": "Sweden and Tunisia face off in their opening match of Group F, looking to gain early momentum in a group already featuring a draw between the Netherlands and Japan.",
+      "headline": "Sweden and Tunisia Open Group F Campaign",
+      "summary": "Sweden and Tunisia face off in their tournament opener, looking to establish momentum in a competitive Group F.",
       "story": [
-        "Sweden and Tunisia enter this Group F matchup with a clean slate, both playing their first game of the tournament. With the Netherlands and Japan having already played to a 2-2 draw earlier today, the pressure is on both sides to secure points and establish an early foothold in the group standings.",
-        "For Sweden, this match represents a chance to set the tone for their tournament run. They enter the fixture with no prior matches played in this group, making this opening performance vital for gauging their form against a competitive Tunisian squad.",
-        "Tunisia arrives looking to navigate a challenging group. By observing the high-scoring draw between the Netherlands and Japan, they have a clear understanding of the offensive intensity required to compete in this bracket. Both teams will be eager to avoid falling behind the pace set by their group rivals."
+        "Sweden and Tunisia arrive at their first match of the tournament with a clean slate, both teams eager to secure an early advantage in Group F. With no points on the board yet, this opening fixture serves as a critical opportunity to set the tone for the remainder of the group stage.",
+        "The landscape of the group has already been shaped by a high-scoring draw between Japan and the Netherlands earlier today. That result means both Sweden and Tunisia have a clear path to claim the top spot in the standings with a strong performance, adding immediate pressure to this matchup.",
+        "Both squads are entering this contest with fresh legs, having not yet played in the tournament. Tactical discipline will be at a premium as they look to capitalize on the opportunity created by the earlier stalemate in the group."
       ],
       "bullets": [
-        "Group F is wide open after the Netherlands and Japan finished their match at 2-2.",
-        "Both Sweden and Tunisia are making their tournament debut in this fixture.",
-        "The result of this match will determine which team joins the Netherlands and Japan on the group leaderboard."
+        "Both teams currently sit on zero points, trailing the Netherlands and Japan who each have one point.",
+        "A win for either side would immediately vault them to the top of the Group F table."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:41:53+00:00",
-      "sourceHash": "bd95dcf578a34f7c",
+      "updatedAt": "2026-07-10T18:00:36+00:00",
+      "sourceHash": "0c0916d40a4d6eac",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "11": {
       "headline": "Ivory Coast and Ecuador open their Group E campaigns",
-      "summary": "Ivory Coast and Ecuador face off in their tournament opener, looking to establish early momentum in a group already shaped by Germany's strong start.",
+      "summary": "Ivory Coast and Ecuador meet for their opening match of the tournament to establish their footing in a competitive Group E.",
       "story": [
-        "Ivory Coast and Ecuador enter this match with a clean slate, both eager to secure three points in their opening fixture. As the second match of the group, the pressure is on both sides to keep pace with Germany, who set a high bar with their dominant performance earlier in the day.",
-        "For Ivory Coast, this match represents a chance to prove their mettle on the global stage. They face an Ecuador side known for their tactical discipline and physical approach, making this a pivotal test for both teams' defensive structures and ability to control the pace of play.",
-        "With Germany already sitting at the top of the table following their win over Curacao, the stakes for this specific encounter are elevated. A positive result here is essential for either team to avoid playing catch-up for the remainder of the group stage, as the race for the knockout spots begins in earnest."
+        "Ivory Coast and Ecuador enter this opening Group E fixture with a clean slate, both looking to secure early points in a group that already features a high-scoring result from earlier today. With Germany having set a high bar in their victory over Curacao, the pressure is on both sides to demonstrate their quality and tactical readiness.",
+        "For Ecuador, this match represents a chance to establish momentum and prove their defensive organization against a dynamic Ivory Coast squad. Both teams are making their first appearance of the tournament, meaning there is no fatigue to manage, but the psychological importance of starting with a positive performance cannot be overstated.",
+        "As the group table currently stands, Germany sits at the top with three points, leaving both Ivory Coast and Ecuador eager to keep pace. A strong start here is essential for either side hoping to navigate the group stage successfully and avoid playing catch-up in their remaining fixtures."
       ],
       "bullets": [
-        "Ivory Coast and Ecuador are both making their first appearance of the tournament in this match.",
-        "Germany currently leads Group E with 3 points after their opening victory.",
-        "Both teams will be looking to secure a result to stay competitive in the standings alongside Germany and Curacao."
+        "Group E features Germany, Curacao, Ivory Coast, and Ecuador.",
+        "Germany currently leads the group with three points following their opening match.",
+        "Both Ivory Coast and Ecuador are playing their first match of the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:42:01+00:00",
-      "sourceHash": "4eb269fbc7593efb",
+      "updatedAt": "2026-07-10T18:00:44+00:00",
+      "sourceHash": "71dce72a265b371d",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5556,40 +5555,41 @@
     },
     "8": {
       "headline": "Australia and Turkey Open Group D Campaign",
-      "summary": "Australia and Turkey face off in their opening Group D match to establish position in a group currently led by the United States.",
+      "summary": "Australia and Turkey face off in their Group D opener, looking to establish momentum early in the tournament.",
       "story": [
-        "Australia and Turkey enter their first match of the tournament with a clean slate, both looking to secure an early advantage in Group D. With the United States having already claimed three points in their opening fixture against Paraguay, the pressure is on both sides to start their campaign with a strong performance.",
-        "The Group D landscape is already taking shape following the United States' victory, which leaves Paraguay at the bottom of the table with a negative goal difference. For Australia and Turkey, this encounter represents a vital opportunity to keep pace with the early group leaders and avoid falling behind in the race for qualification.",
-        "Both teams arrive at this match with zero points, meaning the outcome will significantly influence the group dynamics heading into the second round of fixtures. Supporters should watch how each side manages the tactical challenge of their first appearance in the tournament, as neither team has played a match yet in this group stage."
+        "Group D enters its second fixture of Matchday 1 as Australia and Turkey prepare for their opening encounter. With the United States having already secured three points in their first match against Paraguay, both Australia and Turkey are eager to make their mark on the group standings.",
+        "This match represents a blank slate for both sides, as neither team has played in the tournament yet. Securing a positive result here is vital for both squads to keep pace with the early group leaders and position themselves well for the remaining matches in the group stage.",
+        "Tactical discipline will be at a premium as these two teams meet for the first time in this competition. Fans should look for how each squad manages the pressure of an opening match, especially with the Group D table already showing the United States at the top with a plus-three goal difference."
       ],
       "bullets": [
-        "Australia and Turkey are making their first group stage appearance.",
-        "The winner will move level on points with the United States.",
-        "Paraguay currently sits at the bottom of the group after their opening loss."
+        "Both Australia and Turkey enter this match with zero points, looking to secure their first result of the tournament.",
+        "The United States currently leads Group D following their opening victory over Paraguay.",
+        "This is the first appearance for both Australia and Turkey in the 2026 tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:45:05+00:00",
-      "sourceHash": "88ed4e5186e6dd59",
+      "updatedAt": "2026-07-10T18:00:52+00:00",
+      "sourceHash": "f9b0170d99fd833e",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "7": {
       "headline": "Scotland and Haiti Open Group C Campaign",
-      "summary": "Scotland and Haiti face off in their opening Group C fixture as both teams look to make a strong start to the tournament.",
+      "summary": "Scotland and Haiti face off in their Group C opener, looking to establish momentum after the group's initial draw.",
       "story": [
-        "Scotland and Haiti enter this opening Group C fixture with a clean slate, both eager to secure points in their first appearance of the tournament. As the final pair of teams to play in this group, they have the advantage of knowing exactly where they stand following the earlier draw between Brazil and Morocco.",
-        "For Scotland, the focus will be on establishing a rhythm early in the tournament. Their ability to manage the pressure of a debut match will be a primary factor in how they navigate the opening minutes against a hungry Haitian side.",
-        "Haiti arrives ready to challenge expectations in what is a competitive group. With their first match ahead of them, they will look to leverage their tactical preparation to disrupt Scotland and claim a vital foothold in the standings."
+        "Scotland and Haiti enter their first match of the tournament with a clean slate, both eager to secure points in a competitive Group C. With Brazil and Morocco having already played to a draw earlier today, the door is wide open for either side to take an early lead in the group standings.",
+        "For Scotland, this match represents a chance to set a physical and tactical tone for their campaign. They will be looking to capitalize on the opportunity to gain immediate separation from the teams currently sitting on one point.",
+        "Haiti arrives at this fixture ready to prove their capabilities on the global stage. As they begin their tournament journey, their ability to manage the pressure of an opening match will be a defining factor in their performance.",
+        "The tactical landscape of this group has shifted following the earlier result between Brazil and Morocco. Both Scotland and Haiti know that a strong start here is vital to navigating the complexities of the group stage effectively."
       ],
       "bullets": [
-        "Both Scotland and Haiti are making their first appearance in the group, entering with zero points.",
-        "Brazil and Morocco have already played to a 1-1 draw, setting the current pace for Group C.",
-        "This match represents a crucial opportunity for either side to gain an early advantage in the group table."
+        "Both teams start the day with zero points, providing a clear path to the top of the group table.",
+        "The match follows a 1-1 draw between Brazil and Morocco, meaning the group is currently tightly packed.",
+        "This is the first appearance for both nations in this tournament cycle, making the opening minutes crucial for settling nerves."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:45:13+00:00",
-      "sourceHash": "1ee3e319dd4877da",
+      "updatedAt": "2026-07-10T18:01:00+00:00",
+      "sourceHash": "a60bb368c5fe1eda",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5734,21 +5734,21 @@
       "refreshReason": "preview source or prompt changed"
     },
     "42": {
-      "headline": "France and Iraq seek momentum in Group I",
-      "summary": "France looks to build on their opening victory while Iraq aims to rebound in this second matchday of Group I.",
+      "headline": "France and Iraq Square Off in Group I",
+      "summary": "France looks to build on their opening victory while Iraq aims to rebound in this pivotal second matchday of Group I.",
       "story": [
-        "France enters this match with confidence after a successful start to their campaign. Their opening performance demonstrated a clinical ability to find the back of the net, which they will look to replicate as they navigate the complexities of group play.",
-        "For Iraq, this match serves as a pivotal opportunity to reset their trajectory. After facing a difficult result in their first outing, the team will need to tighten their defensive structure and find a way to challenge a formidable French side.",
-        "The stakes are clear for both teams as they look to secure points in a competitive Group I. With Norway currently leading the group on goal difference, both France and Iraq understand the importance of this encounter in determining their path forward."
+        "France enters this matchup with momentum following a strong start to their tournament campaign. Having secured three points in their opening fixture against Senegal, they now look to solidify their position at the top of the group table.",
+        "Iraq faces a different challenge as they seek to recover from their initial outing against Norway. With zero points currently on the board, this match represents a critical opportunity for them to find their rhythm and keep their aspirations alive within the group.",
+        "The tactical dynamic will be intriguing as France attempts to maintain their offensive efficiency while Iraq works to tighten their defensive structure. Both teams are aware of the implications this result will have on the final standings as the group stage progresses."
       ],
       "bullets": [
-        "France enters with 3 points and a +2 goal difference.",
-        "Iraq is looking to earn their first points of the tournament.",
-        "Group I remains tight, with Norway and France currently tied on points at the top of the table."
+        "France enters the match with 3 points and a +2 goal difference.",
+        "Iraq is looking for their first points of the tournament after a challenging start to Group I.",
+        "Both teams are playing their second match of the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:35:52+00:00",
-      "sourceHash": "280e2992cfe4df96",
+      "updatedAt": "2026-07-10T17:57:34+00:00",
+      "sourceHash": "0686fbe66b432aa6",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
