@@ -3248,7 +3248,7 @@ window.WORLD_CUP_DATA = {
       "awaySource": "Winner Match 94",
       "bracketAwayTeam": "Belgium",
       "awayRevealSource": "Winner Match 94",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1
     },
     {
@@ -3521,6 +3521,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-10T19:47:23+00:00",
+  "bracketUpdatedAt": "2026-07-10T20:55:44+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
