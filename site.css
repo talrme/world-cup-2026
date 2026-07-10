@@ -1142,6 +1142,32 @@ h1 {
   width: auto;
 }
 
+.detail-broadcast-chip {
+  align-items: center;
+  background: rgba(16, 32, 22, 0.08);
+  border: 1px solid rgba(16, 32, 22, 0.14);
+  border-radius: 999px;
+  color: #102016;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  justify-self: center;
+  padding: 7px 12px;
+  width: fit-content;
+}
+
+.detail-broadcast-chip span {
+  color: #59635e;
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.detail-broadcast-chip strong {
+  font-size: 0.94rem;
+  font-weight: 950;
+}
+
 .detail-rankings {
   display: grid;
   gap: 6px;

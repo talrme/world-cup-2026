@@ -181,6 +181,15 @@ def parse_time(value: str) -> str | None:
     return f"{hour:02d}:{minute:02d}"
 
 
+def useful_network(value: str | None) -> str | None:
+    if not value:
+        return None
+    value = value.strip()
+    if not value or normalize_text(value) in {"tbd", "tba", "to be determined"}:
+        return None
+    return value
+
+
 def stage_from_line(line: str, current_stage: str) -> str:
     key = normalize_text(line)
     return ROUND_ALIASES.get(key, current_stage)
@@ -515,8 +524,9 @@ def apply_fixture(match: dict[str, Any], fixture: Fixture) -> list[str]:
         match.setdefault("timezoneLabel", "ET")
         changes.append("kickoff")
 
-    if fixture.network and changed(match, "network", fixture.network):
-        match["network"] = fixture.network
+    network = useful_network(fixture.network)
+    if network and changed(match, "network", network):
+        match["network"] = network
         changes.append("network")
 
     if fixture.home_score is not None and fixture.away_score is not None:

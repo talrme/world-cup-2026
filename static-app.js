@@ -1277,6 +1277,20 @@
     `;
   }
 
+  function broadcastLabel(match) {
+    const network = String(match.network || "").trim();
+    return network && network.toLowerCase() !== "tbd" ? network : "TBD";
+  }
+
+  function renderDetailBroadcastChip(match) {
+    return `
+      <div class="detail-broadcast-chip" aria-label="Broadcast">
+        <span>Broadcast</span>
+        <strong>${escapeHtml(broadcastLabel(match))}</strong>
+      </div>
+    `;
+  }
+
   function scoreCutoffReveals(match) {
     return Boolean(state.scoreCutoffEnabled && state.scoreCutoffDate && localDateKey(match) <= state.scoreCutoffDate);
   }
@@ -1656,6 +1670,7 @@
         <div class="detail-score">${renderScorePill(match)}</div>
         ${videoStatus(match) ? `<div class="detail-video-state">${escapeHtml(videoStatus(match))}</div>` : ""}
         ${renderVideoActions(match)}
+        ${renderDetailBroadcastChip(match)}
         ${renderOddsProbability(match)}
         <dl>
           ${renderRankingRow(match)}
@@ -1663,7 +1678,7 @@
           <div><dt>Match #</dt><dd>${escapeHtml(String(match.id))}</dd></div>
           <div><dt>Kickoff</dt><dd>${escapeHtml(formatDate(match))} at ${escapeHtml(formatTime(match))}</dd></div>
           <div><dt>Location</dt><dd>${renderVenueButton(match)}</dd></div>
-          <div><dt>Broadcast</dt><dd>${escapeHtml(match.network || "TBD")}</dd></div>
+          <div><dt>Broadcast</dt><dd>${escapeHtml(broadcastLabel(match))}</dd></div>
           ${matchNotice(match, current) ? `<div><dt>Status</dt><dd>${escapeHtml(matchNotice(match, current))}</dd></div>` : ""}
         </dl>
         ${renderAiInsight("matchPreview", match.id, "Pregame Preview", {
