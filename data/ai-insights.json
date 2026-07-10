@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T11:41:13+00:00",
+  "generatedAt": "2026-07-10T13:37:38+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1391,62 +1391,61 @@
       "refreshReason": "source or prompt changed"
     },
     "3": {
-      "headline": "Canada and Bosnia and Herzegovina Draw in Group B Opener",
-      "summary": "Canada and Bosnia and Herzegovina finished their opening match in a 1-1 draw.",
+      "headline": "Canada and Bosnia and Herzegovina open Group B with a draw",
+      "summary": "Canada and Bosnia and Herzegovina played to a 1-1 stalemate in their opening match of the group stage.",
       "story": [
-        "The opening match for both sides in Group B resulted in a hard-fought 1-1 stalemate. Neither team could find the decisive edge, leaving them to share the points as the tournament group phase began.",
-        "This result set the tone for a competitive group that ultimately saw Switzerland finish at the top. For Canada, the draw was followed by a dominant 6-0 win over Qatar and a narrow loss to Switzerland, which eventually led them to a Round of 16 appearance.",
-        "Bosnia and Herzegovina also faced a challenging path, following this opener with a loss to Switzerland and a victory against Qatar. While they finished level on points with Canada, the group standings were ultimately decided by goal difference."
+        "The opening match for both nations in Group B ended in a 1-1 draw, setting a competitive tone for the group. Neither side could find a decisive advantage, forcing both teams to share the points to begin their tournament campaigns.",
+        "This result was a significant early indicator for the group, which also included Switzerland and Qatar. For Canada, the draw served as the first step in a group stage journey that eventually saw them finish second with four points, trailing group winners Switzerland.",
+        "Bosnia and Herzegovina also finished their group stage with four points, though they ultimately fell behind Canada on goal difference. The early point from this match proved vital as both teams navigated a tight group table throughout the opening phase."
       ],
       "bullets": [
-        "The 1-1 result forced both teams to chase points in their remaining group fixtures.",
-        "Canada eventually advanced out of the group, while Bosnia and Herzegovina finished third."
+        "The match concluded with a 1-1 scoreline, resulting in one point for each team.",
+        "Both Canada and Bosnia and Herzegovina finished the group stage tied on four points.",
+        "Canada secured second place in Group B based on a superior goal difference compared to Bosnia and Herzegovina."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:19:17+00:00",
-      "sourceHash": "b058d14e6fa51d92",
+      "updatedAt": "2026-07-10T13:33:55+00:00",
+      "sourceHash": "9ca6899fe1e334f5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "2": {
       "headline": "South Korea edges Czechia in Group A opener",
-      "summary": "South Korea secured a 2-1 victory over Czechia to kick off their Group A campaign.",
+      "summary": "South Korea secured a narrow 2-1 victory over Czechia to kick off their Group A campaign.",
       "story": [
-        "South Korea opened their tournament with a hard-fought 2-1 win against Czechia, providing an early boost in a competitive Group A. The result initially positioned them well within the group standings, though the path forward proved difficult as the group stage progressed.",
-        "For Czechia, the loss served as a challenging start to their campaign. Despite the narrow defeat, they remained in the mix for subsequent matchdays, eventually securing a draw against South Africa before concluding their group run.",
-        "Looking back at the full group standings, Mexico dominated the group with 9 points, while the battle for the remaining spots was tight. South Korea finished with 3 points, ultimately falling behind South Africa, who claimed second place with 4 points.",
-        "The group concluded with South Korea finishing third, narrowly missing out on advancing after subsequent losses to Mexico and South Africa. Czechia finished at the bottom of the table with 1 point from their three matches."
+        "South Korea opened their tournament with a vital 2-1 win against Czechia, providing them with an early advantage in a competitive Group A. This result proved to be the only victory for South Korea in the group stage, as they subsequently fell to Mexico and South Africa in their following matches.",
+        "For Czechia, the loss set a difficult tone for their group campaign. They managed a draw against South Africa in their second match but ultimately finished at the bottom of the table after a final-day defeat to Mexico.",
+        "The final Group A standings saw Mexico dominate with nine points, while South Africa secured second place with four points. South Korea finished third with three points, and Czechia concluded their run with a single point from their three fixtures."
       ],
       "bullets": [
-        "South Korea's 2-1 victory was their only win of the group stage.",
-        "Czechia finished the group with 1 point after a draw with South Africa and a loss to Mexico.",
-        "Group A concluded with Mexico advancing undefeated alongside South Africa."
+        "South Korea's victory in this match accounted for their only points of the group stage.",
+        "Czechia finished at the bottom of Group A with one draw and two losses.",
+        "Mexico swept the group, finishing with a perfect nine-point record."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:19:24+00:00",
-      "sourceHash": "734b8adf0efee6c4",
+      "updatedAt": "2026-07-10T13:34:02+00:00",
+      "sourceHash": "eeba7764fdcac675",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "1": {
-      "headline": "Mexico Opens Group A with Dominant Win Over South Africa",
-      "summary": "Mexico secured a clean 2-0 victory over South Africa in their opening match, setting the tone for a perfect group stage run.",
+      "headline": "Mexico Opens Tournament with Decisive Win Over South Africa",
+      "summary": "Mexico secured a strong start to their campaign with a 2-0 victory over South Africa in their opening Group A fixture.",
       "story": [
-        "Mexico established control early in Group A, taking three points with a decisive 2-0 win against South Africa. The result provided the foundation for a dominant group stage campaign where Mexico would eventually finish at the top of the table with nine points and an unblemished defensive record.",
-        "For South Africa, the opening loss forced them into a challenging position within the group. They managed to recover some momentum later in the group stage, including a 1-1 draw against Czechia and a crucial 1-0 victory over South Korea, which ultimately secured them a spot in the knockout rounds.",
-        "Mexico's trajectory following this win saw them maintain high form through the group stage, including a 3-0 shutout of Czechia. They successfully advanced to the Round of 16 after defeating Ecuador in the Round of 32, though their tournament run eventually concluded in a narrow 3-2 loss to England.",
-        "South Africa's journey concluded in the Round of 32, where they were edged out 1-0 by Canada. This opening match against Mexico served as the primary indicator of the defensive strength Mexico would display throughout the early stages of the tournament."
+        "Mexico established control of Group A early by defeating South Africa 2-0. The result set the tone for a dominant group stage performance where Mexico finished with a perfect nine points and zero goals conceded.",
+        "For South Africa, the loss was a challenging start to a group campaign that eventually saw them finish second with four points. Despite the early setback, they managed to navigate the remainder of the group stage to secure a spot in the knockout rounds.",
+        "The victory provided Mexico with the momentum needed to sweep their group matches against South Korea and Czechia. This win served as the foundation for their eventual run into the Round of 16, where they ultimately faced England."
       ],
       "bullets": [
-        "Mexico finished Group A with a perfect 9 points and a +6 goal difference.",
-        "South Africa advanced to the knockout stage as the group runner-up with 4 points.",
-        "Mexico did not concede a single goal during their three group stage matches."
+        "Mexico finished the group stage undefeated with a perfect 3-0-0 record.",
+        "South Africa advanced to the knockout phase as the Group A runner-up with four points.",
+        "Mexico did not concede a single goal throughout their three group stage matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T06:11:55+00:00",
-      "sourceHash": "5d6c908b91b89bf2",
+      "updatedAt": "2026-07-10T13:34:10+00:00",
+      "sourceHash": "456a7023da8b7050",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -4560,101 +4559,105 @@
       "refreshReason": "preview source or prompt changed"
     },
     "74": {
-      "headline": "Germany and Paraguay Face Off in Round of 32",
-      "summary": "Germany meets Paraguay in a high-stakes Round of 32 knockout match to determine who moves forward in the tournament.",
+      "headline": "Germany and Paraguay Open Knockout Play",
+      "summary": "Germany meets Paraguay in the Round of 32 to begin their pursuit of the title.",
       "story": [
-        "Germany enters this Round of 32 matchup after finishing at the top of Group E. Their group stage journey saw them secure victories against Curacao and Ivory Coast, though they faced a challenge in their final group match against Ecuador.",
-        "Paraguay arrives at this stage after navigating a competitive Group D. Their path included a win against Turkey and a hard-fought draw with Australia, demonstrating their ability to remain disciplined under pressure.",
-        "As this is a knockout round fixture, both teams are aware that their tournament progression depends entirely on the outcome of this single game. Germany will look to leverage their group-topping form, while Paraguay will aim to build on their defensive resilience shown in their previous outing.",
-        "This matchup presents a clear contrast in styles and recent tournament experiences. With no room for error in the knockout phase, both sides will need to execute their game plans with precision to keep their hopes of advancing alive."
+        "Germany enters this Round of 32 matchup after a group stage campaign that saw them finish at the top of Group E. Their journey included a high-scoring victory against Curacao and a tight win over Ivory Coast, though they faced a challenge in their final group match against Ecuador.",
+        "Paraguay arrives at this stage after navigating a competitive Group D. Their path featured a resilient performance to secure a win against Turkey and a hard-fought draw against Australia, demonstrating their ability to remain disciplined under pressure.",
+        "As both teams transition into the single-elimination format, the focus shifts to defensive stability and capitalizing on limited opportunities. With no room for error in the knockout rounds, the tactical approach from both managers will be central to determining who advances.",
+        "This encounter brings together two sides with different group stage experiences, testing Germany's ability to bounce back from their recent result and Paraguay's capacity to continue their defensive momentum against a formidable opponent."
       ],
       "bullets": [
-        "Germany finished first in Group E, showing offensive potential with a strong showing against Curacao.",
-        "Paraguay enters the knockout stage coming off a clean sheet in their final group match against Australia.",
-        "This is a winner-take-all scenario where the victor secures a spot in the next round of the tournament."
+        "Germany finished first in Group E, earning their spot in the knockout bracket.",
+        "Paraguay advanced as one of the best third-placed teams after competing in Group D.",
+        "Both teams must now adapt to the high-stakes environment of the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:15:11+00:00",
-      "sourceHash": "2a781c0c6d23e70e",
+      "updatedAt": "2026-07-10T13:37:38+00:00",
+      "sourceHash": "2433560cb8740879",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "79": {
       "headline": "Mexico and Ecuador Clash in Round of 32",
-      "summary": "Mexico enters the knockout stage as a group winner to face Ecuador in a high-stakes Round of 32 matchup.",
+      "summary": "Mexico enters the knockout stage after a dominant group performance to face an Ecuador side building momentum.",
       "story": [
-        "Mexico arrives at this Round of 32 encounter following a dominant performance in Group A, where they secured the top spot. Their group stage campaign was marked by consistent defensive stability and an effective attack that allowed them to navigate through three matches without conceding a single goal.",
-        "This matchup presents a test of momentum as Mexico looks to maintain the form that saw them finish their group stage with a perfect record. Meanwhile, Ecuador will aim to carry the confidence gained from their decisive final group win into this opening knockout battle at Estadio Azteca."
+        "Mexico arrives at this Round of 32 matchup following an impressive run through Group A. They finished their group stage undefeated, securing victories against South Africa, South Korea, and Czechia without conceding a single goal.",
+        "Ecuador had a more turbulent path to reach this knockout round. After an opening loss to Ivory Coast and a scoreless draw against Curacao, they secured their progression with a hard-fought 2-1 victory over Germany in their final group match.",
+        "This encounter at Estadio Azteca pits Mexico's defensive discipline against an Ecuador squad that showed significant resilience to overcome a challenging group. With the knockout format now in play, both teams face the pressure of a single-elimination scenario where there is no room for error."
       ],
       "bullets": [
-        "Mexico maintained a clean sheet throughout all three of their group stage matches.",
-        "Ecuador secured their spot in the Round of 32 with a hard-fought 2-1 victory against Germany in their final group game."
+        "Mexico finished the group stage with a perfect defensive record, having allowed zero goals across their three matches.",
+        "Ecuador enters this match with high confidence after their decisive win over Germany in the group finale.",
+        "The winner of this match advances to the next stage of the tournament bracket."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:34:05+00:00",
-      "sourceHash": "4085045eed09471a",
+      "updatedAt": "2026-07-10T13:37:07+00:00",
+      "sourceHash": "23f2d18c1e48baff",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "81": {
       "headline": "United States Faces Bosnia-Herzegovina in Round of 32",
-      "summary": "The United States enters the knockout stage against Bosnia-Herzegovina following a group campaign that showcased both offensive firepower and defensive vulnerabilities.",
+      "summary": "The United States enters the Round of 32 as the winner of Group D to face Bosnia-Herzegovina in this knockout matchup.",
       "story": [
-        "Bosnia-Herzegovina enters this contest as one of the best third-place finishers from the group stage. Having navigated a challenging path to qualify for the knockout rounds, they will be looking to disrupt the momentum of the home side and prove their resilience on the world stage.",
-        "This match marks a pivotal moment for both squads as the tournament shifts into a single-elimination format. With the United States looking to re-establish the form that defined their early group play and Bosnia-Herzegovina aiming to capitalize on their opportunity, the tactical battle will be central to determining who advances."
+        "The United States arrives at this knockout stage after a dynamic group campaign. Having secured their spot as the winner of Group D, they demonstrated their offensive capabilities throughout the opening phase of the tournament.",
+        "This matchup represents a significant test for both sides. The United States will look to leverage their group performance, while Bosnia-Herzegovina aims to capitalize on the opportunity to progress further in the tournament."
       ],
       "bullets": [
-        "The United States finished first in Group D with two wins and one loss.",
-        "Bosnia-Herzegovina qualified for the knockout stage as a best third-place team.",
-        "This is the opening match of the Round of 32 for both nations."
+        "The United States qualified for this round by finishing at the top of Group D.",
+        "Bosnia-Herzegovina earned their place in the Round of 32 as a top-performing third-place team from the group stage.",
+        "This is a winner-take-all knockout fixture where both teams must perform to continue their tournament journey."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:16:55+00:00",
-      "sourceHash": "bd7d5d5dfb7de138",
+      "updatedAt": "2026-07-10T13:36:44+00:00",
+      "sourceHash": "58f46de9236443b4",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "85": {
-      "headline": "Switzerland and Algeria Face Off in Round of 32",
-      "summary": "Switzerland enters the knockout stage as the winner of Group B to take on Algeria, who qualified as one of the best third-place teams.",
+      "headline": "Switzerland and Algeria Clash in Round of 32",
+      "summary": "Switzerland enters the knockout stage as Group B winners to face Algeria in a high-stakes Round of 32 matchup.",
       "story": [
-        "Switzerland arrives at this Round of 32 matchup after a strong showing in Group B. They opened their tournament with a draw against Qatar before finding their rhythm with a decisive 4-1 victory over Bosnia and Herzegovina and a narrow 2-1 win against Canada to secure their spot at the top of the group.",
-        "Algeria navigated a challenging path to reach this stage. After an opening defeat to Argentina, they responded with a hard-fought 2-1 win over Jordan and a high-scoring 3-3 draw against Austria. Their ability to find the back of the net in their final two group matches will be a key factor as they transition into the knockout intensity.",
-        "This contest marks the first time these two nations meet in this tournament's bracket. With Switzerland looking to maintain the momentum from their unbeaten group stage run and Algeria aiming to build on their resilient performance in Group J, the match promises a contrast in styles and tactical approaches."
+        "Switzerland arrives at this knockout fixture after a strong performance in Group B, where they remained undefeated. Their journey included a hard-fought draw against Qatar followed by back-to-back victories over Bosnia and Herzegovina and Canada, showcasing their ability to find results when it matters most.",
+        "Algeria enters this match having navigated a challenging path through Group J. After an opening defeat to Argentina, they rebounded with a victory against Jordan and a high-scoring draw with Austria to secure their place in the knockout bracket as one of the best third-placed teams.",
+        "The contrast in form presents an intriguing tactical challenge. Switzerland has demonstrated consistency and defensive organization throughout the group stage, while Algeria has shown they can produce goals in bunches, as evidenced by their three-goal output in their final group match.",
+        "With a spot in the next round on the line, both teams must rely on the momentum they built during the group stage. Switzerland will look to maintain their unbeaten run, while Algeria aims to build on the resilience they displayed in their final two group encounters."
       ],
       "bullets": [
-        "Switzerland finished their group stage campaign undefeated with two wins and one draw.",
-        "Algeria demonstrated offensive consistency by scoring five goals across their final two group matches.",
-        "The winner of this match advances to the next stage of the knockout bracket."
+        "Switzerland finished Group B undefeated with two wins and one draw.",
+        "Algeria secured their knockout spot after scoring five goals across their final two group matches.",
+        "This is a Round of 32 knockout fixture where the winner advances."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:17:19+00:00",
-      "sourceHash": "8cdc21162ff0b1e4",
+      "updatedAt": "2026-07-10T13:36:21+00:00",
+      "sourceHash": "23a9a0c14f72ff7c",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "86": {
       "headline": "Argentina and Cabo Verde Open Knockout Play",
-      "summary": "Argentina enters the Round of 32 after a dominant group stage performance to face a resilient Cabo Verde side.",
+      "summary": "Argentina enters the Round of 32 as the winner of Group J to face Group H runner-up Cabo Verde.",
       "story": [
-        "Argentina arrives in the Round of 32 as the winner of Group J, having navigated their opening matches with significant offensive efficiency. They secured victories against Algeria, Austria, and Jordan, demonstrating a consistent ability to find the back of the net throughout the group phase.",
-        "Cabo Verde enters this knockout fixture as the runner-up from Group H. Their path to this stage was defined by defensive tenacity, as they managed to hold opponents to draws in all three of their group matches against Spain, Uruguay, and Saudi Arabia.",
-        "This match represents a contrast in styles between Argentina's high-scoring group run and Cabo Verde's disciplined, low-scoring approach. With the tournament moving into the single-elimination format, both sides must now adapt to the pressure of a win-or-go-home scenario."
+        "Argentina arrives at this Round of 32 matchup following a dominant group stage performance. They secured the top spot in Group J by winning all three of their matches, defeating Algeria, Austria, and Jordan while showcasing a potent offensive rhythm.",
+        "Cabo Verde navigated a challenging Group H to earn their place in the knockout stage. Their path was defined by resilience, as they managed to hold both Spain and Saudi Arabia to scoreless draws while securing a high-scoring 2-2 result against Uruguay.",
+        "This encounter pits Argentina's consistent attacking form against a Cabo Verde side that has proven difficult to break down defensively. With the stakes now elevated to the knockout format, both teams face the pressure of a single-elimination scenario where any lapse in concentration could prove costly."
       ],
       "bullets": [
-        "Argentina maintained a perfect record in Group J, scoring eight goals across their three group matches.",
-        "Cabo Verde remained unbeaten in the group stage, recording three consecutive draws to reach the knockout rounds."
+        "Argentina enters the knockout stage with a perfect three-win record from the group phase.",
+        "Cabo Verde remained unbeaten in Group H, relying on a disciplined defensive structure to secure their advancement.",
+        "The winner of this match moves one step closer to the quarter-finals in the 2026 bracket."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:17:35+00:00",
-      "sourceHash": "1633a25248e23aaa",
+      "updatedAt": "2026-07-10T13:36:06+00:00",
+      "sourceHash": "0837618b49a11aef",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "53": {
       "headline": "Group A Stakes: South Africa Meets South Korea",
@@ -5758,444 +5761,434 @@
     },
     "75": {
       "headline": "Netherlands and Morocco Clash in Round of 32",
-      "summary": "The Netherlands and Morocco face off in the Round of 32 after strong group stage performances.",
+      "summary": "The Netherlands enters the knockout stage as the winner of Group F to face Group C runner-up Morocco.",
       "story": [
-        "The Netherlands enters this knockout match after finishing at the top of Group F. Their group stage campaign was defined by offensive consistency, including a 5-1 victory over Sweden and a 3-1 win against Tunisia, showing they can find the back of the net reliably.",
-        "Morocco arrives as the runner-up from Group C, having navigated a challenging path that included a draw against Brazil and a victory over Scotland. Their ability to secure results against high-caliber opponents suggests they are well-prepared for the intensity of the knockout stage.",
-        "This matchup brings together two teams that have demonstrated different tactical strengths throughout the tournament. While the Dutch have shown a high-scoring potential, Morocco has proven to be a resilient side capable of managing difficult games against top-tier competition.",
-        "With a spot in the next round on the line, both squads will look to build on their group stage momentum. The tactical battle between the Dutch attack and the Moroccan defensive structure will be a defining factor in this encounter."
+        "The Netherlands arrives in the Round of 32 following a strong group stage performance where they finished at the top of Group F. Their campaign included a 2-2 draw against Japan, a dominant 5-1 victory over Sweden, and a 3-1 win against Tunisia. This offensive consistency has been a hallmark of their journey so far.",
+        "Morocco enters this matchup after navigating a competitive Group C. They opened their tournament with a 1-1 draw against Brazil, followed by a narrow 1-0 win over Scotland and a high-scoring 4-2 victory against Haiti. Their ability to secure results against diverse opponents has been central to their advancement.",
+        "As both teams transition into the knockout format, the stakes are elevated. The Netherlands will look to maintain their scoring momentum, while Morocco aims to build on the defensive discipline and resilience they demonstrated during their group matches. This encounter represents the first time these two sides meet in this tournament."
       ],
       "bullets": [
         "The Netherlands scored 10 goals across their three group stage matches.",
-        "Morocco remained unbeaten during their Group C campaign.",
-        "Both teams enter this knockout match with significant momentum from their respective group finishes."
+        "Morocco remained undefeated during the group stage, recording two wins and one draw.",
+        "This is a Round of 32 knockout match, meaning the teams must navigate the pressure of a single-elimination format."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:15:03+00:00",
-      "sourceHash": "f0eed0d6333c970e",
+      "updatedAt": "2026-07-10T13:37:30+00:00",
+      "sourceHash": "4de1306c3bb12691",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "78": {
       "headline": "Ivory Coast and Norway Square Off in Round of 32",
-      "summary": "Ivory Coast and Norway meet in the Round of 32 after both nations secured their spots as runners-up in their respective groups.",
+      "summary": "Ivory Coast and Norway meet in the Round of 32 to determine who moves forward in the knockout bracket.",
       "story": [
-        "Ivory Coast enters this knockout round matchup after a productive group stage campaign in Group E. They opened with a victory against Ecuador, followed by a narrow loss to Germany, and finished strong with a clean-sheet win over Curacao to secure their place in the bracket.",
-        "Norway arrives from Group I, where they demonstrated significant offensive capabilities. Their group run included a convincing win over Iraq and a high-scoring victory against Senegal, though they faced a difficult challenge against France in their final group match.",
-        "Both teams now face the pressure of a single-elimination format. With the group stage behind them, the focus shifts entirely to this meeting in the Round of 32, where the winner continues their journey in the tournament and the loser is eliminated."
+        "Ivory Coast enters this knockout match after finishing as the runner-up in Group E. Their path to this stage included a solid victory over Ecuador, a narrow defeat to Germany, and a decisive win against Curacao to secure their position.",
+        "Norway arrives at this fixture following their own runner-up finish in Group I. Their group stage performance was defined by high-scoring affairs, featuring a strong opening win against Iraq and a back-and-forth victory over Senegal, before concluding with a challenging test against France.",
+        "With both teams having navigated the complexities of their respective groups, this meeting represents a fresh start in the knockout phase. The pressure is immediate, as both sides look to leverage the momentum built during their previous three matches to survive and advance."
       ],
       "bullets": [
-        "Ivory Coast finished as the runner-up in Group E.",
-        "Norway enters the knockout stage as the runner-up from Group I.",
-        "This is the first meeting between these two sides in the 2026 tournament."
+        "Ivory Coast successfully bounced back from a loss to Germany by shutting out Curacao in their final group match.",
+        "Norway demonstrated significant offensive capability during the group stage, scoring multiple goals in two of their three matches.",
+        "Both teams enter this contest as group runners-up, looking to prove their resilience in a high-stakes, single-elimination format."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:14:40+00:00",
-      "sourceHash": "230660e463a9e5a8",
+      "updatedAt": "2026-07-10T13:37:22+00:00",
+      "sourceHash": "db1efcf7f8c934e4",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "88": {
       "headline": "Australia and Egypt Clash in Round of 32",
-      "summary": "Australia and Egypt meet in the Round of 32 after securing runner-up spots in their respective groups.",
+      "summary": "Australia and Egypt meet in the Round of 32 to determine who continues their journey in the knockout stage.",
       "story": [
-        "Australia enters this knockout fixture after a disciplined group stage run in Group D. They opened their campaign with a victory against Turkey before facing a tough challenge against the United States and finishing with a scoreless draw against Paraguay. Their ability to remain organized in high-stakes situations will be tested as they look to advance.",
-        "Egypt arrives at this stage following an unbeaten group performance in Group G. They earned a hard-fought draw against Belgium, secured a decisive win over New Zealand, and concluded their group play with a stalemate against Iran. Their tactical flexibility and resilience have been central to their journey through the tournament so far.",
-        "With both teams having navigated the group stage as runners-up, this matchup represents a pivotal moment in the bracket. Neither side has shown a willingness to concede easily, and this encounter will likely hinge on which team can execute their game plan more effectively under the pressure of a single-elimination format."
+        "Australia enters this knockout fixture after a resilient group stage performance in Group D. They secured a victory against Turkey, faced a challenging match against the United States, and battled to a scoreless draw with Paraguay to clinch their spot in the next round.",
+        "Egypt arrives at this stage representing Group G, where they demonstrated their ability to compete against varied opposition. Their group path included a hard-fought draw with Belgium, a decisive 3-1 win over New Zealand, and a defensive stalemate against Iran.",
+        "With both teams having navigated the group phase, this matchup represents a blank slate. The pressure of the knockout format means that every decision on the pitch carries significant weight as both sides look to execute their game plans and secure a path forward."
       ],
       "bullets": [
-        "Australia finished as the runner-up in Group D, while Egypt secured the second spot in Group G.",
-        "Both teams demonstrated defensive stability during their group matches, each recording a 0-0 draw in their final group fixture.",
-        "This is the first meeting between these two nations in the knockout stage of this tournament."
+        "Egypt showed offensive versatility in their group stage, particularly in their three-goal performance against New Zealand.",
+        "This match marks the first time these two nations meet in the 2026 knockout bracket."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:17:27+00:00",
-      "sourceHash": "a2f8ce34e3cccc96",
+      "updatedAt": "2026-07-10T13:36:13+00:00",
+      "sourceHash": "0d9b24a693d9907e",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "77": {
-      "headline": "France and Sweden Open Knockout Play",
-      "summary": "France enters the Round of 32 as the winner of Group I to face Sweden, who qualified as one of the best third-place teams.",
+      "headline": "France and Sweden clash in Round of 32",
+      "summary": "France enters the knockout phase as the winner of Group I to face Sweden, who qualified as one of the best third-place teams.",
       "story": [
-        "France arrives at this knockout stage after a dominant showing in Group I, where they secured three victories against Senegal, Iraq, and Norway. Their offensive production was consistent throughout the group phase, consistently finding the back of the net and finishing their campaign with a strong performance against Norway.",
-        "Sweden navigated a challenging Group F, which included high-scoring encounters against Tunisia and the Netherlands. After opening their tournament with a decisive win, they faced a difficult result against the Netherlands before earning a hard-fought draw against Japan to secure their path into the bracket.",
-        "This matchup pits France's group-winning momentum against a Sweden side that has proven they can generate offense in high-stakes environments. With the tournament shifting to a single-elimination format, both teams will need to balance their attacking instincts with the defensive discipline required to survive and advance."
+        "France arrives at this Round of 32 matchup with significant momentum after a dominant group stage performance. They finished at the top of Group I, securing victories against Senegal, Iraq, and Norway while demonstrating a potent offensive capability throughout their three group matches.",
+        "Sweden enters this knockout encounter after navigating a challenging Group F. Their path to this stage included a strong opening win against Tunisia, followed by a difficult result against the Netherlands and a hard-fought draw against Japan, ultimately securing their spot as one of the best third-place teams.",
+        "This match represents a transition into the high-stakes environment of the knockout rounds. Both teams must now adjust to the reality that a single match determines their path forward, requiring them to build upon the tactical foundations established during their respective group campaigns."
       ],
       "bullets": [
-        "France enters this match undefeated after sweeping their three group stage fixtures.",
-        "Sweden qualified for the Round of 32 as one of the best third-place finishers from the group stage.",
-        "France scored a total of 10 goals across their three group stage matches."
+        "France remained undefeated in Group I, scoring a total of 10 goals across their three group matches.",
+        "Sweden's journey to the Round of 32 was defined by their ability to secure points in varied matchups, including a high-scoring victory and a resilient draw.",
+        "As a knockout fixture, this match marks the first time these two teams have met in this tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:14:48+00:00",
-      "sourceHash": "adf41e385c23f3fb",
+      "updatedAt": "2026-07-10T13:37:15+00:00",
+      "sourceHash": "6def2b30b5d285e7",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "82": {
       "headline": "Belgium and Senegal Clash in Round of 32",
-      "summary": "Belgium enters the knockout stage as the winner of Group G to face Senegal, who advanced as one of the best third-place teams.",
+      "summary": "Belgium enters the knockout phase after topping Group G, facing a Senegal side that secured their spot as one of the best third-place finishers.",
       "story": [
-        "Belgium arrives in the Round of 32 after a dominant final group stage performance, where they secured a 5-1 victory against New Zealand. Their path to this knockout stage included a draw against Egypt and a stalemate with Iran, showing a team that found its offensive rhythm just in time for the single-elimination format.",
-        "Senegal enters this match following a commanding 5-0 win over Iraq to close out their group play. Despite earlier challenges against France and Norway, their offensive output in the final group match suggests they have the firepower to test a Belgian defense that has been tested throughout the tournament.",
-        "This matchup pits Belgium's tactical consistency against Senegal's ability to capitalize on momentum. With both teams coming off high-scoring victories in their final group games, the focus shifts to which side can maintain that attacking intensity under the pressure of a knockout environment."
+        "Belgium arrives in the Round of 32 with momentum after a dominant 5-1 victory over New Zealand in their final group match. Their path to this stage was steady, beginning with a draw against Egypt and a scoreless stalemate with Iran before finding their offensive rhythm.",
+        "Senegal enters this knockout encounter following a commanding 5-0 win against Iraq. While they faced challenging results against France and Norway earlier in their group schedule, their ability to put five goals past Iraq demonstrates the offensive potential they bring into this match.",
+        "This matchup pits Belgium's group-winning consistency against Senegal's high-scoring capability. With both teams coming off significant wins, the focus will be on whether Belgium can maintain their defensive composure or if Senegal can replicate the attacking form they displayed in their final group outing."
       ],
       "bullets": [
-        "Belgium finished their group campaign with a strong 5-1 win over New Zealand.",
-        "Senegal enters the knockout round following a decisive 5-0 victory against Iraq.",
-        "Belgium qualified as the winner of Group G, while Senegal advanced as one of the best third-place teams."
+        "Belgium finished Group G undefeated with one win and two draws.",
+        "Senegal's group stage concluded with a decisive 5-0 victory over Iraq.",
+        "This is a Round of 32 knockout match where a result is required to advance."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:16:47+00:00",
-      "sourceHash": "48d3a0fd5e93834b",
+      "updatedAt": "2026-07-10T13:36:52+00:00",
+      "sourceHash": "6bafc936b1603d4c",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "84": {
-      "headline": "Spain and Austria Clash in Round of 32",
-      "summary": "Spain enters the knockout stage as Group H winners to face Group J runner-up Austria.",
+      "headline": "Spain and Austria Face Off in Round of 32",
+      "summary": "Spain enters the knockout stage as the winner of Group H, while Austria advances as the runner-up from Group J.",
       "story": [
-        "Spain arrives at this Round of 32 matchup after a steady group stage campaign. They opened with a scoreless draw against Cabo Verde before finding their rhythm with a 4-0 victory over Saudi Arabia and a narrow 1-0 win against Uruguay to secure the top spot in Group H.",
-        "Austria navigated a challenging Group J to reach this stage. Their journey included a 3-1 win over Jordan, a 2-0 loss to Argentina, and a high-scoring 3-3 draw against Algeria, showing their ability to find the back of the net in varied conditions.",
-        "This knockout encounter pits Spain's disciplined defensive form against an Austrian side that has demonstrated resilience in high-scoring affairs. With no second chances remaining in the bracket, both teams will look to capitalize on their group stage momentum to keep their tournament hopes alive."
+        "Spain navigated a challenging Group H to reach this stage, finishing with a solid record that included a 4-0 victory against Saudi Arabia and a narrow 1-0 win over Uruguay. After an opening draw against Cabo Verde, the team demonstrated defensive consistency and the ability to find the back of the net when it mattered most.",
+        "Austria arrives in the Round of 32 following a varied group stage campaign in Group J. They opened their tournament with a 3-1 win over Jordan, followed by a loss to Argentina and a high-scoring 3-3 draw against Algeria. This resilience in their final group match suggests a side capable of trading goals and staying competitive under pressure.",
+        "As both teams transition into the knockout format, the stakes shift significantly. With no room for error, Spain will look to maintain the tactical discipline that defined their group performance, while Austria will aim to leverage the offensive momentum they displayed in their most recent outing."
       ],
       "bullets": [
-        "Spain finished Group H undefeated, conceding zero goals across their three group matches.",
-        "Austria demonstrated offensive versatility in Group J, scoring six total goals across their three matches."
+        "Spain remained unbeaten throughout the group stage, conceding zero goals in their three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:17:03+00:00",
-      "sourceHash": "9d9bdb0cafc9a4e8",
+      "updatedAt": "2026-07-10T13:36:36+00:00",
+      "sourceHash": "86cf948526b034c8",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "80": {
-      "headline": "England Faces Congo DR in Round of 32 Knockout Showdown",
-      "summary": "England enters the knockout phase as Group L winners to take on Congo DR in a high-stakes Round of 32 matchup.",
+      "headline": "England Faces Congo DR in Round of 32 Knockout Match",
+      "summary": "England enters the knockout stage as the winner of Group L to face Congo DR in a high-stakes Round of 32 encounter.",
       "story": [
-        "England arrives at this Round of 32 encounter following a successful group stage campaign in Group L. They demonstrated both offensive capability and defensive discipline, securing victories against Croatia and Panama while holding firm in a scoreless draw against Ghana.",
-        "Congo DR steps into this knockout match looking to test their mettle against a side that navigated their group without a single defeat. As one of the best third-place finishers from the pool of Groups E, H, I, J, and K, they bring a unique challenge to the bracket.",
-        "The transition to the knockout stage shifts the dynamic significantly, as there is no room for error in this single-elimination format. England will look to maintain the momentum from their group-topping performance, while Congo DR aims to capitalize on their opportunity to advance further in the tournament."
+        "England arrives at this Round of 32 matchup after a solid performance in Group L. They secured their spot at the top of the table by navigating a challenging group stage that included a 4-2 victory over Croatia, a scoreless draw against Ghana, and a 2-0 win against Panama.",
+        "The English squad demonstrated defensive consistency throughout their group matches, keeping two clean sheets in their three appearances. Their ability to manage different styles of play against Croatia, Ghana, and Panama will be tested as they transition into the pressure of the knockout rounds.",
+        "Congo DR enters this fixture looking to make their mark on the tournament. As an opponent that emerged from the best third-place slots across Groups E, H, I, J, and K, they bring a unique challenge to the pitch that England has not yet encountered in this competition."
       ],
       "bullets": [
-        "England finished their group stage run with two wins and one draw.",
-        "This match marks the beginning of the knockout phase for both nations.",
-        "England enters as the winner of Group L, while Congo DR qualified as a best third-place team."
+        "England finished their group stage campaign undefeated.",
+        "This is the first meeting between England and Congo DR in this tournament.",
+        "The winner of this match advances in the knockout bracket."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:16:38+00:00",
-      "sourceHash": "a3d9fd8192c39e58",
+      "updatedAt": "2026-07-10T13:36:59+00:00",
+      "sourceHash": "f252c05b2f642b62",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "83": {
       "headline": "Portugal and Croatia Clash in Round of 32",
-      "summary": "Portugal and Croatia meet in the Round of 32 after securing runner-up spots in their respective groups.",
+      "summary": "Portugal and Croatia meet in the Round of 32 after both nations secured their spots as runners-up in their respective groups.",
       "story": [
-        "Portugal enters this knockout fixture having navigated Group K with a mixed bag of results. They opened their tournament with a draw against DR Congo, followed by a dominant 5-0 victory over Uzbekistan, and concluded their group stage with a scoreless draw against Colombia.",
-        "Croatia arrives at this stage after a rollercoaster run in Group L. Their campaign began with a defeat to England, but they managed to stabilize their form by securing consecutive victories against Panama and Ghana to punch their ticket to the knockout phase.",
-        "Both teams enter this match as runners-up from their groups, meaning neither side had a perfect path to this point. This matchup pits Portugal's ability to keep clean sheets against Croatia's recent momentum of winning back-to-back matches.",
-        "With the tournament moving into the knockout rounds, there is no room for error for either squad. Both teams will need to draw on their group stage experiences to manage the pressure of a win-or-go-home scenario."
+        "Portugal enters this knockout fixture having navigated a challenging Group K. Their journey included a draw against DR Congo, a dominant 5-0 victory over Uzbekistan, and a scoreless stalemate against Colombia to finish as the group runner-up.",
+        "Croatia arrives at this stage after a resilient performance in Group L. Following an opening defeat to England, they bounced back with consecutive wins against Panama and Ghana to secure their place in the knockout bracket.",
+        "This matchup pits two experienced European sides against each other for a spot in the next round. Both teams have shown the ability to grind out results, with Croatia demonstrating particular grit in their final two group matches to overcome early adversity.",
+        "As the tournament shifts to single-elimination, both squads will look to build on their group stage foundations. Portugal will aim to replicate the offensive efficiency shown against Uzbekistan, while Croatia will rely on the momentum gained from their late surge in group play."
       ],
       "bullets": [
-        "Portugal finished Group K as runner-up after three matches, including a high-scoring win against Uzbekistan.",
-        "Croatia enters the knockout stage on a two-match winning streak following their initial loss to England.",
-        "This is a Round of 32 knockout fixture, meaning the winner advances and the loser is eliminated."
+        "Portugal finished Group K with one win, two draws, and zero losses.",
+        "Croatia recovered from an opening loss to win their final two group matches.",
+        "Both teams enter this knockout match as runners-up from their respective groups."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:17:11+00:00",
-      "sourceHash": "80047cadb7019e8c",
+      "updatedAt": "2026-07-10T13:36:29+00:00",
+      "sourceHash": "46d60d0f0726de41",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "87": {
-      "headline": "Colombia and Ghana Clash in Round of 32",
-      "summary": "Colombia enters the knockout stage as the winner of Group K to face Ghana in a high-stakes Round of 32 matchup.",
+      "headline": "Colombia and Ghana Open Knockout Play",
+      "summary": "Colombia enters the Round of 32 as the winner of Group K to face Ghana, who advanced as a best third-placed team.",
       "story": [
-        "Colombia arrives at this Round of 32 fixture after a disciplined group stage campaign. They secured the top spot in Group K by defeating Uzbekistan and DR Congo, followed by a hard-fought draw against Portugal. Their ability to manage tight games will be tested as they transition into the single-elimination format.",
-        "This matchup presents a classic test of styles in the knockout bracket. Colombia has shown they can find the back of the net, while Ghana has demonstrated an ability to limit scoring opportunities for their opponents. With a spot in the next round on the line, both teams must execute their game plans with precision to survive and advance."
+        "Colombia arrives at this Round of 32 matchup after a disciplined group stage performance. They secured the top spot in Group K by defeating Uzbekistan and DR Congo, followed by a hard-fought draw against Portugal. Their defensive organization was a hallmark of their group play, keeping clean sheets in two of their three matches.",
+        "Ghana enters this knockout fixture having navigated a challenging path in Group L. Their journey included a victory over Panama and a resilient draw against England, proving they can hold their own against high-caliber opposition. Despite a narrow defeat to Croatia in their final group match, their ability to remain competitive in tight contests has been evident.",
+        "This match represents a significant test for both sides as the tournament transitions into the knockout phase. With no room for error in this single-elimination format, the tactical approach from both managers will be under the microscope. Colombia will look to maintain their defensive stability, while Ghana will aim to capitalize on their experience against tough opponents to progress further."
       ],
       "bullets": [
-        "Colombia finished undefeated in Group K with two wins and one draw.",
-        "Ghana successfully kept a clean sheet against England during their group stage run.",
-        "This is the first time these two nations meet in the 2026 knockout bracket."
+        "Colombia finished unbeaten in Group K, conceding only once across three matches.",
+        "Ghana demonstrated defensive resilience during the group stage, including a scoreless draw against England.",
+        "This is the first meeting between these two nations in the 2026 tournament knockout phase."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:17:43+00:00",
-      "sourceHash": "a3ebdcc6ad4114b5",
+      "updatedAt": "2026-07-10T13:35:58+00:00",
+      "sourceHash": "53838006727508df",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "89": {
       "headline": "Canada and Morocco Clash in Round of 16",
-      "summary": "Canada and Morocco meet in the Round of 16 following successful navigation through their respective group stages and opening knockout matches.",
+      "summary": "Canada and Morocco meet in the Round of 16 following successful navigation of their respective knockout openers.",
       "story": [
-        "Canada arrives at this Round of 16 matchup after a hard-fought victory over South Africa. Their tournament path has included a high-scoring win against Qatar and a resilient draw against Bosnia and Herzegovina, proving they can handle both offensive pressure and defensive challenges.",
-        "Both teams have demonstrated significant versatility in their playstyles throughout the competition. Canada has shown they can dominate when given space, while Morocco has proven to be a difficult side to break down, setting up an intriguing tactical battle for a spot in the next phase."
+        "Canada arrives at this Round of 16 matchup after a hard-fought victory against South Africa. Their tournament journey has seen a mix of results, including a dominant 6-0 win over Qatar and a narrow loss to Switzerland, demonstrating their ability to both control a game and respond to pressure.",
+        "Both teams have shown they can handle the intensity of knockout football. Canada\u2019s recent defensive discipline in their narrow win over South Africa will be tested by a Moroccan side that has consistently found the back of the net throughout their campaign."
       ],
       "bullets": [
-        "Canada's road to this stage included a dominant 6-0 performance against Qatar.",
-        "Morocco remained competitive throughout their group, including a notable 1-1 draw against Brazil.",
-        "Both sides are coming off intense Round of 32 matches that tested their resolve."
+        "Canada\u2019s offense showcased its potential with a 6-0 performance against Qatar.",
+        "Morocco demonstrated composure under pressure by winning their Round of 32 penalty shootout against the Netherlands.",
+        "Both teams have proven their ability to secure results against high-level opponents during the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:17:51+00:00",
-      "sourceHash": "807203afa4d11d70",
+      "updatedAt": "2026-07-10T13:35:50+00:00",
+      "sourceHash": "98e2e7ad2af68b9a",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "90": {
-      "headline": "Paraguay and France Clash in Round of 16",
-      "summary": "Paraguay and France meet in the Round of 16 with both teams aiming to secure their path further into the tournament.",
+      "headline": "Paraguay and France Meet in Round of 16",
+      "summary": "Paraguay faces France in the Round of 16 following their respective paths through the group stage and the Round of 32.",
       "story": [
-        "Paraguay enters this Round of 16 matchup after a resilient run through their previous fixtures. Their path has been defined by defensive grit, including a hard-fought draw against Australia and a tight contest against Germany in the previous round.",
-        "France arrives at this stage following a dominant group phase and a convincing victory over Sweden in the Round of 32. Their offensive consistency has been a hallmark of their performance thus far, consistently finding the back of the net against varied opposition.",
-        "This encounter presents a classic contrast in styles. Paraguay has demonstrated an ability to grind out results and stay competitive in high-pressure situations, while France has showcased the firepower necessary to break down organized defensive units.",
-        "As the tournament moves deeper into the knockout phase, the stakes are at their highest. Both squads will need to rely on the tactical discipline that brought them to this point to navigate the challenges posed by their opponent."
+        "Paraguay enters this Round of 16 matchup after a hard-fought journey through the earlier stages. Their path included a penalty shootout victory against Germany in the Round of 32, showcasing their resilience in high-pressure situations after navigating a group that featured the United States, Turkey, and Australia.",
+        "France arrives at this stage with significant momentum, having maintained a strong record throughout their group phase. Their recent performance in the Round of 32 against Sweden demonstrated their ability to control matches, building on a group campaign where they secured victories against Senegal, Iraq, and Norway.",
+        "This encounter pits a battle-tested Paraguay side against a French team that has shown consistent form. As both teams look to advance further in the knockout bracket, the focus will be on how Paraguay's defensive organization holds up against the offensive consistency France has displayed in their previous outings."
       ],
       "bullets": [
-        "Paraguay has shown significant defensive stability, having navigated multiple low-scoring, high-stakes matches in the knockout and group stages.",
-        "France enters the match with high offensive momentum, having scored three or more goals in three of their four tournament appearances so far.",
-        "The tactical battle between Paraguay's defensive organization and France's attacking depth will be the primary factor to watch."
+        "Paraguay advanced to this round by defeating Germany on penalties in the Round of 32.",
+        "France enters the match following a 3-0 win over Sweden in their previous knockout fixture.",
+        "Both teams have successfully navigated four matches to reach this point in the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:33:57+00:00",
-      "sourceHash": "14987622474339bb",
+      "updatedAt": "2026-07-10T13:35:42+00:00",
+      "sourceHash": "632d7c99ab7215c5",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "91": {
       "headline": "Brazil and Norway Clash in Round of 16",
-      "summary": "Brazil and Norway face off in the Round of 16, with both teams looking to keep their tournament momentum alive.",
+      "summary": "Brazil meets Norway in the Round of 16 as both teams look to continue their tournament journey.",
       "story": [
-        "Brazil enters this knockout match following a hard-fought victory over Japan in the Round of 32. Their path to this stage included a steady group campaign where they remained unbeaten, showcasing their ability to control matches against diverse opponents.",
-        "Norway arrives at this stage after navigating a competitive group and overcoming Ivory Coast in a narrow Round of 32 victory. Having displayed a high-scoring potential throughout their previous matches, they have proven they can find the back of the net under pressure.",
-        "This matchup presents a test of styles as both nations look to secure a spot in the next phase. With the tournament stakes rising, both sides will need to rely on the form that carried them through their opening rounds to gain an advantage in this high-pressure environment."
+        "Brazil arrives at this Round of 16 matchup following a consistent run through the group stage and a hard-fought victory against Japan in the previous knockout round. Their path has been defined by a strong offensive output, including multiple three-goal performances during their group matches.",
+        "Norway enters this encounter after navigating a competitive group and overcoming Ivory Coast in the Round of 32. Their tournament experience has been marked by high-scoring affairs, demonstrating an ability to find the back of the net consistently while navigating defensive challenges.",
+        "This matchup brings together two teams that have successfully balanced the demands of the group stage with the intensity of knockout football. As they face off for a spot in the next phase, both sides will look to rely on the form that carried them through their previous matches."
       ],
       "bullets": [
-        "Brazil has maintained a strong defensive and offensive balance throughout their journey to the Round of 16.",
-        "Norway has demonstrated resilience in close contests, including a high-scoring win against Senegal and a tight victory over Ivory Coast.",
-        "Both teams have successfully navigated the transition from group play to the intensity of the knockout rounds."
+        "Brazil has maintained a steady offensive rhythm, scoring multiple goals in three of their four tournament matches.",
+        "Norway has proven to be a resilient side, having navigated a high-scoring group stage and a tight knockout victory.",
+        "Both teams have successfully transitioned from group play to the knockout stage, setting up a compelling test of their tactical depth."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:33:49+00:00",
-      "sourceHash": "9122450df2fea709",
+      "updatedAt": "2026-07-10T13:35:35+00:00",
+      "sourceHash": "c9bd5393dc5dc90e",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "92": {
-      "headline": "Mexico and England Collide in Round of 16",
-      "summary": "Mexico and England meet at Estadio Azteca for a high-stakes Round of 16 knockout match.",
+      "headline": "Mexico and England Clash in Round of 16",
+      "summary": "Mexico and England meet at Estadio Azteca for a high-stakes Round of 16 encounter.",
       "story": [
-        "Mexico enters this Round of 16 encounter following a strong run through the group stage and a decisive victory over Ecuador in the Round of 32. Having maintained a consistent defensive record throughout their previous matches, they will look to leverage their momentum in front of a home crowd at Estadio Azteca.",
-        "England arrives at this stage after navigating Group L and securing a hard-fought win against Congo DR in their most recent knockout appearance. Their path has featured a mix of high-scoring performances and tactical defensive displays, showcasing the versatility required to advance in this tournament.",
-        "This matchup represents a significant challenge for both sides as they compete for a place in the next round. With both teams demonstrating form throughout their respective paths to the Round of 16, this encounter promises to be a test of endurance and tactical execution."
+        "Mexico enters this Round of 16 matchup following a consistent run through the tournament. After finishing atop their group, they demonstrated their form in the Round of 32 with a victory over Ecuador. Their path to this stage has been marked by defensive discipline and an ability to control the tempo of their matches.",
+        "England arrives at this stage after navigating their own challenging group and securing a hard-fought win against Congo DR in the Round of 32. Having remained unbeaten through their group stage fixtures, they have shown resilience in both high-scoring affairs and tighter defensive battles.",
+        "This encounter at Estadio Azteca brings together two teams that have successfully navigated the pressure of the knockout format thus far. With both sides having proven their ability to win under tournament conditions, this match serves as a pivotal test for both squads as they look to continue their journey."
       ],
       "bullets": [
-        "Mexico has remained undefeated through their group stage matches and their Round of 32 victory.",
-        "England comes into this match off the back of a narrow win against Congo DR.",
-        "The match takes place at the historic Estadio Azteca in Mexico City."
+        "Mexico has maintained a strong defensive record throughout their previous four tournament matches.",
+        "England enters this fixture unbeaten, having successfully managed both high-scoring and low-scoring results.",
+        "The match is hosted at the historic Estadio Azteca in Mexico City."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T23:44:49+00:00",
-      "sourceHash": "386e255f976d1f4f",
+      "updatedAt": "2026-07-10T13:35:27+00:00",
+      "sourceHash": "607fc978b4bd4ad7",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "93": {
-      "headline": "Iberian Rivals Face Off in Round of 16",
-      "summary": "Portugal and Spain meet in the Round of 16 following successful campaigns through the group stage and the Round of 32.",
+      "headline": "Iberian Rivals Clash in Round of 16",
+      "summary": "Portugal and Spain meet in the Round of 16 following successful campaigns through the group stage and the previous knockout round.",
       "story": [
-        "Portugal enters this knockout fixture after a hard-fought path through the tournament. Their journey included a draw against DR Congo, a dominant 5-0 victory over Uzbekistan, and a scoreless stalemate with Colombia. They secured their spot here by overcoming Croatia in the Round of 32 with a 2-1 result.",
-        "Spain arrives in the Round of 16 with significant momentum. After opening their group stage with a scoreless draw against Cabo Verde, they found their form with a 4-0 win over Saudi Arabia and a narrow 1-0 victory against Uruguay. They continued their progress by defeating Austria 3-0 in the Round of 32.",
-        "This matchup brings together two sides that have shown defensive discipline throughout their previous matches. With both teams having navigated the initial group challenges and the first knockout round, this encounter represents a significant test of their respective strategies as they look to advance further in the competition."
+        "Portugal enters this knockout encounter after navigating a diverse path in Group K, which included a high-scoring victory over Uzbekistan and a hard-fought win against Croatia in the Round of 32. Their ability to manage tight defensive battles and find offensive rhythm will be tested as they face a familiar neighbor on the tournament stage.",
+        "Both teams have demonstrated resilience in their respective routes to this stage. With both sides having proven their ability to advance under pressure, the tactical familiarity between these two nations adds an extra layer of intensity to this Round of 16 fixture."
       ],
       "bullets": [
-        "Spain has maintained a strong defensive record, keeping clean sheets in all four of their tournament matches leading up to this point.",
-        "Both teams arrive with confidence after winning their respective Round of 32 matches."
+        "Portugal's recent form includes a 2-1 victory over Croatia in the Round of 32.",
+        "Spain enters this match following a 3-0 win against Austria in the previous round.",
+        "Both teams remained undefeated throughout their group stage and Round of 32 appearances."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T11:47:08+00:00",
-      "sourceHash": "8b662371074ccb8e",
+      "updatedAt": "2026-07-10T13:35:12+00:00",
+      "sourceHash": "383c924469a8d2d9",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "94": {
-      "headline": "United States and Belgium collide in Round of 16",
-      "summary": "The United States and Belgium face off in a high-stakes Round of 16 knockout match to determine who advances further in the tournament.",
+      "headline": "United States and Belgium Clash in Round of 16",
+      "summary": "The United States and Belgium face off in the Round of 16 after successful campaigns through the group stage and their respective opening knockout matches.",
       "story": [
-        "Belgium arrives at this stage after a hard-fought 3-2 victory against Senegal in their own Round of 16 opener. Their journey to this point included a mix of defensive resilience and offensive outbursts, notably a 5-1 win over New Zealand in the final group match, alongside draws against Egypt and Iran.",
-        "Both teams have navigated challenging paths to reach this point in the tournament. With a spot in the next round on the line, the tactical approach from both sides will be under scrutiny as they look to capitalize on their momentum from the previous knockout fixtures."
+        "The United States enters this Round of 16 matchup following a solid run that saw them navigate Group D and secure a victory against Bosnia-Herzegovina in the previous knockout round. Their group stage performance included wins over Paraguay and Australia, alongside a competitive outing against Turkey, demonstrating their ability to find the back of the net throughout the tournament.",
+        "Belgium arrives at this stage after a resilient group stage in Group G, where they balanced draws against Egypt and Iran with a dominant five-goal performance against New Zealand. They maintained that momentum into the Round of 32, where they narrowly edged out Senegal to reach this point in the bracket.",
+        "Both teams have shown different tactical profiles throughout their journey to this match. The United States has relied on consistent offensive output, while Belgium has demonstrated an ability to lock down defensively before finding their rhythm in attack. This encounter serves as a pivotal test for both squads as they look to continue their progression in the tournament."
       ],
       "bullets": [
-        "The United States maintained a clean sheet in their recent 2-0 Round of 16 win.",
-        "Belgium displayed strong attacking form in their last match, scoring three goals against Senegal.",
-        "Both teams enter this fixture coming off successful results in their respective Round of 16 games."
+        "The United States enters the match following a 2-0 victory over Bosnia-Herzegovina in the Round of 32.",
+        "Belgium advanced to the Round of 16 after a high-scoring 3-2 win against Senegal.",
+        "Both teams arrive at this knockout stage with significant momentum from their respective group campaigns."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T11:47:16+00:00",
-      "sourceHash": "10ccb829b4e796ae",
+      "updatedAt": "2026-07-10T13:35:04+00:00",
+      "sourceHash": "ed6517472831f317",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "95": {
       "headline": "Argentina and Egypt Clash in Round of 16",
-      "summary": "Argentina and Egypt meet in the Round of 16 following their respective journeys through the group stage and the opening knockout round.",
+      "summary": "Argentina and Egypt meet in the Round of 16 following their successful navigation through the opening knockout phase.",
       "story": [
-        "Argentina enters this Round of 16 matchup after a strong run through Group J, where they secured victories against Algeria, Austria, and Jordan. They continued their momentum into the knockout phase by overcoming Cabo Verde in a narrow result during the Round of 32.",
-        "Egypt navigated a competitive path to reach this stage, having opened their tournament with a draw against Belgium and a win over New Zealand. After a scoreless draw with Iran to close out their group play, they faced a difficult test against Australia in the Round of 32, which also ended in a draw.",
-        "Both teams have demonstrated resilience in high-pressure situations leading up to this point. As they face off in the Round of 16, the focus shifts to which side can maintain their tactical discipline and capitalize on their opportunities to keep their tournament run alive."
+        "Argentina enters this Round of 16 matchup after a high-scoring campaign. They dominated Group J with three straight victories before narrowly overcoming Cabo Verde in a 3-2 result during the Round of 32.",
+        "Egypt arrives at this stage having shown resilience throughout the tournament. After finishing their group stage with a draw against Iran and a win over New Zealand, they secured their spot in the Round of 16 by defeating Australia in a penalty shootout.",
+        "Both teams have demonstrated their ability to progress under pressure, with Argentina maintaining an aggressive offensive rhythm and Egypt proving their composure in high-stakes situations. This encounter represents a significant test for both sides as they look to continue their tournament journey."
       ],
       "bullets": [
-        "Argentina maintained an undefeated record throughout their group stage campaign.",
-        "Egypt has proven difficult to break down, recording two draws in their last three matches.",
-        "This match marks a significant hurdle for both nations as they look to secure a spot in the next phase of the knockout bracket."
+        "Argentina has scored multiple goals in every match they have played so far in this tournament.",
+        "Egypt successfully navigated a penalty shootout against Australia to reach this round.",
+        "Both teams have remained undefeated in regulation time throughout their tournament run."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T11:47:24+00:00",
-      "sourceHash": "d2903ca1ccc8ecd2",
+      "updatedAt": "2026-07-10T13:34:56+00:00",
+      "sourceHash": "c6605249b883e072",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "96": {
       "headline": "Switzerland and Colombia Clash in Round of 16",
-      "summary": "Switzerland and Colombia meet in the Round of 16 following successful runs through their respective group and knockout stages.",
+      "summary": "Switzerland and Colombia meet in the Round of 16 to secure a path forward in the tournament.",
       "story": [
-        "Switzerland enters this match with momentum, having navigated through Group B and a successful Round of 32 victory against Algeria. Their path to this stage included wins over Bosnia and Herzegovina and Canada, showcasing an ability to find the back of the net consistently throughout the tournament.",
-        "Colombia arrives at this matchup after a disciplined group phase in Group K and a tight victory over Ghana in the Round of 32. Their defensive organization has been a hallmark of their performance, having kept clean sheets in both their final group match against Portugal and their recent knockout encounter.",
-        "This Round of 16 fixture pits two teams with distinct styles against one another. While Switzerland has demonstrated a high-scoring capacity in several of their previous outings, Colombia has proven difficult to break down, setting up a tactical battle for control in this knockout round."
+        "Switzerland enters this knockout match following a successful run through Group B and a victory over Algeria in the previous round. Their path has shown consistency, having navigated group play with wins against Bosnia and Herzegovina and Canada, alongside a draw with Qatar.",
+        "Colombia arrives at this stage after emerging from Group K, where they recorded victories against Uzbekistan and DR Congo before a scoreless draw with Portugal. They maintained their momentum in the Round of 32 by securing a win against Ghana.",
+        "Both teams have demonstrated defensive discipline throughout their respective paths to reach this point. As they face off in the Round of 16, the ability to capitalize on limited opportunities will be a significant factor for both squads."
       ],
       "bullets": [
-        "Switzerland has remained unbeaten through their group matches and their Round of 32 win.",
-        "Colombia successfully advanced through Group K without conceding a defeat.",
-        "Both teams enter this fixture coming off victories in the Round of 32."
+        "Switzerland has remained unbeaten through their group stage and Round of 32 matches.",
+        "Colombia enters this match having kept a clean sheet in their previous two tournament outings."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T11:47:32+00:00",
-      "sourceHash": "61094182692bf3f6",
+      "updatedAt": "2026-07-10T13:34:48+00:00",
+      "sourceHash": "dda6e8fa920a47d9",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "97": {
-      "headline": "France and Morocco Meet in Quarterfinal Showdown",
-      "summary": "France and Morocco face off in the Quarterfinals after successful campaigns through the knockout rounds.",
+      "headline": "France and Morocco Clash in Quarterfinal Showdown",
+      "summary": "France and Morocco meet in the Quarterfinals, with both teams looking to secure a spot in the next stage of the tournament.",
       "story": [
-        "France enters this Quarterfinal matchup following a consistent run through the tournament. Their path included group stage victories over Senegal, Iraq, and Norway, followed by knockout wins against Sweden and Paraguay. Throughout these matches, they have demonstrated an ability to maintain defensive discipline while finding ways to secure results.",
-        "Morocco arrives at this stage after navigating a challenging path that began with a draw against Brazil and a victory over Scotland. Their momentum continued with a win against Haiti and a hard-fought result against the Netherlands, capped by a decisive performance against Canada in the Round of 16.",
-        "Both teams have shown resilience in high-pressure situations leading up to this match. As they transition into the Quarterfinals, the focus shifts to how these two sides will manage the tactical demands of a knockout environment where every decision carries significant weight."
+        "France arrives at this Quarterfinal matchup following a consistent run through the tournament. Their path included victories over Senegal, Iraq, and Norway in the group stage, followed by a decisive win against Sweden in the Round of 32 and a narrow victory over Paraguay in the Round of 16.",
+        "Morocco has demonstrated resilience throughout their campaign, navigating a challenging group that included Brazil, Scotland, and Haiti. Their knockout journey has been equally impressive, featuring a penalty shootout victory against the Netherlands in the Round of 32 and a commanding performance to defeat Canada in the Round of 16.",
+        "This encounter brings together two sides that have shown they can handle the pressure of knockout football. France has maintained a strong defensive record in recent matches, while Morocco has proven their ability to find the back of the net against varied opposition."
       ],
       "bullets": [
-        "France has maintained a strong defensive record, conceding only one goal across their five tournament matches.",
-        "Morocco demonstrated offensive versatility in their group stage and knockout performances, scoring multiple goals in three of their five matches.",
-        "This match marks the first time these two nations meet in this tournament, with both sides seeking to secure a place in the next round."
+        "France has remained undefeated in their tournament matches leading up to this Quarterfinal.",
+        "Morocco successfully advanced through both their Round of 32 and Round of 16 matches to reach this stage.",
+        "Both teams have demonstrated tactical flexibility, with Morocco showing composure in penalty situations and France maintaining consistent scoring form."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T11:47:40+00:00",
-      "sourceHash": "7f7869af918bb21f",
+      "updatedAt": "2026-07-10T13:34:25+00:00",
+      "sourceHash": "7cb8e544097c110b",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "99": {
       "headline": "Norway and England Clash in Quarterfinal Showdown",
-      "summary": "Norway and England face off in the Quarterfinals after both teams navigated challenging paths through the knockout rounds.",
+      "summary": "Norway and England meet in the quarterfinals following successful campaigns through the knockout rounds.",
       "story": [
-        "Norway arrives at this Quarterfinal matchup battle-tested after a string of high-stakes encounters. Their journey to this point included a narrow victory over Ivory Coast in the Round of 32 and a hard-fought win against Brazil in the Round of 16. Having shown resilience throughout the tournament, they look to continue their momentum against a formidable opponent.",
-        "England has maintained a steady presence throughout the competition, remaining unbeaten in their group stage campaign. Their knockout phase has been equally demanding, featuring a tight victory over Congo DR and an intense, high-scoring win against Mexico in the Round of 16. This consistency has defined their approach as they prepare for this next challenge.",
-        "Both sides have demonstrated an ability to perform under pressure in the knockout stages. With both teams having secured their spots through impressive victories in their respective Round of 16 matches, this encounter promises to be a significant test of their tactical discipline and resolve."
+        "Norway enters this quarterfinal matchup after a resilient path through the knockout stages. Their journey included a narrow victory over Ivory Coast in the Round of 32 and a hard-fought win against Brazil in the Round of 16. Having navigated a group stage that tested their defensive consistency, they have demonstrated an ability to secure results in high-pressure environments.",
+        "England arrives at this stage with momentum, having navigated their group unbeaten before securing back-to-back victories in the knockout rounds. Their recent performance against Mexico in the Round of 16 showcased their offensive capabilities, following a tight win over Congo DR in the previous round. England has shown they can adapt to different styles of play throughout the tournament.",
+        "Both teams have proven their ability to win close encounters to reach this point. With a spot in the semifinals on the line, the tactical approach from both sides will be critical as they look to control the tempo and capitalize on their opportunities."
       ],
       "bullets": [
-        "Norway has secured back-to-back knockout victories by one-goal margins.",
-        "England enters this match following a high-scoring 3-2 win against Mexico.",
-        "Both teams have shown offensive versatility, with Norway scoring multiple goals in four of their five tournament matches."
+        "Norway has shown offensive depth, scoring in every match since their group stage opener.",
+        "England remains unbeaten in the tournament, demonstrating defensive discipline throughout their group and knockout games.",
+        "Both teams have navigated high-stakes knockout matches to reach the quarterfinals, proving their resilience under pressure."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T06:12:43+00:00",
-      "sourceHash": "e8bf80c2cef7434c",
+      "updatedAt": "2026-07-10T13:34:33+00:00",
+      "sourceHash": "74509d68b3fd0eb3",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "98": {
-      "headline": "Spain and Belgium Clash in Quarterfinal Showdown",
-      "summary": "Spain and Belgium meet in the quarterfinals following impressive runs through the knockout stages.",
+      "headline": "Spain and Belgium Meet in Quarterfinal Showdown",
+      "summary": "Spain and Belgium face off in the Quarterfinals, with both teams looking to continue their momentum through the knockout bracket.",
       "story": [
-        "Spain enters this quarterfinal matchup having navigated a challenging path, including a narrow victory over Portugal in the Round of 16. Their defensive consistency has been a hallmark of their journey, keeping clean sheets in their recent wins against Austria and Portugal.",
-        "Belgium arrives with momentum after a decisive victory against the United States in their previous outing. Their offensive output has been notable throughout the tournament, particularly in their five-goal performance against New Zealand and their four-goal display in the Round of 16.",
-        "Both teams have demonstrated resilience in high-pressure environments to reach this stage. As they prepare for this encounter, the focus will be on whether Spain's disciplined defensive structure can contain a high-scoring Belgian attack that has shown the ability to find the back of the net consistently."
+        "Spain enters this Quarterfinal match following a disciplined run through the knockout stages. Their path included a victory over Portugal in the Round of 16 and a convincing win against Austria in the Round of 32, building on a group stage campaign where they maintained defensive consistency.",
+        "Both sides have demonstrated the ability to adapt as the stakes increase. Spain has relied on a stingy defensive structure that has kept opponents off the board in their recent knockout fixtures, while Belgium has shown a capacity to find the back of the net consistently in their most recent outings."
       ],
       "bullets": [
-        "Spain has recorded clean sheets in both of their knockout round matches leading up to this quarterfinal.",
-        "Belgium has scored a total of seven goals across their two knockout round appearances.",
-        "This match features two teams that successfully advanced through their respective groups before winning their Round of 32 and Round of 16 fixtures."
+        "Spain has successfully navigated two knockout rounds without conceding a goal.",
+        "Belgium has scored a combined 7 goals across their last two matches.",
+        "This match determines who advances to the Semifinals of the tournament."
       ],
-      "sections": [
-        {
-          "title": "Tournament Paths",
-          "body": "Spain navigated Group H before securing knockout victories over Austria and Portugal. Belgium emerged from Group G and followed up with wins against Senegal and the United States to reach this quarterfinal."
-        }
-      ],
-      "updatedAt": "2026-07-07T05:53:29+00:00",
-      "sourceHash": "afdc1962cc898fa2",
+      "sections": [],
+      "updatedAt": "2026-07-10T13:34:17+00:00",
+      "sourceHash": "7f89d940a3fe3ace",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "100": {
       "headline": "Argentina and Switzerland Clash in Quarterfinal Showdown",
-      "summary": "Argentina and Switzerland meet in the Quarterfinals with both teams looking to extend their tournament runs.",
+      "summary": "Argentina and Switzerland meet in the quarterfinals to determine who moves one step closer to the final trophy.",
       "story": [
-        "Argentina enters this Quarterfinal matchup after navigating a demanding path through the knockout rounds. Their journey to this stage has been defined by high-scoring performances, including back-to-back narrow victories in both the Round of 32 and the Round of 16. Having maintained a consistent offensive output throughout their group stage and knockout appearances, they arrive at this match with significant momentum.",
-        "Switzerland has proven to be a formidable defensive force throughout the tournament. After finishing their group stage campaign with a strong record, they successfully navigated their Round of 32 match before engaging in a tense, scoreless battle in the Round of 16. Their ability to remain disciplined under pressure has been a hallmark of their campaign thus far.",
-        "This encounter pits Argentina's high-scoring attack against a Swiss side that has shown remarkable resilience in tight contests. As both teams look to secure a spot in the next phase, the tactical battle between Argentina's offensive drive and Switzerland's defensive structure will be a key factor to watch."
+        "Argentina enters this quarterfinal match after a high-scoring run through the knockout stages. Their path to this point has been marked by offensive consistency, having navigated through both the Round of 32 and the Round of 16 with narrow victories against Cabo Verde and Egypt respectively.",
+        "Switzerland arrives at this stage following a defensive masterclass in their previous knockout appearances. After a clean sheet victory against Algeria in the Round of 32, they successfully navigated a tense penalty shootout against Colombia to secure their place in this quarterfinal.",
+        "The tactical contrast between Argentina's recent high-scoring affairs and Switzerland's disciplined defensive approach will be a defining feature of this match. Both teams have demonstrated resilience throughout the tournament, and this encounter serves as a test of whether Argentina's attack can break down a Swiss side that has proven difficult to score against in recent outings."
       ],
       "bullets": [
-        "Argentina has scored at least two goals in every match they have played in this tournament.",
-        "Switzerland has demonstrated defensive consistency, keeping clean sheets in their last two knockout matches.",
-        "Both teams have successfully navigated two knockout rounds to reach this Quarterfinal."
+        "Argentina has maintained a consistent scoring record, netting three goals in each of their last two knockout matches.",
+        "Switzerland has shown significant defensive composure, keeping a clean sheet in their most recent knockout fixture.",
+        "This match represents a pivotal quarterfinal test for both squads as they look to maintain their tournament momentum."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:37:25+00:00",
-      "sourceHash": "7f0adaf19d9a7972",
+      "updatedAt": "2026-07-10T13:34:41+00:00",
+      "sourceHash": "0e2f616e78e2c432",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "101": {
       "headline": "France Advances to Semifinal Showdown",
-      "summary": "France prepares for a high-stakes semifinal battle against the winner of Match 98.",
+      "summary": "France prepares for a high-stakes semifinal matchup against the winner of Match 98.",
       "story": [
-        "France has navigated a dominant path through the tournament to reach the semifinals. Their journey began with a commanding performance in Group I, where they secured victories over Senegal, Iraq, and Norway, establishing themselves as a formidable force early on.",
-        "The knockout phase saw France maintain their momentum with disciplined displays. They moved past Sweden in the Round of 32 and edged out Paraguay in the Round of 16, before securing a clean-sheet victory against Morocco in the quarterfinals to earn their spot in this penultimate round.",
-        "As they await their opponent, France remains the only known entity in this semifinal pairing. The identity of the team emerging from Match 98 will provide the final piece of the puzzle, setting up a clash that will determine who moves one step closer to the ultimate prize.",
-        "With a track record of consistent defensive stability and offensive efficiency throughout their previous matches, France enters this game carrying significant confidence. The pressure of the semifinal stage will test their resolve as they face the survivor of the other quarterfinal bracket."
+        "France has navigated a dominant path through the tournament to reach this semifinal stage. Their journey included a perfect record in Group I, where they secured victories against Senegal, Iraq, and Norway, followed by knockout wins over Sweden, Paraguay, and Morocco.",
+        "The team has demonstrated remarkable consistency throughout their campaign, maintaining a strong defensive structure while consistently finding the back of the net. Their ability to adapt to different opponents has been a hallmark of their performance thus far.",
+        "While France awaits their opponent, the identity of the team emerging from Match 98 will determine the final tactical challenge of this semifinal. Regardless of who advances, France enters this fixture with significant momentum and a proven ability to perform under pressure on the world stage."
       ],
       "bullets": [
-        "France has remained unbeaten throughout their tournament run.",
+        "France has remained undefeated throughout their group stage and knockout matches.",
         "The semifinal opponent will be determined by the outcome of Match 98.",
-        "France has successfully kept clean sheets in each of their knockout stage appearances."
+        "France has successfully navigated three knockout rounds to reach the final four."
       ],
       "sections": [],
-      "updatedAt": "2026-07-09T23:36:25+00:00",
-      "sourceHash": "1ba6215b4337a854",
+      "updatedAt": "2026-07-10T13:35:19+00:00",
+      "sourceHash": "63fe24b13a81d0f0",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
