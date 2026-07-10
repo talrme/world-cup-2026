@@ -1,43 +1,11 @@
 {
-  "generatedAt": "2026-07-10T16:00:52+00:00",
+  "generatedAt": "2026-07-10T22:12:52+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
     "note": "Chance to advance is derived from ESPN-listed team moneylines. It is an estimate, not betting advice."
   },
   "matches": {
-    "98": {
-      "market": "Chance to advance",
-      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
-      "book": "DraftKings",
-      "sourceLabel": "ESPN",
-      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760511/",
-      "asOf": "2026-07-10T16:00:52+00:00",
-      "espnEventId": "760511",
-      "outcomes": [
-        {
-          "key": "home",
-          "label": "Spain",
-          "american": -165,
-          "rawProbability": 0.6226415094339622,
-          "advanceProbability": 0.7816683831101957
-        },
-        {
-          "key": "away",
-          "label": "Belgium",
-          "american": 475,
-          "rawProbability": 0.17391304347826086,
-          "advanceProbability": 0.21833161688980432
-        }
-      ],
-      "draw": {
-        "label": "Draw after 90 minutes",
-        "american": 290,
-        "rawProbability": 0.2564102564102564
-      },
-      "rawTeamTotal": 0.7965545529122231,
-      "rawMarketTotal": 1.0529648093224795
-    },
     "99": {
       "market": "Chance to advance",
       "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
@@ -101,6 +69,38 @@
       },
       "rawTeamTotal": 0.7736549165120594,
       "rawMarketTotal": 1.05534505735713
+    },
+    "101": {
+      "market": "Chance to advance",
+      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
+      "book": "DraftKings",
+      "sourceLabel": "ESPN",
+      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760514/",
+      "asOf": "2026-07-10T22:12:52+00:00",
+      "espnEventId": "760514",
+      "outcomes": [
+        {
+          "key": "home",
+          "label": "France",
+          "american": 135,
+          "rawProbability": 0.425531914893617,
+          "advanceProbability": 0.5727272727272728
+        },
+        {
+          "key": "away",
+          "label": "Spain",
+          "american": 215,
+          "rawProbability": 0.31746031746031744,
+          "advanceProbability": 0.4272727272727273
+        }
+      ],
+      "draw": {
+        "label": "Draw after 90 minutes",
+        "american": 220,
+        "rawProbability": 0.3125
+      },
+      "rawTeamTotal": 0.7429922323539344,
+      "rawMarketTotal": 1.0554922323539344
     }
   }
 }

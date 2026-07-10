@@ -3236,7 +3236,7 @@
       "time": "15:00",
       "home": "Spain",
       "away": "Belgium",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "los-angeles",
       "offset": "-04:00",
@@ -3249,7 +3249,21 @@
       "bracketAwayTeam": "Belgium",
       "awayRevealSource": "Winner Match 94",
       "homeScore": 2,
-      "awayScore": 1
+      "awayScore": 1,
+      "videos": {
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-10T22:13:34+00:00",
+          "title": "Spain vs Belgium Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Quarterfinals",
+          "url": "https://www.youtube.com/watch?v=jqG_pZGkLcc",
+          "channel": "FOX Sports",
+          "durationText": "13 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-10T22:13:34+00:00"
+      }
     },
     {
       "id": 99,
@@ -3300,7 +3314,7 @@
       "date": "2026-07-14",
       "time": "15:00",
       "home": "France",
-      "away": "Winner Match 98",
+      "away": "Spain",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "dallas",
@@ -3309,7 +3323,10 @@
       "espnEventId": "760514",
       "homeSource": "Winner Match 97",
       "bracketHomeTeam": "France",
-      "homeRevealSource": "Winner Match 97"
+      "homeRevealSource": "Winner Match 97",
+      "awaySource": "Winner Match 98",
+      "bracketAwayTeam": "Spain",
+      "awayRevealSource": "Winner Match 98"
     },
     {
       "id": 102,
@@ -3521,6 +3538,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-10T20:55:44+00:00",
+  "bracketUpdatedAt": "2026-07-10T22:12:51+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
