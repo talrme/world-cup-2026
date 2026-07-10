@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-10T13:37:38+00:00",
+  "generatedAt": "2026-07-10T16:06:42+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -4163,397 +4163,400 @@ window.WORLD_CUP_AI_INSIGHTS = {
   "matchPreviews": {
     "55": {
       "headline": "Group E Stakes: Curacao Meets Ivory Coast",
-      "summary": "Curacao and Ivory Coast face off in their final group stage match with critical implications for their tournament journey.",
+      "summary": "Curacao and Ivory Coast face off in their final group match with both teams looking to secure their standing in Group E.",
       "story": [
-        "Ivory Coast enters this match sitting second in Group E with three points, having secured a win against Ecuador before a narrow loss to Germany. Their ability to manage this final group fixture will be vital as they look to maintain their position in the standings.",
-        "Curacao arrives at this third matchday with one point following a hard-fought draw against Ecuador. After facing a difficult start against Germany, the team demonstrated defensive resilience in their second outing and will aim to build on that momentum.",
-        "With Germany currently leading the group, the dynamics of this matchup carry significant weight for both sides. Every point earned here is essential for teams looking to secure their standing in a tightly contested group."
+        "Ivory Coast enters this match with 3 points from their first two outings, having secured a victory against Ecuador before a narrow result against Germany. Their performance in the group has kept them in a competitive position as they look to finalize their group stage campaign.",
+        "Curacao arrives at this final group fixture with 1 point, earned through a hard-fought scoreless draw against Ecuador. After a difficult opening match against Germany, the team showed defensive resilience in their second game, a quality they will look to carry forward.",
+        "The group standings show Germany leading with 6 points, while Ivory Coast sits in second with 3 points. Ecuador and Curacao both hold 1 point, making every moment of this final matchday significant for the teams aiming to solidify their tournament path."
       ],
       "bullets": [
-        "Ivory Coast holds three points while Curacao enters with one point.",
-        "Both teams are playing their third and final match of the group stage.",
-        "Curacao's defense showed improvement in their second match by keeping a clean sheet against Ecuador."
+        "Ivory Coast currently holds second place in Group E with 3 points.",
+        "Curacao is seeking their first win of the tournament after a draw against Ecuador.",
+        "Both teams are looking to improve their goal difference and point totals in this final group match."
       ],
       "sections": [
         {
-          "title": "Group E Context",
-          "body": "Germany currently sits atop the group with six points from two matches. Ivory Coast holds the second spot, while Ecuador and Curacao follow with one point each. The outcome of this match will be a deciding factor in the final group rankings."
+          "title": "Tournament Context",
+          "body": "Group E has been highly competitive, with Germany currently at the top of the table. Ivory Coast remains in a strong position to contend for advancement, while Curacao needs a result to change their current standing. This final matchday will determine the ultimate order of the group."
         }
       ],
-      "updatedAt": "2026-06-30T18:14:15+00:00",
-      "sourceHash": "58ba12af027dcdeb",
+      "updatedAt": "2026-07-10T16:04:28+00:00",
+      "sourceHash": "a96342118c414a91",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "56": {
-      "headline": "Germany and Ecuador Face Off in Group E Finale",
-      "summary": "Germany enters the final group match with a perfect record while Ecuador looks to secure their first goal of the tournament.",
+      "headline": "Ecuador and Germany Meet in Group E Finale",
+      "summary": "Ecuador faces a high-stakes challenge against a strong German side as the Group E schedule concludes.",
       "story": [
-        "Germany arrives at this final group stage encounter in strong form, having secured two victories in their opening matches. With nine goals scored and only two conceded, they have demonstrated a potent offensive capability throughout the tournament so far.",
-        "Ecuador finds themselves in a challenging position as they search for their first goal of the competition. Following a narrow loss to Ivory Coast and a scoreless draw against Curacao, they currently sit on one point and face a significant test against the group leaders.",
-        "The tactical dynamic will be interesting to watch as Germany aims to maintain their momentum while Ecuador focuses on finding a breakthrough in the final third. Both teams have everything to play for as they look to finalize their standing in Group E."
+        "Germany enters this matchup leading Group E with six points, having secured victories in both of their previous outings. Their offense has been particularly potent, totaling nine goals across their first two matches.",
+        "Ecuador finds themselves in a difficult position with one point from two games. After a narrow loss to Ivory Coast and a scoreless draw against Curacao, they have yet to find the back of the net in the tournament.",
+        "The pressure is on for Ecuador to generate offensive momentum against a German defense that has conceded two goals so far. Germany, meanwhile, looks to maintain their perfect record and solidify their standing at the top of the group."
       ],
       "bullets": [
-        "Germany has scored 9 goals in their first two matches.",
-        "Ecuador is still seeking their first goal of the group stage.",
-        "Germany leads Group E with 6 points."
+        "Germany leads Group E with 6 points and a +7 goal difference.",
+        "Ecuador has 1 point and is currently seeking their first goal of the tournament.",
+        "Germany has scored 9 goals in their first 2 matches."
       ],
-      "sections": [
-        {
-          "title": "Group E Context",
-          "body": "Germany holds the top spot in the group with a goal difference of plus seven. Ecuador and Curacao are currently tied with one point each, trailing Ivory Coast who sits in second place with three points."
-        }
-      ],
-      "updatedAt": "2026-06-30T18:14:23+00:00",
-      "sourceHash": "e57756a049e00938",
+      "sections": [],
+      "updatedAt": "2026-07-10T16:04:51+00:00",
+      "sourceHash": "bf000af324dd3f6f",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "57": {
       "headline": "Netherlands and Tunisia Close Out Group F",
-      "summary": "The Netherlands look to secure their standing in Group F as they face a Tunisia side searching for their first points of the tournament.",
+      "summary": "The Netherlands look to solidify their position in Group F as they face a Tunisia side aiming to finish their campaign on a high note.",
       "story": [
-        "The Netherlands enter this final group stage match with momentum, having earned four points from their first two outings. Their campaign began with a 2-2 draw against Japan before a dominant 5-1 victory over Sweden, leaving them with a goal difference of plus-four.",
-        "Tunisia finds themselves in a difficult position after two matches. Following an opening 5-1 loss to Sweden and a 4-0 defeat against Japan, they are currently at the bottom of the group standings and are looking to finish their tournament run on a positive note.",
-        "This match serves as the conclusion to Group F play. With the group standings currently tight at the top, the Netherlands will be focused on maintaining their form to solidify their position heading into the next phase of the competition."
+        "Tunisia finds themselves in a challenging position after two difficult matches to start the tournament. Having conceded nine goals across their first two appearances, they will be looking to tighten their defensive structure and find a breakthrough in the final third against a high-scoring Dutch side.",
+        "Group F remains tightly contested, with the Netherlands and Japan currently level on four points, while Sweden trails with three. This match serves as the conclusion of the group stage, where every goal and point carries significant weight for final positioning."
       ],
       "bullets": [
-        "The Netherlands lead Group F with 4 points and a plus-4 goal difference.",
-        "Tunisia is looking to rebound after conceding 9 goals across their first two matches.",
-        "Group F remains competitive with Japan also sitting on 4 points."
+        "The Netherlands have recorded seven goals in their first two matches.",
+        "Tunisia is seeking their first points of the tournament in this final group appearance.",
+        "Group F standings show the Netherlands and Japan tied at the top with four points each."
       ],
-      "sections": [
-        {
-          "title": "Group F Context",
-          "body": "The Netherlands and Japan are currently tied at the top of the group with 4 points apiece. Sweden follows with 3 points, while Tunisia has yet to record a point. The outcome of this match will determine the final table positions."
-        }
-      ],
-      "updatedAt": "2026-06-30T18:13:59+00:00",
-      "sourceHash": "5834e1c50dc17636",
+      "sections": [],
+      "updatedAt": "2026-07-10T16:04:12+00:00",
+      "sourceHash": "f5cfaa6ae786cc6c",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "58": {
-      "headline": "Japan and Sweden Face Off in Group F Finale",
-      "summary": "Japan and Sweden meet in their final group stage match with significant implications for the standings in Group F.",
+      "headline": "Japan and Sweden Clash in Group F Finale",
+      "summary": "Japan and Sweden face off in their final group stage match with significant implications for the standings.",
       "story": [
-        "Japan enters this final group stage match with momentum, having secured four points from their first two outings. After a hard-fought draw against the Netherlands, they demonstrated their clinical side by shutting out Tunisia in a dominant four-goal performance.",
-        "Sweden finds themselves in a challenging position with three points after two matches. Following an impressive opening victory against Tunisia, they faced a difficult result against the Netherlands, making this final encounter vital for their standing in the group.",
-        "The group dynamics remain tight, with the Netherlands and Japan currently tied on four points at the top. Sweden sits just one point behind, ensuring that every moment in this matchup carries weight as teams look to secure their path forward."
+        "Japan enters this final group match in strong form, having secured four points from their opening two fixtures. After an opening draw against the Netherlands, they demonstrated clinical efficiency in a 4-0 victory over Tunisia. Their offensive output has been consistent, totaling six goals across their first two matches.",
+        "Sweden arrives at this encounter with three points on the board. They opened their tournament with a dominant 5-1 win against Tunisia, though they faced a difficult outing against the Netherlands in their second match. With six goals scored and six conceded, Sweden has shown an ability to find the net while also dealing with defensive challenges.",
+        "The group standings remain tight as the final matches approach. The Netherlands and Japan currently lead with four points each, while Sweden sits just one point behind. This matchup carries weight for both sides as they look to secure their position in the tournament bracket."
       ],
       "bullets": [
-        "Japan has shown strong offensive form, scoring six goals across their first two matches.",
-        "Sweden's attack has proven capable of finding the net, also tallying six goals in their opening two appearances.",
-        "Group F remains highly competitive, with only one point separating the top three teams heading into this final day."
+        "Japan has scored 6 goals and conceded only 2 in their first two matches.",
+        "Sweden has demonstrated a high-scoring profile, netting 6 goals while allowing 6 in return.",
+        "Only one point separates Japan and Sweden in the current Group F table."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:14:07+00:00",
-      "sourceHash": "f616fcdb9a51c895",
+      "updatedAt": "2026-07-10T16:04:20+00:00",
+      "sourceHash": "2defe477f23e4aeb",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "59": {
-      "headline": "United States and Turkey Meet in Group D Finale",
-      "summary": "The United States enters this final group stage match looking to maintain their momentum against a Turkey side seeking their first points of the tournament.",
+      "headline": "Turkey and United States Face Off in Group D Finale",
+      "summary": "The United States enters this final group match with six points, while Turkey looks to secure their first result of the tournament.",
       "story": [
-        "The United States arrives at this third matchday with a strong start, having secured 6 points through their first two appearances. With a goal difference of 5, they have demonstrated both offensive efficiency and defensive discipline in their opening matches against Paraguay and Australia.",
-        "Turkey faces a difficult challenge as they look to conclude their group stage campaign on a positive note. Having yet to record a point or a goal in the tournament, they will be focused on finding a breakthrough against a high-performing opponent.",
-        "This matchup serves as the final test for both teams in Group D. While the United States aims to solidify their standing at the top of the table, Turkey is playing for pride and a chance to leave a mark before the end of the group stage."
+        "The United States has been in strong form throughout the group stage, entering this match with a perfect six points from two games. Their offensive production has been notable, having scored six goals while conceding only one, resulting in a goal difference of plus five.",
+        "Turkey faces a difficult challenge as they look for their first points of the tournament. After losses to Australia and Paraguay, they have yet to find the back of the net, having conceded three goals across their two previous matches.",
+        "This matchup concludes Group D play for both sides. The United States will aim to maintain their momentum, while Turkey hopes to end their group campaign on a positive note."
       ],
       "bullets": [
-        "The United States has scored 6 goals and conceded only 1 across their first two matches.",
-        "Turkey is looking for their first goal of the tournament after being held scoreless in their opening two games.",
-        "Group D standings currently see the United States in first place with 6 points, while Turkey sits at the bottom with 0 points."
+        "United States goal differential: +5",
+        "Turkey points: 0",
+        "United States goals scored: 6"
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:13:40+00:00",
-      "sourceHash": "20671f9bc8e865a3",
+      "updatedAt": "2026-07-10T16:03:56+00:00",
+      "sourceHash": "70a7eae7d6dbebff",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "60": {
-      "headline": "Group D Stakes: Paraguay Meets Australia",
-      "summary": "Paraguay and Australia face off in their final group match with both teams sitting on three points.",
+      "headline": "Paraguay and Australia Face Off in Group D Finale",
+      "summary": "Paraguay and Australia meet in their final group stage match with both teams looking to secure their standing in Group D.",
       "story": [
-        "Paraguay and Australia enter this Matchday 3 encounter tied on points in Group D, creating a high-stakes scenario for both sides. Each team has secured one victory and suffered one defeat through their first two matches, leaving the group standings tightly contested behind the United States.",
-        "Australia opened their campaign with a 2-0 win over Turkey before falling to the United States. They currently hold a goal difference of 0, providing them a slight statistical edge in the group table as they aim to navigate this final hurdle.",
-        "Paraguay arrives at this match following a bounce-back performance against Turkey, where they secured a 1-0 victory after an initial loss to the United States. With a goal difference of -2, they will be looking to build on their most recent defensive effort to improve their standing.",
-        "This matchup serves as the closing chapter for Group D, with both squads aware that their performance here will define their path forward in the tournament."
+        "Paraguay enters this final group stage encounter with three points from their first two matches. After a difficult start against the United States, they successfully rebounded with a victory over Turkey to keep their campaign momentum alive.",
+        "Australia also arrives at this match with three points, having opened their tournament with a clean sheet win against Turkey. Following a setback against the United States in their second outing, the team is looking to regain their form and defensive discipline.",
+        "With Group D standings currently tight, this matchup serves as a pivotal moment for both squads. Both nations have demonstrated the ability to secure results in this tournament, and this match will determine how they finish in the group table."
       ],
       "bullets": [
-        "Both teams enter the match with 3 points from their first two games.",
-        "Australia holds a 0 goal difference, while Paraguay enters with a -2 goal difference.",
-        "This is the final group stage match for both nations."
+        "Both teams enter the match with identical records of one win and one loss.",
+        "Australia has recorded a total of two goals for and two goals against across their first two matches.",
+        "Paraguay looks to build on the defensive success of their most recent clean sheet."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:13:50+00:00",
-      "sourceHash": "9b34592ba80abbc8",
+      "updatedAt": "2026-07-10T16:04:04+00:00",
+      "sourceHash": "e907dd2642611f41",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "61": {
       "headline": "Norway and France Clash for Group I Supremacy",
-      "summary": "Norway and France enter their final group stage match both holding 6 points and looking to secure the top spot in Group I.",
+      "summary": "Norway and France enter their final group match both holding six points, setting up a direct battle for the top spot in Group I.",
       "story": [
-        "Both Norway and France arrive at this final group stage encounter with perfect records, having secured two wins apiece in their opening matches. With 6 points each, this meeting serves as the definitive test to determine who finishes at the top of Group I.",
-        "France has displayed impressive defensive discipline throughout the tournament so far, conceding only a single goal across their victories against Senegal and Iraq. Their offense has been equally clinical, netting 6 goals to build a strong goal difference of 5.",
-        "Norway enters the match with a high-scoring profile, having tallied 7 goals in their wins over Iraq and Senegal. While their attack has been prolific, they have allowed 3 goals, resulting in a goal difference of 4, which places them just behind France in the current standings.",
-        "This matchup brings together the two most successful sides in the group. As both teams look to carry momentum into the next stage, this contest will be a critical indicator of their form and tactical readiness."
+        "Both Norway and France have been clinical in their opening two matches, each securing six points to distance themselves from the rest of the group. With both teams already showing strong form, this final group fixture serves as the decisive encounter to determine who finishes at the summit of the standings.",
+        "France has displayed impressive defensive discipline throughout the group stage, conceding only one goal while netting six. Their ability to control the tempo and shut down opponents was on full display in their victories against Senegal and Iraq, making them a formidable test for any side.",
+        "Norway enters this match with a high-scoring profile, having found the back of the net seven times across their first two appearances. While their attack has been prolific, they have also been involved in tighter contests, notably edging out Senegal in a five-goal thriller during their second match.",
+        "As both teams look to maintain their momentum, the tactical battle between France's organized structure and Norway's offensive output will be the primary focus. With both squads undefeated so far, this matchup offers a clear look at two of the group's most consistent performers."
       ],
       "bullets": [
-        "France leads Group I with a goal difference of 5.",
-        "Norway has scored 7 goals in their first two matches, the highest total in the group.",
-        "Both teams have already secured 6 points from their opening two fixtures."
-      ],
-      "sections": [],
-      "updatedAt": "2026-06-30T18:13:24+00:00",
-      "sourceHash": "f3fdba3739f9b2d2",
-      "promptHash": "40a830581c311aec",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
-    },
-    "62": {
-      "headline": "Senegal and Iraq Face Off in Group I Finale",
-      "summary": "Senegal and Iraq meet for their final group stage match as both teams look to secure their first points of the tournament.",
-      "story": [
-        "Senegal enters this match looking to build on their offensive output from their previous outing, where they found the back of the net twice against Norway. Despite a challenging start to the group stage, their ability to generate scoring chances remains a key factor to watch as they aim to conclude their group campaign on a high note.",
-        "Iraq faces a difficult task in their final group appearance, having navigated matches against France and Norway. With their sights set on their first points of the tournament, they will need to tighten their defensive structure and find a breakthrough in the final third to challenge Senegal.",
-        "Both teams currently sit at the bottom of Group I, trailing France and Norway. While the path to the knockout stages is complex, this match provides both sides a final opportunity to demonstrate their quality and impact the final group standings."
-      ],
-      "bullets": [
-        "Senegal scored 3 goals over their first two matches.",
-        "Iraq is seeking their first goal since their opening match against Norway.",
-        "Both teams are looking for their first win of the tournament."
-      ],
-      "sections": [],
-      "updatedAt": "2026-06-30T18:13:32+00:00",
-      "sourceHash": "56aa335833e07b12",
-      "promptHash": "40a830581c311aec",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
-    },
-    "63": {
-      "headline": "Group H Finale: Cabo Verde vs. Saudi Arabia",
-      "summary": "Cabo Verde and Saudi Arabia meet in their final group stage match with both teams looking to influence their standing in Group H.",
-      "story": [
-        "Cabo Verde enters this match having proven they can hold their own against top-tier competition. After opening their tournament with a scoreless draw against Spain, they followed up with a high-scoring 2-2 result against Uruguay. Their ability to remain competitive in both matches has kept them squarely in the mix within a tight group.",
-        "Saudi Arabia faces a different challenge as they look to bounce back from their second matchday. After securing a hard-fought 1-1 draw against Uruguay in their opener, they encountered a difficult match against Spain. They will be looking to find their offensive rhythm again as they take the field for this final group encounter.",
-        "The Group H table remains highly contested heading into this final day. With Spain leading on 4 points, Uruguay and Cabo Verde sit level on 2 points each, while Saudi Arabia holds 1 point. Every action in this match will be significant as the teams look to maximize their position before the group stage concludes."
-      ],
-      "bullets": [
-        "Cabo Verde has shown defensive resilience, conceding only 2 goals across their first two matches.",
-        "Saudi Arabia is aiming to recapture the form that earned them a point against Uruguay in their opening fixture.",
-        "The tight point distribution in Group H ensures that the outcome of this match will have direct implications for the final standings."
-      ],
-      "sections": [],
-      "updatedAt": "2026-06-30T18:13:07+00:00",
-      "sourceHash": "67ab3a3aba6a72f0",
-      "promptHash": "40a830581c311aec",
-      "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
-    },
-    "64": {
-      "headline": "Group H Finale: Uruguay Meets Spain",
-      "summary": "Uruguay and Spain face off in the final match of Group H with significant implications for the group standings.",
-      "story": [
-        "Spain enters this final group stage match sitting at the top of the table with 4 points. After a scoreless draw against Cabo Verde to open the tournament, they found their rhythm in a 4-0 victory over Saudi Arabia, showcasing a potent attack that has yet to concede a goal.",
-        "Uruguay finds themselves in a more challenging position, currently holding 2 points after consecutive draws against Saudi Arabia and Cabo Verde. With 3 goals scored and 3 conceded, they have shown an ability to find the net, but defensive consistency will be a key focus as they look to secure a result against the group leaders.",
-        "The group remains tightly contested, with only 2 points separating the top three teams. Every action on the pitch will carry weight as both sides look to solidify their standing and ensure their path forward in the competition."
-      ],
-      "bullets": [
-        "Spain leads Group H with 4 points and a +4 goal difference.",
-        "Uruguay has drawn both of their opening matches, scoring 3 goals and conceding 3.",
-        "Spain enters this match having kept a clean sheet in both of their previous group appearances."
+        "France enters with a +5 goal difference, holding a slight edge over Norway's +4.",
+        "Norway has scored 7 goals in two matches, the highest total in Group I.",
+        "France has maintained a clean sheet in their most recent outing, demonstrating defensive consistency."
       ],
       "sections": [
         {
-          "title": "Group H Context",
-          "body": "Spain leads the group with 4 points, while Uruguay and Cabo Verde are tied with 2 points each. Saudi Arabia rounds out the group with 1 point. This final matchday will determine the ultimate order of the standings."
+          "title": "Group I Context",
+          "body": "France and Norway currently sit tied on points at the top of the table. Senegal and Iraq have yet to secure a point, leaving the top two positions to be decided by this head-to-head meeting. The outcome will finalize the order of the top two seeds for the next stage."
         }
       ],
-      "updatedAt": "2026-06-30T18:13:16+00:00",
-      "sourceHash": "c762d7b30338eeec",
+      "updatedAt": "2026-07-10T16:03:41+00:00",
+      "sourceHash": "719cbd3acb61658d",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
+    },
+    "62": {
+      "headline": "Senegal and Iraq Face Off in Group I Finale",
+      "summary": "Senegal and Iraq meet for their final group stage match, both looking to secure their first points of the tournament.",
+      "story": [
+        "Senegal enters this match looking to build on their offensive output from the previous two rounds. Despite falling in their earlier encounters against France and Norway, they have managed to find the back of the net three times throughout the group stage.",
+        "Iraq arrives at this final group fixture aiming to tighten their defensive structure after facing challenges against strong opposition in France and Norway. With one goal scored so far, the team will focus on creating more opportunities in the final third.",
+        "Both teams currently sit at zero points in Group I, making this a pivotal opportunity to finish their tournament run on a high note. The match provides a chance for both squads to demonstrate their growth and tactical adjustments after two difficult opening rounds."
+      ],
+      "bullets": [
+        "Senegal has scored 3 goals across their first two matches.",
+        "Iraq is seeking their first points of the tournament in this final group appearance.",
+        "Both teams are looking to improve their defensive consistency after facing France and Norway."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-10T16:03:49+00:00",
+      "sourceHash": "2e32b55d94370a03",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "preview source or prompt changed"
+    },
+    "63": {
+      "headline": "Group H Finale: Cabo Verde vs. Saudi Arabia",
+      "summary": "Cabo Verde and Saudi Arabia meet in their final group match with both sides looking to secure their standing in Group H.",
+      "story": [
+        "Cabo Verde enters this matchday with two points from their first two outings. They demonstrated resilience by holding Spain to a scoreless draw in their opener and following that up with a 2-2 result against Uruguay. Their ability to remain competitive against the group favorites makes them a difficult opponent to break down.",
+        "Saudi Arabia currently sits at one point after a hard-fought 1-1 draw with Uruguay in their first match. They faced a challenging second outing against Spain, which resulted in a 4-0 loss. They will be looking to regain their defensive form and offensive rhythm in this final group appearance.",
+        "The group dynamics remain tight as the final matches unfold. With Spain leading the group on four points and Uruguay and Cabo Verde both sitting on two points, every goal and point carries weight for teams aiming to extend their tournament run."
+      ],
+      "bullets": [
+        "Cabo Verde has proven difficult to beat, recording two draws in their opening matches.",
+        "Saudi Arabia is looking to bounce back after a difficult result in their second group match.",
+        "Group H remains highly competitive, with three teams separated by only two points heading into the final round."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-10T16:03:09+00:00",
+      "sourceHash": "f9e11cec1e541ca3",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "preview source or prompt changed"
+    },
+    "64": {
+      "headline": "Uruguay and Spain Clash in Group H Finale",
+      "summary": "Uruguay and Spain meet for their final group stage match with significant implications for the standings in Group H.",
+      "story": [
+        "Uruguay enters this match looking to secure their position in the group after a pair of draws. They opened their campaign with a 1-1 result against Saudi Arabia and followed that with an intense 2-2 draw against Cabo Verde, leaving them with 2 points heading into this final encounter.",
+        "Spain arrives with momentum, currently sitting at the top of the group with 4 points. After a scoreless draw in their opening match against Cabo Verde, they demonstrated their attacking potential in a dominant 4-0 victory over Saudi Arabia in their second outing.",
+        "The group dynamics remain tight as both teams look to solidify their standing. With Spain leading on 4 points and Uruguay holding 2, this matchup will be pivotal in determining the final configuration of the table as the group stage concludes."
+      ],
+      "bullets": [
+        "Spain has maintained a clean sheet through their first two matches, boasting a goal difference of +4.",
+        "Uruguay has shown resilience in high-scoring affairs, recording two draws in their opening matches.",
+        "The group remains competitive with all teams still in the mix for final positioning."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-10T16:03:17+00:00",
+      "sourceHash": "143a99e0e1d975db",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "preview source or prompt changed"
     },
     "65": {
       "headline": "Group G Finale: New Zealand and Belgium Seek Crucial Points",
-      "summary": "New Zealand and Belgium meet in their final group stage match, with both teams looking to improve their standing in a tightly contested Group G.",
+      "summary": "New Zealand and Belgium meet in their final group stage match with both teams looking to improve their standing in a tightly contested Group G.",
       "story": [
-        "Group G remains wide open as New Zealand and Belgium head into their final group match. With Egypt currently leading the group on four points, the remaining spots are heavily contested, leaving little room for error for either side.",
-        "Belgium enters this fixture having drawn both of their previous matches, showing defensive discipline with a 1-1 result against Egypt and a 0-0 stalemate against Iran. They have yet to secure a victory in the tournament, making this final group appearance a pivotal moment for their progression.",
-        "New Zealand faces a difficult challenge after earning one point from their first two matches. Following a 2-2 draw with Iran and a 1-3 loss to Egypt, they will need a strong performance to keep their tournament hopes alive against a resilient Belgian side."
+        "Group G remains wide open as New Zealand and Belgium prepare for their third and final group stage encounter. With Egypt currently leading the group on four points, the remaining three teams are separated by narrow margins, making this match a pivotal moment for both sides.",
+        "Belgium enters this fixture having recorded two consecutive draws in their opening matches against Egypt and Iran. While they have proven difficult to break down, they will be looking to find more offensive rhythm to secure a result that helps them navigate the group standings.",
+        "New Zealand faces a challenging path after earning one point from their first two matches. Following a draw with Iran and a loss to Egypt, they will need a strong performance to keep their tournament aspirations alive in this final group outing."
       ],
       "bullets": [
-        "Belgium has recorded two draws in their opening matches, maintaining a solid defensive record.",
-        "New Zealand is looking to bounce back after a challenging result against Egypt in their second match.",
-        "Group G standings are tight, with only three points separating the top and bottom teams."
+        "Belgium has yet to concede a goal in the tournament, having drawn 1-1 with Egypt and 0-0 with Iran.",
+        "New Zealand has shown attacking intent by scoring three goals across their first two matches, though they have also conceded five.",
+        "Egypt leads the group with 4 points, while Iran and Belgium are tied with 2 points each, and New Zealand sits at 1 point."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:12:51+00:00",
-      "sourceHash": "fd39224b458aee1f",
+      "updatedAt": "2026-07-10T16:02:50+00:00",
+      "sourceHash": "6c2b5e0a1e49f08f",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "66": {
-      "headline": "Egypt and Iran Clash in Group G Finale",
-      "summary": "Egypt and Iran meet in their final group stage match with significant implications for the Group G standings.",
+      "headline": "Group G Stakes: Egypt and Iran Face Off",
+      "summary": "Egypt enters the final group matchday leading Group G, while Iran looks to secure their standing against a high-scoring opponent.",
       "story": [
-        "Egypt enters this final group match in a strong position, currently sitting at the top of the table with 4 points from their first two outings. After opening their campaign with a draw against Belgium, they secured a victory over New Zealand to build momentum.",
-        "Iran arrives at this encounter having drawn both of their opening matches. With 2 points and a goal difference of 0, they have proven difficult to break down, holding both New Zealand and Belgium to stalemates.",
-        "The stakes are clear for both sides as they look to secure their standing in the group. Egypt will aim to maintain their current form, while Iran seeks their first win to bolster their position in a tightly contested group."
+        "Iran enters this match with 2 points, having demonstrated defensive resilience in their most recent outing by holding Belgium to a scoreless draw. Their campaign has been defined by consistency, as they have remained unbeaten through their first two matches with a pair of draws.",
+        "The group dynamics remain tight, with every team still in contention for positioning. Egypt currently sits at the top of the table, but with Iran and Belgium both sitting on 2 points, the pressure is on to maintain their form and secure their path forward.",
+        "As both teams take the pitch, the focus will be on whether Egypt can continue their attacking rhythm or if Iran\u2019s disciplined defensive setup can stifle their momentum. This matchup serves as the definitive test for both sides to determine their final standing in the group."
       ],
       "bullets": [
-        "Egypt currently leads Group G with 4 points and a +2 goal difference.",
-        "Iran remains undefeated in the group after two consecutive draws.",
-        "Both teams have played two matches, with Egypt scoring 4 goals and Iran scoring 2."
+        "Egypt leads Group G with 4 points and a +2 goal difference.",
+        "Iran has recorded two consecutive draws, showing defensive stability.",
+        "Egypt has scored 4 goals across their first two matches."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:12:59+00:00",
-      "sourceHash": "0863de0f8977a96b",
+      "updatedAt": "2026-07-10T16:02:58+00:00",
+      "sourceHash": "8df7f31993f6747a",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "67": {
-      "headline": "Group L Finale: Panama Meets England",
-      "summary": "Panama and England conclude their Group L campaign at MetLife Stadium with everything still to play for.",
+      "headline": "Panama and England Close Out Group L",
+      "summary": "England enters the final group match sitting atop the table, while Panama looks for their first points of the tournament.",
       "story": [
-        "England enters this final group match with 4 points after a high-scoring opening win against Croatia and a scoreless draw with Ghana. They currently sit at the top of the group standings with a plus-two goal difference, looking to solidify their standing as the group stage draws to a close.",
-        "Panama arrives at this match looking for their first points of the tournament. Despite two hard-fought performances against Ghana and Croatia that both ended in narrow single-goal margins, they have yet to find the back of the net.",
-        "The tactical dynamic will be intriguing as England aims to maintain their unbeaten record while Panama fights to secure a result in their final appearance of this round. With the group table currently tight, every moment on the pitch will influence the final standings for all four teams involved."
+        "England arrives at this final group fixture with four points from their opening two matches. After a high-scoring victory against Croatia and a scoreless draw with Ghana, they currently lead the group on goal difference.",
+        "Panama enters this match searching for their first breakthrough. Despite competitive efforts in their previous outings against Ghana and Croatia, they have yet to find the back of the net in the tournament.",
+        "The group remains tight as the final matches unfold. With England, Ghana, and Croatia all within reach of the top spots, every moment in this concluding fixture carries weight for the final standings."
       ],
       "bullets": [
-        "England currently leads Group L with 4 points and a plus-two goal difference.",
-        "Panama has been involved in two very tight matches, both finishing with 1-0 results.",
-        "This is the final matchday for Group L, determining the ultimate order of the table."
+        "England has accumulated four points through two matches with a goal difference of plus-two.",
+        "Panama is looking to secure their first points and first goal of the group stage.",
+        "The group is highly competitive, with England and Ghana tied on four points and Croatia holding three."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:16:08+00:00",
-      "sourceHash": "9d84842631255be9",
+      "updatedAt": "2026-07-10T16:02:34+00:00",
+      "sourceHash": "44cc99476f1e68da",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "68": {
       "headline": "Group L Stakes: Croatia and Ghana Face Off",
-      "summary": "Croatia and Ghana meet in their final group match with both teams looking to secure their standing in Group L.",
+      "summary": "Croatia and Ghana meet in their final group stage match with everything to play for in Group L.",
       "story": [
-        "As Group L reaches its conclusion, the tension is palpable with England, Ghana, and Croatia all firmly in the mix. Ghana enters this match with 4 points from their first two outings, having demonstrated defensive discipline by keeping a clean sheet in their draw against England and their victory over Panama.",
-        "Croatia arrives at this final group fixture with 3 points, following a hard-fought win against Panama after an opening loss to England. Having scored 3 goals and conceded 4 across their first two matches, they will need to balance their attacking intent with defensive stability to navigate this high-stakes encounter.",
-        "With England also sitting on 4 points, the group remains wide open. This matchup serves as a pivotal moment for both sides as they look to finalize their position in the standings and ensure their path forward in the tournament."
+        "Coming into this final matchday, Group L remains tightly contested. Ghana enters the fixture with 4 points from their first two matches, having secured a win against Panama and a draw against England. Their defensive discipline has been a hallmark of their campaign so far, as they have yet to concede a goal.",
+        "Croatia sits on 3 points after bouncing back from an opening loss to England with a narrow victory over Panama. With the group standings currently showing England and Ghana at 4 points and Croatia at 3, this matchup carries significant weight for the final table positions.",
+        "Both teams will be looking to capitalize on their previous performances to secure their standing. Ghana will aim to maintain their defensive record, while Croatia will look to build on the momentum from their most recent win as they navigate this pivotal final group encounter."
       ],
       "bullets": [
-        "Ghana has yet to concede a goal in the tournament, maintaining a perfect defensive record through two matches.",
-        "Croatia currently sits on 3 points, trailing both England and Ghana by a single point in the group table.",
-        "Both teams are coming off results in their second matchday that kept their tournament aspirations alive."
+        "Ghana enters the match with 4 points and an unbeaten defensive record in the group stage.",
+        "Croatia holds 3 points and is looking to build on their recent victory over Panama.",
+        "Group L standings show England and Ghana leading with 4 points each, followed closely by Croatia."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:16:16+00:00",
-      "sourceHash": "86f1447ac3047cde",
+      "updatedAt": "2026-07-10T16:02:43+00:00",
+      "sourceHash": "d1699635f2186434",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "69": {
-      "headline": "Group K Leaders Collide",
-      "summary": "Colombia and Portugal face off in the final matchday of Group K with both teams vying for top positioning.",
+      "headline": "Colombia and Portugal Clash for Group K Supremacy",
+      "summary": "Colombia and Portugal meet in their final Group K fixture with both teams having secured strong results in their opening two matches.",
       "story": [
-        "Colombia enters this match with a perfect record in Group K, having secured victories against Uzbekistan and DR Congo. With 6 points from two matches, they have demonstrated defensive consistency, conceding only a single goal throughout the group stage so far.",
-        "Portugal arrives following a dominant 5-0 performance against Uzbekistan in their second match, which bolstered their goal difference to 5. After an opening draw against DR Congo, they have shown significant offensive momentum that will be tested by the Colombian defense.",
-        "The group standings show Colombia leading with 6 points, followed closely by Portugal with 4 points. Both teams have already established themselves as the primary contenders in the group, making this encounter a critical test of their respective forms before the tournament progresses."
+        "Colombia enters this final group stage match with a perfect record, having collected six points from their first two outings. They opened the tournament with a 3-1 victory over Uzbekistan and followed that up with a narrow 1-0 win against DR Congo. Their defensive discipline has been a hallmark of their campaign so far, conceding only one goal across both matches.",
+        "Portugal arrives at this encounter with four points, showing significant offensive momentum in their most recent performance. After a 1-1 draw with DR Congo in their opener, they dominated their second match with a 5-0 victory over Uzbekistan. This high-scoring display has bolstered their goal difference to plus-five, the best in the group.",
+        "With Colombia currently sitting on six points and Portugal on four, both teams have demonstrated consistent form throughout the opening phase. This meeting will determine the final hierarchy of Group K as both squads look to conclude the group stage on a high note."
       ],
       "bullets": [
-        "Colombia has maintained a disciplined defense, allowing only 1 goal across their first two matches.",
-        "Portugal enters with high offensive confidence after scoring 5 goals in their most recent outing.",
-        "Both teams are currently undefeated in Group K play."
+        "Colombia has maintained a solid defensive record, allowing only one goal in two matches.",
+        "Portugal enters the match with significant offensive confidence following a five-goal performance in their previous outing.",
+        "Both teams have successfully navigated their first two matches without a defeat."
       ],
-      "sections": [],
-      "updatedAt": "2026-06-30T18:15:52+00:00",
-      "sourceHash": "c03469567b394369",
+      "sections": [
+        {
+          "title": "Group K Context",
+          "body": "Colombia leads the group with six points, while Portugal follows closely with four. DR Congo and Uzbekistan round out the group standings heading into this final round of fixtures."
+        }
+      ],
+      "updatedAt": "2026-07-10T16:02:19+00:00",
+      "sourceHash": "7ca3dcbb2d8d3ba6",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "70": {
-      "headline": "DR Congo and Uzbekistan Close Out Group K",
-      "summary": "DR Congo and Uzbekistan meet for their final Group K fixture to conclude their tournament campaigns.",
+      "headline": "Group K Finale: DR Congo Faces Uzbekistan",
+      "summary": "DR Congo and Uzbekistan meet in their final group stage match looking to make an impact in Group K.",
       "story": [
-        "DR Congo enters this matchup with one point from their first two matches. After securing a draw against Portugal in their opener, they faced a narrow defeat to Colombia in their second outing.",
-        "Uzbekistan looks to close their group stage run on a positive note. They have faced difficult tests against Colombia and Portugal to open their tournament schedule.",
-        "Group K standings currently show Colombia leading with six points, followed by Portugal with four, DR Congo with one, and Uzbekistan with zero. Both teams will be looking to leave their mark on the group before the final whistle."
+        "DR Congo enters this final group stage fixture with one point from their opening two matches. After a resilient 1-1 draw against Portugal in their opener, they narrowly fell 1-0 to Colombia in their second outing. Their defensive organization has been a notable feature, having conceded only two goals across their first 180 minutes of play.",
+        "Uzbekistan arrives at this match after a challenging start to the tournament. Following a 3-1 loss to Colombia in their first game, they faced a difficult 5-0 result against Portugal. They will be looking to stabilize their performance and find their rhythm in this concluding group match.",
+        "The standings currently see Colombia leading Group K with six points, followed by Portugal with four. DR Congo sits in third place with one point, while Uzbekistan is fourth with zero points. Both teams are focused on executing their game plans to finish their group campaign on a positive note."
       ],
-      "bullets": [],
+      "bullets": [
+        "DR Congo has maintained a disciplined defensive structure, allowing only two goals in two matches.",
+        "Uzbekistan is seeking to improve their offensive output after being held scoreless in their most recent fixture.",
+        "This is the final group stage opportunity for both teams to secure points in Group K."
+      ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:16:00+00:00",
-      "sourceHash": "7480b2b83812e110",
+      "updatedAt": "2026-07-10T16:02:27+00:00",
+      "sourceHash": "49b690453abb4e76",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "71": {
-      "headline": "Algeria and Austria Clash in Group J Finale",
-      "summary": "Algeria and Austria meet in their final group stage match, both looking to build on their three-point tallies.",
+      "headline": "Algeria and Austria Face Off in Group J Finale",
+      "summary": "Algeria and Austria meet in the final match of Group J with both teams looking to build on their previous results.",
       "story": [
-        "Algeria enters this match with three points after a bounce-back performance against Jordan in their second outing. Following an opening defeat to Argentina, the squad demonstrated resilience to secure their first win of the tournament.",
-        "Austria also arrives at this fixture with three points, having opened their campaign with a victory over Jordan before falling to Argentina in their most recent appearance. With both teams currently sitting on identical point totals, the stakes for this final group match are clear.",
-        "The Group J standings show Argentina leading with six points, while Austria and Algeria are locked in a tight race for position. Jordan rounds out the group, meaning every detail in this matchup between Algeria and Austria will be significant for the final table."
+        "As Group J reaches its conclusion, Algeria and Austria enter this matchup with identical records of three points from their first two games. Both sides have experienced a win and a loss so far, making this encounter a pivotal moment in their group stage campaign.",
+        "Austria began their tournament with a 3-1 victory over Jordan before falling 2-0 to Argentina in their second match. They currently hold a goal difference of zero, providing them with a neutral baseline as they prepare for this final group test.",
+        "Algeria enters the game following a 2-1 win against Jordan, which helped them recover from an initial 3-0 defeat at the hands of Argentina. With a goal difference of -2, Algeria will be focused on maintaining the momentum gained from their most recent performance.",
+        "With Argentina leading the group with six points, the competition between Austria and Algeria remains tight. Both teams will be looking to capitalize on their recent experiences to secure their standing as the group stage draws to a close."
       ],
       "bullets": [
-        "Both teams enter the match with 3 points from their first two games.",
-        "Algeria looks to maintain momentum following their recent win against Jordan.",
-        "Austria aims to recover after a challenging match against Argentina."
+        "Both teams enter the match tied with 3 points each after two games played.",
+        "Austria holds a goal difference of 0, while Algeria enters with a goal difference of -2.",
+        "This is the final group stage match for both nations in Group J."
       ],
-      "sections": [],
-      "updatedAt": "2026-06-30T18:15:36+00:00",
-      "sourceHash": "44b8d46127f44ca3",
+      "sections": [
+        {
+          "title": "Group J Context",
+          "body": "Argentina currently sits at the top of the group with 6 points and a +5 goal difference. Algeria and Austria are level on points, while Jordan rounds out the group with 0 points. The outcome of this match will be significant for the final group rankings."
+        }
+      ],
+      "updatedAt": "2026-07-10T16:02:03+00:00",
+      "sourceHash": "e6ce19fc3e981120",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "72": {
-      "headline": "Argentina and Jordan close out Group J",
-      "summary": "Argentina looks to maintain their perfect start in Group J as they face a Jordan side fighting to earn their first points of the tournament.",
+      "headline": "Group J Finale: Jordan Faces Argentina",
+      "summary": "Argentina enters the final group match with a perfect record while Jordan looks to secure their first points of the tournament.",
       "story": [
-        "Argentina enters this final group stage match in a commanding position, sitting at the top of Group J with six points from their first two matches. They have been clinical in their approach, scoring five goals while maintaining a perfect defensive record with zero goals conceded.",
-        "Jordan finds themselves in a difficult position after narrow losses in their opening two fixtures against Austria and Algeria. Despite the results, they have managed to find the back of the net in both matches, showing they can create opportunities even against high-level opposition.",
-        "For Argentina, the objective is to solidify their standing at the top of the group and carry momentum into the next phase. Meanwhile, Jordan will be looking to leave a mark on the tournament by challenging one of the group's strongest performers in their final appearance."
+        "Argentina has dominated Group J thus far, entering this final matchday with 6 points from two victories. Their defensive structure has been a standout feature, as they have yet to concede a goal while maintaining a plus-5 goal difference.",
+        "Jordan faces a significant challenge in their final group appearance. Despite scoring in both of their previous matches against Austria and Algeria, they currently sit at the bottom of the table with 0 points.",
+        "The group dynamics remain active as Austria and Algeria are also competing for position, both sitting on 3 points. Argentina aims to maintain their momentum, while Jordan looks to finish their group campaign on a positive note."
       ],
       "bullets": [
-        "Argentina has yet to concede a goal in the tournament.",
-        "Jordan has scored in both of their previous group stage matches.",
-        "Argentina currently leads Group J with 6 points."
+        "Argentina has scored 5 goals and conceded 0 in their first two matches.",
+        "Jordan has found the back of the net in both of their group stage appearances.",
+        "Argentina currently leads Group J with a perfect 6 points."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:15:44+00:00",
-      "sourceHash": "1c2a495fbe6725bc",
+      "updatedAt": "2026-07-10T16:02:11+00:00",
+      "sourceHash": "933db7ae87296a67",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "73": {
       "headline": "South Africa and Canada Clash in Round of 32",
-      "summary": "South Africa and Canada meet in the Round of 32 after navigating their respective groups to reach the knockout stage.",
+      "summary": "South Africa and Canada meet in the Round of 32 after both nations successfully navigated their respective group stages.",
       "story": [
-        "South Africa enters this knockout encounter following a resilient group stage performance. After an opening defeat to Mexico and a draw with Czechia, they secured their place in this round with a narrow victory over South Korea. Their ability to tighten up defensively as the tournament progressed will be a key factor as they transition into the high-stakes environment of the Round of 32.",
-        "Canada arrives at this matchup after a varied group stage campaign that showcased both their offensive potential and defensive challenges. They opened with a draw against Bosnia and Herzegovina, followed by a dominant six-goal performance against Qatar. Despite a loss to Switzerland in their final group match, they demonstrated they can be a dangerous attacking side when they find their rhythm.",
-        "This matchup pits the runner-up of Group A against the runner-up of Group B, with both teams looking to prove their consistency on the world stage. With the tournament shifting into a single-elimination format, the pressure is on both squads to execute their game plans precisely to keep their tournament hopes alive."
+        "South Africa enters this knockout fixture following a resilient group stage campaign. After an opening loss, they secured a hard-fought draw against Czechia and a decisive win against South Korea to punch their ticket to this stage as the runner-up of Group A.",
+        "This Round of 32 encounter represents a clean slate for both squads. With the group stage behind them, the pressure shifts to a win-or-go-home format where consistency and composure will be the deciding factors for both South Africa and Canada."
       ],
       "bullets": [
-        "South Africa demonstrated defensive growth by keeping a clean sheet in their final group match against South Korea.",
-        "Both teams enter this knockout match having finished as runners-up in their respective groups."
+        "South Africa demonstrated defensive grit in their final group match, keeping a clean sheet against South Korea.",
+        "Canada showcased significant offensive potential during their group stage, notably netting six times in a single match.",
+        "Both teams enter the knockout phase as runners-up, looking to prove their form against a new opponent."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:34:12+00:00",
-      "sourceHash": "629c1ff25ebc5df0",
+      "updatedAt": "2026-07-10T16:01:55+00:00",
+      "sourceHash": "9ebea7fde2bfa76b",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -4660,182 +4663,193 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "53": {
-      "headline": "Group A Stakes: South Africa Meets South Korea",
-      "summary": "South Africa and South Korea face off in their final group stage match with both teams looking to improve their standing in Group A.",
+      "headline": "South Africa and South Korea face off in Group A finale",
+      "summary": "South Africa and South Korea meet for their final group stage match with both teams looking to improve their standing in Group A.",
       "story": [
-        "South Korea enters this final group match with 3 points, having secured a victory against Czechia before a narrow defeat to Mexico. Their performance so far has kept them firmly in the mix as they look to capitalize on their current standing.",
-        "South Africa arrives at this fixture with 1 point from their first two matches. After an opening loss to Mexico, they managed to earn a draw against Czechia, providing them with a foundation to build upon for this decisive encounter.",
-        "The group dynamics are tight, with Mexico currently leading the table. Both South Korea and South Africa are aware of the importance of this Matchday 3 fixture as they aim to secure their best possible position before the group concludes."
+        "South Korea enters this match with 3 points from their first two outings, having secured a victory against Czechia before a narrow defeat to Mexico. Their offense has produced 2 goals so far, and they will be looking to build on that foundation as they aim to secure their position in the group.",
+        "South Africa currently sits on 1 point after a challenging start against Mexico and a hard-fought draw against Czechia. With 1 goal scored and 3 conceded, they have shown resilience but need a strong performance to challenge for points in this concluding group fixture.",
+        "The Group A standings currently show Mexico leading with 6 points, followed by South Korea with 3, while Czechia and South Africa both hold 1 point. This matchup represents the final opportunity for both sides to influence their standing before the group stage concludes."
       ],
       "bullets": [
         "South Korea holds 3 points with a goal difference of 0.",
         "South Africa enters with 1 point and a goal difference of -2.",
-        "Both teams are playing their third and final match of the group stage."
+        "Both teams have played two matches, with South Korea recording one win and one loss, while South Africa has one draw and one loss."
       ],
-      "sections": [],
-      "updatedAt": "2026-07-05T21:34:20+00:00",
-      "sourceHash": "984fcc302915e011",
+      "sections": [
+        {
+          "title": "Group A Context",
+          "body": "Mexico currently holds the top spot in the group with 6 points. South Korea follows in second place, while Czechia and South Africa are tied with 1 point each. This final matchday is critical for determining the final order of the group."
+        }
+      ],
+      "updatedAt": "2026-07-10T16:04:59+00:00",
+      "sourceHash": "cafdbd26df037d4b",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "54": {
-      "headline": "Czechia and Mexico face off in Group A finale",
-      "summary": "Czechia looks for a result against a perfect Mexico side to keep their tournament hopes alive in the final match of the group stage.",
+      "headline": "Group A Concludes with Czechia Facing Mexico",
+      "summary": "Czechia looks to keep their tournament hopes alive against a formidable Mexico side that has yet to concede a goal.",
       "story": [
-        "Mexico enters this final group match in strong form, having secured six points from their first two outings without conceding a single goal. Their defensive discipline has been a hallmark of their campaign, providing a solid foundation as they look to maintain their position at the top of the standings.",
-        "For Czechia, the situation is more urgent. With one point from two matches, they find themselves needing a strong performance to challenge for a spot in the next round. Their previous outings resulted in a narrow loss to South Korea and a draw against South Africa, leaving them with work to do to improve their goal difference.",
-        "This encounter at Estadio Azteca carries significant weight for both sides. While Mexico aims to solidify their standing, Czechia must push forward aggressively to find the goals that have been elusive in their opening fixtures. The tactical battle between Mexico's organized defense and Czechia's need for an offensive breakthrough will define the flow of the match."
+        "Mexico enters this final group match in a position of strength, having secured six points from their opening two fixtures. Their defensive discipline has been a hallmark of their performance thus far, as they have managed to keep a clean sheet in both of their previous outings.",
+        "For Czechia, the situation is more urgent. With one point from two matches, they find themselves needing a result to maintain their standing in the group. Their campaign began with a narrow loss to South Korea, followed by a hard-fought draw against South Africa.",
+        "The tactical battle will be interesting to watch as Czechia attempts to break down a Mexican defense that has proven difficult to penetrate. Mexico will aim to build on their momentum, while Czechia must find a way to capitalize on their opportunities to shift the group dynamics."
       ],
       "bullets": [
-        "Mexico has maintained a clean sheet in both of their group matches so far.",
-        "Czechia enters the match with one point, trailing South Korea by two points in the group standings.",
-        "Mexico currently leads Group A with a goal difference of plus-three."
+        "Mexico has maintained a perfect defensive record with zero goals conceded across their first two matches.",
+        "Czechia enters the match with one point, sitting third in Group A standings.",
+        "Mexico currently leads the group with six points and a plus-three goal difference."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:34:28+00:00",
-      "sourceHash": "910a795853e51753",
+      "updatedAt": "2026-07-10T16:05:07+00:00",
+      "sourceHash": "10806fa3205a825c",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "51": {
       "headline": "Morocco and Haiti Conclude Group C Play",
-      "summary": "Morocco enters the final group match with four points while Haiti looks to secure their first result of the tournament.",
+      "summary": "Morocco enters the final group match looking to maintain their position while Haiti aims to secure their first points of the tournament.",
       "story": [
-        "Morocco arrives at this final group fixture in a strong position, having navigated their first two matches with a draw against Brazil and a victory over Scotland. With four points to their name, they have demonstrated defensive stability, conceding only a single goal throughout the competition thus far.",
-        "Haiti faces a difficult challenge in their third match, searching for their first points after narrow encounters against Scotland and Brazil. Despite the results in their opening two games, the team has gained valuable experience against high-level opposition and will look to finish their group campaign on a positive note.",
-        "The implications of this match are significant for the final Group C standings. With Brazil and Morocco currently tied on four points and Scotland trailing closely with three, every goal and point in this final round of fixtures carries weight for the teams aiming to secure their path forward."
+        "Morocco arrives at this final group stage fixture with 4 points from their first two matches. After drawing 1-1 with Brazil and earning a 1-0 victory over Scotland, they have demonstrated a disciplined defensive structure, conceding only a single goal so far.",
+        "Haiti faces a difficult challenge as they look to find their offensive rhythm. Having played against Scotland and Brazil, they are still searching for their first goal of the tournament. The team will be focused on tightening their defensive lines after a challenging start to their group campaign.",
+        "The group standings show Brazil and Morocco currently leading with 4 points each, followed by Scotland with 3 points. With the group remaining highly competitive, this match carries significant weight for the final table positioning."
       ],
       "bullets": [
-        "Morocco has maintained a solid defensive record, allowing only one goal in two matches.",
-        "Haiti is looking to break through and find the back of the net for the first time in the tournament.",
-        "Group C remains tight, with three teams currently separated by only one point."
+        "Morocco has maintained a strong defensive record with only 1 goal conceded in 2 matches.",
+        "Haiti is looking to register their first goal of the tournament in this final group appearance.",
+        "Group C remains tight, with Brazil, Morocco, and Scotland all within striking distance of the top spots."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:34:36+00:00",
-      "sourceHash": "b52e2b58198cd398",
+      "updatedAt": "2026-07-10T16:05:15+00:00",
+      "sourceHash": "9fc159bf20df07da",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "52": {
-      "headline": "Scotland and Brazil Face Off in Group C Finale",
-      "summary": "Scotland and Brazil meet in their final group stage match with significant implications for the Group C standings.",
+      "headline": "Group C Showdown: Scotland Faces Brazil",
+      "summary": "Scotland and Brazil meet in their final group match with the standings tightly packed.",
       "story": [
-        "Group C reaches a pivotal moment as Scotland and Brazil take the pitch for their third match of the group stage. With the standings tight, both teams enter this contest looking to secure their position in the tournament.",
-        "Brazil arrives with 4 points from their first two matches, having earned a draw against Morocco and a victory over Haiti. Their offensive output has been notable, contributing to a goal difference of 3 heading into this final group fixture.",
-        "Scotland currently holds 3 points after a win against Haiti and a narrow defeat to Morocco. This match serves as a crucial opportunity for the squad to navigate their path forward in the competition."
+        "Group C enters its final day with everything to play for as Scotland takes on Brazil. Brazil currently sits at the top of the group with 4 points, boasting a goal difference of 3 after a strong performance against Haiti and a draw with Morocco.",
+        "Scotland enters this match with 3 points, having secured a narrow win against Haiti before falling to Morocco in their second outing. With the group standings showing Brazil and Morocco tied on 4 points, Scotland remains firmly in the mix.",
+        "The defensive records in this group have been notable, with Scotland conceding only 1 goal across their two matches. Brazil has shown offensive efficiency, scoring 4 goals while keeping their own defensive record solid with just 1 goal allowed."
       ],
       "bullets": [
-        "Brazil leads Group C with 4 points and a goal difference of 3.",
-        "Scotland enters the match with 3 points, sitting just one point behind the leaders.",
-        "Both teams have played two matches, with this being the final fixture of the group stage."
+        "Brazil leads the group with 4 points and a plus-3 goal difference.",
+        "Scotland enters the match with 3 points, looking to improve on their 1-1 goal record.",
+        "Both teams have played two matches, with this final group fixture determining the path forward."
       ],
-      "sections": [],
-      "updatedAt": "2026-07-05T21:34:43+00:00",
-      "sourceHash": "67393411263596d3",
+      "sections": [
+        {
+          "title": "Group C Dynamics",
+          "body": "The group is currently led by Brazil and Morocco, both sitting on 4 points. Scotland follows closely with 3 points, while Haiti has yet to secure a point. This final matchday will finalize the standings for the group."
+        }
+      ],
+      "updatedAt": "2026-07-10T16:05:46+00:00",
+      "sourceHash": "fdd6036bdf3ec839",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "49": {
-      "headline": "Group B Leaders Square Off",
-      "summary": "Switzerland and Canada meet in the final matchday of the group stage, with both teams currently tied at 4 points.",
+      "headline": "Canada and Switzerland Clash for Group B Supremacy",
+      "summary": "Canada and Switzerland enter their final group match tied on four points, setting up a decisive battle for the top of the table.",
       "story": [
-        "Switzerland and Canada enter this final group stage encounter with identical records of 4 points from two matches. Both sides have shown resilience and offensive capabilities throughout their opening fixtures, setting up a compelling showdown to determine the final standings in Group B.",
-        "Canada arrives with momentum after a high-scoring performance in their second match, which bolstered their goal difference to 6. Having opened the tournament with a draw against Bosnia and Herzegovina, they have demonstrated an ability to find the back of the net consistently.",
-        "Switzerland also holds 4 points, following a steady start that included a draw against Qatar and a strong offensive display against Bosnia and Herzegovina. Their ability to adapt their tactical approach will be a primary focus as they look to secure their position in the group.",
-        "With both teams level on points, this match serves as the deciding factor for their standing. The tactical battle between these two sides will be central to how the group concludes, as both look to build on their previous performances."
+        "Canada and Switzerland arrive at their final group stage encounter with identical records of one win and one draw. Both teams have demonstrated strong form throughout the tournament, positioning themselves as the clear leaders in Group B.",
+        "Canada enters this matchup with significant momentum following a dominant 6-0 victory over Qatar in their second match. With a goal difference of six, they currently hold the narrowest of leads at the top of the group standings.",
+        "Switzerland has been equally effective, responding to an opening draw against Qatar with a convincing 4-1 win against Bosnia and Herzegovina. Their offensive consistency has been a hallmark of their performance, keeping them neck-and-neck with Canada heading into this final fixture.",
+        "With both sides level on four points, this match serves as the ultimate test to determine the final group hierarchy. Expect both teams to push for control as they look to secure their standing before the next phase of the tournament."
       ],
       "bullets": [
-        "Canada leads the group on goal difference with a +6 rating.",
-        "Switzerland enters the match with a +3 goal difference.",
-        "Both teams have secured one win and one draw in their first two tournament appearances."
+        "Canada leads the group on goal difference with a +6 rating compared to Switzerland's +3.",
+        "Both teams have remained undefeated through their first two matches of the group stage.",
+        "Canada has scored 7 goals across their two matches, while Switzerland has registered 5."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:34:51+00:00",
-      "sourceHash": "ac290fb02a4750ee",
+      "updatedAt": "2026-07-10T16:05:54+00:00",
+      "sourceHash": "87ba6b4e7dc92662",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "50": {
-      "headline": "Bosnia and Herzegovina vs. Qatar: Group B Finale",
-      "summary": "Bosnia and Herzegovina and Qatar meet in their final Group B match, both looking to secure their first victory of the tournament.",
+      "headline": "Bosnia and Herzegovina and Qatar Face Off in Group B Finale",
+      "summary": "Both teams enter their final group stage match looking for their first victory of the tournament.",
       "story": [
-        "Bosnia and Herzegovina enters this match with one point from their previous two outings. They opened their campaign with a 1-1 draw against Canada before falling 4-1 to Switzerland in their second match.",
-        "Qatar also holds one point in the group standings after two games. They began with a 1-1 draw against Switzerland but faced a difficult 6-0 result against Canada in their most recent appearance.",
-        "Both teams currently sit at the bottom of Group B, trailing Canada and Switzerland. This matchup serves as the final opportunity for both sides to make an impact on the group table."
+        "Bosnia and Herzegovina and Qatar meet in Seattle for their third and final match of the group stage. Both sides are currently searching for their first win of the tournament, each holding one point from their opening two fixtures.",
+        "Bosnia and Herzegovina began their campaign with a 1-1 draw against Canada before falling to Switzerland. They will be looking to stabilize their defensive performance after conceding four goals in their second match.",
+        "Qatar also opened with a 1-1 draw against Switzerland but faced a difficult result in their second outing against Canada. They arrive at this match aiming to find their offensive rhythm and secure a positive result to conclude their group stage run."
       ],
       "bullets": [
+        "Both teams enter the match with 1 point each in Group B.",
         "Bosnia and Herzegovina has scored 2 goals and conceded 5 across their first two matches.",
-        "Qatar enters the match with 1 goal scored and 7 conceded.",
-        "Both teams are searching for their first win of the tournament."
+        "Qatar is looking to rebound after their second matchday result."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:34:58+00:00",
-      "sourceHash": "7f8ad05a73e59053",
+      "updatedAt": "2026-07-10T16:06:01+00:00",
+      "sourceHash": "56746f08aa26b841",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "48": {
-      "headline": "Group K Stakes Rise for Colombia and DR Congo",
-      "summary": "Colombia and DR Congo face off in a pivotal Group K matchup as both teams look to solidify their standing in the tournament.",
+      "headline": "Group K Stakes: Colombia Meets DR Congo",
+      "summary": "Colombia and DR Congo face off in their second Group K match, with both teams looking to improve their standing.",
       "story": [
-        "Colombia enters this match with momentum following their opening victory against Uzbekistan. Having secured three points in their first outing, they will look to maintain their offensive efficiency and build upon the positive start to their campaign.",
-        "DR Congo arrives at this fixture after a hard-fought draw against Portugal. That result demonstrated their defensive resilience and ability to compete against top-tier opposition, providing a solid foundation as they seek their first win of the group stage.",
-        "The group dynamics add significant weight to this encounter. With Portugal having already played two matches, the points available in this game are crucial for both Colombia and DR Congo to position themselves effectively for the remainder of the group phase."
+        "Colombia enters this match with momentum after a successful opening performance against Uzbekistan. Their ability to find the net consistently in that first outing will be a key factor to watch as they look to maintain their position in the group.",
+        "DR Congo arrives at this fixture following a hard-fought draw against Portugal. That result demonstrated their resilience, and they will need to replicate that defensive discipline to handle the offensive pressure Colombia has shown they can generate.",
+        "With Portugal having already played their second match, the pressure is on both Colombia and DR Congo to secure points here. The Group K table is beginning to take shape, making this a pivotal moment for both squads to establish their path forward in the tournament."
       ],
       "bullets": [
-        "Colombia looks to build on a strong offensive performance from their Matchday 1 victory.",
-        "DR Congo aims to leverage the defensive discipline shown in their draw against Portugal.",
-        "Both teams are competing for critical points to challenge the current group standings."
+        "Colombia looks to build on their three-goal performance from their opening match.",
+        "DR Congo aims to capitalize on the defensive stability they showed against Portugal.",
+        "Both teams are navigating a tight Group K where every point is vital for progression."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:35:06+00:00",
-      "sourceHash": "1a7857f3214bd2e3",
+      "updatedAt": "2026-07-10T16:06:13+00:00",
+      "sourceHash": "4a96d7602e9c7cf2",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "47": {
       "headline": "Panama and Croatia Seek First Points in Group L",
-      "summary": "Panama and Croatia face off in a critical Group L matchup as both teams look to secure their first points of the tournament.",
+      "summary": "Both Panama and Croatia enter their second group match looking to rebound after opening-round defeats.",
       "story": [
-        "Both Panama and Croatia enter this contest looking to bounce back from narrow defeats in their opening Group L fixtures. Panama struggled to find the back of the net in their first outing, while Croatia showed offensive potential despite a challenging result against England.",
-        "With England and Ghana having already played their second match, the group table is beginning to take shape. This encounter provides a vital opportunity for either side to climb the standings and keep their hopes for the knockout stage firmly in their own hands.",
-        "Tactical discipline will be at a premium as both teams adjust to the pressure of a must-win scenario. Croatia will look to build on the two goals they managed in their opener, while Panama aims to tighten their defensive structure to neutralize the opposition's attack."
+        "Panama and Croatia face off in a critical Group L encounter, with both sides searching for their first points of the tournament. Following their respective results in Matchday 1, this fixture serves as a vital opportunity to gain momentum and stay competitive within the group standings.",
+        "Panama arrives at this match following a narrow defeat against Ghana. Their defensive structure will be tested as they look to secure a result that keeps their hopes alive in the group.",
+        "Croatia, meanwhile, is coming off a high-scoring opening match against England. Despite the result in that initial game, their ability to find the back of the net twice suggests they remain a dangerous attacking threat that Panama must contain.",
+        "With England and Ghana having already played their second match, the group dynamics are tightening. Both Panama and Croatia understand that securing a positive result here is essential to remain in contention for the next stage."
       ],
       "bullets": [
-        "Panama is looking to record their first goal of the tournament after a scoreless outing in Matchday 1.",
-        "Croatia aims to stabilize their defense after conceding four goals in their opening match against England.",
-        "Both teams sit at zero points, making this a pivotal fixture for their progression prospects in Group L."
+        "Both teams are currently at zero points after their opening matches.",
+        "Croatia demonstrated offensive potential by scoring two goals in their first group game.",
+        "Panama aims to improve their goal tally after being held scoreless in their tournament opener."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:35:14+00:00",
-      "sourceHash": "6fb4b27023e1386c",
+      "updatedAt": "2026-07-10T16:06:21+00:00",
+      "sourceHash": "1d39104973eb5a3d",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
     },
     "46": {
-      "headline": "England and Ghana Clash for Group L Control",
-      "summary": "England and Ghana meet in their second Group L fixture, with both teams looking to build on opening-match victories.",
+      "headline": "Group L Leaders Collide",
+      "summary": "England and Ghana face off in their second Group L match, with both teams looking to build on their opening victories.",
       "story": [
-        "England enters this encounter following a high-scoring opening performance against Croatia, where they demonstrated significant offensive capability. Having secured three points in their first outing, they will look to maintain that momentum as they face a disciplined Ghana side.",
-        "Ghana arrives at this matchday with a solid defensive foundation, having kept a clean sheet in their narrow victory over Panama. Their ability to stifle opponents will be tested against an England attack that has already shown it can find the back of the net consistently.",
-        "With both teams tied on three points at the top of Group L, this matchup serves as a pivotal point in the group stage. The winner will gain a distinct advantage in the standings, making this a critical encounter for both squads as they navigate the second round of group play."
+        "England and Ghana both enter this Matchday 2 encounter with 3 points, having successfully navigated their opening fixtures. England arrives following a high-scoring 4-2 victory against Croatia, while Ghana secured a narrow 1-0 win over Panama to start their campaign.",
+        "The current Group L standings show England holding a slight advantage in goal difference, sitting at +2 compared to Ghana's +1. This meeting carries significant weight for both sides as they aim to solidify their position at the top of the table.",
+        "Both teams demonstrated different styles in their first outings, with England showing an aggressive offensive approach and Ghana proving their defensive discipline. How these two contrasting performances translate into their direct head-to-head will define the narrative of this match."
       ],
       "bullets": [
-        "England leads Group L on goal difference with a +2 margin.",
-        "Ghana enters the match with a +1 goal difference following their shutout victory.",
-        "Both teams are looking to secure their second win of the tournament to solidify their position at the top of the table."
+        "England leads Group L on goal difference after a 4-2 opening win.",
+        "Ghana enters this match with a clean sheet from their 1-0 victory against Panama.",
+        "Both teams currently sit on 3 points, making this a pivotal clash for group positioning."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:35:22+00:00",
-      "sourceHash": "11fa49b7dd515576",
+      "updatedAt": "2026-07-10T16:06:29+00:00",
+      "sourceHash": "43b3981944efc774",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5701,20 +5715,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "45": {
       "headline": "Portugal and Uzbekistan Seek First Group K Win",
-      "summary": "Portugal and Uzbekistan meet in Group K looking to improve their standing after both teams failed to secure a victory in their opening matches.",
+      "summary": "Portugal and Uzbekistan face off in Matchday 2 of Group K, with both sides looking to improve their standing after their opening fixtures.",
       "story": [
-        "Portugal enters this second matchday following a draw against DR Congo. Having earned a single point in their opening performance, they will look to stabilize their position in the group standings.",
-        "Uzbekistan faces a different challenge after dropping their first match against Colombia. With zero points currently on the board, they need a strong response to keep their tournament aspirations on track.",
-        "The dynamics of Group K remain fluid as Colombia currently leads the table with three points. Both Portugal and Uzbekistan are aware that points in this encounter are vital to keeping pace with the group leaders."
+        "Portugal enters this match following a draw in their opening game against DR Congo. Having secured a single point, they will be looking to build momentum and find more consistency in their attacking play to climb higher in the group standings.",
+        "Uzbekistan faces a different challenge after their initial outing against Colombia. Despite finding the back of the net, they currently sit at the bottom of the group and will be eager to tighten their defensive structure to secure a result.",
+        "Group K remains highly competitive, and this encounter serves as a pivotal moment for both squads. With Colombia currently leading the group, the outcome of this match will significantly influence the trajectory of the table as teams look toward the final round of the group stage."
       ],
       "bullets": [
-        "Portugal currently sits tied with DR Congo on one point in the group standings.",
-        "Uzbekistan is looking to bounce back after a difficult opening match against Colombia.",
-        "Colombia leads Group K with three points, placing pressure on both sides to secure a result here."
+        "Portugal aims to capitalize on their experience after a hard-fought draw in their tournament opener.",
+        "Uzbekistan looks to recover and gain their first points of the tournament following a difficult start.",
+        "The result of this match will be critical for both teams to stay in contention within Group K."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T21:35:29+00:00",
-      "sourceHash": "5b200d65a9d0e594",
+      "updatedAt": "2026-07-10T16:06:42+00:00",
+      "sourceHash": "4917d47f3e5f8ade",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
@@ -5740,24 +5754,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "preview source or prompt changed"
     },
     "76": {
-      "headline": "Brazil and Japan Collide in Round of 32",
+      "headline": "Brazil and Japan Clash in Round of 32",
       "summary": "Brazil enters the knockout stage as the winner of Group C to face Japan, the runner-up from Group F.",
       "story": [
-        "Brazil arrives at this Round of 32 matchup following a strong group stage performance where they finished atop Group C. After an initial draw against Morocco, the team found their rhythm with decisive victories over Haiti and Scotland, maintaining momentum as they move into the single-elimination phase.",
-        "Japan navigated a competitive Group F to secure their place in this round. Their campaign included a high-scoring draw against the Netherlands, a dominant 4-0 win over Tunisia, and a hard-fought draw against Sweden, demonstrating their ability to adapt to different styles of play.",
-        "This encounter brings together two sides with distinct paths through the group stage. Brazil will look to continue their offensive efficiency, while Japan aims to leverage their tactical discipline to challenge one of the tournament's top seeds in this high-stakes knockout fixture."
+        "Brazil arrives in the Round of 32 after a strong showing in Group C. They opened their campaign with a draw against Morocco, but quickly found their rhythm with convincing victories over Haiti and Scotland to secure the top spot in their group.",
+        "Japan navigated a challenging Group F to earn their place in this knockout match. Their path included a high-scoring draw against the Netherlands, a dominant win over Tunisia, and a hard-fought stalemate with Sweden in their final group fixture.",
+        "This matchup brings together two sides that have shown resilience throughout the group stage. Brazil demonstrated a potent attack in their later group matches, while Japan proved they can compete against diverse tactical styles during their three-game run in Group F.",
+        "With the tournament moving into the knockout phase, both teams face the pressure of a single-elimination format. The winner of this encounter will move one step closer to the ultimate goal, while the loser will see their tournament journey come to an end."
       ],
       "bullets": [
-        "Brazil finished Group C undefeated with two wins and one draw.",
-        "Japan remained unbeaten in Group F, recording one victory and two draws.",
-        "The winner of this match advances to the next stage of the knockout bracket."
+        "Brazil finished Group C with two wins and one draw, scoring seven goals across three matches.",
+        "Japan remained unbeaten in Group F, recording one win and two draws during the group stage.",
+        "This is a Round of 32 knockout fixture where the winner advances and the loser is eliminated."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T18:15:19+00:00",
-      "sourceHash": "5eab52ec1f7d5bc3",
+      "updatedAt": "2026-07-10T16:01:47+00:00",
+      "sourceHash": "e9e535ac4a571b2a",
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual spoiler-free preview target"
+      "refreshReason": "preview source or prompt changed"
     },
     "75": {
       "headline": "Netherlands and Morocco Clash in Round of 32",

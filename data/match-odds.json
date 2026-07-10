@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T08:44:49+00:00",
+  "generatedAt": "2026-07-10T16:00:52+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -12,31 +12,31 @@
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760511/",
-      "asOf": "2026-07-10T08:44:49+00:00",
+      "asOf": "2026-07-10T16:00:52+00:00",
       "espnEventId": "760511",
       "outcomes": [
         {
           "key": "home",
           "label": "Spain",
-          "american": -160,
-          "rawProbability": 0.6153846153846154,
-          "advanceProbability": 0.7719298245614035
+          "american": -165,
+          "rawProbability": 0.6226415094339622,
+          "advanceProbability": 0.7816683831101957
         },
         {
           "key": "away",
           "label": "Belgium",
-          "american": 450,
-          "rawProbability": 0.18181818181818182,
-          "advanceProbability": 0.22807017543859648
+          "american": 475,
+          "rawProbability": 0.17391304347826086,
+          "advanceProbability": 0.21833161688980432
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 295,
-        "rawProbability": 0.25316455696202533
+        "american": 290,
+        "rawProbability": 0.2564102564102564
       },
-      "rawTeamTotal": 0.7972027972027973,
-      "rawMarketTotal": 1.0503673541648226
+      "rawTeamTotal": 0.7965545529122231,
+      "rawMarketTotal": 1.0529648093224795
     },
     "99": {
       "market": "Chance to advance",
@@ -44,31 +44,31 @@
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760512/",
-      "asOf": "2026-07-10T02:20:27+00:00",
+      "asOf": "2026-07-10T16:00:52+00:00",
       "espnEventId": "760512",
       "outcomes": [
         {
           "key": "home",
           "label": "Norway",
-          "american": 310,
-          "rawProbability": 0.24390243902439024,
-          "advanceProbability": 0.31318281136198106
+          "american": 300,
+          "rawProbability": 0.25,
+          "advanceProbability": 0.32307692307692304
         },
         {
           "key": "away",
           "label": "England",
-          "american": -115,
-          "rawProbability": 0.5348837209302325,
-          "advanceProbability": 0.6868171886380189
+          "american": -110,
+          "rawProbability": 0.5238095238095238,
+          "advanceProbability": 0.676923076923077
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 270,
-        "rawProbability": 0.2702702702702703
+        "american": 265,
+        "rawProbability": 0.273972602739726
       },
-      "rawTeamTotal": 0.7787861599546227,
-      "rawMarketTotal": 1.049056430224893
+      "rawTeamTotal": 0.7738095238095238,
+      "rawMarketTotal": 1.04778212654925
     },
     "100": {
       "market": "Chance to advance",
