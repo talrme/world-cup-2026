@@ -1,21 +1,22 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-10T08:49:13+00:00",
+  "generatedAt": "2026-07-10T11:41:13+00:00",
   "matches": {
     "12": {
-      "headline": "Sweden Dominates Tunisia in Group F Opener",
-      "summary": "Sweden opened their tournament campaign with a commanding 5-1 victory over Tunisia.",
+      "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
+      "summary": "Sweden secured a commanding 5-1 victory over Tunisia to kick off their Group F campaign.",
       "story": [
-        "Sweden made a statement in their opening match of Group F, dismantling Tunisia 5-1 to secure an early lead in the standings. The offensive performance set a high bar for the group, showcasing a clinical edge that immediately put pressure on their opponents.",
-        "For Tunisia, the result proved to be an uphill battle from the start. The heavy defeat left them with a significant goal-difference deficit, which ultimately contributed to their difficult path through the group stage.",
-        "Following this match, Sweden continued their campaign with mixed results, eventually finishing third in the group with four points. They moved on to the Round of 32, where their run concluded against France."
+        "Sweden made a powerful statement in their tournament opener, dismantling Tunisia with a convincing 5-1 scoreline. The result provided the perfect start for the Swedes, who immediately signaled their intent to compete at the top of a challenging group.",
+        "For Tunisia, the match proved to be a difficult introduction to the group stage. The heavy defeat placed them in a precarious position early on, as they struggled to contain the Swedish attack throughout the contest.",
+        "Following this result, Sweden went on to navigate a difficult group featuring the Netherlands and Japan, ultimately finishing with four points. Their journey eventually concluded in the Round of 32 after a 3-0 loss to France.",
+        "Tunisia concluded their group stage campaign with three losses, finishing at the bottom of the table with a goal difference of -10. While they showed resilience in later matches, the opening loss to Sweden set a challenging tone for their tournament."
       ],
       "bullets": [
-        "Sweden's five-goal outburst provided a massive boost to their early goal difference.",
-        "The result left Tunisia at the bottom of the table, facing a steep climb for the remainder of the group stage."
+        "Sweden's 5-1 win provided a crucial three points that helped them advance to the Round of 32.",
+        "Tunisia finished the group stage with zero points, conceding 12 goals across their three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:56:53+00:00",
-      "sourceHash": "e760c31fd0ac31ee",
+      "updatedAt": "2026-07-10T11:40:12+00:00",
+      "sourceHash": "3ad3a798b620b285",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -240,177 +241,177 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "33": {
       "headline": "Netherlands Dominates Sweden in 5-1 Group F Victory",
-      "summary": "The Netherlands secured a commanding 5-1 win over Sweden, significantly shifting the momentum in Group F during Matchday 2.",
+      "summary": "The Netherlands secured a decisive 5-1 victory over Sweden, significantly strengthening their position in Group F.",
       "story": [
-        "The Netherlands delivered an emphatic performance, dismantling Sweden with a 5-1 scoreline that underscored their offensive firepower. This result served as a major statement in Group F, effectively putting the rest of the group on notice after the Dutch side's opening draw against Japan.",
-        "For Sweden, the heavy defeat proved to be a difficult hurdle to overcome. While they managed to find the back of the net once, they were unable to contain the relentless Dutch attack, which capitalized on defensive lapses throughout the match.",
-        "This outcome played a pivotal role in the final group standings, where the Netherlands eventually finished at the top with 7 points. Sweden, meanwhile, finished third with 4 points, eventually advancing to the Round of 32 as one of the best third-placed teams before their exit against France."
+        "The Netherlands delivered an emphatic performance against Sweden, putting five goals past their opponents in a match that shifted the momentum of Group F. This result provided the Dutch with a crucial cushion as they navigated the group stage, ultimately helping them finish at the top of the standings with seven points.",
+        "For Sweden, the heavy defeat forced them to rely on their remaining fixtures to keep their tournament hopes alive. Despite the setback, they managed to secure four points in the group, which allowed them to advance to the knockout stages as one of the best third-placed teams.",
+        "Sweden's tournament path proved challenging following this result, as they later faced a tough 3-0 defeat against France in the Round of 32. This match remains a notable example of the high-scoring nature of Group F, which saw the Dutch emerge as the dominant force."
       ],
       "bullets": [
-        "The Netherlands finished atop Group F with 7 points following this decisive victory.",
-        "Sweden's 5-1 loss created a significant goal difference deficit that impacted their standing throughout the group stage.",
-        "Both teams eventually progressed to the Round of 32, though their paths diverged shortly thereafter."
+        "The 5-1 win was the largest margin of victory for the Netherlands in their group stage campaign.",
+        "This result was instrumental in the Netherlands finishing first in Group F with a +6 goal difference.",
+        "Sweden advanced to the Round of 32 despite this loss, qualifying as one of the best third-placed teams."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T23:56:28+00:00",
-      "sourceHash": "7639aff3d784ce57",
+      "updatedAt": "2026-07-10T11:37:28+00:00",
+      "sourceHash": "89b75589dbdc38ff",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "32": {
       "headline": "Paraguay Edges Turkey to Keep Group D Alive",
-      "summary": "Final: Turkey 0, Paraguay 1. Paraguay secured a vital 1-0 victory over Turkey in their second group match, keeping their knockout stage ambitions firmly on track.",
+      "summary": "Final: Turkey 0, Paraguay 1. Paraguay secured a vital 1-0 victory over Turkey in their second Group D match, significantly tightening the race for the knockout stages.",
       "story": [
-        "Paraguay claimed a crucial three points in this low-scoring affair, capitalizing on a tight defensive performance to shut out Turkey. The win was essential for Paraguay after their opening loss to the United States, providing the momentum needed to navigate the remainder of the group stage.",
-        "For Turkey, the result proved costly as they struggled to find the back of the net, leaving them with significant work to do in their final group fixture. The defeat put them in a precarious position, forcing them to chase points against the United States in their third match to keep their tournament hopes alive.",
-        "This result tightened the race in Group D, as Paraguay moved into a competitive position alongside Australia. By the conclusion of the group phase, Paraguay had successfully advanced to the knockout rounds, eventually facing Germany in the Round of 32."
+        "Paraguay delivered a disciplined performance to claim all three points, handing Turkey their second consecutive loss of the group stage. The narrow 1-0 result was a critical turning point for Paraguay, who entered the match looking to bounce back after a heavy defeat in their opening fixture.",
+        "For Turkey, the loss proved costly, leaving them with zero points after two matches and immense pressure heading into their final group game against the United States. The defeat underscored the difficulty of their position in a competitive group where every goal difference point would ultimately matter.",
+        "This win provided Paraguay with the momentum they needed to stay in contention. By avoiding defeat in their subsequent group match against Australia, they managed to secure a path forward, eventually advancing through the bracket and testing their mettle against top-tier competition like Germany and France in the knockout rounds.",
+        "While Turkey eventually found their footing with a win in their final group match, the points dropped in this encounter proved too difficult to overcome for a spot in the next stage. Paraguay's defensive resolve in this match served as a foundation for their tournament run."
       ],
       "bullets": [
-        "Paraguay's 1-0 win provided the necessary points to stay in contention for the knockout stage.",
-        "The loss left Turkey with an uphill battle, ultimately leading to their elimination from the group.",
-        "Paraguay's campaign eventually extended into the knockout rounds, where they faced Germany."
+        "Paraguay's victory was essential for their progression, helping them finish with 4 points in Group D.",
+        "Turkey's loss left them at the bottom of the group table, despite a strong effort in their final match against the United States.",
+        "The result ensured that the final day of Group D action remained highly consequential for all four teams involved."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T01:23:11+00:00",
-      "sourceHash": "7f354fc78aab812d",
+      "updatedAt": "2026-07-10T11:37:36+00:00",
+      "sourceHash": "9c22036a51858e91",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "31": {
-      "headline": "Brazil Dominates Haiti to Secure Three Points",
-      "summary": "Brazil defeated Haiti 3-0 in their Group C matchup, effectively asserting their position in the standings.",
+      "headline": "Brazil Dominates Haiti to Secure Crucial Group C Win",
+      "summary": "Brazil defeated Haiti 3-0 to claim their first win of the group stage and keep their momentum alive in Group C.",
       "story": [
-        "Brazil delivered a clinical performance against Haiti, securing a comfortable 3-0 victory. This result was vital for their progression, helping them build momentum after opening their group campaign with a draw against Morocco.",
-        "For Haiti, the match proved to be a difficult challenge as they struggled to contain Brazil's attack throughout the 90 minutes. The loss left them searching for their first points of the tournament as they looked toward their final group fixture.",
-        "Following this victory, Brazil continued their strong run through the group stage, eventually finishing at the top of Group C with seven points. Their campaign ultimately extended into the knockout rounds, where they navigated a match against Japan before being eliminated by Norway in the Round of 16."
+        "Brazil asserted their authority in this Matchday 2 encounter, dismantling Haiti with a clinical 3-0 performance. After opening their tournament with a draw against Morocco, this victory was essential for Brazil to establish themselves as a top contender in the group standings.",
+        "For Haiti, the result proved difficult as they struggled to contain the Brazilian attack. The loss left Haiti searching for their first points of the tournament, facing an uphill battle to remain competitive in a challenging group.",
+        "This win served as a springboard for Brazil, who eventually finished at the top of Group C with 7 points. Their campaign continued into the knockout stages, where they secured a victory over Japan in the Round of 32 before ultimately exiting in the Round of 16 against Norway."
       ],
       "bullets": [
-        "Brazil maintained a clean sheet while scoring three goals to improve their goal difference significantly.",
-        "The win served as a cornerstone for Brazil's eventual first-place finish in Group C.",
-        "Haiti remained winless in the group following this result, concluding their tournament run after three matches."
+        "Brazil's 3-0 victory provided a significant boost to their goal difference, which proved vital in their eventual group-topping finish.",
+        "The match marked the second of three group fixtures for both teams, setting the trajectory for their respective tournament paths."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T22:39:11+00:00",
-      "sourceHash": "8d427e8bf121c142",
+      "updatedAt": "2026-07-10T11:37:44+00:00",
+      "sourceHash": "af1257e1050f9a56",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "30": {
-      "headline": "Morocco secures vital 1-0 victory over Scotland",
-      "summary": "Final: Scotland 0, Morocco 1. Morocco defeated Scotland 1-0 in their Group C encounter, a result that proved pivotal in their progression through the tournament.",
+      "headline": "Morocco secures narrow 1-0 win over Scotland",
+      "summary": "Final: Scotland 0, Morocco 1. Morocco defeated Scotland 1-0 in a pivotal Group C encounter that proved essential to their progression.",
       "story": [
-        "Morocco claimed a narrow 1-0 win against Scotland, a result that helped solidify their position in Group C. By taking all three points, Morocco kept pace with Brazil and set themselves up for a successful run through the group stage.",
-        "For Scotland, the defeat was a setback that left them with three points from their opening two matches. While they had secured a win against Haiti in their opener, this loss put pressure on their final group fixture against Brazil.",
-        "Morocco's momentum from this win carried them far beyond the group stage. They eventually advanced to the knockout rounds, where they navigated a match against the Netherlands and a victory over Canada before their run concluded in the quarterfinals against France.",
-        "The group ultimately finished with Brazil and Morocco tied on seven points, with Brazil taking the top spot on goal difference. Scotland finished third in the group, while Haiti rounded out the table."
+        "Morocco capitalized on a tight defensive performance to edge past Scotland with a 1-0 victory. This result was a critical turning point for the Moroccan side, helping them maintain momentum in a competitive group stage.",
+        "For Scotland, the loss served as a major setback after their opening match win against Haiti. The defeat put significant pressure on their final group fixture against Brazil, where they ultimately struggled to find a result.",
+        "The victory helped propel Morocco toward a successful tournament run that saw them advance through the knockout stages, including a penalty shootout win over the Netherlands and a victory against Canada, before eventually falling to France in the quarterfinals.",
+        "By the end of the group stage, Morocco finished level on points with Brazil, showcasing the strength of their campaign following this narrow win over the Scots."
       ],
       "bullets": [
-        "Morocco's 1-0 win was a key factor in their eventual advancement to the quarterfinals.",
-        "The result left Scotland with three points, forcing them to chase a result in their final group match.",
-        "Morocco finished their group campaign with seven points, level with Brazil."
+        "Morocco finished second in Group C with 7 points, trailing Brazil only on goal difference.",
+        "The result left Scotland with 3 points, ultimately preventing them from advancing beyond the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-09T23:36:02+00:00",
-      "sourceHash": "ac4d3971a71d85ce",
+      "updatedAt": "2026-07-10T11:37:52+00:00",
+      "sourceHash": "c48cc7c462b5664d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "29": {
-      "headline": "United States Secures Crucial Win Over Australia",
-      "summary": "The United States defeated Australia 2-0 in their second group stage match, effectively positioning themselves at the top of Group D.",
+      "headline": "United States Secures Crucial Victory Over Australia",
+      "summary": "The United States defeated Australia 2-0 in their Group D matchup, strengthening their position at the top of the group standings.",
       "story": [
-        "The United States controlled the pace of this Matchday 2 encounter, securing a clean sheet and a 2-0 victory against Australia. This result was pivotal for the U.S. campaign, providing them with the necessary momentum to eventually finish atop Group D with 6 points.",
-        "For Australia, the loss forced a tighter path through the remainder of the group stage. Despite the defeat, the Socceroos remained competitive in the group, eventually finishing with 4 points and advancing to the knockout rounds alongside the United States.",
-        "This match served as a defensive benchmark for the U.S. squad, who limited Australia's scoring opportunities throughout the 90 minutes. The victory proved essential in managing the group standings, as it created the cushion needed to navigate a challenging final matchday against Turkey."
+        "The United States controlled this Group D fixture, earning a decisive 2-0 win that proved instrumental in their eventual path through the tournament. By securing these three points, the U.S. maintained their momentum following an opening-day win against Paraguay.",
+        "For Australia, the loss forced them to battle for points in their final group stage match against Paraguay. Despite the setback, the Socceroos remained competitive in a tight Group D, eventually advancing to the knockout rounds as the group runner-up.",
+        "This result was a key turning point for the U.S., who finished the group stage with 6 points. Their performance in this match helped solidify their standing before they moved on to face Bosnia-Herzegovina in the Round of 32 and eventually Belgium in the Round of 16."
       ],
       "bullets": [
-        "The 2-0 victory helped the United States finish first in Group D.",
-        "Australia maintained a solid defensive structure throughout the group, despite the loss to the U.S."
+        "The 2-0 victory helped the United States finish at the top of Group D with 6 points.",
+        "Australia advanced to the knockout stage as the group runner-up despite this result."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T05:52:50+00:00",
-      "sourceHash": "e63dced40130df21",
+      "updatedAt": "2026-07-10T11:37:59+00:00",
+      "sourceHash": "70037c2466024228",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "28": {
-      "headline": "Mexico Edges South Korea to Maintain Group A Control",
-      "summary": "Mexico secured a narrow 1-0 victory over South Korea, a result that proved pivotal in their path to topping Group A.",
+      "headline": "Mexico edges South Korea to tighten grip on Group A",
+      "summary": "Mexico secured a narrow 1-0 victory over South Korea, maintaining their perfect start to the group stage.",
       "story": [
-        "In a tightly contested Matchday 2 encounter, Mexico managed to break through South Korea's defense to claim all three points. The 1-0 win was a critical moment in the group stage, providing Mexico with the momentum needed to eventually finish at the top of the standings.",
-        "For South Korea, the loss tightened the pressure in a competitive group. While they opened their tournament with a win against Czechia, this setback forced them into a high-stakes final group match against South Africa, which they ultimately dropped.",
-        "Mexico's performance in this match was part of an impressive group phase where they remained undefeated and did not concede a single goal. This win helped solidify their momentum heading into the knockout rounds, where they eventually advanced to the Round of 16."
+        "Mexico continued their dominant run in Group A by defeating South Korea 1-0 in a tightly contested match. This result proved vital for the hosts, as it kept them on a clear path toward the top of the group standings.",
+        "For South Korea, the loss created significant pressure heading into their final group fixture. Having opened their campaign with a win against Czechia, this setback meant they had to fight to keep their knockout stage aspirations alive.",
+        "The victory solidified Mexico's position as the team to beat in the group. Their defensive discipline, combined with the ability to secure results in close matches, set the tone for their successful progression through the tournament bracket."
       ],
       "bullets": [
-        "Mexico finished the group stage with a perfect 9 points and a +6 goal difference.",
-        "The result left South Korea in a difficult position, finishing third in Group A with 3 points.",
-        "Mexico's defensive resilience was a hallmark of their group campaign, keeping a clean sheet in all three group matches."
+        "Mexico maintained a perfect record in Group A with this second consecutive win.",
+        "The 1-0 result left South Korea with work to do to secure a spot in the next round."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T06:11:31+00:00",
-      "sourceHash": "44ac4e07ccbfdf30",
+      "updatedAt": "2026-07-10T11:38:07+00:00",
+      "sourceHash": "37fceacf1b925b25",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "27": {
       "headline": "Canada Dominates Qatar in 6-0 Group B Victory",
-      "summary": "Canada secured a commanding 6-0 win over Qatar, significantly boosting their goal difference and group standing during Matchday 2.",
+      "summary": "Canada secured a commanding 6-0 win over Qatar, significantly boosting their goal difference and positioning within Group B.",
       "story": [
-        "Canada delivered a clinical performance against Qatar, putting six goals past them without conceding. This emphatic result served as a crucial turning point for Canada in Group B, providing them with a massive cushion in goal difference that proved vital by the end of the group stage.",
-        "For Qatar, the match was a difficult defensive outing that left them struggling to find a foothold in the group. The heavy defeat compounded the challenges they faced after their opening draw with Switzerland, ultimately leaving them at the bottom of the table.",
-        "Following this result, Canada moved forward with renewed confidence, eventually finishing second in Group B with four points. Their journey continued into the knockout stages, where they secured a hard-fought 1-0 win against South Africa in the Round of 32 before their tournament run ended in the Round of 16 against Morocco."
+        "Canada delivered an emphatic performance in their second group match, dismantling Qatar with a clean sheet and six unanswered goals. This result provided a massive lift to Canada's standing in Group B, moving them into a strong position to contend for a knockout stage berth.",
+        "The lopsided scoreline reflected Canada's offensive efficiency, which contrasted sharply with their opening draw against Bosnia and Herzegovina. For Qatar, the match proved to be a difficult defensive challenge, leaving them with just one point from their first two fixtures.",
+        "Following this match, Canada went on to finish the group stage with four points, eventually advancing to the knockout rounds where they secured a victory over South Africa before their tournament run ended against Morocco in the Round of 16.",
+        "Qatar concluded their group campaign with a single point after a subsequent loss to Bosnia and Herzegovina, ultimately finishing at the bottom of the group standings."
       ],
       "bullets": [
-        "Canada's 6-0 victory gave them a final goal difference of +5, helping them edge out Bosnia and Herzegovina for the second spot in Group B."
+        "Canada's 6-0 margin remains their largest victory of the tournament.",
+        "The win proved vital for Canada's goal difference, which ended at +5 after three group matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:18:29+00:00",
-      "sourceHash": "28a1a879028a8775",
+      "updatedAt": "2026-07-10T11:38:15+00:00",
+      "sourceHash": "ff7d6194d6158a4d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "26": {
       "headline": "Switzerland Dominates Bosnia and Herzegovina in Group B",
-      "summary": "Switzerland secured a decisive 4-1 victory over Bosnia and Herzegovina, establishing their momentum early in the group stage.",
+      "summary": "Switzerland secured a decisive 4-1 victory over Bosnia and Herzegovina, establishing early momentum in Group B.",
       "story": [
-        "Switzerland delivered a clinical performance to dismantle Bosnia and Herzegovina, putting four goals past their opponents to claim a critical three points. This result proved to be the turning point for the Swiss in Group B, as they moved from an opening draw against Qatar to controlling their own destiny.",
-        "This match was a foundational moment for Switzerland's eventual run to the top of Group B. By securing such a high-scoring win, they built the necessary cushion to navigate their subsequent fixtures, including a narrow victory over Canada and a clean sheet in the Round of 32 against Algeria.",
-        "The outcome left Bosnia and Herzegovina with significant work to do in their final group match against Qatar. While they eventually rebounded with a 3-1 win in that final fixture, the damage from this heavy defeat to Switzerland ultimately left them trailing in the group standings."
+        "Switzerland asserted their authority in this Group B encounter with a clinical 4-1 performance. The result provided a significant boost to their standing, allowing them to dictate the pace of the group after an opening draw against Qatar.",
+        "For Bosnia and Herzegovina, the loss proved to be a difficult hurdle. While they managed to find the net, they were unable to contain the Swiss offensive pressure throughout the match.",
+        "This win served as a vital stepping stone for Switzerland, who eventually navigated their way through the group stage with 7 points. Their form continued to improve as they progressed into the knockout rounds, eventually reaching the quarterfinals."
       ],
       "bullets": [
-        "Switzerland's 4-1 win served as the catalyst for their undefeated group stage campaign.",
-        "The result significantly bolstered Switzerland's goal difference, which proved vital as they finished at the top of Group B with seven points.",
-        "Bosnia and Herzegovina struggled to contain the Swiss attack, conceding four goals before eventually regrouping for their final match of the group phase."
+        "Switzerland finished at the top of Group B with 7 points.",
+        "Bosnia and Herzegovina finished the group stage with 4 points.",
+        "The 4-1 scoreline marked the most lopsided result in Switzerland's group campaign."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:36:51+00:00",
-      "sourceHash": "7b46b7416afe30ef",
+      "updatedAt": "2026-07-10T11:38:22+00:00",
+      "sourceHash": "853d8ba8b2948c99",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "25": {
       "headline": "Czechia and South Africa Split Points in Group A Draw",
-      "summary": "Czechia and South Africa played to a 1-1 draw, a result that left both teams searching for momentum in a competitive group.",
+      "summary": "Czechia and South Africa played to a 1-1 draw, a result that left both teams searching for momentum in the group stage.",
       "story": [
-        "The 1-1 stalemate between Czechia and South Africa proved to be a pivotal moment in Group A, as both sides struggled to find the breakthrough needed to secure a vital three points. The draw kept the group dynamics tight, forcing both teams to look toward their final group fixtures with increased pressure.",
-        "For South Africa, the point was a necessary step in their campaign, though it left them needing a result in their final match to keep their knockout stage ambitions alive. They ultimately managed to secure a spot in the Round of 32, finishing second in the group with four points.",
-        "Czechia, meanwhile, found the going difficult throughout the group stage. Following this draw, they were unable to secure a win in their subsequent match against Mexico, finishing at the bottom of the group with a single point."
+        "The 1-1 stalemate between Czechia and South Africa proved to be a pivotal moment in Group A, as both sides struggled to find the decisive edge needed to climb the standings. For South Africa, the single point was a necessary step after their opening loss to Mexico, while Czechia found themselves unable to build on their tournament campaign.",
+        "This result placed significant pressure on both teams heading into the final matchday. With Mexico dominating the group, the draw effectively forced South Africa and Czechia to fight for their tournament lives in their subsequent games.",
+        "South Africa ultimately managed to navigate the group phase, securing four points and advancing to the knockout rounds, where they were later eliminated by Canada. Czechia, however, finished at the bottom of the table with only one point from their three matches."
       ],
       "bullets": [
-        "The 1-1 draw was the only point Czechia earned during their group stage campaign.",
-        "South Africa leveraged this result to help secure a second-place finish in Group A, eventually advancing to the Round of 32."
+        "The 1-1 draw was the only point earned by Czechia throughout the group stage.",
+        "South Africa leveraged this result to eventually secure a second-place finish in Group A with four total points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-05T05:18:45+00:00",
-      "sourceHash": "9441946718b4148d",
+      "updatedAt": "2026-07-10T11:38:30+00:00",
+      "sourceHash": "8d58bc9b32b20735",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -986,240 +987,242 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "24": {
-      "headline": "Colombia kicks off Group K with a 3-1 victory over Uzbekistan",
-      "summary": "Final: Uzbekistan 1, Colombia 3. Colombia secured a strong start to their tournament campaign by defeating Uzbekistan 3-1 in their opening Group K fixture.",
+      "headline": "Colombia secures opening victory over Uzbekistan",
+      "summary": "Final: Uzbekistan 1, Colombia 3. Colombia defeated Uzbekistan 3-1 in their Group K opener, setting the tone for a successful group stage campaign.",
       "story": [
-        "Colombia hit the ground running in Group K, leveraging a clinical performance to overcome Uzbekistan 3-1. The win provided a vital three points that set the tone for their progression through the group stage.",
-        "For Uzbekistan, the match proved to be a difficult introduction to the tournament. Despite finding the back of the net, they were unable to contain the Colombian attack, marking the beginning of a challenging group phase where they finished without a point.",
-        "This result was the catalyst for Colombia's successful run to the top of Group K. By securing this win early, they built the momentum necessary to navigate subsequent draws against DR Congo and Portugal, eventually finishing the group stage undefeated with seven points.",
-        "Colombia's trajectory following this victory saw them advance through the knockout stages, including a narrow 1-0 win over Ghana in the Round of 32 before facing Switzerland in the Round of 16."
+        "Colombia kicked off their tournament with a decisive 3-1 win against Uzbekistan, establishing early momentum in Group K. This result proved vital, as Colombia ultimately finished at the top of the group standings with seven points from their three matches.",
+        "For Uzbekistan, the match marked the beginning of a difficult group stage. They struggled to find defensive consistency throughout the tournament, eventually finishing at the bottom of the group with zero points and a goal difference of -9.",
+        "The victory provided Colombia with the necessary cushion to navigate the rest of the group stage, including a hard-fought 1-0 win over DR Congo and a goalless draw against Portugal. This strong start allowed them to advance to the knockout rounds, where they eventually pushed Switzerland to penalties in the Round of 16."
       ],
       "bullets": [
-        "Colombia finished at the top of Group K with 7 points, remaining unbeaten throughout the group stage.",
-        "The 3-1 win over Uzbekistan served as the foundation for Colombia's eventual advancement into the knockout rounds.",
-        "Uzbekistan concluded their group campaign with three losses, struggling defensively throughout the tournament."
+        "Colombia finished first in Group K with an undefeated record of two wins and one draw.",
+        "The 3-1 scoreline was the highest-scoring match for either team during the group stage.",
+        "This win was the catalyst for Colombia's progression into the Round of 32 and Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:36:59+00:00",
-      "sourceHash": "bfcb9e99220c1749",
+      "updatedAt": "2026-07-10T11:38:38+00:00",
+      "sourceHash": "6e3e8a4a3c43dbf7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "23": {
       "headline": "Ghana Edges Past Panama in Group L Opener",
-      "summary": "Ghana secured a narrow 1-0 victory over Panama to kick off their Group L campaign.",
+      "summary": "Ghana secured a narrow 1-0 victory over Panama to kick off their Group L campaign with three vital points.",
       "story": [
-        "Ghana claimed all three points in their opening match, relying on a disciplined defensive effort to hold off Panama. The solitary goal proved enough to separate the sides in a tightly contested fixture that set the tone for the group stage.",
-        "For Ghana, the win provided a vital foundation in a group featuring heavyweights England and Croatia. While they later drew with England and fell to Croatia, this opening victory was instrumental in helping them finish third in the group with four points.",
-        "Panama struggled to find their rhythm throughout the tournament, finishing at the bottom of the group without scoring a goal. Despite their defensive resilience in this opening match, they were unable to secure a result in their subsequent fixtures."
+        "Ghana claimed a hard-fought 1-0 win against Panama in their opening match of the group stage. The result provided Ghana with a foundational victory, proving crucial as they navigated a challenging group that also featured England and Croatia.",
+        "For Panama, the narrow defeat set a difficult tone for the remainder of their tournament. Despite a resilient defensive effort, they were unable to find an equalizer, ultimately finishing the group stage without a point or a goal scored.",
+        "This result proved significant for Ghana's progression, as they managed to accumulate four points across their three group matches. Their performance allowed them to remain competitive through the final matchday, eventually earning a spot in the Round of 32.",
+        "Following the conclusion of Group L, England topped the table with seven points, followed by Croatia with six. Ghana's opening win against Panama served as the difference-maker in their ability to advance as one of the best third-placed teams."
       ],
       "bullets": [
-        "Ghana's 1-0 win was their only victory of the group stage.",
-        "Panama concluded the group stage with zero goals scored and zero points.",
-        "The result helped Ghana secure a spot in the knockout rounds as a third-place qualifier."
+        "Ghana's 1-0 win was the only victory they achieved in the group stage.",
+        "Panama concluded their campaign with zero points and zero goals scored.",
+        "The three points earned here were instrumental in Ghana qualifying for the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-04T05:05:55+00:00",
-      "sourceHash": "2d17e940538db8d0",
+      "updatedAt": "2026-07-10T11:38:46+00:00",
+      "sourceHash": "06dcc333c9ec87c5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "22": {
-      "headline": "England opens Group L with a high-scoring victory over Croatia",
-      "summary": "England secured a 4-2 win against Croatia in their opening match of Group L, setting the tone for their tournament campaign.",
+      "headline": "England Opens Group L with High-Scoring Win Over Croatia",
+      "summary": "England defeated Croatia 4-2 in their opening match of the tournament, setting the tone for a successful group stage campaign.",
       "story": [
-        "England kicked off their Group L journey with a strong offensive performance, putting four goals past Croatia in a 4-2 result. The match provided an early indicator of England's attacking intent, establishing them as a team to watch in the group standings.",
-        "For Croatia, the loss in the opening match created immediate pressure to recover in subsequent fixtures against Ghana and Panama. While the defense struggled to contain England's attack, the two goals scored kept the match competitive throughout the 90 minutes.",
-        "This result proved pivotal for England, as they ultimately finished at the top of Group L with seven points. The three points gained here provided the necessary cushion to navigate a group that also included Ghana and Panama.",
-        "Following this match, both teams moved forward through the group stage, with England eventually advancing deep into the knockout rounds, including a victory over Mexico in the Round of 16, while Croatia's journey concluded in the Round of 32."
+        "England secured a decisive 4-2 victory against Croatia in their first Group L fixture. The four-goal performance provided an immediate offensive spark, helping England establish early momentum in a group that also featured Ghana and Panama.",
+        "This result proved pivotal for the final group standings, as England finished at the top of the table with seven points. By securing three points in this opening encounter, England created the necessary cushion to navigate a later draw against Ghana and a win over Panama.",
+        "For Croatia, the loss forced them to play catch-up for the remainder of the group stage. Despite the setback, they managed to secure six points from their three matches, ultimately finishing second in the group before advancing to the knockout rounds.",
+        "Following this match, both teams moved on to distinct paths in the tournament. England continued their run through the knockout stages, while Croatia eventually concluded their campaign after a narrow defeat to Portugal in the Round of 32."
       ],
       "bullets": [
-        "England finished at the top of Group L with 7 points, while Croatia took second place with 6 points.",
-        "The 4-2 scoreline was the highest-scoring match involving these two teams during the group stage.",
-        "England's victory provided the momentum needed to secure a path to the quarterfinals."
+        "England finished atop Group L with 7 points, while Croatia followed in second place with 6 points.",
+        "The 4-2 scoreline marked the highest-scoring match for either team during the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T06:11:39+00:00",
-      "sourceHash": "ae68d95a88b389dc",
+      "updatedAt": "2026-07-10T11:38:54+00:00",
+      "sourceHash": "c1b4a190f53520a0",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "21": {
-      "headline": "Portugal and DR Congo Share the Points in Group K Opener",
-      "summary": "Portugal and DR Congo played to a 1-1 draw in their opening Group K match.",
+      "headline": "Portugal and DR Congo battle to a 1-1 draw",
+      "summary": "Portugal and DR Congo opened their Group K campaign with a hard-fought 1-1 draw that set the tone for a competitive group stage.",
       "story": [
-        "The opening match of Group K saw Portugal and DR Congo battle to a 1-1 stalemate. Both sides were unable to find a decisive edge, leaving the group wide open from the very first day of competition.",
-        "This result proved significant as the group stage progressed. Portugal eventually finished second in the group with 5 points, while DR Congo finished third with 4 points, narrowly missing out on the automatic qualification spots after their three matches.",
-        "Portugal's tournament journey continued beyond the group stage, where they later secured a victory over Croatia in the Round of 32 before ultimately exiting the competition in the Round of 16 against Spain."
+        "The opening match between Portugal and DR Congo ended in a 1-1 stalemate, forcing both teams to share the points early in their tournament journey. This result proved pivotal as the group progressed, with both sides finding themselves in a tight race for qualification alongside Colombia and Uzbekistan.",
+        "For Portugal, this draw served as a wake-up call, though they eventually found their stride with a dominant 5-0 win over Uzbekistan in their second match. They finished the group stage with 5 points, securing second place in Group K after a scoreless draw with Colombia.",
+        "DR Congo showed resilience throughout the group stage, ultimately finishing with 4 points. Despite their efforts, including a 3-1 victory over Uzbekistan in their final group fixture, they fell just short of advancing, finishing third behind Colombia and Portugal."
       ],
       "bullets": [
-        "The draw left Portugal and DR Congo level in the early group standings.",
-        "Portugal finished the group stage with 5 points, while DR Congo finished with 4."
+        "The 1-1 result left Portugal and DR Congo tied on points after the first matchday.",
+        "Portugal finished second in Group K with 5 points, while DR Congo finished third with 4 points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T22:38:02+00:00",
-      "sourceHash": "31c50dfca3f60839",
+      "updatedAt": "2026-07-10T11:39:02+00:00",
+      "sourceHash": "28983720e6cdc663",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "20": {
-      "headline": "Austria Opens Group J Campaign with 3-1 Victory Over Jordan",
-      "summary": "Austria secured a 3-1 win against Jordan in their opening match of Group J, setting the tone for their tournament run.",
+      "headline": "Austria Opens Group J with 3-1 Victory Over Jordan",
+      "summary": "Austria secured a strong start to their campaign by defeating Jordan 3-1 in their opening Group J match.",
       "story": [
-        "Austria started their World Cup journey on the right foot by taking down Jordan 3-1. This opening result proved vital for Austria, who ultimately finished second in Group J with four points, trailing only Argentina.",
-        "For Jordan, the loss in this opening match placed them in a difficult position early on. Despite their efforts, they were unable to secure a point throughout the group stage, finishing fourth behind Algeria and Austria.",
-        "Following this match, Austria went on to face Argentina and Algeria, eventually advancing to the Round of 32 where they were eliminated by Spain. The initial three points against Jordan provided the necessary buffer to navigate a competitive group stage."
+        "Austria kicked off their tournament journey on the right foot, utilizing a clinical performance to overcome Jordan. The 3-1 result provided an early cushion in Group J, setting the tone for their progression through the group stage.",
+        "For Jordan, the loss marked the beginning of a difficult group campaign. Despite their efforts, they were unable to match the offensive output of the Austrians, eventually finishing the group stage with zero points after subsequent losses to Algeria and Argentina.",
+        "Austria eventually navigated their way out of the group with four points, finishing second behind Argentina. Their journey continued into the Round of 32, where they were ultimately eliminated by Spain."
       ],
       "bullets": [
-        "Austria finished the group stage in second place with a 1-1-1 record.",
-        "Jordan concluded their tournament campaign with three losses in Group J.",
-        "Austria's group performance earned them a spot in the Round of 32, where they faced Spain."
+        "Austria finished second in Group J with a 1-1-1 record, trailing only Argentina.",
+        "Jordan concluded their tournament run at the bottom of the group after three competitive matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-02T22:36:54+00:00",
-      "sourceHash": "84af6fad05f9465b",
+      "updatedAt": "2026-07-10T11:39:09+00:00",
+      "sourceHash": "8f0a46174be50de0",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "19": {
       "headline": "Argentina Dominates Algeria in Group J Opener",
-      "summary": "Argentina secured a commanding 3-0 victory over Algeria to kick off their Group J campaign.",
+      "summary": "Argentina opened their tournament campaign with a commanding 3-0 victory over Algeria.",
       "story": [
-        "Argentina opened their tournament with a statement performance, comfortably dispatching Algeria 3-0 in their first match of the group stage. The result set the tone for a dominant run through Group J, where Argentina ultimately finished at the top of the table with a perfect nine points from three matches.",
-        "For Algeria, the loss forced them to play catch-up immediately. Despite the difficult start, they remained competitive throughout the group stage, eventually advancing to the knockout rounds before their journey ended in the Round of 32 against Switzerland."
+        "Argentina set the tone for their Group J journey with a clinical performance, securing a 3-0 win against Algeria. This result immediately established them as the team to beat in the group, a status they solidified by winning all three of their group-stage matches.",
+        "For Algeria, the loss was a challenging start to their tournament. Despite the setback, they remained competitive throughout the group stage, eventually advancing to the knockout rounds before being eliminated by Switzerland in the Round of 32.",
+        "Argentina's dominant start proved to be the foundation for a deep tournament run. After sweeping their group, they navigated tight knockout contests against Cabo Verde and Egypt to reach the quarterfinals, where they are now set to face Switzerland."
       ],
       "bullets": [
-        "Argentina finished Group J with a perfect 3-0-0 record and a +7 goal differential.",
-        "The 3-0 win served as the foundation for Argentina's eventual progression to the quarterfinals.",
-        "Algeria managed to recover from this opening defeat to secure a spot in the knockout phase."
+        "Argentina finished atop Group J with a perfect 9 points and a +7 goal difference.",
+        "The 3-0 victory provided Argentina with the momentum needed to maintain an unbeaten record through the group stage.",
+        "Algeria advanced from the group stage despite the opening-match loss, finishing with 4 points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:37:07+00:00",
-      "sourceHash": "9a40289a879115f8",
+      "updatedAt": "2026-07-10T11:39:17+00:00",
+      "sourceHash": "ca4262a132ad0ce5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "18": {
       "headline": "Norway Dominates Iraq in Group I Opener",
-      "summary": "Final: Iraq 1, Norway 4. Norway secured a convincing 4-1 victory over Iraq to kick off their Group I campaign with three points.",
+      "summary": "Final: Iraq 1, Norway 4. Norway secured a convincing 4-1 victory over Iraq to start their World Cup campaign on a high note.",
       "story": [
-        "Norway opened their tournament account in emphatic fashion, putting four goals past Iraq in a match that set the tone for their progression through the group stage. The result provided Norway with a critical foundation, allowing them to build momentum before subsequent high-stakes encounters against Senegal and France.",
-        "For Iraq, the match proved to be a difficult start to their tournament experience. Despite finding the net once, they struggled to contain the Norwegian attack and ultimately finished the group stage without a point, conceding 12 goals across their three fixtures.",
-        "The victory was a vital stepping stone for Norway, who finished second in Group I with six points. Their form carried over into the knockout rounds, where they successfully navigated past Ivory Coast and Brazil to earn a spot in the quarterfinals."
+        "Norway opened their tournament with a statement performance, overwhelming Iraq 4-1 to claim three points in Group I. The victory provided the foundation for a successful group stage campaign that eventually saw Norway advance to the knockout rounds.",
+        "For Iraq, the match proved to be a difficult start in a challenging group. Despite finding the back of the net once, the team struggled to contain the Norwegian attack throughout the 90 minutes.",
+        "This result set the tone for Norway's trajectory in the tournament. Following this win, they went on to defeat Senegal and eventually navigated past Ivory Coast and Brazil in the knockout stages to reach the quarterfinals.",
+        "While Iraq finished at the bottom of Group I, the opening match showcased the gap in experience and clinical finishing that defined the group's final standings, with France topping the table and Norway securing second place."
       ],
       "bullets": [
-        "Norway finished the group stage in second place with 6 points and a +1 goal difference.",
-        "Iraq concluded their tournament run with 0 points after three group stage matches.",
-        "Norway's successful group campaign propelled them to knockout victories over Ivory Coast and Brazil."
+        "Norway's 4-1 win was the catalyst for their run to the quarterfinals.",
+        "Iraq struggled defensively throughout the group stage, conceding 12 goals in three matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-06T06:11:47+00:00",
-      "sourceHash": "90b0b0cc79279682",
+      "updatedAt": "2026-07-10T11:39:24+00:00",
+      "sourceHash": "193be85a48065fcd",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "17": {
-      "headline": "France Opens Group I Campaign with 3-1 Victory Over Senegal",
-      "summary": "France secured a strong start to their tournament journey by defeating Senegal 3-1 in their opening Group I match.",
+      "headline": "France Opens Group I Campaign with Convincing Win over Senegal",
+      "summary": "France secured a 3-1 victory over Senegal in their opening Group I match, setting the tone for a dominant run through the tournament.",
       "story": [
-        "France established control early in Group I, using this 3-1 win over Senegal to set a dominant tone for their group stage performance. The victory provided the foundation for a perfect three-win run that saw them finish at the top of the group standings.",
-        "For Senegal, the result meant they had to fight through the remainder of the group stage to stay in contention. Despite the loss, they showed offensive capability throughout the tournament, eventually securing a spot in the Round of 32.",
-        "This result was the first step in a successful path for France, who went on to navigate the knockout rounds, including victories over Sweden, Paraguay, and Morocco to reach the semifinals. Senegal's tournament run concluded in a hard-fought 3-2 defeat to Belgium in the Round of 32."
+        "France began their group stage journey with a strong performance, overcoming Senegal 3-1 to claim all three points. The win served as an early statement of intent in Group I, providing the momentum needed to eventually sweep the group with a perfect record.",
+        "For Senegal, the defeat forced them to play catch-up for the remainder of the group stage. Despite the loss, they showed offensive potential, which they later utilized in a 5-0 rout of Iraq, though they ultimately exited the tournament following a narrow 3-2 defeat to Belgium in the Round of 32.",
+        "France's success in this opener was the first step in a deep tournament run. They maintained their form throughout the group stage and into the knockout rounds, eventually advancing to the semifinals after victories over Sweden, Paraguay, and Morocco."
       ],
       "bullets": [
-        "France finished Group I with a perfect 9 points and a +8 goal difference.",
-        "Senegal bounced back from this opening defeat with a dominant 5-0 win over Iraq later in the group stage."
+        "France finished atop Group I with a perfect 9 points and a +8 goal difference.",
+        "Senegal finished third in the group with 3 points, narrowly missing out on further progression after their Round of 32 loss to Belgium."
       ],
       "sections": [],
-      "updatedAt": "2026-07-09T23:36:09+00:00",
-      "sourceHash": "eff62e9d2e84eb6f",
+      "updatedAt": "2026-07-10T11:39:32+00:00",
+      "sourceHash": "392e3f15538d627d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "16": {
-      "headline": "Iran and New Zealand Trade Goals in Group G Opener",
-      "summary": "Iran and New Zealand played to a 2-2 draw in their opening Group G match, setting a competitive tone for the group stage.",
+      "headline": "Iran and New Zealand play to high-scoring draw",
+      "summary": "Iran and New Zealand opened their Group G campaign with a 2-2 draw.",
       "story": [
-        "The opening match for both teams ended in a 2-2 stalemate, providing an early point for each side in a closely contested Group G. Both Iran and New Zealand showed offensive intent, but neither team could find the decisive goal to break the deadlock.",
-        "This result proved to be a significant moment for both squads as they navigated the rest of the group stage. While Iran went on to secure two more draws against Belgium and Egypt, they ultimately finished third in the group with 3 points and an even goal difference.",
-        "New Zealand struggled to build on this initial point, falling to both Egypt and Belgium in their subsequent fixtures. They concluded their campaign at the bottom of the group with 1 point and a difficult goal differential."
+        "The opening match between Iran and New Zealand proved to be an evenly contested affair, ending in a 2-2 stalemate. Both sides traded goals in a competitive start to their group stage journey, setting a high-intensity tone for the rest of the bracket.",
+        "For Iran, this draw served as a foundational point in a group that ultimately finished with three draws in their three matches. While they remained difficult to break down throughout the tournament, their inability to secure a win left them third in the final Group G standings with 3 points.",
+        "New Zealand struggled to build momentum following this result, eventually finishing at the bottom of the group. After the opening draw, they faced difficult losses against Egypt and Belgium, concluding their campaign with 1 point and a goal difference of -6.",
+        "The result left the group wide open after the first matchday, as the other opening fixture between Belgium and Egypt also ended in a draw. This parity early on meant that every subsequent match carried significant weight for all four nations involved."
       ],
       "bullets": [
-        "The 2-2 draw was the only match in Group G that featured four total goals.",
-        "Iran finished the group stage undefeated but failed to secure a win, recording three consecutive draws.",
-        "New Zealand concluded their tournament run with 1 point after a challenging series of matches against Belgium and Egypt."
+        "The 2-2 draw was one of two stalemates in Group G on the opening matchday.",
+        "Iran finished the group stage with three consecutive draws.",
+        "New Zealand secured their only point of the tournament in this opening match."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T19:15:09+00:00",
-      "sourceHash": "bfd13b47873fe2a6",
+      "updatedAt": "2026-07-10T11:39:40+00:00",
+      "sourceHash": "059326b196a265b5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "15": {
-      "headline": "Saudi Arabia and Uruguay Open Group H with a Draw",
-      "summary": "Saudi Arabia and Uruguay finished their opening match in a 1-1 stalemate, setting the tone for a competitive Group H.",
+      "headline": "Saudi Arabia and Uruguay Share Points in Group H Opener",
+      "summary": "Saudi Arabia and Uruguay opened their Group H campaign with a 1-1 draw, setting the tone for a tightly contested group stage.",
       "story": [
-        "The opening match for both sides ended in a 1-1 draw, a result that left both teams searching for momentum early in the tournament. Neither side could find a decisive advantage, leading to a shared point that kept the group standings tight from the very first day.",
-        "This result proved to be an indicator of the challenges both teams would face throughout the group stage. As the tournament progressed, Saudi Arabia struggled to find the back of the net in subsequent matches, while Uruguay found themselves in a series of tightly contested games that ultimately saw them finish third in the group.",
-        "By the end of the group stage, Spain emerged as the dominant force in Group H with seven points. Meanwhile, the draw against Uruguay remained one of the few positive results for Saudi Arabia, who finished at the bottom of the table with two points after failing to secure a win in their three fixtures."
+        "The opening match for both sides ended in a 1-1 stalemate, a result that proved pivotal as the group progressed. Neither team could find the decisive edge, forcing them to look toward their remaining fixtures to secure a path out of the group.",
+        "For Uruguay, this draw was the first of two consecutive stalemates, as they later tied with Cabo Verde before falling to Spain. The early dropped points against Saudi Arabia ultimately left them chasing the leaders throughout the tournament.",
+        "Saudi Arabia faced a difficult road following this result, failing to find the back of the net in their subsequent matches against Spain and Cabo Verde. Their inability to replicate the scoring form from this opener saw them finish at the bottom of the group standings.",
+        "By the end of the group stage, Spain emerged at the top of the table with seven points, while this initial draw left both Saudi Arabia and Uruguay unable to overcome the deficit, finishing with two points apiece."
       ],
       "bullets": [
-        "The 1-1 draw was the only point earned by Saudi Arabia in their opening match of the tournament.",
-        "Uruguay concluded their group campaign with two points, finishing just ahead of Saudi Arabia in the final standings.",
-        "Group H proved to be a difficult path for both teams, as neither managed to secure a victory across their three matches."
+        "The 1-1 result was the only goal Saudi Arabia scored in the entire group stage.",
+        "Uruguay finished the group stage with two points, failing to secure a win in any of their three matches.",
+        "The draw proved costly for both teams, as neither was able to surpass Cabo Verde or Spain in the final group rankings."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T19:15:17+00:00",
-      "sourceHash": "8db66e80f0a7aa15",
+      "updatedAt": "2026-07-10T11:39:48+00:00",
+      "sourceHash": "f420ed2aec8d9921",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "14": {
-      "headline": "Belgium and Egypt Open Group G with a Stalemate",
-      "summary": "Belgium and Egypt played to a 1-1 draw, setting a competitive tone for the opening matchday of Group G.",
+      "headline": "Belgium and Egypt deadlock in Group G opener",
+      "summary": "Belgium and Egypt opened their World Cup campaigns with a 1-1 draw, setting a competitive tone for Group G.",
       "story": [
-        "The opening match between Belgium and Egypt ended in a 1-1 draw, a result that immediately signaled how tight the competition in Group G would be. Neither side could find a decisive advantage, forcing both teams to share the points to begin their tournament campaigns.",
-        "This draw proved to be a foundational moment for both nations. Belgium eventually navigated their way through the group stage and into the knockout rounds, while Egypt also remained in the mix throughout the opening phase of the tournament.",
-        "Following this result, both teams faced significant pressure to secure wins in their remaining group fixtures to ensure progression. Belgium eventually found their rhythm later in the group stage, while Egypt continued to battle through their own challenging path."
+        "The opening match between Belgium and Egypt ended in a 1-1 stalemate, leaving both teams to share the points on Matchday 1. The result signaled a tight start to Group G, where margins proved thin throughout the opening phase of the tournament.",
+        "This draw was a foundational moment for both squads as they navigated the group stage. Belgium eventually found their rhythm later in the group, finishing at the top of the table with 5 points, while Egypt matched that point total but finished second on goal difference.",
+        "Following this initial result, both nations successfully advanced through the knockout rounds. Belgium reached the quarterfinals after defeating Senegal and the United States, while Egypt progressed through a penalty shootout against Australia before ultimately exiting in the Round of 16 against Argentina."
       ],
       "bullets": [
-        "The 1-1 result left both Belgium and Egypt with a point apiece to start their Group G journey.",
-        "This match served as the first step in a group campaign that saw both teams remain competitive through the final matchday."
+        "The 1-1 result was part of a highly contested Group G where Belgium and Egypt both finished with 5 points.",
+        "Belgium leveraged this result to eventually reach the tournament quarterfinals.",
+        "Egypt's campaign included a notable penalty shootout victory against Australia in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T19:27:16+00:00",
-      "sourceHash": "2f000eafa8277a19",
+      "updatedAt": "2026-07-10T11:39:56+00:00",
+      "sourceHash": "25f97fc58c3d4626",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "13": {
-      "headline": "Spain and Cabo Verde Open Group H with Stalemate",
-      "summary": "Spain and Cabo Verde played to a 0-0 draw in their opening match of Group H.",
+      "headline": "Spain and Cabo Verde play to scoreless stalemate",
+      "summary": "Spain and Cabo Verde opened their Group H campaign with a hard-fought 0-0 draw.",
       "story": [
-        "The opening match of Group H saw Spain and Cabo Verde finish in a scoreless draw, setting a tense tone for the rest of the group stage. Neither side was able to break the deadlock despite their efforts, resulting in a point apiece to start the tournament.",
-        "For Spain, this result was a slow start to a campaign that eventually saw them find their rhythm. They went on to secure the top spot in Group H with seven points, eventually navigating through the knockout stages to reach the quarterfinals.",
-        "Cabo Verde showed resilience in this opening fixture, holding a strong Spanish side to a clean sheet. While they ultimately finished second in the group with three points, their performance against Spain served as a defensive benchmark for their subsequent matches.",
-        "Following this draw, Spain went on to defeat Saudi Arabia and Uruguay to secure their advancement, while Cabo Verde's journey concluded after a hard-fought 3-2 defeat to Argentina in the Round of 32."
+        "The opening match of Group H saw Spain and Cabo Verde split the points in a defensive battle that ended without a goal. Neither side could break the deadlock, leaving both teams to look for more clinical finishing in their subsequent group stage fixtures.",
+        "For Spain, this result served as a wake-up call early in the tournament. They eventually found their rhythm, finishing the group stage at the top of the table with seven points after securing wins against Saudi Arabia and Uruguay.",
+        "Cabo Verde showed resilience in this opening match, setting a tone for a competitive group stage. Despite the draw, they managed to advance to the knockout rounds, where they were eventually edged out by Argentina in a high-scoring 3-2 defeat.",
+        "This initial draw proved significant for the group dynamic, as it kept the standings tight during the early rounds of play. Spain's ability to recover from this opening stalemate was a key factor in their eventual deep run into the tournament."
       ],
       "bullets": [
-        "Spain finished atop Group H with seven points after this initial draw.",
-        "Cabo Verde earned a valuable point against the eventual group winners.",
-        "The match ended 0-0, marking the only time Spain failed to score in the group stage."
+        "The 0-0 draw was the first match for both teams in Group H.",
+        "Spain eventually topped the group with 7 points, while Cabo Verde finished second with 3 points.",
+        "Both teams successfully navigated the group stage to reach the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T05:53:06+00:00",
-      "sourceHash": "8f53a323f813f855",
+      "updatedAt": "2026-07-10T11:40:04+00:00",
+      "sourceHash": "fb57e47bc4496924",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1228,158 +1231,161 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Ivory Coast Edges Ecuador in Group E Opener",
       "summary": "Ivory Coast secured a narrow 1-0 victory over Ecuador to kick off their Group E campaign.",
       "story": [
-        "Ivory Coast claimed all three points in this tightly contested Group E opener, setting an early tone for their tournament run. The 1-0 result proved vital as the group stage unfolded, providing the foundation for Ivory Coast to eventually advance to the knockout rounds.",
-        "For Ecuador, the loss meant they had to play catch-up for the remainder of the group stage. Despite the defeat, they remained competitive throughout their fixtures, eventually securing a notable 2-1 win against Germany in their final group match.",
-        "Both teams navigated a challenging group that also featured Germany and Curacao. While Ivory Coast finished level on points with Germany, their head-to-head result and goal difference ultimately shaped the final standings.",
-        "Both sides eventually reached the Round of 32, though their journeys ended there. Ivory Coast fell to Norway, while Ecuador was eliminated by Mexico, concluding their respective campaigns after promising group-stage performances."
+        "Ivory Coast opened their tournament with a vital three points, defeating Ecuador 1-0 in a tightly contested match. This result provided the foundation for their eventual progression to the knockout stages, where they finished second in Group E.",
+        "For Ecuador, the loss proved to be a difficult start in a competitive group. Despite the setback, they remained in contention throughout the group stage, eventually finishing with 4 points after a draw with Curacao and a notable 2-1 win over Germany.",
+        "The group concluded with Germany and Ivory Coast both finishing on 6 points, while Ecuador narrowly missed out on an automatic spot but advanced as one of the best third-placed teams. Both sides ultimately saw their tournament journeys end in the Round of 32."
       ],
       "bullets": [
-        "The 1-0 result was the difference-maker for Ivory Coast in a group where they finished tied on points with Germany.",
-        "This victory helped Ivory Coast secure a spot in the Round of 32, where they were eventually defeated by Norway.",
-        "Ecuador recovered from this opening loss to finish with four points, enough to advance as one of the best third-placed teams."
+        "Ivory Coast's victory proved essential in their successful bid to reach the Round of 32.",
+        "Ecuador finished third in Group E with 4 points, securing a knockout berth before falling to Mexico."
       ],
       "sections": [],
-      "updatedAt": "2026-07-01T04:52:38+00:00",
-      "sourceHash": "158cb2026039abdc",
+      "updatedAt": "2026-07-10T11:40:19+00:00",
+      "sourceHash": "815749fcf7c47be8",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "10": {
       "headline": "Netherlands and Japan open Group F with a high-scoring draw",
-      "summary": "The Netherlands and Japan played to a 2-2 draw in their opening Matchday 1 fixture of Group F.",
+      "summary": "The Netherlands and Japan played to a 2-2 draw in their opening Group F fixture, setting the tone for a competitive group stage.",
       "story": [
-        "The opening match for both sides in Group F ended in a stalemate, with the Netherlands and Japan finishing level at 2-2. This result set a competitive tone for the group, forcing both teams to chase points in their remaining fixtures.",
-        "Following this draw, both teams demonstrated strong form throughout the group stage. The Netherlands ultimately secured the top spot in the group with 7 points, while Japan finished as runners-up with 5 points, keeping them clear of Sweden and Tunisia.",
-        "The implications of this early draw were significant as both squads navigated their way to the knockout rounds. The Netherlands later faced Morocco in the Round of 32, while Japan moved on to a challenging matchup against Brazil."
+        "The opening match of Group F between the Netherlands and Japan ended in a 2-2 stalemate. Both sides showed offensive intent, sharing the spoils and earning a point each to begin their tournament campaigns.",
+        "This draw served as the foundation for both teams' progression through the group. The Netherlands eventually topped the group with 7 points, while Japan secured second place with 5 points, remaining unbeaten throughout the group stage.",
+        "Following this result, both nations continued their momentum into the subsequent matchdays. The Netherlands went on to defeat Sweden and Tunisia, while Japan recorded a dominant 4-0 win over Tunisia before drawing with Sweden.",
+        "The competitive nature of this opening match foreshadowed the tight margins that would define the rest of Group F, where both teams ultimately advanced to the knockout rounds."
       ],
       "bullets": [
-        "Both teams remained undefeated in their opening group stage match.",
-        "The Netherlands finished Group F at the top of the table with 7 points.",
-        "Japan advanced to the Round of 32 as the group runner-up with 5 points."
+        "The 2-2 result was the only match in Group F that ended in a draw for both the Netherlands and Japan.",
+        "This point proved vital for Japan, who finished the group stage with 5 points to qualify for the Round of 32.",
+        "The Netherlands used this draw as a springboard to finish atop the group with a +6 goal difference."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T21:13:19+00:00",
-      "sourceHash": "be81d6bd87e5c26d",
+      "updatedAt": "2026-07-10T11:40:27+00:00",
+      "sourceHash": "92e9e079fde8aa18",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "9": {
       "headline": "Germany Dominates Curacao in Group E Opener",
-      "summary": "Germany opened their tournament campaign with a commanding 7-1 victory over Curacao.",
+      "summary": "Germany secured a commanding 7-1 victory over Curacao to kick off their Group E campaign.",
       "story": [
-        "Germany made a powerful statement in their first match of the group stage, overwhelming Curacao with a decisive 7-1 result. The offensive display set the tone for their performance in Group E, showcasing their ability to find the back of the net consistently.",
-        "For Curacao, the match proved to be a difficult challenge against a clinical German side. While they managed to get on the scoreboard, the defensive pressure from Germany was relentless throughout the encounter.",
-        "This result provided Germany with a significant advantage in goal difference, which ultimately helped them secure the top spot in the group standings. Following this opener, Germany went on to finish the group phase with 6 points, eventually advancing to the knockout rounds.",
-        "Curacao struggled to regain momentum after this opening loss, finishing their group campaign with 1 point. The match remains a notable example of Germany's attacking efficiency during their tournament run."
+        "Germany opened their tournament with a statement performance, putting seven goals past Curacao in a lopsided Matchday 1 encounter. The result immediately established Germany as the team to beat in Group E, showcasing an offensive clinicality that set the tone for the rest of their group stage.",
+        "For Curacao, the match proved to be a difficult introduction to the group, leaving them with a significant goal difference deficit early on. The loss put them on the back foot immediately, a pressure that persisted throughout their subsequent matches against Ivory Coast and Ecuador.",
+        "Following this result, Germany continued their group campaign by defeating Ivory Coast before eventually falling to Ecuador in their final group match. Despite the group stage loss, Germany finished at the top of the standings with 6 points, eventually advancing to the knockout rounds where they were eliminated by Paraguay on penalties.",
+        "Curacao struggled to find their footing after this opening defeat, failing to secure a win in their remaining two matches. They concluded the group stage with 1 point, finishing at the bottom of the table."
       ],
       "bullets": [
-        "Germany's 7-1 win provided a massive boost to their goal difference early in the group stage.",
-        "The result helped propel Germany to a first-place finish in Group E with a total of 6 points.",
-        "Curacao concluded their tournament run with 1 point after facing a challenging group schedule."
+        "Germany's 7-1 win provided a massive boost to their goal difference, which helped them secure the top spot in Group E.",
+        "The match was the highest-scoring fixture for either team during the group stage.",
+        "Despite the dominant start, Germany's tournament journey ended in the Round of 32 following a penalty shootout loss to Paraguay."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T19:16:02+00:00",
-      "sourceHash": "62858cf912bf0d08",
+      "updatedAt": "2026-07-10T11:40:35+00:00",
+      "sourceHash": "fe935157f8958e95",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "8": {
-      "headline": "Australia opens Group D with clean sheet victory over Turkey",
-      "summary": "Australia secured a strong start to their tournament campaign by defeating Turkey 2-0 in their opening Group D match.",
+      "headline": "Australia Opens Group D Campaign With Shutout Win Over Turkey",
+      "summary": "Australia secured a 2-0 victory against Turkey in their opening match of the group stage.",
       "story": [
-        "Australia set the tone for their group stage run with a clinical 2-0 victory over Turkey. By keeping a clean sheet and securing all three points, they immediately established themselves as a disciplined side in a competitive Group D.",
-        "This result proved vital for Australia's progression, as they ultimately finished the group stage with four points. Their defensive stability in this opening match provided the foundation for subsequent draws against Paraguay and a loss to the United States, allowing them to advance to the Round of 32.",
-        "For Turkey, the loss created an uphill battle from the start of the tournament. Despite a resilient 3-2 comeback victory against the United States in their final group match, the early deficit against Australia proved too difficult to overcome, leaving them at the bottom of the group standings.",
-        "The match served as a crucial momentum builder for the Australians, who later went on to face Egypt in the knockout stages. The defensive organization displayed here remained a hallmark of their performance throughout the group phase."
+        "Australia kicked off their tournament journey with a clinical performance, shutting out Turkey to claim all three points. The 2-0 result provided an ideal start for the Australians in what proved to be a tightly contested Group D.",
+        "This win was foundational for Australia's progression, as they ultimately finished second in the group standings with four points from three matches. The defensive stability shown in this opening fixture helped them maintain a neutral goal difference throughout the group stage.",
+        "For Turkey, the loss created immediate pressure in a difficult group. Despite a late-stage victory against the United States in their final group match, they ultimately finished at the bottom of the table with three points.",
+        "Australia's tournament run eventually concluded in the Round of 32, where they were eliminated by Egypt in a penalty shootout following a 1-1 draw."
       ],
       "bullets": [
-        "Australia's 2-0 win provided the necessary cushion to navigate a tight Group D.",
-        "The victory helped Australia finish second in the group, trailing only the United States.",
-        "Turkey's tournament campaign ultimately ended in the group stage despite a late surge in their final match."
+        "Australia finished second in Group D with four points, trailing only the United States.",
+        "The 2-0 victory was Australia's only win of the group stage, complemented by a draw against Paraguay.",
+        "Turkey finished fourth in the group despite an impressive 3-2 win over the United States in their final game."
       ],
       "sections": [],
-      "updatedAt": "2026-07-03T22:34:40+00:00",
-      "sourceHash": "7cb8a967a5a75f40",
+      "updatedAt": "2026-07-10T11:40:43+00:00",
+      "sourceHash": "aca02be09335f6d4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "7": {
-      "headline": "Scotland Edges Haiti in Group C Opener",
-      "summary": "Scotland secured a narrow 1-0 victory over Haiti in their opening match of Group C.",
+      "headline": "Scotland secures narrow win over Haiti in Group C opener",
+      "summary": "Scotland opened their tournament campaign with a hard-fought 1-0 victory over Haiti.",
       "story": [
-        "Scotland kicked off their tournament campaign with a vital 1-0 win against Haiti. This result provided Scotland with their only points of the group stage, as they were unable to secure further victories in their subsequent matches against Morocco and Brazil.",
-        "For Haiti, the defeat marked the beginning of a challenging group stage journey. Despite a spirited effort throughout the tournament, they finished at the bottom of Group C with three losses, including a high-scoring 4-2 defeat to Morocco in their final game."
+        "Scotland claimed a vital three points in their opening match of Group C, edging out Haiti by a single goal. The result provided an early advantage for the Scots, who looked to establish themselves in a competitive group featuring Brazil and Morocco.",
+        "For Haiti, the narrow defeat marked a challenging start to their tournament journey. Despite a disciplined defensive effort that kept the scoreline tight, they were unable to find an equalizer against the Scottish backline.",
+        "As the group stage progressed, this match proved to be the only victory for Scotland. Following this result, they went on to face losses against Morocco and Brazil, ultimately finishing third in the group standings with three points.",
+        "Haiti concluded their group campaign without a point, though they showed offensive promise in their final fixture against Morocco. The group was ultimately dominated by Brazil and Morocco, who both finished with seven points."
       ],
       "bullets": [
-        "Scotland finished third in Group C with 3 points, while Haiti concluded their tournament in fourth place.",
-        "The match served as the only win for Scotland, who struggled to find the back of the net in their remaining fixtures."
+        "Scotland's 1-0 win was their only victory of the group stage.",
+        "Haiti finished the group stage with zero points after three matches.",
+        "Group C was ultimately won by Brazil on goal difference over Morocco."
       ],
       "sections": [],
-      "updatedAt": "2026-06-30T19:16:18+00:00",
-      "sourceHash": "d6f148a8a3b239fd",
+      "updatedAt": "2026-07-10T11:40:51+00:00",
+      "sourceHash": "c71040d30e537104",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "6": {
       "headline": "Brazil and Morocco draw in Group C opener",
-      "summary": "Brazil and Morocco played to a 1-1 draw in their opening match of the 2026 World Cup.",
+      "summary": "Brazil and Morocco played to a 1-1 draw in their opening match of Group C.",
       "story": [
-        "The 1-1 draw between Brazil and Morocco served as a competitive start to Group C, signaling that both teams would be serious contenders for the knockout stages. Neither side could find a decisive advantage, forcing them to share the points early in the tournament.",
-        "This result set the tone for a tight group race. Both teams ultimately finished with 7 points after their three group matches, with Brazil taking the top spot on goal difference. The early draw proved to be a pivotal moment in determining the final standings.",
-        "Following this match, both teams navigated their remaining group fixtures successfully before moving into the knockout rounds. While Brazil eventually exited in the Round of 16, Morocco continued their journey all the way to the quarterfinals."
+        "The opening clash between Brazil and Morocco ended in a 1-1 stalemate, setting a competitive tone for Group C. Both sides showed resilience in a match that ultimately forced them to share the points early in the tournament.",
+        "This result proved significant for the final group standings, as both teams finished their group stage campaigns tied on 7 points. Brazil secured the top spot in the group on goal difference, while Morocco followed closely in second place.",
+        "Following this draw, both nations successfully navigated the group phase to reach the knockout stages. Brazil advanced to the Round of 16 before falling to Norway, while Morocco progressed to the quarterfinals after a penalty shootout victory over the Netherlands."
       ],
       "bullets": [
-        "The match finished 1-1, with both teams earning a single point to kick off their group campaign.",
-        "Both Brazil and Morocco finished the group stage with identical 7-point records.",
-        "This was the only match in the group stage where either team dropped points."
+        "Brazil finished atop Group C with 7 points and a +6 goal difference.",
+        "Morocco finished second in Group C, also with 7 points.",
+        "Both teams successfully advanced to the knockout rounds of the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-09T23:36:17+00:00",
-      "sourceHash": "832acfd6790a4cea",
+      "updatedAt": "2026-07-10T11:40:58+00:00",
+      "sourceHash": "2307d6c9771a2f09",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "5": {
-      "headline": "Switzerland and Qatar play to a 1-1 draw",
-      "summary": "Switzerland and Qatar opened their Group B campaign with a 1-1 draw, a result that ultimately set the tone for their contrasting tournament trajectories.",
+      "headline": "Switzerland and Qatar Open Group B with a Draw",
+      "summary": "Switzerland and Qatar finished their opening match in a 1-1 draw, setting a competitive tone for Group B.",
       "story": [
-        "The opening match for both sides ended in a stalemate, with Switzerland and Qatar sharing the points in a 1-1 draw. This result provided a single point for each team, leaving the group wide open after the first round of fixtures.",
-        "For Switzerland, this draw served as a starting point for a successful group stage campaign. They managed to build momentum in subsequent matches, eventually finishing at the top of Group B with 7 points after victories against Bosnia and Herzegovina and Canada.",
-        "Qatar faced a more difficult path, as this draw proved to be their only point of the tournament. Following the match against Switzerland, they struggled to find form, ultimately finishing at the bottom of the group standings.",
-        "Switzerland's ability to secure results throughout the group stage propelled them deep into the knockout rounds, eventually leading them to a quarterfinal matchup against Argentina."
+        "The opening match for both sides ended in a 1-1 stalemate, leaving both teams to take a single point from the contest. It was a hard-fought start to the tournament that forced both squads to look ahead to the remainder of their group fixtures.",
+        "For Switzerland, this result served as the beginning of a successful group campaign. They eventually secured the top spot in Group B with 7 points, following subsequent victories over Bosnia and Herzegovina and Canada.",
+        "Qatar faced a more difficult path after this draw, as they were unable to secure further points in their following matches against Canada and Bosnia and Herzegovina. This initial point remained their only contribution to the group standings.",
+        "Switzerland's momentum from the group stage carried them deep into the tournament, eventually leading to a quarterfinal matchup against Argentina after a tense penalty shootout victory over Colombia in the Round of 16."
       ],
       "bullets": [
-        "Switzerland finished top of Group B with 7 points, while Qatar finished fourth with 1 point.",
-        "This draw was the only point Qatar earned during their time in the group stage."
+        "Switzerland finished at the top of Group B with 7 points.",
+        "Qatar concluded their group stage campaign with 1 point from three matches.",
+        "Switzerland advanced through the knockout rounds to reach the quarterfinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T23:37:15+00:00",
-      "sourceHash": "bb6ff30d31be2389",
+      "updatedAt": "2026-07-10T11:41:06+00:00",
+      "sourceHash": "b86bd35ff9b2991e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "4": {
       "headline": "United States Dominates Paraguay in Group D Opener",
-      "summary": "The United States secured a decisive 4-1 victory over Paraguay to kick off their Group D campaign.",
+      "summary": "The United States opened their campaign with a decisive 4-1 victory over Paraguay.",
       "story": [
-        "The United States opened their tournament account with a commanding performance, putting four goals past Paraguay to immediately establish themselves as the team to beat in Group D. The 4-1 result provided a significant boost to their goal difference, which proved vital as the group stage progressed.",
-        "For Paraguay, the heavy defeat in the opening match created immediate pressure. They were forced to grind out results in their subsequent fixtures, including a narrow win against Turkey and a scoreless draw with Australia, to keep their tournament hopes alive.",
-        "This match set the tone for the United States' group stage run, where they ultimately finished at the top of the table with six points. The win provided the cushion needed to navigate the challenges of the group, eventually leading them through the knockout rounds to a Round of 16 appearance against Belgium."
+        "The United States set an aggressive tone for Group D with a commanding 4-1 win against Paraguay. This result provided the U.S. with an early cushion in the group standings, establishing them as a force to be reckoned with from the very first matchday.",
+        "For Paraguay, the heavy defeat created immediate pressure in a competitive group. They were forced to regroup quickly for their subsequent matches against Turkey and Australia to keep their tournament hopes alive.",
+        "Following this match, the United States maintained their momentum through the group stage, eventually advancing to the knockout rounds where they faced Bosnia-Herzegovina and later Belgium. Paraguay also navigated a challenging path, notably advancing past Germany on penalties in the Round of 32 before their tournament concluded against France."
       ],
       "bullets": [
-        "The United States finished atop Group D with 6 points and a +4 goal difference.",
-        "Paraguay advanced through the group stage despite the opening day loss, eventually reaching the Round of 16."
+        "The United States secured three points with a dominant 4-1 margin.",
+        "The result placed the U.S. in a strong position to eventually top Group D with 6 points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-07T05:53:14+00:00",
-      "sourceHash": "dbaf89999f5ecb83",
+      "updatedAt": "2026-07-10T11:41:13+00:00",
+      "sourceHash": "de60b04a79719786",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
