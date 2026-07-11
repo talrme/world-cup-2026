@@ -3285,8 +3285,8 @@
       "awaySource": "Winner Match 92",
       "bracketAwayTeam": "England",
       "awayRevealSource": "Winner Match 92",
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": 100,
@@ -3540,6 +3540,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-11T21:28:47+00:00",
+  "bracketUpdatedAt": "2026-07-11T22:27:46+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
