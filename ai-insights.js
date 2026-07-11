@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-11T06:04:37+00:00",
+  "generatedAt": "2026-07-11T21:30:33+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -164,19 +164,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "43": {
       "headline": "Norway Edges Senegal in Five-Goal Thriller",
-      "summary": "Norway secured a hard-fought 3-2 victory over Senegal in this Group I encounter.",
+      "summary": "Norway secured a narrow 3-2 victory over Senegal in a high-scoring Group I encounter.",
       "story": [
-        "Norway claimed a vital three points in a high-scoring affair against Senegal, narrowly coming out on top in a 3-2 result. The win proved crucial for Norway's campaign, helping them navigate a competitive group stage.",
-        "For Senegal, the narrow defeat was a difficult setback in their quest for points, though they remained a constant threat throughout the match. Both sides displayed attacking intent, contributing to a back-and-forth contest that kept the outcome uncertain until the final whistle.",
-        "Following this result, Norway eventually advanced through the knockout stages, overcoming Ivory Coast and Brazil to reach the quarterfinals. Senegal's tournament run concluded shortly after the group stage following a narrow exit against Belgium in the Round of 32."
+        "Norway claimed a vital three points in this Matchday 2 clash, outlasting Senegal in a back-and-forth contest that finished 3-2. The result proved pivotal for Norway's campaign, helping them navigate a competitive Group I.",
+        "For Senegal, the narrow defeat added pressure to their remaining group fixtures. Despite the loss, their offensive output remained a talking point, as they demonstrated an ability to find the back of the net against tough opposition.",
+        "This match played a significant role in shaping the final group standings. Norway ultimately finished with six points, while Senegal concluded their group stage run with three points, eventually leading to their exit in the Round of 32 against Belgium."
       ],
       "bullets": [
-        "Norway\u2019s 3-2 win was a pivotal moment in their Group I performance, ultimately helping them secure a path to the knockout rounds.",
-        "Both teams showcased strong offensive capabilities, combining for five goals in an end-to-end match."
+        "Norway's victory was essential in securing their second-place finish in Group I.",
+        "The 3-2 scoreline reflected a highly competitive match where both sides showed attacking intent."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T08:48:02+00:00",
-      "sourceHash": "c079ab10b0892892",
+      "updatedAt": "2026-07-11T21:30:08+00:00",
+      "sourceHash": "7658f117105ed3e5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -440,22 +440,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "46": {
-      "headline": "England and Ghana deadlock in scoreless Group L stalemate",
-      "summary": "England and Ghana played to a 0-0 draw in their Group L encounter, leaving both sides to battle for position in the final matchday.",
+      "headline": "England and Ghana deadlock in scoreless draw",
+      "summary": "England and Ghana played to a 0-0 draw in their Group L encounter, splitting the points in a defensive stalemate.",
       "story": [
-        "The match between England and Ghana ended in a 0-0 draw, a result that tightened the tension in Group L. Neither side was able to break the deadlock, forcing both teams to look toward their final group stage fixtures to secure their standing.",
-        "For England, the point was a departure from their high-scoring opener against Croatia. The defensive effort from Ghana proved difficult to penetrate, effectively neutralizing England's attack throughout the 90 minutes.",
-        "Ghana's defensive resilience earned them a valuable point against the group favorites. This result kept Ghana in the mix for qualification as they navigated the complexities of a competitive group.",
-        "Following this match, both teams moved forward with their tournament campaigns. England eventually topped the group with seven points, while Ghana finished with four points, ultimately advancing to the knockout stages before their exit in the Round of 32."
+        "The Group L clash between England and Ghana ended in a 0-0 stalemate, leaving both sides to share the spoils in a tight tactical battle. Neither team was able to break the deadlock, resulting in a match defined by defensive discipline rather than attacking flair.",
+        "For England, the result was a minor speed bump in an otherwise strong group campaign. Having opened their tournament with a high-scoring 4-2 victory over Croatia, the Three Lions found themselves unable to replicate that offensive output against a resilient Ghanaian backline.",
+        "Ghana entered the match looking to build on their opening win against Panama, and the point earned against a formidable England side proved vital for their standing in the group. The draw kept the pressure high in a competitive Group L, where every point remained crucial for knockout stage qualification."
       ],
       "bullets": [
-        "The 0-0 result marked the only match in Group L where neither team scored.",
-        "England finished the group stage at the top of the table with 7 points.",
-        "Ghana secured 4 points in their group campaign, eventually reaching the knockout rounds."
+        "England and Ghana finished level at 0-0, marking the only scoreless result for both teams during the group stage.",
+        "The draw was a key moment in Group L, which ultimately saw England finish at the top of the table with 7 points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T08:47:39+00:00",
-      "sourceHash": "0e6df305d2e3ad41",
+      "updatedAt": "2026-07-11T21:30:00+00:00",
+      "sourceHash": "d33cc0e150bb6ff2",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -745,22 +743,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "61": {
-      "headline": "France Dominates Group I with Convincing Win Over Norway",
-      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway to finish their group stage campaign with a perfect record.",
+      "headline": "France Dominates Norway to Secure Top Spot in Group I",
+      "summary": "Final: Norway 1, France 4. France defeated Norway 4-1 in their final group stage match, cementing their position at the top of Group I with a perfect record.",
       "story": [
-        "France asserted their authority in Group I by dismantling Norway 4-1, capping off a dominant group stage performance where they finished with nine points and a +8 goal difference. The result underscored France's status as a formidable force in the tournament, leaving Norway to settle for second place in the group.",
-        "For Norway, the defeat was a reality check after a high-scoring start to their campaign, including a narrow 3-2 win over Senegal and an earlier victory against Iraq. Despite the setback against France, Norway successfully navigated their way through the group and into the knockout stages.",
-        "Following this result, both nations advanced to the Round of 32, where they continued their respective journeys. Norway went on to secure impressive wins against Ivory Coast and Brazil, while France maintained their momentum with victories over Sweden, Paraguay, and Morocco to reach the semifinals.",
-        "As the tournament progressed, France's clinical efficiency in the group stage served as a foundation for their deep run, while Norway proved their resilience by overcoming the pressure of their group-stage loss to mount a successful challenge in the knockout bracket."
+        "France delivered a clinical performance against Norway, securing a convincing 4-1 victory. This win allowed France to finish the group stage with nine points, having scored 10 goals while conceding only twice throughout their three matches.",
+        "For Norway, the result marked their first defeat of the group stage, but their earlier wins against Iraq and Senegal were sufficient to see them advance alongside France. Despite the setback in this fixture, Norway maintained a positive goal difference to secure second place in the group.",
+        "The outcome solidified the path for both nations into the knockout rounds. France carried this momentum forward through the tournament, successfully navigating subsequent challenges against Sweden, Paraguay, and Morocco to reach the semifinals.",
+        "Norway also showed resilience in the knockout stages, securing hard-fought victories over Ivory Coast and Brazil before ultimately facing England in the quarterfinals."
       ],
       "bullets": [
-        "France finished at the top of Group I with a perfect 3-0-0 record.",
-        "The 4-1 victory solidified France's goal-scoring form, totaling 10 goals in three group matches.",
-        "Norway qualified for the knockout rounds as the Group I runner-up despite the heavy defeat."
+        "France finished the group stage undefeated with a perfect 9 points.",
+        "Norway advanced to the knockout rounds as the Group I runner-up.",
+        "France's dominant group performance set the stage for their deep run into the semifinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T22:15:21+00:00",
-      "sourceHash": "244cf0ea1e59cbe0",
+      "updatedAt": "2026-07-11T21:29:52+00:00",
+      "sourceHash": "e29e0f69b1177be7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -867,21 +865,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "67": {
-      "headline": "England seals top spot in Group L with victory over Panama",
-      "summary": "Final: Panama 0, England 2. England secured a 2-0 win over Panama to finish their group stage campaign undefeated and at the top of the table.",
+      "headline": "England Clinches Group L Top Spot with Win Over Panama",
+      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama to finish their group stage campaign at the top of Group L.",
       "story": [
-        "England asserted their dominance in Group L by defeating Panama 2-0, a result that solidified their position at the top of the standings. This victory ensured they moved into the knockout stages with 7 points, having navigated their group matches with two wins and a draw.",
-        "For Panama, the match marked the conclusion of a challenging tournament run. Despite their efforts, they finished at the bottom of the group without a point and failed to find the back of the net in any of their three fixtures.",
-        "The win allowed England to carry momentum into the knockout rounds, where they eventually navigated past Congo DR and Mexico to reach the quarterfinals. Their defensive record in the group stage, conceding only two goals, provided a stable foundation for their subsequent tournament success."
+        "England controlled the final matchday of Group L, comfortably dispatching Panama 2-0 to cement their position at the summit of the table. The result ensured they moved into the knockout stages with seven points from their three group matches.",
+        "For Panama, the defeat marked the end of a difficult tournament run where they finished at the bottom of the group without securing a point or finding the back of the net. Despite their defensive efforts throughout the group stage, they were unable to overcome the quality of their opponents.",
+        "England's victory was the culmination of a solid group performance that included a high-scoring win against Croatia and a draw with Ghana. By topping the group, they set themselves up for a successful path into the Round of 32.",
+        "Following this result, England continued their momentum deep into the tournament, eventually navigating through the Round of 32 against Congo DR and a thrilling Round of 16 victory against Mexico to reach the quarterfinal stage."
       ],
       "bullets": [
-        "England finished Group L with 7 points, leading the group ahead of Croatia, Ghana, and Panama.",
-        "Panama concluded their tournament campaign with three losses and zero goals scored.",
-        "England's form in this match helped propel them toward a quarterfinal berth against Norway."
+        "England finished Group L undefeated with 7 points and a +4 goal difference.",
+        "Panama concluded their campaign with 0 points, having conceded 4 goals across three matches.",
+        "England advanced to the knockout rounds, where they later defeated Congo DR and Mexico."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T05:16:00+00:00",
-      "sourceHash": "e69748b05e8f0a9d",
+      "updatedAt": "2026-07-11T21:29:44+00:00",
+      "sourceHash": "5b6d1a90fd752725",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1033,20 +1032,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "22": {
       "headline": "England Opens Group L with High-Scoring Win Over Croatia",
-      "summary": "England defeated Croatia 4-2 in their opening match of the tournament, setting the tone for a successful group stage campaign.",
+      "summary": "England secured a 4-2 victory over Croatia in their opening match of Group L.",
       "story": [
-        "England secured a decisive 4-2 victory against Croatia in their first Group L fixture. The four-goal performance provided an immediate offensive spark, helping England establish early momentum in a group that also featured Ghana and Panama.",
-        "This result proved pivotal for the final group standings, as England finished at the top of the table with seven points. By securing three points in this opening encounter, England created the necessary cushion to navigate a later draw against Ghana and a win over Panama.",
-        "For Croatia, the loss forced them to play catch-up for the remainder of the group stage. Despite the setback, they managed to secure six points from their three matches, ultimately finishing second in the group before advancing to the knockout rounds.",
-        "Following this match, both teams moved on to distinct paths in the tournament. England continued their run through the knockout stages, while Croatia eventually concluded their campaign after a narrow defeat to Portugal in the Round of 32."
+        "England kicked off their tournament campaign in emphatic fashion, putting four goals past Croatia in a lively 4-2 result. The win immediately established England as the team to beat in Group L, setting a high bar for offensive production early in the group stage.",
+        "For Croatia, the loss meant they had to play catch-up for the remainder of the group fixtures. While they managed to recover with subsequent wins against Panama and Ghana to finish with 6 points, the defensive lapses in this opening match proved costly in their final group standing.",
+        "England eventually finished at the top of the group with 7 points, remaining unbeaten through their three group games. Their momentum from this opening victory carried them through the knockout stages, leading to a deep run in the tournament.",
+        "This result was the highest-scoring encounter in Group L, providing a significant boost to England's goal difference. The match served as a critical foundation for England's successful progression to the later stages of the competition."
       ],
       "bullets": [
-        "England finished atop Group L with 7 points, while Croatia followed in second place with 6 points.",
-        "The 4-2 scoreline marked the highest-scoring match for either team during the group stage."
+        "England finished at the top of Group L with 7 points, while Croatia followed in second with 6 points.",
+        "The 4-2 scoreline represented the most prolific attacking display in the group.",
+        "Both teams successfully advanced out of the group stage following this opening fixture."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T11:38:54+00:00",
-      "sourceHash": "c1b4a190f53520a0",
+      "updatedAt": "2026-07-11T21:30:16+00:00",
+      "sourceHash": "1a66b7bfe77c941a",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1111,20 +1111,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "18": {
       "headline": "Norway Dominates Iraq in Group I Opener",
-      "summary": "Final: Iraq 1, Norway 4. Norway secured a convincing 4-1 victory over Iraq to start their World Cup campaign on a high note.",
+      "summary": "Final: Iraq 1, Norway 4. Norway secured a commanding 4-1 victory over Iraq to start their Group I campaign on a high note.",
       "story": [
-        "Norway opened their tournament with a statement performance, overwhelming Iraq 4-1 to claim three points in Group I. The victory provided the foundation for a successful group stage campaign that eventually saw Norway advance to the knockout rounds.",
-        "For Iraq, the match proved to be a difficult start in a challenging group. Despite finding the back of the net once, the team struggled to contain the Norwegian attack throughout the 90 minutes.",
-        "This result set the tone for Norway's trajectory in the tournament. Following this win, they went on to defeat Senegal and eventually navigated past Ivory Coast and Brazil in the knockout stages to reach the quarterfinals.",
-        "While Iraq finished at the bottom of Group I, the opening match showcased the gap in experience and clinical finishing that defined the group's final standings, with France topping the table and Norway securing second place."
+        "Norway opened their tournament with a statement performance, clinical in front of goal to dismantle Iraq 4-1. The result provided an immediate boost to their goal difference and established them as a serious contender in the group alongside France.",
+        "For Iraq, the match proved to be a difficult introduction to the group stage. Despite finding the back of the net, they struggled to contain the Norwegian attack and were unable to recover from the early deficit.",
+        "This win served as a vital foundation for Norway, who eventually finished second in Group I with six points. Their momentum carried them through the group stage and deep into the knockout rounds, including impressive victories over Ivory Coast and Brazil.",
+        "Iraq ultimately concluded their tournament run at the bottom of the group, finding the competition level challenging as they finished with three losses."
       ],
       "bullets": [
-        "Norway's 4-1 win was the catalyst for their run to the quarterfinals.",
-        "Iraq struggled defensively throughout the group stage, conceding 12 goals in three matches."
+        "Norway's victory set the tone for their successful progression to the knockout stage.",
+        "The result left Iraq facing an uphill battle for the remainder of the group phase."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T11:39:24+00:00",
-      "sourceHash": "193be85a48065fcd",
+      "updatedAt": "2026-07-11T21:30:24+00:00",
+      "sourceHash": "e0ec9dceed853fd7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1538,20 +1538,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "78": {
       "headline": "Norway Advances Past Ivory Coast in Round of 32",
-      "summary": "Final: Ivory Coast 1, Norway 2. Norway secured a 2-1 victory over Ivory Coast to move forward in the knockout stage.",
+      "summary": "Final: Ivory Coast 1, Norway 2. Norway secured their spot in the next round with a 2-1 victory over Ivory Coast.",
       "story": [
-        "Norway continued their tournament run by edging out Ivory Coast 2-1 in a tight Round of 32 matchup. Both teams entered this knockout clash as group runners-up, looking to keep their campaigns alive in the bracket.",
-        "For Ivory Coast, the result ends a journey that saw them navigate a challenging group stage, including a win over Ecuador and a clean sheet against Curacao. Despite their efforts, they could not overcome the Norwegian side in this decisive knockout fixture.",
-        "Norway leveraged this win to propel themselves further into the tournament bracket. Following this victory, they successfully moved on to defeat Brazil in the Round of 16, setting up a high-stakes quarterfinal showdown against England."
+        "Norway continued their tournament run by edging out Ivory Coast 2-1 in this Round of 32 matchup. Both teams entered the knockout phase as runners-up from their respective groups, setting the stage for a tight contest that ultimately saw Norway prevail.",
+        "For Ivory Coast, the defeat marks the end of a campaign that saw them navigate a challenging Group E, including a notable win against Ecuador and a solid performance against Curacao. Despite their efforts, they were unable to overcome the Norwegian side in this decisive knockout fixture."
       ],
       "bullets": [
-        "Norway secured their spot in the Round of 16 with a narrow one-goal margin.",
-        "The victory allowed Norway to continue their momentum, eventually leading to a win over Brazil in the subsequent round.",
-        "Ivory Coast exits the tournament after a hard-fought performance in the knockout stage."
+        "Norway advanced to the Round of 16 with a 2-1 win over Ivory Coast.",
+        "Ivory Coast concluded their tournament run after finishing as runners-up in Group E.",
+        "The victory set up a subsequent Round of 16 match for Norway against Brazil."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T05:15:06+00:00",
-      "sourceHash": "f65270f0c39f889b",
+      "updatedAt": "2026-07-11T21:29:36+00:00",
+      "sourceHash": "ce9774fcf993113e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1596,21 +1595,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "80": {
-      "headline": "England Edges Congo DR to Advance",
-      "summary": "England secured a narrow 2-1 victory over Congo DR in the Round of 32 to keep their tournament run alive.",
+      "headline": "England Advances Past Congo DR in Round of 32",
+      "summary": "England secured their spot in the next round with a hard-fought 2-1 victory over Congo DR.",
       "story": [
-        "England successfully navigated their Round of 32 matchup, narrowly overcoming a resilient Congo DR side with a 2-1 final score. The victory allowed England to maintain their momentum following a strong showing in Group L, where they finished as the group winners.",
-        "Congo DR entered the knockout stage as one of the best third-place finishers from their respective group, but they were unable to pull off the upset against the English side. The match remained competitive throughout, reflecting the high stakes of the knockout round.",
-        "With this result, England moved forward in the bracket to face Mexico in the Round of 16. This win served as a vital hurdle for England, who continue their quest deeper into the tournament with a quarterfinal matchup against Norway already on the horizon."
+        "England navigated a tricky Round of 32 matchup against Congo DR, ultimately prevailing 2-1 to keep their tournament run alive. As the winners of Group L, England entered the knockout phase with momentum, but Congo DR proved to be a resilient opponent that pushed the favorites throughout the contest.",
+        "The victory was a testament to England's ability to grind out results in high-pressure knockout scenarios. While Congo DR fought to stay in the game, England's clinical edge in the final third proved to be the difference-maker in a match where every possession carried significant weight.",
+        "With this result, England successfully moved into the Round of 16, where they were subsequently set to face Mexico. This narrow win served as a vital stepping stone, demonstrating the squad's capacity to handle the intensity of single-elimination football."
       ],
       "bullets": [
-        "England advanced to the Round of 16 after winning this tight 2-1 contest.",
-        "The victory set up a subsequent clash against Mexico in the next round of the knockout stage.",
-        "England entered this match as the winners of Group L, while Congo DR qualified as a best third-place team."
+        "England advanced to the Round of 16 following the 2-1 victory.",
+        "Congo DR exited the tournament after a competitive showing in the Round of 32.",
+        "The win set up a subsequent knockout match for England against Mexico."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T05:14:44+00:00",
-      "sourceHash": "cda8e502ae020c14",
+      "updatedAt": "2026-07-11T21:29:28+00:00",
+      "sourceHash": "86684ffebe7f09aa",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1812,39 +1811,42 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "91": {
-      "headline": "Norway Stuns Brazil to Advance to Quarterfinals",
-      "summary": "Final: Brazil 1, Norway 2. Norway secured a 2-1 victory over Brazil in the Round of 16, ending Brazil's tournament run.",
+      "headline": "Norway Advances Past Brazil in Round of 16",
+      "summary": "Final: Brazil 1, Norway 2. Norway secured a 2-1 victory over Brazil to move forward in the knockout stage.",
       "story": [
-        "Norway continued their impressive knockout stage momentum by overcoming Brazil in a tightly contested Round of 16 match. After navigating a challenging group stage and a victory against Ivory Coast in the previous round, Norway demonstrated their resilience by holding off the Brazilian side.",
-        "For Brazil, the result marks a premature exit from the competition. Despite a strong showing throughout their group stage campaign and a narrow win over Japan in the Round of 32, they were unable to replicate that form against a disciplined Norwegian squad.",
-        "With this victory, Norway now shifts their focus to the Quarterfinals, where they are scheduled to face England. The win confirms their place among the final eight teams as they look to continue their deep run in the tournament."
+        "Norway continued their impressive tournament run by eliminating Brazil in a tightly contested Round of 16 match. The 2-1 result saw Norway overcome a resilient Brazilian side to keep their championship hopes alive.",
+        "This win marks another significant result for Norway, who previously navigated past Ivory Coast in the Round of 32. Their path to this stage included a challenging group phase where they faced off against Iraq, Senegal, and France.",
+        "For Brazil, the defeat brings an end to a campaign that saw them top Group C and defeat Japan in the previous knockout round. After a strong start to the tournament, they were unable to find the necessary breakthrough to overcome the Norwegian defense.",
+        "With this victory, Norway now shifts their focus to the quarterfinals. They are set to face England in their next fixture as they continue their pursuit of the title."
       ],
       "bullets": [
-        "Norway secured a 2-1 win to eliminate Brazil from the tournament.",
-        "Norway will advance to the Quarterfinals to face England on July 11."
+        "Norway secured the win with a 2-1 scoreline to eliminate Brazil.",
+        "The victory earns Norway a spot in the quarterfinals against England.",
+        "Brazil exits the tournament after a successful run that included winning Group C."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T05:13:25+00:00",
-      "sourceHash": "94a423be82e8b67e",
+      "updatedAt": "2026-07-11T21:29:20+00:00",
+      "sourceHash": "45db53bf3051e7b5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "92": {
-      "headline": "England Edges Past Mexico in Thrilling Round of 16 Contest",
-      "summary": "Final: Mexico 2, England 3. England secured a 3-2 victory over Mexico to advance to the quarterfinals of the tournament.",
+      "headline": "England Edges Mexico in Thrilling Round of 16 Encounter",
+      "summary": "Final: Mexico 2, England 3. England secured a hard-fought 3-2 victory over Mexico to advance in the knockout stage.",
       "story": [
-        "In a high-stakes Round of 16 matchup, England narrowly defeated Mexico 3-2, ending the host nation's run in the tournament. The match proved to be a back-and-forth battle that tested the resolve of both sides as they vied for a spot in the final eight.",
-        "Mexico entered the knockout stage after a strong run through Group A and a decisive 2-0 victory over Ecuador in the Round of 32. Despite their momentum, they were unable to contain the English attack in this high-scoring encounter.",
-        "With this win, England moves on to the quarterfinal stage, where they are scheduled to face Norway on July 11. The victory marks another step forward for England, who previously navigated a challenging path through Group L and a tight 2-1 win against Congo DR to reach this point."
+        "England emerged victorious in a high-scoring Round of 16 battle, defeating Mexico 3-2 to keep their tournament hopes alive. The result brought an end to Mexico's impressive run, which had seen them navigate the group stage and the Round of 32 without conceding a single goal.",
+        "For England, the win served as a testament to their resilience in a high-pressure knockout environment. Having previously edged past Congo DR in the Round of 32, the team demonstrated their ability to find the back of the net when it mattered most against a formidable Mexican side.",
+        "With this victory, England now shifts their focus to the Quarterfinals, where they are scheduled to face Norway. The path ahead remains challenging, but the squad will carry the momentum from this narrow win into their next fixture as they look to continue their progression through the tournament bracket."
       ],
       "bullets": [
-        "England's 3-2 win eliminated Mexico from the competition.",
-        "England will now advance to face Norway in the quarterfinals."
+        "England's 3-2 win ended Mexico's tournament campaign in the Round of 16.",
+        "The result sets up a Quarterfinal matchup between England and Norway.",
+        "England maintained their winning momentum following a narrow 2-1 victory over Congo DR in the previous round."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T05:13:18+00:00",
-      "sourceHash": "2fea804c0886c1ff",
+      "updatedAt": "2026-07-11T21:29:12+00:00",
+      "sourceHash": "333f9eb3a78e8bab",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1967,6 +1969,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "99": {
+      "headline": "Norway and England deadlocked in quarterfinal stalemate",
+      "summary": "Norway and England played to a 0-0 draw in their quarterfinal matchup.",
+      "story": [
+        "The quarterfinal clash between Norway and England ended in a scoreless stalemate, leaving both sides searching for a breakthrough that never materialized during regulation. Neither team could find the back of the net, resulting in a defensive battle that kept the scoreline locked at 0-0 throughout the match.",
+        "Norway arrived at this stage after a resilient run through the knockout rounds, including a notable victory over Brazil in the Round of 16. Their path to the quarterfinals was defined by their ability to edge out opponents in tight, high-stakes encounters.",
+        "England entered the quarterfinal following a high-scoring 3-2 victory over Mexico in the previous round. Having navigated a group stage that included a draw against Ghana and wins over Croatia and Panama, they proved their ability to grind out results, though they were held quiet by the Norwegian defense in this outing."
+      ],
+      "bullets": [
+        "The match concluded with a 0-0 scoreline, forcing both teams into a tense conclusion.",
+        "Norway reached this stage by overcoming Brazil in the Round of 16, while England advanced by narrowly defeating Mexico."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-11T21:30:33+00:00",
+      "sourceHash": "809daac9386ca5d3",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

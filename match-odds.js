@@ -1,5 +1,5 @@
 window.WORLD_CUP_MATCH_ODDS = {
-  "generatedAt": "2026-07-11T20:33:33+00:00",
+  "generatedAt": "2026-07-11T21:28:47+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -12,22 +12,22 @@ window.WORLD_CUP_MATCH_ODDS = {
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760512/",
-      "asOf": "2026-07-11T20:33:33+00:00",
+      "asOf": "2026-07-11T21:28:47+00:00",
       "espnEventId": "760512",
       "outcomes": [
         {
           "key": "home",
           "label": "Norway",
-          "american": 310,
-          "rawProbability": 0.24390243902439024,
-          "advanceProbability": 0.30898876404494385
+          "american": 330,
+          "rawProbability": 0.23255813953488372,
+          "advanceProbability": 0.29508196721311475
         },
         {
           "key": "away",
           "label": "England",
-          "american": -120,
-          "rawProbability": 0.5454545454545454,
-          "advanceProbability": 0.6910112359550562
+          "american": -125,
+          "rawProbability": 0.5555555555555556,
+          "advanceProbability": 0.7049180327868853
         }
       ],
       "draw": {
@@ -35,8 +35,8 @@ window.WORLD_CUP_MATCH_ODDS = {
         "american": 280,
         "rawProbability": 0.2631578947368421
       },
-      "rawTeamTotal": 0.7893569844789357,
-      "rawMarketTotal": 1.0525148792157777
+      "rawTeamTotal": 0.7881136950904393,
+      "rawMarketTotal": 1.0512715898272813
     },
     "100": {
       "market": "Chance to advance",
