@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-11T03:48:47+00:00",
+  "generatedAt": "2026-07-11T06:04:37+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1889,23 +1889,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "95": {
       "headline": "Argentina Edges Egypt in Thrilling Round of 16 Encounter",
-      "summary": "Argentina secured a hard-fought 3-2 victory over Egypt to advance to the quarterfinals.",
+      "summary": "Argentina secured a hard-fought 3-2 victory over Egypt to advance to the quarterfinals of the tournament.",
       "story": [
-        "Argentina continued their momentum in the knockout stages by overcoming a resilient Egypt side in a high-scoring 3-2 contest. The win keeps their tournament run alive after a demanding path through the group stage and a narrow victory in the previous round.",
-        "For Egypt, the defeat marks the end of a gritty campaign that saw them navigate a tough group and survive a penalty shootout against Australia in the Round of 32. Despite their defensive organization, they were unable to contain the Argentine attack for the full ninety minutes.",
-        "With this result, Argentina moves forward to face Switzerland in the quarterfinals. They will look to maintain their offensive form as the competition intensifies in the final stages of the tournament."
+        "Argentina continued their momentum in the knockout stages with a narrow 3-2 win against Egypt. This victory marks another high-scoring affair for the Argentine side, who have now successfully navigated two consecutive tight matches in the knockout rounds following their 3-2 win over Cabo Verde in the Round of 32.",
+        "For Egypt, the exit ends a resilient run that saw them remain unbeaten in regulation time throughout the group stage and their Round of 32 penalty shootout victory over Australia. Despite their defensive discipline shown earlier in the tournament, they were unable to hold off the Argentine attack in this high-stakes meeting.",
+        "With this result, Argentina moves forward to face Switzerland in the quarterfinals. The match is scheduled for July 11, where Argentina will look to maintain their offensive output as they aim for a spot in the semifinals."
       ],
       "bullets": [
-        "Argentina has now won back-to-back knockout matches by a single-goal margin.",
-        "Egypt exits the tournament after a competitive run that included a penalty shootout victory in the previous round.",
+        "Argentina has now scored three goals in both of their knockout matches so far.",
+        "Egypt exits the tournament after a competitive campaign that included a penalty shootout win in the previous round.",
         "Argentina will face Switzerland in the upcoming quarterfinal match."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T05:12:55+00:00",
+      "updatedAt": "2026-07-11T06:04:37+00:00",
       "sourceHash": "62157239f2b4f6e7",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "96": {
       "headline": "Switzerland Advance Past Colombia in Penalty Shootout",
