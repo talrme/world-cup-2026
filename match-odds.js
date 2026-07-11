@@ -1,5 +1,5 @@
 window.WORLD_CUP_MATCH_ODDS = {
-  "generatedAt": "2026-07-11T13:58:09+00:00",
+  "generatedAt": "2026-07-11T15:08:50+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -44,31 +44,31 @@ window.WORLD_CUP_MATCH_ODDS = {
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760513/",
-      "asOf": "2026-07-11T13:58:09+00:00",
+      "asOf": "2026-07-11T15:08:50+00:00",
       "espnEventId": "760513",
       "outcomes": [
         {
           "key": "home",
           "label": "Argentina",
-          "american": -150,
-          "rawProbability": 0.6,
-          "advanceProbability": 0.7752808988764045
+          "american": -145,
+          "rawProbability": 0.5918367346938775,
+          "advanceProbability": 0.764988009592326
         },
         {
           "key": "away",
           "label": "Switzerland",
-          "american": 475,
-          "rawProbability": 0.17391304347826086,
-          "advanceProbability": 0.2247191011235955
+          "american": 450,
+          "rawProbability": 0.18181818181818182,
+          "advanceProbability": 0.23501199040767384
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 260,
-        "rawProbability": 0.2777777777777778
+        "american": 255,
+        "rawProbability": 0.28169014084507044
       },
-      "rawTeamTotal": 0.7739130434782608,
-      "rawMarketTotal": 1.0516908212560385
+      "rawTeamTotal": 0.7736549165120594,
+      "rawMarketTotal": 1.05534505735713
     },
     "101": {
       "market": "Chance to advance",
