@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-10T22:12:52+00:00",
+  "generatedAt": "2026-07-11T19:47:01+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -45,7 +45,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 7,
       "assists": 0,
       "points": 7,
-      "matches": 5,
+      "matches": 6,
       "minutes": 418,
       "goalsPer90": 1.5,
       "pointsPer90": 1.5
@@ -58,7 +58,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 6,
       "assists": 1,
       "points": 7,
-      "matches": 5,
+      "matches": 6,
       "minutes": 489,
       "goalsPer90": 1.1,
       "pointsPer90": 1.3
@@ -110,7 +110,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 4,
       "assists": 1,
       "points": 5,
-      "matches": 5,
+      "matches": 6,
       "minutes": 448,
       "goalsPer90": 0.8,
       "pointsPer90": 1.0
@@ -1241,7 +1241,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 5,
+      "matches": 6,
       "minutes": 100,
       "goalsPer90": 0.9,
       "pointsPer90": 0.9
@@ -1371,7 +1371,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 5,
+      "matches": 6,
       "minutes": 149,
       "goalsPer90": 0.6,
       "pointsPer90": 0.6
@@ -1462,7 +1462,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 5,
+      "matches": 6,
       "minutes": 203,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
@@ -1566,7 +1566,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 4,
+      "matches": 5,
       "minutes": 229,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
@@ -1735,7 +1735,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 5,
+      "matches": 6,
       "minutes": 286,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
