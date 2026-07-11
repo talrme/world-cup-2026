@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T21:28:47+00:00",
+  "generatedAt": "2026-07-11T23:33:02+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -44,31 +44,31 @@
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760513/",
-      "asOf": "2026-07-11T15:08:50+00:00",
+      "asOf": "2026-07-11T23:33:02+00:00",
       "espnEventId": "760513",
       "outcomes": [
         {
           "key": "home",
           "label": "Argentina",
-          "american": -145,
-          "rawProbability": 0.5918367346938775,
-          "advanceProbability": 0.764988009592326
+          "american": -140,
+          "rawProbability": 0.5833333333333334,
+          "advanceProbability": 0.7623762376237624
         },
         {
           "key": "away",
           "label": "Switzerland",
           "american": 450,
           "rawProbability": 0.18181818181818182,
-          "advanceProbability": 0.23501199040767384
+          "advanceProbability": 0.23762376237623764
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 255,
-        "rawProbability": 0.28169014084507044
+        "american": 245,
+        "rawProbability": 0.2898550724637681
       },
-      "rawTeamTotal": 0.7736549165120594,
-      "rawMarketTotal": 1.05534505735713
+      "rawTeamTotal": 0.7651515151515151,
+      "rawMarketTotal": 1.0550065876152832
     },
     "101": {
       "market": "Chance to advance",
