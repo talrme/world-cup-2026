@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-10T22:16:17+00:00",
+  "generatedAt": "2026-07-11T03:48:47+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1909,23 +1909,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "96": {
       "headline": "Switzerland Advance Past Colombia in Penalty Shootout",
-      "summary": "Switzerland secured a spot in the quarterfinals after playing to a 0-0 draw against Colombia and winning the penalty shootout 4-3.",
+      "summary": "Switzerland secured their spot in the quarterfinals after playing to a 0-0 draw with Colombia and winning the penalty shootout 4-3.",
       "story": [
-        "Switzerland survived a tense defensive battle in their Round of 16 clash, ultimately prevailing over Colombia from the penalty spot. With neither side able to break the deadlock during regulation or extra time, the match was decided by a 4-3 shootout victory for the Swiss.",
-        "The result brings an end to Colombia's tournament run, while Switzerland maintains their momentum after a strong showing in Group B and a Round of 32 win over Algeria. The Swiss have proven difficult to break down throughout the competition, and this result further cements their resilience in high-pressure knockout scenarios.",
-        "Looking ahead, Switzerland faces a significant challenge in the quarterfinals. They are set to take on Argentina, who advanced as winners of their own bracket, in what promises to be a demanding test for the Swiss squad."
+        "Switzerland survived a tense defensive deadlock against Colombia in their Round of 16 match, ultimately prevailing 4-3 on penalties after 120 minutes of scoreless action.",
+        "The result marks a significant achievement for the Swiss, who have maintained a steady trajectory throughout the tournament, including a clean sheet victory over Algeria in the previous round.",
+        "For Colombia, the exit is a difficult conclusion to a campaign that saw them navigate the group stage and a tight win against Ghana, but they were unable to find the breakthrough when it mattered most.",
+        "With this victory, Switzerland moves on to face Argentina in the quarterfinals, setting up a high-stakes encounter for a place in the semifinals."
       ],
       "bullets": [
-        "Switzerland won the penalty shootout 4-3 after 120 minutes of scoreless football.",
-        "The victory sends Switzerland to the quarterfinals to face Argentina.",
-        "Switzerland remains unbeaten in the knockout stages of this tournament."
+        "Switzerland won the penalty shootout 4-3 after the match ended 0-0.",
+        "Switzerland will next face Argentina in the quarterfinal round."
       ],
       "sections": [],
-      "updatedAt": "2026-07-10T02:06:58+00:00",
+      "updatedAt": "2026-07-11T03:48:47+00:00",
       "sourceHash": "276ba7abee9efff9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "manual match recap target"
+      "refreshReason": "past 5 days"
     },
     "97": {
       "headline": "France Advances to Semifinals After Shutout Win",
