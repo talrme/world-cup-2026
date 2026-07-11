@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T19:47:01+00:00",
+  "generatedAt": "2026-07-11T20:33:33+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -12,7 +12,7 @@
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760512/",
-      "asOf": "2026-07-11T19:47:01+00:00",
+      "asOf": "2026-07-11T20:33:33+00:00",
       "espnEventId": "760512",
       "outcomes": [
         {
@@ -20,23 +20,23 @@
           "label": "Norway",
           "american": 310,
           "rawProbability": 0.24390243902439024,
-          "advanceProbability": 0.30508474576271183
+          "advanceProbability": 0.30898876404494385
         },
         {
           "key": "away",
           "label": "England",
-          "american": -125,
-          "rawProbability": 0.5555555555555556,
-          "advanceProbability": 0.6949152542372882
+          "american": -120,
+          "rawProbability": 0.5454545454545454,
+          "advanceProbability": 0.6910112359550562
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 290,
-        "rawProbability": 0.2564102564102564
+        "american": 280,
+        "rawProbability": 0.2631578947368421
       },
-      "rawTeamTotal": 0.7994579945799458,
-      "rawMarketTotal": 1.0558682509902022
+      "rawTeamTotal": 0.7893569844789357,
+      "rawMarketTotal": 1.0525148792157777
     },
     "100": {
       "market": "Chance to advance",
