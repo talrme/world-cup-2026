@@ -1,74 +1,42 @@
 window.WORLD_CUP_MATCH_ODDS = {
-  "generatedAt": "2026-07-11T23:33:02+00:00",
+  "generatedAt": "2026-07-12T01:09:55+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
     "note": "Chance to advance is derived from ESPN-listed team moneylines. It is an estimate, not betting advice."
   },
   "matches": {
-    "99": {
-      "market": "Chance to advance",
-      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
-      "book": "DraftKings",
-      "sourceLabel": "ESPN",
-      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760512/",
-      "asOf": "2026-07-11T21:28:47+00:00",
-      "espnEventId": "760512",
-      "outcomes": [
-        {
-          "key": "home",
-          "label": "Norway",
-          "american": 330,
-          "rawProbability": 0.23255813953488372,
-          "advanceProbability": 0.29508196721311475
-        },
-        {
-          "key": "away",
-          "label": "England",
-          "american": -125,
-          "rawProbability": 0.5555555555555556,
-          "advanceProbability": 0.7049180327868853
-        }
-      ],
-      "draw": {
-        "label": "Draw after 90 minutes",
-        "american": 280,
-        "rawProbability": 0.2631578947368421
-      },
-      "rawTeamTotal": 0.7881136950904393,
-      "rawMarketTotal": 1.0512715898272813
-    },
     "100": {
       "market": "Chance to advance",
       "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
-      "book": "DraftKings",
+      "book": "DraftKings - Live Odds",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760513/",
-      "asOf": "2026-07-11T23:33:02+00:00",
+      "asOf": "2026-07-12T01:09:55+00:00",
       "espnEventId": "760513",
       "outcomes": [
         {
           "key": "home",
           "label": "Argentina",
-          "american": -140,
-          "rawProbability": 0.5833333333333334,
-          "advanceProbability": 0.7623762376237624
+          "american": -135,
+          "rawProbability": 0.574468085106383,
+          "advanceProbability": 0.7417582417582418
         },
         {
           "key": "away",
           "label": "Switzerland",
-          "american": 450,
-          "rawProbability": 0.18181818181818182,
-          "advanceProbability": 0.23762376237623764
+          "american": 400,
+          "rawProbability": 0.2,
+          "advanceProbability": 0.25824175824175827
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 245,
-        "rawProbability": 0.2898550724637681
+        "american": 255,
+        "rawProbability": 0.28169014084507044
       },
-      "rawTeamTotal": 0.7651515151515151,
-      "rawMarketTotal": 1.0550065876152832
+      "rawTeamTotal": 0.774468085106383,
+      "rawMarketTotal": 1.0561582259514535
     },
     "101": {
       "market": "Chance to advance",
@@ -76,7 +44,7 @@ window.WORLD_CUP_MATCH_ODDS = {
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760514/",
-      "asOf": "2026-07-11T03:47:37+00:00",
+      "asOf": "2026-07-12T01:09:55+00:00",
       "espnEventId": "760514",
       "outcomes": [
         {
@@ -84,14 +52,14 @@ window.WORLD_CUP_MATCH_ODDS = {
           "label": "France",
           "american": 135,
           "rawProbability": 0.425531914893617,
-          "advanceProbability": 0.5727272727272728
+          "advanceProbability": 0.5765765765765766
         },
         {
           "key": "away",
           "label": "Spain",
-          "american": 215,
-          "rawProbability": 0.31746031746031744,
-          "advanceProbability": 0.4272727272727273
+          "american": 220,
+          "rawProbability": 0.3125,
+          "advanceProbability": 0.42342342342342343
         }
       ],
       "draw": {
@@ -99,8 +67,8 @@ window.WORLD_CUP_MATCH_ODDS = {
         "american": 225,
         "rawProbability": 0.3076923076923077
       },
-      "rawTeamTotal": 0.7429922323539344,
-      "rawMarketTotal": 1.0506845400462421
+      "rawTeamTotal": 0.738031914893617,
+      "rawMarketTotal": 1.0457242225859247
     }
   }
 };
