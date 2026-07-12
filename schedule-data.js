@@ -3310,7 +3310,7 @@ window.WORLD_CUP_DATA = {
       "time": "21:00",
       "home": "Argentina",
       "away": "Switzerland",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "kansas-city",
       "offset": "-04:00",
@@ -3322,8 +3322,22 @@ window.WORLD_CUP_DATA = {
       "awaySource": "Winner Match 96",
       "bracketAwayTeam": "Switzerland",
       "awayRevealSource": "Winner Match 96",
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 3,
+      "awayScore": 1,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-12T04:44:18+00:00",
+          "title": "Argentina vs Switzerland Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Quarterfinals",
+          "url": "https://www.youtube.com/watch?v=FGhW41kIpgQ",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-12T04:44:18+00:00"
+      }
     },
     {
       "id": 101,
@@ -3353,7 +3367,7 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-15",
       "time": "15:00",
       "home": "England",
-      "away": "Winner Match 100",
+      "away": "Argentina",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "atlanta",
@@ -3362,7 +3376,10 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760515",
       "homeSource": "Winner Match 99",
       "bracketHomeTeam": "England",
-      "homeRevealSource": "Winner Match 99"
+      "homeRevealSource": "Winner Match 99",
+      "awaySource": "Winner Match 100",
+      "bracketAwayTeam": "Argentina",
+      "awayRevealSource": "Winner Match 100"
     },
     {
       "id": 103,
@@ -3559,6 +3576,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-12T01:09:55+00:00",
+  "bracketUpdatedAt": "2026-07-12T04:43:15+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
