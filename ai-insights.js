@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-13T07:33:21+00:00",
+  "generatedAt": "2026-07-13T23:39:14+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1928,39 +1928,39 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "97": {
-      "headline": "France Advances to Semifinals After Defeating Morocco",
-      "summary": "France secured a 2-0 victory over Morocco in the quarterfinals to move on to the next stage of the tournament.",
+      "headline": "France Advances to Semifinals After Shutout Win",
+      "summary": "France secured a 2-0 victory over Morocco in the quarterfinals to keep their tournament run alive.",
       "story": [
-        "France continued their impressive run in the knockout stages by shutting out Morocco 2-0. The victory keeps their momentum alive after a string of dominant performances throughout the group stage and earlier knockout rounds.",
-        "For Morocco, the loss concludes a resilient tournament campaign that saw them navigate a challenging group and a tense penalty shootout victory against the Netherlands in the Round of 32.",
-        "With this result, France now turns their attention to a high-stakes semifinal matchup against Spain. They will look to carry their defensive discipline and scoring form into that encounter as they push for a spot in the final."
+        "France continued their impressive form in the knockout stages with a clinical 2-0 performance against Morocco. By maintaining their defensive discipline, they successfully neutralized the Moroccan attack to punch their ticket to the next round.",
+        "The win keeps France on a dominant trajectory, as they have now navigated through the Round of 32 and Round of 16 without conceding a goal in their last two matches. This defensive consistency has been the hallmark of their campaign since the group stage.",
+        "With this victory, France moves forward to the semifinals, where they are scheduled to face Spain on July 14. Morocco concludes their tournament run after a resilient effort that included a notable penalty shootout victory over the Netherlands in the Round of 32."
       ],
       "bullets": [
-        "France maintained their defensive consistency, keeping another clean sheet in the knockout rounds.",
-        "The win sets up a semifinal clash between France and Spain on July 14."
+        "France remains undefeated in the tournament, building on a strong group stage performance.",
+        "Morocco exits the competition after a successful run that saw them reach the quarterfinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T23:04:01+00:00",
+      "updatedAt": "2026-07-13T23:39:14+00:00",
       "sourceHash": "3211c933aed526a0",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "past 5 days"
     },
     "98": {
-      "headline": "Spain advances to semifinals after narrow win over Belgium",
-      "summary": "Spain secured a hard-fought 2-1 victory over Belgium in the quarterfinals to keep their tournament run alive.",
+      "headline": "Spain Advances to Semifinals After Edging Belgium",
+      "summary": "Spain secured their spot in the semifinals with a hard-fought 2-1 victory over Belgium in the quarterfinals.",
       "story": [
-        "Spain continued their impressive form in the knockout stages, edging past Belgium in a tight contest to claim a spot in the semifinals. The victory marks another significant step for the Spanish side, who have navigated a challenging path through the bracket.",
-        "The match was a tactical battle that tested both teams' resolve. Spain managed to find the necessary breakthrough to overcome a resilient Belgium squad that had previously shown strong attacking potential in their earlier knockout fixtures.",
-        "With this win, Spain shifts their focus to a high-stakes semifinal showdown against France. Having consistently performed under pressure throughout the tournament, Spain will look to carry this momentum into their next encounter as they aim for a place in the final."
+        "Spain continued their impressive run through the knockout stages by defeating Belgium 2-1. This result marks another significant step for the Spanish side, who have maintained a disciplined defensive record throughout the tournament.",
+        "For Belgium, the loss brings an end to a campaign that saw them display offensive firepower in earlier rounds, including a dominant 4-1 win over the United States in the Round of 16. Despite their efforts, they could not overcome the Spanish defensive structure in this quarterfinal matchup.",
+        "With this victory, Spain now turns their attention to a high-stakes semifinal showdown against France. Having navigated a challenging path that included a narrow win over Portugal in the previous round, Spain will look to carry this momentum into their next fixture."
       ],
       "bullets": [
-        "Spain remains undefeated in the tournament, building on their previous knockout wins against Portugal and Austria.",
-        "The 2-1 result concludes Belgium's campaign after they previously eliminated the United States in the Round of 16.",
-        "Spain is set to face France in the semifinals on July 14."
+        "Spain remains undefeated in the tournament, continuing a streak that includes victories over Portugal, Austria, and Uruguay.",
+        "The 2-1 scoreline sends Spain to the semifinals to face France on July 14.",
+        "Belgium exits the tournament after a quarterfinal run that included a notable victory against the United States."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T23:03:53+00:00",
+      "updatedAt": "2026-07-13T23:39:06+00:00",
       "sourceHash": "6020f51903a1e00c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
