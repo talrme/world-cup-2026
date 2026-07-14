@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T23:39:14+00:00",
+  "generatedAt": "2026-07-14T08:39:51+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1967,20 +1967,20 @@
       "refreshReason": "past 5 days"
     },
     "99": {
-      "headline": "England Advances to Semifinals After Edging Norway",
-      "summary": "Final: Norway 1, England 2. England secured a hard-fought 2-1 victory over Norway in the quarterfinals, booking their place in the next round.",
+      "headline": "England Advances to Semifinals After Hard-Fought Win Over Norway",
+      "summary": "Final: Norway 1, England 2. England secured their spot in the semifinals with a 2-1 victory over Norway in the quarterfinals.",
       "story": [
-        "England continued their impressive run in the knockout stages by overcoming Norway 2-1. The result brings an end to Norway\u2019s tournament journey, which included notable victories over Ivory Coast and Brazil in the previous rounds.",
-        "For England, the victory was the latest in a series of gritty performances. After navigating a challenging Round of 16 match against Mexico that ended 3-2, they once again showed the composure required to survive in a high-stakes environment.",
-        "With this win, England moves forward to the semifinals, where they are scheduled to face Argentina on July 15. This upcoming fixture represents a significant hurdle as England looks to maintain their momentum toward the final."
+        "England continued their impressive run in the knockout stages, narrowly edging out Norway 2-1 to secure a place in the tournament semifinals. The victory marks another step forward for the squad, who have demonstrated resilience throughout their campaign.",
+        "For Norway, the result brings an end to a spirited tournament run that saw them navigate a challenging group stage and overcome Brazil in the Round of 16. Despite their efforts, they were unable to find the breakthrough needed to push past the English defense in this quarterfinal matchup.",
+        "With this result, England moves on to face Argentina in the semifinals. The win reinforces England's momentum as they look toward the final stages of the competition, having successfully navigated a path that included a high-scoring Round of 16 win against Mexico."
       ],
       "bullets": [
-        "England remains unbeaten in the knockout stage, following wins over Congo DR, Mexico, and now Norway.",
-        "The 2-1 result marks the conclusion of Norway's campaign, which saw them reach the quarterfinals after a resilient run through the group stage and early knockout rounds.",
-        "England will now prepare for a high-profile semifinal showdown against Argentina."
+        "England moves on to a semifinal showdown against Argentina.",
+        "Norway exits the tournament after a successful run that included a Round of 16 upset over Brazil.",
+        "The 2-1 final scoreline reflects a tightly contested knockout fixture."
       ],
       "sections": [],
-      "updatedAt": "2026-07-13T07:33:21+00:00",
+      "updatedAt": "2026-07-14T08:39:51+00:00",
       "sourceHash": "afee15f023ea5a34",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1988,19 +1988,19 @@
     },
     "100": {
       "headline": "Argentina Advances to Semifinals After Defeating Switzerland",
-      "summary": "Argentina secured a 3-1 victory over Switzerland in the quarterfinals, setting up a high-stakes semifinal showdown against England.",
+      "summary": "Argentina secured a 3-1 victory over Switzerland in the quarterfinals, ending the Swiss run in the tournament.",
       "story": [
-        "Argentina continued their impressive run in the tournament with a decisive 3-1 win against Switzerland. After navigating a series of challenging knockout matches, including narrow victories over Cabo Verde and Egypt, Argentina showcased their offensive consistency to overcome a resilient Swiss side.",
-        "The Swiss team, who had previously displayed defensive grit by advancing past Colombia in a penalty shootout in the Round of 16, were unable to contain the Argentine attack. This result marks the end of Switzerland's campaign after a strong showing throughout the group stage and knockout rounds.",
-        "With this victory, Argentina now turns their attention to the semifinals where they are scheduled to face England. This upcoming match promises to be a significant test as both teams look to secure a place in the final."
+        "Argentina continued their high-scoring form in the knockout stages, overcoming Switzerland 3-1 to punch their ticket to the semifinals. This result marks another clinical performance for the squad, who have consistently found the back of the net throughout their campaign.",
+        "For Switzerland, the defeat concludes a resilient tournament run that saw them navigate a tough path, including a dramatic penalty shootout victory over Colombia in the Round of 16. Despite their defensive efforts, they were unable to contain the Argentine attack in this quarterfinal clash.",
+        "With this win, Argentina moves on to a high-stakes semifinal showdown against England. Having navigated through a challenging bracket, they will look to maintain their momentum as they edge closer to the final."
       ],
       "bullets": [
-        "Argentina has maintained a perfect winning record in the tournament, consistently scoring 3 goals in each of their last three matches.",
-        "The 3-1 victory sends Argentina to the semifinals, where they will meet England on July 15.",
-        "Switzerland exits the competition following a quarterfinal appearance, having previously navigated a tough path that included a penalty shootout win against Colombia."
+        "Argentina maintains their perfect winning streak in the tournament, having successfully navigated every knockout round so far.",
+        "The 3-1 victory marks the third consecutive knockout match where Argentina has scored at least three goals.",
+        "Argentina is now set to face England in the semifinals on July 15."
       ],
       "sections": [],
-      "updatedAt": "2026-07-13T07:33:13+00:00",
+      "updatedAt": "2026-07-14T08:39:43+00:00",
       "sourceHash": "cfad67b1eab6139b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",

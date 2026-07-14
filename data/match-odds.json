@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T19:43:15+00:00",
+  "generatedAt": "2026-07-14T08:39:41+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -44,31 +44,31 @@
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760515/",
-      "asOf": "2026-07-12T16:31:24+00:00",
+      "asOf": "2026-07-14T08:39:41+00:00",
       "espnEventId": "760515",
       "outcomes": [
         {
           "key": "home",
           "label": "England",
-          "american": 160,
-          "rawProbability": 0.38461538461538464,
-          "advanceProbability": 0.5398230088495576
+          "american": 165,
+          "rawProbability": 0.37735849056603776,
+          "advanceProbability": 0.5309734513274336
         },
         {
           "key": "away",
           "label": "Argentina",
-          "american": 205,
-          "rawProbability": 0.32786885245901637,
-          "advanceProbability": 0.46017699115044247
+          "american": 200,
+          "rawProbability": 0.3333333333333333,
+          "advanceProbability": 0.4690265486725663
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 195,
-        "rawProbability": 0.3389830508474576
+        "american": 190,
+        "rawProbability": 0.3448275862068966
       },
-      "rawTeamTotal": 0.712484237074401,
-      "rawMarketTotal": 1.0514672879218585
+      "rawTeamTotal": 0.7106918238993711,
+      "rawMarketTotal": 1.0555194101062677
     }
   }
 }
