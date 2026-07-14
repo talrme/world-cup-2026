@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-07-14",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -3347,7 +3347,7 @@ window.WORLD_CUP_DATA = {
       "time": "15:00",
       "home": "France",
       "away": "Spain",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
@@ -3358,7 +3358,9 @@ window.WORLD_CUP_DATA = {
       "homeRevealSource": "Winner Match 97",
       "awaySource": "Winner Match 98",
       "bracketAwayTeam": "Spain",
-      "awayRevealSource": "Winner Match 98"
+      "awayRevealSource": "Winner Match 98",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "id": 102,
@@ -3576,6 +3578,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-12T04:43:15+00:00",
+  "bracketUpdatedAt": "2026-07-14T19:48:04+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
