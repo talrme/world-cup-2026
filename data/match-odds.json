@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T14:07:33+00:00",
+  "generatedAt": "2026-07-14T17:03:08+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -12,22 +12,22 @@
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760514/",
-      "asOf": "2026-07-14T14:07:33+00:00",
+      "asOf": "2026-07-14T17:03:08+00:00",
       "espnEventId": "760514",
       "outcomes": [
         {
           "key": "home",
           "label": "France",
-          "american": 140,
-          "rawProbability": 0.4166666666666667,
-          "advanceProbability": 0.5714285714285714
+          "american": 150,
+          "rawProbability": 0.4,
+          "advanceProbability": 0.5535714285714286
         },
         {
           "key": "away",
           "label": "Spain",
-          "american": 220,
-          "rawProbability": 0.3125,
-          "advanceProbability": 0.42857142857142855
+          "american": 210,
+          "rawProbability": 0.3225806451612903,
+          "advanceProbability": 0.4464285714285714
         }
       ],
       "draw": {
@@ -35,8 +35,8 @@
         "american": 205,
         "rawProbability": 0.32786885245901637
       },
-      "rawTeamTotal": 0.7291666666666667,
-      "rawMarketTotal": 1.057035519125683
+      "rawTeamTotal": 0.7225806451612904,
+      "rawMarketTotal": 1.0504494976203067
     },
     "102": {
       "market": "Chance to advance",
