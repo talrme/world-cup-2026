@@ -3360,7 +3360,7 @@ window.WORLD_CUP_DATA = {
       "bracketAwayTeam": "Spain",
       "awayRevealSource": "Winner Match 98",
       "homeScore": 0,
-      "awayScore": 1
+      "awayScore": 2
     },
     {
       "id": 102,
@@ -3578,6 +3578,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-14T19:48:04+00:00",
+  "bracketUpdatedAt": "2026-07-14T20:45:50+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
