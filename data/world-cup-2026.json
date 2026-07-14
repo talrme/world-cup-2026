@@ -3347,7 +3347,7 @@
       "time": "15:00",
       "home": "France",
       "away": "Spain",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "dallas",
       "offset": "-04:00",
@@ -3360,7 +3360,21 @@
       "bracketAwayTeam": "Spain",
       "awayRevealSource": "Winner Match 98",
       "homeScore": 0,
-      "awayScore": 2
+      "awayScore": 2,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-14T21:41:55+00:00",
+          "title": "France vs Spain Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Semifinals",
+          "url": "https://www.youtube.com/watch?v=3JAZZr3jWD0",
+          "channel": "FOX Sports",
+          "durationText": "17 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-14T21:41:55+00:00"
+      }
     },
     {
       "id": 102,
@@ -3389,14 +3403,17 @@
       "round": "Knockout",
       "date": "2026-07-18",
       "time": "17:00",
-      "home": "Loser Match 101",
+      "home": "France",
       "away": "Loser Match 102",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "miami",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760516"
+      "espnEventId": "760516",
+      "homeSource": "Loser Match 101",
+      "bracketHomeTeam": "France",
+      "homeRevealSource": "Loser Match 101"
     },
     {
       "id": 104,
@@ -3404,14 +3421,17 @@
       "round": "Knockout",
       "date": "2026-07-19",
       "time": "15:00",
-      "home": "Winner Match 101",
+      "home": "Spain",
       "away": "Winner Match 102",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
       "timezoneLabel": "ET",
-      "espnEventId": "760517"
+      "espnEventId": "760517",
+      "homeSource": "Winner Match 101",
+      "bracketHomeTeam": "Spain",
+      "homeRevealSource": "Winner Match 101"
     }
   ],
   "scheduleUpdatedAt": "2026-06-28T13:03:11+00:00",
@@ -3578,6 +3598,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-14T20:45:50+00:00",
+  "bracketUpdatedAt": "2026-07-14T21:41:54+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }

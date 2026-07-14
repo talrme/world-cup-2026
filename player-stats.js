@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-14T20:45:50+00:00",
+  "generatedAt": "2026-07-14T21:41:55+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -20,7 +20,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 3,
       "points": 11,
       "matches": 7,
-      "minutes": 653,
+      "minutes": 667,
       "goalsPer90": 1.1,
       "pointsPer90": 1.5
     },
@@ -85,7 +85,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 2,
       "points": 7,
       "matches": 7,
-      "minutes": 582,
+      "minutes": 595,
       "goalsPer90": 0.8,
       "pointsPer90": 1.1
     },
@@ -496,7 +496,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "rank": 38,
       "player": "Bradley Barcola",
       "team": "France",
-      "position": "FW",
+      "position": "MID",
       "goals": 2,
       "assists": 1,
       "points": 3,
@@ -579,9 +579,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 2,
       "matches": 7,
-      "minutes": 187,
-      "goalsPer90": 1.0,
-      "pointsPer90": 1.0
+      "minutes": 201,
+      "goalsPer90": 0.9,
+      "pointsPer90": 0.9
     },
     {
       "rank": 45,
@@ -1003,12 +1003,12 @@ window.WORLD_CUP_PLAYER_STATS = {
       "rank": 77,
       "player": "Desire Doue",
       "team": "France",
-      "position": "MID",
+      "position": "FW",
       "goals": 1,
       "assists": 1,
       "points": 2,
       "matches": 7,
-      "minutes": 386,
+      "minutes": 400,
       "goalsPer90": 0.2,
       "pointsPer90": 0.5
     },
@@ -2223,19 +2223,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 156,
-      "player": "Lamine Yamal",
-      "team": "Spain",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 7,
-      "minutes": 539,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.2
-    },
-    {
-      "rank": 157,
       "player": "Enzo Fernandez",
       "team": "Argentina",
       "position": "MID",
@@ -2244,6 +2231,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 1,
       "matches": 6,
       "minutes": 551,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 157,
+      "player": "Lamine Yamal",
+      "team": "Spain",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 7,
+      "minutes": 552,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
     },

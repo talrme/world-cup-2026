@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-14T20:47:25+00:00",
+  "generatedAt": "2026-07-14T21:44:23+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -43,21 +43,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "37": {
-      "headline": "Spain dominates Saudi Arabia in 4-0 victory",
-      "summary": "Spain secured a decisive 4-0 win over Saudi Arabia, vaulting them to the top of Group H.",
+      "headline": "Spain Dominates Saudi Arabia in 4-0 Victory",
+      "summary": "Spain secured a commanding 4-0 win over Saudi Arabia to seize control of Group H.",
       "story": [
-        "After an opening draw against Cabo Verde, Spain found their clinical edge against Saudi Arabia. The 4-0 result provided a massive boost to their goal difference and established them as the team to beat in Group H.",
-        "For Saudi Arabia, the defeat proved difficult to overcome. Following a hard-fought draw with Uruguay in their opener, they were unable to contain Spain's attack and ultimately finished the group stage with two points and a negative goal difference.",
-        "This match served as the catalyst for Spain's deep tournament run. By securing three points here, they set the foundation for a successful group campaign that eventually led them through the knockout stages and into the semifinals."
+        "After opening their campaign with a scoreless draw against Cabo Verde, Spain found their rhythm in a dominant performance against Saudi Arabia. The 4-0 result was a statement of intent, showcasing the attacking depth needed to navigate the group stage.",
+        "For Saudi Arabia, the loss proved difficult to overcome, leaving them with a mountain to climb in the group standings. Following a hard-fought draw against Uruguay in their first match, they struggled to contain the Spanish pressure throughout this encounter.",
+        "This victory served as the catalyst for Spain's successful run through the tournament. By securing three points here, they set the foundation for a group-topping finish, eventually navigating their way through the knockout rounds to reach the final."
       ],
       "bullets": [
-        "Spain's 4-0 win was their most emphatic performance of the group stage.",
-        "The result left Saudi Arabia at the bottom of Group H with two points.",
-        "Spain finished the group phase undefeated with seven points and zero goals conceded."
+        "Spain's four-goal margin significantly bolstered their goal difference, a key factor in their eventual top-place finish in Group H.",
+        "The result left Saudi Arabia with just one point from their opening two matches, ultimately contributing to their early exit from the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:47:10+00:00",
-      "sourceHash": "80d68680febc256e",
+      "updatedAt": "2026-07-14T21:43:51+00:00",
+      "sourceHash": "da57750d362766dd",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -144,21 +143,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "42": {
-      "headline": "France Cruises Past Iraq in Group I Dominance",
-      "summary": "France secured a comfortable 3-0 victory over Iraq, maintaining their perfect form in the group stage.",
+      "headline": "France cruises past Iraq in dominant Group I victory",
+      "summary": "France secured a comfortable 3-0 win over Iraq to maintain their perfect start in Group I.",
       "story": [
-        "France asserted their authority in Group I with a clinical 3-0 win against Iraq. The result underscored the gap in quality between the two sides, as France controlled the tempo throughout the match to solidify their position at the top of the table.",
-        "For Iraq, the defeat proved to be a difficult hurdle in a challenging group campaign. Despite their efforts, they struggled to contain the French attack, ultimately finishing their tournament run without a point after three group matches.",
-        "This victory was a key part of France's dominant group stage performance, where they finished with a perfect 9 points and a goal difference of plus-8. Their momentum from this match carried them through subsequent knockout rounds, eventually leading them to a semifinal appearance."
+        "France asserted their authority in Group I with a clinical 3-0 victory against Iraq. The result underscored the gap in quality between the two sides, as France controlled the tempo and limited Iraq's opportunities throughout the match.",
+        "This win was a vital component of France's flawless group stage campaign, where they ultimately finished with nine points and a commanding plus-eight goal difference. By securing all three points here, France solidified their position at the top of the table early on.",
+        "For Iraq, the defeat was part of a challenging tournament run that saw them struggle to find their footing against the group's top-tier opponents. Following this match, France continued their momentum deep into the knockout stages, eventually reaching the tournament semifinals."
       ],
       "bullets": [
-        "France finished the group stage undefeated with 9 points.",
-        "Iraq concluded their campaign with 0 points and a minus-11 goal difference.",
-        "The result helped France secure the top spot in Group I, setting the stage for their deep tournament run."
+        "France finished the group stage with a perfect 3-0-0 record.",
+        "The 3-0 result contributed to France's total of 10 goals scored in the group phase.",
+        "Iraq concluded their group campaign without a point."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:47:02+00:00",
-      "sourceHash": "75f3dde962de4b3c",
+      "updatedAt": "2026-07-14T21:43:43+00:00",
+      "sourceHash": "02ed8b0cce425aac",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -745,21 +744,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "61": {
-      "headline": "France Dominates Norway to Secure Group I Top Spot",
-      "summary": "Final: Norway 1, France 4. France defeated Norway 4-1 to maintain their perfect record and claim the top position in Group I.",
+      "headline": "France Dominates Norway to Sweep Group I",
+      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway to finish their group stage campaign with a perfect record.",
       "story": [
-        "France asserted their dominance in the final matchday of Group I, comfortably dispatching Norway with a 4-1 victory. The result solidified France's status as the group leader, finishing their group stage campaign with a perfect nine points from three matches.",
-        "For Norway, the defeat marked their first loss of the group stage after earlier wins against Iraq and Senegal. Despite the setback, Norway finished second in the group with six points, successfully advancing to the knockout rounds.",
-        "Both teams moved forward from this encounter with clear paths in the tournament. France carried their momentum deep into the knockout stages, while Norway navigated a challenging bracket that included victories over Ivory Coast and Brazil before eventually exiting in the quarterfinals."
+        "France asserted their dominance in Group I by dismantling Norway 4-1, capping off a flawless group stage performance with nine points from three matches. The result left little doubt about France's status as the group leader, as they finished with an impressive +8 goal difference.",
+        "Despite the loss, Norway managed to secure second place in the group with six points, having previously earned wins against Iraq and Senegal. Their progression to the knockout stages was already well-positioned before this final group match.",
+        "France's clinical attacking display solidified their momentum heading into the tournament's next phase. By putting four goals past the Norwegian defense, they demonstrated the offensive depth that allowed them to cruise through the opening round.",
+        "Both teams moved forward from Group I with clear objectives, as France looked to maintain their high-scoring form while Norway aimed to regroup for the challenges of the knockout bracket."
       ],
       "bullets": [
-        "France finished Group I with a perfect 3-0 record and a +8 goal difference.",
-        "Norway secured second place in the group, finishing with 6 points.",
-        "The 4-1 result was the highest-scoring match for France during their group stage run."
+        "France finished atop Group I with a perfect 3-0-0 record.",
+        "Norway advanced to the knockout stages as the group runner-up with six points.",
+        "France concluded the group stage with 10 goals scored and only 2 conceded."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:55+00:00",
-      "sourceHash": "de6e4d5652f099a9",
+      "updatedAt": "2026-07-14T21:43:36+00:00",
+      "sourceHash": "a912bcf5c51f657e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -804,21 +804,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "64": {
-      "headline": "Spain Secures Top Spot in Group H with Win Over Uruguay",
-      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 in their final group match, cementing their place at the top of the standings.",
+      "headline": "Spain secures top spot in Group H with narrow win over Uruguay",
+      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 to confirm their dominance in Group H and move forward in the tournament.",
       "story": [
-        "For Uruguay, the defeat marked a difficult end to their tournament run. After opening with a draw against Saudi Arabia and sharing points with Cabo Verde, they were unable to find a breakthrough against a disciplined Spanish side.",
-        "This win propelled Spain into the knockout rounds with significant momentum. Their path through the tournament proved to be highly successful, eventually leading them through victories against Austria, Portugal, Belgium, and France to reach the later stages of the competition.",
-        "Uruguay finished their group campaign with two points, leaving them at the bottom of the table alongside Saudi Arabia. The match served as a pivotal moment for both squads, defining the trajectory for the remainder of the tournament."
+        "Spain closed out their group stage campaign with a clinical 1-0 victory against Uruguay, ensuring they finished at the top of Group H with 7 points. The result solidified Spain's momentum, having conceded zero goals throughout their three group matches.",
+        "For Uruguay, the loss marked a difficult end to their group stage run. After drawing their opening two matches against Saudi Arabia and Cabo Verde, they were unable to find a breakthrough against a disciplined Spanish defense, leaving them with 2 points and an early exit from the tournament.",
+        "Spain's performance in this match set the tone for a successful knockout stage run. Their defensive consistency and ability to secure results under pressure proved to be the foundation for their subsequent victories over Austria, Portugal, Belgium, and France on their path to the final."
       ],
       "bullets": [
-        "Spain finished Group H undefeated and without conceding a goal.",
-        "Uruguay concluded their group stage campaign with two draws and one loss.",
-        "The victory secured Spain's position as the winner of Group H."
+        "Spain finished Group H undefeated with 7 points and a +5 goal difference.",
+        "Uruguay concluded their group campaign with 2 points, failing to secure a win in their three matches.",
+        "Spain's victory served as the catalyst for a dominant tournament run, leading them all the way to the final."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:47+00:00",
-      "sourceHash": "e854c101ca9d9bfc",
+      "updatedAt": "2026-07-14T21:43:28+00:00",
+      "sourceHash": "2b0b98c3afeeb85b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1130,20 +1130,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "17": {
-      "headline": "France Opens Group I with Decisive Win Over Senegal",
-      "summary": "France defeated Senegal 3-1 in their opening Group I match, setting the tone for a dominant group stage run.",
+      "headline": "France Opens Group I Campaign with Convincing Win over Senegal",
+      "summary": "France secured a strong start to their tournament journey by defeating Senegal 3-1 in their opening Group I match.",
       "story": [
-        "France kicked off their tournament campaign with a controlled 3-1 victory over Senegal. The result immediately established France as the team to beat in Group I, a status they would solidify by winning all three of their group stage matches.",
-        "For Senegal, the loss was a difficult start to their tournament. Despite the setback, they showed offensive potential throughout the group stage, including a resounding 5-0 win against Iraq in their final group fixture.",
-        "This match served as the foundation for France's deep tournament run, which saw them advance through the knockout stages to reach the semifinals. Senegal ultimately concluded their journey in the Round of 32 after a narrow defeat to Belgium."
+        "France asserted their dominance early in Group I, utilizing a clinical performance to overcome Senegal 3-1. This result provided the foundation for France\u2019s eventual sweep of the group stage, where they finished with a perfect nine points and a goal difference of plus-eight.",
+        "For Senegal, the opening loss forced them into a difficult position for the remainder of the group stage. Despite a dominant 5-0 victory over Iraq in their final group match, they ultimately finished third in the standings with three points, narrowly missing out on advancing further after a subsequent defeat in the Round of 32.",
+        "The victory set France on a long path through the knockout stages, including wins over Sweden, Paraguay, and Morocco. Their campaign eventually concluded in the semifinals, leaving them to prepare for the third-place match."
       ],
       "bullets": [
-        "France finished the group stage with a perfect 9 points and a +8 goal difference.",
-        "Senegal bounced back from this opening loss to finish third in Group I with 3 points."
+        "France finished at the top of Group I with a perfect 3-0 record."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:47:17+00:00",
-      "sourceHash": "992111da75e78b50",
+      "updatedAt": "2026-07-14T21:43:59+00:00",
+      "sourceHash": "8a0a34873ebc775b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1212,22 +1211,22 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "13": {
-      "headline": "Spain and Cabo Verde play to scoreless stalemate",
-      "summary": "Spain and Cabo Verde opened their Group H campaign with a hard-fought 0-0 draw.",
+      "headline": "Spain and Cabo Verde battle to scoreless stalemate",
+      "summary": "Spain and Cabo Verde played to a 0-0 draw in their opening Group H match.",
       "story": [
-        "The opening match of Group H saw Spain and Cabo Verde share the points in a defensive battle that ended 0-0. Neither side was able to break the deadlock, setting a cautious tone for the rest of the group stage.",
-        "For Spain, the draw was a frustrating start, but they eventually found their rhythm in the tournament, finishing at the top of Group H with seven points. Their campaign saw them dismantle Saudi Arabia and edge past Uruguay before a strong run through the knockout stages.",
-        "Cabo Verde showed resilience in this match, proving they could hold their own against top-tier competition. They finished the group stage with three points, eventually advancing to the Round of 32 where they narrowly fell to Argentina in a 3-2 thriller.",
-        "This result proved critical for the group dynamics, leaving little room for error for the other teams in the pool. Both nations walked away with a point that helped shape the final standings, with Spain ultimately securing the group lead and Cabo Verde earning their spot in the knockout bracket."
+        "The opening match of Group H ended in a deadlock as Spain and Cabo Verde failed to find the back of the net. Both sides struggled to break through, resulting in a point apiece to start their tournament campaigns.",
+        "For Spain, this result was merely a stumbling block in an otherwise dominant group stage performance. They rebounded quickly, securing victories over Saudi Arabia and Uruguay to finish at the top of the group with seven points.",
+        "Cabo Verde showed resilience in this opening fixture, successfully neutralizing the Spanish attack. While they did not secure a win, the point proved vital as they navigated a competitive group before eventually advancing to the Round of 32.",
+        "Following this draw, both teams moved on to face the rest of the group, with Spain eventually embarking on a deep run toward the final while Cabo Verde\u2019s journey concluded after a narrow defeat to Argentina in the knockout stage."
       ],
       "bullets": [
-        "The 0-0 draw served as the opening fixture for both teams in Group H.",
-        "Spain finished the group stage at the top of the table with 7 points.",
-        "Cabo Verde moved on to the Round of 32 after collecting 3 points in the group phase."
+        "The 0-0 draw was the only match in Group H where Spain failed to score.",
+        "This result set the tone for a tight group where every point mattered for advancement.",
+        "Both teams successfully moved out of the group stage, with Spain finishing first and Cabo Verde qualifying as the runner-up."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:47:25+00:00",
-      "sourceHash": "1b09f02273aeb1e9",
+      "updatedAt": "2026-07-14T21:44:07+00:00",
+      "sourceHash": "18af85b756af6b54",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1556,20 +1555,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "77": {
-      "headline": "France Dominates Sweden in Round of 32",
-      "summary": "France secured a convincing 3-0 victory over Sweden to advance through the Round of 32.",
+      "headline": "France Cruises Past Sweden in Round of 32",
+      "summary": "France secured a dominant 3-0 victory over Sweden to advance through the Round of 32.",
       "story": [
-        "France continued their strong form in the tournament by shutting out Sweden in a decisive 3-0 win. Entering the match as the winners of Group I, France demonstrated their tournament credentials by controlling the tempo and keeping Sweden off the scoreboard entirely.",
-        "For Sweden, the loss concluded their tournament run. Having advanced as one of the best third-place teams from the group stage, they faced a difficult challenge against a French side that had been prolific throughout their earlier fixtures."
+        "France continued their impressive tournament form by comfortably dispatching Sweden 3-0. Entering the knockout stage as the winners of Group I, France maintained their defensive discipline and attacking efficiency to shut down Sweden's progression.",
+        "For Sweden, the loss marked the end of their campaign. After a mixed group stage that included a high-scoring win against Tunisia and a difficult defeat to the Netherlands, they were unable to find a breakthrough against a disciplined French side.",
+        "This victory propelled France into the Round of 16, where they would eventually face Paraguay. The win served as a statement of intent for the French squad, who demonstrated their ability to control matches effectively in the knockout rounds."
       ],
       "bullets": [
-        "France maintained their clean sheet record in this knockout fixture.",
-        "The 3-0 result marked the end of Sweden's 2026 World Cup campaign.",
-        "France moved on to face Paraguay in the Round of 16 following this win."
+        "France maintained a clean sheet while scoring three goals to secure a comfortable path to the next round.",
+        "The result ended Sweden's tournament run after they qualified as one of the best third-placed teams from the group stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:39+00:00",
-      "sourceHash": "f40081bbc7fce643",
+      "updatedAt": "2026-07-14T21:43:20+00:00",
+      "sourceHash": "6695c1d6285f424e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1652,21 +1651,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "84": {
-      "headline": "Spain Dominates Austria to Advance in Round of 32",
-      "summary": "Spain secured a decisive 3-0 victory over Austria in their Round of 32 clash, continuing their strong tournament run.",
+      "headline": "Spain Dominates Austria to Advance",
+      "summary": "Spain secured a decisive 3-0 victory over Austria in the Round of 32, effectively ending Austria's tournament run.",
       "story": [
-        "Spain entered this knockout match as the winners of Group H and maintained their clinical form by shutting out Austria. The 3-0 result demonstrated the gap in control between the two sides, as Spain effectively neutralized any threat from the Group J runners-up.",
-        "This victory served as a critical stepping stone for Spain, who had previously navigated a challenging group stage that included a scoreless draw against Cabo Verde and a narrow 1-0 win over Uruguay. By handling Austria with such ease, they signaled their intent to remain a major contender in the bracket.",
-        "For Austria, the tournament concludes after a rollercoaster group stage where they managed a win against Jordan and a high-scoring 3-3 draw with Algeria. While they struggled to contain Spain's attack, the experience provided a benchmark for their current standing in international competition.",
-        "Following this result, Spain moved forward to face Portugal in the Round of 16, where they continued their momentum with another 1-0 victory."
+        "Spain continued their impressive form by comfortably dispatching Austria in this knockout clash. Entering the match as the winners of Group H, Spain maintained their composure and defensive discipline to shut out their opponents entirely.",
+        "For Austria, the result marked the end of a challenging campaign that saw them navigate a difficult Group J. Despite their efforts to remain competitive, they were unable to break down a Spanish side that proved superior across the pitch.",
+        "With this victory, Spain successfully punched their ticket to the Round of 16. The win provided them with necessary momentum as they prepared to face Portugal in the next stage of the tournament."
       ],
       "bullets": [
-        "Spain's 3-0 win marked their most comfortable margin of victory during the tournament's knockout phase.",
-        "The result ended Austria's campaign after they advanced as the runner-up from Group J."
+        "Spain maintained their unbeaten streak in the tournament with this 3-0 shutout.",
+        "The victory propelled Spain into a Round of 16 matchup against Portugal.",
+        "Austria concluded their World Cup journey after failing to find the back of the net against a disciplined Spanish defense."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:31+00:00",
-      "sourceHash": "51fb6e0805eda5f5",
+      "updatedAt": "2026-07-14T21:43:12+00:00",
+      "sourceHash": "a85cc02daf12d61e",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1789,22 +1788,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "90": {
-      "headline": "France Advances Past Paraguay in Tight Round of 16 Battle",
-      "summary": "Final: Paraguay 0, France 1. France secured their place in the next round with a narrow 1-0 victory over Paraguay.",
+      "headline": "France Advances After Narrow Victory Over Paraguay",
+      "summary": "Final: Paraguay 0, France 1. France secured their place in the quarterfinals with a hard-fought 1-0 win over Paraguay in the Round of 16.",
       "story": [
-        "France continued their strong tournament run by edging out Paraguay 1-0 in this Round of 16 knockout match. The result ended Paraguay's resilient campaign, which had included a dramatic penalty shootout win against Germany in the previous round.",
-        "For France, the victory maintained their momentum following a dominant group stage performance and a convincing 3-0 win over Sweden in the Round of 32. Their ability to find a result in a tight, low-scoring affair proved crucial as they moved deeper into the bracket.",
-        "Paraguay fought hard to stay in the contest, building on a defensive identity that saw them navigate a challenging group and push Germany to the limit. Ultimately, France's clinical edge made the difference in a match where space was at a premium.",
-        "With this win, France moved forward to face Morocco in the quarterfinals, continuing their quest for the title."
+        "France continued their clinical tournament run by edging out Paraguay 1-0. The result brought an end to Paraguay's resilient campaign, which had previously seen them survive a penalty shootout against Germany in the Round of 32.",
+        "For France, the victory maintained their momentum after a dominant group stage and a comfortable win over Sweden. The narrow margin reflected the defensive discipline Paraguay brought to the knockout stage, forcing France to work for every opportunity.",
+        "Following this result, France moved on to the quarterfinal stage, where they ultimately faced Morocco. Paraguay, meanwhile, exited the tournament after a spirited performance that saw them push one of the tournament favorites to the limit."
       ],
       "bullets": [
-        "France secured a 1-0 win to eliminate Paraguay from the knockout stage.",
-        "Paraguay exited after a hard-fought tournament run that included a penalty shootout victory over Germany in the Round of 32.",
-        "The result propelled France into a quarterfinal matchup against Morocco."
+        "France secured a 1-0 victory to eliminate Paraguay from the knockout bracket.",
+        "Paraguay's exit followed a dramatic Round of 32 run that included a penalty shootout win over Germany.",
+        "The win propelled France into a quarterfinal matchup against Morocco."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:23+00:00",
-      "sourceHash": "f68f9287a8640529",
+      "updatedAt": "2026-07-14T21:43:05+00:00",
+      "sourceHash": "5d3151968bc5b059",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1849,20 +1847,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "93": {
-      "headline": "Spain Edges Past Portugal in Round of 16",
-      "summary": "Final: Portugal 0, Spain 1. Spain secured a hard-fought 1-0 victory over Portugal to advance in the knockout stage.",
+      "headline": "Spain Edges Portugal in Tight Round of 16 Battle",
+      "summary": "Final: Portugal 0, Spain 1. Spain secured a narrow 1-0 victory over Portugal to advance in the knockout stage.",
       "story": [
-        "In a tightly contested Round of 16 matchup, Spain managed to break the deadlock to defeat Portugal 1-0. The result brought an end to Portugal's tournament run, while Spain continued their momentum in the knockout bracket.",
-        "Spain entered this fixture following a dominant 3-0 win over Austria in the Round of 32, maintaining a strong defensive record throughout the tournament. Portugal, meanwhile, arrived after a narrow 2-1 victory against Croatia, having navigated a challenging group stage that included a scoreless draw against Colombia.",
-        "With this victory, Spain successfully moved forward to the quarterfinals, where they ultimately faced Belgium. This win served as a pivotal moment in their campaign, proving their ability to grind out results against high-caliber European opposition."
+        "In a tense Round of 16 encounter, Spain managed to break through Portugal's defenses to claim a 1-0 win. The result brought an end to Portugal's tournament run after they had previously navigated a challenging group stage and a victory over Croatia.",
+        "Spain's path to this victory was built on their consistency throughout the tournament, having topped Group H before defeating Austria in the Round of 32. This win against Portugal proved to be a pivotal moment in their campaign, allowing them to progress deeper into the bracket.",
+        "With this victory, Spain moved on to face Belgium in the quarterfinals, continuing their momentum toward the latter stages of the competition."
       ],
       "bullets": [
-        "Spain's 1-0 win ended Portugal's campaign in the Round of 16.",
+        "Spain's 1-0 win eliminated Portugal from the tournament.",
         "The victory propelled Spain into a quarterfinal matchup against Belgium."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:15+00:00",
-      "sourceHash": "ce951f0043aa7b30",
+      "updatedAt": "2026-07-14T21:42:57+00:00",
+      "sourceHash": "08e7ee1147e37734",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1928,40 +1926,42 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "97": {
-      "headline": "France advances to semifinals after shutout win over Morocco",
-      "summary": "France secured a 2-0 victory over Morocco in the quarterfinals to keep their tournament run alive.",
+      "headline": "France Advances to Semifinals After Shutout Win Over Morocco",
+      "summary": "France secured a 2-0 victory over Morocco in the quarterfinals to move one step closer to the tournament final.",
       "story": [
-        "France maintained their clinical form in the knockout stages, dispatching Morocco 2-0 to punch their ticket to the semifinals. The victory continued a dominant defensive stretch for the French, who have consistently kept opponents off the board throughout their path to the final four.",
-        "For Morocco, the defeat brought an end to an impressive tournament campaign that saw them navigate a challenging group and survive a tense penalty shootout against the Netherlands in the Round of 32. Despite their resilience in previous rounds, they were unable to break down a disciplined French side.",
-        "With this result, France moved on to face Spain in the semifinals. The win served as a testament to France's consistency, having navigated their way through group play and consecutive knockout victories against Sweden, Paraguay, and now Morocco."
+        "France maintained their clinical form in the knockout stages, dispatching Morocco with a decisive 2-0 result. The victory allowed the French side to continue their deep run in the tournament, proving their defensive discipline and attacking efficiency once again.",
+        "For Morocco, the defeat brings an end to a resilient campaign that saw them navigate a challenging path through the Round of 32 and Round of 16. Despite their best efforts to break down the French backline, they were unable to find the back of the net.",
+        "With this result, France successfully punched their ticket to the semifinals. They moved on to face Spain in the next round, while Morocco exited the competition having established themselves as a formidable force throughout the tournament."
       ],
       "bullets": [
-        "France kept their defensive record intact with a clean sheet in the 2-0 win.",
-        "The victory set up a semifinal showdown between France and Spain.",
-        "Morocco ended their tournament run after a strong showing that included a penalty shootout win over the Netherlands."
+        "France kept a clean sheet while scoring twice to secure the win.",
+        "The result ended Morocco's tournament run in the quarterfinals.",
+        "France advanced to a semifinal showdown against Spain."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:08+00:00",
-      "sourceHash": "dd13abd57a9bc34d",
+      "updatedAt": "2026-07-14T21:42:49+00:00",
+      "sourceHash": "e35fbc93947a9542",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "98": {
-      "headline": "Spain Edges Belgium to Secure Semifinal Berth",
-      "summary": "Spain defeated Belgium 2-1 in the quarterfinals to advance to the next stage of the tournament.",
+      "headline": "Spain advances to semifinals after narrow win over Belgium",
+      "summary": "Spain secured a hard-fought 2-1 victory over Belgium in the quarterfinals to keep their tournament run alive.",
       "story": [
-        "Spain continued their impressive run in the knockout stages by overcoming Belgium in a tight 2-1 contest. The victory proved to be a pivotal moment in their campaign, allowing them to maintain momentum after a series of disciplined performances throughout the tournament.",
-        "For Belgium, the result brought an end to a journey that saw them navigate a challenging group stage and a high-scoring victory over the United States in the Round of 16. Despite their offensive capabilities, they were unable to contain the Spanish side in this decisive quarterfinal matchup."
+        "Spain continued their impressive form in the knockout stages, overcoming a resilient Belgium side in a tight quarterfinal contest. The 2-1 result proved to be the difference, as Spain demonstrated the composure needed to navigate the high-pressure environment of the final eight.",
+        "The victory was the latest chapter in a dominant campaign for Spain, who entered this match following a clean-sheet win against Portugal in the Round of 16. Their defensive discipline and ability to find the net when it matters most have been hallmarks of their journey through the bracket.",
+        "For Belgium, the loss brings an end to a tournament run that saw them overcome Senegal in the Round of 32 and deliver a convincing performance against the United States in the Round of 16. Despite their efforts, they were unable to break through against a disciplined Spanish side.",
+        "With this win, Spain moved on to the semifinals to face France. The result underscores Spain's status as a top contender, having navigated their way through Group H and subsequent knockout rounds with consistent, winning performances."
       ],
       "bullets": [
-        "Spain maintained their defensive composure to hold off a late Belgian push.",
-        "The 2-1 win sent Spain into a semifinal showdown against France.",
-        "Belgium exited the tournament after a strong run that included a 4-1 win over the United States."
+        "Spain extended their winning streak in the knockout rounds, having previously defeated Austria and Portugal.",
+        "Belgium's elimination follows a strong run that included a 4-1 victory over the United States in the Round of 16.",
+        "Spain advanced to a semifinal showdown against France following this quarterfinal success."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:46:00+00:00",
-      "sourceHash": "9b9b3a8fe09b38ec",
+      "updatedAt": "2026-07-14T21:42:42+00:00",
+      "sourceHash": "0a9fa979d36e8006",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -2007,21 +2007,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "101": {
-      "headline": "Spain Advances to Final After Shutout Win Over France",
-      "summary": "Final: France 0, Spain 2. Spain defeated France 2-0 in the semifinals to secure their place in the championship match.",
+      "headline": "Spain Advances to Final After Defeating France",
+      "summary": "Final: France 0, Spain 2. Spain secured their spot in the World Cup final with a decisive 2-0 victory over France in the semifinals.",
       "story": [
-        "Spain continued their impressive run in the tournament by overcoming France with a 2-0 victory. The result ended France's deep postseason campaign, as they were unable to break through the Spanish defense.",
-        "This win marks another clean sheet for Spain, who have demonstrated defensive discipline throughout their knockout stage journey. By neutralizing the French attack, Spain ensured their path to the final remained clear.",
-        "For France, the loss concludes a strong tournament run that saw them navigate through the group stage and past opponents like Sweden, Paraguay, and Morocco. They will now exit the competition following this semifinal defeat.",
-        "Spain now moves forward to the final, carrying the momentum of a hard-fought victory against a formidable French side."
+        "Spain continued their impressive tournament run by shutting down France in the semifinals, winning 2-0 to punch their ticket to the championship match. The victory marks a significant milestone for Spain, who navigated a challenging path through the knockout stages to reach the final.",
+        "For France, the loss ends their pursuit of the title in the semifinals. After a strong campaign that saw them navigate the group stage and knockout rounds with consistent performances, they were unable to overcome the Spanish side in this high-stakes encounter.",
+        "With this result, Spain moves on to the final scheduled for July 19, where they will face the winner of the other semifinal match. France will now shift their focus to the third-place match on July 18, aiming to finish their tournament on a positive note."
       ],
       "bullets": [
-        "Spain secured a 2-0 victory to eliminate France from the semifinals.",
-        "France's tournament run ends after a series of wins against Sweden, Paraguay, and Morocco."
+        "Spain earned a clean sheet and a 2-0 win to reach the World Cup final.",
+        "France will compete in the third-place match following this semifinal defeat.",
+        "Spain is set to play in the final on July 19."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T20:45:53+00:00",
-      "sourceHash": "3601be401531429b",
+      "updatedAt": "2026-07-14T21:42:34+00:00",
+      "sourceHash": "77dae7470eaa7bda",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -6315,6 +6315,47 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "promptHash": "40a830581c311aec",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "preview source or prompt changed"
+    },
+    "103": {
+      "headline": "France Set for Third-Place Playoff",
+      "summary": "France prepares to face the loser of the second semifinal in a battle to secure the tournament's third-place finish.",
+      "story": [
+        "France returns to the pitch for the third-place match, looking to conclude their tournament run on a high note. Having navigated through a challenging knockout path, they now prepare to face the team that falls in the other semifinal matchup.",
+        "Throughout this tournament, France has demonstrated significant consistency, particularly in their ability to manage defensive transitions and maintain control during high-stakes knockout rounds. Their journey to this point has been defined by a disciplined approach that has kept them competitive against a variety of tactical setups.",
+        "The identity of their opponent will be determined by the outcome of the semifinal between the remaining contenders. Regardless of who emerges from that match, France will need to maintain their focus to close out their campaign with a strong performance in Miami.",
+        "This final appearance provides a unique opportunity for the squad to reflect on their tournament progress and test their mettle one last time. Supporters will be watching closely to see how the team responds to the pressure of this final fixture."
+      ],
+      "bullets": [
+        "France enters the third-place match following a rigorous path through the knockout stages.",
+        "The opponent for this fixture is determined by the result of the second semifinal match.",
+        "This contest serves as the final opportunity for both teams to secure a podium position in the tournament."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-14T21:44:15+00:00",
+      "sourceHash": "5621077fd1117c8e",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "future spoiler-free preview"
+    },
+    "104": {
+      "headline": "Spain Reaches the World Cup Final",
+      "summary": "Spain has secured their place in the tournament final and now awaits the winner of the remaining semifinal match to determine their opponent.",
+      "story": [
+        "Spain has navigated a challenging path to reach the final of the 2026 World Cup. After a steady progression through the group stage and a series of high-stakes knockout victories, they have proven themselves to be a formidable presence on the field.",
+        "Their journey included notable wins against tough European opponents in the knockout rounds, demonstrating consistency and tactical discipline. By overcoming their semifinal challenge, they have now earned the right to compete for the ultimate title.",
+        "While Spain's spot is locked in, their opponent remains to be decided by the outcome of Match 102. The identity of this final challenger adds an layer of anticipation to the upcoming match, as Spain prepares to face whichever team emerges from that final semifinal pairing."
+      ],
+      "bullets": [
+        "Spain enters the final with a strong run, having navigated both group play and the knockout bracket successfully.",
+        "The final matchup will be completed once the winner of Match 102 is determined.",
+        "Spain's recent form includes a clean sheet victory in their semifinal appearance."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-14T21:44:23+00:00",
+      "sourceHash": "d890a9501f3223e7",
+      "promptHash": "40a830581c311aec",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "future spoiler-free preview"
     }
   }
 };
