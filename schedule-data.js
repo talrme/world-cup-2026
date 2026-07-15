@@ -3397,7 +3397,21 @@ window.WORLD_CUP_DATA = {
       "bracketAwayTeam": "Argentina",
       "awayRevealSource": "Winner Match 100",
       "homeScore": 1,
-      "awayScore": 2
+      "awayScore": 2,
+      "videos": {
+        "short": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-15T22:17:33+00:00",
+          "title": "England vs Argentina Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Semifinals",
+          "url": "https://www.youtube.com/watch?v=y-4saPWrPt0",
+          "channel": "FOX Sports",
+          "durationText": "14 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-15T22:17:33+00:00"
+      }
     },
     {
       "id": 103,
