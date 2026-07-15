@@ -3384,7 +3384,7 @@ window.WORLD_CUP_DATA = {
       "time": "15:00",
       "home": "England",
       "away": "Argentina",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "atlanta",
       "offset": "-04:00",
@@ -3396,8 +3396,8 @@ window.WORLD_CUP_DATA = {
       "awaySource": "Winner Match 100",
       "bracketAwayTeam": "Argentina",
       "awayRevealSource": "Winner Match 100",
-      "homeScore": 0,
-      "awayScore": 0
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "id": 103,
@@ -3406,7 +3406,7 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-18",
       "time": "17:00",
       "home": "France",
-      "away": "Loser Match 102",
+      "away": "England",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "miami",
@@ -3415,7 +3415,10 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760516",
       "homeSource": "Loser Match 101",
       "bracketHomeTeam": "France",
-      "homeRevealSource": "Loser Match 101"
+      "homeRevealSource": "Loser Match 101",
+      "awaySource": "Loser Match 102",
+      "bracketAwayTeam": "England",
+      "awayRevealSource": "Loser Match 102"
     },
     {
       "id": 104,
@@ -3424,7 +3427,7 @@ window.WORLD_CUP_DATA = {
       "date": "2026-07-19",
       "time": "15:00",
       "home": "Spain",
-      "away": "Winner Match 102",
+      "away": "Argentina",
       "status": "scheduled",
       "network": "TBD",
       "venueId": "ny-nj",
@@ -3433,7 +3436,10 @@ window.WORLD_CUP_DATA = {
       "espnEventId": "760517",
       "homeSource": "Winner Match 101",
       "bracketHomeTeam": "Spain",
-      "homeRevealSource": "Winner Match 101"
+      "homeRevealSource": "Winner Match 101",
+      "awaySource": "Winner Match 102",
+      "bracketAwayTeam": "Argentina",
+      "awayRevealSource": "Winner Match 102"
     }
   ],
   "scheduleUpdatedAt": "2026-06-28T13:03:11+00:00",
@@ -3600,6 +3606,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-15T19:56:53+00:00",
+  "bracketUpdatedAt": "2026-07-15T21:11:31+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
