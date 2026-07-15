@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T21:41:55+00:00",
+  "generatedAt": "2026-07-15T18:42:59+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -32,7 +32,7 @@
       "goals": 8,
       "assists": 2,
       "points": 10,
-      "matches": 6,
+      "matches": 7,
       "minutes": 602,
       "goalsPer90": 1.2,
       "pointsPer90": 1.5
@@ -58,7 +58,7 @@
       "goals": 6,
       "assists": 1,
       "points": 7,
-      "matches": 6,
+      "matches": 7,
       "minutes": 572,
       "goalsPer90": 0.9,
       "pointsPer90": 1.1
@@ -71,7 +71,7 @@
       "goals": 6,
       "assists": 1,
       "points": 7,
-      "matches": 6,
+      "matches": 7,
       "minutes": 624,
       "goalsPer90": 0.9,
       "pointsPer90": 1.0
@@ -474,7 +474,7 @@
       "goals": 2,
       "assists": 1,
       "points": 3,
-      "matches": 6,
+      "matches": 7,
       "minutes": 346,
       "goalsPer90": 0.5,
       "pointsPer90": 0.8
@@ -1085,7 +1085,7 @@
       "goals": 1,
       "assists": 1,
       "points": 2,
-      "matches": 6,
+      "matches": 7,
       "minutes": 584,
       "goalsPer90": 0.2,
       "pointsPer90": 0.3
@@ -1098,7 +1098,7 @@
       "goals": 1,
       "assists": 1,
       "points": 2,
-      "matches": 6,
+      "matches": 7,
       "minutes": 619,
       "goalsPer90": 0.1,
       "pointsPer90": 0.3
@@ -1202,7 +1202,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 6,
+      "matches": 7,
       "minutes": 65,
       "goalsPer90": 1.4,
       "pointsPer90": 1.4
@@ -1514,7 +1514,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 6,
+      "matches": 7,
       "minutes": 203,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
@@ -2177,7 +2177,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 6,
+      "matches": 7,
       "minutes": 468,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
@@ -2190,7 +2190,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 6,
+      "matches": 7,
       "minutes": 502,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
@@ -2229,7 +2229,7 @@
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 6,
+      "matches": 7,
       "minutes": 551,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
