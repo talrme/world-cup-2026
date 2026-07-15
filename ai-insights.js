@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-14T21:44:23+00:00",
+  "generatedAt": "2026-07-15T08:57:39+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1967,20 +1967,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "99": {
-      "headline": "England Advances to Semifinals After Hard-Fought Win Over Norway",
-      "summary": "Final: Norway 1, England 2. England secured their spot in the semifinals with a 2-1 victory over Norway in the quarterfinals.",
+      "headline": "England Advances to Semifinals After Defeating Norway",
+      "summary": "Final: Norway 1, England 2. England secured a hard-fought 2-1 victory over Norway in the quarterfinals to move on to the next stage of the tournament.",
       "story": [
-        "England continued their impressive run in the knockout stages, narrowly edging out Norway 2-1 to secure a place in the tournament semifinals. The victory marks another step forward for the squad, who have demonstrated resilience throughout their campaign.",
-        "For Norway, the result brings an end to a spirited tournament run that saw them navigate a challenging group stage and overcome Brazil in the Round of 16. Despite their efforts, they were unable to find the breakthrough needed to push past the English defense in this quarterfinal matchup.",
-        "With this result, England moves on to face Argentina in the semifinals. The win reinforces England's momentum as they look toward the final stages of the competition, having successfully navigated a path that included a high-scoring Round of 16 win against Mexico."
+        "England continued their impressive run in the knockout stages by edging past Norway in a tightly contested quarterfinal match. The 2-1 result saw England overcome a resilient Norwegian side that had previously taken down Brazil in the Round of 16.",
+        "For Norway, the defeat marks the end of a tournament journey that saw them battle through a difficult group and secure consecutive knockout wins against Ivory Coast and Brazil. Despite their efforts, they could not find the breakthrough needed to overcome England's defensive structure.",
+        "With this win, England moves forward to a high-stakes semifinal showdown against Argentina. Having navigated a challenging path that included a victory over Mexico in the previous round, England will now look to carry this momentum into their next fixture on July 15."
       ],
       "bullets": [
-        "England moves on to a semifinal showdown against Argentina.",
-        "Norway exits the tournament after a successful run that included a Round of 16 upset over Brazil.",
-        "The 2-1 final scoreline reflects a tightly contested knockout fixture."
+        "England remains unbeaten in the knockout rounds following their 2-1 win.",
+        "Norway exits the tournament after a strong run, including a notable victory over Brazil in the Round of 16.",
+        "England will face Argentina in the semifinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T08:39:51+00:00",
+      "updatedAt": "2026-07-15T08:57:39+00:00",
       "sourceHash": "afee15f023ea5a34",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
@@ -1988,19 +1988,19 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "100": {
       "headline": "Argentina Advances to Semifinals After Defeating Switzerland",
-      "summary": "Argentina secured a 3-1 victory over Switzerland in the quarterfinals, ending the Swiss run in the tournament.",
+      "summary": "Argentina secured a 3-1 victory over Switzerland in the quarterfinals to move on to the next round.",
       "story": [
-        "Argentina continued their high-scoring form in the knockout stages, overcoming Switzerland 3-1 to punch their ticket to the semifinals. This result marks another clinical performance for the squad, who have consistently found the back of the net throughout their campaign.",
-        "For Switzerland, the defeat concludes a resilient tournament run that saw them navigate a tough path, including a dramatic penalty shootout victory over Colombia in the Round of 16. Despite their defensive efforts, they were unable to contain the Argentine attack in this quarterfinal clash.",
-        "With this win, Argentina moves on to a high-stakes semifinal showdown against England. Having navigated through a challenging bracket, they will look to maintain their momentum as they edge closer to the final."
+        "Argentina continued their high-scoring run in the knockout stages by defeating Switzerland 3-1. This result keeps their momentum alive after a series of tight contests in the Round of 32 and Round of 16, where they consistently found the back of the net three times in each match.",
+        "For Switzerland, the quarterfinal exit brings an end to a resilient campaign that included a dramatic penalty shootout victory over Colombia in the previous round. Despite their defensive efforts, they were unable to contain the Argentine attack in this matchup.",
+        "With this victory, Argentina now turns their attention to a high-stakes semifinal showdown against England. Having navigated a challenging path through the knockout bracket, the team will look to maintain their offensive form as they aim for a spot in the final."
       ],
       "bullets": [
-        "Argentina maintains their perfect winning streak in the tournament, having successfully navigated every knockout round so far.",
-        "The 3-1 victory marks the third consecutive knockout match where Argentina has scored at least three goals.",
-        "Argentina is now set to face England in the semifinals on July 15."
+        "Argentina has scored exactly three goals in each of their three knockout matches so far.",
+        "The victory sets up a semifinal clash between Argentina and England.",
+        "Switzerland exits the tournament after a quarterfinal run that saw them overcome Colombia on penalties."
       ],
       "sections": [],
-      "updatedAt": "2026-07-14T08:39:43+00:00",
+      "updatedAt": "2026-07-15T08:57:31+00:00",
       "sourceHash": "cfad67b1eab6139b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
