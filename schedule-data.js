@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-07-14",
+  "generatedAt": "2026-07-15",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -3384,7 +3384,7 @@ window.WORLD_CUP_DATA = {
       "time": "15:00",
       "home": "England",
       "away": "Argentina",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "atlanta",
       "offset": "-04:00",
@@ -3395,7 +3395,9 @@ window.WORLD_CUP_DATA = {
       "homeRevealSource": "Winner Match 99",
       "awaySource": "Winner Match 100",
       "bracketAwayTeam": "Argentina",
-      "awayRevealSource": "Winner Match 100"
+      "awayRevealSource": "Winner Match 100",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": 103,
@@ -3598,6 +3600,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-14T21:41:54+00:00",
+  "bracketUpdatedAt": "2026-07-15T19:56:53+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

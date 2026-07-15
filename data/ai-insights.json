@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:57:39+00:00",
+  "generatedAt": "2026-07-15T19:59:07+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -124,20 +124,21 @@
       "refreshReason": "source or prompt changed"
     },
     "41": {
-      "headline": "Argentina Dominates Austria in Group J Showdown",
-      "summary": "Argentina secured a commanding 2-0 victory over Austria, solidifying their control over Group J.",
+      "headline": "Argentina Dominates Austria in Group J Clash",
+      "summary": "Argentina secured a commanding 2-0 victory over Austria to maintain their perfect start in Group J.",
       "story": [
-        "Argentina continued their clinical form in this Group J encounter, dispatching Austria with a clean 2-0 scoreline. The win was a statement of intent, showcasing the defensive discipline and offensive efficiency that defined their group stage campaign.",
-        "For Austria, the loss served as a significant hurdle in their quest to climb the table. While they struggled to break down the Argentine backline, the result left them fighting for position within a competitive group that ultimately saw them finish second.",
-        "This victory was a key component of Argentina's perfect group stage performance, where they finished with nine points and a +7 goal difference. The momentum gained from this win propelled them through a successful knockout run, eventually leading them to a semifinal clash against England."
+        "Argentina continued their impressive form in the group stage by shutting out Austria 2-0. This result proved pivotal in establishing Argentina as the dominant force in Group J, as they ultimately swept all three of their group matches with a combined goal difference of plus-seven.",
+        "For Austria, the loss forced them to battle for positioning for the remainder of the group stage. Despite the setback against the eventual group winners, Austria managed to secure enough points to advance to the knockout rounds, where they were eventually eliminated by Spain.",
+        "Argentina's clinical performance in this match set the tone for a deep tournament run. Their momentum carried them through the Round of 32, the Round of 16, and the quarterfinals, eventually leading them to a high-stakes semifinal showdown against England."
       ],
       "bullets": [
-        "Argentina maintained their perfect record in Group J with this victory.",
-        "The result helped Argentina secure the top spot in the group, while Austria advanced as the runner-up."
+        "Argentina finished atop Group J with a perfect 9 points from 3 matches.",
+        "The 2-0 win was part of a dominant group campaign where Argentina scored 8 goals while conceding only once.",
+        "Austria advanced to the knockout stage despite this defeat, finishing with 4 points in the group."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:46:27+00:00",
-      "sourceHash": "1fc46d8b18adeacd",
+      "updatedAt": "2026-07-15T19:58:44+00:00",
+      "sourceHash": "415368817b6a0767",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -440,20 +441,21 @@
       "refreshReason": "source or prompt changed"
     },
     "46": {
-      "headline": "England and Ghana play to scoreless stalemate",
-      "summary": "England and Ghana finished in a 0-0 draw, leaving both teams to fight for their tournament lives in the final matchday of Group L.",
+      "headline": "England and Ghana Battle to Scoreless Draw",
+      "summary": "England and Ghana played to a 0-0 draw in their Group L match, leaving both sides to fight for positioning in their final group fixtures.",
       "story": [
-        "The 0-0 result between England and Ghana in their second group match proved to be a defensive battle where neither side could find the breakthrough. For England, the draw was a slight stumble after their high-scoring opening win against Croatia, while Ghana fought hard to keep their hopes of advancing alive.",
-        "This result tightened the Group L standings, forcing both teams to look toward their final group fixtures with urgency. England eventually navigated their way out of the group with 7 points, while Ghana finished with 4 points, eventually moving on to the knockout stages as one of the best third-placed teams."
+        "The Group L encounter between England and Ghana ended in a stalemate, with neither side able to break the deadlock. The defensive effort from both teams neutralized potential scoring opportunities, resulting in a scoreless draw that kept the group standings tight.",
+        "For England, the result was a departure from their high-scoring opening match against Croatia. Despite the lack of goals, the point helped solidify their standing as they looked ahead to their final group stage match against Panama.",
+        "Ghana showed resilience in holding off England, securing a valuable point that kept them in contention within a competitive group. This draw forced Ghana to remain focused on their final fixture against Croatia to determine their path forward in the tournament.",
+        "Following this match, both teams continued their campaigns with varying degrees of success. England eventually navigated their way through the knockout stages, while Ghana's group performance ultimately led them to a Round of 32 matchup against Colombia."
       ],
       "bullets": [
-        "England secured the top spot in Group L with 7 points after three matches.",
-        "Ghana finished the group stage with 4 points, eventually qualifying for the Round of 32.",
-        "The match was a rare scoreless affair in a group that saw England score 6 goals in total."
+        "The 0-0 result marked the only match in Group L where neither team found the back of the net.",
+        "England finished the group stage at the top of the table with 7 points, while Ghana concluded with 4 points."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:46:19+00:00",
-      "sourceHash": "efcf4c8d6ca98fa0",
+      "updatedAt": "2026-07-15T19:58:36+00:00",
+      "sourceHash": "f9d16f74b91796d9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -866,21 +868,21 @@
       "refreshReason": "source or prompt changed"
     },
     "67": {
-      "headline": "England secures top spot in Group L with win over Panama",
-      "summary": "Final: Panama 0, England 2. England defeated Panama 2-0 in their final group stage match, successfully clinching first place in Group L.",
+      "headline": "England Clinches Top Spot in Group L with Win Over Panama",
+      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama to finish their group stage campaign undefeated and at the top of the standings.",
       "story": [
-        "England finished their group stage campaign on a high note, dispatching Panama 2-0 to confirm their position at the top of the standings. The victory ensured they navigated the group stage with seven points, maintaining an unbeaten record after their earlier win against Croatia and a draw with Ghana.",
-        "For Panama, the result concluded a difficult tournament run. Despite their efforts, they were unable to find the back of the net in any of their three group matches, finishing at the bottom of the table without a point.",
-        "With the group stage now in the rearview mirror, England moved forward with momentum. Their strong performance in Group L paved the way for a successful knockout stage run, eventually leading them to a high-stakes semifinal showdown against Argentina."
+        "England maintained their composure to navigate through Group L, capping off the group stage with a clinical 2-0 win against Panama. By controlling the tempo and limiting Panama's opportunities, England solidified their position at the top of the table with seven points from three matches.",
+        "For Panama, the result marked the end of a challenging tournament run. Despite their defensive efforts throughout the group stage, they were unable to find the back of the net in any of their three fixtures, finishing at the bottom of the group without a point.",
+        "This victory served as a crucial springboard for England, who used the momentum from this group-topping performance to fuel a deep run into the knockout stages. Their consistency in Group L proved to be the foundation for their subsequent success in the tournament."
       ],
       "bullets": [
-        "England topped Group L with 7 points, followed by Croatia with 6.",
-        "Panama exited the tournament after three group matches, scoring 0 goals.",
-        "England's victory solidified their path through the knockout bracket."
+        "England finished Group L undefeated with 7 points, scoring 6 goals and conceding only 2.",
+        "Panama concluded their tournament campaign without a point or a goal scored.",
+        "The win allowed England to advance as the group winner, setting up a successful path through the knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:46:03+00:00",
-      "sourceHash": "c07399b4375da2c8",
+      "updatedAt": "2026-07-15T19:58:28+00:00",
+      "sourceHash": "22921aadff825b65",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -970,21 +972,20 @@
     },
     "72": {
       "headline": "Argentina Sweeps Group J with Win Over Jordan",
-      "summary": "Final: Jordan 1, Argentina 3. Argentina finished their group stage campaign with a perfect record after defeating Jordan 3-1.",
+      "summary": "Final: Jordan 1, Argentina 3. Argentina secured a perfect group stage record by defeating Jordan 3-1 in their final Group J match.",
       "story": [
-        "Argentina maintained their dominance in Group J by securing a 3-1 victory against Jordan in their final group stage match. This result cemented Argentina's place at the top of the table with nine points from three matches, having conceded only a single goal throughout the group phase.",
-        "For Jordan, the match marked the end of a challenging tournament run. Despite their efforts, they finished at the bottom of the group with zero points, having struggled to find results against a highly competitive field that included Austria and Algeria.",
-        "Argentina's momentum from this group stage success proved to be a catalyst for their subsequent tournament progression. Following this victory, they navigated through the knockout rounds, defeating Cabo Verde, Egypt, and Switzerland to earn a spot in the semifinals against England.",
-        "The 3-1 scoreline reflected the clinical nature of Argentina's play during the group stage. Having established themselves as a formidable force, they now look ahead to their high-stakes semifinal showdown."
+        "Argentina closed out their group stage campaign with a dominant 3-1 victory over Jordan, cementing their position at the top of the table with nine points from three matches. The result ensured a clean sweep for the group winners, who demonstrated their quality throughout the opening phase of the tournament.",
+        "For Jordan, the match marked the end of a challenging group stage journey. Despite a spirited effort, they finished at the bottom of Group J without a point, having faced tough competition from Argentina, Austria, and Algeria.",
+        "This victory served as a springboard for Argentina, who carried their momentum deep into the knockout rounds. Following this group stage success, they navigated a path through the Round of 32, Round of 16, and the quarterfinals before reaching the semifinals."
       ],
       "bullets": [
-        "Argentina finished Group J with a perfect 3-0-0 record and a +7 goal difference.",
-        "Jordan concluded their tournament campaign after three hard-fought group stage matches.",
-        "Argentina's victory set the stage for a successful knockout run, leading them to a semifinal appearance."
+        "Argentina finished Group J with a perfect 3-0-0 record.",
+        "Jordan concluded their tournament run with three losses in Group J.",
+        "Argentina outscored their group opponents by a total of 8-1."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:45:55+00:00",
-      "sourceHash": "8ac6b77cb4c6ed53",
+      "updatedAt": "2026-07-15T19:58:21+00:00",
+      "sourceHash": "747041d99ef68a7f",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1032,21 +1033,19 @@
     },
     "22": {
       "headline": "England Opens Group L with High-Scoring Win Over Croatia",
-      "summary": "England defeated Croatia 4-2 in their opening Group L match, setting the tone for their successful run through the tournament.",
+      "summary": "England secured a 4-2 victory over Croatia in their opening match of the tournament.",
       "story": [
-        "England secured a decisive 4-2 victory against Croatia in their first group stage outing. The result provided an immediate boost to England's goal difference, which proved valuable as they navigated their way to the top of Group L.",
-        "For Croatia, the loss forced them to play catch-up for the remainder of the group stage. While they managed to secure wins against Panama and Ghana later on, the early defeat to England ultimately left them trailing in the final standings.",
-        "England's momentum from this opening win carried them through the group phase, where they remained undefeated. Their strong start helped them secure a path that eventually led to a semifinal matchup against Argentina.",
-        "Croatia's tournament journey concluded in the Round of 32 after a 2-1 defeat to Portugal, following their second-place finish in the group behind England."
+        "England kicked off their Group L campaign with an offensive display, putting four goals past Croatia in a 4-2 result. The win provided an immediate boost to their goal difference and established them as the team to beat in the group standings.",
+        "For Croatia, the loss meant they had to play catch-up for the remainder of the group stage. While they managed to secure six points from their three matches, this opening defeat put them on the back foot early on.",
+        "This match set the tone for England's successful run through the group stage and into the knockout rounds, where they eventually advanced deep into the tournament. Croatia, meanwhile, concluded their journey in the Round of 32 after a narrow defeat to Portugal."
       ],
       "bullets": [
-        "England finished at the top of Group L with 7 points, while Croatia took second place with 6 points.",
-        "The 4-2 scoreline represented the highest-scoring match for either team during their group stage campaigns.",
-        "England went on to reach the semifinals, while Croatia's campaign ended in the Round of 32."
+        "England finished at the top of Group L with 7 points from their three matches.",
+        "The 4-2 scoreline was the highest-scoring match in Group L."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:46:43+00:00",
-      "sourceHash": "3fb13fb090dc2d08",
+      "updatedAt": "2026-07-15T19:58:52+00:00",
+      "sourceHash": "b9ef30317556e068",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1091,20 +1090,20 @@
     },
     "19": {
       "headline": "Argentina Dominates Algeria in Group J Opener",
-      "summary": "Argentina secured a decisive 3-0 victory over Algeria to start their Group J campaign with maximum momentum.",
+      "summary": "Argentina opened their tournament campaign with a decisive 3-0 victory over Algeria.",
       "story": [
-        "Argentina opened their tournament account with a statement win, comfortably dispatching Algeria 3-0. The result set the tone for a dominant group stage performance where they finished with a perfect nine points and a plus-seven goal difference.",
-        "For Algeria, the loss created an immediate uphill battle in a competitive group. While they managed to secure a draw against Austria later in the group stage, the opening defeat left them with little margin for error as they eventually bowed out of the tournament in the Round of 32.",
-        "Argentina's clinical display in this match served as the foundation for a deep tournament run. Following their clean sheet against Algeria, they continued to find success through the knockout rounds, eventually advancing all the way to a semifinal showdown against England."
+        "Argentina asserted their authority in Group J from the very first match, comfortably handling Algeria with a 3-0 scoreline. The result set the tone for an impressive group stage run where they eventually finished with a perfect nine points.",
+        "For Algeria, the loss forced them into a difficult position early on. While they managed to secure four points through their remaining group matches, the heavy defeat in the opener significantly impacted their goal difference.",
+        "This victory served as the catalyst for Argentina's deep tournament run. Following this win, they maintained their momentum through the group stage and navigated several high-stakes knockout matches to reach the semifinals."
       ],
       "bullets": [
-        "Argentina maintained a perfect record in Group J, winning all three of their group matches.",
-        "The 3-0 victory provided Argentina with a significant goal-difference advantage that helped them secure the top spot in the group.",
-        "Following this defeat, Algeria struggled to find defensive consistency, eventually exiting the tournament after a loss to Switzerland in the Round of 32."
+        "Argentina finished atop Group J with a perfect 3-0-0 record and a +7 goal differential.",
+        "The 3-0 win provided Argentina with the momentum needed to secure victories in every subsequent knockout match through the quarterfinals.",
+        "Algeria ultimately advanced to the Round of 32 as one of the best third-placed teams before being eliminated."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:46:51+00:00",
-      "sourceHash": "b3da715086589164",
+      "updatedAt": "2026-07-15T19:58:59+00:00",
+      "sourceHash": "48b6e23a2f484890",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1594,20 +1593,21 @@
     },
     "80": {
       "headline": "England Advances Past Congo DR in Round of 32",
-      "summary": "England secured their spot in the Round of 16 with a hard-fought 2-1 victory over Congo DR.",
+      "summary": "England secured their spot in the next round with a hard-fought 2-1 victory over Congo DR.",
       "story": [
-        "England successfully navigated their Round of 32 matchup against Congo DR, claiming a 2-1 win to keep their tournament dreams alive. As the winners of Group L, England entered the knockout phase with momentum, and this result proved they could handle the pressure of a single-elimination fixture.",
-        "Congo DR proved to be a resilient opponent, pushing England throughout the match. However, England's ability to find the necessary goals ensured they avoided an early exit and moved forward in the bracket.",
-        "With this victory, England continued their progression through the tournament. Following this win, they went on to defeat Mexico in the Round of 16 and Norway in the quarterfinals, setting up a high-stakes semifinal showdown against Argentina."
+        "England successfully navigated their Round of 32 tie against Congo DR, emerging with a 2-1 win to keep their tournament run alive. The victory required a disciplined performance to break down a resilient opponent and move deeper into the knockout bracket.",
+        "Coming into this match as the winners of Group L, England maintained their momentum following a group stage campaign that saw them go unbeaten. This result served as a crucial step, ensuring they avoided an early exit after their solid initial performances against Croatia, Ghana, and Panama.",
+        "For Congo DR, the loss marks the end of their tournament journey. They entered the knockout stage as one of the best third-placed teams from their respective group, but ultimately could not overcome the challenge posed by England in this high-stakes encounter.",
+        "With this win, England progressed to the Round of 16, where they faced Mexico. The team continued to build on their form, eventually navigating through the subsequent rounds to reach the later stages of the competition."
       ],
       "bullets": [
-        "England advanced to the Round of 16 with a 2-1 win.",
-        "The victory was part of a successful run that eventually led England to the semifinals.",
-        "Congo DR entered the match as one of the best third-place teams from the group stage."
+        "England finished their group stage campaign unbeaten before securing this 2-1 victory.",
+        "The win propelled England into a Round of 16 matchup against Mexico.",
+        "Congo DR exited the tournament after qualifying for the knockout phase as a best third-placed side."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:45:48+00:00",
-      "sourceHash": "266d4f9a75bd046a",
+      "updatedAt": "2026-07-15T19:58:13+00:00",
+      "sourceHash": "e29604f45d76d556",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1731,20 +1731,21 @@
       "refreshReason": "manual match recap target"
     },
     "86": {
-      "headline": "Argentina Survives Cabo Verde in Round of 32 Thriller",
-      "summary": "Argentina secured their place in the next round by narrowly defeating Cabo Verde with a 3-2 victory.",
+      "headline": "Argentina Advances Past Cabo Verde in Thriller",
+      "summary": "Argentina secured a narrow 3-2 victory over Cabo Verde in their Round of 32 matchup to keep their tournament run alive.",
       "story": [
-        "This win was a vital step for Argentina, who entered the knockout phase after an impressive run in Group J where they remained undefeated. Their ability to find the back of the net three times proved decisive against a Cabo Verde team that had shown defensive discipline throughout the group stage.",
-        "Following this victory, Argentina advanced to the Round of 16 to face Egypt. The squad's consistent offensive output has been a hallmark of their campaign, and they carried that confidence forward into the subsequent matches of their tournament run."
+        "Argentina continued their momentum in the knockout stages with a hard-fought 3-2 win against Cabo Verde. Entering the match as the winners of Group J, Argentina maintained their offensive form throughout the tournament, having previously dispatched Algeria, Austria, and Jordan in the group phase.",
+        "Cabo Verde proved to be a formidable opponent, pushing Argentina to the limit in this Round of 32 clash. Despite a strong defensive showing throughout their group stage campaign, where they held Spain and Saudi Arabia to scoreless draws, Cabo Verde could not contain the Argentine attack long enough to force an upset.",
+        "With this result, Argentina successfully navigated the first hurdle of the knockout rounds. The win propelled them forward to a Round of 16 encounter against Egypt, marking the next step in what has been a high-scoring journey through the tournament bracket."
       ],
       "bullets": [
-        "Argentina maintained their winning streak by edging out Cabo Verde 3-2.",
-        "The victory propelled Argentina into a Round of 16 matchup against Egypt.",
-        "Argentina's offense remained potent, scoring three goals for the fourth time in the tournament."
+        "Argentina extended their winning streak to four consecutive matches including the group stage.",
+        "Cabo Verde exited the tournament after a resilient performance, having remained unbeaten in their three group stage fixtures.",
+        "The 3-2 scoreline marked the highest-scoring game for Argentina in the tournament up to that point."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:45:32+00:00",
-      "sourceHash": "770e2649038f8804",
+      "updatedAt": "2026-07-15T19:58:05+00:00",
+      "sourceHash": "4c9d800f94ee6131",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1827,21 +1828,20 @@
     },
     "92": {
       "headline": "England Edges Mexico in Thrilling Round of 16 Encounter",
-      "summary": "Final: Mexico 2, England 3. England secured a hard-fought 3-2 victory over Mexico to advance to the quarterfinals.",
+      "summary": "Final: Mexico 2, England 3. England defeated Mexico 3-2 in a high-stakes Round of 16 knockout match.",
       "story": [
-        "England emerged victorious in a high-scoring Round of 16 clash against Mexico, ending the host nation's tournament run with a 3-2 result. The match proved to be a significant test for both sides, requiring offensive precision to break through in the knockout stage.",
-        "For Mexico, the defeat marked the end of a strong campaign that saw them navigate through Group A undefeated and secure a convincing win over Ecuador in the previous round. Despite their efforts, they were unable to overcome the English attack in this decisive fixture.",
-        "England's win propelled them forward in the bracket, setting up a subsequent quarterfinal matchup against Norway. This victory maintained England's momentum following their narrow win over Congo DR in the Round of 32.",
-        "The result solidifies England's path toward the latter stages of the tournament, keeping their championship aspirations alive as they prepare for their next challenge."
+        "England secured their place in the next round by overcoming Mexico in a competitive 3-2 victory. The win marked a significant hurdle for the English side, who had to navigate a challenging knockout environment to advance.",
+        "For Mexico, the result brought an end to their tournament run. Having navigated the group stage and a Round of 32 victory over Ecuador, they ultimately could not contain the English attack in this decisive fixture.",
+        "With this result, England moved forward in the bracket, eventually setting up a path that led them to a quarterfinal victory against Norway and a subsequent semifinal appearance."
       ],
       "bullets": [
-        "England's 3-2 win eliminated tournament hosts Mexico from the competition.",
-        "The victory sent England to the quarterfinals to face Norway.",
-        "England remained undefeated in the knockout rounds after previously overcoming Congo DR."
+        "England emerged victorious with a 3-2 scoreline to eliminate Mexico.",
+        "The match served as a pivotal Round of 16 knockout fixture.",
+        "England continued their tournament progress toward the quarterfinals and semifinals following this win."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:45:25+00:00",
-      "sourceHash": "e6b0523a8c02a3e2",
+      "updatedAt": "2026-07-15T19:57:57+00:00",
+      "sourceHash": "d5d70d3f25269669",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1885,22 +1885,22 @@
       "refreshReason": "past 5 days"
     },
     "95": {
-      "headline": "Argentina Edges Past Egypt in Thrilling Round of 16 Clash",
-      "summary": "Argentina secured their spot in the quarterfinals with a hard-fought 3-2 victory over Egypt.",
+      "headline": "Argentina Edges Egypt in Thrilling Round of 16 Encounter",
+      "summary": "Argentina secured a hard-fought 3-2 victory over Egypt to advance deeper into the knockout stage.",
       "story": [
-        "Argentina continued their momentum in the tournament by overcoming a resilient Egypt side in a five-goal thriller. The victory keeps their campaign alive as they navigate the pressure of the knockout stages.",
-        "This match proved to be another narrow escape for Argentina, who have now won back-to-back knockout games by a single-goal margin. Their ability to find the net consistently has been the hallmark of their run, having scored three goals in every match since the group stage opener.",
-        "For Egypt, the defeat marks the end of a gritty tournament run that saw them navigate a tough group and a penalty shootout victory against Australia in the previous round. They pushed Argentina to the limit, but ultimately fell just short of advancing to the final eight.",
-        "With this result, Argentina moves on to face Switzerland in the quarterfinals. Having maintained their offensive form throughout the tournament, they will look to carry this momentum into their next challenge."
+        "Argentina continued their momentum in the tournament with a narrow 3-2 win against Egypt in the Round of 16. The match proved to be a high-scoring affair that tested the defensive resolve of both sides, ultimately seeing Argentina emerge as the victors in a back-and-forth contest.",
+        "For Argentina, this result marked another step in a successful campaign that saw them navigate through Group J with a perfect record before surviving consecutive high-pressure knockout matches. Their ability to consistently find the back of the net has been a hallmark of their performance throughout the tournament.",
+        "Egypt exits the competition after a resilient run. Having navigated a tough group stage and overcoming Australia in a penalty shootout in the Round of 32, they pushed Argentina to the limit before falling just short of a spot in the quarterfinals.",
+        "With this win, Argentina moved forward to face Switzerland in the quarterfinals, continuing their quest for the title. The result underscores the fine margins in the knockout rounds, where Argentina's attacking depth proved decisive once again."
       ],
       "bullets": [
-        "Argentina has scored exactly three goals in four of their five matches played so far.",
-        "The 3-2 result marks Argentina's second consecutive one-goal victory in the knockout phase.",
-        "Egypt exits the tournament after a competitive performance, following their penalty shootout win in the Round of 32."
+        "Argentina maintained their winning streak in the knockout phase with a 3-2 victory.",
+        "Egypt's tournament run ended after a competitive showing in the Round of 16.",
+        "Argentina advanced to a quarterfinal matchup against Switzerland."
       ],
       "sections": [],
-      "updatedAt": "2026-07-12T04:45:17+00:00",
-      "sourceHash": "65187e2c073cfbfc",
+      "updatedAt": "2026-07-15T19:57:50+00:00",
+      "sourceHash": "75b5de563eb9e86a",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1967,44 +1967,44 @@
       "refreshReason": "source or prompt changed"
     },
     "99": {
-      "headline": "England Advances to Semifinals After Defeating Norway",
-      "summary": "Final: Norway 1, England 2. England secured a hard-fought 2-1 victory over Norway in the quarterfinals to move on to the next stage of the tournament.",
+      "headline": "England Advances to Semifinals After Narrow Win Over Norway",
+      "summary": "Final: Norway 1, England 2. England secured a 2-1 victory over Norway in the quarterfinals, punching their ticket to the next round.",
       "story": [
-        "England continued their impressive run in the knockout stages by edging past Norway in a tightly contested quarterfinal match. The 2-1 result saw England overcome a resilient Norwegian side that had previously taken down Brazil in the Round of 16.",
-        "For Norway, the defeat marks the end of a tournament journey that saw them battle through a difficult group and secure consecutive knockout wins against Ivory Coast and Brazil. Despite their efforts, they could not find the breakthrough needed to overcome England's defensive structure.",
-        "With this win, England moves forward to a high-stakes semifinal showdown against Argentina. Having navigated a challenging path that included a victory over Mexico in the previous round, England will now look to carry this momentum into their next fixture on July 15."
+        "England continued their resilient run in the tournament with a hard-fought 2-1 win against Norway. The victory was the culmination of a high-stakes knockout encounter that saw both sides push for control throughout the match.",
+        "For Norway, the defeat marks the end of an impressive journey that included consecutive knockout victories over Ivory Coast and Brazil. Despite their momentum, they were unable to overcome the English side in this quarterfinal clash.",
+        "England\u2019s path to this stage has been defined by narrow margins, including a dramatic 3-2 win over Mexico in the Round of 16. Their consistency in tight matches has been a hallmark of their campaign.",
+        "With this result, England moves on to the semifinals, where they are set to face Argentina. The win keeps their tournament hopes alive as they look toward the final stages of the competition."
       ],
       "bullets": [
-        "England remains unbeaten in the knockout rounds following their 2-1 win.",
-        "Norway exits the tournament after a strong run, including a notable victory over Brazil in the Round of 16.",
-        "England will face Argentina in the semifinals."
+        "England secured the 2-1 result to eliminate Norway from the quarterfinals.",
+        "England advances to face Argentina in the upcoming semifinal match.",
+        "Norway\u2019s tournament run concludes after notable wins in the previous two knockout rounds."
       ],
       "sections": [],
-      "updatedAt": "2026-07-15T08:57:39+00:00",
-      "sourceHash": "afee15f023ea5a34",
+      "updatedAt": "2026-07-15T19:57:42+00:00",
+      "sourceHash": "8cd04e915224d8cb",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "100": {
-      "headline": "Argentina Advances to Semifinals After Defeating Switzerland",
-      "summary": "Argentina secured a 3-1 victory over Switzerland in the quarterfinals to move on to the next round.",
+      "headline": "Argentina advances to semifinals after clinical win over Switzerland",
+      "summary": "Argentina secured their spot in the semifinals with a decisive 3-1 victory over Switzerland in the quarterfinals.",
       "story": [
-        "Argentina continued their high-scoring run in the knockout stages by defeating Switzerland 3-1. This result keeps their momentum alive after a series of tight contests in the Round of 32 and Round of 16, where they consistently found the back of the net three times in each match.",
-        "For Switzerland, the quarterfinal exit brings an end to a resilient campaign that included a dramatic penalty shootout victory over Colombia in the previous round. Despite their defensive efforts, they were unable to contain the Argentine attack in this matchup.",
-        "With this victory, Argentina now turns their attention to a high-stakes semifinal showdown against England. Having navigated a challenging path through the knockout bracket, the team will look to maintain their offensive form as they aim for a spot in the final."
+        "Argentina continued their high-scoring form in the knockout stages, dispatching Switzerland 3-1 to move one step closer to the final. The victory maintained their momentum following a series of tight, high-scoring affairs in both the Round of 32 and the Round of 16.",
+        "For Switzerland, the result brings an end to a resilient tournament run that saw them navigate the group stage and survive a nerve-wracking penalty shootout against Colombia in the previous round. Despite their defensive organization, they were unable to contain the Argentine attack in this quarterfinal clash."
       ],
       "bullets": [
-        "Argentina has scored exactly three goals in each of their three knockout matches so far.",
-        "The victory sets up a semifinal clash between Argentina and England.",
-        "Switzerland exits the tournament after a quarterfinal run that saw them overcome Colombia on penalties."
+        "Argentina extended their winning streak in the knockout phase, having scored at least three goals in every match since the Round of 32.",
+        "Switzerland's tournament run concludes after a quarterfinal exit, following their hard-fought penalty shootout victory over Colombia in the Round of 16.",
+        "The result set up a high-stakes semifinal showdown between Argentina and England."
       ],
       "sections": [],
-      "updatedAt": "2026-07-15T08:57:31+00:00",
-      "sourceHash": "cfad67b1eab6139b",
+      "updatedAt": "2026-07-15T19:57:34+00:00",
+      "sourceHash": "57105c177078dfd5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "past 5 days"
+      "refreshReason": "source or prompt changed"
     },
     "101": {
       "headline": "Spain Advances to Final After Defeating France",
@@ -2025,6 +2025,27 @@
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
+    },
+    "102": {
+      "headline": "England and Argentina battle to a scoreless stalemate",
+      "summary": "England and Argentina finished in a 0-0 draw, leaving the semifinal outcome hanging in the balance.",
+      "story": [
+        "The highly anticipated semifinal clash between England and Argentina ended in a 0-0 deadlock, as neither side could find the breakthrough in a tightly contested match.",
+        "England entered this stage after a hard-fought 2-1 victory over Norway in the quarterfinals, while Argentina arrived following a decisive 3-1 win against Switzerland.",
+        "Both teams have demonstrated significant attacking form throughout the tournament, but defensive discipline took center stage in this encounter.",
+        "With the scoreline level, both squads must now look toward the next phase of the competition as they navigate the pressure of the knockout rounds."
+      ],
+      "bullets": [
+        "The match concluded with a 0-0 scoreline, keeping the semifinal tie perfectly balanced.",
+        "England reached this point by winning every knockout match since the group stage, including a 3-2 victory over Mexico in the Round of 16.",
+        "Argentina maintained a consistent scoring streak throughout their journey to the semifinals, netting at least two goals in every previous match of the tournament."
+      ],
+      "sections": [],
+      "updatedAt": "2026-07-15T19:59:07+00:00",
+      "sourceHash": "79895cd5f2435ae5",
+      "promptHash": "461e53f9b222efa8",
+      "model": "gemini-3.1-flash-lite",
+      "refreshReason": "live or in-progress match"
     }
   },
   "groups": {

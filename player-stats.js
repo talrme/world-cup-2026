@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-15T18:42:59+00:00",
+  "generatedAt": "2026-07-15T19:56:53+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -33,9 +33,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 2,
       "points": 10,
       "matches": 7,
-      "minutes": 602,
-      "goalsPer90": 1.2,
-      "pointsPer90": 1.5
+      "minutes": 651,
+      "goalsPer90": 1.1,
+      "pointsPer90": 1.4
     },
     {
       "rank": 3,
@@ -59,9 +59,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 7,
       "matches": 7,
-      "minutes": 572,
+      "minutes": 620,
       "goalsPer90": 0.9,
-      "pointsPer90": 1.1
+      "pointsPer90": 1.0
     },
     {
       "rank": 5,
@@ -72,9 +72,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 7,
       "matches": 7,
-      "minutes": 624,
-      "goalsPer90": 0.9,
-      "pointsPer90": 1.0
+      "minutes": 672,
+      "goalsPer90": 0.8,
+      "pointsPer90": 0.9
     },
     {
       "rank": 6,
@@ -1086,8 +1086,8 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 2,
       "matches": 7,
-      "minutes": 584,
-      "goalsPer90": 0.2,
+      "minutes": 633,
+      "goalsPer90": 0.1,
       "pointsPer90": 0.3
     },
     {
@@ -1099,7 +1099,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 2,
       "matches": 7,
-      "minutes": 619,
+      "minutes": 667,
       "goalsPer90": 0.1,
       "pointsPer90": 0.3
     },
@@ -2178,25 +2178,12 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 1,
       "matches": 7,
-      "minutes": 468,
+      "minutes": 516,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
     },
     {
       "rank": 153,
-      "player": "Cristian Romero",
-      "team": "Argentina",
-      "position": "DEF",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 7,
-      "minutes": 502,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.2
-    },
-    {
-      "rank": 154,
       "player": "Yasser Ibrahim",
       "team": "Egypt",
       "position": "DEF",
@@ -2209,7 +2196,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.2
     },
     {
-      "rank": 155,
+      "rank": 154,
       "player": "Issa Diop",
       "team": "Morocco",
       "position": "DEF",
@@ -2222,10 +2209,10 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.2
     },
     {
-      "rank": 156,
-      "player": "Enzo Fernandez",
+      "rank": 155,
+      "player": "Cristian Romero",
       "team": "Argentina",
-      "position": "MID",
+      "position": "DEF",
       "goals": 1,
       "assists": 0,
       "points": 1,
@@ -2235,7 +2222,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.2
     },
     {
-      "rank": 157,
+      "rank": 156,
       "player": "Lamine Yamal",
       "team": "Spain",
       "position": "MID",
@@ -2244,6 +2231,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 1,
       "matches": 7,
       "minutes": 552,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 157,
+      "player": "Enzo Fernandez",
+      "team": "Argentina",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 7,
+      "minutes": 599,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
     },
