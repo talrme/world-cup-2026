@@ -1,5 +1,5 @@
 window.WORLD_CUP_MATCH_ODDS = {
-  "generatedAt": "2026-07-15T16:06:17+00:00",
+  "generatedAt": "2026-07-15T17:35:38+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -12,7 +12,7 @@ window.WORLD_CUP_MATCH_ODDS = {
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760515/",
-      "asOf": "2026-07-15T16:06:17+00:00",
+      "asOf": "2026-07-15T17:35:38+00:00",
       "espnEventId": "760515",
       "outcomes": [
         {
@@ -20,23 +20,23 @@ window.WORLD_CUP_MATCH_ODDS = {
           "label": "England",
           "american": 165,
           "rawProbability": 0.37735849056603776,
-          "advanceProbability": 0.5309734513274336
+          "advanceProbability": 0.5350877192982456
         },
         {
           "key": "away",
           "label": "Argentina",
-          "american": 200,
-          "rawProbability": 0.3333333333333333,
-          "advanceProbability": 0.4690265486725663
+          "american": 205,
+          "rawProbability": 0.32786885245901637,
+          "advanceProbability": 0.46491228070175433
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 190,
-        "rawProbability": 0.3448275862068966
+        "american": 185,
+        "rawProbability": 0.3508771929824561
       },
-      "rawTeamTotal": 0.7106918238993711,
-      "rawMarketTotal": 1.0555194101062677
+      "rawTeamTotal": 0.7052273430250542,
+      "rawMarketTotal": 1.0561045360075103
     }
   }
 };
