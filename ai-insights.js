@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-15T22:19:51+00:00",
+  "generatedAt": "2026-07-16T21:41:18+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1999,23 +1999,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "101": {
-      "headline": "Spain Secures Final Berth with Semifinal Victory Over France",
-      "summary": "Final: France 0, Spain 2. Spain defeated France 2-0 in the semifinals to advance to the World Cup final.",
+      "headline": "Spain Advances to Final After Defeating France",
+      "summary": "Final: France 0, Spain 2. Spain secured their place in the World Cup final with a decisive 2-0 victory over France in the semifinals.",
       "story": [
-        "Spain booked their place in the tournament final with a clinical 2-0 victory over France. The result ended France's impressive run through the knockout stages, where they had previously navigated past Sweden, Paraguay, and Morocco without conceding a goal.",
-        "For Spain, the win continues a resilient campaign that saw them overcome narrow margins against Portugal and Belgium in the preceding knockout rounds. Their ability to maintain defensive discipline while finding the necessary goals has been the hallmark of their path to the championship match.",
-        "With this victory, Spain now prepares for the final against Argentina. Meanwhile, France will turn their focus toward the third-place match, where they are scheduled to face England."
+        "Spain continued their impressive run in the tournament, moving past France with a 2-0 scoreline to punch their ticket to the championship match. The victory marks a significant achievement for the squad, who successfully navigated a challenging knockout path to reach the final.",
+        "For France, the result brings an end to their pursuit of the title in this fixture. They will now shift their focus to the third-place match, where they are scheduled to face England as they look to conclude their tournament campaign on a positive note.",
+        "Spain now looks ahead to the final, where they are set to meet Argentina. Having demonstrated consistency throughout the knockout rounds, Spain heads into the ultimate stage of the competition with momentum behind them."
       ],
       "bullets": [
-        "Spain advanced to the final to face Argentina after a 2-0 win.",
-        "France will compete in the third-place match against England."
+        "Spain earned a spot in the final against Argentina following their 2-0 win.",
+        "France moves to the third-place match to play against England."
       ],
       "sections": [],
-      "updatedAt": "2026-07-15T21:12:17+00:00",
+      "updatedAt": "2026-07-16T21:41:18+00:00",
       "sourceHash": "60fc33eb5cd24f5c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "102": {
       "headline": "Argentina Advances to Final After Hard-Fought Semifinal Victory",
