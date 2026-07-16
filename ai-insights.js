@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-16T21:41:18+00:00",
+  "generatedAt": "2026-07-16T22:43:11+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -1979,24 +1979,23 @@ window.WORLD_CUP_AI_INSIGHTS = {
     },
     "100": {
       "headline": "Argentina Advances to Semifinals After Defeating Switzerland",
-      "summary": "Argentina secured their spot in the semifinals with a decisive 3-1 victory over Switzerland.",
+      "summary": "Argentina secured their spot in the semifinals with a 3-1 victory over Switzerland in the quarterfinals.",
       "story": [
-        "Argentina continued their impressive run in the tournament by overcoming Switzerland 3-1 in the quarterfinals. The victory maintained their momentum following a series of high-scoring knockout matches, including narrow wins over Cabo Verde and Egypt in the previous rounds.",
-        "Switzerland arrived at this stage after a grueling Round of 16 match against Colombia, which they survived via a penalty shootout. However, they were unable to replicate that defensive resilience against an Argentinian side that proved clinical in front of goal throughout the match.",
-        "With this result, Argentina moved forward to face England in the semifinals. The win solidified their status as a major contender, having now navigated five consecutive knockout-round victories since the start of the tournament.",
-        "For Switzerland, the loss concludes a tournament run that saw them remain unbeaten in Group B and successfully navigate their opening knockout fixture before falling to the eventual semifinalists."
+        "Argentina continued their impressive run in the tournament, overcoming Switzerland 3-1 to move into the final four. The victory served as a testament to their attacking consistency, as they once again found the back of the net three times in a single match.",
+        "For Switzerland, the quarterfinal exit brings an end to a resilient campaign that saw them navigate a tough group stage and a tense penalty shootout victory against Colombia in the previous round. Despite their defensive efforts, they were unable to contain the Argentine momentum.",
+        "With this result, Argentina moved forward to face England in the semifinals. Their path to this stage has been marked by high-scoring affairs, having scored three goals in both their Round of 32 and Round of 16 matches before repeating the feat against the Swiss."
       ],
       "bullets": [
-        "Argentina scored three goals to overcome Switzerland's defensive challenge.",
-        "The victory set up a semifinal showdown between Argentina and England.",
-        "Argentina extended their winning streak in the knockout phase to three consecutive matches."
+        "Argentina reached the semifinals with a clinical 3-1 win.",
+        "This match marked the end of Switzerland's tournament run after their Round of 16 penalty shootout success.",
+        "Argentina advanced to face England in the next stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-15T22:18:11+00:00",
+      "updatedAt": "2026-07-16T22:43:11+00:00",
       "sourceHash": "1a2d0d5cce628a12",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "101": {
       "headline": "Spain Advances to Final After Defeating France",
@@ -2018,25 +2017,25 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "102": {
-      "headline": "Argentina Advances to Final After Hard-Fought Semifinal Victory",
-      "summary": "Final: England 1, Argentina 2. Argentina secured their place in the World Cup final with a 2-1 victory over England in the semifinals.",
+      "headline": "Argentina Advances to Final After Hard-Fought Semifinal Win",
+      "summary": "Final: England 1, Argentina 2. Argentina secured a spot in the World Cup final with a 2-1 victory over England in the semifinals.",
       "story": [
-        "Argentina continued their impressive tournament run by overcoming England in a tense semifinal encounter. The 2-1 result ensures their progression to the championship match, where they will face Spain for the title.",
-        "For England, the loss brings an end to a resilient campaign that saw them navigate through a challenging group stage and knockout victories against Congo DR, Mexico, and Norway. They will now shift their focus to the third-place match against France.",
-        "Argentina's path to the final has been characterized by high-scoring affairs, having navigated past Cabo Verde, Egypt, and Switzerland in the knockout rounds. This victory marks another significant step in their pursuit of the trophy.",
-        "With the final bracket now set, Argentina looks ahead to their showdown against Spain, while England prepares for one final performance in the tournament to close out their campaign."
+        "Argentina continued their impressive run through the knockout stages by edging past England in a tense semifinal encounter. The 2-1 result marks the end of England's tournament journey, as they shift their focus to the third-place match against France.",
+        "For Argentina, the victory serves as a testament to their resilience throughout the tournament. Having navigated challenging matchups against Cabo Verde and Egypt in previous rounds, they demonstrated the composure required to overcome a disciplined England side on the path to the final.",
+        "England's exit concludes a successful campaign that saw them navigate a competitive group and secure victories over Congo DR, Mexico, and Norway in the knockout rounds. They will look to regroup for their final match of the tournament.",
+        "With this result, Argentina now prepares for the ultimate challenge, as they are set to face Spain in the World Cup final."
       ],
       "bullets": [
-        "Argentina moves on to the World Cup final to play Spain.",
-        "England will compete against France in the third-place match.",
-        "Argentina maintained their winning momentum following victories in every knockout round leading to this semifinal."
+        "Argentina's 2-1 win earns them a place in the championship match against Spain.",
+        "England will face France in the third-place playoff following their semifinal exit.",
+        "Argentina maintained their winning momentum, having successfully navigated every knockout round leading to the final."
       ],
       "sections": [],
-      "updatedAt": "2026-07-15T22:18:03+00:00",
+      "updatedAt": "2026-07-16T22:43:03+00:00",
       "sourceHash": "37d95747df3eaf43",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     }
   },
   "groups": {
