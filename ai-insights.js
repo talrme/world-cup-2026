@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-17T22:27:28+00:00",
+  "generatedAt": "2026-07-17T23:30:12+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2019,21 +2019,21 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "past 5 days"
     },
     "102": {
-      "headline": "Argentina Advances to Final After Hard-Fought Semifinal Win",
-      "summary": "Final: England 1, Argentina 2. Argentina secured a spot in the World Cup final with a 2-1 victory over England in the semifinals.",
+      "headline": "Argentina Advances to Final After Hard-Fought Semifinal Victory",
+      "summary": "Final: England 1, Argentina 2. Argentina secured their place in the World Cup Final with a 2-1 victory over England in the semifinals.",
       "story": [
-        "Argentina continued their impressive run through the knockout stages by edging past England in a tense semifinal encounter. The 2-1 result marks the end of England's tournament journey, as they shift their focus to the third-place match against France.",
-        "For Argentina, the victory serves as a testament to their resilience throughout the tournament. Having navigated challenging matchups against Cabo Verde and Egypt in previous rounds, they demonstrated the composure required to overcome a disciplined England side on the path to the final.",
-        "England's exit concludes a successful campaign that saw them navigate a competitive group and secure victories over Congo DR, Mexico, and Norway in the knockout rounds. They will look to regroup for their final match of the tournament.",
-        "With this result, Argentina now prepares for the ultimate challenge, as they are set to face Spain in the World Cup final."
+        "Argentina continued their impressive tournament run by overcoming England in a tense semifinal matchup. The 2-1 result keeps their championship dreams alive as they prepare to face Spain in the Final.",
+        "For England, the loss ends their pursuit of the title, shifting their focus to the Third Place match against France. The team had navigated a challenging path through the knockout rounds, including narrow victories over Mexico and Norway, but ultimately fell short against a clinical Argentine side.",
+        "Argentina's path to this stage has been defined by high-scoring affairs, having navigated past Cabo Verde, Egypt, and Switzerland in the preceding knockout rounds. Their consistency in finding the back of the net proved decisive once again in this semifinal.",
+        "With this result, the tournament bracket is now set for the final two matches. Argentina moves on to compete for the trophy, while England looks to conclude their campaign on a high note in the upcoming Third Place fixture."
       ],
       "bullets": [
-        "Argentina's 2-1 win earns them a place in the championship match against Spain.",
-        "England will face France in the third-place playoff following their semifinal exit.",
-        "Argentina maintained their winning momentum, having successfully navigated every knockout round leading to the final."
+        "Argentina advances to the Final to face Spain.",
+        "England moves to the Third Place match against France.",
+        "The 2-1 result marks the end of England's run in the semifinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-16T22:43:03+00:00",
+      "updatedAt": "2026-07-17T23:30:12+00:00",
       "sourceHash": "37d95747df3eaf43",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
