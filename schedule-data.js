@@ -3433,8 +3433,8 @@ window.WORLD_CUP_DATA = {
       "awaySource": "Loser Match 102",
       "bracketAwayTeam": "England",
       "awayRevealSource": "Loser Match 102",
-      "homeScore": 0,
-      "awayScore": 2
+      "homeScore": 2,
+      "awayScore": 4
     },
     {
       "id": 104,
@@ -3622,6 +3622,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-18T21:29:38+00:00",
+  "bracketUpdatedAt": "2026-07-18T22:27:53+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
