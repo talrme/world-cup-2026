@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-15T21:11:31+00:00",
+  "generatedAt": "2026-07-18T19:46:56+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -32,7 +32,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 8,
       "assists": 3,
       "points": 11,
-      "matches": 7,
+      "matches": 8,
       "minutes": 667,
       "goalsPer90": 1.1,
       "pointsPer90": 1.5
@@ -58,7 +58,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 6,
       "assists": 1,
       "points": 7,
-      "matches": 7,
+      "matches": 8,
       "minutes": 677,
       "goalsPer90": 0.8,
       "pointsPer90": 0.9
@@ -71,7 +71,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 6,
       "assists": 1,
       "points": 7,
-      "matches": 7,
+      "matches": 8,
       "minutes": 729,
       "goalsPer90": 0.7,
       "pointsPer90": 0.9
@@ -84,7 +84,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 5,
       "assists": 2,
       "points": 7,
-      "matches": 7,
+      "matches": 8,
       "minutes": 595,
       "goalsPer90": 0.8,
       "pointsPer90": 1.1
@@ -500,7 +500,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 2,
       "assists": 1,
       "points": 3,
-      "matches": 7,
+      "matches": 8,
       "minutes": 379,
       "goalsPer90": 0.5,
       "pointsPer90": 0.7
@@ -760,7 +760,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 3,
       "points": 4,
-      "matches": 7,
+      "matches": 8,
       "minutes": 443,
       "goalsPer90": 0.2,
       "pointsPer90": 0.8
@@ -1033,7 +1033,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 1,
       "points": 2,
-      "matches": 7,
+      "matches": 8,
       "minutes": 400,
       "goalsPer90": 0.2,
       "pointsPer90": 0.5
@@ -1618,7 +1618,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "goals": 1,
       "assists": 0,
       "points": 1,
-      "matches": 7,
+      "matches": 8,
       "minutes": 209,
       "goalsPer90": 0.4,
       "pointsPer90": 0.4
