@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T06:23:58+00:00",
+  "generatedAt": "2026-07-18T17:26:07+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
@@ -12,31 +12,31 @@
       "book": "DraftKings",
       "sourceLabel": "ESPN",
       "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760516/",
-      "asOf": "2026-07-18T06:23:58+00:00",
+      "asOf": "2026-07-18T17:26:07+00:00",
       "espnEventId": "760516",
       "outcomes": [
         {
           "key": "home",
           "label": "France",
-          "american": -115,
-          "rawProbability": 0.5348837209302325,
-          "advanceProbability": 0.667311411992263
+          "american": -120,
+          "rawProbability": 0.5454545454545454,
+          "advanceProbability": 0.6774193548387096
         },
         {
           "key": "away",
           "label": "England",
-          "american": 275,
-          "rawProbability": 0.26666666666666666,
-          "advanceProbability": 0.33268858800773693
+          "american": 285,
+          "rawProbability": 0.2597402597402597,
+          "advanceProbability": 0.3225806451612903
         }
       ],
       "draw": {
         "label": "Draw after 90 minutes",
-        "american": 295,
-        "rawProbability": 0.25316455696202533
+        "american": 300,
+        "rawProbability": 0.25
       },
-      "rawTeamTotal": 0.8015503875968992,
-      "rawMarketTotal": 1.0547149445589246
+      "rawTeamTotal": 0.8051948051948051,
+      "rawMarketTotal": 1.0551948051948052
     },
     "104": {
       "market": "Chance to advance",
