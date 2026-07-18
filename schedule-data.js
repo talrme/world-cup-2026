@@ -3421,7 +3421,7 @@ window.WORLD_CUP_DATA = {
       "time": "17:00",
       "home": "France",
       "away": "England",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "miami",
       "offset": "-04:00",
@@ -3433,8 +3433,8 @@ window.WORLD_CUP_DATA = {
       "awaySource": "Loser Match 102",
       "bracketAwayTeam": "England",
       "awayRevealSource": "Loser Match 102",
-      "homeScore": 2,
-      "awayScore": 4
+      "homeScore": 4,
+      "awayScore": 6
     },
     {
       "id": 104,
@@ -3622,6 +3622,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-18T22:27:53+00:00",
+  "bracketUpdatedAt": "2026-07-18T23:32:09+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };

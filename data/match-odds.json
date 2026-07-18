@@ -1,43 +1,11 @@
 {
-  "generatedAt": "2026-07-18T21:29:39+00:00",
+  "generatedAt": "2026-07-18T23:32:11+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
     "note": "Chance to advance is derived from ESPN-listed team moneylines. It is an estimate, not betting advice."
   },
   "matches": {
-    "103": {
-      "market": "Chance to advance",
-      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
-      "book": "DraftKings",
-      "sourceLabel": "ESPN",
-      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760516/",
-      "asOf": "2026-07-18T21:29:39+00:00",
-      "espnEventId": "760516",
-      "outcomes": [
-        {
-          "key": "home",
-          "label": "France",
-          "american": -145,
-          "rawProbability": 0.5918367346938775,
-          "advanceProbability": 0.7270194986072424
-        },
-        {
-          "key": "away",
-          "label": "England",
-          "american": 350,
-          "rawProbability": 0.2222222222222222,
-          "advanceProbability": 0.27298050139275765
-        }
-      ],
-      "draw": {
-        "label": "Draw after 90 minutes",
-        "american": 310,
-        "rawProbability": 0.24390243902439024
-      },
-      "rawTeamTotal": 0.8140589569160998,
-      "rawMarketTotal": 1.0579613959404899
-    },
     "104": {
       "market": "Chance to advance",
       "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
