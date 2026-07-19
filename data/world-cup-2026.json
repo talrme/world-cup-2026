@@ -3471,7 +3471,21 @@
       "bracketAwayTeam": "Argentina",
       "awayRevealSource": "Winner Match 102",
       "homeScore": 1,
-      "awayScore": 0
+      "awayScore": 0,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-19T23:34:39+00:00",
+          "title": "Spain vs Argentina Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Final",
+          "url": "https://www.youtube.com/watch?v=x-cpRHf4xd4",
+          "channel": "FOX Sports",
+          "durationText": "22 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-19T23:34:39+00:00"
+      }
     }
   ],
   "scheduleUpdatedAt": "2026-06-28T13:03:11+00:00",

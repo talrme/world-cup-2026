@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T22:33:18+00:00",
+  "generatedAt": "2026-07-19T23:36:57+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -46,17 +46,18 @@
       "headline": "Spain Dominates Saudi Arabia in 4-0 Victory",
       "summary": "Spain secured a decisive 4-0 win over Saudi Arabia, marking a significant turning point in their Group H campaign.",
       "story": [
-        "After an opening draw against Cabo Verde, Spain found their clinical edge against Saudi Arabia. The 4-0 result was a statement performance that shifted the momentum of the group and established Spain as the team to beat in the standings.",
-        "For Saudi Arabia, the match proved difficult as they struggled to contain the Spanish attack. The loss left them at the bottom of the group, making their subsequent final group match against Cabo Verde a must-win scenario to keep their tournament hopes alive.",
-        "This victory acted as the catalyst for Spain's successful run through the tournament. Following this win, they went on to defeat Uruguay and eventually navigated their way through the knockout stages to claim the World Cup title."
+        "After opening their tournament with a scoreless draw against Cabo Verde, Spain found their offensive rhythm in this Matchday 2 encounter. The 4-0 result provided a massive boost to their goal difference, effectively putting them in the driver's seat for the remainder of the group stage.",
+        "For Saudi Arabia, the loss was a difficult setback following their opening draw against Uruguay. The heavy margin of defeat placed immense pressure on their final group fixture, as they struggled to contain Spain's attack throughout the match.",
+        "This victory served as the catalyst for Spain's deep run in the tournament. By securing these three points, they built the momentum necessary to eventually top Group H and navigate through the knockout rounds all the way to the final."
       ],
       "bullets": [
-        "Spain's four-goal haul provided a massive boost to their goal difference, which proved vital for their group standing.",
-        "The result left Saudi Arabia with just two points from their first two matches, complicating their path to the knockout rounds."
+        "Spain's 4-0 win was their most emphatic performance of the group stage.",
+        "The result helped Spain finish at the top of Group H with 7 points.",
+        "Saudi Arabia finished the group stage with 2 points, failing to secure a win."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:33:02+00:00",
-      "sourceHash": "62313fd0afaf224b",
+      "updatedAt": "2026-07-19T23:36:41+00:00",
+      "sourceHash": "aaf7000073b58512",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -124,21 +125,20 @@
       "refreshReason": "source or prompt changed"
     },
     "41": {
-      "headline": "Argentina Dominates Austria in Group J",
-      "summary": "Argentina secured a commanding 2-0 victory over Austria, solidifying their position at the top of Group J.",
+      "headline": "Argentina Secures Control of Group J with Win Over Austria",
+      "summary": "Argentina defeated Austria 2-0 to maintain their perfect start in the group stage.",
       "story": [
-        "Argentina continued their strong form in the group stage by shutting down Austria in a controlled 2-0 win. This result proved critical in separating the two sides, as Argentina maintained their perfect record in the group.",
-        "For Austria, the loss meant they had to fight hard in their final group fixture to secure their path forward. The defensive discipline displayed by Argentina throughout this match was a key factor in keeping the Austrian attack scoreless.",
-        "Following this match, Argentina finished the group stage with a perfect nine points and a plus-seven goal difference. They eventually advanced through the knockout rounds all the way to the final, while Austria's tournament run concluded after their Round of 32 match against Spain."
+        "Argentina solidified their position at the top of Group J by taking a clean 2-0 victory over Austria. The result proved critical in separating the two sides, as Argentina continued to demonstrate the form that would eventually carry them deep into the tournament.",
+        "For Austria, the loss meant they had to fight hard in their remaining group fixtures, eventually finishing the group stage with four points. This match served as the second of three group games for both nations during the 2026 campaign.",
+        "Argentina's clinical performance in this encounter set the tone for their group dominance, where they ultimately finished with a perfect nine points and a plus-seven goal difference. Austria, meanwhile, remained competitive throughout the group phase despite the setback in this specific fixture."
       ],
       "bullets": [
-        "Argentina finished atop Group J with a perfect 3-0-0 record.",
-        "The 2-0 result was a vital step in Argentina's eventual run to the tournament final.",
-        "Austria moved on to a high-scoring 3-3 draw in their final group match against Algeria."
+        "Argentina finished atop Group J with 9 points after winning all three of their group matches.",
+        "Austria ended the group stage with 4 points, tied with Algeria but holding the edge on goal difference."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:32:54+00:00",
-      "sourceHash": "b0735a427ccf0535",
+      "updatedAt": "2026-07-19T23:36:33+00:00",
+      "sourceHash": "d5ebd82f6780d94d",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -803,22 +803,21 @@
       "refreshReason": "source or prompt changed"
     },
     "64": {
-      "headline": "Spain edges Uruguay to secure top spot in Group H",
-      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 to finish their group stage campaign undefeated and at the top of the standings.",
+      "headline": "Spain secures top spot in Group H with narrow win over Uruguay",
+      "summary": "Final: Uruguay 0, Spain 1. Spain defeated Uruguay 1-0 in their final group match, cementing their position at the top of the table.",
       "story": [
-        "Spain solidified their position as a tournament force by securing a narrow 1-0 victory over Uruguay in their final Group H match. The result ensured Spain finished the group stage with seven points, having conceded zero goals across their three opening fixtures.",
-        "For Uruguay, the defeat marked a difficult end to their group stage run. After drawing their first two matches against Saudi Arabia and Cabo Verde, they were unable to find a breakthrough against a disciplined Spanish side, ultimately finishing third in the group.",
-        "This win propelled Spain into the knockout rounds with significant momentum. Their defensive consistency throughout the group stage proved to be the foundation for their success, allowing them to navigate a challenging group without a single blemish on their record.",
-        "While Uruguay exited the group stage, Spain moved forward to face Austria in the Round of 32, continuing a dominant run that would eventually see them crowned champions."
+        "Spain navigated a tight contest against Uruguay to finish their group stage campaign on a high note. The 1-0 victory ensured they remained undefeated throughout the group phase, finishing with seven points and a clean defensive record.",
+        "For Uruguay, the result was a difficult end to their tournament run. Having drawn their first two matches against Saudi Arabia and Cabo Verde, they were unable to find the breakthrough needed to challenge Spain, ultimately finishing third in Group H.",
+        "Spain\u2019s performance in this match was a microcosm of their group stage consistency. By securing the win, they advanced to the knockout rounds as group winners, setting the stage for a successful tournament run that eventually saw them reach the final."
       ],
       "bullets": [
-        "Spain finished the group stage unbeaten with 7 points and a +5 goal difference.",
-        "Uruguay concluded their campaign with 2 points, failing to secure a win in their three group matches.",
-        "Spain's defense remained impenetrable throughout the group stage, keeping a clean sheet in all three games."
+        "Spain finished the group stage undefeated with 7 points and 0 goals conceded.",
+        "Uruguay concluded their campaign in third place with 2 points from three matches.",
+        "The victory allowed Spain to advance to the knockout stage as the top seed from Group H."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:32:47+00:00",
-      "sourceHash": "2bd852112397aa84",
+      "updatedAt": "2026-07-19T23:36:26+00:00",
+      "sourceHash": "7ce8c4e68ec63bc4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -969,21 +968,21 @@
       "refreshReason": "source or prompt changed"
     },
     "72": {
-      "headline": "Argentina Sweeps Group J with Win Over Jordan",
+      "headline": "Argentina Sweeps Group J with Victory over Jordan",
       "summary": "Final: Jordan 1, Argentina 3. Argentina secured a perfect group stage record by defeating Jordan 3-1 in their final Group J match.",
       "story": [
-        "Argentina maintained their dominance in Group J, finishing the group stage with a flawless 9 points after their 3-1 victory over Jordan. The win underscored Argentina's offensive efficiency, as they concluded the group phase with 8 goals scored and only 1 conceded.",
-        "For Jordan, the result marked the end of a difficult campaign, as they finished at the bottom of the group with zero points. Despite the loss, Jordan managed to find the back of the net, ending their tournament run with 3 goals scored across their three matches.",
-        "With this win, Argentina advanced to the knockout stages as the clear group winners, carrying significant momentum forward. Their performance throughout the group stage, including wins over Algeria and Austria, solidified their status as a team to watch in the subsequent rounds."
+        "Argentina maintained their dominance in Group J, capping off an undefeated group stage performance with a 3-1 win over Jordan. The result solidified Argentina's position at the top of the table with 9 points, having conceded only one goal throughout their three group matches.",
+        "For Jordan, the defeat marked the end of a challenging campaign where they finished at the bottom of the group with zero points. Despite the loss, they managed to find the back of the net, continuing a trend of competitive play seen in their previous group fixtures against Austria and Algeria.",
+        "With this victory, Argentina advanced to the knockout stages with significant momentum. Their consistent form throughout the group phase set the tone for their subsequent tournament run, which eventually saw them reach the final."
       ],
       "bullets": [
-        "Argentina finished the group stage with a perfect 3-0-0 record.",
-        "Jordan concluded their tournament campaign with three losses.",
-        "Argentina advanced to the Round of 32 as the top team in Group J."
+        "Argentina finished atop Group J with a perfect 3-0-0 record and a +7 goal difference.",
+        "Jordan concluded their tournament campaign with three losses, finishing fourth in the group.",
+        "Argentina's victory ensured they entered the knockout rounds as one of the most formidable teams in the bracket."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:32:39+00:00",
-      "sourceHash": "eb9fa63132e259de",
+      "updatedAt": "2026-07-19T23:36:18+00:00",
+      "sourceHash": "d8a3f5a4546c6c31",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1089,18 +1088,20 @@
     },
     "19": {
       "headline": "Argentina Dominates Algeria in Group J Opener",
-      "summary": "Argentina opened their campaign with a convincing 3-0 victory over Algeria, setting the tone for a perfect group stage run.",
+      "summary": "Argentina secured a commanding 3-0 victory over Algeria to kick off their Group J campaign.",
       "story": [
-        "Argentina kicked off their Group J journey with a commanding 3-0 win, immediately establishing themselves as the team to beat in the group. The result signaled their intent early, as they controlled the tempo and kept a clean sheet against a challenging Algerian side.",
-        "This victory served as the catalyst for Argentina's flawless group stage performance, where they finished with nine points from three matches. By securing three points in this opening fixture, they built the momentum necessary to navigate the group and eventually progress deep into the tournament bracket."
+        "Argentina opened their tournament account with a statement win, comfortably defeating Algeria 3-0. The result immediately established Argentina as the team to beat in Group J, setting the tone for their eventual deep run in the knockout stages.",
+        "For Algeria, the loss created an uphill battle in the group standings. While they managed to secure a draw against Austria later in the group stage, the heavy margin of defeat in this opening match proved costly for their goal difference.",
+        "Argentina finished the group stage with a perfect record of nine points, having conceded only one goal across their three group matches. This dominant start provided the momentum needed to navigate a challenging path through the knockout rounds, including victories over Cabo Verde, Egypt, Switzerland, and England before reaching the final."
       ],
       "bullets": [
-        "Argentina finished the group stage with a perfect record, scoring 8 goals while conceding only once.",
-        "The 3-0 margin provided Argentina with a significant goal difference advantage early in the tournament."
+        "Argentina finished atop Group J with a perfect 9 points and a +7 goal difference.",
+        "The 3-0 result served as a catalyst for Argentina's successful progression to the tournament final.",
+        "Algeria finished third in Group J, ultimately exiting the tournament in the Round of 32."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:33:10+00:00",
-      "sourceHash": "bd1ab072eb19be14",
+      "updatedAt": "2026-07-19T23:36:49+00:00",
+      "sourceHash": "ca10443c05a9456a",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1208,22 +1209,22 @@
       "refreshReason": "source or prompt changed"
     },
     "13": {
-      "headline": "Spain and Cabo Verde Trade Points in Group H Opener",
-      "summary": "Spain and Cabo Verde played to a 0-0 draw in their opening match of Group H.",
+      "headline": "Spain and Cabo Verde battle to scoreless stalemate",
+      "summary": "Spain and Cabo Verde played to a 0-0 draw in their opening Group H match.",
       "story": [
-        "The opening match of Group H ended in a stalemate as Spain and Cabo Verde failed to find the back of the net. Both sides struggled to break through, resulting in a scoreless draw that left the group wide open after the first round of fixtures.",
-        "For Spain, this result served as a quiet start to a tournament run that would eventually see them reach the final. While they were unable to capitalize on their opportunities in this opener, they quickly found their rhythm later in the group stage, ultimately finishing at the top of the table with seven points.",
-        "Cabo Verde showed resilience in this match, securing a hard-fought point against a formidable opponent. This draw was a key part of their group campaign, which saw them finish second with three points after a series of competitive matches.",
-        "The draw set a cautious tone for Group H, where every point proved vital. Following this result, Spain went on to dominate their remaining group matches against Saudi Arabia and Uruguay, while Cabo Verde continued their pursuit of a knockout spot."
+        "The opening match of Group H saw Spain and Cabo Verde finish deadlocked at 0-0. Neither side could find the breakthrough, resulting in a point apiece to kick off their tournament campaigns.",
+        "For Spain, this result served as a quiet start to a group stage that they eventually dominated, finishing at the top of the table with seven points. Their defensive resilience was on display early, as they did not concede a single goal throughout the entire group stage.",
+        "Cabo Verde managed to secure three points across their three group matches, showing grit to hold their opponents throughout the opening phase. This draw proved to be a foundational result for their qualification into the knockout rounds.",
+        "Following this match, both teams navigated the remainder of their group fixtures before moving on to the knockout stages. Spain eventually went on a deep run, ultimately winning the final against Argentina."
       ],
       "bullets": [
-        "Spain finished the group stage at the top of Group H with 7 points.",
-        "Cabo Verde secured second place in the group with 3 points.",
-        "The match ended in a 0-0 draw, marking the only group game where Spain failed to score."
+        "Spain finished the group stage undefeated with a +5 goal difference.",
+        "Cabo Verde advanced to the Round of 32 after collecting three points in Group H.",
+        "This was the only match in the group stage where Spain failed to score."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:33:18+00:00",
-      "sourceHash": "6e166ac99989051e",
+      "updatedAt": "2026-07-19T23:36:57+00:00",
+      "sourceHash": "0d4b31ea050433af",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1649,21 +1650,21 @@
       "refreshReason": "source or prompt changed"
     },
     "84": {
-      "headline": "Spain Cruises Past Austria in Round of 32",
-      "summary": "Spain secured a dominant 3-0 victory over Austria in their Round of 32 knockout match, advancing further in the tournament.",
+      "headline": "Spain Dominates Austria in Round of 32 Shutout",
+      "summary": "Spain secured a convincing 3-0 victory over Austria to advance in the knockout stage.",
       "story": [
-        "Spain continued their impressive form in the knockout stages with a clinical 3-0 win against Austria. Coming off a successful group stage campaign where they topped Group H, Spain demonstrated their quality and control throughout the match to eliminate their opponents.",
-        "For Austria, the defeat marks the end of their tournament run. After navigating a challenging Group J, they were unable to contain a Spanish side that proved too organized and efficient on the day.",
-        "This victory served as a springboard for Spain, who went on to navigate a difficult path through the remainder of the bracket. Their momentum carried them through subsequent matches against Portugal and Belgium before ultimately reaching and winning the final."
+        "Spain continued their impressive form in the tournament by dispatching Austria with a clean 3-0 scoreline. Entering the match as the winners of Group H, the Spanish side demonstrated their superior control and efficiency throughout the 90 minutes.",
+        "For Austria, the loss marked the end of their campaign after a challenging run in Group J. Despite their efforts, they were unable to break down the disciplined Spanish defense that has been a hallmark of Spain's tournament success.",
+        "This result propelled Spain into the Round of 16, where they would eventually face and defeat Portugal. The victory over Austria served as a critical momentum builder for a Spanish team that ultimately navigated the entire bracket to claim the title."
       ],
       "bullets": [
-        "Spain maintained their defensive composure, keeping a clean sheet against the Austrian attack.",
-        "The win allowed Spain to advance to the Round of 16, where they eventually faced Portugal.",
-        "Spain's tournament journey culminated in a championship title following a 1-0 win over Argentina in the final."
+        "Spain maintained their defensive composure with a clean sheet victory.",
+        "The win served as the catalyst for Spain's path to the tournament final.",
+        "Austria concluded their tournament run following this Round of 32 exit."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:32:28+00:00",
-      "sourceHash": "c89dd378d0e0759b",
+      "updatedAt": "2026-07-19T23:36:11+00:00",
+      "sourceHash": "f384f018f5e1aca5",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1729,21 +1730,19 @@
       "refreshReason": "manual match recap target"
     },
     "86": {
-      "headline": "Argentina Survives Cabo Verde Scare in Round of 32",
-      "summary": "Argentina narrowly defeated Cabo Verde 3-2 to advance from the Round of 32.",
+      "headline": "Argentina survives Cabo Verde in Round of 32 thriller",
+      "summary": "Argentina secured a narrow 3-2 victory over Cabo Verde to advance in the knockout stage.",
       "story": [
-        "Argentina continued their tournament journey by overcoming a resilient Cabo Verde side in a high-scoring 3-2 victory. The win secured Argentina's spot in the Round of 16, where they would go on to face Egypt.",
-        "For Cabo Verde, the result marked the end of a campaign that saw them remain tough to beat throughout the group stage, including draws against Spain, Uruguay, and Saudi Arabia. Despite their defensive discipline in the group phase, they could not hold off the Argentine attack in this knockout encounter.",
-        "This victory served as a critical stepping stone for Argentina, who later navigated through the bracket to reach the final. Their ability to edge out a tight contest against Cabo Verde proved vital in building momentum for their subsequent knockout matches against Egypt, Switzerland, and England."
+        "Argentina maintained their momentum in the tournament by edging out Cabo Verde in a high-scoring 3-2 encounter. The result saw Argentina successfully navigate the opening round of the knockout phase, proving their ability to handle pressure in a winner-take-all environment.",
+        "Following this victory, Argentina continued their deep run in the tournament, eventually reaching the final after subsequent wins against Egypt, Switzerland, and England. This match served as a pivotal stepping stone in a journey that concluded with a hard-fought final appearance against Spain."
       ],
       "bullets": [
-        "Argentina advanced to the Round of 16 with a narrow 3-2 win.",
-        "Cabo Verde exited the tournament after a competitive performance in the knockout round.",
-        "This match was the first of four consecutive knockout victories for Argentina before their final appearance."
+        "Argentina advanced to the Round of 16 after winning this 3-2 thriller.",
+        "The match was part of a successful tournament run for Argentina that lasted until the final."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:32:20+00:00",
-      "sourceHash": "e5d506dc5fccaa5e",
+      "updatedAt": "2026-07-19T23:36:03+00:00",
+      "sourceHash": "14d66fb3319fca15",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1846,20 +1845,21 @@
       "refreshReason": "source or prompt changed"
     },
     "93": {
-      "headline": "Spain Edges Past Portugal to Advance",
-      "summary": "Final: Portugal 0, Spain 1. Spain secured a narrow 1-0 victory over Portugal in the Round of 16 to move into the quarterfinals.",
+      "headline": "Spain Edges Past Portugal in Round of 16",
+      "summary": "Final: Portugal 0, Spain 1. Spain secured a narrow 1-0 victory over Portugal to advance in the knockout stage.",
       "story": [
-        "In a tightly contested Round of 16 matchup, Spain managed to break the deadlock and defeat Portugal 1-0. The result brought an end to Portugal's tournament run, while Spain continued their momentum in the knockout stage.",
-        "Spain entered this match after a dominant 3-0 win over Austria in the Round of 32, maintaining a strong defensive record throughout their group stage campaign. Portugal, meanwhile, arrived following a hard-fought 2-1 victory against Croatia."
+        "Spain continued their impressive tournament run by defeating Portugal 1-0 in this Round of 16 encounter. The result ended Portugal's campaign after they had successfully navigated a challenging group stage and a victory over Croatia in the previous round.",
+        "For Spain, the win served as a vital step in their path toward the latter stages of the competition. Having topped Group H and dispatched Austria in the Round of 32, this victory over a familiar European rival solidified their momentum.",
+        "Portugal entered this match following a resilient 2-1 win against Croatia, but they were unable to break through against a disciplined Spanish side. The narrow margin reflected the intensity of the matchup, with Spain ultimately proving more clinical in the decisive moments."
       ],
       "bullets": [
-        "Spain's 1-0 win ended Portugal's campaign in the Round of 16.",
-        "The victory propelled Spain into a quarterfinal showdown against Belgium.",
-        "Spain maintained their defensive consistency, having conceded very little throughout their knockout journey."
+        "Spain maintained their winning form following a dominant 3-0 victory over Austria in the Round of 32.",
+        "Portugal's tournament concluded after a hard-fought run that included a 2-1 win over Croatia in the previous knockout round.",
+        "The 1-0 result propelled Spain into a quarterfinal matchup against Belgium."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:32:12+00:00",
-      "sourceHash": "9c86b21c84095a11",
+      "updatedAt": "2026-07-19T23:35:56+00:00",
+      "sourceHash": "89f5464bbda60d1c",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1884,21 +1884,21 @@
       "refreshReason": "past 5 days"
     },
     "95": {
-      "headline": "Argentina Edge Past Egypt in Thrilling Round of 16 Encounter",
-      "summary": "Argentina secured their place in the quarterfinals with a hard-fought 3-2 victory over Egypt.",
+      "headline": "Argentina Edges Egypt in Thrilling Round of 16 Encounter",
+      "summary": "Argentina secured a narrow 3-2 victory over Egypt to advance to the quarterfinals of the tournament.",
       "story": [
-        "Argentina continued their momentum in the knockout stages, narrowly overcoming a resilient Egypt side in a five-goal thriller. The victory was a testament to Argentina's offensive consistency, as they once again found the back of the net three times to maintain their tournament progression.",
-        "For Egypt, the loss brought an end to a campaign that saw them navigate a challenging group stage and a tense penalty shootout victory against Australia in the previous round. Despite falling behind, Egypt pushed throughout the match, making it a difficult contest for the Argentinians until the final whistle.",
-        "With this result, Argentina advanced to the quarterfinals to face Switzerland, continuing their path through the bracket. The win reinforced Argentina's status as a serious contender, having successfully managed back-to-back high-scoring knockout matches."
+        "Argentina continued their momentum in the knockout stages by overcoming a resilient Egypt side in a five-goal thriller. The match proved to be a high-stakes battle that tested Argentina's ability to maintain their lead under pressure.",
+        "For Argentina, the victory was another step in a successful campaign that saw them navigate through the group stage and a tough Round of 32 clash against Cabo Verde. Their offensive consistency remained a key theme as they managed to find the back of the net three times against the Egyptian defense.",
+        "Egypt exits the competition after a strong run, having previously navigated a group stage that included a draw against Belgium and a penalty shootout win over Australia in the Round of 32. Their ability to push Argentina to the wire demonstrated their competitive spirit throughout the tournament.",
+        "With this result, Argentina moved forward to face Switzerland in the quarterfinals, keeping their tournament ambitions alive while Egypt concluded their 2026 campaign."
       ],
       "bullets": [
-        "Argentina maintained their scoring form, netting three goals for the second consecutive knockout match.",
-        "The 3-2 result eliminated Egypt after their impressive run through the Round of 32.",
-        "Argentina advanced to a quarterfinal matchup against Switzerland following this victory."
+        "Argentina's 3-2 win marked their second consecutive one-goal margin victory in the knockout rounds.",
+        "Egypt's tournament run ends after a hard-fought Round of 16 exit following their earlier penalty shootout success against Australia."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:32:05+00:00",
-      "sourceHash": "b1da583c07a33c28",
+      "updatedAt": "2026-07-19T23:35:48+00:00",
+      "sourceHash": "417a4c2faadd2111",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1943,22 +1943,21 @@
       "refreshReason": "source or prompt changed"
     },
     "98": {
-      "headline": "Spain advances to semifinals after narrow win over Belgium",
-      "summary": "Spain secured a 2-1 victory over Belgium in the quarterfinals to keep their tournament run alive.",
+      "headline": "Spain advances to Semifinals after narrow victory over Belgium",
+      "summary": "Spain secured a 2-1 victory over Belgium in the Quarterfinals to move one step closer to the tournament title.",
       "story": [
-        "Spain continued their impressive form in the knockout stages by edging past Belgium 2-1. The win in this quarterfinal matchup proved to be a pivotal moment in their campaign, demonstrating their ability to handle high-pressure scenarios against a strong opponent.",
-        "For Spain, the victory followed a hard-fought Round of 16 win against Portugal. The team has shown defensive resilience throughout the tournament, having navigated through a challenging group stage before finding their rhythm in the knockout rounds.",
-        "Belgium's journey concluded in this round after they previously overcame Senegal in the Round of 32 and secured a convincing win over the United States in the Round of 16. Despite their offensive output earlier in the tournament, they were unable to overcome the Spanish side in this contest.",
-        "With this result, Spain moved forward to the semifinals, where they eventually faced France. This quarterfinal success was a critical step in their path toward the final match of the tournament."
+        "Spain continued their impressive run through the knockout stages with a hard-fought 2-1 win against Belgium. This result solidified Spain's path, allowing them to move forward to the Semifinals where they would eventually defeat France.",
+        "Belgium's tournament journey concluded in this Quarterfinal clash. After a strong showing in the Round of 16 against the United States, they were unable to overcome the Spanish side in a tightly contested match.",
+        "The victory was a key component of Spain's dominant campaign, which saw them remain undefeated throughout their knockout matches. Following this win, Spain maintained their momentum all the way to the Final, where they ultimately claimed the championship against Argentina."
       ],
       "bullets": [
-        "Spain maintained their momentum in the knockout bracket with a 2-1 victory.",
-        "The win propelled Spain into a semifinal showdown against France.",
-        "Belgium exited the tournament after a competitive quarterfinal performance."
+        "Spain's 2-1 win eliminated Belgium from the Quarterfinals.",
+        "The victory propelled Spain into a Semifinal matchup against France.",
+        "This match was part of a successful run that saw Spain win the tournament title."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:31:57+00:00",
-      "sourceHash": "d578c69d57a73411",
+      "updatedAt": "2026-07-19T23:35:40+00:00",
+      "sourceHash": "df94004992ab1ef2",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1984,58 +1983,60 @@
       "refreshReason": "source or prompt changed"
     },
     "100": {
-      "headline": "Argentina advances to semifinals after defeating Switzerland",
-      "summary": "Argentina secured their place in the semifinals with a decisive 3-1 victory over Switzerland in the quarterfinals.",
+      "headline": "Argentina Advances to Semifinals After Defeating Switzerland",
+      "summary": "Argentina secured their spot in the semifinals with a 3-1 victory over Switzerland in the quarterfinals.",
       "story": [
-        "Argentina continued their impressive run in the tournament by overcoming Switzerland 3-1 to reach the semifinals. The victory maintained their momentum through the knockout stages, following previous hard-fought wins against Cabo Verde and Egypt.",
-        "Switzerland, who arrived at this match after a tense penalty shootout victory over Colombia in the Round of 16, struggled to contain the Argentine attack throughout the fixture. The result ended Switzerland's campaign in the quarterfinal round."
+        "Argentina continued their strong form in the knockout stages, overcoming Switzerland 3-1 to move one step closer to the final. The victory was a testament to Argentina's offensive consistency throughout the tournament, as they maintained the momentum that carried them through the Round of 16.",
+        "For Switzerland, the quarterfinal exit marked the end of a resilient campaign. After navigating a challenging path that included a tense penalty shootout win over Colombia in the previous round, they were unable to contain the Argentine attack in this matchup.",
+        "With this result, Argentina advanced to the semifinals to face England. The win reinforced their status as a major contender, having successfully navigated a series of high-pressure knockout fixtures to remain in contention for the title."
       ],
       "bullets": [
-        "Argentina secured a 3-1 win to eliminate Switzerland from the quarterfinals.",
-        "The victory propelled Argentina into a semifinal matchup against England.",
-        "Switzerland's tournament run concluded after their previous success in a penalty shootout against Colombia."
+        "Argentina scored three goals to overcome the Swiss defense.",
+        "The victory propelled Argentina into a semifinal clash against England."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:31:49+00:00",
-      "sourceHash": "0f4815d7e9f19377",
+      "updatedAt": "2026-07-19T23:35:32+00:00",
+      "sourceHash": "cfb3d4ddf363b8b9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "101": {
-      "headline": "Spain advances to the Final after defeating France",
-      "summary": "Final: France 0, Spain 2. Spain secured their spot in the World Cup Final with a decisive 2-0 victory over France in the Semifinals.",
+      "headline": "Spain Books Final Spot with 2-0 Win Over France",
+      "summary": "Final: France 0, Spain 2. Spain defeated France 2-0 in the semifinals to secure their place in the World Cup final.",
       "story": [
-        "Spain continued their impressive tournament run by shutting down France in a clinical 2-0 performance. The victory allowed them to bypass the Semifinal hurdle and punch their ticket to the championship match.",
-        "For France, the result ended their pursuit of the title, forcing them into the Third Place match against England. Their defense, which had been solid throughout the knockout stages, could not contain the Spanish attack on this occasion.",
-        "Spain's path to the final was marked by consistency, having navigated through tough knockout fixtures against Portugal and Belgium before this victory. The win set up a high-stakes Final clash against Argentina."
+        "Spain continued their impressive tournament run by shutting out France 2-0 in a clinical semifinal performance. The victory ended France's pursuit of the title and propelled Spain into the championship match against Argentina.",
+        "The result marked a significant shift in the tournament bracket, as Spain maintained their defensive discipline to neutralize the French attack. Having navigated a challenging path through the knockout stages, including wins over Portugal and Belgium, Spain demonstrated the composure required to thrive under semifinal pressure.",
+        "For France, the defeat sent them to the third-place playoff against England. Spain, meanwhile, turned their focus to the final, where they ultimately secured the trophy with a 1-0 victory over Argentina."
       ],
       "bullets": [
-        "Spain's 2-0 win moved them into the World Cup Final.",
-        "France was relegated to the Third Place match following the defeat."
+        "Spain's 2-0 win over France was their fourth consecutive victory in the knockout rounds.",
+        "France moved to the third-place match following the semifinal exit.",
+        "Spain advanced to the final, where they defeated Argentina 1-0 to win the tournament."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:31:42+00:00",
-      "sourceHash": "2a79d1c946085f1d",
+      "updatedAt": "2026-07-19T23:35:24+00:00",
+      "sourceHash": "a910ffac5105658b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "102": {
       "headline": "Argentina Advances to Final After Semifinal Win Over England",
-      "summary": "Final: England 1, Argentina 2. Argentina secured their spot in the World Cup final with a hard-fought 2-1 victory over England.",
+      "summary": "Final: England 1, Argentina 2. Argentina secured their place in the World Cup final with a 2-1 victory over England in the semifinals.",
       "story": [
-        "Argentina continued their impressive run through the knockout stages by edging out England 2-1 in the semifinals. The result proved pivotal, as it ended England's pursuit of the title and propelled Argentina into the championship match.",
-        "Throughout the tournament, Argentina maintained a consistent winning streak, having navigated past Cabo Verde, Egypt, and Switzerland in the preceding knockout rounds. Their ability to manage tight scorelines remained a hallmark of their campaign.",
-        "For England, the defeat brought an end to a resilient tournament journey that included victories over Congo DR, Mexico, and Norway. Following this result, England moved on to compete in the third-place match against France."
+        "Argentina continued their impressive run in the tournament by edging out England in a tightly contested semifinal match. The 2-1 result saw Argentina capitalize on their opportunities to overcome a resilient English side.",
+        "For England, the loss ended their pursuit of the title, shifting their focus to the third-place match against France. Despite a strong tournament performance that included victories over Mexico and Norway, they were unable to find a way past the Argentine defense when it mattered most.",
+        "Argentina moved on to the final, where they faced Spain for the championship. This victory marked the culmination of a successful knockout stage campaign that saw them navigate past Cabo Verde, Egypt, and Switzerland before reaching the penultimate round."
       ],
       "bullets": [
-        "Argentina's 2-1 victory earned them a place in the World Cup final against Spain.",
-        "England's loss shifted their focus to the third-place fixture following their semifinal exit."
+        "Argentina advanced to the final with a 2-1 win over England.",
+        "England moved to the third-place match against France following the defeat.",
+        "Argentina progressed to face Spain in the tournament final."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:31:34+00:00",
-      "sourceHash": "da6b1cdb145c910b",
+      "updatedAt": "2026-07-19T23:35:17+00:00",
+      "sourceHash": "7675f460813ffc85",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -2062,20 +2063,21 @@
       "refreshReason": "source or prompt changed"
     },
     "104": {
-      "headline": "Spain Claims World Cup Title with Narrow Victory Over Argentina",
-      "summary": "Spain secured the 2026 World Cup trophy with a hard-fought 1-0 win against Argentina in the final.",
+      "headline": "Spain Claims World Cup Title Over Argentina",
+      "summary": "Spain defeated Argentina 1-0 in the final to secure the World Cup championship.",
       "story": [
-        "Spain capped off an impressive tournament run by edging out Argentina 1-0 in the final match. This victory solidifies their dominance, completing a campaign that saw them navigate a challenging knockout bracket including wins over Portugal, Belgium, and France.",
-        "For Argentina, the result brings an end to a high-scoring tournament journey. Despite their offensive consistency throughout the knockout stages\u2014where they netted multiple goals against Cabo Verde, Egypt, Switzerland, and England\u2014they were unable to break through against the Spanish defense in the final.",
-        "Spain's path to the championship was defined by consistency, starting with their group stage performance and culminating in this decisive shutout. The win marks the conclusion of the 2026 tournament, cementing Spain's place at the top of the world stage."
+        "Spain capped off a dominant tournament run by edging out Argentina 1-0 in the World Cup final. The victory marks the culmination of a campaign where Spain navigated a challenging path, including knockout wins over Portugal, Belgium, and France.",
+        "Argentina entered the final after a hard-fought semifinal victory against England, but they were unable to find the back of the net against a disciplined Spanish defense in the deciding match. The result brings a definitive end to the 2026 tournament, crowning Spain as the champions.",
+        "Throughout the knockout stages, both teams displayed resilience, with Argentina surviving high-scoring affairs against Cabo Verde and Egypt, while Spain maintained a more clinical approach to reach the final. This final match served as the ultimate test for two of the tournament's most consistent sides."
       ],
       "bullets": [
-        "Spain finished the tournament with a perfect defensive record in the final, keeping Argentina scoreless.",
-        "This match served as the culmination of both teams' knockout runs, with Spain overcoming France in the semifinals and Argentina narrowly defeating England."
+        "Spain finished the tournament unbeaten, having navigated the group stage and four knockout rounds.",
+        "The 1-0 result in the final provided the narrowest margin of victory for Spain in their entire knockout stage run.",
+        "Argentina concluded their tournament as runners-up after a successful campaign that included victories over Algeria, Austria, Jordan, and England."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T22:31:27+00:00",
-      "sourceHash": "0ca5f10d6f73d674",
+      "updatedAt": "2026-07-19T23:35:09+00:00",
+      "sourceHash": "68d9ab1be033d7d9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
