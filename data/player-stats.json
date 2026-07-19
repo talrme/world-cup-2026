@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:50:06+00:00",
+  "generatedAt": "2026-07-19T20:34:06+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -33,8 +33,8 @@
       "assists": 4,
       "points": 12,
       "matches": 8,
-      "minutes": 750,
-      "goalsPer90": 1.0,
+      "minutes": 767,
+      "goalsPer90": 0.9,
       "pointsPer90": 1.4
     },
     {
@@ -98,7 +98,7 @@
       "assists": 1,
       "points": 6,
       "matches": 8,
-      "minutes": 638,
+      "minutes": 655,
       "goalsPer90": 0.7,
       "pointsPer90": 0.8
     },
@@ -735,7 +735,7 @@
       "assists": 0,
       "points": 2,
       "matches": 8,
-      "minutes": 542,
+      "minutes": 559,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
     },
@@ -748,7 +748,7 @@
       "assists": 0,
       "points": 2,
       "matches": 8,
-      "minutes": 699,
+      "minutes": 716,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
     },
@@ -1138,7 +1138,7 @@
       "assists": 1,
       "points": 2,
       "matches": 8,
-      "minutes": 487,
+      "minutes": 504,
       "goalsPer90": 0.2,
       "pointsPer90": 0.4
     },
@@ -1151,7 +1151,7 @@
       "assists": 1,
       "points": 2,
       "matches": 8,
-      "minutes": 702,
+      "minutes": 703,
       "goalsPer90": 0.1,
       "pointsPer90": 0.3
     },
@@ -1164,7 +1164,7 @@
       "assists": 1,
       "points": 2,
       "matches": 8,
-      "minutes": 767,
+      "minutes": 784,
       "goalsPer90": 0.1,
       "pointsPer90": 0.2
     },
@@ -1989,19 +1989,6 @@
     },
     {
       "rank": 141,
-      "player": "Ruiz Fabian",
-      "team": "Spain",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 8,
-      "minutes": 344,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.3
-    },
-    {
-      "rank": 141,
       "player": "Martin Baturina",
       "team": "Croatia",
       "position": "MID",
@@ -2048,6 +2035,19 @@
       "assists": 0,
       "points": 1,
       "matches": 4,
+      "minutes": 361,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.2
+    },
+    {
+      "rank": 144,
+      "player": "Ruiz Fabian",
+      "team": "Spain",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 8,
       "minutes": 361,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
@@ -2256,9 +2256,9 @@
       "assists": 0,
       "points": 1,
       "matches": 8,
-      "minutes": 595,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.2
+      "minutes": 612,
+      "goalsPer90": 0.1,
+      "pointsPer90": 0.1
     },
     {
       "rank": 160,
@@ -2269,7 +2269,7 @@
       "assists": 0,
       "points": 1,
       "matches": 8,
-      "minutes": 615,
+      "minutes": 632,
       "goalsPer90": 0.1,
       "pointsPer90": 0.1
     },
@@ -2282,7 +2282,7 @@
       "assists": 0,
       "points": 1,
       "matches": 8,
-      "minutes": 650,
+      "minutes": 667,
       "goalsPer90": 0.1,
       "pointsPer90": 0.1
     },
