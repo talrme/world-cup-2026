@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:52:27+00:00",
+  "generatedAt": "2026-07-19T21:31:27+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2064,17 +2064,16 @@
       "headline": "Spain and Argentina Deadlocked in Final",
       "summary": "Spain and Argentina played to a 0-0 draw in the World Cup Final.",
       "story": [
-        "The World Cup Final between Spain and Argentina concluded in a 0-0 stalemate, leaving the championship to be decided beyond regulation time.",
-        "Spain reached this stage with a dominant run, including a clean sheet victory over France in the semifinals and a narrow win against Belgium in the quarterfinals.",
-        "Argentina navigated a high-scoring path to the final, overcoming England in the semifinals and Switzerland in the quarterfinals to earn their spot.",
-        "Both teams arrived at this match with impressive tournament form, having successfully maneuvered through the group stages and a grueling knockout bracket."
+        "The World Cup Final between Spain and Argentina concluded in a 0-0 stalemate, leaving the championship title hanging in the balance after a tense defensive battle.",
+        "Spain reached this stage with an impressive run, including a 2-0 victory over France in the semifinals and a narrow 2-1 win against Belgium in the quarterfinals.",
+        "Both teams arrived at this match in top form, having remained undefeated throughout their respective knockout campaigns."
       ],
       "bullets": [
-        "Spain reached the final after a 2-0 semifinal win over France.",
-        "Argentina advanced following a 2-1 victory against England in the semifinals."
+        "Spain maintained a strong defensive record throughout the tournament, conceding only one goal in their quarterfinal match against Belgium.",
+        "Argentina displayed significant offensive firepower leading up to the final, scoring at least two goals in every knockout match prior to this encounter."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T19:52:27+00:00",
+      "updatedAt": "2026-07-19T21:31:27+00:00",
       "sourceHash": "e13a617b50b15687",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
