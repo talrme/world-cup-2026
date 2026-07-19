@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T23:34:52+00:00",
+  "generatedAt": "2026-07-19T01:08:44+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -143,22 +143,21 @@
       "refreshReason": "source or prompt changed"
     },
     "42": {
-      "headline": "France cruises past Iraq to secure Group I dominance",
-      "summary": "France defeated Iraq 3-0 in their Group I matchup, a result that helped solidify their path to the knockout stages.",
+      "headline": "France Dominates Iraq in Group I Victory",
+      "summary": "France secured a comfortable 3-0 win over Iraq, maintaining their momentum in Group I.",
       "story": [
-        "France maintained their clinical form in Group I with a comfortable 3-0 victory over Iraq. The win was a statement of intent, demonstrating the gulf in quality and execution between the two sides as France continued their undefeated run through the group stage.",
-        "For Iraq, the loss was a difficult hurdle in a challenging tournament campaign. Having struggled to find their footing against the group's top-tier opponents, the defeat left them at the bottom of the table with a significant deficit in goal difference.",
-        "The result was pivotal for France's trajectory, as it kept them on a perfect trajectory heading into their final group fixture against Norway. By the end of the group stage, France finished with nine points and a +8 goal difference, comfortably securing their spot in the knockout rounds.",
-        "While France eventually saw their tournament run conclude in the third-place match against England, this early victory over Iraq served as a foundational performance that allowed them to navigate the group phase with confidence."
+        "France controlled the proceedings from the start, utilizing their superior depth and attacking efficiency to dismantle the Iraqi defense. The 3-0 result was a clinical display that reinforced France's status as the team to beat in the group.",
+        "For Iraq, the match proved to be a difficult challenge as they struggled to contain the French offensive pressure. The loss left them without a point through their first two matches, placing significant pressure on their final group stage fixture.",
+        "This victory was a crucial step for France, who eventually finished the group stage with a perfect nine points. Their dominant performance in this match set the tone for a strong tournament run that saw them advance deep into the knockout rounds."
       ],
       "bullets": [
-        "France finished the group stage with a perfect 3-0-0 record.",
-        "Iraq exited the group stage without a point, conceding 12 goals across their three matches.",
-        "The 3-0 scoreline was part of a dominant offensive display that saw France net 10 goals in group play."
+        "France maintained a perfect record in Group I, finishing with 10 goals scored and only 2 conceded.",
+        "The win over Iraq was part of a dominant group stage campaign where France secured victories in all three of their matches.",
+        "Iraq struggled defensively throughout the group stage, finishing with a goal difference of -11."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:34:37+00:00",
-      "sourceHash": "667188b1f5d472c6",
+      "updatedAt": "2026-07-19T01:08:28+00:00",
+      "sourceHash": "89640da7ba36e195",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -441,21 +440,19 @@
       "refreshReason": "source or prompt changed"
     },
     "46": {
-      "headline": "England and Ghana play to scoreless stalemate",
-      "summary": "England and Ghana finished in a 0-0 draw, leaving both sides to battle for position in Group L.",
+      "headline": "England and Ghana Battle to Scoreless Draw",
+      "summary": "England and Ghana played to a 0-0 stalemate in their Group L encounter.",
       "story": [
-        "For England, the draw was a slight speed bump following their opening victory, though they ultimately maintained their composure throughout the group stage to finish at the top of the table with 7 points. The point earned against Ghana proved valuable in securing their path to the knockout rounds.",
-        "Ghana fought hard to earn the draw, finishing their group campaign with 4 points. While they were unable to find the back of the net in this specific match, the result kept them in the mix during a tight group race before they eventually moved on to the Round of 32.",
-        "Both teams moved forward from this result with clear objectives, as England continued their deep tournament run while Ghana looked to build on their defensive performance in subsequent fixtures."
+        "England and Ghana finished their second group match in a 0-0 draw, a result that kept the group standings tight as the tournament progressed. Neither side could find the breakthrough, forcing both teams to look toward their final group fixtures to secure their path forward.",
+        "Ghana fought hard to earn the point, which contributed to their eventual four-point finish in Group L. While they ultimately exited the tournament in the Round of 32 against Colombia, this result against England served as a key moment in their group stage journey."
       ],
       "bullets": [
-        "The match ended in a 0-0 draw, with neither side able to break the deadlock.",
-        "England finished the group stage at the top of Group L with 7 points.",
-        "Ghana secured 4 points in their group campaign, keeping their tournament hopes alive."
+        "The 0-0 result left both teams searching for offensive rhythm in a defensive-minded contest.",
+        "England secured the top spot in Group L despite this draw, while Ghana remained in contention for the knockout stages until their final group game."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:34:29+00:00",
-      "sourceHash": "f12838b94aa627e1",
+      "updatedAt": "2026-07-19T01:08:21+00:00",
+      "sourceHash": "f599eada4b805732",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -747,21 +744,20 @@
     },
     "61": {
       "headline": "France Dominates Norway to Clinch Group I",
-      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway to finish at the top of Group I with a perfect nine points.",
+      "summary": "Final: Norway 1, France 4. France secured a decisive 4-1 victory over Norway to finish at the top of Group I with a perfect record.",
       "story": [
-        "France asserted their dominance in the final match of the group stage, dismantling Norway 4-1 to maintain their undefeated record. The result ensured France finished comfortably at the top of Group I, while Norway settled for second place.",
-        "The win capped off a clinical group campaign for France, who finished with 10 goals scored and only two conceded across their three matches. Their attacking efficiency was on full display, effectively neutralizing any threat Norway posed to their top-table position.",
-        "Despite the loss, Norway successfully advanced to the knockout stages having secured six points from their earlier victories against Iraq and Senegal. Their progression demonstrated resilience, even as they struggled to contain the French side in this final group outing.",
-        "With the group stage concluded, France moved forward as the clear group winner, while Norway continued their tournament journey as the runner-up. Both teams transitioned into the knockout rounds with their respective group rankings firmly established."
+        "France asserted their dominance in Group I by dismantling Norway 4-1 in their final group stage match. The result ensured France finished the group phase with a flawless nine points, while Norway settled for second place with six points.",
+        "For Norway, the defeat served as a reality check after their earlier wins against Iraq and Senegal. Despite the loss, they successfully navigated their way through the group to advance to the knockout stages.",
+        "Both teams moved forward from this encounter with their tournament ambitions intact, though the result solidified France's position as a formidable force heading into the Round of 32."
       ],
       "bullets": [
-        "France finished the group stage with a perfect 3-0-0 record.",
-        "Norway advanced to the Round of 32 as the Group I runner-up.",
-        "France outscored their group opponents by a combined margin of 10-2."
+        "France finished the group stage with a perfect 3-0-0 record and a +8 goal difference.",
+        "Norway advanced to the knockout rounds as the Group I runner-up with 6 points.",
+        "The 4-1 scoreline marked the highest-scoring output for France in their group campaign."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:34:21+00:00",
-      "sourceHash": "927fa6058d8adb89",
+      "updatedAt": "2026-07-19T01:08:13+00:00",
+      "sourceHash": "4f27667841ec69c4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -869,21 +865,21 @@
       "refreshReason": "source or prompt changed"
     },
     "67": {
-      "headline": "England secures top spot in Group L with victory over Panama",
-      "summary": "Final: Panama 0, England 2. England defeated Panama 2-0 to finish their group stage campaign undefeated and at the top of the standings.",
+      "headline": "England Clinches Group L Top Spot With Win Over Panama",
+      "summary": "Final: Panama 0, England 2. England secured a 2-0 victory over Panama to finish their group stage campaign at the top of the table.",
       "story": [
-        "England closed out their Group L schedule with a professional 2-0 win against Panama, ensuring they advanced to the knockout rounds as group winners with seven points. The result confirmed England's dominance in the group, having navigated their three matches without a single loss.",
-        "For Panama, the match marked the end of a difficult tournament run. Despite their efforts throughout the group stage, they finished at the bottom of the table without a point and were unable to find the back of the net in any of their three fixtures.",
-        "England's victory set them on a path through the knockout bracket, where they eventually navigated a challenging road that included wins over Congo DR, Mexico, and Norway before reaching the semifinals. Their consistency in the group stage provided the necessary momentum for that deep run."
+        "England finished their group stage run in commanding fashion, dispatching Panama 2-0 to solidify their position at the top of Group L. The win ensured they moved forward with seven points from their three matches, having remained unbeaten throughout the opening round.",
+        "For Panama, the defeat marked the end of a challenging group stage where they struggled to find the back of the net, finishing with zero points and zero goals scored across their three fixtures.",
+        "England's victory set them on a path through the knockout stages that eventually saw them navigate past Congo DR, Mexico, and Norway before a semifinal loss to Argentina. They concluded their tournament journey with a high-scoring 6-4 win over France in the third-place match."
       ],
       "bullets": [
-        "England finished first in Group L with 7 points and a +4 goal difference.",
-        "Panama concluded their tournament campaign with 0 points and 0 goals scored.",
-        "England's group stage performance included a high-scoring win against Croatia and a draw with Ghana."
+        "England finished first in Group L with 7 points, followed by Croatia with 6, Ghana with 4, and Panama with 0.",
+        "England's group stage performance included a 4-2 win over Croatia and a 0-0 draw against Ghana.",
+        "Panama exited the tournament after failing to score in any of their three group matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:34:13+00:00",
-      "sourceHash": "5f3528063efa047a",
+      "updatedAt": "2026-07-19T01:08:05+00:00",
+      "sourceHash": "7920c69f8a91ccd9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1033,20 +1029,21 @@
       "refreshReason": "source or prompt changed"
     },
     "22": {
-      "headline": "England Opens Group L with High-Scoring Victory Over Croatia",
-      "summary": "England secured a decisive 4-2 victory over Croatia in their opening Group L fixture to gain an early advantage in the standings.",
+      "headline": "England opens Group L with high-scoring win over Croatia",
+      "summary": "England secured a 4-2 victory over Croatia in their opening match of the tournament.",
       "story": [
-        "England kicked off their tournament campaign with an offensive display, putting four goals past Croatia in a 4-2 win. This result proved vital as both teams navigated a competitive group stage.",
-        "For Croatia, the loss was a challenging start, but they remained resilient throughout the group stage. Despite the defensive lapses in this match, they managed to secure six points from their three group games before eventually exiting the tournament in the Round of 32 against Portugal.",
-        "England's journey following this victory was extensive, as they advanced through the knockout rounds to reach the semifinals and eventually competed in the third-place match."
+        "England kicked off their Group L campaign with a decisive 4-2 win against Croatia. The result provided an early advantage in the group standings, setting a strong pace for the English side right from the start of the tournament.",
+        "This victory was instrumental in England's eventual path to winning the group. By securing three points in this high-scoring opener, they established a cushion that proved valuable as they navigated their remaining group fixtures against Ghana and Panama.",
+        "For Croatia, the loss meant they had to fight back through the rest of the group stage to secure their progression. Despite the setback in this opening match, they managed to finish second in the group with six points, eventually moving on to the knockout rounds."
       ],
       "bullets": [
-        "England finished first in Group L with 7 points, while Croatia followed in second with 6 points.",
-        "The 4-2 scoreline marked the highest-scoring match in Group L."
+        "England finished at the top of Group L with 7 points, while Croatia took second place with 6 points.",
+        "The 4-2 scoreline marked the highest-scoring match for both teams during their group stage campaigns.",
+        "England's win in this opener provided the necessary momentum to help them navigate a group that also included Ghana and Panama."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:34:44+00:00",
-      "sourceHash": "e56f21820513515c",
+      "updatedAt": "2026-07-19T01:08:36+00:00",
+      "sourceHash": "6119f5e7f1cb8140",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1130,20 +1127,20 @@
       "refreshReason": "source or prompt changed"
     },
     "17": {
-      "headline": "France Opens Group I Campaign with Convincing Win over Senegal",
-      "summary": "France secured a strong start to their tournament with a 3-1 victory over Senegal in their opening Group I match.",
+      "headline": "France Opens Group I with Decisive Win Over Senegal",
+      "summary": "France secured a strong start to their tournament campaign by defeating Senegal 3-1 in their opening Group I match.",
       "story": [
-        "France asserted their dominance early in Group I, dispatching Senegal 3-1 to claim all three points. The result set the tone for a commanding group stage performance, as France went on to finish at the top of the table with a perfect nine points and a plus-eight goal difference.",
-        "For Senegal, the loss proved to be a difficult hurdle in a competitive group. Despite a high-scoring 5-0 win against Iraq later in the group stage, they ultimately finished third with three points, which was enough to qualify for the Round of 32 as one of the best third-placed teams.",
-        "The match served as a springboard for France's deep tournament run, which saw them navigate through the knockout stages to reach the semifinals. Senegal's journey concluded in the Round of 32 following a narrow 3-2 defeat to Belgium."
+        "France asserted their dominance early in Group I, utilizing a clinical performance to overcome Senegal 3-1. This result set the tone for a successful group stage campaign where France ultimately finished at the top of the table with a perfect nine points.",
+        "For Senegal, the loss proved to be a difficult hurdle in a competitive group. Despite the setback, they showed offensive potential later in the group stage, including a commanding 5-0 victory over Iraq, though they ultimately exited the tournament following a narrow defeat to Belgium in the Round of 32.",
+        "This match served as the foundation for France's deep run in the tournament. Following this win, they went on to dismantle Iraq and Norway, eventually navigating through the knockout stages to reach the semifinals before concluding their journey in the third-place match."
       ],
       "bullets": [
-        "France finished atop Group I with a perfect record, scoring 10 goals across three matches.",
-        "Senegal advanced to the knockout round despite the opening loss, finishing third in the group standings."
+        "France finished the group stage undefeated with a +8 goal difference.",
+        "Senegal bounced back from this opening loss to score five goals against Iraq in their final group match."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:34:52+00:00",
-      "sourceHash": "3dfbbbfe6712d214",
+      "updatedAt": "2026-07-19T01:08:44+00:00",
+      "sourceHash": "54222574ddf305ca",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1556,20 +1553,20 @@
       "refreshReason": "source or prompt changed"
     },
     "77": {
-      "headline": "France Dominates Sweden in Round of 32",
-      "summary": "France secured a decisive 3-0 victory over Sweden to advance through the Round of 32.",
+      "headline": "France Advances After Dominant Win Over Sweden",
+      "summary": "France secured a decisive 3-0 victory over Sweden in their Round of 32 matchup to move forward in the tournament.",
       "story": [
-        "France continued their strong tournament form by comfortably dispatching Sweden 3-0. Entering the knockout stage as winners of Group I, France maintained their momentum with a clinical performance that kept Sweden at bay throughout the match.",
-        "For Sweden, the loss marked the end of their campaign. After a mixed group stage that included a high-scoring win against Tunisia and a difficult defeat to the Netherlands, they were unable to find a breakthrough against a disciplined French side.",
-        "This result propelled France into the Round of 16, where they would eventually face Paraguay. The victory served as a testament to France's consistency during the knockout phases of the tournament."
+        "France maintained their impressive form by shutting out Sweden in a comprehensive 3-0 win. Entering the match as the winners of Group I, France demonstrated the clinical efficiency that defined their group stage performance.",
+        "For Sweden, the loss marked the end of their tournament run. Having qualified for the knockout stage as one of the best third-place teams from their group, they were unable to overcome the pressure applied by the French side.",
+        "This victory propelled France into the Round of 16, where they continued their journey by defeating Paraguay. The win over Sweden served as a clear statement of intent for the French squad as they navigated the complexities of the knockout bracket."
       ],
       "bullets": [
-        "France maintained their defensive intensity to keep a clean sheet against Sweden.",
-        "The 3-0 result allowed France to progress to the Round of 16 without needing penalty kicks or extra time."
+        "France remained undefeated through the Round of 32, building on their strong group stage momentum.",
+        "The 3-0 result eliminated Sweden, ending their campaign after a group stage that included a win over Tunisia and a draw with Japan."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:34:06+00:00",
-      "sourceHash": "b54bda75551b7c5f",
+      "updatedAt": "2026-07-19T01:07:57+00:00",
+      "sourceHash": "d5f58338ec308a09",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1594,20 +1591,22 @@
       "refreshReason": "source or prompt changed"
     },
     "80": {
-      "headline": "England Edges Past Congo DR in Round of 32",
-      "summary": "England secured a narrow 2-1 victory over Congo DR to advance in the knockout stage.",
+      "headline": "England Edges Congo DR in Round of 32 Thriller",
+      "summary": "England secured their place in the next round with a hard-fought 2-1 victory over Congo DR.",
       "story": [
-        "England successfully navigated their Round of 32 matchup against Congo DR, claiming a 2-1 win to keep their tournament hopes alive. The victory required a disciplined performance to overcome their opponents and secure a spot in the next round.",
-        "Having entered the knockout phase as the winners of Group L, England maintained their momentum despite the pressure of a single-elimination fixture. Congo DR provided a stern test, but England's ability to find the net twice proved to be the difference in the final scoreline.",
-        "This result marked a key milestone in England's 2026 campaign, allowing them to progress deeper into the bracket. The win validated their group stage form and ensured they remained in contention for the remainder of the tournament."
+        "England navigated a tricky Round of 32 matchup against Congo DR, ultimately prevailing with a 2-1 scoreline to keep their tournament run alive. The victory required a disciplined performance as they faced a resilient opponent looking to pull off an upset in the knockout stage.",
+        "Having advanced as the winner of Group L, England maintained their composure throughout the match. This win served as a vital stepping stone, allowing them to progress deeper into the bracket following a successful group campaign that included wins over Croatia and Panama.",
+        "For Congo DR, the narrow defeat marked the end of their tournament journey. While they pushed England to the limit, they were unable to find the decisive goal needed to force an equalizer or turn the tide in their favor.",
+        "With this result, England moved forward to continue their pursuit of the title, carrying the momentum from this tight victory into their subsequent knockout fixtures."
       ],
       "bullets": [
-        "England advanced to the Round of 16 following the 2-1 result.",
-        "Congo DR was eliminated after a competitive effort in the knockout round."
+        "England advanced to the Round of 16 with a 2-1 win.",
+        "Congo DR exited the tournament after a closely contested match.",
+        "The result confirmed England's status as a serious contender in the knockout phase."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:58+00:00",
-      "sourceHash": "71700f3c093a679d",
+      "updatedAt": "2026-07-19T01:07:50+00:00",
+      "sourceHash": "992c1d52497c9c1b",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1789,21 +1788,21 @@
     },
     "90": {
       "headline": "France Edges Past Paraguay in Round of 16",
-      "summary": "Final: Paraguay 0, France 1. France secured their place in the quarterfinals with a hard-fought 1-0 victory over Paraguay.",
+      "summary": "Final: Paraguay 0, France 1. France secured a narrow 1-0 victory over Paraguay to advance in the knockout stage.",
       "story": [
-        "France continued their strong tournament run by overcoming a resilient Paraguay side in this Round of 16 encounter. The narrow 1-0 result was enough to push the French into the next stage, ending Paraguay's impressive journey that included a dramatic penalty shootout win over Germany in the previous round.",
-        "Paraguay had proven difficult to break down throughout the tournament, notably holding Australia to a scoreless draw in the group stage and finding a way past Germany in the Round of 32. However, they were unable to replicate that defensive success against a clinical French attack that had been dominant throughout the group phase.",
-        "For France, this victory served as a crucial bridge to the quarterfinals. Having navigated their group with high-scoring performances against Senegal, Iraq, and Norway, this tighter knockout win demonstrated their ability to grind out results when the pressure of the tournament intensified.",
-        "Following this result, France moved on to face Morocco in the quarterfinals. While their tournament run would eventually conclude in the semifinals against Spain, this win over Paraguay remains a pivotal moment in their 2026 campaign."
+        "France continued their strong tournament form by narrowly defeating Paraguay 1-0 in the Round of 16. The result ended Paraguay's run, which had previously seen them survive a tense penalty shootout against Germany in the Round of 32.",
+        "For France, this victory was a crucial step in their campaign, maintaining their momentum after a dominant group stage performance where they went undefeated against Senegal, Iraq, and Norway. Their ability to grind out a result in this knockout fixture proved vital as they moved deeper into the bracket.",
+        "Paraguay fought hard throughout the match but ultimately could not find an answer to the French defensive setup. Having navigated a difficult path through Group D and a high-pressure penalty win in the previous round, they exited the competition after a resilient showing.",
+        "With this win, France progressed to the quarterfinals, where they would eventually face Morocco."
       ],
       "bullets": [
-        "France advanced to the quarterfinals with a 1-0 win, ending Paraguay's tournament run.",
-        "Paraguay exited the competition after previously eliminating Germany via penalties in the Round of 32.",
-        "The victory set up a quarterfinal matchup for France against Morocco."
+        "France maintained their defensive composure to keep a clean sheet in this 1-0 win.",
+        "Paraguay's tournament run concluded following their elimination in this Round of 16 match.",
+        "This victory propelled France into a quarterfinal matchup against Morocco."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:51+00:00",
-      "sourceHash": "afe74fd7d6db62ce",
+      "updatedAt": "2026-07-19T01:07:42+00:00",
+      "sourceHash": "dccf64eff3308074",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1828,20 +1827,20 @@
     },
     "92": {
       "headline": "England Edges Mexico in Thrilling Round of 16 Encounter",
-      "summary": "Final: Mexico 2, England 3. England secured a hard-fought 3-2 victory over Mexico to advance in the knockout stage.",
+      "summary": "Final: Mexico 2, England 3. England secured a hard-fought 3-2 victory over Mexico to advance to the quarterfinals.",
       "story": [
-        "In a high-stakes Round of 16 battle, England overcame Mexico with a narrow 3-2 win. The match proved to be a significant hurdle for both sides, with England ultimately finding the edge needed to progress deeper into the tournament bracket.",
-        "Mexico entered this fixture following a strong run, including a clean sheet victory over Ecuador in the previous round. Their defensive form throughout the group stage and the Round of 32 suggested they would be a difficult challenge for the English attack.",
-        "For England, the victory was a testament to their resilience after navigating a group stage that included a scoreless draw against Ghana and a solid win over Panama. Having also narrowly defeated Congo DR in the previous round, England demonstrated the ability to grind out results in tight contests."
+        "England emerged victorious in a high-scoring Round of 16 clash, defeating Mexico 3-2 to keep their tournament hopes alive. The match proved to be a significant hurdle for both sides, with England ultimately finding the decisive edge required to progress in the knockout bracket.",
+        "For Mexico, the defeat brought an end to a strong campaign that saw them navigate through Group A with impressive form and a clean sheet victory against Ecuador in the previous round. Despite their efforts, they were unable to contain the English attack in this pivotal matchup.",
+        "England's win propelled them into the quarterfinals, where they were set to face Norway. This result marked a critical moment in England's journey, testing their resilience in a high-pressure knockout environment before they eventually moved deeper into the tournament schedule."
       ],
       "bullets": [
-        "England's 3-2 win ended Mexico's tournament run in the Round of 16.",
-        "The victory propelled England into a quarterfinal matchup against Norway.",
-        "Both teams arrived at this stage after winning their respective Round of 32 fixtures."
+        "England claimed a 3-2 win to eliminate Mexico from the tournament.",
+        "The result sent England to a quarterfinal matchup against Norway.",
+        "Mexico exited the competition after a successful run that included wins over South Africa, South Korea, Czechia, and Ecuador."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:43+00:00",
-      "sourceHash": "e6081cc67975e2ea",
+      "updatedAt": "2026-07-19T01:07:34+00:00",
+      "sourceHash": "4991ed31a36dd893",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1926,20 +1925,20 @@
       "refreshReason": "source or prompt changed"
     },
     "97": {
-      "headline": "France Advances to Semifinals After Defeating Morocco",
-      "summary": "France secured their spot in the semifinals with a decisive 2-0 victory over Morocco in the quarterfinals.",
+      "headline": "France Advances to Semifinals with 2-0 Victory Over Morocco",
+      "summary": "France secured a 2-0 win against Morocco in the quarterfinals to move forward in the tournament bracket.",
       "story": [
-        "France continued their strong form in the knockout stages, maintaining defensive discipline to shut out Morocco. The 2-0 win allowed them to progress through the bracket and keep their tournament ambitions alive.",
-        "For Morocco, the defeat brought an end to a resilient run that included a penalty shootout victory over the Netherlands in the Round of 32 and a dominant 3-0 win against Canada in the Round of 16.",
-        "Following this result, France moved on to face Spain in the semifinals, while Morocco concluded their campaign after a challenging series of knockout fixtures."
+        "France continued their strong run in the knockout stages by defeating Morocco 2-0. This victory allowed them to advance to the semifinals, maintaining their momentum after a series of solid performances in the group stage and the previous knockout rounds.",
+        "For Morocco, the loss concludes a resilient tournament run that saw them navigate a tough group and overcome the Netherlands in a penalty shootout during the Round of 32, followed by a decisive win over Canada."
       ],
       "bullets": [
-        "France kept a clean sheet to secure the 2-0 victory.",
-        "The win propelled France into a semifinal matchup against Spain."
+        "France maintained their clean sheet record in the quarterfinal stage.",
+        "The 2-0 result ended Morocco's tournament campaign in the quarterfinals.",
+        "France proceeded to the semifinal match against Spain following this win."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:35+00:00",
-      "sourceHash": "af82797ed154cf69",
+      "updatedAt": "2026-07-19T01:07:27+00:00",
+      "sourceHash": "21dade8eeedc5fd4",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -1965,19 +1964,21 @@
       "refreshReason": "source or prompt changed"
     },
     "99": {
-      "headline": "England Advances to Semifinals After Hard-Fought Win Over Norway",
-      "summary": "Final: Norway 1, England 2. England secured a 2-1 victory over Norway in the quarterfinals, ending Norway's impressive tournament run.",
+      "headline": "England Advances Past Norway in Quarterfinal Thriller",
+      "summary": "Final: Norway 1, England 2. England secured a 2-1 victory over Norway in the quarterfinals to move on to the tournament semifinals.",
       "story": [
-        "England continued their disciplined knockout-stage progression by edging out Norway 2-1. The result propelled England into the semifinals, where they were eventually set to face Argentina.",
-        "Norway arrived at this quarterfinal matchup following a string of resilient performances, including a notable victory over Brazil in the Round of 16. Despite their best efforts to break down the English defense, they were unable to overcome the narrow deficit."
+        "England continued their resilient run through the knockout stages with a hard-fought 2-1 win against Norway. The result ended Norway's impressive campaign, which had seen them navigate past Ivory Coast and Brazil in previous rounds.",
+        "For England, the victory was a testament to their ability to grind out results in high-pressure environments. Having already survived a tight 3-2 contest against Mexico in the Round of 16, they once again demonstrated the composure necessary to progress in tournament football.",
+        "With this quarterfinal win, England earned their place in the final four. They moved on to face Argentina in the semifinals, while Norway exited the tournament following a successful run that saw them remain competitive against elite opposition."
       ],
       "bullets": [
-        "England's 2-1 win earned them a spot in the semifinals against Argentina.",
-        "Norway's defeat concluded their tournament journey after they had successfully eliminated Brazil in the Round of 16."
+        "England's 2-1 win marked their third consecutive victory in the knockout phase.",
+        "Norway's tournament concluded after a quarterfinal appearance following notable wins over Ivory Coast and Brazil.",
+        "The result set up a high-stakes semifinal matchup between England and Argentina."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:28+00:00",
-      "sourceHash": "9573b370f8de5167",
+      "updatedAt": "2026-07-19T01:07:19+00:00",
+      "sourceHash": "543ce3c3244e3bc3",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
@@ -2003,59 +2004,62 @@
       "refreshReason": "past 5 days"
     },
     "101": {
-      "headline": "Spain Advances to Final After Defeating France",
-      "summary": "Final: France 0, Spain 2. Spain secured a spot in the World Cup Final with a 2-0 victory over France in the semifinals.",
+      "headline": "Spain Advances to World Cup Final with Shutout Win Over France",
+      "summary": "Final: France 0, Spain 2. Spain secured their place in the World Cup Final by defeating France 2-0 in the Semifinals.",
       "story": [
-        "Spain continued their impressive run through the knockout stages by shutting out France in a clinical 2-0 semifinal performance. The victory marks a significant milestone for the squad, confirming their place in the championship match.",
-        "France, who had maintained a strong defensive record throughout the tournament, struggled to break down the Spanish organization. This result brings an end to their pursuit of the title, shifting their focus to the third-place playoff against England.",
-        "With this win, Spain moves on to face Argentina in the World Cup Final. Having navigated a difficult path through the bracket, including tight victories over Portugal and Belgium, Spain enters the final match with significant momentum."
+        "Spain continued their impressive run through the knockout stages with a clinical 2-0 victory over France. By keeping a clean sheet and finding the back of the net twice, Spain effectively neutralized the French attack and controlled the tempo of the match to earn their spot in the championship game.",
+        "The result brings an end to France's pursuit of the title in this bracket, forcing them into the Third Place match against England. France had previously navigated a difficult path through the Round of 16 and Quarterfinals, but they were unable to overcome the disciplined Spanish side in this high-stakes encounter.",
+        "With this win, Spain moves on to the Final, where they are scheduled to face Argentina. Having already navigated tight knockout fixtures against Portugal and Belgium in previous rounds, Spain enters the final match with significant momentum."
       ],
       "bullets": [
-        "Spain's 2-0 win over France guarantees them a spot in the World Cup Final.",
-        "France will now compete in the third-place match against England."
+        "Spain secured a 2-0 victory to eliminate France from the tournament.",
+        "France moves to the Third Place match to face England.",
+        "Spain will compete against Argentina in the World Cup Final."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:20+00:00",
-      "sourceHash": "3bba7466b9e2bb15",
+      "updatedAt": "2026-07-19T01:07:12+00:00",
+      "sourceHash": "1dba0b0f57064369",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "102": {
-      "headline": "Argentina Advances to Final After Hard-Fought Semifinal Win",
-      "summary": "Final: England 1, Argentina 2. Argentina secured their place in the World Cup final by defeating England 2-1 in a tense semifinal encounter.",
+      "headline": "Argentina Advances to Final After Hard-Fought Semifinal Win Over England",
+      "summary": "Final: England 1, Argentina 2. Argentina secured their place in the World Cup final with a 2-1 victory over England in the semifinals.",
       "story": [
-        "Argentina continued their impressive tournament run by edging out England in a 2-1 victory, effectively ending England's quest for the title in this semifinal matchup. The result was the culmination of a high-stakes knockout campaign for both sides.",
-        "For England, the defeat marked the end of a resilient tournament journey that saw them navigate through the group stages and overcome tough opponents like Mexico and Norway. Following this loss, England shifted their focus to the third-place match against France.",
-        "Argentina's path to the final was defined by consistent performance throughout the knockout rounds, having previously dispatched Cabo Verde, Egypt, and Switzerland. This semifinal victory ensures their appearance in the tournament final against Spain.",
-        "The win solidifies Argentina's status as a top contender, capping off a series of victories that began in the group stage. They now prepare for the ultimate test in the final match to determine the champion."
+        "Argentina successfully navigated a tense semifinal encounter, edging out England 2-1 to keep their tournament dreams alive. The result brings an end to England's impressive run in the knockout stages, which included victories over Congo DR, Mexico, and Norway.",
+        "For Argentina, the victory marks the culmination of a consistent campaign that saw them sweep their group before navigating tight knockout wins against Cabo Verde and Egypt, followed by a quarterfinal defeat of Switzerland.",
+        "With this win, Argentina moves on to the World Cup final, where they are scheduled to face Spain. England, meanwhile, will shift their focus to the third-place match against France."
       ],
       "bullets": [
-        "Argentina's 2-1 victory moves them into the final against Spain.",
-        "England's loss relegated them to the third-place match against France.",
-        "Argentina maintained their winning momentum throughout the knockout phase to reach the final match."
+        "Argentina remains undefeated in the tournament, continuing a streak that began with a perfect group stage record.",
+        "England's semifinal exit concludes a tournament journey that saw them score in every knockout match they played.",
+        "Argentina will compete for the title against Spain in the upcoming final."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:13+00:00",
-      "sourceHash": "67274ec82e7ebe82",
+      "updatedAt": "2026-07-19T01:07:04+00:00",
+      "sourceHash": "42cca5978b029dd1",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"
     },
     "103": {
-      "headline": "England Edges France in High-Scoring Third Place Finale",
-      "summary": "Final: France 4, England 6. England secured a 6-4 victory over France in a thrilling Third Place match to close out their tournament campaign.",
+      "headline": "England Edges France in High-Scoring Third Place Match",
+      "summary": "Final: France 4, England 6. England secured a 6-4 victory over France in the Third Place match to conclude their tournament run.",
       "story": [
-        "In a high-octane encounter, England outlasted France 6-4 to claim third place in the tournament. The match served as a final opportunity for both sides to finish their runs on a high note following their respective semifinal defeats.",
-        "France entered the match after a 2-0 loss to Spain in the semifinals, while England arrived following a narrow 2-1 defeat to Argentina. Both teams played with attacking intent, resulting in a rare ten-goal spectacle that provided a dramatic conclusion to their time on the pitch."
+        "In a match defined by offensive intensity, England finished their World Cup campaign on a high note by defeating France 6-4. Both teams entered this fixture after narrow losses in their respective semifinals, but they traded goals throughout the contest to provide a dramatic end to their tournament.",
+        "For France, the result marks a disappointing conclusion to a strong run that saw them navigate through the group stage and reach the quarterfinals without conceding a goal until their semifinal exit. Despite their defensive pedigree throughout the knockout rounds, they were unable to contain the English attack in this final outing.",
+        "England's victory serves as a resilient response to their semifinal defeat against Argentina. By putting six goals past the French defense, they demonstrated the offensive capabilities that carried them through tight knockout encounters against Mexico and Norway earlier in the bracket.",
+        "While both nations will look back at their semifinal losses as missed opportunities for the trophy, this high-scoring encounter provided a final showcase of their attacking depth. The result confirms England's place on the podium as they wrap up their 2026 World Cup journey."
       ],
       "bullets": [
-        "England finished their tournament run with a 6-4 win over France.",
-        "The ten-goal match stands as one of the highest-scoring fixtures of the knockout stage."
+        "England finished the tournament with a 6-4 win over France.",
+        "The match featured 10 total goals, marking the most active offensive display for both sides in the knockout stage.",
+        "France ends their tournament after a consistent run that included a clean sheet in the Round of 32 and Quarterfinals."
       ],
       "sections": [],
-      "updatedAt": "2026-07-18T23:33:05+00:00",
-      "sourceHash": "ee57b218119a2d85",
+      "updatedAt": "2026-07-19T01:06:56+00:00",
+      "sourceHash": "04929c88b79a20d6",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
       "refreshReason": "source or prompt changed"

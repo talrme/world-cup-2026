@@ -1,5 +1,5 @@
 window.WORLD_CUP_DATA = {
-  "generatedAt": "2026-07-18",
+  "generatedAt": "2026-07-19",
   "sources": [
     {
       "label": "SBNation group schedule",
@@ -3434,7 +3434,21 @@ window.WORLD_CUP_DATA = {
       "bracketAwayTeam": "England",
       "awayRevealSource": "Loser Match 102",
       "homeScore": 4,
-      "awayScore": 6
+      "awayScore": 6,
+      "videos": {
+        "extended": {
+          "searchUrl": "https://www.youtube.com/@foxsports/videos",
+          "lastCheckedAt": "2026-07-19T01:06:25+00:00",
+          "title": "France vs England Highlights \ud83c\udf0e\ud83c\udfc6 2026 FIFA World Cup\u2122 | Bronze Final",
+          "url": "https://www.youtube.com/watch?v=L1SLA0ixeWo",
+          "channel": "FOX Sports",
+          "durationText": "25 min",
+          "channelVerified": true,
+          "spoilerSafeTitle": true,
+          "source": "foxsports-channel"
+        },
+        "lastCheckedAt": "2026-07-19T01:06:25+00:00"
+      }
     },
     {
       "id": 104,
