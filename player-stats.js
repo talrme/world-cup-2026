@@ -1,5 +1,5 @@
 window.WORLD_CUP_PLAYER_STATS = {
-  "generatedAt": "2026-07-19T18:36:10+00:00",
+  "generatedAt": "2026-07-19T19:50:06+00:00",
   "sources": [
     {
       "label": "Guardian Golden Boot",
@@ -33,9 +33,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 4,
       "points": 12,
       "matches": 8,
-      "minutes": 707,
+      "minutes": 750,
       "goalsPer90": 1.0,
-      "pointsPer90": 1.5
+      "pointsPer90": 1.4
     },
     {
       "rank": 3,
@@ -98,9 +98,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 6,
       "matches": 8,
-      "minutes": 595,
-      "goalsPer90": 0.8,
-      "pointsPer90": 0.9
+      "minutes": 638,
+      "goalsPer90": 0.7,
+      "pointsPer90": 0.8
     },
     {
       "rank": 8,
@@ -715,19 +715,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 55,
-      "player": "Pedro Porro",
-      "team": "Spain",
-      "position": "DEF",
-      "goals": 2,
-      "assists": 0,
-      "points": 2,
-      "matches": 8,
-      "minutes": 500,
-      "goalsPer90": 0.4,
-      "pointsPer90": 0.4
-    },
-    {
-      "rank": 56,
       "player": "Youri Tielemans",
       "team": "Belgium",
       "position": "MID",
@@ -740,6 +727,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.3
     },
     {
+      "rank": 56,
+      "player": "Pedro Porro",
+      "team": "Spain",
+      "position": "DEF",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "matches": 8,
+      "minutes": 542,
+      "goalsPer90": 0.3,
+      "pointsPer90": 0.3
+    },
+    {
       "rank": 57,
       "player": "Enzo Fernandez",
       "team": "Argentina",
@@ -748,7 +748,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 2,
       "matches": 8,
-      "minutes": 656,
+      "minutes": 699,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
     },
@@ -1118,19 +1118,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 86,
-      "player": "Alex Baena",
-      "team": "Spain",
-      "position": "MID",
-      "goals": 1,
-      "assists": 1,
-      "points": 2,
-      "matches": 8,
-      "minutes": 444,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.4
-    },
-    {
-      "rank": 87,
       "player": "Desire Doue",
       "team": "France",
       "position": "MID",
@@ -1143,6 +1130,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "pointsPer90": 0.4
     },
     {
+      "rank": 87,
+      "player": "Alex Baena",
+      "team": "Spain",
+      "position": "MID",
+      "goals": 1,
+      "assists": 1,
+      "points": 2,
+      "matches": 8,
+      "minutes": 487,
+      "goalsPer90": 0.2,
+      "pointsPer90": 0.4
+    },
+    {
       "rank": 88,
       "player": "Lisandro Martinez",
       "team": "Argentina",
@@ -1151,7 +1151,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 2,
       "matches": 8,
-      "minutes": 660,
+      "minutes": 702,
       "goalsPer90": 0.1,
       "pointsPer90": 0.3
     },
@@ -1164,7 +1164,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 1,
       "points": 2,
       "matches": 8,
-      "minutes": 724,
+      "minutes": 767,
       "goalsPer90": 0.1,
       "pointsPer90": 0.2
     },
@@ -1898,19 +1898,6 @@ window.WORLD_CUP_PLAYER_STATS = {
     },
     {
       "rank": 134,
-      "player": "Ruiz Fabian",
-      "team": "Spain",
-      "position": "MID",
-      "goals": 1,
-      "assists": 0,
-      "points": 1,
-      "matches": 8,
-      "minutes": 302,
-      "goalsPer90": 0.3,
-      "pointsPer90": 0.3
-    },
-    {
-      "rank": 134,
       "player": "Teboho Mokoena",
       "team": "South Africa",
       "position": "MID",
@@ -1997,6 +1984,19 @@ window.WORLD_CUP_PLAYER_STATS = {
       "points": 1,
       "matches": 3,
       "minutes": 321,
+      "goalsPer90": 0.3,
+      "pointsPer90": 0.3
+    },
+    {
+      "rank": 141,
+      "player": "Ruiz Fabian",
+      "team": "Spain",
+      "position": "MID",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "matches": 8,
+      "minutes": 344,
       "goalsPer90": 0.3,
       "pointsPer90": 0.3
     },
@@ -2256,7 +2256,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 1,
       "matches": 8,
-      "minutes": 552,
+      "minutes": 595,
       "goalsPer90": 0.2,
       "pointsPer90": 0.2
     },
@@ -2269,9 +2269,9 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 1,
       "matches": 8,
-      "minutes": 573,
-      "goalsPer90": 0.2,
-      "pointsPer90": 0.2
+      "minutes": 615,
+      "goalsPer90": 0.1,
+      "pointsPer90": 0.1
     },
     {
       "rank": 161,
@@ -2282,7 +2282,7 @@ window.WORLD_CUP_PLAYER_STATS = {
       "assists": 0,
       "points": 1,
       "matches": 8,
-      "minutes": 607,
+      "minutes": 650,
       "goalsPer90": 0.1,
       "pointsPer90": 0.1
     },

@@ -3458,7 +3458,7 @@
       "time": "15:00",
       "home": "Spain",
       "away": "Argentina",
-      "status": "scheduled",
+      "status": "live",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
@@ -3469,7 +3469,9 @@
       "homeRevealSource": "Winner Match 101",
       "awaySource": "Winner Match 102",
       "bracketAwayTeam": "Argentina",
-      "awayRevealSource": "Winner Match 102"
+      "awayRevealSource": "Winner Match 102",
+      "homeScore": 0,
+      "awayScore": 0
     }
   ],
   "scheduleUpdatedAt": "2026-06-28T13:03:11+00:00",
@@ -3636,6 +3638,6 @@
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-18T23:32:09+00:00",
+  "bracketUpdatedAt": "2026-07-19T19:50:06+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 }
