@@ -1,42 +1,9 @@
 {
-  "generatedAt": "2026-07-19T19:50:06+00:00",
+  "generatedAt": "2026-07-19T22:29:47+00:00",
   "source": {
     "label": "ESPN odds",
     "url": "https://www.espn.com/soccer/",
     "note": "Chance to advance is derived from ESPN-listed team moneylines. It is an estimate, not betting advice."
   },
-  "matches": {
-    "104": {
-      "market": "Chance to advance",
-      "calculation": "Derived from ESPN-listed team moneylines; the draw path is allocated proportionally to the two teams.",
-      "book": "DraftKings",
-      "sourceLabel": "ESPN",
-      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760517/",
-      "asOf": "2026-07-19T19:50:06+00:00",
-      "espnEventId": "760517",
-      "outcomes": [
-        {
-          "key": "home",
-          "label": "Spain",
-          "american": 125,
-          "rawProbability": 0.4444444444444444,
-          "advanceProbability": 0.6186440677966102
-        },
-        {
-          "key": "away",
-          "label": "Argentina",
-          "american": 265,
-          "rawProbability": 0.273972602739726,
-          "advanceProbability": 0.3813559322033898
-        }
-      ],
-      "draw": {
-        "label": "Draw after 90 minutes",
-        "american": 205,
-        "rawProbability": 0.32786885245901637
-      },
-      "rawTeamTotal": 0.7184170471841704,
-      "rawMarketTotal": 1.0462858996431867
-    }
-  }
+  "matches": {}
 }

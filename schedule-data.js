@@ -3458,7 +3458,7 @@ window.WORLD_CUP_DATA = {
       "time": "15:00",
       "home": "Spain",
       "away": "Argentina",
-      "status": "live",
+      "status": "completed",
       "network": "TBD",
       "venueId": "ny-nj",
       "offset": "-04:00",
@@ -3470,7 +3470,7 @@ window.WORLD_CUP_DATA = {
       "awaySource": "Winner Match 102",
       "bracketAwayTeam": "Argentina",
       "awayRevealSource": "Winner Match 102",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0
     }
   ],
@@ -3638,6 +3638,6 @@ window.WORLD_CUP_DATA = {
       "mapY": 35
     }
   ],
-  "bracketUpdatedAt": "2026-07-19T19:50:06+00:00",
+  "bracketUpdatedAt": "2026-07-19T22:29:46+00:00",
   "bracketSourceUrl": "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard"
 };
