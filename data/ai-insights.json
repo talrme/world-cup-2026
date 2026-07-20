@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T23:36:57+00:00",
+  "generatedAt": "2026-07-20T01:10:40+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2042,25 +2042,24 @@
       "refreshReason": "source or prompt changed"
     },
     "103": {
-      "headline": "England Edges France in High-Scoring Third Place Match",
-      "summary": "Final: France 4, England 6. England secured a 6-4 victory over France in the Third Place match to conclude their tournament run.",
+      "headline": "England claims third place in high-scoring thriller",
+      "summary": "Final: France 4, England 6. England defeated France 6-4 to secure third place in the tournament.",
       "story": [
-        "In a match defined by offensive intensity, England finished their World Cup campaign on a high note by defeating France 6-4. Both teams entered this fixture after narrow losses in their respective semifinals, but they traded goals throughout the contest to provide a dramatic end to their tournament.",
-        "For France, the result marks a disappointing conclusion to a strong run that saw them navigate through the group stage and reach the quarterfinals without conceding a goal until their semifinal exit. Despite their defensive pedigree throughout the knockout rounds, they were unable to contain the English attack in this final outing.",
-        "England's victory serves as a resilient response to their semifinal defeat against Argentina. By putting six goals past the French defense, they demonstrated the offensive capabilities that carried them through tight knockout encounters against Mexico and Norway earlier in the bracket.",
-        "While both nations will look back at their semifinal losses as missed opportunities for the trophy, this high-scoring encounter provided a final showcase of their attacking depth. The result confirms England's place on the podium as they wrap up their 2026 World Cup journey."
+        "In a high-scoring battle for the final spot on the podium, England overcame France with a 6-4 victory. Both teams entered this match following difficult semifinal losses, but they provided an offensive spectacle to conclude their tournament campaigns.",
+        "France struggled to maintain defensive stability throughout the match, ultimately conceding six goals despite their own potent attacking efforts. Having been shut out by Spain in their semifinal appearance, France found their rhythm again but could not keep pace with the English attack.",
+        "For England, this win serves as a positive conclusion to a resilient run that saw them navigate through tough knockout fixtures against Mexico and Norway before falling to Argentina in the semifinals. Securing third place marks a strong finish for the squad as they wrap up their time in the competition."
       ],
       "bullets": [
-        "England finished the tournament with a 6-4 win over France.",
-        "The match featured 10 total goals, marking the most active offensive display for both sides in the knockout stage.",
-        "France ends their tournament after a consistent run that included a clean sheet in the Round of 32 and Quarterfinals."
+        "England finished their tournament run with a 6-4 victory over France.",
+        "The match featured 10 total goals, marking one of the highest-scoring encounters of the knockout stage.",
+        "Both teams reached this fixture after losing their respective semifinal matches."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T01:06:56+00:00",
+      "updatedAt": "2026-07-20T01:10:40+00:00",
       "sourceHash": "04929c88b79a20d6",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     },
     "104": {
       "headline": "Spain Claims World Cup Title Over Argentina",
