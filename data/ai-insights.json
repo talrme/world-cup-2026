@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T01:10:40+00:00",
+  "generatedAt": "2026-07-21T00:15:30+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2062,24 +2062,24 @@
       "refreshReason": "past 5 days"
     },
     "104": {
-      "headline": "Spain Claims World Cup Title Over Argentina",
-      "summary": "Spain defeated Argentina 1-0 in the final to secure the World Cup championship.",
+      "headline": "Spain Claims World Cup Title with Victory Over Argentina",
+      "summary": "Spain secured the 2026 World Cup trophy with a hard-fought 1-0 victory over Argentina in the final.",
       "story": [
-        "Spain capped off a dominant tournament run by edging out Argentina 1-0 in the World Cup final. The victory marks the culmination of a campaign where Spain navigated a challenging path, including knockout wins over Portugal, Belgium, and France.",
-        "Argentina entered the final after a hard-fought semifinal victory against England, but they were unable to find the back of the net against a disciplined Spanish defense in the deciding match. The result brings a definitive end to the 2026 tournament, crowning Spain as the champions.",
-        "Throughout the knockout stages, both teams displayed resilience, with Argentina surviving high-scoring affairs against Cabo Verde and Egypt, while Spain maintained a more clinical approach to reach the final. This final match served as the ultimate test for two of the tournament's most consistent sides."
+        "Spain capped off a dominant tournament run by defeating Argentina 1-0 to become world champions. The victory in the final served as the culmination of a campaign that saw Spain navigate a challenging knockout bracket, including wins against Portugal, Belgium, and France.",
+        "Throughout the tournament, Spain demonstrated remarkable consistency, starting with an unbeaten group stage performance in Group H before finding their rhythm in the knockout rounds. Their defensive discipline, which held strong throughout the tournament, proved decisive in the final against a formidable Argentina side.",
+        "Argentina, meanwhile, had their own impressive path to the final, overcoming high-scoring encounters against Cabo Verde and Egypt, followed by a tactical win over England in the semifinals. Despite their offensive capabilities, they were unable to break through Spain's defense in the championship match.",
+        "This final match marks the conclusion of the 2026 tournament, cementing Spain's place at the top of the footballing world after a grueling competition that tested the endurance and tactical depth of both finalists."
       ],
       "bullets": [
-        "Spain finished the tournament unbeaten, having navigated the group stage and four knockout rounds.",
-        "The 1-0 result in the final provided the narrowest margin of victory for Spain in their entire knockout stage run.",
-        "Argentina concluded their tournament as runners-up after a successful campaign that included victories over Algeria, Austria, Jordan, and England."
+        "Spain finished the tournament with a perfect record in the knockout stages, conceding only two goals across their final four matches.",
+        "Argentina's journey to the final included several high-scoring thrillers, including back-to-back 3-2 wins in the Round of 32 and Round of 16."
       ],
       "sections": [],
-      "updatedAt": "2026-07-19T23:35:09+00:00",
+      "updatedAt": "2026-07-21T00:15:30+00:00",
       "sourceHash": "68d9ab1be033d7d9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
-      "refreshReason": "source or prompt changed"
+      "refreshReason": "past 5 days"
     }
   },
   "groups": {
