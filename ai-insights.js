@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-21T03:51:49+00:00",
+  "generatedAt": "2026-07-22T01:10:30+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2065,17 +2065,16 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "headline": "Spain Claims World Cup Title with Victory Over Argentina",
       "summary": "Spain secured the 2026 World Cup trophy with a hard-fought 1-0 victory over Argentina in the final.",
       "story": [
-        "Spain capped off a dominant tournament run by defeating Argentina 1-0 to become world champions. The victory in the final served as the culmination of a campaign that saw Spain navigate a challenging knockout bracket, including wins against Portugal, Belgium, and France.",
-        "Throughout the tournament, Spain demonstrated remarkable consistency, starting with an unbeaten group stage performance in Group H before finding their rhythm in the knockout rounds. Their defensive discipline, which held strong throughout the tournament, proved decisive in the final against a formidable Argentina side.",
-        "Argentina, meanwhile, had their own impressive path to the final, overcoming high-scoring encounters against Cabo Verde and Egypt, followed by a tactical win over England in the semifinals. Despite their offensive capabilities, they were unable to break through Spain's defense in the championship match.",
-        "This final match marks the conclusion of the 2026 tournament, cementing Spain's place at the top of the footballing world after a grueling competition that tested the endurance and tactical depth of both finalists."
+        "Spain capped off a remarkable tournament run by defeating Argentina 1-0 to become world champions. The result marked the culmination of a disciplined campaign that saw them navigate a challenging path through the knockout stages, including victories over Portugal, Belgium, and France.",
+        "For Argentina, the narrow defeat brought an end to a high-scoring tournament journey. After navigating through tight matches against Cabo Verde and Egypt in the early knockout rounds and overcoming England in the semifinals, they were unable to find a breakthrough against a resolute Spanish defense in the final.",
+        "Spain's path to the title was defined by consistency, having remained undefeated throughout the tournament. Their defensive stability proved to be the difference-maker in the final, successfully neutralizing an Argentine attack that had been potent in previous rounds."
       ],
       "bullets": [
-        "Spain finished the tournament with a perfect record in the knockout stages, conceding only two goals across their final four matches.",
-        "Argentina's journey to the final included several high-scoring thrillers, including back-to-back 3-2 wins in the Round of 32 and Round of 16."
+        "Spain finished the tournament as undefeated champions.",
+        "The final score of 1-0 secured Spain's status as the winner of the 2026 World Cup."
       ],
       "sections": [],
-      "updatedAt": "2026-07-21T00:15:30+00:00",
+      "updatedAt": "2026-07-22T01:10:30+00:00",
       "sourceHash": "68d9ab1be033d7d9",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
