@@ -1,5 +1,5 @@
 window.WORLD_CUP_AI_INSIGHTS = {
-  "generatedAt": "2026-07-22T01:10:30+00:00",
+  "generatedAt": "2026-07-22T04:38:25+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2042,20 +2042,20 @@ window.WORLD_CUP_AI_INSIGHTS = {
       "refreshReason": "source or prompt changed"
     },
     "103": {
-      "headline": "England Edges France in High-Scoring Third Place Finale",
+      "headline": "England Edges France in High-Scoring Third Place Match",
       "summary": "Final: France 4, England 6. England secured a 6-4 victory over France to claim third place in the tournament.",
       "story": [
-        "In a match that defied the usual defensive caution of a third-place playoff, England and France combined for ten goals in a wide-open contest. England ultimately emerged victorious, finding the back of the net six times to secure a high-scoring win.",
-        "Both teams arrived at this fixture following heartbreak in the semifinals, where France fell to Spain and England was narrowly defeated by Argentina. Despite the disappointment of missing the final, both squads played with an attacking intensity that provided a memorable conclusion to their tournament runs.",
-        "For England, the result caps off a resilient knockout campaign that saw them navigate past Congo DR, Mexico, and Norway before their semifinal exit. France, meanwhile, concludes their tournament after a strong showing that included clean-sheet victories over Sweden and Morocco earlier in the bracket.",
-        "While the top prize was just out of reach for both nations, this result allows England to finish their campaign on a high note. The ten-goal thriller serves as a final statement for both sides as they reflect on a tournament defined by their ability to reach the final four."
+        "In a match defined by offensive flair, England overcame France with a 6-4 result to finish their tournament campaign on a high note. Both sides entered this fixture following narrow losses in their respective semifinals, but they managed to put those disappointments behind them to produce an entertaining display of attacking football.",
+        "For England, the result capped off a resilient knockout run that saw them navigate tight victories against Congo DR, Mexico, and Norway before their semifinal exit. This win serves as a testament to their ability to bounce back quickly after a high-stakes defeat, ending their journey with one of the most prolific scoring performances of the knockout stage.",
+        "France, meanwhile, saw their strong tournament run conclude with a defensive lapse that proved costly against an aggressive English attack. Despite a successful group stage and steady progress through the knockout rounds, including a clean sheet against Morocco in the quarterfinals, they were unable to contain England in this final outing.",
+        "While both teams missed out on the ultimate prize, this third-place finish provides a definitive conclusion to their 2026 campaigns. England leaves with the bronze, while France reflects on a tournament where they proved to be among the most consistent performers until the final week."
       ],
       "bullets": [
-        "England finished their tournament run with a 6-4 win over France.",
-        "The match featured ten total goals, marking an unusually high-scoring affair for a third-place playoff."
+        "England finished their tournament with a 6-4 victory, marking the highest-scoring match of the final knockout rounds.",
+        "Both teams reached this fixture after losing their respective semifinal matches against Spain and Argentina."
       ],
       "sections": [],
-      "updatedAt": "2026-07-21T03:51:49+00:00",
+      "updatedAt": "2026-07-22T04:38:25+00:00",
       "sourceHash": "04929c88b79a20d6",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
