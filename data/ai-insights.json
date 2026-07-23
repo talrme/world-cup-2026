@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T04:40:52+00:00",
+  "generatedAt": "2026-07-23T07:24:31+00:00",
   "matches": {
     "12": {
       "headline": "Sweden Dominates Tunisia in Opening Group F Clash",
@@ -2043,19 +2043,17 @@
     },
     "103": {
       "headline": "England Edges France in High-Scoring Third Place Match",
-      "summary": "Final: France 4, England 6. England secured a 6-4 victory over France to claim third place in the tournament.",
+      "summary": "Final: France 4, England 6. England secured a 6-4 victory over France in the Third Place match to conclude their tournament campaign.",
       "story": [
-        "In a match defined by offensive flair, England overcame France with a 6-4 result to finish their tournament campaign on a high note. Both sides entered this fixture following narrow losses in their respective semifinals, but they managed to put those disappointments behind them to produce an entertaining display of attacking football.",
-        "For England, the result capped off a resilient knockout run that saw them navigate tight victories against Congo DR, Mexico, and Norway before their semifinal exit. This win serves as a testament to their ability to bounce back quickly after a high-stakes defeat, ending their journey with one of the most prolific scoring performances of the knockout stage.",
-        "France, meanwhile, saw their strong tournament run conclude with a defensive lapse that proved costly against an aggressive English attack. Despite a successful group stage and steady progress through the knockout rounds, including a clean sheet against Morocco in the quarterfinals, they were unable to contain England in this final outing.",
-        "While both teams missed out on the ultimate prize, this third-place finish provides a definitive conclusion to their 2026 campaigns. England leaves with the bronze, while France reflects on a tournament where they proved to be among the most consistent performers until the final week."
+        "England emerged victorious in a ten-goal thriller against France, claiming third place in the tournament. The match proved to be an offensive showcase, with both sides finding the back of the net repeatedly in an uncharacteristically open defensive display.",
+        "England finishes their campaign on a high note after a challenging path that included narrow victories over Mexico and Norway in the knockout stages. This win provides a positive conclusion to their tournament journey following their semifinal exit against Argentina."
       ],
       "bullets": [
-        "England finished their tournament with a 6-4 victory, marking the highest-scoring match of the final knockout rounds.",
-        "Both teams reached this fixture after losing their respective semifinal matches against Spain and Argentina."
+        "England secured third place with a 6-4 win over France.",
+        "The match featured a total of 10 goals, making it one of the highest-scoring encounters of the knockout stage."
       ],
       "sections": [],
-      "updatedAt": "2026-07-22T04:38:25+00:00",
+      "updatedAt": "2026-07-23T07:24:31+00:00",
       "sourceHash": "04929c88b79a20d6",
       "promptHash": "461e53f9b222efa8",
       "model": "gemini-3.1-flash-lite",
